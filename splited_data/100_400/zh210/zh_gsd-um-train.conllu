@@ -1,0 +1,327 @@
+# sent_id = train-s1891
+# text = 1923年10月29日，共和國政府宣布將這條街改名為獨立大街，以紀念土耳其獨立戰爭的勝利。
+# translit = 1923nián10yuè29rì,gònghéguózhèngfǔxuānbùjiāngzhètiáojiēgǎimíngwèidúlìdàjiē,yǐjìniàntǔ'ěrqídúlìzhànzhēngdeshènglì.
+1	1923	1923	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=1923|LTranslit=1923
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	10	10	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=10|LTranslit=10
+4	月	月	NOUN	NNB	N	3	clf	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	29	29	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=29|LTranslit=29
+6	日	日	NOUN	NNB	N	11	nmod:tmod	_	SpaceAfter=No|Translit=rì|LTranslit=rì
+7	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	共和	共和	NOUN	NN	N	9	compound	_	SpaceAfter=No|Translit=gònghé|LTranslit=gònghé
+9	國	國	PART	SFN	PART	10	nmod	_	SpaceAfter=No|Translit=guó|LTranslit=guó
+10	政府	政府	NOUN	NN	N	11	nsubj	_	SpaceAfter=No|Translit=zhèngfǔ|LTranslit=zhèngfǔ
+11	宣布	宣布	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=xuānbù|LTranslit=xuānbù
+12	將	將	ADP	BB	ADP	15	case	_	SpaceAfter=No|Translit=jiāng|LTranslit=jiāng
+13	這	這	DET	DT	DET	14	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
+14	條	條	NOUN	NNB	N	15	clf	_	SpaceAfter=No|Translit=tiáo|LTranslit=tiáo
+15	街	街	NOUN	NN	N	16	obl:patient	_	SpaceAfter=No|Translit=jiē|LTranslit=jiē
+16	改名	改名	VERB	VV	V	22	advcl	_	SpaceAfter=No|Translit=gǎimíng|LTranslit=gǎimíng
+17	為	為	VERB	VC	V	16	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+18	獨立	獨立	PROPN	NNP	PROPN	19	nmod	_	SpaceAfter=No|Translit=dúlì|LTranslit=dúlì
+19	大街	大街	NOUN	NN	N	16	obj	_	SpaceAfter=No|Translit=dàjiē|LTranslit=dàjiē
+20	，	，	PUNCT	,	_	16	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	以	以	SCONJ	RB	CONJ	22	mark	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+22	紀念	紀念	VERB	VV	V	11	xcomp	_	SpaceAfter=No|Translit=jìniàn|LTranslit=jìniàn
+23	土耳其	土耳其	PROPN	NNP	PROPN	25	nmod	_	SpaceAfter=No|Translit=tǔ'ěrqí|LTranslit=tǔ'ěrqí
+24	獨立	獨立	NOUN	NN	N	25	nmod	_	SpaceAfter=No|Translit=dúlì|LTranslit=dúlì
+25	戰爭	戰爭	NOUN	NN	N	27	nmod	_	SpaceAfter=No|Translit=zhànzhēng|LTranslit=zhànzhēng
+26	的	的	PART	DEC	PART;GEN	25	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+27	勝利	勝利	NOUN	NN	N	22	obj	_	SpaceAfter=No|Translit=shènglì|LTranslit=shènglì
+28	。	。	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1892
+# text = 在大街末端古老的卡拉柯伊區（Karaköy），可以看到世界上第二古老的地鐵站，一般簡稱為杜乃爾（隧道），1875年投入使用。
+# translit = zàidàjiēmòduāngǔlǎodekǎlā柯yīqū(Karaköy),kěyǐkàndàoshìjièshàngdì'èrgǔlǎodedetiězhàn,yībānjiǎnchēngwèidùnǎi'ěr(suìdào),1875niántóurùshǐyòng.
+1	在	在	VERB	VV	V	13	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	大街	大街	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=dàjiē|LTranslit=dàjiē
+3	末端	末端	NOUN	NN	N	7	nmod	_	SpaceAfter=No|Translit=mòduān|LTranslit=mòduān
+4	古老	古老	ADJ	JJ	ADJ	7	acl:relcl	_	SpaceAfter=No|Translit=gǔlǎo|LTranslit=gǔlǎo
+5	的	的	SCONJ	DEC	CONJ	4	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+6	卡拉柯伊	卡拉柯伊	PROPN	NNP	PROPN	7	compound	_	SpaceAfter=No|Translit=kǎlā柯yī|LTranslit=kǎlā柯yī
+7	區	區	PART	SFN	PART	1	obj	_	SpaceAfter=No|Translit=qū|LTranslit=qū
+8	（	（	PUNCT	(	_	9	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+9	Karaköy	Karaköy	X	FW	_	7	appos	_	SpaceAfter=No|Translit=Karaköy|LTranslit=Karaköy
+10	）	）	PUNCT	)	_	9	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+11	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+12	可以	可以	AUX	MD	V	13	aux	_	SpaceAfter=No|Translit=kěyǐ|LTranslit=kěyǐ
+13	看到	看到	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=kàndào|LTranslit=kàndào
+14	世界	世界	NOUN	NN	N	17	obl	_	SpaceAfter=No|Translit=shìjiè|LTranslit=shìjiè
+15	上	上	ADP	IN	ADP	14	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+16	第二	第二	NUM	CD	NUM	17	obl	_	SpaceAfter=No|Translit=dì'èr|LTranslit=dì'èr
+17	古老	古老	ADJ	JJ	ADJ	20	acl:relcl	_	SpaceAfter=No|Translit=gǔlǎo|LTranslit=gǔlǎo
+18	的	的	SCONJ	DEC	CONJ	17	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+19	地鐵	地鐵	NOUN	NN	N	20	compound	_	SpaceAfter=No|Translit=detiě|LTranslit=detiě
+20	站	站	PART	SFN	PART	32	nsubj	_	SpaceAfter=No|Translit=zhàn|LTranslit=zhàn
+21	，	，	PUNCT	,	_	20	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+22	一般	一般	ADV	RB	ADV	23	advmod	_	SpaceAfter=No|Translit=yībān|LTranslit=yībān
+23	簡稱	簡稱	VERB	VV	V	32	advcl	_	SpaceAfter=No|Translit=jiǎnchēng|LTranslit=jiǎnchēng
+24	為	為	VERB	VC	V	23	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+25	杜乃爾	杜乃爾	PROPN	NNP	PROPN	27	nmod	_	SpaceAfter=No|Translit=dùnǎi'ěr|LTranslit=dùnǎi'ěr
+26	（	（	PUNCT	(	_	25	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+27	隧道	隧道	NOUN	NN	N	23	obj	_	SpaceAfter=No|Translit=suìdào|LTranslit=suìdào
+28	）	）	PUNCT	)	_	27	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+29	，	，	PUNCT	,	_	23	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+30	1875	1875	NUM	CD	NUM	31	nummod	_	SpaceAfter=No|Translit=1875|LTranslit=1875
+31	年	年	NOUN	NNB	N	32	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+32	投入	投入	VERB	VV	V	13	ccomp	_	SpaceAfter=No|Translit=tóurù|LTranslit=tóurù
+33	使用	使用	NOUN	NN	N	32	obj	_	SpaceAfter=No|Translit=shǐyòng|LTranslit=shǐyòng
+34	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1893
+# text = 學校的社會經濟地位得分得自於從澳大利亞統計署人口普查中一個人口普查區中選擇的樣本，家庭收入和教育數據用於為每所學校評出社會經濟地位得分，然後據此核算資助額度。
+# translit = xuéxiàodeshèhuìjīngjìdewèidefēndezìyúcóng'àodàlìyàtǒngjìshǔrénkǒupǔcházhōngyīgèrénkǒupǔcháqūzhōngxuǎnzédeyàngběn,jiātíngshōurùhéjiàoyùshùjùyòngyúwèiměisuǒxuéxiàopíngchūshèhuìjīngjìdewèidefēn,ránhòujùcǐhésuànzīzhù'édù.
+1	學校	學校	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=xuéxiào|LTranslit=xuéxiào
+2	的	的	PART	DEC	PART;GEN	1	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+3	社會	社會	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=shèhuì|LTranslit=shèhuì
+4	經濟	經濟	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=jīngjì|LTranslit=jīngjì
+5	地位	地位	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=dewèi|LTranslit=dewèi
+6	得分	得分	NOUN	NN	N	7	nsubj	_	SpaceAfter=No|Translit=defēn|LTranslit=defēn
+7	得	得	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	自	自	VERB	VV	V	7	mark	_	SpaceAfter=No|Translit=zì|LTranslit=zì
+9	於	於	VERB	VV	V	7	mark	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+10	從	從	ADP	IN	ADP	21	case	_	SpaceAfter=No|Translit=cóng|LTranslit=cóng
+11	澳大利亞	澳大利亞	PROPN	NNP	PROPN	15	nmod	_	SpaceAfter=No|Translit='àodàlìyà|LTranslit='àodàlìyà
+12	統計	統計	VERB	VV	V	13	compound	_	SpaceAfter=No|Translit=tǒngjì|LTranslit=tǒngjì
+13	署	署	PART	SFN	PART	15	nmod	_	SpaceAfter=No|Translit=shǔ|LTranslit=shǔ
+14	人口	人口	NOUN	NN	N	15	nmod	_	SpaceAfter=No|Translit=rénkǒu|LTranslit=rénkǒu
+15	普查	普查	NOUN	NN	N	21	nmod	_	SpaceAfter=No|Translit=pǔchá|LTranslit=pǔchá
+16	中	中	ADP	IN	ADP	15	case	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+17	一	一	NUM	CD	NUM	18	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+18	個	個	NOUN	NNB	N	21	nmod	_	SpaceAfter=No|Translit=gè|LTranslit=gè
+19	人口	人口	NOUN	NN	N	21	nmod	_	SpaceAfter=No|Translit=rénkǒu|LTranslit=rénkǒu
+20	普查	普查	NOUN	NN	N	21	compound	_	SpaceAfter=No|Translit=pǔchá|LTranslit=pǔchá
+21	區	區	PART	SFN	PART	23	obl	_	SpaceAfter=No|Translit=qū|LTranslit=qū
+22	中	中	ADP	IN	ADP	21	case	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+23	選擇	選擇	VERB	VV	V	25	acl:relcl	_	SpaceAfter=No|Translit=xuǎnzé|LTranslit=xuǎnzé
+24	的	的	SCONJ	DEC	CONJ	23	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+25	樣本	樣本	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=yàngběn|LTranslit=yàngběn
+26	，	，	PUNCT	,	_	32	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+27	家庭	家庭	NOUN	NN	N	28	nmod	_	SpaceAfter=No|Translit=jiātíng|LTranslit=jiātíng
+28	收入	收入	NOUN	NN	N	32	nsubj	_	SpaceAfter=No|Translit=shōurù|LTranslit=shōurù
+29	和	和	CCONJ	CC	CONJ	31	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+30	教育	教育	NOUN	NN	N	31	nmod	_	SpaceAfter=No|Translit=jiàoyù|LTranslit=jiàoyù
+31	數據	數據	NOUN	NN	N	28	conj	_	SpaceAfter=No|Translit=shùjù|LTranslit=shùjù
+32	用	用	VERB	VV	V	7	parataxis	_	SpaceAfter=No|Translit=yòng|LTranslit=yòng
+33	於	於	VERB	VV	V	32	mark	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+34	為	為	ADP	IN	ADP	36	case	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+35	每所	每所	DET	DT	DET	36	det	_	SpaceAfter=No|Translit=měisuǒ|LTranslit=měisuǒ
+36	學校	學校	NOUN	NN	N	37	obl	_	SpaceAfter=No|Translit=xuéxiào|LTranslit=xuéxiào
+37	評出	評出	VERB	VV	V	32	xcomp	_	SpaceAfter=No|Translit=píngchū|LTranslit=píngchū
+38	社會	社會	NOUN	NN	N	41	nmod	_	SpaceAfter=No|Translit=shèhuì|LTranslit=shèhuì
+39	經濟	經濟	NOUN	NN	N	41	nmod	_	SpaceAfter=No|Translit=jīngjì|LTranslit=jīngjì
+40	地位	地位	NOUN	NN	N	41	nmod	_	SpaceAfter=No|Translit=dewèi|LTranslit=dewèi
+41	得分	得分	NOUN	NN	N	37	obj	_	SpaceAfter=No|Translit=defēn|LTranslit=defēn
+42	，	，	PUNCT	,	_	45	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+43	然後	然後	ADV	RB	ADV	45	advmod	_	SpaceAfter=No|Translit=ránhòu|LTranslit=ránhòu
+44	據此	據此	ADV	RB	ADV	45	advmod	_	SpaceAfter=No|Translit=jùcǐ|LTranslit=jùcǐ
+45	核算	核算	VERB	VV	V	7	parataxis	_	SpaceAfter=No|Translit=hésuàn|LTranslit=hésuàn
+46	資助	資助	NOUN	NN	N	47	nmod	_	SpaceAfter=No|Translit=zīzhù|LTranslit=zīzhù
+47	額度	額度	NOUN	NN	N	45	obj	_	SpaceAfter=No|Translit='édù|LTranslit='édù
+48	。	。	PUNCT	.	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1894
+# text = 默多克性情孤僻，偶爾會大發脾氣，曾把麥克佛森的狗扔出窗外。
+# translit = mòduōkèxìngqínggū僻,'ǒu'ěrhuìdàfāpíqì,céngbǎmàikèfúsēndegǒurēngchūchuāngwài.
+1	默多克	默多克	PROPN	NNP	PROPN	15	nsubj	_	SpaceAfter=No|Translit=mòduōkè|LTranslit=mòduōkè
+2	性情	性情	NOUN	NN	N	3	obl	_	SpaceAfter=No|Translit=xìngqíng|LTranslit=xìngqíng
+3	孤僻	孤僻	ADJ	JJ	ADJ	15	advcl	_	SpaceAfter=No|Translit=gū僻|LTranslit=gū僻
+4	，	，	PUNCT	,	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	偶爾	偶爾	ADV	RB	ADV	7	advmod	_	SpaceAfter=No|Translit='ǒu'ěr|LTranslit='ǒu'ěr
+6	會	會	AUX	MD	V	7	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+7	大發	大發	VERB	VV	V	15	advcl	_	SpaceAfter=No|Translit=dàfā|LTranslit=dàfā
+8	脾氣	脾氣	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=píqì|LTranslit=píqì
+9	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	曾	曾	ADV	RB	ADV	15	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+11	把	把	ADP	BB	ADP	14	case	_	SpaceAfter=No|Translit=bǎ|LTranslit=bǎ
+12	麥克佛森	麥克佛森	PROPN	NNP	PROPN	14	nmod	_	SpaceAfter=No|Translit=màikèfúsēn|LTranslit=màikèfúsēn
+13	的	的	PART	DEC	PART;GEN	12	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+14	狗	狗	NOUN	NN	N	15	obl:patient	_	SpaceAfter=No|Translit=gǒu|LTranslit=gǒu
+15	扔出	扔出	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=rēngchū|LTranslit=rēngchū
+16	窗外	窗外	NOUN	NN	N	15	iobj	_	SpaceAfter=No|Translit=chuāngwài|LTranslit=chuāngwài
+17	。	。	PUNCT	.	_	15	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1895
+# text = 在北美灰狼會吃多種不同的農作物、蔬菜和人類畜養的動物。
+# translit = zàiběiměihuīlánghuìchīduōzhǒngbùtóngdenóngzuòwù,shūcàihérénlèichùyǎngdedòngwù.
+1	在	在	VERB	VV	V	6	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	北	北	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=běi|LTranslit=běi
+3	美	美	PROPN	NNP	PROPN	1	obj	_	SpaceAfter=No|Translit=měi|LTranslit=měi
+4	灰狼	灰狼	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=huīláng|LTranslit=huīláng
+5	會	會	AUX	MD	V	6	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+6	吃	吃	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chī|LTranslit=chī
+7	多	多	NUM	CD	NUM	12	nummod	_	SpaceAfter=No|Translit=duō|LTranslit=duō
+8	種	種	NOUN	NNB	N	7	clf	_	SpaceAfter=No|Translit=zhǒng|LTranslit=zhǒng
+9	不同	不同	ADJ	JJ	ADJ	12	amod	_	SpaceAfter=No|Translit=bùtóng|LTranslit=bùtóng
+10	的	的	SCONJ	DEC	CONJ	9	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+11	農	農	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=nóng|LTranslit=nóng
+12	作物	作物	NOUN	NN	N	6	obj	_	SpaceAfter=No|Translit=zuòwù|LTranslit=zuòwù
+13	、	、	PUNCT	EC	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	蔬菜	蔬菜	NOUN	NN	N	12	conj	_	SpaceAfter=No|Translit=shūcài|LTranslit=shūcài
+15	和	和	CCONJ	CC	CONJ	19	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+16	人類	人類	NOUN	NN	N	17	nsubj	_	SpaceAfter=No|Translit=rénlèi|LTranslit=rénlèi
+17	畜養	畜養	VERB	VV	V	19	acl:relcl	_	SpaceAfter=No|Translit=chùyǎng|LTranslit=chùyǎng
+18	的	的	SCONJ	DEC	CONJ	17	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+19	動物	動物	NOUN	NN	N	12	conj	_	SpaceAfter=No|Translit=dòngwù|LTranslit=dòngwù
+20	。	。	PUNCT	.	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1896
+# text = 在中世紀的歐洲，貓曾被認為是女巫和魔鬼的夥伴而廣泛捕殺，後雖因貓能捕鼠的作用而被豢養、馴化，但時至今日，還有在街道上遇見黑貓是不吉利的迷信；但在中國古代卻有「玄貓辟邪」的說法。
+# translit = zàizhōngshìjìde'ōuzhōu,māocéngbèirènwèishìnǚ巫hémóguǐde夥bàn'érguǎngfànbǔshā,hòusuīyīnmāonéngbǔshǔdezuòyòng'érbèi豢yǎng,馴huà,dànshízhìjīnrì,háiyǒuzàijiēdàoshàngyùjiànhēimāoshìbùjílìdemíxìn;dànzàizhōngguógǔdàiquèyǒu‘玄māopì邪’deshuōfǎ.
+1	在	在	VERB	VV	V	19	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	中	中	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+3	世紀	世紀	NOUN	NNB	N	5	nmod	_	SpaceAfter=No|Translit=shìjì|LTranslit=shìjì
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	歐洲	歐洲	PROPN	NNP	PROPN	1	obj	_	SpaceAfter=No|Translit='ōuzhōu|LTranslit='ōuzhōu
+6	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	貓	貓	NOUN	NN	N	19	nsubj	_	SpaceAfter=No|Translit=māo|LTranslit=māo
+8	曾	曾	ADV	RB	ADV	19	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+9	被	被	AUX	BB	PASS;V	19	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+10	認為	為	VERB	VV	V	19	advcl	_	SpaceAfter=No|Translit=rènwèi|LTranslit=wèi
+11	是	是	AUX	VC	V	16	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+12	女巫	女巫	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=nǚ巫|LTranslit=nǚ巫
+13	和	和	CCONJ	CC	CONJ	14	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+14	魔鬼	魔鬼	NOUN	NN	N	12	conj	_	SpaceAfter=No|Translit=móguǐ|LTranslit=móguǐ
+15	的	的	PART	DEC	PART;GEN	12	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+16	夥伴	夥伴	NOUN	NN	N	10	xcomp	_	SpaceAfter=No|Translit=夥bàn|LTranslit=夥bàn
+17	而	而	SCONJ	RB	CONJ	19	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+18	廣泛	廣泛	ADV	RB	ADV	19	advmod	_	SpaceAfter=No|Translit=guǎngfàn|LTranslit=guǎngfàn
+19	捕殺	捕殺	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=bǔshā|LTranslit=bǔshā
+20	，	，	PUNCT	,	_	58	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	後	後	ADV	RB	ADV	41	advmod	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+22	雖	雖	ADP	IN	ADP	21	case	_	SpaceAfter=No|Translit=suī|LTranslit=suī
+23	因	因	ADP	IN	ADP	28	case	_	SpaceAfter=No|Translit=yīn|LTranslit=yīn
+24	貓	貓	NOUN	NN	N	28	nmod	_	SpaceAfter=No|Translit=māo|LTranslit=māo
+25	能	能	AUX	MD	V	26	aux	_	SpaceAfter=No|Translit=néng|LTranslit=néng
+26	捕鼠	捕鼠	VERB	VV	V	28	acl:relcl	_	SpaceAfter=No|Translit=bǔshǔ|LTranslit=bǔshǔ
+27	的	的	SCONJ	DEC	CONJ	26	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+28	作用	作用	NOUN	NN	N	31	obl	_	SpaceAfter=No|Translit=zuòyòng|LTranslit=zuòyòng
+29	而	而	SCONJ	RB	CONJ	31	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+30	被	被	AUX	BB	PASS;V	31	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+31	豢養	豢養	VERB	VV	V	21	xcomp	_	SpaceAfter=No|Translit=豢yǎng|LTranslit=豢yǎng
+32	、	、	PUNCT	EC	_	33	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+33	馴化	馴化	VERB	VV	V	31	conj	_	SpaceAfter=No|Translit=馴huà|LTranslit=馴huà
+34	，	，	PUNCT	,	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+35	但	但	SCONJ	RB	CONJ	41	mark	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
+36	時	時	NOUN	NN	N	38	obl	_	SpaceAfter=No|Translit=shí|LTranslit=shí
+37	至	至	ADP	IN	ADP	38	case	_	SpaceAfter=No|Translit=zhì|LTranslit=zhì
+38	今日	今日	NOUN	NN	N	41	obl	_	SpaceAfter=No|Translit=jīnrì|LTranslit=jīnrì
+39	，	，	PUNCT	,	_	38	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+40	還	還	SCONJ	RB	CONJ	41	mark	_	SpaceAfter=No|Translit=hái|LTranslit=hái
+41	有	有	VERB	VV	V	58	advcl	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+42	在	在	VERB	VV	V	45	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+43	街道	街道	NOUN	NN	N	42	obj	_	SpaceAfter=No|Translit=jiēdào|LTranslit=jiēdào
+44	上	上	NOUN	NN	N	43	acl	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+45	遇見	遇見	VERB	VV	V	49	csubj	_	SpaceAfter=No|Translit=yùjiàn|LTranslit=yùjiàn
+46	黑貓	黑貓	NOUN	NN	N	45	obj	_	SpaceAfter=No|Translit=hēimāo|LTranslit=hēimāo
+47	是	是	AUX	VC	V	49	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+48	不	不	ADV	RB	NEG;ADV	49	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+49	吉利	吉利	ADJ	JJ	ADJ	51	acl:relcl	_	SpaceAfter=No|Translit=jílì|LTranslit=jílì
+50	的	的	SCONJ	DEC	CONJ	49	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+51	迷信	迷信	NOUN	NN	N	41	obj	_	SpaceAfter=No|Translit=míxìn|LTranslit=míxìn
+52	；	；	PUNCT	:	_	41	punct	_	SpaceAfter=No|Translit=;|LTranslit=;
+53	但	但	SCONJ	RB	CONJ	58	mark	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
+54	在	在	ADP	IN	ADP	56	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+55	中國	中國	PROPN	NNP	PROPN	56	nmod	_	SpaceAfter=No|Translit=zhōngguó|LTranslit=zhōngguó
+56	古代	古代	NOUN	NN	N	58	obl	_	SpaceAfter=No|Translit=gǔdài|LTranslit=gǔdài
+57	卻	卻	SCONJ	RB	CONJ	58	mark	_	SpaceAfter=No|Translit=què|LTranslit=què
+58	有	有	VERB	VV	V	19	parataxis	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+59	「	「	PUNCT	``	_	61	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+60	玄貓	玄貓	NOUN	NN	N	61	nsubj	_	SpaceAfter=No|Translit=玄māo|LTranslit=玄māo
+61	辟邪	辟邪	VERB	VV	V	64	acl:relcl	_	SpaceAfter=No|Translit=pì邪|LTranslit=pì邪
+62	」	」	PUNCT	''	_	61	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+63	的	的	SCONJ	DEC	CONJ	61	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+64	說法	說法	NOUN	NN	N	58	obj	_	SpaceAfter=No|Translit=shuōfǎ|LTranslit=shuōfǎ
+65	。	。	PUNCT	.	_	19	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1897
+# text = 幼貓睡眠時間極長，如果鳴叫，通常因為太冷、身體不舒服或肚餓。
+# translit = yòumāoshuìmiánshíjiānjízhǎng,rúguǒmíngjiào,tōngchángyīnwèitàilěng,shēntǐbùshūfúhuòdù'è.
+1	幼貓	幼貓	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=yòumāo|LTranslit=yòumāo
+2	睡眠	睡眠	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=shuìmián|LTranslit=shuìmián
+3	時間	時間	NOUN	NN	N	4	nsubj	_	SpaceAfter=No|Translit=shíjiān|LTranslit=shíjiān
+4	極長	極長	ADJ	JJ	ADJ	0	root	_	SpaceAfter=No|Translit=jízhǎng|LTranslit=jízhǎng
+5	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	如果	如果	ADP	IN	ADP	7	case	_	SpaceAfter=No|Translit=rúguǒ|LTranslit=rúguǒ
+7	鳴叫	鳴叫	VERB	VV	V	4	xcomp	_	SpaceAfter=No|Translit=míngjiào|LTranslit=míngjiào
+8	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+9	通常	通常	ADV	RB	ADV	4	advmod	_	SpaceAfter=No|Translit=tōngcháng|LTranslit=tōngcháng
+10	因為	因為	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=yīnwèi|LTranslit=yīnwèi
+11	太冷	太冷	ADJ	JJ	ADJ	9	xcomp	_	SpaceAfter=No|Translit=tàilěng|LTranslit=tàilěng
+12	、	、	PUNCT	EC	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	身體	身體	NOUN	NN	N	15	nsubj	_	SpaceAfter=No|Translit=shēntǐ|LTranslit=shēntǐ
+14	不	不	ADV	RB	NEG;ADV	15	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+15	舒服	舒服	ADJ	JJ	ADJ	11	conj	_	SpaceAfter=No|Translit=shūfú|LTranslit=shūfú
+16	或	或	CCONJ	CC	CONJ	17	cc	_	SpaceAfter=No|Translit=huò|LTranslit=huò
+17	肚餓	肚餓	ADJ	JJ	ADJ	11	conj	_	SpaceAfter=No|Translit=dù'è|LTranslit=dù'è
+18	。	。	PUNCT	.	_	9	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1898
+# text = 熊或狗等肉食動物常會補充如水果、根莖、蜂蜜等食物，但貓則只吃肉。
+# translit = xiónghuògǒuděngròushídòngwùchánghuìbǔchōngrúshuǐguǒ,gēnjīng,fēngmìděngshíwù,dànmāozézhǐchīròu.
+1	熊	熊	NOUN	NN	N	9	nsubj	_	SpaceAfter=No|Translit=xióng|LTranslit=xióng
+2	或	或	CCONJ	CC	CONJ	3	cc	_	SpaceAfter=No|Translit=huò|LTranslit=huò
+3	狗	狗	NOUN	NN	N	1	conj	_	SpaceAfter=No|Translit=gǒu|LTranslit=gǒu
+4	等	等	NOUN	NN	N	1	acl	_	SpaceAfter=No|Translit=děng|LTranslit=děng
+5	肉食	肉食	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=ròushí|LTranslit=ròushí
+6	動物	動物	NOUN	NN	N	1	appos	_	SpaceAfter=No|Translit=dòngwù|LTranslit=dòngwù
+7	常	常	ADV	RB	ADV	9	advmod	_	SpaceAfter=No|Translit=cháng|LTranslit=cháng
+8	會	會	AUX	MD	V	9	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+9	補充	補充	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=bǔchōng|LTranslit=bǔchōng
+10	如	如	VERB	VV	V	17	amod	_	SpaceAfter=No|Translit=rú|LTranslit=rú
+11	水果	水果	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=shuǐguǒ|LTranslit=shuǐguǒ
+12	、	、	PUNCT	EC	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	根莖	根莖	NOUN	NN	N	11	conj	_	SpaceAfter=No|Translit=gēnjīng|LTranslit=gēnjīng
+14	、	、	PUNCT	EC	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	蜂蜜	蜂蜜	NOUN	NN	N	11	conj	_	SpaceAfter=No|Translit=fēngmì|LTranslit=fēngmì
+16	等	等	NOUN	NN	N	11	acl	_	SpaceAfter=No|Translit=děng|LTranslit=děng
+17	食物	食物	NOUN	NN	N	9	obj	_	SpaceAfter=No|Translit=shíwù|LTranslit=shíwù
+18	，	，	PUNCT	,	_	23	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	但	但	SCONJ	RB	CONJ	23	mark	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
+20	貓	貓	NOUN	NN	N	23	nsubj	_	SpaceAfter=No|Translit=māo|LTranslit=māo
+21	則	則	SCONJ	RB	CONJ	23	mark	_	SpaceAfter=No|Translit=zé|LTranslit=zé
+22	只	只	ADV	RB	ADV	23	advmod	_	SpaceAfter=No|Translit=zhǐ|LTranslit=zhǐ
+23	吃肉	吃肉	VERB	VV	V	9	parataxis	_	SpaceAfter=No|Translit=chīròu|LTranslit=chīròu
+24	。	。	PUNCT	.	_	9	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1899
+# text = 貓出生滿六個月即為成貓，大部分的成貓很懶，但在清晨及黃昏時，精力特別旺盛，此時的貓可以跑、跳和狩獵。
+# translit = māochūshēngmǎnliùgèyuèjíwèichéngmāo,dàbùfēndechéngmāohěnlǎn,dànzàiqīngchenjíhuánghūnshí,jīnglìtèbiéwàngshèng,cǐshídemāokěyǐpǎo,tiàohé狩liè.
+1	貓	貓	NOUN	NN	N	9	nsubj	_	SpaceAfter=No|Translit=māo|LTranslit=māo
+2	出生	出生	VERB	VV	V	3	advcl	_	SpaceAfter=No|Translit=chūshēng|LTranslit=chūshēng
+3	滿	滿	VERB	VV	V	9	acl	_	SpaceAfter=No|Translit=mǎn|LTranslit=mǎn
+4	六	六	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=liù|LTranslit=liù
+5	個	個	NOUN	NNB	N	4	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
+6	月	月	NOUN	NN	N	3	obj	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+7	即	即	SCONJ	RB	CONJ	9	mark	_	SpaceAfter=No|Translit=jí|LTranslit=jí
+8	為	為	AUX	VC	V	9	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+9	成貓	成貓	NOUN	NN	N	0	root	_	SpaceAfter=No|Translit=chéngmāo|LTranslit=chéngmāo
+10	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	大	大	PART	PFA	PART	12	case	_	SpaceAfter=No|Translit=dà|LTranslit=dà
+12	部分	部分	NOUN	NN	N	14	nmod	_	SpaceAfter=No|Translit=bùfēn|LTranslit=bùfēn
+13	的	的	PART	DEC	PART;GEN	12	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+14	成貓	成貓	NOUN	NN	N	15	nsubj	_	SpaceAfter=No|Translit=chéngmāo|LTranslit=chéngmāo
+15	很懶	很懶	ADJ	JJ	ADJ	9	parataxis	_	SpaceAfter=No|Translit=hěnlǎn|LTranslit=hěnlǎn
+16	，	，	PUNCT	,	_	26	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	但	但	SCONJ	RB	CONJ	26	mark	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
+18	在	在	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+19	清晨	清晨	NOUN	NN	N	26	nmod	_	SpaceAfter=No|Translit=qīngchen|LTranslit=qīngchen
+20	及	及	CCONJ	CC	CONJ	21	cc	_	SpaceAfter=No|Translit=jí|LTranslit=jí
+21	黃昏	黃昏	NOUN	NN	N	19	conj	_	SpaceAfter=No|Translit=huánghūn|LTranslit=huánghūn
+22	時	時	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=shí|LTranslit=shí
+23	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+24	精力	精力	NOUN	NN	N	26	nsubj	_	SpaceAfter=No|Translit=jīnglì|LTranslit=jīnglì
+25	特別	特別	ADV	RB	ADV	26	advmod	_	SpaceAfter=No|Translit=tèbié|LTranslit=tèbié
+26	旺盛	旺盛	ADJ	JJ	ADJ	9	parataxis	_	SpaceAfter=No|Translit=wàngshèng|LTranslit=wàngshèng
+27	，	，	PUNCT	,	_	32	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+28	此時	此時	NOUN	NN	N	30	nmod	_	SpaceAfter=No|Translit=cǐshí|LTranslit=cǐshí
+29	的	的	PART	DEC	PART;GEN	28	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+30	貓	貓	NOUN	NN	N	32	nsubj	_	SpaceAfter=No|Translit=māo|LTranslit=māo
+31	可以	可以	AUX	MD	V	32	aux	_	SpaceAfter=No|Translit=kěyǐ|LTranslit=kěyǐ
+32	跑	跑	VERB	VV	V	9	parataxis	_	SpaceAfter=No|Translit=pǎo|LTranslit=pǎo
+33	、	、	PUNCT	EC	_	34	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+34	跳	跳	VERB	VV	V	32	conj	_	SpaceAfter=No|Translit=tiào|LTranslit=tiào
+35	和	和	CCONJ	CC	CONJ	36	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+36	狩獵	狩獵	VERB	VV	V	32	conj	_	SpaceAfter=No|Translit=狩liè|LTranslit=狩liè
+37	。	。	PUNCT	.	_	9	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

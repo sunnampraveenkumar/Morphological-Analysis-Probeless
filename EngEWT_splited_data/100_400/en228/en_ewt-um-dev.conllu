@@ -1,0 +1,50 @@
+# sent_id = answers-20070723111604AAzUvhb_ans-0003
+# newpar id = answers-20070723111604AAzUvhb_ans-p0002
+# text = Well you say Miramar I say Piramar
+1	Well	well	INTJ	UH	INTJ	3	discourse	3:discourse	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	say	say	VERB	VBP	FIN;PRS;2;V;IND;SG	0	root	0:root	_
+4	Miramar	Miramar	PROPN	NNP	SG;PROPN	3	obj	3:obj	_
+5	I	I	PRON	PRP	PRO;1;NOM;SG	6	nsubj	6:nsubj	_
+6	say	say	VERB	VBP	FIN;PRS;1;V;IND;SG	3	conj	3:conj	_
+7	Piramar	Piramar	PROPN	NNP	SG;PROPN	6	obj	6:obj	_
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0004
+# text = MIRAMAR
+1	MIRAMAR	MIRAMAR	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0005
+# text = PIRAMAR
+1	PIRAMAR	PIRAMAR	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0006
+# text = Lets call the whole thing off.
+1-2	Lets	_	_	_	_	_	_	_	_
+1	Let	let	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	s	we	PRON	PRP	PRO;ACC;PL;1	1	obj	1:obj|3:nsubj:xsubj	CorrectForm='s
+3	call	call	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+4	the	the	DET	DT	DET;DEF	6	det	6:det	_
+5	whole	whole	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	thing	thing	NOUN	NN	SG;N	3	obj	3:obj	_
+7	off	off	ADP	RP	ADP	3	compound:prt	3:compound:prt	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20070723111604AAzUvhb_ans-0007
+# newpar id = answers-20070723111604AAzUvhb_ans-p0003
+# text = Miramir is for real, but there are alot that make you wonder.
+1	Miramir	Miramir	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	for	for	ADP	IN	ADP	4	case	4:case	_
+4	real	real	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	but	but	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	there	there	PRON	EX	PRO	8	expl	8:expl	_
+8	are	be	VERB	VBP	FIN;PRS;3;PL;V;IND	4	conj	4:conj:but	_
+9	a	a	DET	DT	DET;INDF	10	det	10:det	CorrectSpaceAfter=Yes|SpaceAfter=No
+10	lot	lot	NOUN	NN	SG;N	8	nsubj	8:nsubj|12:nsubj	_
+11	that	that	PRON	WDT	PRO	12	nsubj	10:ref	_
+12	make	make	VERB	VBP	FIN;PRS;3;PL;V;IND	10	acl:relcl	10:acl:relcl	Cxn=rc-that-nsubj
+13	you	you	PRON	PRP	2;PRO;ACC	12	obj	12:obj|14:nsubj:xsubj	_
+14	wonder	wonder	VERB	VB	NFIN;V	12	xcomp	12:xcomp	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+

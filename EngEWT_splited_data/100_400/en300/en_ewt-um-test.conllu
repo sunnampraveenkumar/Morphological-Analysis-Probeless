@@ -1,0 +1,86 @@
+# sent_id = answers-20111108074455AAiMwmn_ans-0013
+# text = Call Canon
+1	Call	call	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	Canon	Canon	PROPN	NNP	SG;PROPN	1	obj	1:obj	_
+
+# newdoc id = answers-20111108102205AArwNzY_ans
+# sent_id = answers-20111108102205AArwNzY_ans-0001
+# newpar id = answers-20111108102205AArwNzY_ans-p0001
+# text = Cheapest airline ticket from Raleigh to Philippines?
+1	Cheapest	cheap	ADJ	JJS	RL;ADJ	3	amod	3:amod	_
+2	airline	airline	NOUN	NN	SG;N	3	compound	3:compound	_
+3	ticket	ticket	NOUN	NN	SG;N	0	root	0:root	_
+4	from	from	ADP	IN	ADP	5	case	5:case	_
+5	Raleigh	Raleigh	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:from	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	Philippines	Philippines	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:to	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0002
+# newpar id = answers-20111108102205AArwNzY_ans-p0002
+# text = I'm going on a vacation to the Philippines in May 2012, and I'm starting from Raleigh, NC (RDU Airport).
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	on	on	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	INDF;DET	6	det	6:det	_
+6	vacation	vacation	NOUN	NN	SG;N	3	obl	3:obl:on	_
+7	to	to	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	Philippines	Philippines	PROPN	NNPS	PROPN	6	nmod	6:nmod:to	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	May	May	PROPN	NNP	SG;PROPN	3	obl	3:obl:in	_
+12	2012	2012	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	17:punct	_
+14	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+15-16	I'm	_	_	_	_	_	_	_	_
+15	I	I	PRON	PRP	PRO;1;NOM;SG	17	nsubj	17:nsubj	_
+16	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	17	aux	17:aux	_
+17	starting	start	VERB	VBG	PRS;V;V.PTCP	3	conj	3:conj:and	_
+18	from	from	ADP	IN	ADP	19	case	19:case	_
+19	Raleigh	Raleigh	PROPN	NNP	SG;PROPN	17	obl	17:obl:from	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	NC	NC	PROPN	NNP	SG;PROPN	19	appos	19:appos	_
+22	(	(	PUNCT	-LRB-	_	24	punct	24:punct	SpaceAfter=No
+23	RDU	RDU	PROPN	NNP	SG;PROPN	24	compound	24:compound	_
+24	Airport	Airport	PROPN	NNP	SG;PROPN	19	appos	19:appos	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	punct	24:punct	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0003
+# text = Which airlines should I look into and when should I buy my ticket?
+1	Which	which	DET	WDT	DET	2	det	2:det	ManuallyChecked=PronType
+2	airlines	airline	NOUN	NNS	PL;N	5	obl	5:obl:into	_
+3	should	should	AUX	MD	V;FIN	5	aux	5:aux	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+5	look	look	VERB	VB	NFIN;V	0	root	0:root	_
+6	into	into	ADP	IN	ADP	2	case	2:case	_
+7	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	when	when	ADV	WRB	ADV	11	advmod	11:advmod	_
+9	should	should	AUX	MD	V;FIN	11	aux	11:aux	_
+10	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	buy	buy	VERB	VB	NFIN;V	5	conj	5:conj:and	_
+12	my	my	PRON	PRP$	GEN;PRO;1;SG	13	nmod:poss	13:nmod:poss	_
+13	ticket	ticket	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+14	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0004
+# newpar id = answers-20111108102205AArwNzY_ans-p0003
+# text = The sooner the better but I'd probably wait until after the holidays.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	sooner	soon	ADV	RBR	ADV;CMPR	4	advcl	4:advcl:the	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	better	well	ADV	RBR	ADV;CMPR	0	root	0:root	_
+5	but	but	CCONJ	CC	CONJ	9	cc	9:cc	_
+6-7	I'd	_	_	_	_	_	_	_	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+7	'd	would	AUX	MD	V;FIN	9	aux	9:aux	_
+8	probably	probably	ADV	RB	ADV	9	advmod	9:advmod	_
+9	wait	wait	VERB	VB	NFIN;V	4	conj	4:conj:but	_
+10	until	until	ADP	IN	ADP	13	case	13:case	_
+11	after	after	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	holidays	holiday	NOUN	NNS	PL;N	9	obl	9:obl:after	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+

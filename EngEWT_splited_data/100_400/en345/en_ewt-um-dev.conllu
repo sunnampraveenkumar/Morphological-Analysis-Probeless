@@ -1,0 +1,77 @@
+# sent_id = reviews-205014-0006
+# text = PS. Love the new website!
+1	PS.	ps.	NOUN	NN	SG;N	0	root	0:root	_
+2	Love	love	VERB	VBP	FIN;PRS;1;V;IND;SG	1	appos	1:appos	_
+3	the	the	DET	DT	DET;DEF	5	det	5:det	_
+4	new	new	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	website	website	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-306740
+# sent_id = reviews-306740-0001
+# newpar id = reviews-306740-p0001
+# text = Miami's best tutoring service!
+1-2	Miami's	_	_	_	_	_	_	_	_
+1	Miami	Miami	PROPN	NNP	SG;PROPN	5	nmod:poss	5:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	best	good	ADJ	JJS	ADJ;RL	5	amod	5:amod	_
+4	tutoring	tutoring	NOUN	NN	SG;N	5	compound	5:compound	_
+5	service	service	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-306740-0002
+# newpar id = reviews-306740-p0002
+# text = My son was able to advance a full two grades within 9 months!
+1	My	my	PRON	PRP$	PRO;GEN;1;SG	2	nmod:poss	2:nmod:poss	_
+2	son	son	NOUN	NN	SG;N	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	4	cop	4:cop	_
+4	able	able	ADJ	JJ	ADJ	0	root	0:root	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	advance	advance	VERB	VB	NFIN;V	4	xcomp	4:xcomp	_
+7	a	a	DET	DT	DET;INDF	10	det	10:det	_
+8	full	full	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	two	two	NUM	CD	NUM	10	nummod	10:nummod	_
+10	grades	grade	NOUN	NNS	PL;N	6	obj	6:obj	_
+11	within	within	ADP	IN	ADP	13	case	13:case	_
+12	9	9	NUM	CD	NUM	13	nummod	13:nummod	_
+13	months	month	NOUN	NNS	PL;N	6	obl	6:obl:within	SpaceAfter=No
+14	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-306740-0003
+# text = A wonderful tutoring service for students needing help with elementary - middle school work.
+1	A	a	DET	DT	DET;INDF	4	det	4:det	_
+2	wonderful	wonderful	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	tutoring	tutoring	NOUN	NN	SG;N	4	compound	4:compound	_
+4	service	service	NOUN	NN	SG;N	0	root	0:root	_
+5	for	for	ADP	IN	ADP	6	case	6:case	_
+6	students	student	NOUN	NNS	PL;N	4	nmod	4:nmod:for	_
+7	needing	need	VERB	VBG	V;V.MSDR	6	acl	6:acl	_
+8	help	help	NOUN	NN	SG;N	7	obj	7:obj	_
+9	with	with	ADP	IN	ADP	14	case	14:case	_
+10	elementary	elementary	ADJ	JJ	ADJ	13	amod	13:amod	_
+11	-	-	SYM	HYPH	_	12	case	12:case	_
+12	middle	middle	NOUN	NN	SG;N	10	obl	10:obl	_
+13	school	school	NOUN	NN	SG;N	14	compound	14:compound	_
+14	work	work	NOUN	NN	SG;N	8	nmod	8:nmod:with	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-058274
+# sent_id = reviews-058274-0001
+# newpar id = reviews-058274-p0001
+# text = Food - very good for a midnight meal that isn't fast food.
+1	Food	food	NOUN	NN	SG;N	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	very	very	ADV	RB	ADV	4	advmod	4:advmod	_
+4	good	good	ADJ	JJ	ADJ	1	appos	1:appos	_
+5	for	for	ADP	IN	ADP	8	case	8:case	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	midnight	midnight	NOUN	NN	SG;N	8	compound	8:compound	_
+8	meal	meal	NOUN	NN	SG;N	4	obl	4:obl:for|13:nsubj	_
+9	that	that	PRON	WDT	PRO	13	nsubj	8:ref	_
+10-11	isn't	_	_	_	_	_	_	_	_
+10	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	13	cop	13:cop	_
+11	n't	not	PART	RB	PART	13	advmod	13:advmod	_
+12	fast	fast	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	food	food	NOUN	NN	SG;N	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj|SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+

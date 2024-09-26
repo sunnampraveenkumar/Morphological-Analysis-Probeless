@@ -1,0 +1,79 @@
+# sent_id = reviews-163250-0004
+# text = The best customer service I've come across for long time.
+1	The	the	DET	DT	DEF;DET	4	det	4:det	_
+2	best	good	ADJ	JJS	RL;ADJ	4	amod	4:amod	_
+3	customer	customer	NOUN	NN	SG;N	4	compound	4:compound	_
+4	service	service	NOUN	NN	SG;N	0	root	0:root|7:obl	_
+5-6	I've	_	_	_	_	_	_	_	_
+5	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+6	've	have	AUX	VBP	V;1;FIN;PRS;SG;IND	7	aux	7:aux	_
+7	come	come	VERB	VBN	PST;V;V.PTCP	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obl-pstrand
+8	across	across	ADP	IN	ADP	7	obl	7:obl	Promoted=Yes
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	long	long	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	time	time	NOUN	NN	SG;N	7	obl	7:obl:for	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-251755
+# sent_id = reviews-251755-0001
+# newpar id = reviews-251755-p0001
+# text = Absolutely amazing job!
+1	Absolutely	absolutely	ADV	RB	ADV	2	advmod	2:advmod	_
+2	amazing	amazing	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	job	job	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-251755-0002
+# newpar id = reviews-251755-p0002
+# text = Susanna is the best dress maker/tailor I've ever come across in my whole life!
+1	Susanna	Susanna	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	cop	8:cop	_
+3	the	the	DET	DT	DEF;DET	8	det	8:det	_
+4	best	good	ADJ	JJS	RL;ADJ	8	amod	8:amod	_
+5	dress	dress	NOUN	NN	SG;N	6	compound	6:compound	_
+6	maker	maker	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+7	/	/	SYM	,	_	8	cc	8:cc	SpaceAfter=No
+8	tailor	tailor	NOUN	NN	SG;N	6	conj	6:conj|12:obl	_
+9-10	I've	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj	_
+10	've	have	AUX	VBP	V;1;FIN;PRS;SG;IND	12	aux	12:aux	_
+11	ever	ever	ADV	RB	ADV	12	advmod	12:advmod	_
+12	come	come	VERB	VBN	PST;V;V.PTCP	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obl-pstrand
+13	across	across	ADP	IN	ADP	12	obl	12:obl	Promoted=Yes
+14	in	in	ADP	IN	ADP	17	case	17:case	_
+15	my	my	PRON	PRP$	GEN;PRO;1;SG	17	nmod:poss	17:nmod:poss	_
+16	whole	whole	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	life	life	NOUN	NN	SG;N	12	obl	12:obl:in	SpaceAfter=No
+18	!	!	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-251755-0003
+# text = She makes every item fit you perfectly.
+1	She	she	PRON	PRP	PRO;3;NOM;SG;FEM	2	nsubj	2:nsubj	_
+2	makes	make	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	every	every	DET	DT	DET	4	det	4:det	_
+4	item	item	NOUN	NN	SG;N	2	obj	2:obj|5:nsubj:xsubj	_
+5	fit	fit	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+6	you	you	PRON	PRP	NOM;2;PRO	5	obj	5:obj	_
+7	perfectly	perfectly	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-251755-0004
+# text = She is always so busy, too, which is a good indication of her talent.
+1	She	she	PRON	PRP	PRO;3;NOM;SG;FEM	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+3	always	always	ADV	RB	ADV	5	advmod	5:advmod	_
+4	so	so	ADV	RB	ADV	5	advmod	5:advmod	_
+5	busy	busy	ADJ	JJ	ADJ	0	root	0:root|13:csubj	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	too	too	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	13:punct	_
+9	which	which	PRON	WDT	PRO	13	nsubj	5:ref	_
+10	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	13	cop	13:cop	_
+11	a	a	DET	DT	INDF;DET	13	det	13:det	_
+12	good	good	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	indication	indication	NOUN	NN	SG;N	5	advcl:relcl	5:advcl:relcl	Cxn=rc-wh-csubj
+14	of	of	ADP	IN	ADP	16	case	16:case	_
+15	her	her	PRON	PRP$	GEN;PRO;3;SG;FEM	16	nmod:poss	16:nmod:poss	_
+16	talent	talent	NOUN	NN	SG;N	13	nmod	13:nmod:of	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+

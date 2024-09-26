@@ -1,0 +1,233 @@
+# sent_id = train-s2917
+# text = 1962年，董事部拒絕政府獻議改制，並收容更多因超齡而輟學的青年，決定辦獨立中學。
+# translit = 1962nián,董shìbùjùjuézhèngfǔxiànyìgǎizhì,bìngshōurónggèngduōyīnchāolíng'ér輟xuédeqīngnián,juédìngbàndúlìzhōngxué.
+1	1962	1962	NUM	CD	NUM	2	nummod	_	SpaceAfter=No|Translit=1962|LTranslit=1962
+2	年	年	NOUN	NNB	N	21	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	，	，	PUNCT	,	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+4	董事	董事	NOUN	NN	N	5	compound	_	SpaceAfter=No|Translit=董shì|LTranslit=董shì
+5	部	部	PART	SFN	PART	21	nsubj	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+6	拒絕	拒絕	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=jùjué|LTranslit=jùjué
+7	政府	政府	NOUN	NN	N	8	nsubj	_	SpaceAfter=No|Translit=zhèngfǔ|LTranslit=zhèngfǔ
+8	獻議	獻議	VERB	VV	V	6	ccomp	_	SpaceAfter=No|Translit=xiànyì|LTranslit=xiànyì
+9	改制	改制	VERB	VV	V	8	xcomp	_	SpaceAfter=No|Translit=gǎizhì|LTranslit=gǎizhì
+10	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	並	並	SCONJ	RB	CONJ	21	mark	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+12	收容	收容	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=shōuróng|LTranslit=shōuróng
+13	更多	更多	ADJ	JJ	ADJ	19	amod	_	SpaceAfter=No|Translit=gèngduō|LTranslit=gèngduō
+14	因	因	ADP	IN	ADP	15	case	_	SpaceAfter=No|Translit=yīn|LTranslit=yīn
+15	超齡	超齡	VERB	VV	V	17	xcomp	_	SpaceAfter=No|Translit=chāolíng|LTranslit=chāolíng
+16	而	而	SCONJ	RB	CONJ	17	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+17	輟學	輟學	VERB	VV	V	19	acl:relcl	_	SpaceAfter=No|Translit=輟xué|LTranslit=輟xué
+18	的	的	SCONJ	DEC	CONJ	17	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+19	青年	青年	NOUN	NN	N	12	obj	_	SpaceAfter=No|Translit=qīngnián|LTranslit=qīngnián
+20	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	決定	決定	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=juédìng|LTranslit=juédìng
+22	辦	辦	VERB	VV	V	21	xcomp	_	SpaceAfter=No|Translit=bàn|LTranslit=bàn
+23	獨立	獨立	NOUN	NN	N	24	nmod	_	SpaceAfter=No|Translit=dúlì|LTranslit=dúlì
+24	中學	中學	NOUN	NN	N	22	obj	_	SpaceAfter=No|Translit=zhōngxué|LTranslit=zhōngxué
+25	。	。	PUNCT	.	_	21	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2918
+# text = 芝加哥聖名主教座堂（Holy Name Cathedral）位於美國第三大城市芝加哥，是天主教芝加哥總教區的主教座堂。
+# translit = zhījiāgēshèngmíngzhǔjiàozuòtáng(Holy Name Cathedral)wèiyúměiguódìsāndàchéngshìzhījiāgē,shìtiānzhǔjiàozhījiāgēzǒngjiàoqūdezhǔjiàozuòtáng.
+1	芝加哥	芝加哥	PROPN	NNP	PROPN	4	nmod	_	SpaceAfter=No|Translit=zhījiāgē|LTranslit=zhījiāgē
+2	聖名	聖名	NOUN	NN	N	4	nmod	_	SpaceAfter=No|Translit=shèngmíng|LTranslit=shèngmíng
+3	主教	主教	NOUN	NN	N	4	nmod	_	SpaceAfter=No|Translit=zhǔjiào|LTranslit=zhǔjiào
+4	座堂	座堂	NOUN	NN	N	26	nsubj	_	SpaceAfter=No|Translit=zuòtáng|LTranslit=zuòtáng
+5	（	（	PUNCT	(	_	6	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+6	Holy	Holy	X	FW	_	4	appos	_	Translit=Holy|LTranslit=Holy
+7	Name	Name	X	FW	_	6	flat:foreign	_	Translit=Name|LTranslit=Name
+8	Cathedral	Cathedral	X	FW	_	6	flat:foreign	_	SpaceAfter=No|Translit=Cathedral|LTranslit=Cathedral
+9	）	）	PUNCT	)	_	6	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+10	位	位	VERB	VV	V	26	acl	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+11	於	於	VERB	VV	V	10	mark	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+12	美國	美國	PROPN	NNP	PROPN	15	nmod	_	SpaceAfter=No|Translit=měiguó|LTranslit=měiguó
+13	第三	第三	NUM	CD	NUM	15	nummod	_	SpaceAfter=No|Translit=dìsān|LTranslit=dìsān
+14	大	大	PART	PFA	PART	15	case	_	SpaceAfter=No|Translit=dà|LTranslit=dà
+15	城市	城市	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=chéngshì|LTranslit=chéngshì
+16	芝加哥	芝加哥	PROPN	NNP	PROPN	15	appos	_	SpaceAfter=No|Translit=zhījiāgē|LTranslit=zhījiāgē
+17	，	，	PUNCT	,	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	是	是	AUX	VC	V	26	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+19	天主	天主	PROPN	NNP	PROPN	20	compound	_	SpaceAfter=No|Translit=tiānzhǔ|LTranslit=tiānzhǔ
+20	教	教	PART	SFN	PART	23	nmod	_	SpaceAfter=No|Translit=jiào|LTranslit=jiào
+21	芝加哥	芝加哥	PROPN	NNP	PROPN	23	nmod	_	SpaceAfter=No|Translit=zhījiāgē|LTranslit=zhījiāgē
+22	總	總	PART	PFA	PART	23	case	_	SpaceAfter=No|Translit=zǒng|LTranslit=zǒng
+23	教區	教區	NOUN	NN	N	26	nmod	_	SpaceAfter=No|Translit=jiàoqū|LTranslit=jiàoqū
+24	的	的	PART	DEC	PART;GEN	23	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+25	主教	主教	NOUN	NN	N	26	nmod	_	SpaceAfter=No|Translit=zhǔjiào|LTranslit=zhǔjiào
+26	座堂	座堂	NOUN	NN	N	0	root	_	SpaceAfter=No|Translit=zuòtáng|LTranslit=zuòtáng
+27	。	。	PUNCT	.	_	26	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2919
+# text = 在一場交通意外中蕾妮被救，於是她和西弗萊德好上了，兩人開始約會一起生活。
+# translit = zàiyīchǎngjiāotōngyìwàizhōng蕾妮bèijiù,yúshìtāhéxifúláidéhǎoshàngle,liǎngrénkāishǐyuēhuìyīqǐshēnghuó.
+1	在	在	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	一	一	NUM	CD	NUM	5	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+3	場	場	NOUN	NNB	N	2	clf	_	SpaceAfter=No|Translit=chǎng|LTranslit=chǎng
+4	交通	交通	NOUN	NN	N	5	nmod	_	SpaceAfter=No|Translit=jiāotōng|LTranslit=jiāotōng
+5	意外	意外	NOUN	NN	N	9	obl	_	SpaceAfter=No|Translit=yìwài|LTranslit=yìwài
+6	中	中	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+7	蕾妮	蕾妮	PROPN	NNP	PROPN	9	nsubj:pass	_	SpaceAfter=No|Translit=蕾妮|LTranslit=蕾妮
+8	被	被	AUX	BB	PASS;V	9	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+9	救	救	VERB	VV	V	15	advcl	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
+10	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	於是	於是	SCONJ	RB	CONJ	15	mark	_	SpaceAfter=No|Translit=yúshì|LTranslit=yúshì
+12	她	她	PRON	PRP	3;PRO	15	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+13	和	和	ADP	IN	ADP	14	case	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+14	西弗萊德	西弗萊德	PROPN	NNP	PROPN	15	obl	_	SpaceAfter=No|Translit=xifúláidé|LTranslit=xifúláidé
+15	好上	好上	VERB	VV	V	23	discourse	_	SpaceAfter=No|Translit=hǎoshàng|LTranslit=hǎoshàng
+16	了	了	PART	UH	PART	15	discourse	_	SpaceAfter=No|Translit=le|LTranslit=le
+17	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	兩	兩	NUM	CD	NUM	19	nummod	_	SpaceAfter=No|Translit=liǎng|LTranslit=liǎng
+19	人	人	NOUN	NN	N	23	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+20	開始	開始	VERB	VV	V	23	advcl	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
+21	約會	約會	VERB	VV	V	20	xcomp	_	SpaceAfter=No|Translit=yuēhuì|LTranslit=yuēhuì
+22	一起	一起	NOUN	NN	N	23	obl	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
+23	生活	生活	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shēnghuó|LTranslit=shēnghuó
+24	。	。	PUNCT	.	_	23	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2920
+# text = 她是夏伊的前女友，但是現在和一個男的在一起並懷孕了，她的出現讓夏伊十分苦惱。
+# translit = tāshìxiàyīdeqiánnǚyou,dànshìxiànzàihéyīgènándezàiyīqǐbìnghuái孕le,tādechūxiànràngxiàyīshífēnkǔnǎo.
+1	她	她	PRON	PRP	3;PRO	15	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+2	是	是	AUX	VC	V	6	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+3	夏伊	夏伊	PROPN	NNP	PROPN	6	nmod	_	SpaceAfter=No|Translit=xiàyī|LTranslit=xiàyī
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	前	前	PART	PFA	PART	6	case	_	SpaceAfter=No|Translit=qián|LTranslit=qián
+6	女友	女友	NOUN	NN	N	15	advcl	_	SpaceAfter=No|Translit=nǚyou|LTranslit=nǚyou
+7	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	但是	但是	SCONJ	RB	CONJ	15	mark	_	SpaceAfter=No|Translit=dànshì|LTranslit=dànshì
+9	現在	現在	NOUN	NN	N	15	nmod:tmod	_	SpaceAfter=No|Translit=xiànzài|LTranslit=xiànzài
+10	和	和	ADP	IN	ADP	13	case	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+11	一	一	NUM	CD	NUM	13	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+12	個	個	NOUN	NNB	N	11	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
+13	男	男	NOUN	NN	N	15	obl	_	SpaceAfter=No|Translit=nán|LTranslit=nán
+14	的	的	PART	DEC	PART;GEN	13	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+15	在	在	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+16	一起	一起	NOUN	NN	N	15	obj	_	SpaceAfter=No|Translit=yīqǐ|LTranslit=yīqǐ
+17	並	並	CCONJ	CC	CONJ	18	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+18	懷孕	懷孕	VERB	VV	V	15	conj	_	SpaceAfter=No|Translit=huái孕|LTranslit=huái孕
+19	了	了	PART	UH	PART	15	discourse	_	SpaceAfter=No|Translit=le|LTranslit=le
+20	，	，	PUNCT	,	_	24	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	她	她	PRON	PRP	3;PRO	23	det	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+22	的	的	PART	DEC	PART;GEN	21	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+23	出現	出現	NOUN	NN	N	24	nsubj	_	SpaceAfter=No|Translit=chūxiàn|LTranslit=chūxiàn
+24	讓	讓	VERB	VV	V;CAUS	15	parataxis	_	SpaceAfter=No|Translit=ràng|LTranslit=ràng
+25	夏伊	夏伊	PROPN	NNP	PROPN	27	nsubj	_	SpaceAfter=No|Translit=xiàyī|LTranslit=xiàyī
+26	十分	十分	ADV	RB	ADV	27	advmod	_	SpaceAfter=No|Translit=shífēn|LTranslit=shífēn
+27	苦惱	苦惱	ADJ	JJ	ADJ	24	ccomp	_	SpaceAfter=No|Translit=kǔnǎo|LTranslit=kǔnǎo
+28	。	。	PUNCT	.	_	15	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2921
+# text = 也有人指控芝加哥集團在加恩卡納的帶領下，於1960年美國總統選舉期間在投票所周邊藉暴力手段操縱選舉。
+# translit = yěyǒurénzhǐkòngzhījiāgējítuánzàijiā'ēnkǎnàdedàilǐngxià,yú1960niánměiguózǒngtǒngxuǎnjǔqījiānzàitóupiàosuǒzhōubiān藉bàolìshǒuduàncāozòngxuǎnjǔ.
+1	也	也	SCONJ	RB	CONJ	2	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+2	有	有	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+3	人	人	NOUN	NN	N	4	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+4	指控	指控	VERB	VV	V	2	ccomp	_	SpaceAfter=No|Translit=zhǐkòng|LTranslit=zhǐkòng
+5	芝加哥	芝加哥	PROPN	NNP	PROPN	6	nmod	_	SpaceAfter=No|Translit=zhījiāgē|LTranslit=zhījiāgē
+6	集團	集團	NOUN	NN	N	27	nsubj	_	SpaceAfter=No|Translit=jítuán|LTranslit=jítuán
+7	在	在	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+8	加恩卡納	加恩卡納	PROPN	NNP	PROPN	10	nmod	_	SpaceAfter=No|Translit=jiā'ēnkǎnà|LTranslit=jiā'ēnkǎnà
+9	的	的	PART	DEC	PART;GEN	8	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+10	帶領	帶領	NOUN	NN	N	27	obl	_	SpaceAfter=No|Translit=dàilǐng|LTranslit=dàilǐng
+11	下	下	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=xià|LTranslit=xià
+12	，	，	PUNCT	,	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	於	於	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+14	1960	1960	NUM	CD	NUM	19	nummod	_	SpaceAfter=No|Translit=1960|LTranslit=1960
+15	年	年	NOUN	NNB	N	14	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+16	美國	美國	PROPN	NNP	PROPN	19	nmod	_	SpaceAfter=No|Translit=měiguó|LTranslit=měiguó
+17	總統	總統	NOUN	NN	N	19	nmod	_	SpaceAfter=No|Translit=zǒngtǒng|LTranslit=zǒngtǒng
+18	選舉	選舉	NOUN	NN	N	19	nmod	_	SpaceAfter=No|Translit=xuǎnjǔ|LTranslit=xuǎnjǔ
+19	期間	期間	NOUN	NN	N	27	obl	_	SpaceAfter=No|Translit=qījiān|LTranslit=qījiān
+20	在	在	VERB	VV	V	27	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+21	投票	投票	VERB	VV	V	22	compound	_	SpaceAfter=No|Translit=tóupiào|LTranslit=tóupiào
+22	所	所	PART	SFN	PART	23	nmod	_	SpaceAfter=No|Translit=suǒ|LTranslit=suǒ
+23	周邊	周邊	NOUN	NN	N	20	obj	_	SpaceAfter=No|Translit=zhōubiān|LTranslit=zhōubiān
+24	藉	藉	ADP	IN	ADP	26	case	_	SpaceAfter=No|Translit=藉|LTranslit=藉
+25	暴力	暴力	NOUN	NN	N	26	nmod	_	SpaceAfter=No|Translit=bàolì|LTranslit=bàolì
+26	手段	手段	NOUN	NN	N	27	obl	_	SpaceAfter=No|Translit=shǒuduàn|LTranslit=shǒuduàn
+27	操縱	操縱	VERB	VV	V	4	ccomp	_	SpaceAfter=No|Translit=cāozòng|LTranslit=cāozòng
+28	選舉	選舉	NOUN	NN	N	27	obj	_	SpaceAfter=No|Translit=xuǎnjǔ|LTranslit=xuǎnjǔ
+29	。	。	PUNCT	.	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2922
+# text = 在網路上學生也可以使用數位圖書館。
+# translit = zàiwǎnglùshàngxuéshēngyěkěyǐshǐyòngshùwèitúshūguǎn.
+1	在	在	ADP	IN	ADP	2	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	網路	網路	NOUN	NN	N	7	obl	_	SpaceAfter=No|Translit=wǎnglù|LTranslit=wǎnglù
+3	上	上	ADP	IN	ADP	2	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+4	學生	學生	NOUN	NN	N	7	nsubj	_	SpaceAfter=No|Translit=xuéshēng|LTranslit=xuéshēng
+5	也	也	SCONJ	RB	CONJ	7	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+6	可以	可以	AUX	MD	V	7	aux	_	SpaceAfter=No|Translit=kěyǐ|LTranslit=kěyǐ
+7	使用	使用	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shǐyòng|LTranslit=shǐyòng
+8	數位	數位	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=shùwèi|LTranslit=shùwèi
+9	圖書	圖書	NOUN	NN	N	10	compound	_	SpaceAfter=No|Translit=túshū|LTranslit=túshū
+10	館	館	PART	SFN	PART	7	obj	_	SpaceAfter=No|Translit=guǎn|LTranslit=guǎn
+11	。	。	PUNCT	.	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2923
+# text = 每個科系也各自有自己的收藏，供給學生最多的藝術資源。
+# translit = měigèkēxìyěgèzìyǒuzìjǐdeshōucáng,gōnggěixuéshēngzuìduōdeyìshùzīyuán.
+1	每個	每個	DET	DT	DET	2	det	_	SpaceAfter=No|Translit=měigè|LTranslit=měigè
+2	科系	科系	NOUN	NN	N	10	nsubj	_	SpaceAfter=No|Translit=kēxì|LTranslit=kēxì
+3	也	也	SCONJ	RB	CONJ	5	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+4	各自	各自	PRON	PRD	PRO	5	obl	_	SpaceAfter=No|Translit=gèzì|LTranslit=gèzì
+5	有	有	VERB	VV	V	10	advcl	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+6	自己	自己	PRON	PRD	PRO	8	det	_	SpaceAfter=No|Translit=zìjǐ|LTranslit=zìjǐ
+7	的	的	PART	DEC	PART;GEN	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	收藏	收藏	NOUN	NN	N	5	obj	_	SpaceAfter=No|Translit=shōucáng|LTranslit=shōucáng
+9	，	，	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	供給	供給	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=gōnggěi|LTranslit=gōnggěi
+11	學生	學生	NOUN	NN	N	10	iobj	_	SpaceAfter=No|Translit=xuéshēng|LTranslit=xuéshēng
+12	最多	最多	ADJ	JJ	ADJ	15	amod	_	SpaceAfter=No|Translit=zuìduō|LTranslit=zuìduō
+13	的	的	SCONJ	DEC	CONJ	12	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+14	藝術	藝術	NOUN	NN	N	15	nmod	_	SpaceAfter=No|Translit=yìshù|LTranslit=yìshù
+15	資源	資源	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=zīyuán|LTranslit=zīyuán
+16	。	。	PUNCT	.	_	10	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2924
+# text = 2006年1月，卡拉維拿轉赴荷蘭發展，加盟Omniworld。
+# translit = 2006nián1yuè,kǎlāwéinázhuǎnfùhélánfāzhǎn,jiāméngOmniworld.
+1	2006	2006	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=2006|LTranslit=2006
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	1	1	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=1|LTranslit=1
+4	月	月	NOUN	NNB	N	11	nmod:tmod	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	，	，	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	卡拉維拿	卡拉維拿	PROPN	NNP	PROPN	11	nsubj	_	SpaceAfter=No|Translit=kǎlāwéiná|LTranslit=kǎlāwéiná
+7	轉赴	轉赴	VERB	VV	V	9	advcl	_	SpaceAfter=No|Translit=zhuǎnfù|LTranslit=zhuǎnfù
+8	荷蘭	荷蘭	PROPN	NNP	PROPN	7	obj	_	SpaceAfter=No|Translit=hélán|LTranslit=hélán
+9	發展	發展	VERB	VV	V	11	advcl	_	SpaceAfter=No|Translit=fāzhǎn|LTranslit=fāzhǎn
+10	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	加盟	加盟	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=jiāméng|LTranslit=jiāméng
+12	Omniworld	Omniworld	X	FW	_	11	obj	_	SpaceAfter=No|Translit=Omniworld|LTranslit=Omniworld
+13	。	。	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2925
+# text = 1979年，芬蘭航空成立一間專門經營國內航線的附屬航空公司，並持有其60%擁有權。
+# translit = 1979nián,fēnlánhángkōngchénglìyījiānzhuānménjīngyíngguónèihángxiàndefùshǔhángkōnggōngsī,bìngchíyǒuqí60%yōngyǒuquán.
+1	1979	1979	NUM	CD	NUM	2	nummod	_	SpaceAfter=No|Translit=1979|LTranslit=1979
+2	年	年	NOUN	NNB	N	6	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	，	，	PUNCT	,	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+4	芬蘭	芬蘭	PROPN	NNP	PROPN	5	nmod	_	SpaceAfter=No|Translit=fēnlán|LTranslit=fēnlán
+5	航空	航空	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=hángkōng|LTranslit=hángkōng
+6	成立	成立	VERB	VV	V	19	advcl	_	SpaceAfter=No|Translit=chénglì|LTranslit=chénglì
+7	一	一	NUM	CD	NUM	16	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+8	間	間	NOUN	NNB	N	7	clf	_	SpaceAfter=No|Translit=jiān|LTranslit=jiān
+9	專門	專門	ADV	RB	ADV	10	advmod	_	SpaceAfter=No|Translit=zhuānmén|LTranslit=zhuānmén
+10	經營	經營	VERB	VV	V	16	acl:relcl	_	SpaceAfter=No|Translit=jīngyíng|LTranslit=jīngyíng
+11	國內	國內	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=guónèi|LTranslit=guónèi
+12	航線	航線	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=hángxiàn|LTranslit=hángxiàn
+13	的	的	SCONJ	DEC	CONJ	10	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+14	附屬	附屬	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=fùshǔ|LTranslit=fùshǔ
+15	航空	航空	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=hángkōng|LTranslit=hángkōng
+16	公司	公司	NOUN	NN	N	6	obj	_	SpaceAfter=No|Translit=gōngsī|LTranslit=gōngsī
+17	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	並	並	SCONJ	RB	CONJ	19	mark	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+19	持有	持有	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chíyǒu|LTranslit=chíyǒu
+20	其	其	PRON	PRP	3;PRO	23	nmod	_	SpaceAfter=No|Translit=qí|LTranslit=qí
+21	60%	60%	NUM	CD	NUM	23	nummod	_	SpaceAfter=No|Translit=60%|LTranslit=60%
+22	擁有	擁有	VERB	VV	V	23	compound	_	SpaceAfter=No|Translit=yōngyǒu|LTranslit=yōngyǒu
+23	權	權	PART	SFN	PART	19	obj	_	SpaceAfter=No|Translit=quán|LTranslit=quán
+24	。	。	PUNCT	.	_	19	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

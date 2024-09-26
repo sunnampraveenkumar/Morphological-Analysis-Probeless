@@ -1,0 +1,64 @@
+# sent_id = email-enronsent01_01-0043
+# text = LU
+1	LU	lu	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+
+# sent_id = email-enronsent01_01-0044
+# text = -M
+1	-	-	PUNCT	NFP	_	2	punct	2:punct	SpaceAfter=No
+2	M	M	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# newdoc id = email-enronsent08_01
+# sent_id = email-enronsent08_01-0001
+# newpar id = email-enronsent08_01-p0001
+# text = Glad to hear all is well.
+1	Glad	glad	ADJ	JJ	ADJ	0	root	0:root	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	hear	hear	VERB	VB	NFIN;V	1	advcl	1:advcl:to	_
+4	all	all	DET	DT	DET	6	nsubj	6:nsubj	_
+5	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	6	cop	6:cop	_
+6	well	well	ADJ	JJ	ADJ	3	ccomp	3:ccomp	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent08_01-0002
+# text = I meant to comment that I thought the people profiled in the article should pull their heads out of their self important asses.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	meant	mean	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	comment	comment	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+7	thought	think	VERB	VBD	FIN;1;V;IND;SG;PST	4	ccomp	4:ccomp	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	people	people	NOUN	NNS	PL;N	15	nsubj	15:nsubj	_
+10	profiled	profile	VERB	VBN	PASS;V;V.PTCP;PST	9	acl	9:acl	_
+11	in	in	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	article	article	NOUN	NN	SG;N	10	obl	10:obl:in	_
+14	should	should	AUX	MD	FIN;V	15	aux	15:aux	_
+15	pull	pull	VERB	VB	NFIN;V	7	ccomp	7:ccomp	_
+16	their	their	PRON	PRP$	PRO;GEN;3;PL	17	nmod:poss	17:nmod:poss	_
+17	heads	head	NOUN	NNS	PL;N	15	obj	15:obj	_
+18	out	out	ADP	IN	ADP	23	case	23:case	_
+19	of	of	ADP	IN	ADP	23	case	23:case	_
+20	their	their	PRON	PRP$	PRO;GEN;3;PL	23	nmod:poss	23:nmod:poss	_
+21	self	self	NOUN	NN	SG;N	22	obl:npmod	22:obl:npmod	_
+22	important	important	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	asses	ass	NOUN	NNS	PL;N	15	obl	15:obl:of	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent08_01-0003
+# text = It isn't about finding the meaning of life at work.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	5	nsubj:outer	5:nsubj:outer	_
+2-3	isn't	_	_	_	_	_	_	_	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+3	n't	not	PART	RB	PART	5	advmod	5:advmod	_
+4	about	about	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	finding	find	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	meaning	meaning	NOUN	NN	SG;N	5	obj	5:obj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	life	life	NOUN	NN	SG;N	7	nmod	7:nmod:of	_
+10	at	at	ADP	IN	ADP	11	case	11:case	_
+11	work	work	NOUN	NN	SG;N	5	obl	5:obl:at	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	5:punct	_
+

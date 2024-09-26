@@ -1,0 +1,59 @@
+# sent_id = email-enronsent27_02-0014
+# text = Mike
+1	Mike	Mike	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# newdoc id = email-enronsent21_01
+# sent_id = email-enronsent21_01-0001
+# newpar id = email-enronsent21_01-p0001
+# text = These guys tried the Ken Lay route.
+1	These	this	DET	DT	PL;DET	2	det	2:det	_
+2	guys	guy	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	tried	try	VERB	VBD	PL;PST;V;3;FIN;IND	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	7	det	7:det	_
+5	Ken	Ken	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+6	Lay	Lay	PROPN	NNP	SG;PROPN	5	flat	5:flat	_
+7	route	route	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent21_01-0002
+# text = Now they are part of your working group.
+1	Now	now	ADV	RB	ADV	4	advmod	4:advmod	_
+2	they	they	PRON	PRP	PL;PRO;3;NOM	4	nsubj	4:nsubj	_
+3	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	4	cop	4:cop	_
+4	part	part	NOUN	NN	SG;N	0	root	0:root	_
+5	of	of	ADP	IN	ADP	8	case	8:case	_
+6	your	your	PRON	PRP$	GEN;PRO;2	8	nmod:poss	8:nmod:poss	_
+7	working	working	NOUN	NN	SG;N	8	compound	8:compound	_
+8	group	group	NOUN	NN	SG;N	4	nmod	4:nmod:of	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent21_01-0003
+# newpar id = email-enronsent21_01-p0002
+# text = Hilary E. Ackermann Goldman Sachs Credit Risk Management & Advisory Phone: 212-902-3724 Fax: 212-428-1181 E-Mail: hilary.ackermann@gs.com
+1	Hilary	Hilary	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	E.	E.	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Ackermann	Ackermann	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+4	Goldman	Goldman	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Sachs	Sachs	PROPN	NNP	SG;PROPN	1	list	1:list	_
+6	Credit	credit	NOUN	NN	SG;N	7	compound	7:compound	_
+7	Risk	risk	NOUN	NN	SG;N	8	compound	8:compound	_
+8	Management	management	NOUN	NN	SG;N	1	list	1:list	_
+9	&	&	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	Advisory	advisory	NOUN	NN	SG;N	8	conj	8:conj	_
+11	Phone	phone	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+12	:	:	PUNCT	:	_	13	punct	13:punct	_
+13	212-902-3724	212-902-3724	NUM	CD	NUM	1	appos	1:appos	_
+14	Fax	fax	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+15	:	:	PUNCT	:	_	16	punct	16:punct	_
+16	212-428-1181	212-428-1181	NUM	CD	NUM	1	appos	1:appos	_
+17	E-Mail	e-mail	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+18	:	:	PUNCT	:	_	19	punct	19:punct	_
+19	hilary.ackermann@gs.com	hilary.ackermann@gs.com	PROPN	ADD	PROPN	1	appos	1:appos	_
+
+# sent_id = email-enronsent21_01-0004
+# text = Dear Mr. Lavorato:
+1	Dear	dear	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Mr.	Mr.	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	Lavorato	Lavorato	PROPN	NNP	SG;PROPN	2	flat	2:flat	SpaceAfter=No
+4	:	:	PUNCT	:	_	2	punct	2:punct	_
+

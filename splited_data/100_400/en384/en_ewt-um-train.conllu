@@ -1,0 +1,533 @@
+# sent_id = reviews-363873-0008
+# text = Do not live here, you will regret it!
+1	Do	do	AUX	VB	V;FIN;IMP	3	aux	3:aux	_
+2	not	not	PART	RB	PART	3	advmod	3:advmod	_
+3	live	live	VERB	VB	V;FIN;IMP	0	root	0:root	_
+4	here	here	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	you	you	PRON	PRP	PRO;2;NOM	8	nsubj	8:nsubj	_
+7	will	will	AUX	MD	V;FIN	8	aux	8:aux	_
+8	regret	regret	VERB	VB	V;NFIN	3	parataxis	3:parataxis	_
+9	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	8	obj	8:obj	SpaceAfter=No
+10	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-229410
+# sent_id = reviews-229410-0001
+# newpar id = reviews-229410-p0001
+# text = The Worst Experience Ever!!!
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	Worst	bad	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+3	Experience	experience	NOUN	NN	N;SG	0	root	0:root	_
+4	Ever	ever	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+5	!!!	!!!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-229410-0002
+# newpar id = reviews-229410-p0002
+# text = I have worked with Ted Jurek at Decor and You, and it started out as a decent experience.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	FIN;SG;V;PRS;IND;1	3	aux	3:aux	_
+3	worked	work	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	Ted	Ted	PROPN	NNP	PROPN;SG	3	obl	3:obl:with	_
+6	Jurek	Jurek	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+7	at	at	ADP	IN	ADP	8	case	8:case	_
+8	Decor	Decor	PROPN	NNP	PROPN;SG	3	obl	3:obl:at	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	You	You	PROPN	NNP	PROPN;SG	8	conj	3:obl:at|8:conj:and	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+13	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	14	nsubj	14:nsubj	_
+14	started	start	VERB	VBD	FIN;SG;V;IND;3;PST	3	conj	3:conj:and	_
+15	out	out	ADP	RP	ADP	14	compound:prt	14:compound:prt	_
+16	as	as	ADP	IN	ADP	19	case	19:case	_
+17	a	a	DET	DT	DET;INDF	19	det	19:det	_
+18	decent	decent	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	experience	experience	NOUN	NN	N;SG	14	obl	14:obl:as	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-229410-0003
+# text = He was referred to me by a friend, who didn't have the best experience with Ted, but said that Ted was able to make up for his lack of preparedness at the end.
+1	He	he	PRON	PRP	SG;MASC;PRO;3;NOM	3	nsubj:pass	3:nsubj:pass	_
+2	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	3	aux:pass	3:aux:pass	_
+3	referred	refer	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+4	to	to	ADP	IN	ADP	5	case	5:case	_
+5	me	I	PRON	PRP	SG;PRO;1;ACC	3	obl	3:obl:to	_
+6	by	by	ADP	IN	ADP	8	case	8:case	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	friend	friend	NOUN	NN	N;SG	3	obl:agent	3:obl:agent|13:nsubj|21:nsubj	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	who	who	PRON	WP	PRO	13	nsubj	8:ref	_
+11-12	didn't	_	_	_	_	_	_	_	_
+11	did	do	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+12	n't	not	PART	RB	PART	13	advmod	13:advmod	_
+13	have	have	VERB	VB	V;NFIN	8	acl:relcl	8:acl:relcl	Cxn=rc-wh-nsubj
+14	the	the	DET	DT	DEF;DET	16	det	16:det	_
+15	best	good	ADJ	JJS	ADJ;RL	16	amod	16:amod	_
+16	experience	experience	NOUN	NN	N;SG	13	obj	13:obj	_
+17	with	with	ADP	IN	ADP	18	case	18:case	_
+18	Ted	Ted	PROPN	NNP	PROPN;SG	16	nmod	16:nmod:with	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	21:punct	_
+20	but	but	CCONJ	CC	CONJ	21	cc	21:cc	_
+21	said	say	VERB	VBD	FIN;SG;V;IND;3;PST	13	conj	8:acl:relcl|13:conj:but	_
+22	that	that	SCONJ	IN	CONJ	25	mark	25:mark	_
+23	Ted	Ted	PROPN	NNP	PROPN;SG	25	nsubj	25:nsubj|27:nsubj:xsubj	_
+24	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	25	cop	25:cop	_
+25	able	able	ADJ	JJ	ADJ	21	ccomp	21:ccomp	_
+26	to	to	PART	TO	PART	27	mark	27:mark	_
+27	make	make	VERB	VB	V;NFIN	25	xcomp	25:xcomp	_
+28	up	up	ADP	RP	ADP	27	compound:prt	27:compound:prt	_
+29	for	for	ADP	IN	ADP	31	case	31:case	_
+30	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	31	nmod:poss	31:nmod:poss	_
+31	lack	lack	NOUN	NN	N;SG	27	obl	27:obl:for	_
+32	of	of	ADP	IN	ADP	33	case	33:case	_
+33	preparedness	preparedness	NOUN	NN	N;SG	31	nmod	31:nmod:of	_
+34	at	at	ADP	IN	ADP	36	case	36:case	_
+35	the	the	DET	DT	DEF;DET	36	det	36:det	_
+36	end	end	NOUN	NN	N;SG	27	obl	27:obl:at	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-229410-0004
+# text = I figure I would give this company a chance.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	figure	figure	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	I	I	PRON	PRP	SG;PRO;NOM;1	5	nsubj	5:nsubj	_
+4	would	would	AUX	MD	V;FIN	5	aux	5:aux	_
+5	give	give	VERB	VB	V;NFIN	2	ccomp	2:ccomp	_
+6	this	this	DET	DT	DET;SG	7	det	7:det	_
+7	company	company	NOUN	NN	N;SG	5	iobj	5:iobj	_
+8	a	a	DET	DT	DET;INDF	9	det	9:det	_
+9	chance	chance	NOUN	NN	N;SG	5	obj	5:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-229410-0005
+# text = However, after giving a required $500.00 (NON REFUNDABLE) deposit before seeing any plans or ideas, I was sorry I did.
+1	However	however	ADV	RB	ADV	23	advmod	23:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	after	after	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	giving	give	VERB	VBG	V.PTCP;V;PRS	23	advcl	23:advcl:after	_
+5	a	a	DET	DT	DET;INDF	13	det	13:det	_
+6	required	require	VERB	VBN	V.PTCP;PST;PASS;V	13	amod	13:amod	_
+7	$	$	SYM	$	_	13	compound	13:compound	SpaceAfter=No
+8	500.00	500.00	NUM	CD	NUM	7	nummod	7:nummod	_
+9	(	(	PUNCT	-LRB-	_	11	punct	11:punct	SpaceAfter=No
+10	NON	non	ADV	AFX	ADV	11	advmod	11:advmod	_
+11	REFUNDABLE	refundable	ADJ	JJ	ADJ	13	amod	13:amod	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+13	deposit	deposit	NOUN	NN	N;SG	4	obj	4:obj	_
+14	before	before	SCONJ	IN	CONJ	15	mark	15:mark	_
+15	seeing	see	VERB	VBG	V.PTCP;V;PRS	4	advcl	4:advcl:before	_
+16	any	any	DET	DT	DET	17	det	17:det	_
+17	plans	plan	NOUN	NNS	N;PL	15	obj	15:obj	_
+18	or	or	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	ideas	idea	NOUN	NNS	N;PL	17	conj	15:obj|17:conj:or	SpaceAfter=No
+20	,	,	PUNCT	,	_	4	punct	4:punct	_
+21	I	I	PRON	PRP	SG;PRO;NOM;1	23	nsubj	23:nsubj	_
+22	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	23	cop	23:cop	_
+23	sorry	sorry	ADJ	JJ	ADJ	0	root	0:root	_
+24	I	I	PRON	PRP	SG;PRO;NOM;1	25	nsubj	25:nsubj	_
+25	did	do	AUX	VBD	FIN;SG;V;IND;PST;1	23	ccomp	23:ccomp	SpaceAfter=No
+26	.	.	PUNCT	.	_	23	punct	23:punct	_
+
+# sent_id = reviews-229410-0006
+# text = We met a couple of weeks later, Ted was late.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	2	nsubj	2:nsubj	_
+2	met	meet	VERB	VBD	FIN;V;PST;IND;PL;1	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	couple	couple	NOUN	NN	N;SG	7	obl:npmod	7:obl:npmod	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	weeks	week	NOUN	NNS	N;PL	4	nmod	4:nmod:of	_
+7	later	late	ADV	RBR	ADV;CMPR	2	advmod	2:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	Ted	Ted	PROPN	NNP	PROPN;SG	11	nsubj	11:nsubj	_
+10	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	11	cop	11:cop	_
+11	late	late	ADJ	JJ	ADJ	2	parataxis	2:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-229410-0007
+# text = He brought fabric books, and pictures of furniture only, which all came way over budget.
+1	He	he	PRON	PRP	SG;MASC;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	brought	bring	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+3	fabric	fabric	NOUN	NN	N;SG	4	compound	4:compound	_
+4	books	book	NOUN	NNS	N;PL	2	obj	2:obj|14:nsubj	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	pictures	picture	NOUN	NNS	N;PL	4	conj	2:obj|4:conj:and|14:nsubj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	furniture	furniture	NOUN	NN	N;SG	7	nmod	7:nmod:of	_
+10	only	only	ADV	RB	ADV	7	advmod	7:advmod	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	which	which	PRON	WDT	PRO	14	nsubj	4:ref	_
+13	all	all	DET	DT	DET	12	det	12:det	_
+14	came	come	VERB	VBD	FIN;V;IND;3;PST;PL	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+15	way	way	ADV	RB	ADV	17	advmod	17:advmod	_
+16	over	over	ADP	IN	ADP	17	case	17:case	_
+17	budget	budget	NOUN	NN	N;SG	14	obl	14:obl:over	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-229410-0008
+# text = By the time we got to the budget i told him I could work with, there was basically no design.
+1	By	by	ADP	IN	ADP	3	case	3:case	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	time	time	NOUN	NN	N;SG	18	obl	5:obl|18:obl:by	_
+4	we	we	PRON	PRP	PRO;PL;NOM;1	5	nsubj	5:nsubj	_
+5	got	get	VERB	VBD	FIN;V;PST;IND;PL;1	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obl-pstrand
+6	to	to	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	budget	budget	NOUN	NN	N;SG	5	obl	5:obl:to|10:obl	_
+9	i	I	PRON	PRP	SG;PRO;NOM;1	10	nsubj	10:nsubj	_
+10	told	tell	VERB	VBD	FIN;SG;V;IND;PST;1	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obl-pstrand
+11	him	he	PRON	PRP	SG;MASC;PRO;3;ACC	10	iobj	10:iobj	_
+12	I	I	PRON	PRP	SG;PRO;NOM;1	14	nsubj	14:nsubj	_
+13	could	could	AUX	MD	V;FIN	14	aux	14:aux	_
+14	work	work	VERB	VB	V;NFIN	10	ccomp	10:ccomp	_
+15	with	with	ADP	IN	ADP	14	obl	14:obl	Promoted=Yes|SpaceAfter=No
+16	,	,	PUNCT	,	_	3	punct	3:punct	_
+17	there	there	PRON	EX	PRO	18	expl	18:expl	_
+18	was	be	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+19	basically	basically	ADV	RB	ADV	18	advmod	18:advmod	_
+20	no	no	DET	DT	DET	21	det	21:det	_
+21	design	design	NOUN	NN	N;SG	18	nsubj	18:nsubj	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = reviews-229410-0009
+# text = Just curtains and a couple of accessories.
+1	Just	just	ADV	RB	ADV	2	advmod	2:advmod	_
+2	curtains	curtain	NOUN	NNS	N;PL	0	root	0:root	_
+3	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	couple	couple	NOUN	NN	N;SG	2	conj	2:conj:and	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	accessories	accessory	NOUN	NNS	N;PL	5	nmod	5:nmod:of	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-229410-0010
+# text = WHAT IS THAT?????
+1	WHAT	what	PRON	WP	PRO	0	root	0:root	_
+2	IS	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	cop	1:cop	_
+3	THAT	that	PRON	DT	PRO;SG	1	nsubj	1:nsubj	SpaceAfter=No
+4	?????	?????	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-229410-0011
+# text = This company is way too expensive with nothing to show for it.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	company	company	NOUN	NN	N;SG	6	nsubj	6:nsubj	_
+3	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	6	cop	6:cop	_
+4	way	way	ADV	RB	ADV	6	advmod	6:advmod	_
+5	too	too	ADV	RB	ADV	6	advmod	6:advmod	_
+6	expensive	expensive	ADJ	JJ	ADJ	0	root	0:root	_
+7	with	with	ADP	IN	ADP	8	case	8:case	_
+8	nothing	nothing	PRON	NN	PRO;SG	6	obl	6:obl:with	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	show	show	VERB	VB	V;NFIN	8	acl	8:acl:to	_
+11	for	for	ADP	IN	ADP	12	case	12:case	_
+12	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	10	obl	10:obl:for	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = reviews-229410-0012
+# text = Please everyone....take heed and don't get caught up in the hype about DECOR and YOU working with every budget...
+1	Please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+2	everyone	everyone	PRON	NN	PRO;SG	4	nsubj	4:nsubj|10:nsubj:pass	SpaceAfter=No
+3	....	....	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
+4	take	take	VERB	VB	V;FIN;IMP	0	root	0:root	_
+5	heed	heed	NOUN	NN	N;SG	4	obj	4:obj	_
+6	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+7-8	don't	_	_	_	_	_	_	_	_
+7	do	do	AUX	VB	V;FIN;IMP	10	aux	10:aux	_
+8	n't	not	PART	RB	PART	10	advmod	10:advmod	_
+9	get	get	AUX	VB	V;FIN;IMP	10	aux:pass	10:aux:pass	_
+10	caught	catch	VERB	VBN	V.PTCP;PST;PASS;V	4	conj	4:conj:and	_
+11	up	up	ADP	RP	ADP	10	compound:prt	10:compound:prt	_
+12	in	in	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	hype	hype	NOUN	NN	N;SG	10	obl	10:obl:in	_
+15	about	about	SCONJ	IN	CONJ	19	mark	19:mark	_
+16	DECOR	DECOR	PROPN	NNP	PROPN;SG	19	nsubj	19:nsubj	_
+17	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+18	YOU	YOU	PROPN	NNP	PROPN;SG	16	conj	16:conj:and|19:nsubj	_
+19	working	work	VERB	VBG	V.MSDR;V	14	acl	14:acl:about	_
+20	with	with	ADP	IN	ADP	22	case	22:case	_
+21	every	every	DET	DT	DET	22	det	22:det	_
+22	budget	budget	NOUN	NN	N;SG	19	obl	19:obl:with	SpaceAfter=No
+23	...	...	PUNCT	.	_	4	punct	4:punct	SpaceAfter=No
+
+# sent_id = reviews-229410-0013
+# text = This is just a way for them to squirm their way into your precious pocket
+1	This	this	PRON	DT	PRO;SG	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+3	just	just	ADV	RB	ADV	5	advmod	5:advmod	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	way	way	NOUN	NN	N;SG	0	root	0:root	_
+6	for	for	SCONJ	IN	CONJ	9	mark	9:mark	_
+7	them	they	PRON	PRP	PRO;3;PL;ACC	9	nsubj	9:nsubj	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	squirm	squirm	VERB	VB	V;NFIN	5	acl	5:acl:to	_
+10	their	their	PRON	PRP$	PRO;3;PL;GEN	11	nmod:poss	11:nmod:poss	_
+11	way	way	NOUN	NN	N;SG	9	obj	9:obj	_
+12	into	into	ADP	IN	ADP	15	case	15:case	_
+13	your	your	PRON	PRP$	2;PRO;GEN	15	nmod:poss	15:nmod:poss	_
+14	precious	precious	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	pocket	pocket	NOUN	NN	N;SG	9	obl	9:obl:into	_
+
+# newdoc id = reviews-162422
+# sent_id = reviews-162422-0001
+# newpar id = reviews-162422-p0001
+# text = Horrible.
+1	Horrible	horrible	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-162422-0002
+# text = Horrible.
+1	Horrible	horrible	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-162422-0003
+# text = When we walked in, the person behind desk said: "oh well, you must wait, I am in the middle of something."
+1	When	when	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	we	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj	_
+3	walked	walk	VERB	VBD	FIN;V;PST;IND;PL;1	10	advcl	10:advcl:when	_
+4	in	in	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	3:punct	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	person	person	NOUN	NN	N;SG	10	nsubj	10:nsubj	_
+8	behind	behind	ADP	IN	ADP	9	case	9:case	_
+9	desk	desk	NOUN	NN	N;SG	7	nmod	7:nmod:behind	_
+10	said	say	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	SpaceAfter=No
+11	:	:	PUNCT	:	_	18	punct	18:punct	_
+12	"	"	PUNCT	``	_	18	punct	18:punct	SpaceAfter=No
+13	oh	oh	INTJ	UH	INTJ	18	discourse	18:discourse	_
+14	well	well	INTJ	UH	INTJ	13	discourse	13:discourse	SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	13:punct	_
+16	you	you	PRON	PRP	PRO;2;NOM	18	nsubj	18:nsubj	_
+17	must	must	AUX	MD	V;FIN	18	aux	18:aux	_
+18	wait	wait	VERB	VB	V;NFIN	10	ccomp	10:ccomp	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	24:punct	_
+20	I	I	PRON	PRP	SG;PRO;NOM;1	24	nsubj	24:nsubj	_
+21	am	be	AUX	VBP	FIN;SG;V;PRS;IND;1	24	cop	24:cop	_
+22	in	in	ADP	IN	ADP	24	case	24:case	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	middle	middle	NOUN	NN	N;SG	18	parataxis	18:parataxis	_
+25	of	of	ADP	IN	ADP	26	case	26:case	_
+26	something	something	PRON	NN	PRO;SG	24	nmod	24:nmod:of	SpaceAfter=No
+27	.	.	PUNCT	.	_	18	punct	18:punct	SpaceAfter=No
+28	"	"	PUNCT	''	_	18	punct	18:punct	_
+
+# sent_id = reviews-162422-0004
+# text = After a good few minutes, he asked: "what do you want?"
+1	After	after	ADP	IN	ADP	5	case	5:case	_
+2	a	a	DET	DT	DET;INDF	5	det	5:det	_
+3	good	good	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	few	few	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	minutes	minute	NOUN	NNS	N;PL	8	obl	8:obl:after	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	8	nsubj	8:nsubj	_
+8	asked	ask	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	SpaceAfter=No
+9	:	:	PUNCT	:	_	14	punct	14:punct	_
+10	"	"	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
+11	what	what	PRON	WP	PRO	14	obj	14:obj	_
+12	do	do	AUX	VBP	2;FIN;SG;V;PRS;IND	14	aux	14:aux	_
+13	you	you	PRON	PRP	PRO;2;NOM	14	nsubj	14:nsubj	_
+14	want	want	VERB	VB	V;NFIN	8	ccomp	8:ccomp	SpaceAfter=No
+15	?	?	PUNCT	.	_	14	punct	14:punct	SpaceAfter=No
+16	"	"	PUNCT	''	_	14	punct	14:punct	_
+
+# sent_id = reviews-162422-0005
+# text = Somewhere in between his rudeness he asked if we smoked.
+1	Somewhere	somewhere	ADV	RB	ADV	7	advmod	7:advmod	_
+2	in	in	ADP	IN	ADP	5	case	5:case	_
+3	between	between	ADP	IN	ADP	2	fixed	2:fixed	_
+4	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	5	nmod:poss	5:nmod:poss	_
+5	rudeness	rudeness	NOUN	NN	N;SG	1	obl	1:obl:in_between	_
+6	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	7	nsubj	7:nsubj	_
+7	asked	ask	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+8	if	if	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	we	we	PRON	PRP	PRO;PL;NOM;1	10	nsubj	10:nsubj	_
+10	smoked	smoke	VERB	VBD	FIN;V;PST;IND;PL;1	7	ccomp	7:ccomp	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-162422-0006
+# text = I asked if this hotel had smoking rooms.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	asked	ask	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+3	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	this	this	DET	DT	DET;SG	5	det	5:det	_
+5	hotel	hotel	NOUN	NN	N;SG	6	nsubj	6:nsubj	_
+6	had	have	VERB	VBD	FIN;SG;V;IND;3;PST	2	ccomp	2:ccomp	_
+7	smoking	smoking	NOUN	NN	N;SG	8	compound	8:compound	_
+8	rooms	room	NOUN	NNS	N;PL	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162422-0007
+# text = He immediately said "no, there is a $50 deposit now!"
+1	He	he	PRON	PRP	SG;MASC;PRO;3;NOM	3	nsubj	3:nsubj	_
+2	immediately	immediately	ADV	RB	ADV	3	advmod	3:advmod	_
+3	said	say	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+4	"	"	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No
+5	no	no	INTJ	UH	INTJ	8	discourse	8:discourse	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	there	there	PRON	EX	PRO	8	expl	8:expl	_
+8	is	be	VERB	VBZ	FIN;SG;V;PRS;IND;3	3	ccomp	3:ccomp	_
+9	a	a	DET	DT	DET;INDF	12	det	12:det	_
+10	$	$	SYM	$	_	12	compound	12:compound	SpaceAfter=No
+11	50	50	NUM	CD	NUM	10	nummod	10:nummod	_
+12	deposit	deposit	NOUN	NN	N;SG	8	nsubj	8:nsubj	_
+13	now	now	ADV	RB	ADV	8	advmod	8:advmod	SpaceAfter=No
+14	!	!	PUNCT	.	_	8	punct	8:punct	SpaceAfter=No
+15	"	"	PUNCT	''	_	8	punct	8:punct	_
+
+# sent_id = reviews-162422-0008
+# text = Sure enough he charged it to the credit card.
+1	Sure	sure	ADV	RB	ADV	4	advmod	4:advmod	_
+2	enough	enough	ADV	RB	ADV	1	advmod	1:advmod	_
+3	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	4	nsubj	4:nsubj	_
+4	charged	charge	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+5	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	4	obj	4:obj	_
+6	to	to	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	credit	credit	NOUN	NN	N;SG	9	compound	9:compound	_
+9	card	card	NOUN	NN	N;SG	4	obl	4:obl:to	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-162422-0009
+# text = When I inquired he rudely replied "in the morning when things are checked out you'll get it back."
+1	When	when	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj	_
+3	inquired	inquire	VERB	VBD	FIN;SG;V;IND;PST;1	6	advcl	6:advcl:when	_
+4	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	6	nsubj	6:nsubj	_
+5	rudely	rudely	ADV	RB	ADV	6	advmod	6:advmod	_
+6	replied	reply	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+7	"	"	PUNCT	``	_	18	punct	18:punct	SpaceAfter=No
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	morning	morning	NOUN	NN	N;SG	18	obl	18:obl:in	_
+11	when	when	ADV	WRB	ADV	14	advmod	14:advmod	_
+12	things	thing	NOUN	NNS	N;PL	14	nsubj:pass	14:nsubj:pass	_
+13	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	14	aux:pass	14:aux:pass	_
+14	checked	check	VERB	VBN	V.PTCP;PST;PASS;V	18	advcl	18:advcl:when	_
+15	out	out	ADP	RP	ADP	14	compound:prt	14:compound:prt	_
+16-17	you'll	_	_	_	_	_	_	_	_
+16	you	you	PRON	PRP	PRO;2;NOM	18	nsubj	18:nsubj	_
+17	'll	will	AUX	MD	V;FIN	18	aux	18:aux	_
+18	get	get	VERB	VB	V;NFIN	6	ccomp	6:ccomp	_
+19	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	18	obj	18:obj	_
+20	back	back	ADV	RB	ADV	18	advmod	18:advmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	18	punct	18:punct	SpaceAfter=No
+22	"	"	PUNCT	''	_	18	punct	18:punct	_
+
+# sent_id = reviews-162422-0010
+# text = I called customer service about it because the website specifically states that there are no other charges at the check-in.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	called	call	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+3	customer	customer	NOUN	NN	N;SG	4	compound	4:compound	_
+4	service	service	NOUN	NN	N;SG	2	obj	2:obj	_
+5	about	about	ADP	IN	ADP	6	case	6:case	_
+6	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	2	obl	2:obl:about	_
+7	because	because	SCONJ	IN	CONJ	11	mark	11:mark	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	website	website	NOUN	NN	N;SG	11	nsubj	11:nsubj	_
+10	specifically	specifically	ADV	RB	ADV	11	advmod	11:advmod	_
+11	states	state	VERB	VBZ	FIN;SG;V;PRS;IND;3	2	advcl	2:advcl:because	_
+12	that	that	SCONJ	IN	CONJ	14	mark	14:mark	_
+13	there	there	PRON	EX	PRO	14	expl	14:expl	_
+14	are	be	VERB	VBP	FIN;V;PRS;IND;3;PL	11	ccomp	11:ccomp	_
+15	no	no	DET	DT	DET	17	det	17:det	_
+16	other	other	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	charges	charge	NOUN	NNS	N;PL	14	nsubj	14:nsubj	_
+18	at	at	ADP	IN	ADP	22	case	22:case	_
+19	the	the	DET	DT	DEF;DET	22	det	22:det	_
+20	check	check	NOUN	NN	N;SG	22	compound	22:compound	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	punct	20:punct	SpaceAfter=No
+22	in	in	NOUN	NN	N;SG	14	obl	14:obl:at	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162422-0011
+# text = I also mentioned to the reception person.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj	_
+2	also	also	ADV	RB	ADV	3	advmod	3:advmod	_
+3	mentioned	mention	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+4	to	to	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	reception	reception	NOUN	NN	N;SG	7	compound	7:compound	_
+7	person	person	NOUN	NN	N;SG	3	obl	3:obl:to	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-162422-0012
+# text = He responded "we have problem with 'people'".
+1	He	he	PRON	PRP	SG;MASC;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	responded	respond	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+3	"	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+4	we	we	PRON	PRP	PRO;PL;NOM;1	5	nsubj	5:nsubj	_
+5	have	have	VERB	VBP	FIN;V;PRS;IND;PL;1	2	ccomp	2:ccomp	_
+6	problem	problem	NOUN	NN	N;SG	5	obj	5:obj	_
+7	with	with	ADP	IN	ADP	9	case	9:case	_
+8	'	'	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+9	people	people	NOUN	NNS	N;PL	6	nmod	6:nmod:with	SpaceAfter=No
+10	'	'	PUNCT	''	_	9	punct	9:punct	SpaceAfter=No
+11	"	"	PUNCT	''	_	5	punct	5:punct	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162422-0013
+# text = Imagine a hotel having problems with people.
+1	Imagine	imagine	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	a	a	DET	DT	DET;INDF	3	det	3:det	_
+3	hotel	hotel	NOUN	NN	N;SG	4	nsubj	4:nsubj	_
+4	having	have	VERB	VBG	V.MSDR;V	1	ccomp	1:ccomp	_
+5	problems	problem	NOUN	NNS	N;PL	4	obj	4:obj	_
+6	with	with	ADP	IN	ADP	7	case	7:case	_
+7	people	people	NOUN	NNS	N;PL	5	nmod	5:nmod:with	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-162422-0014
+# text = I finally alerted him to his rudeness.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj	_
+2	finally	finally	ADV	RB	ADV	3	advmod	3:advmod	_
+3	alerted	alert	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+4	him	he	PRON	PRP	SG;MASC;PRO;3;ACC	3	obj	3:obj	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	7	nmod:poss	7:nmod:poss	_
+7	rudeness	rudeness	NOUN	NN	N;SG	3	obl	3:obl:to	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-162422-0015
+# text = He said he's had a long and bad day.
+1	He	he	PRON	PRP	SG;MASC;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	said	say	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+3-4	he's	_	_	_	_	_	_	_	_
+3	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	5	nsubj	5:nsubj	_
+4	's	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	aux	5:aux	_
+5	had	have	VERB	VBN	V.PTCP;PST;V	2	ccomp	2:ccomp	_
+6	a	a	DET	DT	DET;INDF	10	det	10:det	_
+7	long	long	ADJ	JJ	ADJ	10	amod	10:amod	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	bad	bad	ADJ	JJ	ADJ	7	conj	7:conj:and|10:amod	_
+10	day	day	NOUN	NN	N;SG	5	obj	5:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162422-0016
+# text = We had no choice but to stay but will take this as far as we can.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	2	nsubj	2:nsubj|10:nsubj	_
+2	had	have	VERB	VBD	FIN;V;PST;IND;PL;1	0	root	0:root	_
+3	no	no	DET	DT	DET	4	det	4:det	_
+4	choice	choice	NOUN	NN	N;SG	2	obj	2:obj	_
+5	but	but	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	stay	stay	VERB	VB	V;NFIN	4	acl	4:acl:to	_
+8	but	but	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	will	will	AUX	MD	V;FIN	10	aux	10:aux	_
+10	take	take	VERB	VB	V;NFIN	2	conj	2:conj:but	_
+11	this	this	PRON	DT	PRO;SG	10	obj	10:obj	_
+12	as	as	ADV	RB	ADV	13	advmod	13:advmod	_
+13	far	far	ADV	RB	ADV	10	advmod	10:advmod	_
+14	as	as	SCONJ	IN	CONJ	16	mark	16:mark	_
+15	we	we	PRON	PRP	PRO;PL;NOM;1	16	nsubj	16:nsubj	_
+16	can	can	AUX	MD	V;FIN	13	advcl	13:advcl:as	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162422-0017
+# text = Don't stay there.
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	V;FIN;IMP	3	aux	3:aux	_
+2	n't	not	PART	RB	PART	3	advmod	3:advmod	_
+3	stay	stay	VERB	VB	V;FIN;IMP	0	root	0:root	_
+4	there	there	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	3:punct	_
+

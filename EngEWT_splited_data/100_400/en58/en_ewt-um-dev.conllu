@@ -1,0 +1,48 @@
+# sent_id = email-enronsent23_14-0016
+# text = whatever, you're the perverted old man.
+1	whatever	whatever	INTJ	WP	INTJ	8	discourse	8:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3-4	you're	_	_	_	_	_	_	_	_
+3	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj	_
+4	're	be	AUX	VBP	FIN;PRS;2;V;IND;SG	8	cop	8:cop	_
+5	the	the	DET	DT	DET;DEF	8	det	8:det	_
+6	perverted	perverted	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	old	old	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	man	man	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent23_14-0017
+# newpar id = email-enronsent23_14-p0007
+# text = you love it when i come over.
+1	you	you	PRON	PRP	NOM;2;PRO	2	nsubj	2:nsubj	_
+2	love	love	VERB	VBP	FIN;PRS;2;V;IND;SG	0	root	0:root	_
+3	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	2	obj	2:obj	_
+4	when	when	ADV	WRB	ADV	6	advmod	6:advmod	_
+5	i	I	PRON	PRP	PRO;1;NOM;SG	6	nsubj	6:nsubj	_
+6	come	come	VERB	VBP	FIN;PRS;1;V;IND;SG	2	advcl	2:advcl:when	_
+7	over	over	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_14-0018
+# text = i satisfy your appetitie for lovin.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	satisfy	satisfy	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	your	your	PRON	PRP$	PRO;GEN;2	4	nmod:poss	4:nmod:poss	_
+4	appetitie	appetitie	NOUN	NN	SG;N	2	obj	2:obj	_
+5	for	for	ADP	IN	ADP	6	case	6:case	_
+6	lovin	lovin	NOUN	NN	SG;N	4	nmod	4:nmod:for	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = email-enronsent20_02
+# sent_id = email-enronsent20_02-0001
+# newpar id = email-enronsent20_02-p0001
+# text = Robert Bryngelson@AZURIX
+1	Robert	RobertBryngelson@AZURIX	PROPN	GW	PROPN	0	root	0:root	_
+2	Bryngelson@AZURIX	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent20_02-0002
+# text = 08/16/2000 12:05 PM
+1	08/16/2000	08/16/2000	NUM	CD	NUM	0	root	0:root	_
+2	12:05	12:05	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+

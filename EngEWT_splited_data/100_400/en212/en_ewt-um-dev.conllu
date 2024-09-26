@@ -1,0 +1,62 @@
+# sent_id = answers-20111108082040AAmrGJ5_ans-0002
+# newpar id = answers-20111108082040AAmrGJ5_ans-p0002
+# text = any?
+1	any	any	DET	DT	DET	0	root	0:root	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108082040AAmrGJ5_ans-0003
+# text = I assume you mean the crazy horse memorial.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	assume	assume	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	mean	mean	VERB	VBP	FIN;PRS;2;V;IND;SG	2	ccomp	2:ccomp	_
+5	the	the	DET	DT	DET;DEF	8	det	8:det	_
+6	crazy	crazy	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	horse	horse	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+8	memorial	memorial	NOUN	NN	SG;N	4	obj	4:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108082040AAmrGJ5_ans-0004
+# text = they have their own website which you can easily find using any search engine.
+1	they	they	PRON	PRP	PRO;3;PL;NOM	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+3	their	their	PRON	PRP$	PRO;GEN;3;PL	5	nmod:poss	5:nmod:poss	_
+4	own	own	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	website	website	NOUN	NN	SG;N	2	obj	2:obj|10:obj	_
+6	which	which	PRON	WDT	PRO	10	obj	5:ref	_
+7	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+8	can	can	AUX	MD	FIN;V	10	aux	10:aux	_
+9	easily	easily	ADV	RB	ADV	10	advmod	10:advmod	_
+10	find	find	VERB	VB	NFIN;V	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-obj
+11	using	use	VERB	VBG	PRS;V;V.PTCP	10	advcl	10:advcl	_
+12	any	any	DET	DT	DET	14	det	14:det	_
+13	search	search	NOUN	NN	SG;N	14	compound	14:compound	_
+14	engine	engine	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108082040AAmrGJ5_ans-0005
+# text = http://www.google.com/search?aq=0&oq=crazy+horse+mem&gcx=w&sourceid=chrome&ie=UTF-8&q=crazy+horse+memorial
+1	http://www.google.com/search?aq=0&oq=crazy+horse+mem&gcx=w&sourceid=chrome&ie=UTF-8&q=crazy+horse+memorial	http://www.google.com/search?aq=0&oq=crazy+horse+mem&gcx=w&sourceid=chrome&ie=UTF-8&q=crazy+horse+memorial	PROPN	ADD	PROPN	0	root	0:root	_
+
+# newdoc id = answers-20111107213255AAT0HQq_ans
+# sent_id = answers-20111107213255AAT0HQq_ans-0001
+# newpar id = answers-20111107213255AAT0HQq_ans-p0001
+# text = How to prepare a silicon rubber mould for human statue of size 375mm in height?
+1	How	how	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	prepare	prepare	VERB	VB	NFIN;V	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	7	det	7:det	_
+5	silicon	silicon	NOUN	NN	SG;N	6	compound	6:compound	_
+6	rubber	rubber	NOUN	NN	SG;N	7	compound	7:compound	_
+7	mould	mould	NOUN	NN	SG;N	3	obj	3:obj	_
+8	for	for	ADP	IN	ADP	10	case	10:case	_
+9	human	human	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	statue	statue	NOUN	NN	SG;N	3	obl	3:obl:for	_
+11	of	of	ADP	IN	ADP	12	case	12:case	_
+12	size	size	NOUN	NN	SG;N	10	nmod	10:nmod:of	_
+13	375	375	NUM	CD	NUM	14	nummod	14:nummod	SpaceAfter=No
+14	mm	mm	NOUN	NNS	PL;N	12	appos	12:appos	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	height	height	NOUN	NN	SG;N	14	nmod	14:nmod:in	SpaceAfter=No
+17	?	?	PUNCT	.	_	3	punct	3:punct	_
+

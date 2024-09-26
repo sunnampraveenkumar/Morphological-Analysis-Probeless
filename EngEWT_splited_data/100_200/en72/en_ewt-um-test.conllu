@@ -1,0 +1,89 @@
+# sent_id = email-enronsent18_02-0057
+# newpar id = email-enronsent18_02-p0026
+# text = Good luck.
+1	Good	good	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	luck	luck	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent18_02-0058
+# newpar id = email-enronsent18_02-p0027
+# text = Vince
+1	Vince	Vince	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0059
+# newpar id = email-enronsent18_02-p0028
+# text = Vince J Kaminski
+1	Vince	Vince	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	J	J	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Kaminski	Kaminski	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent18_02-0060
+# text = 01/24/2001 11:21 AM
+1	01/24/2001	01/24/2001	NUM	CD	NUM	0	root	0:root	_
+2	11:21	11:21	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent18_02-0061
+# text = Al,
+1	Al	Al	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_02-0062
+# newpar id = email-enronsent18_02-p0029
+# text = I have called Mark Lay and left a message on his voice mail.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|7:nsubj	_
+2	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	called	call	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	Mark	Mark	PROPN	NNP	SG;PROPN	3	obj	3:obj	_
+5	Lay	Lay	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	left	leave	VERB	VBN	PST;V;V.PTCP	3	conj	3:conj:and	_
+8	a	a	DET	DT	INDF;DET	9	det	9:det	_
+9	message	message	NOUN	NN	SG;N	7	obj	7:obj	_
+10	on	on	ADP	IN	ADP	13	case	13:case	_
+11	his	his	PRON	PRP$	GEN;PRO;3;SG;MASC	13	nmod:poss	13:nmod:poss	_
+12	voice	voice	NOUN	NN	SG;N	13	compound	13:compound	_
+13	mail	mail	NOUN	NN	SG;N	7	obl	7:obl:on	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent18_02-0063
+# newpar id = email-enronsent18_02-p0030
+# text = Vince
+1	Vince	Vince	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0064
+# newpar id = email-enronsent18_02-p0031
+# text = Al Arfsten <arfsten@bflassociates.com> on 01/24/2001 11:16:25 AM
+1	Al	Al	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Arfsten	Arfsten	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	<	<	PUNCT	-LRB-	_	4	punct	4:punct	SpaceAfter=No
+4	arfsten@bflassociates.com	arfsten@bflassociates.com	PROPN	ADD	PROPN	1	list	1:list	SpaceAfter=No
+5	>	>	PUNCT	-RRB-	_	4	punct	4:punct	_
+6	on	on	ADP	IN	ADP	7	case	7:case	_
+7	01/24/2001	01/24/2001	NUM	CD	NUM	1	nmod	1:nmod:on	_
+8	11:16:25	11:16:25	NUM	CD	NUM	9	nummod	9:nummod	_
+9	AM	a.m.	NOUN	NN	SG;N	7	nmod:tmod	7:nmod:tmod	_
+
+# sent_id = email-enronsent18_02-0065
+# text = Vince:
+1	Vince	Vince	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_02-0066
+# text = Your suggestion to introduce the concept discussed with one of the Lays is welcomed.
+1	Your	your	PRON	PRP$	GEN;PRO;2	2	nmod:poss	2:nmod:poss	_
+2	suggestion	suggestion	NOUN	NN	SG;N	14	nsubj:pass	14:nsubj:pass	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	introduce	introduce	VERB	VB	NFIN;V	2	acl	2:acl:to	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	concept	concept	NOUN	NN	SG;N	4	obj	4:obj	_
+7	discussed	discuss	VERB	VBN	PASS;PST;V;V.PTCP	6	acl	6:acl	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	one	one	NUM	CD	NUM	7	obl	7:obl:with	_
+10	of	of	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	Lays	Lays	PROPN	NNPS	PROPN;PL	9	nmod	9:nmod:of	_
+13	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	14	aux:pass	14:aux:pass	_
+14	welcomed	welcome	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	14:punct	_
+

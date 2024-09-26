@@ -1,0 +1,81 @@
+# sent_id = email-enronsent01_01-0018
+# newpar id = email-enronsent01_01-p0008
+# text = Mixed A/ATeam 2: Coach: Melanie King Brandon Luna - Analyst, Bryan Hull - Analyst, Eduardo Tellechea - Associate, Milson Mundim - Associate
+1	Mixed	mix	VERB	VBN	PASS;V;V.PTCP;PST	5	amod	5:amod	_
+2	A	A	NOUN	NN	SG;N	4	compound	4:compound	SpaceAfter=No
+3	/	/	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
+4	A	A	NOUN	NN	SG;N	5	compound	5:compound	CorrectSpaceAfter=Yes|SpaceAfter=No
+5	Team	team	NOUN	NN	SG;N	0	root	0:root	_
+6	2	2	NUM	CD	NUM	5	nummod	5:nummod	SpaceAfter=No
+7	:	:	PUNCT	:	_	8	punct	8:punct	_
+8	Coach	coach	NOUN	NN	SG;N	5	list	5:list	SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	10:punct	_
+10	Melanie	Melanie	PROPN	NNP	SG;PROPN	5	appos	5:appos	_
+11	King	King	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+12	Brandon	Brandon	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+13	Luna	Luna	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+14	-	-	PUNCT	,	_	15	punct	15:punct	_
+15	Analyst	analyst	NOUN	NN	SG;N	10	appos	10:appos	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
+17	Bryan	Bryan	PROPN	NNP	SG;PROPN	5	list	5:list	_
+18	Hull	Hull	PROPN	NNP	SG;PROPN	17	flat	17:flat	_
+19	-	-	PUNCT	,	_	20	punct	20:punct	_
+20	Analyst	analyst	NOUN	NN	SG;N	17	appos	17:appos	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	Eduardo	Eduardo	PROPN	NNP	SG;PROPN	5	list	5:list	_
+23	Tellechea	Tellechea	PROPN	NNP	SG;PROPN	22	flat	22:flat	_
+24	-	-	PUNCT	,	_	25	punct	25:punct	_
+25	Associate	associate	NOUN	NN	SG;N	22	appos	22:appos	SpaceAfter=No
+26	,	,	PUNCT	,	_	27	punct	27:punct	_
+27	Milson	Milson	PROPN	NNP	SG;PROPN	5	list	5:list	_
+28	Mundim	Mundim	PROPN	NNP	SG;PROPN	27	flat	27:flat	_
+29	-	-	PUNCT	,	_	30	punct	30:punct	_
+30	Associate	associate	NOUN	NN	SG;N	27	appos	27:appos	_
+
+# sent_id = email-enronsent01_01-0019
+# text = Alternates: Heather Johnson, Usman Shaukat, Gerard Benitez, Matthew Almy, Travis Hanson
+1	Alternates	alternate	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	Heather	Heather	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+4	Johnson	Johnson	PROPN	NNP	SG;PROPN	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	Usman	Usman	PROPN	NNP	SG;PROPN	3	conj	1:appos|3:conj	_
+7	Shaukat	Shaukat	PROPN	NNP	SG;PROPN	6	flat	6:flat	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	Gerard	Gerard	PROPN	NNP	SG;PROPN	3	conj	1:appos|3:conj	_
+10	Benitez	Benitez	PROPN	NNP	SG;PROPN	9	flat	9:flat	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
+12	Matthew	Matthew	PROPN	NNP	SG;PROPN	3	conj	1:appos|3:conj	_
+13	Almy	Almy	PROPN	NNP	SG;PROPN	12	flat	12:flat	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	Travis	Travis	PROPN	NNP	SG;PROPN	3	conj	1:appos|3:conj	_
+16	Hanson	Hanson	PROPN	NNP	SG;PROPN	15	flat	15:flat	_
+
+# sent_id = email-enronsent01_01-0020
+# text = WHO WANTS TO HELP MILLIONS FOR UNITED WAY?
+1	WHO	who	PRON	WP	PRO	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	WANTS	want	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+3	TO	to	PART	TO	PART	4	mark	4:mark	_
+4	HELP	help	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	MILLIONS	million	NOUN	NNS	PL;N	4	obj	4:obj	_
+6	FOR	for	ADP	IN	ADP	8	case	8:case	_
+7	UNITED	UNITED	ADJ	NNP	ADJ	8	amod	8:amod	_
+8	WAY	WAY	PROPN	NNP	SG;PROPN	4	obl	4:obl:for	SpaceAfter=No
+9	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent01_01-0021
+# text = We hope you do!
+1	We	we	PRON	PRP	PRO;PL;1;NOM	2	nsubj	2:nsubj	_
+2	hope	hope	VERB	VBP	FIN;PRS;PL;1;V;IND	0	root	0:root	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	do	do	AUX	VBP	FIN;PRS;2;V;IND;SG	2	ccomp	2:ccomp	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent01_01-0022
+# newpar id = email-enronsent01_01-p0009
+# text = How to Pledge:
+1	How	how	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	Pledge	pledge	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	3:punct	_
+

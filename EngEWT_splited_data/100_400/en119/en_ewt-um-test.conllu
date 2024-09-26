@@ -1,0 +1,80 @@
+# sent_id = email-enronsent04_01-0032
+# text = Give me a few days, and I'll be in touch.
+1	Give	give	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	ACC;PRO;1;SG	1	iobj	1:iobj	_
+3	a	a	DET	DT	INDF;DET	5	det	5:det	_
+4	few	few	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	days	day	NOUN	NNS	PL;N	1	obj	1:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	12	punct	12:punct	_
+7	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+8-9	I'll	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj	_
+9	'll	will	AUX	MD	V;FIN	12	aux	12:aux	_
+10	be	be	AUX	VB	NFIN;V	12	cop	12:cop	_
+11	in	in	ADP	IN	ADP	12	case	12:case	_
+12	touch	touch	NOUN	NN	SG;N	1	conj	1:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent04_01-0033
+# text = Michael
+1	Michael	Michael	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent04_01-0034
+# text = you guys have any job opening for ex natural gas traders that made their now almost defunctc ompany over 40 million in the last two years?
+1	you	you	PRON	PRP	NOM;2;PRO	2	det	2:det	_
+2	guys	guy	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	any	any	DET	DT	DET	6	det	6:det	_
+5	job	job	NOUN	NN	SG;N	6	compound	6:compound	_
+6	opening	opening	NOUN	NN	SG;N	3	obj	3:obj	_
+7	for	for	ADP	IN	ADP	11	case	11:case	_
+8	ex	ex	X	AFX	_	11	amod	11:amod	_
+9	natural	natural	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	gas	gas	NOUN	NN	SG;N	11	compound	11:compound	_
+11	traders	trader	NOUN	NNS	PL;N	6	nmod	6:nmod:for|13:nsubj	_
+12	that	that	PRON	WDT	PRO	13	nsubj	11:ref	_
+13	made	make	VERB	VBD	PL;PST;V;3;FIN;IND	11	acl:relcl	11:acl:relcl	Cxn=rc-that-nsubj
+14	their	their	PRON	PRP$	GEN;PL;PRO;3	18	nmod:poss	18:nmod:poss	_
+15	now	now	ADV	RB	ADV	17	advmod	17:advmod	_
+16	almost	almost	ADV	RB	ADV	17	advmod	17:advmod	_
+17	defunctc	defunct	ADJ	JJ	ADJ	18	amod	18:amod	CorrectForm=defunct
+18	ompany	ompany	NOUN	NN	SG;N	13	iobj	13:iobj	_
+19	over	over	ADV	RB	ADV	21	advmod	21:advmod	_
+20	40	40	NUM	CD	NUM	21	compound	21:compound	_
+21	million	million	NUM	CD	NUM	13	obj	13:obj	_
+22	in	in	ADP	IN	ADP	26	case	26:case	_
+23	the	the	DET	DT	DEF;DET	26	det	26:det	_
+24	last	last	ADJ	JJ	ADJ	26	amod	26:amod	_
+25	two	two	NUM	CD	NUM	26	nummod	26:nummod	_
+26	years	year	NOUN	NNS	PL;N	13	obl	13:obl:in	SpaceAfter=No
+27	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent04_01-0035
+# text = not sure how much longer ene is going to be around and i'm checking out my options!
+1	not	not	PART	RB	PART	2	advmod	2:advmod	_
+2	sure	sure	ADJ	JJ	ADJ	0	root	0:root	_
+3	how	how	ADV	WRB	ADV	4	advmod	4:advmod	_
+4	much	much	ADV	RB	ADV	8	advmod	8:advmod	_
+5	longer	long	ADV	RBR	ADV;CMPR	4	advmod	4:advmod	_
+6	ene	ene	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj|11:nsubj:xsubj	_
+7	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	aux	8:aux	_
+8	going	go	VERB	VBG	PRS;V;V.PTCP	2	ccomp	2:ccomp	_
+9	to	to	PART	TO	PART	11	mark	11:mark	_
+10	be	be	AUX	VB	NFIN;V	11	cop	11:cop	_
+11	around	around	ADV	RB	ADV	8	xcomp	8:xcomp	_
+12	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+13-14	i'm	_	_	_	_	_	_	_	_
+13	i	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj	_
+14	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	15	aux	15:aux	_
+15	checking	check	VERB	VBG	PRS;V;V.PTCP	2	conj	2:conj:and	_
+16	out	out	ADP	RP	ADP	15	compound:prt	15:compound:prt	_
+17	my	my	PRON	PRP$	GEN;PRO;1;SG	18	nmod:poss	18:nmod:poss	_
+18	options	option	NOUN	NNS	PL;N	15	obj	15:obj	SpaceAfter=No
+19	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = email-enronsent32_01
+# sent_id = email-enronsent32_01-0001
+# newpar id = email-enronsent32_01-p0001
+# text = Rodgers
+1	Rodgers	Rodgers	PROPN	NNP	SG;PROPN	0	root	0:root	_
+

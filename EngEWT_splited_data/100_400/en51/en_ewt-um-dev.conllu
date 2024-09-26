@@ -1,0 +1,79 @@
+# sent_id = email-enronsent23_11-0006
+# text = they look like they were doberman pinchers who were shrunk.
+1	they	they	PRON	PRP	PRO;3;PL;NOM	2	nsubj	2:nsubj	_
+2	look	look	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+3	like	like	SCONJ	IN	CONJ	7	mark	7:mark	_
+4	they	they	PRON	PRP	PRO;3;PL;NOM	7	nsubj	7:nsubj	_
+5	were	be	AUX	VBD	FIN;3;PL;V;IND;PST	7	cop	7:cop	_
+6	doberman	doberman	NOUN	NN	SG;N	7	compound	7:compound	_
+7	pinchers	pincher	NOUN	NNS	PL;N	2	advcl	2:advcl:like|10:nsubj:pass	_
+8	who	who	PRON	WP	PRO	10	nsubj:pass	7:ref	_
+9	were	be	AUX	VBD	FIN;3;PL;V;IND;PST	10	aux:pass	10:aux:pass	_
+10	shrunk	shrink	VERB	VBN	PASS;V;V.PTCP;PST	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj:pass|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_11-0007
+# text = you should get a cockerspaniel.
+1	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+2	should	should	AUX	MD	FIN;V	3	aux	3:aux	_
+3	get	get	VERB	VB	NFIN;V	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	cocker	cocker	NOUN	NN	SG;N	6	compound	6:compound	CorrectSpaceAfter=Yes|SpaceAfter=No
+6	spaniel	spaniel	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_11-0008
+# newpar id = email-enronsent23_11-p0003
+# text = no, i am not kidding and no i don't want it b/c of the taco bell dog.
+1	no	no	INTJ	UH	INTJ	6	discourse	6:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	i	I	PRON	PRP	PRO;1;NOM;SG	6	nsubj	6:nsubj	_
+4	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	6	aux	6:aux	_
+5	not	not	PART	RB	PART	6	advmod	6:advmod	_
+6	kidding	kid	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+7	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+8	no	no	INTJ	UH	INTJ	12	discourse	12:discourse	_
+9	i	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj	_
+10-11	don't	_	_	_	_	_	_	_	_
+10	do	do	AUX	VBP	FIN;PRS;1;V;IND;SG	12	aux	12:aux	_
+11	n't	not	PART	RB	PART	12	advmod	12:advmod	_
+12	want	want	VERB	VB	NFIN;V	6	conj	6:conj:and	_
+13	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	12	obj	12:obj	_
+14	b/c	because	ADP	IN	ADP	19	case	19:case	_
+15	of	of	ADP	IN	ADP	14	fixed	14:fixed	_
+16	the	the	DET	DT	DET;DEF	19	det	19:det	_
+17	taco	taco	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	bell	bell	PROPN	NNP	SG;PROPN	19	compound	19:compound	_
+19	dog	dog	NOUN	NN	SG;N	12	obl	12:obl:because_of	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent23_11-0009
+# text = i want it b/c it is really small and cute.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	want	want	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	2	obj	2:obj	_
+4	b/c	because	SCONJ	IN	CONJ	8	mark	8:mark	_
+5	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	8	nsubj	8:nsubj|10:nsubj	_
+6	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	cop	8:cop	_
+7	really	really	ADV	RB	ADV	8	advmod	8:advmod	_
+8	small	small	ADJ	JJ	ADJ	2	advcl	2:advcl:because	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	cute	cute	ADJ	JJ	ADJ	8	conj	2:advcl:because|8:conj:and	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_11-0010
+# text = i knew someone in college who had one and i loved it.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	knew	know	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	someone	someone	PRON	NN	PRO;SG	2	obj	2:obj|7:nsubj	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	college	college	NOUN	NN	SG;N	3	nmod	3:nmod:in	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	had	have	VERB	VBD	FIN;3;V;IND;SG;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	one	one	NUM	CD	NUM	7	obj	7:obj	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	i	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	loved	love	VERB	VBD	FIN;1;V;IND;SG;PST	2	conj	2:conj:and	_
+12	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	11	obj	11:obj	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+

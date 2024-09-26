@@ -1,0 +1,345 @@
+# sent_id = email-enronsent23_11-0011
+# text = why do you think they are mean?
+1	why	why	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	do	do	AUX	VBP	FIN;PRS;2;V;IND;SG	4	aux	4:aux	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+5	they	they	PRON	PRP	PRO;3;PL;NOM	7	nsubj	7:nsubj	_
+6	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	7	cop	7:cop	_
+7	mean	mean	ADJ	JJ	ADJ	4	ccomp	4:ccomp	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_11-0012
+# newpar id = email-enronsent23_11-p0004
+# text = are you kidding?
+1	are	be	AUX	VBP	FIN;PRS;2;V;IND;SG	3	aux	3:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	kidding	kid	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_11-0013
+# text = why would you want a chihuahua?
+1	why	why	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	would	would	AUX	MD	FIN;V	4	aux	4:aux	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	want	want	VERB	VB	NFIN;V	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	chihuahua	chihuahua	NOUN	NN	SG;N	4	obj	4:obj	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_11-0014
+# text = those dogs aren't even friendly.
+1	those	that	DET	DT	DET;PL	2	det	2:det	_
+2	dogs	dog	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+3-4	aren't	_	_	_	_	_	_	_	_
+3	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	6	cop	6:cop	_
+4	n't	not	PART	RB	PART	6	advmod	6:advmod	_
+5	even	even	ADV	RB	ADV	6	advmod	6:advmod	_
+6	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent23_11-0015
+# text = do you think they are cool b/c of the taco bell dog?
+1	do	do	AUX	VBP	FIN;PRS;2;V;IND;SG	3	aux	3:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+4	they	they	PRON	PRP	PRO;3;PL;NOM	6	nsubj	6:nsubj	_
+5	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	6	cop	6:cop	_
+6	cool	cool	ADJ	JJ	ADJ	3	ccomp	3:ccomp	_
+7	b/c	because	ADP	IN	ADP	12	case	12:case	_
+8	of	of	ADP	IN	ADP	7	fixed	7:fixed	_
+9	the	the	DET	DT	DET;DEF	12	det	12:det	_
+10	taco	taco	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+11	bell	bell	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+12	dog	dog	NOUN	NN	SG;N	3	obl	3:obl:because_of	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = email-enronsent05_01
+# sent_id = email-enronsent05_01-0001
+# newpar id = email-enronsent05_01-p0001
+# text = "Les Spahnn" <spahnn@hnks.com>
+1	"	"	PUNCT	``	_	3	punct	3:punct	SpaceAfter=No
+2	Les	Les	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Spahnn	Spahnn	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+4	"	"	PUNCT	''	_	3	punct	3:punct	_
+5	<	<	PUNCT	-LRB-	_	6	punct	6:punct	SpaceAfter=No
+6	spahnn@hnks.com	spahnn@hnks.com	PROPN	ADD	PROPN	3	appos	3:appos	SpaceAfter=No
+7	>	>	PUNCT	-RRB-	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent05_01-0002
+# text = 02/13/2001 08:02 PM
+1	02/13/2001	02/13/2001	NUM	CD	NUM	0	root	0:root	_
+2	08:02	08:02	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent05_01-0003
+# text = All:
+1	All	all	DET	DT	DET	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent05_01-0004
+# text = It is my understanding, from good sources in the Govs office that the Gov will order Loretta Lynch to expeditiously implement the provision to suspend all parties auhtority to enter into direct access contracts.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	4	expl	4:expl	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	my	my	PRON	PRP$	PRO;GEN;1;SG	4	nmod:poss	4:nmod:poss	_
+4	understanding	understanding	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	from	from	ADP	IN	ADP	8	case	8:case	_
+7	good	good	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	sources	source	NOUN	NNS	PL;N	4	obl	4:obl:from	_
+9	in	in	ADP	IN	ADP	13	case	13:case	_
+10	the	the	DET	DT	DET;DEF	11	det	11:det	_
+11-12	Govs	_	_	_	_	_	_	_	_
+11	Gov	Gov	PROPN	NNP	SG;PROPN	13	nmod:poss	13:nmod:poss	_
+12	s	's	PART	POS	PART	11	case	11:case	CorrectForm='s
+13	office	office	NOUN	NN	SG;N	8	nmod	8:nmod:in	_
+14	that	that	SCONJ	IN	CONJ	18	mark	18:mark	_
+15	the	the	DET	DT	DET;DEF	16	det	16:det	_
+16	Gov	Gov	PROPN	NNP	SG;PROPN	18	nsubj	18:nsubj	_
+17	will	will	AUX	MD	FIN;V	18	aux	18:aux	_
+18	order	order	VERB	VB	NFIN;V	4	csubj	4:csubj	_
+19	Loretta	Loretta	PROPN	NNP	SG;PROPN	18	obj	18:obj|23:nsubj:xsubj	_
+20	Lynch	Lynch	PROPN	NNP	SG;PROPN	19	flat	19:flat	_
+21	to	to	PART	TO	PART	23	mark	23:mark	_
+22	expeditiously	expeditiously	ADV	RB	ADV	23	advmod	23:advmod	_
+23	implement	implement	VERB	VB	NFIN;V	18	xcomp	18:xcomp	_
+24	the	the	DET	DT	DET;DEF	25	det	25:det	_
+25	provision	provision	NOUN	NN	SG;N	23	obj	23:obj	_
+26	to	to	PART	TO	PART	27	mark	27:mark	_
+27	suspend	suspend	VERB	VB	NFIN;V	25	acl	25:acl:to	_
+28	all	all	DET	DT	DET	29	det	29:det	_
+29	parties	party	NOUN	NNS	PL;N	30	nmod:poss	30:nmod:poss	_
+30	auhtority	authority	NOUN	NN	SG;N	27	obj	27:obj	CorrectForm=authority
+31	to	to	PART	TO	PART	32	mark	32:mark	_
+32	enter	enter	VERB	VB	NFIN;V	30	acl	30:acl:to	_
+33	into	into	ADP	IN	ADP	36	case	36:case	_
+34	direct	direct	ADJ	JJ	ADJ	35	amod	35:amod	_
+35	access	access	NOUN	NN	SG;N	36	compound	36:compound	_
+36	contracts	contract	NOUN	NNS	PL;N	32	obl	32:obl:into	SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent05_01-0005
+# text = The premise with which the administartion is acting is that if they expeditiously suspend everyone's right to bilateral contracts quickly, it sets up a barrier which the direct access coalition must break through.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	premise	premise	NOUN	NN	SG;N	24	nsubj:outer	8:obl|24:nsubj:outer	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	which	which	PRON	WDT	PRO	8	obl	2:ref	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	administartion	administration	NOUN	NN	SG;N	8	nsubj	8:nsubj	CorrectForm=administration
+7	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	aux	8:aux	_
+8	acting	act	VERB	VBG	PRS;V;V.PTCP	2	acl:relcl	2:acl:relcl	Cxn=rc-wh-obl-pfront
+9	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	24	cop	24:cop	_
+10	that	that	SCONJ	IN	CONJ	24	mark	24:mark	_
+11	if	if	SCONJ	IN	CONJ	14	mark	14:mark	_
+12	they	they	PRON	PRP	PRO;3;PL;NOM	14	nsubj	14:nsubj	_
+13	expeditiously	expeditiously	ADV	RB	ADV	14	advmod	14:advmod	_
+14	suspend	suspend	VERB	VBP	FIN;PRS;3;PL;V;IND	24	advcl	24:advcl:if	_
+15-16	everyone's	_	_	_	_	_	_	_	_
+15	everyone	everyone	PRON	NN	PRO;SG	17	nmod:poss	17:nmod:poss	_
+16	's	's	PART	POS	PART	15	case	15:case	_
+17	right	right	NOUN	NN	SG;N	14	obj	14:obj	_
+18	to	to	ADP	IN	ADP	20	case	20:case	_
+19	bilateral	bilateral	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	contracts	contract	NOUN	NNS	PL;N	17	nmod	17:nmod:to	_
+21	quickly	quickly	ADV	RB	ADV	14	advmod	14:advmod	SpaceAfter=No
+22	,	,	PUNCT	,	_	14	punct	14:punct	_
+23	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	24	nsubj	24:nsubj	_
+24	sets	set	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+25	up	up	ADP	RP	ADP	24	compound:prt	24:compound:prt	_
+26	a	a	DET	DT	DET;INDF	27	det	27:det	_
+27	barrier	barrier	NOUN	NN	SG;N	24	obj	24:obj|34:obl	_
+28	which	which	PRON	WDT	PRO	34	obl	27:ref	_
+29	the	the	DET	DT	DET;DEF	32	det	32:det	_
+30	direct	direct	ADJ	JJ	ADJ	31	amod	31:amod	_
+31	access	access	NOUN	NN	SG;N	32	compound	32:compound	_
+32	coalition	coalition	NOUN	NN	SG;N	34	nsubj	34:nsubj	_
+33	must	must	AUX	MD	FIN;V	34	aux	34:aux	_
+34	break	break	VERB	VB	NFIN;V	27	acl:relcl	27:acl:relcl	Cxn=rc-wh-obl-pstrand
+35	through	through	ADP	IN	ADP	28	case	28:case	SpaceAfter=No
+36	.	.	PUNCT	.	_	24	punct	24:punct	_
+
+# sent_id = email-enronsent05_01-0006
+# text = In other words the table is set.
+1	In	in	ADP	IN	ADP	3	case	3:case	_
+2	other	other	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	words	word	NOUN	NNS	PL;N	7	obl	7:obl:in	_
+4	the	the	DET	DT	DET;DEF	5	det	5:det	_
+5	table	table	NOUN	NN	SG;N	7	nsubj:pass	7:nsubj:pass	_
+6	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	7	aux:pass	7:aux:pass	_
+7	set	set	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent05_01-0007
+# text = Deal your meal from where the dishes are located.
+1	Deal	deal	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	your	your	PRON	PRP$	PRO;GEN;2	3	nmod:poss	3:nmod:poss	_
+3	meal	meal	NOUN	NN	SG;N	1	obj	1:obj	_
+4	from	from	ADP	IN	ADP	5	case	5:case	_
+5	where	where	ADV	WRB	ADV	1	obl	1:obl:from|9:advmod	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	dishes	dish	NOUN	NNS	PL;N	9	nsubj:pass	9:nsubj:pass	_
+8	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	9	aux:pass	9:aux:pass	_
+9	located	locate	VERB	VBN	PASS;V;V.PTCP;PST	5	advcl:relcl	5:advcl:relcl	Cxn=rc-free-advmod|SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent05_01-0008
+# text = I.E. the Davis Administration wants to place all direct access advocates in the position of having to justify why each and every party should be the exception to the suspension rather than have a general rule concerning how direct access should work for all parties.
+1	I.E.	i.e.	ADV	FW	ADV	5	advmod	5:advmod	_
+2	the	the	DET	DT	DET;DEF	4	det	4:det	_
+3	Davis	Davis	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	Administration	administration	NOUN	NN	SG;N	5	nsubj	5:nsubj|7:nsubj:xsubj|33:nsubj:xsubj	_
+5	wants	want	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	place	place	VERB	VB	NFIN;V	5	xcomp	5:xcomp	_
+8	all	all	DET	DT	DET	11	det	11:det	_
+9	direct	direct	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	access	access	NOUN	NN	SG;N	11	compound	11:compound	_
+11	advocates	advocate	NOUN	NNS	PL;N	7	obj	7:obj	_
+12	in	in	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DET;DEF	14	det	14:det	_
+14	position	position	NOUN	NN	SG;N	7	obl	7:obl:in	_
+15	of	of	SCONJ	IN	CONJ	16	mark	16:mark	_
+16	having	have	VERB	VBG	V;V.MSDR	14	acl	14:acl:of	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	justify	justify	VERB	VB	NFIN;V	16	xcomp	16:xcomp	_
+19	why	why	ADV	WRB	ADV	27	advmod	27:advmod	_
+20	each	each	DET	DT	DET	23	det	23:det	_
+21	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	every	every	DET	DT	DET	20	conj	20:conj:and|23:det	_
+23	party	party	NOUN	NN	SG;N	27	nsubj	27:nsubj	_
+24	should	should	AUX	MD	FIN;V	27	aux	27:aux	_
+25	be	be	AUX	VB	V;NFIN	27	cop	27:cop	_
+26	the	the	DET	DT	DET;DEF	27	det	27:det	_
+27	exception	exception	NOUN	NN	SG;N	18	ccomp	18:ccomp	_
+28	to	to	ADP	IN	ADP	30	case	30:case	_
+29	the	the	DET	DT	DET;DEF	30	det	30:det	_
+30	suspension	suspension	NOUN	NN	SG;N	27	nmod	27:nmod:to	_
+31	rather	rather	ADV	RB	ADV	33	cc	33:cc	_
+32	than	than	ADP	IN	ADP	31	fixed	31:fixed	_
+33	have	have	VERB	VB	NFIN;V	7	conj	5:xcomp|7:conj:rather_than	_
+34	a	a	DET	DT	DET;INDF	36	det	36:det	_
+35	general	general	ADJ	JJ	ADJ	36	amod	36:amod	_
+36	rule	rule	NOUN	NN	SG;N	33	obj	33:obj	_
+37	concerning	concern	VERB	VBG	PRS;V;V.PTCP	42	mark	42:mark	_
+38	how	how	ADV	WRB	ADV	42	advmod	42:advmod	_
+39	direct	direct	ADJ	JJ	ADJ	40	amod	40:amod	_
+40	access	access	NOUN	NN	SG;N	42	nsubj	42:nsubj	_
+41	should	should	AUX	MD	FIN;V	42	aux	42:aux	_
+42	work	work	VERB	VB	NFIN;V	36	acl	36:acl:concerning	_
+43	for	for	ADP	IN	ADP	45	case	45:case	_
+44	all	all	DET	DT	DET	45	det	45:det	_
+45	parties	party	NOUN	NNS	PL;N	42	obl	42:obl:for	SpaceAfter=No
+46	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent05_01-0009
+# text = It clearly gives the Admin a very strong upper hand to control who when and where direct access can occur without having to say that they oppose direct access.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj	3:nsubj	_
+2	clearly	clearly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	gives	give	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	the	the	DET	DT	DET;DEF	5	det	5:det	_
+5	Admin	admin	NOUN	NN	SG;N	3	iobj	3:iobj	_
+6	a	a	DET	DT	DET;INDF	10	det	10:det	_
+7	very	very	ADV	RB	ADV	8	advmod	8:advmod	_
+8	strong	strong	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	upper	upper	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	hand	hand	NOUN	NN	SG;N	3	obj	3:obj	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	control	control	VERB	VB	NFIN;V	10	acl	10:acl:to	_
+13	who	how	ADV	WRB	ADV	20	advmod	20:advmod	CorrectForm=how
+14	when	when	ADV	WRB	ADV	13	conj	13:conj|20:advmod	_
+15	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	where	where	ADV	WRB	ADV	13	conj	13:conj:and|20:advmod	_
+17	direct	direct	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	access	access	NOUN	NN	SG;N	20	nsubj	20:nsubj	_
+19	can	can	AUX	MD	FIN;V	20	aux	20:aux	_
+20	occur	occur	VERB	VB	NFIN;V	12	advcl	12:advcl:when	_
+21	without	without	SCONJ	IN	CONJ	22	mark	22:mark	_
+22	having	have	VERB	VBG	PRS;V;V.PTCP	12	advcl	12:advcl:without	_
+23	to	to	PART	TO	PART	24	mark	24:mark	_
+24	say	say	VERB	VB	NFIN;V	22	xcomp	22:xcomp	_
+25	that	that	SCONJ	IN	CONJ	27	mark	27:mark	_
+26	they	they	PRON	PRP	PRO;3;PL;NOM	27	nsubj	27:nsubj	_
+27	oppose	oppose	VERB	VBP	FIN;PRS;3;PL;V;IND	24	ccomp	24:ccomp	_
+28	direct	direct	ADJ	JJ	ADJ	29	amod	29:amod	_
+29	access	access	NOUN	NN	SG;N	27	obj	27:obj	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent05_01-0010
+# text = Power be where power lies.
+1	Power	power	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+2	be	be	AUX	VB	FIN;PRS;3;V;SBJV;SG	3	cop	3:cop	_
+3	where	where	ADV	WRB	ADV	0	root	0:root|5:advmod	_
+4	power	power	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+5	lies	lie	VERB	VBZ	FIN;PRS;3;V;IND;SG	3	advcl:relcl	3:advcl:relcl	Cxn=rc-free-advmod|SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = email-enronsent23_14
+# sent_id = email-enronsent23_14-0001
+# newpar id = email-enronsent23_14-p0001
+# text = you aren't going in for the wedding until sunday now?
+1	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+2-3	aren't	_	_	_	_	_	_	_	_
+2	are	be	AUX	VBP	FIN;PRS;2;V;IND;SG	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	in	in	ADV	RB	ADV	4	advmod	4:advmod	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DET;DEF	8	det	8:det	_
+8	wedding	wedding	NOUN	NN	SG;N	4	obl	4:obl:for	_
+9	until	until	ADP	IN	ADP	10	case	10:case	_
+10	sunday	Sunday	PROPN	NNP	SG;PROPN	4	obl	4:obl:until	_
+11	now	now	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+12	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_14-0002
+# newpar id = email-enronsent23_14-p0002
+# text = I'm in
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	FIN;PRS;1;V;IND;SG	3	cop	3:cop	_
+3	in	in	ADV	RB	ADV	0	root	0:root	_
+
+# sent_id = email-enronsent23_14-0003
+# newpar id = email-enronsent23_14-p0003
+# text = Regards,
+1	Regards	regards	NOUN	NNS	N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent23_14-0004
+# newpar id = email-enronsent23_14-p0004
+# text = Kevin A. Boone Accenture -- Houston Consultant -- Energy (Octel) 713.837.1638 (Client) 281.848.1619 (C) 713.306.7940 (H) 713.864.4149 Kevin.A.Boone@accenture.com
+1	Kevin	Kevin	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	A.	A.	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Boone	Boone	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+4	Accenture	Accenture	PROPN	NNP	SG;PROPN	1	list	1:list	_
+5	--	--	PUNCT	,	_	7	punct	7:punct	_
+6	Houston	Houston	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	Consultant	consultant	NOUN	NN	SG;N	1	list	1:list	_
+8	--	--	PUNCT	,	_	9	punct	9:punct	_
+9	Energy	energy	NOUN	NN	SG;N	1	list	1:list	_
+10	(	(	PUNCT	-LRB-	_	11	punct	11:punct	SpaceAfter=No
+11	Octel	Octel	PROPN	NNP	SG;PROPN	1	list	1:list	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+13	713.837.1638	713.837.1638	NUM	CD	NUM	11	appos	11:appos	_
+14	(	(	PUNCT	-LRB-	_	15	punct	15:punct	SpaceAfter=No
+15	Client	client	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
+17	281.848.1619	281.848.1619	NUM	CD	NUM	15	appos	15:appos	_
+18	(	(	PUNCT	-LRB-	_	19	punct	19:punct	SpaceAfter=No
+19	C	C	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	_
+21	713.306.7940	713.306.7940	NUM	CD	NUM	19	appos	19:appos	_
+22	(	(	PUNCT	-LRB-	_	23	punct	23:punct	SpaceAfter=No
+23	H	H	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	_
+25	713.864.4149	713.864.4149	NUM	CD	NUM	23	appos	23:appos	_
+26	Kevin.A.Boone@accenture.com	Kevin.A.Boone@accenture.com	PROPN	ADD	PROPN	1	list	1:list	_
+
+# sent_id = email-enronsent23_14-0005
+# text = Our web address is http://www.accenture.com
+1	Our	our	PRON	PRP$	PRO;GEN;PL;1	3	nmod:poss	3:nmod:poss	_
+2	web	web	NOUN	NN	SG;N	3	compound	3:compound	_
+3	address	address	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+5	http://www.accenture.com	http://www.accenture.com	PROPN	ADD	PROPN	0	root	0:root	_
+

@@ -1,0 +1,415 @@
+# sent_id = answers-20111019100027AAdxgXV_ans-0005
+# newpar id = answers-20111019100027AAdxgXV_ans-p0002
+# text = Ok, I know that Mcdonald's has Monopoly going on right now.
+1	Ok	ok	INTJ	UH	INTJ	4	discourse	4:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	NOM;1;PRO;SG	4	nsubj	4:nsubj	_
+4	know	know	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+5	that	that	SCONJ	IN	CONJ	8	mark	8:mark	_
+6-7	Mcdonald's	_	_	_	_	_	_	_	_
+6	Mcdonald	McDonald	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	has	have	VERB	VBZ	V;3;PRS;IND;FIN;SG	4	ccomp	4:ccomp	_
+9	Monopoly	monopoly	NOUN	NN	SG;N	8	obj	8:obj|10:nsubj:xsubj	_
+10	going	go	VERB	VBG	V;V.MSDR	8	xcomp	8:xcomp	_
+11	on	on	ADP	RP	ADP	10	compound:prt	10:compound:prt	_
+12	right	right	ADV	RB	ADV	13	advmod	13:advmod	_
+13	now	now	ADV	RB	ADV	8	advmod	8:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0006
+# text = & I wanna know what food has the game pieces.
+1	&	&	CCONJ	CC	CONJ	3	cc	3:cc	_
+2	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+4	na	to	PART	TO	PART	5	mark	5:mark	_
+5	know	know	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+6	what	what	DET	WDT	DET	7	det	7:det	_
+7	food	food	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+8	has	have	VERB	VBZ	V;3;PRS;IND;FIN;SG	5	ccomp	5:ccomp	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	game	game	NOUN	NN	SG;N	11	compound	11:compound	_
+11	pieces	piece	NOUN	NNS	N;PL	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0007
+# text = And what food has EXTRA game pieces.
+1	And	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+2	what	what	DET	WDT	DET	3	det	3:det	_
+3	food	food	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+4	has	have	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+5	EXTRA	extra	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	game	game	NOUN	NN	SG;N	7	compound	7:compound	_
+7	pieces	piece	NOUN	NNS	N;PL	4	obj	4:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0008
+# text = Because Large Fries give you FOUR PIECES!
+1	Because	because	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	Large	large	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	Fries	fry	NOUN	NNS	N;PL	4	nsubj	4:nsubj	_
+4	give	give	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+5	you	you	PRON	PRP	ACC;2;PRO	4	iobj	4:iobj	_
+6	FOUR	four	NUM	CD	NUM	7	nummod	7:nummod	_
+7	PIECES	piece	NOUN	NNS	N;PL	4	obj	4:obj	SpaceAfter=No
+8	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0009
+# text = When most of the food or drinks I got only included two!
+1	When	when	ADV	WRB	ADV	11	advmod	11:advmod	_
+2	most	most	ADJ	JJS	ADJ;RL	11	nsubj	11:nsubj	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	food	food	NOUN	NN	SG;N	2	nmod	2:nmod:of|9:obj	_
+6	or	or	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	drinks	drink	NOUN	NNS	N;PL	5	conj	2:nmod:of|5:conj:or	_
+8	I	I	PRON	PRP	NOM;1;PRO;SG	9	nsubj	9:nsubj	_
+9	got	get	VERB	VBD	V;IND;FIN;PST;1;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+10	only	only	ADV	RB	ADV	11	advmod	11:advmod	_
+11	included	include	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+12	two	two	NUM	CD	NUM	11	obj	11:obj	SpaceAfter=No
+13	!	!	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0010
+# text = So can somebody please list ALL of the food that includes the game pieces, and the number of game pieces you get with THAT FOOD!
+1	So	so	ADV	RB	ADV	5	discourse	5:discourse	_
+2	can	can	AUX	MD	V;FIN	5	aux	5:aux	_
+3	somebody	somebody	PRON	NN	SG;PRO	5	nsubj	5:nsubj	_
+4	please	please	INTJ	UH	INTJ	5	discourse	5:discourse	_
+5	list	list	VERB	VB	V;NFIN	0	root	0:root	_
+6	ALL	all	DET	DT	DET	5	obj	5:obj	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	food	food	NOUN	NN	SG;N	6	nmod	6:nmod:of|11:nsubj	_
+10	that	that	PRON	WDT	PRO	11	nsubj	9:ref	_
+11	includes	include	VERB	VBZ	V;3;PRS;IND;FIN;SG	9	acl:relcl	9:acl:relcl	Cxn=rc-that-nsubj
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	game	game	NOUN	NN	SG;N	14	compound	14:compound	_
+14	pieces	piece	NOUN	NNS	N;PL	11	obj	11:obj	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	number	number	NOUN	NN	SG;N	6	conj	5:obj|6:conj:and	_
+19	of	of	ADP	IN	ADP	21	case	21:case	_
+20	game	game	NOUN	NN	SG;N	21	compound	21:compound	_
+21	pieces	piece	NOUN	NNS	N;PL	18	nmod	18:nmod:of|23:obj	_
+22	you	you	PRON	PRP	2;NOM;PRO	23	nsubj	23:nsubj	_
+23	get	get	VERB	VBP	V;PRS;IND;2;FIN;SG	21	acl:relcl	21:acl:relcl	Cxn=rc-red-obj
+24	with	with	ADP	IN	ADP	26	case	26:case	_
+25	THAT	that	DET	DT	SG;DET	26	det	26:det	_
+26	FOOD	food	NOUN	NN	SG;N	23	obl	23:obl:with	SpaceAfter=No
+27	!	!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0011
+# text = PLEASE!!!!!!
+1	PLEASE	please	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	!!!!!!	!!!!!!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0012
+# text = The person who best explains this, and helps me out the best with my question will be REWARDED WITH TEN POINTS!!!!!!!
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	person	person	NOUN	NN	SG;N	19	nsubj:pass	5:nsubj|9:nsubj|19:nsubj:pass	_
+3	who	who	PRON	WP	PRO	5	nsubj	2:ref	_
+4	best	well	ADV	RBS	RL;ADV	5	advmod	5:advmod	_
+5	explains	explain	VERB	VBZ	V;3;PRS;IND;FIN;SG	2	acl:relcl	2:acl:relcl	Cxn=rc-wh-nsubj
+6	this	this	PRON	DT	SG;PRO	5	obj	5:obj	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	helps	help	VERB	VBZ	V;3;PRS;IND;FIN;SG	5	conj	2:acl:relcl|5:conj:and	_
+10	me	I	PRON	PRP	ACC;1;PRO;SG	9	obj	9:obj	_
+11	out	out	ADP	RP	ADP	9	compound:prt	9:compound:prt	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	best	well	ADV	RBS	RL;ADV	9	advmod	9:advmod	_
+14	with	with	ADP	IN	ADP	16	case	16:case	_
+15	my	my	PRON	PRP$	GEN;1;PRO;SG	16	nmod:poss	16:nmod:poss	_
+16	question	question	NOUN	NN	SG;N	9	obl	9:obl:with	_
+17	will	will	AUX	MD	V;FIN	19	aux	19:aux	_
+18	be	be	AUX	VB	V;NFIN	19	aux:pass	19:aux:pass	_
+19	REWARDED	reward	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+20	WITH	with	ADP	IN	ADP	22	case	22:case	_
+21	TEN	ten	NUM	CD	NUM	22	nummod	22:nummod	_
+22	POINTS	point	NOUN	NNS	N;PL	19	obl	19:obl:with	SpaceAfter=No
+23	!!!!!!!	!!!!!!!	PUNCT	.	_	19	punct	19:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0013
+# text = PLEASE HELP!!!!!!!!!!!
+1	PLEASE	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	HELP	help	VERB	VB	V;FIN;IMP	0	root	0:root	SpaceAfter=No
+3	!!!!!!!!!!!	!!!!!!!!!!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0014
+# text = THANK YOU!!!!!!!!!!!!! :D
+1	THANK	thank	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+2	YOU	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	SpaceAfter=No
+3	!!!!!!!!!!!!!	!!!!!!!!!!!!!	PUNCT	.	_	4	punct	4:punct	_
+4	:D	:d	SYM	NFP	_	1	discourse	1:discourse	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0015
+# newpar id = answers-20111019100027AAdxgXV_ans-p0003
+# text = scroll down and this website shows each thing you can buy (:
+1	scroll	scroll	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	down	down	ADV	RB	ADV	1	advmod	1:advmod	_
+3	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+4	this	this	DET	DT	SG;DET	5	det	5:det	_
+5	website	website	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+6	shows	show	VERB	VBZ	V;3;PRS;IND;FIN;SG	1	conj	1:conj:and	_
+7	each	each	DET	DT	DET	8	det	8:det	_
+8	thing	thing	NOUN	NN	SG;N	6	obj	6:obj|11:obj	_
+9	you	you	PRON	PRP	2;NOM;PRO	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	V;FIN	11	aux	11:aux	_
+11	buy	buy	VERB	VB	V;NFIN	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obj
+12	(:	(:	SYM	NFP	_	1	discourse	1:discourse	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0016
+# text = http://www.playatmcd.com/en-us/Main/Gameboard
+1	http://www.playatmcd.com/en-us/Main/Gameboard	http://www.playatmcd.com/en-us/Main/Gameboard	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0017
+# newpar id = answers-20111019100027AAdxgXV_ans-p0004
+# text = 4 Peels:
+1	4	4	NUM	CD	NUM	2	nummod	2:nummod	_
+2	Peels	peel	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0018
+# text = - 20 piece Chicken McNuggets
+1	-	-	PUNCT	NFP	_	5	punct	5:punct	_
+2	20	20	NUM	CD	NUM	3	nummod	3:nummod	_
+3	piece	piece	NOUN	NN	SG;N	5	compound	5:compound	_
+4	Chicken	Chicken	PROPN	NNP	PROPN;SG	5	compound	5:compound	_
+5	McNuggets	McNugget	PROPN	NNPS	PROPN;PL	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0019
+# text = - Large fries
+1	-	-	PUNCT	NFP	_	3	punct	3:punct	_
+2	Large	large	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	fries	fry	NOUN	NNS	N;PL	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0020
+# text = 2 Peels:
+1	2	2	NUM	CD	NUM	2	nummod	2:nummod	_
+2	Peels	peel	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0021
+# text = - Big Mac
+1	-	-	PUNCT	NFP	_	3	punct	3:punct	_
+2	Big	Big	ADJ	NNP	ADJ	3	amod	3:amod	_
+3	Mac	Mac	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0022
+# text = - 10 piece Chicken McNuggets
+1	-	-	PUNCT	NFP	_	5	punct	5:punct	_
+2	10	10	NUM	CD	NUM	3	nummod	3:nummod	_
+3	piece	piece	NOUN	NN	SG;N	5	compound	5:compound	_
+4	Chicken	Chicken	PROPN	NNP	PROPN;SG	5	compound	5:compound	_
+5	McNuggets	McNugget	PROPN	NNPS	PROPN;PL	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0023
+# text = - Medium Fountain Drink
+1	-	-	PUNCT	NFP	_	4	punct	4:punct	_
+2	Medium	medium	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	Fountain	fountain	NOUN	NN	SG;N	4	compound	4:compound	_
+4	Drink	drink	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0024
+# text = - McCAFE Drink
+1	-	-	PUNCT	NFP	_	3	punct	3:punct	_
+2	McCAFE	McCAFE	PROPN	NNP	PROPN;SG	3	compound	3:compound	_
+3	Drink	drink	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0025
+# text = - Filet-O-Fish
+1	-	-	PUNCT	NFP	_	2	punct	2:punct	_
+2	Filet	Filet	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+4	O	of	ADP	IN	ADP	6	case	6:case	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
+6	Fish	Fish	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:of	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0026
+# text = - Hash Browns
+1	-	-	PUNCT	NFP	_	3	punct	3:punct	_
+2	Hash	hash	NOUN	NN	SG;N	3	compound	3:compound	_
+3	Browns	brown	NOUN	NNS	N;PL	0	root	0:root	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0027
+# text = - Egg McMuffin, Sausage
+1	-	-	PUNCT	NFP	_	3	punct	3:punct	_
+2	Egg	Egg	PROPN	NNP	PROPN;SG	3	compound	3:compound	_
+3	McMuffin	McMuffin	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	Sausage	sausage	NOUN	NN	SG;N	3	conj	3:conj	_
+
+# sent_id = answers-20111019100027AAdxgXV_ans-0028
+# text = - Fruit & Maple Oatmeal
+1	-	-	PUNCT	NFP	_	5	punct	5:punct	_
+2	Fruit	fruit	NOUN	NN	SG;N	5	compound	5:compound	_
+3	&	&	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Maple	maple	NOUN	NN	SG;N	2	conj	2:conj|5:compound	_
+5	Oatmeal	oatmeal	NOUN	NN	SG;N	0	root	0:root	_
+
+# newdoc id = answers-20111108102621AA3hPqj_ans
+# sent_id = answers-20111108102621AA3hPqj_ans-0001
+# newpar id = answers-20111108102621AA3hPqj_ans-p0001
+# text = bearded dragon spikes?
+1	bearded	bearded	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	dragon	dragon	NOUN	NN	SG;N	3	compound	3:compound	_
+3	spikes	spike	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+4	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0002
+# newpar id = answers-20111108102621AA3hPqj_ans-p0002
+# text = bit of a stupid question but do the spikes/spines (whatever you call them) on their side and face area ever go hard.
+1	bit	bit	NOUN	NN	SG;N	0	root	0:root	_
+2	of	of	ADP	IN	ADP	5	case	5:case	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	stupid	stupid	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	question	question	NOUN	NN	SG;N	1	nmod	1:nmod:of	_
+6	but	but	CCONJ	CC	CONJ	25	cc	25:cc	_
+7	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	25	aux	25:aux	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	spikes	spike	NOUN	NNS	N;PL	25	nsubj	25:nsubj|26:nsubj:xsubj	SpaceAfter=No
+10	/	/	SYM	,	_	11	cc	11:cc	SpaceAfter=No
+11	spines	spine	NOUN	NNS	N;PL	9	conj	9:conj|25:nsubj|26:nsubj:xsubj	_
+12	(	(	PUNCT	-LRB-	_	13	punct	13:punct	SpaceAfter=No
+13	whatever	whatever	PRON	WP	PRO	9	appos	9:appos|15:xcomp	_
+14	you	you	PRON	PRP	2;NOM;PRO	15	nsubj	15:nsubj	_
+15	call	call	VERB	VBP	V;PRS;IND;2;FIN;SG	13	acl:relcl	13:acl:relcl	Cxn=rc-free-xcomp
+16	them	they	PRON	PRP	ACC;3;PL;PRO	15	obj	15:obj	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	13	punct	13:punct	_
+18	on	on	ADP	IN	ADP	23	case	23:case	_
+19	their	their	PRON	PRP$	3;GEN;PL;PRO	23	nmod:poss	23:nmod:poss	_
+20	side	side	NOUN	NN	SG;N	23	compound	23:compound	_
+21	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	face	face	NOUN	NN	SG;N	20	conj	20:conj:and|23:compound	_
+23	area	area	NOUN	NN	SG;N	9	nmod	9:nmod:on	_
+24	ever	ever	ADV	RB	ADV	25	advmod	25:advmod	_
+25	go	go	VERB	VB	V;NFIN	1	conj	1:conj:but	_
+26	hard	hard	ADJ	JJ	ADJ	25	xcomp	25:xcomp	SpaceAfter=No
+27	.	.	PUNCT	.	_	25	punct	25:punct	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0003
+# text = or are they just supposed to look like they are so nothing will try to eat them
+1	or	or	CCONJ	CC	CONJ	5	cc	5:cc	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	5	aux:pass	5:aux:pass	_
+3	they	they	PRON	PRP	3;NOM;PL;PRO	5	nsubj:pass	5:nsubj:pass|7:nsubj:xsubj	_
+4	just	just	ADV	RB	ADV	5	advmod	5:advmod	_
+5	supposed	suppose	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	look	look	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	like	like	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	they	they	PRON	PRP	3;NOM;PL;PRO	10	nsubj	10:nsubj	_
+10	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	7	advcl	7:advcl:like	_
+11	so	so	SCONJ	IN	CONJ	14	mark	14:mark	_
+12	nothing	nothing	PRON	NN	SG;PRO	14	nsubj	14:nsubj|16:nsubj:xsubj	_
+13	will	will	AUX	MD	V;FIN	14	aux	14:aux	_
+14	try	try	VERB	VB	V;NFIN	7	advcl	7:advcl:so	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	eat	eat	VERB	VB	V;NFIN	14	xcomp	14:xcomp	_
+17	them	they	PRON	PRP	ACC;3;PL;PRO	16	obj	16:obj	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0004
+# newpar id = answers-20111108102621AA3hPqj_ans-p0003
+# text = becca is right .
+1	becca	becca	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	3	cop	3:cop	_
+3	right	right	ADJ	JJ	ADJ	0	root	0:root	_
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0005
+# text = iv owned beardies for ovr 3 yrs and i handle mine all the time.. they dont go hard lik eneedle hard but they arnt pillow soft.
+1-2	iv	_	_	_	_	_	_	_	_
+1	i	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	v	have	AUX	VBP	PRS;IND;FIN;1;V;SG	3	aux	3:aux	CorrectForm='ve
+3	owned	own	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+4	beardies	beardy	NOUN	NNS	N;PL	3	obj	3:obj	_
+5	for	for	ADP	IN	ADP	8	case	8:case	_
+6	ovr	over	ADV	RB	ADV	7	advmod	7:advmod	CorrectForm=over
+7	3	3	NUM	CD	NUM	8	nummod	8:nummod	_
+8	yrs	year	NOUN	NNS	N;PL	3	obl	3:obl:for	CorrectForm=years
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	i	I	PRON	PRP	NOM;1;PRO;SG	11	nsubj	11:nsubj	_
+11	handle	handle	VERB	VBP	V;PRS;IND;FIN;1;SG	3	conj	3:conj:and	_
+12	mine	my	PRON	PRP	1;PRO;SG	11	obj	11:obj	_
+13	all	all	DET	PDT	DET	15	det:predet	15:det:predet	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	time	time	NOUN	NN	SG;N	11	obl:tmod	11:obl:tmod	SpaceAfter=No
+16	..	..	PUNCT	,	_	20	punct	20:punct	_
+17	they	they	PRON	PRP	3;NOM;PL;PRO	20	nsubj	20:nsubj|21:nsubj:xsubj	_
+18-19	dont	_	_	_	_	_	_	_	_
+18	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	20	aux	20:aux	_
+19	nt	not	PART	RB	PART	20	advmod	20:advmod	CorrectForm=n't
+20	go	go	VERB	VB	V;NFIN	3	parataxis	3:parataxis	_
+21	hard	hard	ADJ	JJ	ADJ	20	xcomp	20:xcomp	_
+22	lik	like	ADP	IN	ADP	24	case	24:case	CorrectForm=like
+23	eneedle	needle	NOUN	NN	SG;N	24	obl:npmod	24:obl:npmod	CorrectForm=needle
+24	hard	hard	ADJ	JJ	ADJ	21	obl	21:obl:like	_
+25	but	but	CCONJ	CC	CONJ	30	cc	30:cc	_
+26	they	they	PRON	PRP	3;NOM;PL;PRO	30	nsubj	30:nsubj	_
+27-28	arnt	_	_	_	_	_	_	_	_
+27	ar	be	AUX	VBP	3;PRS;IND;FIN;PL;V	30	cop	30:cop	CorrectForm=are
+28	nt	not	PART	RB	PART	30	advmod	30:advmod	CorrectForm=n't
+29	pillow	pillow	NOUN	NN	SG;N	30	obl:npmod	30:obl:npmod	_
+30	soft	soft	ADJ	JJ	ADJ	20	conj	20:conj:but	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0006
+# text = they use them to look prickly.. would you try to eat a cactus [if u had no knife] i know i wouldnt.
+1	they	they	PRON	PRP	3;NOM;PL;PRO	2	nsubj	2:nsubj	_
+2	use	use	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+3	them	they	PRON	PRP	ACC;3;PL;PRO	2	obj	2:obj	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	look	look	VERB	VB	V;NFIN	2	advcl	2:advcl:to	_
+6	prickly	prickly	ADJ	JJ	ADJ	5	xcomp	5:xcomp	SpaceAfter=No
+7	..	..	PUNCT	.	_	10	punct	10:punct	_
+8	would	would	AUX	MD	V;FIN	10	aux	10:aux	_
+9	you	you	PRON	PRP	2;NOM;PRO	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+10	try	try	VERB	VB	V;NFIN	2	parataxis	2:parataxis	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	eat	eat	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+13	a	a	DET	DT	DET;INDF	14	det	14:det	_
+14	cactus	cactus	NOUN	NN	SG;N	12	obj	12:obj	_
+15	[	[	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+16	if	if	SCONJ	IN	CONJ	18	mark	18:mark	_
+17	u	you	PRON	PRP	NOM;2;PRO	18	nsubj	18:nsubj	CorrectForm=you
+18	had	have	VERB	VBD	V;3;IND;FIN;PST;SG	12	advcl	12:advcl:if	_
+19	no	no	DET	DT	DET	20	det	20:det	_
+20	knife	knife	NOUN	NN	SG;N	18	obj	18:obj	SpaceAfter=No
+21	]	]	PUNCT	-RRB-	_	18	punct	18:punct	_
+22	i	I	PRON	PRP	NOM;1;PRO;SG	23	nsubj	23:nsubj	_
+23	know	know	VERB	VBP	V;PRS;IND;FIN;1;SG	2	parataxis	2:parataxis	_
+24	i	I	PRON	PRP	NOM;1;PRO;SG	25	nsubj	25:nsubj	_
+25-26	wouldnt	_	_	_	_	_	_	_	SpaceAfter=No
+25	would	would	AUX	MD	V;FIN	23	ccomp	23:ccomp	_
+26	nt	not	PART	RB	PART	25	advmod	25:advmod	CorrectForm=n't
+27	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108102621AA3hPqj_ans-0007
+# text = they puff out to look bigger and badder and they can scratch you a lil if ur holding them to tight :)
+1	they	they	PRON	PRP	3;NOM;PL;PRO	2	nsubj	2:nsubj	_
+2	puff	puff	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+3	out	out	ADV	RB	ADV	2	advmod	2:advmod	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	look	look	VERB	VB	V;NFIN	2	advcl	2:advcl:to	_
+6	bigger	big	ADJ	JJR	CMPR;ADJ	5	xcomp	5:xcomp	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	badder	bad	ADJ	JJR	CMPR;ADJ	6	conj	5:xcomp|6:conj:and	_
+9	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+10	they	they	PRON	PRP	3;NOM;PL;PRO	12	nsubj	12:nsubj	_
+11	can	can	AUX	MD	V;FIN	12	aux	12:aux	_
+12	scratch	scratch	VERB	VB	V;NFIN	2	conj	2:conj:and	_
+13	you	you	PRON	PRP	ACC;2;PRO	12	obj	12:obj	_
+14	a	a	DET	DT	DET;INDF	15	det	15:det	_
+15	lil	little	ADJ	JJ	ADJ	12	obl:npmod	12:obl:npmod	_
+16	if	if	SCONJ	IN	CONJ	19	mark	19:mark	_
+17-18	ur	_	_	_	_	_	_	_	_
+17	u	you	PRON	PRP	NOM;2;PRO	19	nsubj	19:nsubj	CorrectForm=you
+18	r	be	AUX	VBP	PRS;IND;2;FIN;V;SG	19	aux	19:aux	CorrectForm='re
+19	holding	hold	VERB	VBG	V;V.PTCP;PRS	12	advcl	12:advcl:if	_
+20	them	they	PRON	PRP	ACC;3;PL;PRO	19	obj	19:obj	_
+21	to	too	ADV	RB	ADV	22	advmod	22:advmod	CorrectForm=too
+22	tight	tight	ADV	RB	ADV	19	advmod	19:advmod	_
+23	:)	:)	SYM	NFP	_	2	discourse	2:discourse	_
+

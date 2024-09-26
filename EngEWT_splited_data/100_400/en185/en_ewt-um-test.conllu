@@ -1,0 +1,62 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0011
+# text = Posted by Hidden Nook to Hidden Nook at 11/20/2004 03:10:35 PM
+1	Posted	post	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	_
+3	Hidden	Hidden	ADJ	NNP	ADJ	4	amod	4:amod	_
+4	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl:agent	1:obl:agent	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	Hidden	Hidden	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl	1:obl:to	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	11/20/2004	11/20/2004	NUM	CD	NUM	1	obl	1:obl:at	_
+10	03:10:35	03:10:35	NUM	CD	NUM	11	nummod	11:nummod	_
+11	PM	p.m.	NOUN	NN	SG;N	9	nmod:tmod	9:nmod:tmod	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0001
+# text = Email: BlackBayou <BlackBa...@excite.com>
+1	Email	email	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	BlackBayou	BlackBayou	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+4	<	<	PUNCT	-LRB-	_	5	punct	5:punct	SpaceAfter=No
+5	BlackBa...@excite.com	BlackBa...@excite.com	PROPN	ADD	PROPN	3	list	3:list	SpaceAfter=No
+6	>	>	PUNCT	-RRB-	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0002
+# text = Groups: alt.animals.cat
+1	Groups	group	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	alt.animals.cat	alt.animals.cat	NOUN	NN	SG;N	1	appos	1:appos	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0003
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0002
+# text = I started this page to help with my boredom.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	started	start	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	this	this	DET	DT	SG;DET	4	det	4:det	_
+4	page	page	NOUN	NN	SG;N	2	obj	2:obj	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	help	help	VERB	VB	NFIN;V	2	advcl	2:advcl:to	_
+7	with	with	ADP	IN	ADP	9	case	9:case	_
+8	my	my	PRON	PRP$	GEN;PRO;1;SG	9	nmod:poss	9:nmod:poss	_
+9	boredom	boredom	NOUN	NN	SG;N	6	obl	6:obl:with	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0004
+# text = I have Chronic Lyme disease, so I'm stuck at home.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	Chronic	chronic	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	Lyme	Lyme	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	disease	disease	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	10:punct	_
+7	so	so	ADV	RB	ADV	10	advmod	10:advmod	_
+8-9	I'm	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+9	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	10	cop	10:cop	_
+10	stuck	stuck	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+11	at	at	ADP	IN	ADP	12	case	12:case	_
+12	home	home	NOUN	NN	SG;N	10	obl	10:obl:at	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+

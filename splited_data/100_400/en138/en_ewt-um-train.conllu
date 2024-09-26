@@ -1,0 +1,370 @@
+# sent_id = email-enronsent03_01-0032
+# newpar id = email-enronsent03_01-p0017
+# text = Tobias Munk
+1	Tobias	Tobias	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Munk	Munk	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent03_01-0033
+# newpar id = email-enronsent03_01-p0018
+# text = Please see the attached.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	see	see	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	2	obj	2:obj	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0034
+# newpar id = email-enronsent03_01-p0019
+# text = Teresa
+1	Teresa	Teresa	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent03_01-0035
+# newpar id = email-enronsent03_01-p0020
+# text = Please send David Lund copies of our standard corporate services agreement and the standard assignment letter (use Bridgeline example -- with and without non-compete).
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	send	send	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	David	David	PROPN	NNP	PROPN;SG	2	iobj	2:iobj	_
+4	Lund	Lund	PROPN	NNP	PROPN;SG	3	flat	3:flat	_
+5	copies	copy	NOUN	NNS	N;PL	2	obj	2:obj	_
+6	of	of	ADP	IN	ADP	11	case	11:case	_
+7	our	our	PRON	PRP$	PRO;PL;GEN;1	11	nmod:poss	11:nmod:poss	_
+8	standard	standard	ADJ	JJ	ADJ	11	amod	11:amod	_
+9	corporate	corporate	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	services	service	NOUN	NNS	N;PL	11	compound	11:compound	_
+11	agreement	agreement	NOUN	NN	N;SG	5	nmod	5:nmod:of	_
+12	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+13	the	the	DET	DT	DEF;DET	16	det	16:det	_
+14	standard	standard	ADJ	JJ	ADJ	16	amod	16:amod	_
+15	assignment	assignment	NOUN	NN	N;SG	16	compound	16:compound	_
+16	letter	letter	NOUN	NN	N;SG	11	conj	5:nmod:of|11:conj:and	_
+17	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+18	use	use	VERB	VB	V;FIN;IMP	5	parataxis	5:parataxis	_
+19	Bridgeline	Bridgeline	PROPN	NNP	PROPN;SG	20	compound	20:compound	_
+20	example	example	NOUN	NN	N;SG	18	obj	18:obj	_
+21	--	--	PUNCT	,	_	25	punct	25:punct	_
+22	with	with	ADP	IN	ADP	25	case	25:case	_
+23	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+24	without	without	ADP	IN	ADP	22	conj	22:conj:and|25:case	_
+25	non-compete	non-compete	NOUN	NN	N;SG	18	obl	18:obl:without	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0036
+# text = Michelle
+1	Michelle	Michelle	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent03_01-0037
+# newpar id = email-enronsent03_01-p0021
+# text = We're formatting one this week, and we'll send it when it's done.
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj	_
+2	're	be	AUX	VBP	FIN;V;PRS;IND;PL;1	3	aux	3:aux	_
+3	formatting	format	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	one	one	NUM	CD	NUM	3	obj	3:obj	_
+5	this	this	DET	DT	DET;SG	6	det	6:det	_
+6	week	week	NOUN	NN	N;SG	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+9-10	we'll	_	_	_	_	_	_	_	_
+9	we	we	PRON	PRP	PRO;PL;NOM;1	11	nsubj	11:nsubj	_
+10	'll	will	AUX	MD	V;FIN	11	aux	11:aux	_
+11	send	send	VERB	VB	V;NFIN	3	conj	3:conj:and	_
+12	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	11	obj	11:obj	_
+13	when	when	ADV	WRB	ADV	16	advmod	16:advmod	_
+14-15	it's	_	_	_	_	_	_	_	_
+14	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	16	nsubj	16:nsubj	_
+15	's	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	16	cop	16:cop	_
+16	done	done	ADJ	JJ	ADJ	11	advcl	11:advcl:when	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent03_01-0038
+# text = Michelle
+1	Michelle	Michelle	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent03_01-0039
+# newpar id = email-enronsent03_01-p0022
+# text = Thanks very much.
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	_
+2	very	very	ADV	RB	ADV	3	advmod	3:advmod	_
+3	much	much	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0040
+# text = Do you also have a SSD we can use?
+1	Do	do	AUX	VBP	2;FIN;SG;V;PRS;IND	4	aux	4:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	4	nsubj	4:nsubj	_
+3	also	also	ADV	RB	ADV	4	advmod	4:advmod	_
+4	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	SSD	ssd	NOUN	NN	N;SG	4	obj	4:obj|9:obj	_
+7	we	we	PRON	PRP	PRO;PL;NOM;1	9	nsubj	9:nsubj	_
+8	can	can	AUX	MD	V;FIN	9	aux	9:aux	_
+9	use	use	VERB	VB	V;NFIN	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent03_01-0041
+# text = Jane
+1	Jane	Jane	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent03_01-0042
+# newpar id = email-enronsent03_01-p0023
+# text = << File: 220b - dg - Agreement for Recruiting Services.doc >> << File: 220a DG - Agreement for Contract Services.DOC >>
+1	<<	<<	PUNCT	-LRB-	_	2	punct	2:punct	_
+2	File	file	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	8	punct	8:punct	_
+4	220b	220b	X	GW	_	8	compound	8:compound	_
+5	-	-	PUNCT	GW	_	4	punct	4:punct	_
+6	dg	dg	X	GW	_	8	compound	8:compound	_
+7	-	-	PUNCT	GW	_	6	punct	6:punct	_
+8	Agreement	agreement	X	GW	_	2	appos	2:appos	_
+9	for	for	X	GW	_	11	case	11:case	_
+10	Recruiting	recruiting	X	GW	_	11	compound	11:compound	_
+11	Services.doc	services.doc	NOUN	NN	N;SG	8	nmod	8:nmod:for	_
+12	>>	>>	PUNCT	-RRB-	_	14	punct	14:punct	_
+13	<<	<<	PUNCT	-LRB-	_	14	punct	14:punct	_
+14	File	file	NOUN	NN	N;SG	2	parataxis	2:parataxis	SpaceAfter=No
+15	:	:	PUNCT	:	_	19	punct	19:punct	_
+16	220a	220a	X	GW	_	19	compound	19:compound	_
+17	DG	dg	X	GW	_	19	compound	19:compound	_
+18	-	-	PUNCT	GW	_	17	punct	17:punct	_
+19	Agreement	agreement	X	GW	_	14	appos	14:appos	_
+20	for	for	X	GW	_	22	case	22:case	_
+21	Contract	contract	X	GW	_	22	compound	22:compound	_
+22	Services.DOC	services.doc	NOUN	NN	N;SG	19	nmod	19:nmod:for	_
+23	>>	>>	PUNCT	-RRB-	_	14	punct	14:punct	_
+
+# sent_id = email-enronsent03_01-0043
+# text = Here are the sample Agreements.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	1	cop	1:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	sample	sample	NOUN	NN	N;SG	5	compound	5:compound	_
+5	Agreements	agreement	NOUN	NNS	N;PL	1	nsubj	1:nsubj	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0044
+# text = Please let us know if you need anything else.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	us	we	PRON	PRP	PRO;PL;1;ACC	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	you	you	PRON	PRP	PRO;2;NOM	7	nsubj	7:nsubj	_
+7	need	need	VERB	VBP	2;FIN;SG;V;PRS;IND	4	ccomp	4:ccomp	_
+8	anything	anything	PRON	NN	PRO;SG	7	obj	7:obj	_
+9	else	else	ADJ	JJ	ADJ	8	amod	8:amod	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0045
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0046
+# newpar id = email-enronsent03_01-p0024
+# text = Diane Goode Senior Specialist
+1	Diane	Diane	PROPN	NNP	PROPN;SG	2	compound	2:compound	_
+2	Goode	Goode	PROPN	NNP	PROPN;SG	0	root	0:root	_
+3	Senior	senior	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Specialist	specialist	NOUN	NN	N;SG	2	appos	2:appos	_
+
+# sent_id = email-enronsent03_01-0047
+# text = I agree also, but I don't know all the parties or complications involved.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	agree	agree	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	also	also	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	,	_	9	punct	9:punct	_
+5	but	but	CCONJ	CC	CONJ	9	cc	9:cc	_
+6	I	I	PRON	PRP	SG;PRO;NOM;1	9	nsubj	9:nsubj	_
+7-8	don't	_	_	_	_	_	_	_	_
+7	do	do	AUX	VBP	FIN;SG;V;PRS;IND;1	9	aux	9:aux	_
+8	n't	not	PART	RB	PART	9	advmod	9:advmod	_
+9	know	know	VERB	VB	V;NFIN	2	conj	2:conj:but	_
+10	all	all	DET	PDT	DET	12	det:predet	12:det:predet	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	parties	party	NOUN	NNS	N;PL	9	obj	9:obj	_
+13	or	or	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	complications	complication	NOUN	NNS	N;PL	12	conj	9:obj|12:conj:or	_
+15	involved	involved	ADJ	JJ	ADJ	12	amod	12:amod	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0048
+# text = Should there be a (groan) meeting on this?
+1	Should	should	AUX	MD	V;FIN	3	aux	3:aux	_
+2	there	there	PRON	EX	PRO	3	expl	3:expl	_
+3	be	be	VERB	VB	V;NFIN	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	8	det	8:det	_
+5	(	(	PUNCT	-LRB-	_	6	punct	6:punct	SpaceAfter=No
+6	groan	groan	INTJ	UH	INTJ	8	parataxis	8:parataxis	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
+8	meeting	meeting	NOUN	NN	N;SG	3	nsubj	3:nsubj	_
+9	on	on	ADP	IN	ADP	10	case	10:case	_
+10	this	this	PRON	DT	PRO;SG	8	nmod	8:nmod:on	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent03_01-0049
+# newpar id = email-enronsent03_01-p0025
+# text = Can you please help with this one?
+1	Can	can	AUX	MD	V;FIN	4	aux	4:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	4	nsubj	4:nsubj	_
+3	please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+4	help	help	VERB	VB	V;NFIN	0	root	0:root	_
+5	with	with	ADP	IN	ADP	7	case	7:case	_
+6	this	this	DET	DT	DET;SG	7	det	7:det	_
+7	one	one	NOUN	NN	N;SG	4	obl	4:obl:with	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent03_01-0050
+# text = I agree with what the concern is below.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	agree	agree	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	with	with	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	what	what	PRON	WP	PRO	2	advcl	2:advcl:with	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	concern	concern	NOUN	NN	N;SG	4	nsubj	4:nsubj	_
+7	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	4	cop	4:cop	_
+8	below	below	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0051
+# text = We have GIS ids, and Eid (external id - just like GIS id).
+1	We	we	PRON	PRP	PRO;PL;NOM;1	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	FIN;V;PRS;IND;PL;1	0	root	0:root	_
+3	GIS	GIS	NOUN	NN	N;SG	4	compound	4:compound	_
+4	ids	id	NOUN	NNS	N;PL	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Eid	Eid	NOUN	NN	N;SG	4	conj	2:obj|4:conj:and	_
+8	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+9	external	external	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	id	id	NOUN	NN	N;SG	7	appos	7:appos	_
+11	-	-	PUNCT	,	_	15	punct	15:punct	_
+12	just	just	ADV	RB	ADV	15	advmod	15:advmod	_
+13	like	like	ADP	IN	ADP	15	case	15:case	_
+14	GIS	GIS	NOUN	NN	N;SG	15	compound	15:compound	_
+15	id	id	NOUN	NN	N;SG	10	appos	10:appos	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	10	punct	10:punct	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0052
+# text = I think we should try to migrate to one of these.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	we	we	PRON	PRP	PRO;PL;NOM;1	5	nsubj	5:nsubj|7:nsubj:xsubj	_
+4	should	should	AUX	MD	V;FIN	5	aux	5:aux	_
+5	try	try	VERB	VB	V;NFIN	2	ccomp	2:ccomp	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	migrate	migrate	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	to	to	ADP	IN	ADP	9	case	9:case	_
+9	one	one	NUM	CD	NUM	7	obl	7:obl:to	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	these	this	PRON	DT	PRO;PL	9	nmod	9:nmod:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0053
+# text = Please let me know what type of statement I should make back to the customer.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	what	what	DET	WDT	DET	6	det	6:det	_
+6	type	type	NOUN	NN	N;SG	11	obj	11:obj	_
+7	of	of	ADP	IN	ADP	8	case	8:case	_
+8	statement	statement	NOUN	NN	N;SG	6	nmod	6:nmod:of	_
+9	I	I	PRON	PRP	SG;PRO;NOM;1	11	nsubj	11:nsubj	_
+10	should	should	AUX	MD	V;FIN	11	aux	11:aux	_
+11	make	make	VERB	VB	V;NFIN	4	ccomp	4:ccomp	_
+12	back	back	ADV	RB	ADV	11	advmod	11:advmod	_
+13	to	to	ADP	IN	ADP	15	case	15:case	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	customer	customer	NOUN	NN	N;SG	12	obl	12:obl:to	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent03_01-0054
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0055
+# newpar id = email-enronsent03_01-p0026
+# text = Kathy,
+1	Kathy	Kathy	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0056
+# newpar id = email-enronsent03_01-p0027
+# text = Per my voicemail message, please review the note below.
+1	Per	per	ADP	IN	ADP	4	case	4:case	_
+2	my	my	PRON	PRP$	SG;PRO;GEN;1	4	nmod:poss	4:nmod:poss	_
+3	voicemail	voicemail	NOUN	NN	N;SG	4	compound	4:compound	_
+4	message	message	NOUN	NN	N;SG	7	obl	7:obl:per	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	please	please	INTJ	UH	INTJ	7	discourse	7:discourse	_
+7	review	review	VERB	VB	V;FIN;IMP	0	root	0:root	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	note	note	NOUN	NN	N;SG	7	obj	7:obj	_
+10	below	below	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent03_01-0057
+# text = I'd like to work with you on a response to this customer.
+1-2	I'd	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'd	would	AUX	MD	V;FIN	3	aux	3:aux	_
+3	like	like	VERB	VB	V;NFIN	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	work	work	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+6	with	with	ADP	IN	ADP	7	case	7:case	_
+7	you	you	PRON	PRP	PRO;2;ACC	5	obl	5:obl:with	_
+8	on	on	ADP	IN	ADP	10	case	10:case	_
+9	a	a	DET	DT	DET;INDF	10	det	10:det	_
+10	response	response	NOUN	NN	N;SG	5	obl	5:obl:on	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	this	this	DET	DT	DET;SG	13	det	13:det	_
+13	customer	customer	NOUN	NN	N;SG	10	nmod	10:nmod:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent03_01-0058
+# newpar id = email-enronsent03_01-p0028
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent03_01-0059
+# newpar id = email-enronsent03_01-p0029
+# text = Brandee
+1	Brandee	Brandee	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent03_01-0060
+# text = Brandee Sanborn I.S.C. Customer Care Design & Process Support http://isc.enron.com/site
+1	Brandee	Brandee	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Sanborn	Sanborn	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	I.S.C.	i.s.c.	NOUN	NN	N;SG	5	compound	5:compound	_
+4	Customer	customer	NOUN	NN	N;SG	5	compound	5:compound	_
+5	Care	care	NOUN	NN	N;SG	1	appos	1:appos	_
+6	Design	design	NOUN	NN	N;SG	1	list	1:list	_
+7	&	&	CCONJ	CC	CONJ	9	cc	9:cc	_
+8	Process	process	NOUN	NN	N;SG	9	compound	9:compound	_
+9	Support	support	NOUN	NN	N;SG	6	conj	6:conj	_
+10	http://isc.enron.com/site	http://isc.enron.com/site	PROPN	ADD	PROPN	1	list	1:list	_
+
+# sent_id = email-enronsent03_01-0061
+# text = << OLE Object: Picture (Device Independent Bitmap) >>
+1	<<	<<	PUNCT	-LRB-	_	3	punct	3:punct	_
+2	OLE	ole	NOUN	NN	N;SG	3	compound	3:compound	_
+3	Object	object	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	5:punct	_
+5	Picture	picture	NOUN	NN	N;SG	3	appos	3:appos	_
+6	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+7	Device	device	NOUN	NN	N;SG	8	compound	8:compound	_
+8	Independent	independent	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Bitmap	bitmap	NOUN	NN	N;SG	3	appos	3:appos	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+11	>>	>>	PUNCT	-RRB-	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent03_01-0062
+# text = Ngoc Luan Do@ENRON_DEVELOPMENT
+1	Ngoc	NgocLuanDo@ENRON_DEVELOPMENT	PROPN	GW	PROPN	0	root	0:root	_
+2	Luan	_	X	GW	_	1	goeswith	1:goeswith	_
+3	Do@ENRON_DEVELOPMENT	_	X	ADD	_	1	goeswith	1:goeswith	_
+

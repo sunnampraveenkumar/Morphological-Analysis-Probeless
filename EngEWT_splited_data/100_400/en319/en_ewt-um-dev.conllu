@@ -1,0 +1,100 @@
+# sent_id = reviews-307250-0003
+# text = I want my money back!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	want	want	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	my	my	PRON	PRP$	PRO;GEN;1;SG	4	nmod:poss	4:nmod:poss	_
+4	money	money	NOUN	NN	SG;N	2	obj	2:obj	_
+5	back	back	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+6	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-088914
+# sent_id = reviews-088914-0001
+# newpar id = reviews-088914-p0001
+# text = They did a vehicle wrap for my Toyota Venza that looks amazing.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	2	nsubj	2:nsubj	_
+2	did	do	VERB	VBD	FIN;3;PL;V;IND;PST	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	vehicle	vehicle	NOUN	NN	SG;N	5	compound	5:compound	_
+5	wrap	wrap	NOUN	NN	SG;N	2	obj	2:obj|11:nsubj|12:nsubj:xsubj	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	my	my	PRON	PRP$	PRO;GEN;1;SG	9	nmod:poss	9:nmod:poss	_
+8	Toyota	Toyota	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Venza	Venza	PROPN	NNP	SG;PROPN	5	nmod	5:nmod:for	_
+10	that	that	PRON	WDT	PRO	11	nsubj	5:ref	_
+11	looks	look	VERB	VBZ	FIN;PRS;3;V;IND;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-that-nsubj
+12	amazing	amazing	ADJ	JJ	ADJ	11	xcomp	11:xcomp	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-088914-0002
+# text = They also do banners, billboards and lots more.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	3	nsubj	3:nsubj	_
+2	also	also	ADV	RB	ADV	3	advmod	3:advmod	_
+3	do	do	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+4	banners	banner	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	billboards	billboard	NOUN	NNS	PL;N	4	conj	3:obj|4:conj:and	_
+7	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+8	lots	lot	NOUN	NNS	PL;N	9	obl:npmod	9:obl:npmod	_
+9	more	more	ADJ	JJR	ADJ;CMPR	4	conj	3:obj|4:conj:and	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-385436
+# sent_id = reviews-385436-0001
+# newpar id = reviews-385436-p0001
+# text = This is the best Mediterranean Restaurant in the West Valley, I have friend who drive from central Phx to come here.
+1	This	this	PRON	DT	PRO;SG	6	nsubj	6:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	6	cop	6:cop	_
+3	the	the	DET	DT	DET;DEF	6	det	6:det	_
+4	best	good	ADJ	JJS	ADJ;RL	6	amod	6:amod	_
+5	Mediterranean	Mediterranean	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	Restaurant	restaurant	NOUN	NN	SG;N	0	root	0:root	_
+7	in	in	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DET;DEF	10	det	10:det	_
+9	West	West	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Valley	Valley	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:in	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	I	I	PRON	PRP	PRO;1;NOM;SG	13	nsubj	13:nsubj	_
+13	have	have	VERB	VBP	FIN;PRS;1;V;IND;SG	6	parataxis	6:parataxis	_
+14	friend	friend	NOUN	NN	SG;N	13	obj	13:obj|16:nsubj	_
+15	who	who	PRON	WP	PRO	16	nsubj	14:ref	_
+16	drive	drive	VERB	VBP	FIN;PRS;3;PL;V;IND	14	acl:relcl	14:acl:relcl	CorrectForm=drives|CorrectNumber=Sing|Cxn=rc-wh-nsubj
+17	from	from	ADP	IN	ADP	19	case	19:case	_
+18	central	central	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	Phx	Phoenix	PROPN	NNP	SG;PROPN	16	obl	16:obl:from	_
+20	to	to	PART	TO	PART	21	mark	21:mark	_
+21	come	come	VERB	VB	NFIN;V	16	advcl	16:advcl:to	_
+22	here	here	ADV	RB	ADV	21	advmod	21:advmod	SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# newdoc id = reviews-332972
+# sent_id = reviews-332972-0001
+# newpar id = reviews-332972-p0001
+# text = The best pizza ever im fat so ive had a ton of pizza other than pizza from chicago its the best
+1	The	the	DET	DT	DET;DEF	3	det	3:det	_
+2	best	good	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+3	pizza	pizza	NOUN	NN	SG;N	0	root	0:root	_
+4	ever	ever	ADV	RB	ADV	3	advmod	3:advmod	_
+5-6	im	_	_	_	_	_	_	_	_
+5	i	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+6	m	be	AUX	VBP	FIN;PRS;1;V;IND;SG	7	cop	7:cop	CorrectForm='m
+7	fat	fat	ADJ	JJ	ADJ	3	parataxis	3:parataxis	_
+8	so	so	ADV	RB	ADV	11	advmod	11:advmod	_
+9-10	ive	_	_	_	_	_	_	_	_
+9	i	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+10	ve	have	AUX	VBP	FIN;PRS;1;V;IND;SG	11	aux	11:aux	CorrectForm='ve
+11	had	have	VERB	VBN	V;V.PTCP;PST	7	parataxis	7:parataxis	_
+12	a	a	DET	DT	DET;INDF	13	det	13:det	_
+13	ton	ton	NOUN	NN	SG;N	11	obj	11:obj	_
+14	of	of	ADP	IN	ADP	15	case	15:case	_
+15	pizza	pizza	NOUN	NN	SG;N	13	nmod	13:nmod:of	_
+16	other	other	ADJ	JJ	ADJ	15	amod	15:amod	_
+17	than	than	ADP	IN	ADP	18	case	18:case	_
+18	pizza	pizza	NOUN	NN	SG;N	16	obl	16:obl:than	_
+19	from	from	ADP	IN	ADP	20	case	20:case	_
+20	chicago	Chicago	PROPN	NNP	SG;PROPN	18	nmod	18:nmod:from	_
+21-22	its	_	_	_	_	_	_	_	_
+21	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	24	nsubj	24:nsubj	_
+22	s	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	24	cop	24:cop	CorrectForm='s
+23	the	the	DET	DT	DET;DEF	24	det	24:det	_
+24	best	good	ADJ	JJS	ADJ;RL	3	parataxis	3:parataxis	_
+

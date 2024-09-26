@@ -1,0 +1,69 @@
+# sent_id = reviews-358063-0004
+# text = Very efficient at treating chronic pain!
+1	Very	very	ADV	RB	ADV	2	advmod	2:advmod	_
+2	efficient	efficient	ADJ	JJ	ADJ	0	root	0:root	_
+3	at	at	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	treating	treat	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:at	_
+5	chronic	chronic	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	pain	pain	NOUN	NN	SG;N	4	obj	4:obj	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-354860
+# sent_id = reviews-354860-0001
+# newpar id = reviews-354860-p0001
+# text = The best company in Phuket for creating website and e-commerce website.
+1	The	the	DET	DT	DET;DEF	3	det	3:det	_
+2	best	good	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+3	company	company	NOUN	NN	SG;N	0	root	0:root	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	Phuket	Phuket	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:in	_
+6	for	for	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	creating	create	VERB	VBG	V;V.MSDR	3	acl	3:acl:for	_
+8	website	website	NOUN	NN	SG;N	7	obj	7:obj	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	e-commerce	e-commerce	NOUN	NN	SG;N	11	compound	11:compound	_
+11	website	website	NOUN	NN	SG;N	8	conj	7:obj|8:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-354860-0002
+# text = From first meeting with them to launch of my website, everything went smooth and on schedule.
+1	From	from	ADP	IN	ADP	3	case	3:case	_
+2	first	first	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	meeting	meeting	NOUN	NN	SG;N	14	obl	14:obl:from	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	them	they	PRON	PRP	PRO;ACC;PL;3	3	nmod	3:nmod:with	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	launch	launch	NOUN	NN	SG;N	14	obl	14:obl:to	_
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	my	my	PRON	PRP$	PRO;GEN;1;SG	10	nmod:poss	10:nmod:poss	_
+10	website	website	NOUN	NN	SG;N	7	nmod	7:nmod:of	SpaceAfter=No
+11	,	,	PUNCT	,	_	7	punct	7:punct	_
+12	everything	everything	PRON	NN	PRO;SG	13	nsubj	13:nsubj	_
+13	went	go	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+14	smooth	smooth	ADV	RB	ADV	13	advmod	13:advmod	_
+15	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+16	on	on	ADP	IN	ADP	17	case	17:case	_
+17	schedule	schedule	NOUN	NN	SG;N	14	conj	13:advmod|14:conj:and	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = reviews-354860-0003
+# text = Highly recommended for who wants to have website.
+1	Highly	highly	ADV	RB	ADV	2	advmod	2:advmod	_
+2	recommended	recommend	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+3	for	for	ADP	IN	ADP	4	case	4:case	_
+4	who	whoever	PRON	WP	PRO	2	obl	2:obl:for|5:nsubj	CorrectForm=whoever
+5	wants	want	VERB	VBZ	FIN;PRS;3;V;IND;SG	4	acl:relcl	4:acl:relcl	Cxn=rc-free-nsubj
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	have	have	VERB	VB	NFIN;V	5	xcomp	5:xcomp	_
+8	website	website	NOUN	NN	SG;N	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-354860-0004
+# text = Great with SEO as well.
+1	Great	great	ADJ	JJ	ADJ	0	root	0:root	_
+2	with	with	ADP	IN	ADP	3	case	3:case	_
+3	SEO	SEO	PROPN	NNP	SG;PROPN	1	obl	1:obl:with	_
+4	as	as	ADV	RB	ADV	1	advmod	1:advmod	_
+5	well	well	ADV	RB	ADV	4	fixed	4:fixed	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	1:punct	_
+

@@ -1,0 +1,74 @@
+# newdoc id = reviews-334928
+# sent_id = reviews-334928-0001
+# newpar id = reviews-334928-p0001
+# text = One of the better vegetarian sandwiches I've had in Seattle.
+1	One	one	NUM	CD	NUM	0	root	0:root	_
+2	of	of	ADP	IN	ADP	6	case	6:case	_
+3	the	the	DET	DT	DEF;DET	6	det	6:det	_
+4	better	good	ADJ	JJR	CMPR;ADJ	6	amod	6:amod	_
+5	vegetarian	vegetarian	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	sandwiches	sandwich	NOUN	NNS	PL;N	1	nmod	1:nmod:of|9:obj	_
+7-8	I've	_	_	_	_	_	_	_	_
+7	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+8	've	have	AUX	VBP	V;1;FIN;PRS;SG;IND	9	aux	9:aux	_
+9	had	have	VERB	VBN	PST;V;V.PTCP	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	Seattle	Seattle	PROPN	NNP	SG;PROPN	9	obl	9:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-334928-0002
+# text = And from a place that specializes in high quality meat, too.
+1	And	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+2	from	from	ADP	IN	ADP	4	case	4:case	_
+3	a	a	DET	DT	INDF;DET	4	det	4:det	_
+4	place	place	NOUN	NN	SG;N	0	root	0:root|6:nsubj	_
+5	that	that	PRON	WDT	PRO	6	nsubj	4:ref	_
+6	specializes	specialize	VERB	VBZ	V;3;FIN;PRS;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+7	in	in	ADP	IN	ADP	10	case	10:case	_
+8	high	high	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	quality	quality	NOUN	NN	SG;N	10	compound	10:compound	_
+10	meat	meat	NOUN	NN	SG;N	6	obl	6:obl:in	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
+12	too	too	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-314024
+# sent_id = reviews-314024-0001
+# newpar id = reviews-314024-p0001
+# text = Old time grocery, best steaks I have ever had!
+1	Old	old	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	time	time	NOUN	NN	SG;N	3	compound	3:compound	_
+3	grocery	grocery	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	best	good	ADJ	JJS	RL;ADJ	6	amod	6:amod	_
+6	steaks	steak	NOUN	NNS	PL;N	3	appos	3:appos|10:obj	_
+7	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+8	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	10	aux	10:aux	_
+9	ever	ever	ADV	RB	ADV	10	advmod	10:advmod	_
+10	had	have	VERB	VBN	PST;V;V.PTCP	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-314024-0002
+# text = Great meats that are already cooked, easy to take home for dinner.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	meats	meat	NOUN	NNS	PL;N	0	root	0:root|6:nsubj:pass|8:nsubj	_
+3	that	that	PRON	WDT	PRO	6	nsubj:pass	2:ref	_
+4	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	6	aux:pass	6:aux:pass	_
+5	already	already	ADV	RB	ADV	6	advmod	6:advmod	_
+6	cooked	cook	VERB	VBN	PASS;PST;V;V.PTCP	2	acl:relcl	2:acl:relcl	Cxn=rc-that-nsubj:pass|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	easy	easy	ADJ	JJ	ADJ	6	conj	2:acl:relcl|6:conj	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	take	take	VERB	VB	NFIN;V	8	ccomp	8:ccomp	_
+11	home	home	ADV	RB	ADV	10	advmod	10:advmod	_
+12	for	for	ADP	IN	ADP	13	case	13:case	_
+13	dinner	dinner	NOUN	NN	SG;N	10	obl	10:obl:for	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-226715
+# sent_id = reviews-226715-0001
+# newpar id = reviews-226715-p0001
+# text = Inford Media
+1	Inford	Inford	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Media	Media	PROPN	NNP	SG;PROPN	0	root	0:root	_
+

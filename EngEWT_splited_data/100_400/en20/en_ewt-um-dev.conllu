@@ -1,0 +1,79 @@
+# newdoc id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0001
+# newpar id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-p0001
+# text = I ran across this item on the Internet.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	ran	run	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	across	across	ADP	IN	ADP	5	case	5:case	_
+4	this	this	DET	DT	DET;SG	5	det	5:det	_
+5	item	item	NOUN	NN	SG;N	2	obl	2:obl:across	_
+6	on	on	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DET;DEF	8	det	8:det	_
+8	Internet	internet	NOUN	NN	SG;N	2	obl	2:obl:on	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0002
+# newpar id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-p0002
+# text = Sooooo.
+1	Sooooo	so	ADV	RB	ADV	0	root	0:root	CorrectForm=so|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0003
+# text = The United States goes into a war zone and evacuates a bunch of U.S. citizens (most of whom were "dual-citizens").
+1	The	the	DET	DT	DET;DEF	3	det	3:det	_
+2	United	United	ADJ	NNP	ADJ	3	amod	3:amod	_
+3	States	State	PROPN	NNPS	PROPN;PL	4	nsubj	4:nsubj|10:nsubj	_
+4	goes	go	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+5	into	into	ADP	IN	ADP	8	case	8:case	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	war	war	NOUN	NN	SG;N	8	compound	8:compound	_
+8	zone	zone	NOUN	NN	SG;N	4	obl	4:obl:into	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	evacuates	evacuate	VERB	VBZ	FIN;PRS;3;V;IND;SG	4	conj	4:conj:and	_
+11	a	a	DET	DT	DET;INDF	12	det	12:det	_
+12	bunch	bunch	NOUN	NN	SG;N	10	obj	10:obj	_
+13	of	of	ADP	IN	ADP	15	case	15:case	_
+14	U.S.	U.S.	PROPN	NNP	SG;PROPN	15	compound	15:compound	_
+15	citizens	citizen	NOUN	NNS	PL;N	12	nmod	12:nmod:of|17:nmod:of	_
+16	(	(	PUNCT	-LRB-	_	24	punct	24:punct	SpaceAfter=No
+17	most	most	ADJ	JJS	ADJ;RL	24	nsubj	24:nsubj	_
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19	whom	whom	PRON	WP	PRO	17	nmod	15:ref	_
+20	were	be	AUX	VBD	FIN;3;PL;V;IND;PST	24	cop	24:cop	_
+21	"	"	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
+22	dual	dual	ADJ	JJ	ADJ	24	amod	24:amod	SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
+24	citizens	citizen	NOUN	NNS	PL;N	15	acl:relcl	15:acl:relcl	Cxn=rc-wh-nmod_nsubj-pfront|SpaceAfter=No
+25	"	"	PUNCT	''	_	24	punct	24:punct	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	24	punct	24:punct	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0004
+# text = Then, eschewing normal procedure, the Department of State waived the fees that they charge for evacuating U.S. citizen.
+1	Then	then	ADV	RB	ADV	11	advmod	11:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	eschewing	eschew	VERB	VBG	PRS;V;V.PTCP	11	advcl	11:advcl	_
+4	normal	normal	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	procedure	procedure	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	the	the	DET	DT	DET;DEF	8	det	8:det	_
+8	Department	Department	PROPN	NNP	SG;PROPN	11	nsubj	11:nsubj	_
+9	of	of	ADP	IN	ADP	10	case	10:case	_
+10	State	State	PROPN	NNP	SG;PROPN	8	nmod	8:nmod:of	_
+11	waived	waive	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	fees	fee	NOUN	NNS	PL;N	11	obj	11:obj|16:obj	_
+14	that	that	PRON	WDT	PRO	16	obj	13:ref	_
+15	they	they	PRON	PRP	PRO;3;PL;NOM	16	nsubj	16:nsubj	_
+16	charge	charge	VERB	VBP	FIN;PRS;3;PL;V;IND	13	acl:relcl	13:acl:relcl	Cxn=rc-that-obj
+17	for	for	SCONJ	IN	CONJ	18	mark	18:mark	_
+18	evacuating	evacuate	VERB	VBG	PRS;V;V.PTCP	16	advcl	16:advcl:for	_
+19	U.S.	U.S.	PROPN	NNP	SG;PROPN	20	compound	20:compound	_
+20	citizen	citizen	NOUN	NN	SG;N	18	obj	18:obj	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0005
+# text = Why?
+1	Why	why	ADV	WRB	ADV	0	root	0:root	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+

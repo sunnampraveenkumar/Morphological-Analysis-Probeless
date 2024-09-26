@@ -1,0 +1,95 @@
+# sent_id = email-enronsent28_03-0038
+# text = Did you survive the honeymoon?
+1	Did	do	AUX	VBD	FIN;2;V;IND;SG;PST	3	aux	3:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	survive	survive	VERB	VB	NFIN;V	0	root	0:root	_
+4	the	the	DET	DT	DET;DEF	5	det	5:det	_
+5	honeymoon	honeymoon	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_03-0039
+# newpar id = email-enronsent28_03-p0008
+# text = These look fine to me.
+1	These	this	PRON	DT	PRO;PL	2	nsubj	2:nsubj|3:nsubj:xsubj	_
+2	look	look	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+3	fine	fine	ADJ	JJ	ADJ	2	xcomp	2:xcomp	_
+4	to	to	ADP	IN	ADP	5	case	5:case	_
+5	me	I	PRON	PRP	PRO;ACC;1;SG	2	obl	2:obl:to	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_03-0040
+# text = Go ahead and forward to Brant if you are ready.
+1	Go	go	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	ahead	ahead	ADV	RB	ADV	1	advmod	1:advmod	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	forward	forward	VERB	VB	FIN;V;IMP	1	conj	1:conj:and	_
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	Brant	Brant	PROPN	NNP	SG;PROPN	4	obl	4:obl:to	_
+7	if	if	SCONJ	IN	CONJ	10	mark	10:mark	_
+8	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+9	are	be	AUX	VBP	FIN;PRS;2;V;IND;SG	10	cop	10:cop	_
+10	ready	ready	ADJ	JJ	ADJ	4	advcl	4:advcl:if	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = email-enronsent01_01
+# sent_id = email-enronsent01_01-0001
+# newpar id = email-enronsent01_01-p0001
+# text = Joan Woodson
+1	Joan	Joan	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Woodson	Woodson	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent01_01-0002
+# text = 08/10/2000 08:28 AM
+1	08/10/2000	08/10/2000	NUM	CD	NUM	0	root	0:root	_
+2	08:28	08:28	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent01_01-0003
+# text = Enron Investment Partners
+1	Enron	Enron	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+2	Investment	Investment	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Partners	Partner	PROPN	NNPS	PROPN;PL	0	root	0:root	_
+
+# sent_id = email-enronsent01_01-0004
+# text = Congratulations!
+1	Congratulations	congratulation	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent01_01-0005
+# text = You've all won!
+1-2	You've	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+2	've	have	AUX	VBP	FIN;PRS;2;V;IND;SG	4	aux	4:aux	_
+3	all	all	ADV	RB	ADV	4	advmod	4:advmod	_
+4	won	win	VERB	VBN	V;V.PTCP;PST	0	root	0:root	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent01_01-0006
+# newpar id = email-enronsent01_01-p0002
+# text = ...Now comes the fun part....
+1	...	...	PUNCT	,	_	3	punct	3:punct	SpaceAfter=No
+2	Now	now	ADV	RB	ADV	3	advmod	3:advmod	_
+3	comes	come	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	the	the	DET	DT	DET;DEF	6	det	6:det	_
+5	fun	fun	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	part	part	NOUN	NN	SG;N	3	nsubj	3:nsubj	SpaceAfter=No
+7	....	....	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent01_01-0007
+# newpar id = email-enronsent01_01-p0003
+# text = The following have made a team for the game show on August 17th!.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	following	follow	VERB	VBG	V;V.MSDR	4	nsubj	4:nsubj	_
+3	have	have	AUX	VBP	FIN;PRS;3;PL;V;IND	4	aux	4:aux	_
+4	made	make	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	team	team	NOUN	NN	SG;N	4	obj	4:obj	_
+7	for	for	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DET;DEF	10	det	10:det	_
+9	game	game	NOUN	NN	SG;N	10	compound	10:compound	_
+10	show	show	NOUN	NN	SG;N	6	nmod	6:nmod:for	_
+11	on	on	ADP	IN	ADP	12	case	12:case	_
+12	August	August	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:on	_
+13	17th	17th	NOUN	NN	SG;N	12	nummod	12:nummod	SpaceAfter=No
+14	!.	!.	PUNCT	.	_	4	punct	4:punct	_
+

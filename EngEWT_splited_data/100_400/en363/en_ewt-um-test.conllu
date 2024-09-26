@@ -1,0 +1,91 @@
+# sent_id = reviews-299169-0002
+# newpar id = reviews-299169-p0002
+# text = Fried rice has NO flavor, it literally taste like water.
+1	Fried	fry	VERB	VBN	PASS;PST;V;V.PTCP	2	amod	2:amod	_
+2	rice	rice	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	NO	no	DET	DT	DET	5	det	5:det	_
+5	flavor	flavor	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	9:punct	_
+7	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	9	nsubj	9:nsubj	_
+8	literally	literally	ADV	RB	ADV	9	advmod	9:advmod	_
+9	taste	taste	VERB	VBP	PL;V;3;FIN;PRS;IND	3	parataxis	3:parataxis	CorrectForm=tastes|CorrectNumber=Sing
+10	like	like	ADP	IN	ADP	11	case	11:case	_
+11	water	water	NOUN	NN	SG;N	9	obl	9:obl:like	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-299169-0003
+# text = When I tried to return it they refused, so I had to leave without a refund and still hungry.
+1	When	when	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3	tried	try	VERB	VBD	1;V;PST;FIN;SG;IND	8	advcl	8:advcl:when	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	return	return	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	5	obj	5:obj	_
+7	they	they	PRON	PRP	PL;PRO;3;NOM	8	nsubj	8:nsubj	_
+8	refused	refuse	VERB	VBD	PL;PST;V;3;FIN;IND	0	root	0:root	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	12:punct	_
+10	so	so	ADV	RB	ADV	12	advmod	12:advmod	_
+11	I	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj|14:nsubj:xsubj	_
+12	had	have	VERB	VBD	1;V;PST;FIN;SG;IND	8	parataxis	8:parataxis	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	leave	leave	VERB	VB	NFIN;V	12	xcomp	12:xcomp	_
+15	without	without	ADP	IN	ADP	17	case	17:case	_
+16	a	a	DET	DT	INDF;DET	17	det	17:det	_
+17	refund	refund	NOUN	NN	SG;N	14	obl	14:obl:without	_
+18	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	still	still	ADV	RB	ADV	20	advmod	20:advmod	_
+20	hungry	hungry	ADJ	JJ	ADJ	17	conj	14:obl:without|17:conj:and	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# newdoc id = reviews-186235
+# sent_id = reviews-186235-0001
+# newpar id = reviews-186235-p0001
+# text = wow, the representative went way above and beyond in helping me with my account set up.
+1	wow	wow	INTJ	UH	INTJ	5	discourse	5:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	representative	representative	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+5	went	go	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+6	way	way	ADV	RB	ADV	7	advmod	7:advmod	_
+7	above	above	ADV	RB	ADV	5	advmod	5:advmod	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	beyond	beyond	ADV	RB	ADV	7	conj	5:advmod|7:conj:and	_
+10	in	in	SCONJ	IN	CONJ	11	mark	11:mark	_
+11	helping	help	VERB	VBG	PRS;V;V.PTCP	5	advcl	5:advcl:in	_
+12	me	I	PRON	PRP	ACC;PRO;1;SG	11	obj	11:obj	_
+13	with	with	ADP	IN	ADP	17	case	17:case	_
+14	my	my	PRON	PRP$	GEN;PRO;1;SG	17	nmod:poss	17:nmod:poss	_
+15	account	account	NOUN	NN	SG;N	17	compound	17:compound	_
+16	set	set	NOUN	NN	SG;N	17	compound	17:compound	_
+17	up	up	NOUN	NN	SG;N	11	obl	11:obl:with	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-186235-0002
+# text = i wish the other utilities i had to set up had people to work with like this..
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	wish	wish	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	other	other	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	utilities	utility	NOUN	NNS	PL;N	11	nsubj	7:obj|9:obl|11:nsubj	_
+6	i	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7	had	have	VERB	VBD	1;V;PST;FIN;SG;IND	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl_xcomp
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	set	set	VERB	VB	NFIN;V	7	xcomp	7:xcomp	_
+10	up	up	ADP	RP	ADP	9	compound:prt	9:compound:prt	_
+11	had	have	VERB	VBD	PL;PST;V;3;FIN;IND	2	ccomp	2:ccomp	_
+12	people	people	NOUN	NNS	PL;N	11	obj	11:obj	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	work	work	VERB	VB	NFIN;V	12	acl	12:acl:to	_
+15	with	with	ADP	IN	ADP	14	obl	14:obl	Promoted=Yes
+16	like	like	ADP	IN	ADP	17	case	17:case	_
+17	this	this	PRON	DT	SG;PRO	12	nmod	12:nmod:like	SpaceAfter=No
+18	..	..	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-343813
+# sent_id = reviews-343813-0001
+# newpar id = reviews-343813-p0001
+# text = Bad Service
+1	Bad	bad	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Service	service	NOUN	NN	SG;N	0	root	0:root	_
+

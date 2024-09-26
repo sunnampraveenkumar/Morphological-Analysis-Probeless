@@ -1,0 +1,130 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0003
+# text = NASA is looking to private companies to launch both supplies and astronauts to the International Space Station, it announced this week.
+1	NASA	NASA	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	aux	3:aux	_
+3	looking	look	VERB	VBG	PRS;V;V.PTCP	20	ccomp	20:ccomp	_
+4	to	to	ADP	IN	ADP	6	case	6:case	_
+5	private	private	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	companies	company	NOUN	NNS	PL;N	3	obl	3:obl:to	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	launch	launch	VERB	VB	NFIN;V	3	advcl	3:advcl:to	_
+9	both	both	CCONJ	CC	CONJ	10	cc:preconj	10:cc:preconj	_
+10	supplies	supplies	NOUN	NNS	N	8	obj	8:obj	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	astronauts	astronaut	NOUN	NNS	PL;N	10	conj	8:obj|10:conj:and	_
+13	to	to	ADP	IN	ADP	17	case	17:case	_
+14	the	the	DET	DT	DET;DEF	17	det	17:det	_
+15	International	International	ADJ	NNP	ADJ	17	amod	17:amod	_
+16	Space	Space	PROPN	NNP	SG;PROPN	17	compound	17:compound	_
+17	Station	Station	PROPN	NNP	SG;PROPN	8	obl	8:obl:to	SpaceAfter=No
+18	,	,	PUNCT	,	_	3	punct	3:punct	_
+19	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	20	nsubj	20:nsubj	_
+20	announced	announce	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+21	this	this	DET	DT	DET;SG	22	det	22:det	_
+22	week	week	NOUN	NN	SG;N	20	obl:tmod	20:obl:tmod	SpaceAfter=No
+23	.	.	PUNCT	.	_	20	punct	20:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0004
+# text = [...]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	...	...	PUNCT	,	_	0	root	0:root	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0005
+# newpar id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-p0002
+# text = "It's not cost-effective doing station flights while at the same time focusing on getting back to the Moon," says Brett Alexander, vice-president of Transformational Space, one of the companies hoping to launch astronauts to the ISS.
+1	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
+2-3	It's	_	_	_	_	_	_	_	_
+2	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	7	expl	7:expl	_
+3	's	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	7	cop	7:cop	_
+4	not	not	PART	RB	PART	7	advmod	7:advmod	_
+5	cost	cost	NOUN	NN	SG;N	7	obl:npmod	7:obl:npmod	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	effective	effective	ADJ	JJ	ADJ	25	ccomp	25:ccomp	_
+8	doing	do	VERB	VBG	V;V.MSDR	7	csubj	7:csubj	_
+9	station	station	NOUN	NN	SG;N	10	compound	10:compound	_
+10	flights	flight	NOUN	NNS	PL;N	8	obj	8:obj	_
+11	while	while	SCONJ	IN	CONJ	16	mark	16:mark	_
+12	at	at	ADP	IN	ADP	15	case	15:case	_
+13	the	the	DET	DT	DET;DEF	15	det	15:det	_
+14	same	same	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	time	time	NOUN	NN	SG;N	16	obl	16:obl:at	_
+16	focusing	focus	VERB	VBG	PRS;V;V.PTCP	8	advcl	8:advcl:while	_
+17	on	on	SCONJ	IN	CONJ	18	mark	18:mark	_
+18	getting	get	VERB	VBG	PRS;V;V.PTCP	16	advcl	16:advcl:on	_
+19	back	back	ADV	RB	ADV	18	advmod	18:advmod	_
+20	to	to	ADP	IN	ADP	22	case	22:case	_
+21	the	the	DET	DT	DET;DEF	22	det	22:det	_
+22	Moon	Moon	PROPN	NNP	SG;PROPN	19	obl	19:obl:to	SpaceAfter=No
+23	,	,	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
+24	"	"	PUNCT	''	_	7	punct	7:punct	_
+25	says	say	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+26	Brett	Brett	PROPN	NNP	SG;PROPN	25	nsubj	25:nsubj	_
+27	Alexander	Alexander	PROPN	NNP	SG;PROPN	26	flat	26:flat	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	29:punct	_
+29	vice-president	vice-president	NOUN	NN	SG;N	26	appos	26:appos	_
+30	of	of	ADP	IN	ADP	32	case	32:case	_
+31	Transformational	Transformational	ADJ	NNP	ADJ	32	amod	32:amod	_
+32	Space	Space	PROPN	NNP	SG;PROPN	29	nmod	29:nmod:of	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	34:punct	_
+34	one	one	NUM	CD	NUM	32	appos	32:appos	_
+35	of	of	ADP	IN	ADP	37	case	37:case	_
+36	the	the	DET	DT	DET;DEF	37	det	37:det	_
+37	companies	company	NOUN	NNS	PL;N	34	nmod	34:nmod:of	_
+38	hoping	hope	VERB	VBG	V;V.MSDR	37	acl	37:acl	_
+39	to	to	PART	TO	PART	40	mark	40:mark	_
+40	launch	launch	VERB	VB	NFIN;V	38	xcomp	38:xcomp	_
+41	astronauts	astronaut	NOUN	NNS	PL;N	40	obj	40:obj	_
+42	to	to	ADP	IN	ADP	44	case	44:case	_
+43	the	the	DET	DT	DET;DEF	44	det	44:det	_
+44	ISS	ISS	PROPN	NNP	SG;PROPN	40	obl	40:obl:to	SpaceAfter=No
+45	.	.	PUNCT	.	_	25	punct	25:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0006
+# text = NASA intends upon retiring the space shuttles in 2010, which only leaves it with 18 flights towards the ISS.
+1	NASA	NASA	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	intends	intend	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+3	upon	upon	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	retiring	retire	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:upon|13:csubj	_
+5	the	the	DET	DT	DET;DEF	7	det	7:det	_
+6	space	space	NOUN	NN	SG;N	7	compound	7:compound	_
+7	shuttles	shuttle	NOUN	NNS	PL;N	4	obj	4:obj	_
+8	in	in	ADP	IN	ADP	9	case	9:case	_
+9	2010	2010	NUM	CD	NUM	4	obl	4:obl:in	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	13:punct	_
+11	which	which	PRON	WDT	PRO	13	nsubj	4:ref	_
+12	only	only	ADV	RB	ADV	13	advmod	13:advmod	_
+13	leaves	leave	VERB	VBZ	FIN;PRS;3;V;IND;SG	4	advcl:relcl	4:advcl:relcl	Cxn=rc-wh-csubj
+14	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	13	obj	13:obj	_
+15	with	with	ADP	IN	ADP	17	case	17:case	_
+16	18	18	NUM	CD	NUM	17	nummod	17:nummod	_
+17	flights	flight	NOUN	NNS	PL;N	13	obl	13:obl:with	_
+18	towards	towards	ADP	IN	ADP	20	case	20:case	_
+19	the	the	DET	DT	DET;DEF	20	det	20:det	_
+20	ISS	ISS	PROPN	NNP	SG;PROPN	17	nmod	17:nmod:towards	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0007
+# text = Outsourcing these responsibilities would be a wise alternative, considering the accomplishments of the private sector regarding the space elevator .
+1	Outsourcing	outsource	VERB	VBG	V;V.MSDR	8	csubj	8:csubj	_
+2	these	this	DET	DT	DET;PL	3	det	3:det	_
+3	responsibilities	responsibility	NOUN	NNS	PL;N	1	obj	1:obj	_
+4	would	would	AUX	MD	FIN;V	8	aux	8:aux	_
+5	be	be	AUX	VB	V;NFIN	8	cop	8:cop	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	wise	wise	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	alternative	alternative	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	considering	consider	VERB	VBG	PRS;V;V.PTCP	8	advcl	8:advcl	_
+11	the	the	DET	DT	DET;DEF	12	det	12:det	_
+12	accomplishments	accomplishment	NOUN	NNS	PL;N	10	obj	10:obj	_
+13	of	of	ADP	IN	ADP	16	case	16:case	_
+14	the	the	DET	DT	DET;DEF	16	det	16:det	_
+15	private	private	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	sector	sector	NOUN	NN	SG;N	12	nmod	12:nmod:of	_
+17	regarding	regard	VERB	VBG	PRS;V;V.PTCP	20	case	20:case	_
+18	the	the	DET	DT	DET;DEF	20	det	20:det	_
+19	space	space	NOUN	NN	SG;N	20	compound	20:compound	_
+20	elevator	elevator	NOUN	NN	SG;N	12	nmod	12:nmod:regarding	_
+21	.	.	PUNCT	.	_	8	punct	8:punct	_
+

@@ -1,0 +1,888 @@
+# sent_id = train-s7721
+# text = दोनों फैक्ट्रियां राजधानी पटना से ५० किलोमीटर दूर खुशरुपुर के मियां टोली में स्थित हैं ।
+1	दोनों	दो	NUM	QC	PL;NUM	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=donoṁ
+2	फैक्ट्रियां	फैक्ट्री	NOUN	NN	NOM;N;3;FEM;PL	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=phaikṭriyāṁ
+3	राजधानी	राजधानी	NOUN	NN	NOM;N;3;SG;FEM	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=rājadhānī
+4	पटना	पटना	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	nmod	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=paṭanā
+5	से	से	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+6	५०	५०	NUM	QC	NUM	7	nummod	_	ChunkId=NP3|ChunkType=child|Translit=50
+7	किलोमीटर	किलोमीटर	NOUN	NN	NOM;N;3;SG;MASC	9	nmod	_	Vib=0_दूर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kilomīṭara
+8	दूर	दूर	ADP	NST	ADP;NOM;3;SG;MASC	7	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=dūra
+9	खुशरुपुर	खुशरुपुर	PROPN	NNP	PROPN;3;SG;ACC;MASC	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=khuśarupura
+10	के	का	ADP	PSP	ADP;SG;ACC;MASC	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+11	मियां	मियाँ	PROPN	NNPC	PROPN;NOM;3;SG;MASC	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=miyāṁ
+12	टोली	टोली	PROPN	NNP	PROPN;3;SG;ACC;FEM	14	nmod	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ṭolī
+13	में	में	ADP	PSP	ADP	12	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+14	स्थित	स्थित	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+15	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	14	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+16	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7722
+# text = जिला मजिस्ट्रेट बी. राजेंद्र ने घटना में ३२ लोगों की मौत होने और २४ लोगों के घायल होने की पुष्टि की है ।
+1	जिला	जिला	NOUN	NNC	NOM;N;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=jilā
+2	मजिस्ट्रेट	मजिस्ट्रेट	NOUN	NN	NOM;N;3;SG;MASC	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=majisṭreṭa
+3	बी.	बी.	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=bī.
+4	राजेंद्र	राजेंद्र	PROPN	NNP	PROPN;3;SG;ACC;MASC	21	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājeṁdra
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+6	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ghaṭanā
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+8	३२	३२	NUM	QC	NUM	9	nummod	_	ChunkId=NP3|ChunkType=child|Translit=32
+9	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=logoṁ
+10	की	का	ADP	PSP	ADP;NOM;SG;FEM	9	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+11	मौत	मौत	NOUN	NN	NOM;N;3;SG;FEM	12	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mauta
+12	होने	हो	VERB	VM	V;ACC;NFIN	20	nmod	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=hone
+13	और	और	CCONJ	CC	CONJ	18	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+14	२४	२४	NUM	QC	NUM	15	nummod	_	ChunkId=NP5|ChunkType=child|Translit=24
+15	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=logoṁ
+16	के	का	ADP	PSP	ACC;ADP	15	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+17	घायल	घायल	ADJ	JJ	ADJ	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=ghāyala
+18	होने	हो	VERB	VM	V;ACC;NFIN;SG	12	conj	_	Vib=ना_का|Tam=nA|ChunkId=VGNN2|ChunkType=head|Translit=hone
+19	की	का	ADP	PSP	ADP;NOM;SG;FEM	18	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=kī
+20	पुष्टि	पुष्टि	NOUN	NN	NOM;N;3;SG;FEM	21	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=puṣṭi
+21	की	कर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kī|Vib=या_है
+22	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	21	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+23	।	।	PUNCT	SYM	_	21	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7723
+# text = फतुहा अस्पताल के चिकित्सा अधिकारी आर. एन. पी. सिन्हा ने बताया कि २५ घायलों को पटना के नालंदा मेडिकल कॉलेज व हॉस्पिटल में भेज दिया गया है ।
+1	फतुहा	फतुहा	PROPN	NNP	PROPN;NOM;3;SG;MASC	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=phatuhā
+2	अस्पताल	अस्पताल	NOUN	NN	N;3;SG;ACC;MASC	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=aspatāla
+3	के	का	ADP	PSP	ADP;SG;ACC;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	चिकित्सा	चिकित्सा	NOUN	NNC	NOM;N;3;SG;FEM	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=cikitsā
+5	अधिकारी	अधिकारी	NOUN	NN	N;3;SG;ACC;MASC	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=adhikārī
+6	आर.	आर.	PROPN	NNPC	PROPN;NOM;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=āra.
+7	एन.	एन.	PROPN	NNPC	PROPN;NOM;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ena.
+8	पी.	पी.	PROPN	NNPC	PROPN;NOM;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=pī.
+9	सिन्हा	सिन्हा	PROPN	NNP	ACC;PROPN;3;SG	11	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sinhā
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=ne
+11	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+12	कि	कि	SCONJ	CC	CONJ	24	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+13	२५	२५	NUM	QC	NUM	14	nummod	_	ChunkId=NP4|ChunkType=child|Translit=25
+14	घायलों	घायल	NOUN	NN	MASC;N;3;ACC;PL	24	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ghāyaloṁ
+15	को	को	ADP	PSP	ADP	14	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+16	पटना	पटना	PROPN	NNP	PROPN;3;SG;ACC;MASC	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=paṭanā
+17	के	का	ADP	PSP	ADP;SG;ACC;MASC	16	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+18	नालंदा	नालंदा	PROPN	NNP	PROPN;NOM;3;SG;MASC	20	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=nālaṁdā
+19	मेडिकल	मेडिकल	PROPN	NNPC	PROPN;NOM;3;SG;MASC	20	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=meḍikala
+20	कॉलेज	कॉलेज	PROPN	NNP	PROPN;3;SG;ACC;MASC	24	obl	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=kôleja
+21	व	व	CCONJ	CC	CONJ	22	cc	_	ChunkId=CCP2|ChunkType=head|Translit=va
+22	हॉस्पिटल	हॉस्पिटल	NOUN	NN	N;3;SG;ACC;MASC	20	conj	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=hôspiṭala
+23	में	में	ADP	PSP	ADP	20	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+24	भेज	भेज	VERB	VM	V;PASS;3;SG;MASC	11	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=bheja|Vib=0_दे+या_जा+या१_है
+25	दिया	दे	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	24	compound	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=diyā
+26	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	24	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gayā
+27	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	24	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+28	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7724
+# text = बख्तियारपुर, फतुहा व पटना के अन्य अस्पतालों में भी लगभग २५ घायलों का इलाज चल रहा है ।
+1	बख्तियारपुर	बख्तियारपुर	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=bakhtiyārapura
+2	,	,	PUNCT	SYM	_	3	punct	_	ChunkId=NP|ChunkType=child|Translit=,
+3	फतुहा	फतुहा	PROPN	NNP	PROPN;3;SG;ACC;MASC	1	conj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=phatuhā
+4	व	व	CCONJ	CC	CONJ	5	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+5	पटना	पटना	PROPN	NNP	PROPN;3;SG;ACC;MASC	1	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=paṭanā
+6	के	का	ADP	PSP	ADP;ACC;PL;MASC	1	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	अन्य	अन्य	ADJ	JJ	ACC;ADJ	8	amod	_	ChunkId=NP4|ChunkType=child|Translit=anya
+8	अस्पतालों	अस्पताल	NOUN	NN	MASC;N;3;ACC;PL	16	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=aspatāloṁ
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	भी	भी	PART	RP	PART	8	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī
+11	लगभग	लगभग	PART	RP	PART	12	dep	_	ChunkId=NP5|ChunkType=child|Translit=lagabhaga
+12	२५	२५	NUM	QC	NUM	13	nummod	_	ChunkId=NP5|ChunkType=child|Translit=25
+13	घायलों	घायल	NOUN	NN	MASC;N;3;ACC;PL	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ghāyaloṁ
+14	का	का	ADP	PSP	ADP;NOM;SG;MASC	13	case	_	ChunkId=NP5|ChunkType=child|Translit=kā
+15	इलाज	इलाज	NOUN	NN	NOM;N;3;SG;MASC	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=ilāja
+16	चल	चल	VERB	VM	ACT;V;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=cala|Vib=0_रह+या_है
+17	रहा	रह	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	16	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahā
+18	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	16	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7725
+# text = घटना में मरने वाले लोगों में पांच महिलाएं व १० बच्चे शामिल हैं ।
+1	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	3	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṭanā
+2	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	मरने	मर	VERB	VM	V;PL;ACC;NFIN	5	amod	_	Vib=ना_वाला|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=marane
+4	वाले	वाला	ADJ	PSP	ACC;PL;MASC;ADJ	3	compound	_	ChunkId=VGNN|ChunkType=child|Translit=vāle
+5	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	12	nmod	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=logoṁ
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+7	पांच	पांच	NUM	QC	NUM	8	nummod	_	ChunkId=NP3|ChunkType=child|Translit=pāṁca
+8	महिलाएं	महिला	NOUN	NN	NOM;N;3;FEM;PL	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mahilāeṁ
+9	व	व	CCONJ	CC	CONJ	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+10	१०	१०	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=10
+11	बच्चे	बच्चा	NOUN	NN	NOM;N;3;PL;MASC	8	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bacce
+12	शामिल	शामिल	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=śāmila
+13	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	12	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+14	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7726
+# text = राजेंद्र ने बताया कि दोनों फैक्ट्रियों के मालिक मोहम्मद हकीम को गिरफ्तार कर लिया गया है ।
+1	राजेंद्र	राजेंद्र	PROPN	NNP	PROPN;3;SG;ACC;MASC	3	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājeṁdra
+2	ने	ने	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+3	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+4	कि	कि	SCONJ	CC	CONJ	13	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	दोनों	दो	NUM	QC	PL;NUM	6	nummod	_	ChunkId=NP2|ChunkType=child|Translit=donoṁ
+6	फैक्ट्रियों	फैक्ट्री	NOUN	NN	N;3;ACC;FEM;PL	8	nmod	_	Vib=0_के|Tam=0|ChunkId=NP2|ChunkType=head|Translit=phaikṭriyoṁ
+7	के	के	ADP	PSP	ADP;SG;ACC;MASC	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+8	मालिक	मालिक	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mālika
+9	मोहम्मद	मोहम्मद	PROPN	NNPC	PROPN;NOM;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=mohammada
+10	हकीम	हकीम	PROPN	NNP	PROPN;3;SG;ACC;MASC	13	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=hakīma
+11	को	को	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+12	गिरफ्तार	गिरफ्तार	ADJ	JJ	ADJ	13	compound	_	ChunkId=JJP|ChunkType=head|Translit=giraphtāra
+13	कर	कर	VERB	VM	V;PASS;3;SG;MASC	3	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_ले+या_जा+या१_है
+14	लिया	ले	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	13	compound	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=liyā
+15	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	13	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gayā
+16	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	13	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+17	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7727
+# text = घटना में मरने वालों में हकीम के परिवार के सात सदस्य भी शामिल हैं ।
+1	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	3	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṭanā
+2	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	मरने	मर	VERB	VM	V;MASC;ACC;NFIN	14	obl	_	Vib=ना_वाला_में|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=marane
+4	वालों	वाला	ADJ	PSP	ACC;PL;MASC;ADJ	3	compound	_	ChunkId=VGNN|ChunkType=child|Translit=vāloṁ
+5	में	में	ADP	PSP	ADP	3	mark	_	ChunkId=VGNN|ChunkType=child|Translit=meṁ
+6	हकीम	हकीम	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=hakīma
+7	के	का	ADP	PSP	ADP;SG;ACC;MASC	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+8	परिवार	परिवार	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=parivāra
+9	के	का	ADP	PSP	ADP;NOM;PL;MASC	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+10	सात	सात	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=sāta
+11	सदस्य	सदस्य	NOUN	NN	NOM;N;3;PL;MASC	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sadasya
+12	भी	भी	PART	RP	PART	11	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī
+13	शामिल	शामिल	ADJ	JJ	ADJ	14	obj	_	ChunkId=JJP|ChunkType=head|Translit=śāmila
+14	हैं	है	VERB	VM	FIN;ACT;PRS;V;3;IND;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+15	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7728
+# text = डीआईजी (पटना रेंज) आर. सिंह ने कहा कि ऐसा लगता है कि बिजली के शार्टसर्किट के चलते फैक्ट्री में आग लगने से विस्फोट हुए ।
+1	डीआईजी	डीआईजी	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ḍīāījī
+2	(	(	PUNCT	SYM	_	4	punct	_	SpaceAfter=No|ChunkId=NP2|ChunkType=child|Translit=(
+3	पटना	पटना	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=paṭanā
+4	रेंज	रेंज	PROPN	NNP	PROPN;3;SG;ACC;FEM	1	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=reṁja
+5	)	)	PUNCT	SYM	_	4	punct	_	ChunkId=NP2|ChunkType=child|Translit=)
+6	आर.	आर.	PROPN	NNPC	PROPN;NOM;3;SG;MASC	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=āra.
+7	सिंह	सिंह	PROPN	NNP	PROPN;3;SG;ACC;MASC	9	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP3|ChunkType=head|Translit=siṁha
+8	ने	ने	ADP	PSP	ADP	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ne
+9	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+10	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+11	ऐसा	ऐसा	PRON	PRP	NOM;SG;MASC;PRO	12	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=aisā
+12	लगता	लग	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	9	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=wA|Translit=lagatā|Vib=ता_है
+13	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	12	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+14	कि	कि	SCONJ	CC	CONJ	26	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|Translit=ki
+15	बिजली	बिजली	NOUN	NN	N;3;SG;ACC;FEM	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bijalī
+16	के	का	ADP	PSP	ADP;SG;ACC;MASC	15	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+17	शार्टसर्किट	शार्टसर्किट	NOUN	NN	N;3;SG;ACC;MASC	23	obl	_	Vib=0_के_चलते|Tam=0|ChunkId=NP6|ChunkType=head|Translit=śārṭasarkiṭa
+18	के	के	ADP	PSP	ADP	17	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+19	चलते	चलते	ADP	PSP	ADP	17	case	_	ChunkId=NP6|ChunkType=child|Translit=calate
+20	फैक्ट्री	फैक्ट्री	NOUN	NN	N;3;SG;ACC;FEM	23	obl	_	Vib=0_में|Tam=0|ChunkId=NP7|ChunkType=head|Translit=phaikṭrī
+21	में	में	ADP	PSP	ADP	20	case	_	ChunkId=NP7|ChunkType=child|Translit=meṁ
+22	आग	आग	NOUN	NN	NOM;N;3;SG;FEM	23	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=āga
+23	लगने	लग	VERB	VM	V;ACC;NFIN	26	advcl	_	Vib=ना_से|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=lagane
+24	से	से	ADP	PSP	ADP	23	mark	_	ChunkId=VGNN|ChunkType=child|Translit=se
+25	विस्फोट	विस्फोट	NOUN	NN	NOM;N;3;PL;MASC	26	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=visphoṭa
+26	हुए	हो	VERB	VM	MASC;ACT;PFV;V;V.PTCP;PL	12	obj	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=yA|Translit=hue|Vib=या
+27	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7729
+# text = घटना के चश्मदीद व मियां टोली के निवासी आफताब ने बताया कि पहले हमने बड़े धमाके की आवाज सुनी ।
+1	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṭanā
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	चश्मदीद	चश्मदीद	NOUN	NN	N;3;SG;ACC;MASC	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=caśmadīda
+4	व	व	CCONJ	CC	CONJ	8	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+5	मियां	मियाँ	PROPN	NNPC	NOM;MASC;PROPN;SG	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=miyāṁ
+6	टोली	टोली	PROPN	NNP	PROPN;3;SG;ACC;FEM	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ṭolī
+7	के	का	ADP	PSP	ADP;SG;ACC;MASC	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	निवासी	निवासी	NOUN	NN	N;3;SG;ACC;FEM	3	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nivāsī
+9	आफताब	आफताब	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP5|ChunkType=head|Translit=āphatāba
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP5|ChunkType=child|Translit=ne
+11	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+12	कि	कि	SCONJ	CC	CONJ	19	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|Translit=ki
+13	पहले	पहले	ADV	NST	NOM;ADV;3;SG;MASC	19	obl	_	AltTag=ADV-NOUN|ChunkId=NP6|ChunkType=head|Translit=pahale
+14	हमने	हम	PRON	PRP	{ACC/ERG};1;PL;PRO	19	nsubj	_	Vib=ने|Tam=ne|ChunkId=NP7|ChunkType=head|Translit=hamane
+15	बड़े	बड़ा	ADJ	JJ	ACC;MASC;SG;ADJ	16	amod	_	ChunkId=NP8|ChunkType=child|Translit=baṛe
+16	धमाके	धमाका	NOUN	NN	N;3;SG;ACC;MASC	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP8|ChunkType=head|Translit=dhamāke
+17	की	का	ADP	PSP	ADP;NOM;SG;FEM	16	case	_	ChunkId=NP8|ChunkType=child|Translit=kī
+18	आवाज	आवाज	NOUN	NN	NOM;N;3;SG;FEM	19	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=āvāja
+19	सुनी	सुन	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	11	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=sunī|Vib=या
+20	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7730
+# text = उसके बाद हुए कई विस्फोटों से आसपास की जमीन थर्रा गई ।
+1	उसके	वह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	3	obl	_	Vib=0_बाद|Tam=ke|ChunkId=NP|ChunkType=head|Translit=usake
+2	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bāda
+3	हुए	हो	VERB	VM	MASC;PFV;V;V.PTCP;PL	5	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=hue
+4	कई	कई	DET	QF	DET	5	det	_	ChunkId=NP2|ChunkType=child|Translit=kaī
+5	विस्फोटों	विस्फोट	NOUN	NN	MASC;N;3;ACC;PL	10	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=visphoṭoṁ
+6	से	से	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+7	आसपास	आसपास	ADV	NST	ADV;3;SG;ACC;MASC	9	nmod	_	AltTag=ADV-NOUN|Vib=0_का|ChunkId=NP3|ChunkType=head|Translit=āsapāsa
+8	की	का	ADP	PSP	ADP;NOM;SG;FEM	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	जमीन	जमीन	NOUN	NN	NOM;N;3;SG;FEM	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jamīna
+10	थर्रा	थर्रा	VERB	VM	V;ACT;SG	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=tharrā|Vib=0_जा+या१
+11	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	10	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+12	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7731
+# text = घटना के बाद स्थानीय लोगों द्वारा जान बचाने के लिए भागने से अफरा तफरी की स्थिति उत्पन्न हो गई ।
+1	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	5	nmod	_	Vib=0_के_बाद|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṭanā
+2	के	के	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bāda
+4	स्थानीय	स्थानीय	ADJ	JJ	ACC;ADJ	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=sthānīya
+5	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	8	nsubj	_	Vib=0_द्वारा|Tam=0|ChunkId=NP2|ChunkType=head|Translit=logoṁ
+6	द्वारा	द्वारा	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=dvārā
+7	जान	जान	NOUN	NN	NOM;N;3;SG;FEM	8	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jāna
+8	बचाने	बचा	VERB	VM	V;ACC;NFIN	11	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=bacāne
+9	के	के	ADP	PSP	ADP	8	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+10	लिए	लिए	ADP	PSP	ADP	8	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+11	भागने	भाग	VERB	VM	V;ACC;NFIN	18	advcl	_	Vib=ना_से|Tam=nA|ChunkId=VGNN2|ChunkType=head|Translit=bhāgane
+12	से	से	ADP	PSP	ADP	11	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=se
+13	अफरा	अफरा	NOUN	NNC	NOM;N;3;SG;FEM	14	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=apharā
+14	तफरी	तफरी	NOUN	NN	N;3;SG;ACC;FEM	16	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=tapharī
+15	की	का	ADP	PSP	ADP;NOM;SG;FEM	14	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+16	स्थिति	स्थिति	NOUN	NN	NOM;N;3;SG;FEM	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sthiti
+17	उत्पन्न	उत्पन्न	ADJ	JJ	ADJ	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=utpanna
+18	हो	हो	VERB	VM	V;ACT;SG	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_जा+या१
+19	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	18	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+20	।	।	PUNCT	SYM	_	18	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7732
+# text = घटना के दूसरे चश्मदीद नागेंद्र गोस्वामी ने बताया कि धमाके की आवाज से धरती हिल गई व आकाश धुएं से भर गया ।
+1	घटना	घटना	NOUN	NN	N;3;SG;ACC;FEM	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṭanā
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	दूसरे	दूसरा	ADJ	QO	ADJ;SG;ACC;MASC	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=dūsare
+4	चश्मदीद	चश्मदीद	ADJ	JJ	ACC;ADJ	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=caśmadīda
+5	नागेंद्र	नागेंद्र	PROPN	NNPC	PROPN;NOM;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=nāgeṁdra
+6	गोस्वामी	गोस्वामी	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=gosvāmī
+7	ने	ने	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+8	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+9	कि	कि	SCONJ	CC	CONJ	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+10	धमाके	धमाका	NOUN	NN	N;3;SG;ACC;MASC	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dhamāke
+11	की	का	ADP	PSP	ADP;SG;ACC;FEM	10	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+12	आवाज	आवाज	NOUN	NN	N;3;SG;ACC;FEM	15	obl	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=āvāja
+13	से	से	ADP	PSP	ADP	12	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+14	धरती	धरती	NOUN	NN	NOM;N;3;SG;FEM	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=dharatī
+15	हिल	हिल	VERB	VM	V;ACT;SG	8	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=hila|Vib=0_जा+या१
+16	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	15	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gaī
+17	व	व	CCONJ	CC	CONJ	21	cc	_	ChunkId=CCP2|ChunkType=head|Translit=va
+18	आकाश	आकाश	NOUN	NN	NOM;N;3;SG;MASC	21	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=ākāśa
+19	धुएं	धुआँ	NOUN	NN	N;3;SG;ACC;MASC	21	obl	_	Vib=0_से|Tam=0|ChunkId=NP7|ChunkType=head|Translit=dhueṁ
+20	से	से	ADP	PSP	ADP	19	case	_	ChunkId=NP7|ChunkType=child|Translit=se
+21	भर	भर	VERB	VM	V;PASS;SG	15	conj	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=0|Translit=bhara|Vib=0_जा+या१
+22	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	21	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF3|ChunkType=child|Translit=gayā
+23	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7733
+# text = पाकिस्तान की जेल में बंद सरबजीत की रिहाई के मामले में पाक ने नरमी के संकेत दिए हैं ।
+1	पाकिस्तान	पाकिस्तान	PROPN	NNP	PROPN;3;SG;ACC;MASC	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=pākistāna
+2	की	का	ADP	PSP	ADP;SG;ACC;FEM	1	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+3	जेल	जेल	NOUN	NN	N;3;SG;ACC;FEM	5	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=jela
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	बंद	बंद	ADJ	JJ	ACC;ADJ	6	amod	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+6	सरबजीत	सरबजीत	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sarabajīta
+7	की	का	ADP	PSP	ADP;SG;ACC;FEM	6	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+8	रिहाई	रिहाई	NOUN	NN	N;3;SG;ACC;FEM	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=rihāī
+9	के	का	ADP	PSP	ADP;SG;ACC;MASC	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+10	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	17	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=māmale
+11	में	में	ADP	PSP	ADP	10	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+12	पाक	पाक	PROPN	NNP	PROPN;3;SG;ACC;MASC	17	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=pāka
+13	ने	ने	ADP	PSP	ADP	12	case	_	ChunkId=NP6|ChunkType=child|Translit=ne
+14	नरमी	नरमी	NOUN	NN	N;3;SG;ACC;FEM	16	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=naramī
+15	के	का	ADP	PSP	ADP;NOM;PL;MASC	14	case	_	ChunkId=NP7|ChunkType=child|Translit=ke
+16	संकेत	संकेत	NOUN	NN	NOM;N;3;PL;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=saṁketa
+17	दिए	दे	VERB	VM	MASC;ACT;PFV;V;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=die|Vib=या_है
+18	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	17	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+19	।	।	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7734
+# text = न्यूयॉर्क में प्रधानमंत्री मनमोहन सिंह और पाकिस्तान के राष्ट्रपति परवेज मुशर्रफ के बीच हुई बातचीत में सरबजीत की रिहाई के मुद्दे पर चर्चा हुई ।
+1	न्यूयॉर्क	न्यूयॉर्क	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=nyūyôrka
+2	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	प्रधानमंत्री	प्रधानमंत्री	PROPN	NNP	PROPN;NOM;3;SG;MASC	5	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=pradhānamaṁtrī
+4	मनमोहन	मनमोहन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=manamohana
+5	सिंह	सिंह	PROPN	NNP	PROPN;NOM;3;SG;MASC	14	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=siṁha
+6	और	और	CCONJ	CC	CONJ	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+7	पाकिस्तान	पाकिस्तान	PROPN	NNP	PROPN;3;SG;ACC;MASC	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pākistāna
+8	के	का	ADP	PSP	ADP;SG;ACC;MASC	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+9	राष्ट्रपति	राष्ट्रपति	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=rāṣṭrapati
+10	परवेज	परवेज	PROPN	NNPC	PROPN;NOM;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=paraveja
+11	मुशर्रफ	मुशर्रफ	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	conj	_	Vib=0_के_बीच|Tam=0|ChunkId=NP5|ChunkType=head|Translit=muśarrapha
+12	के	के	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+13	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	11	case	_	AltTag=ADP-NOUN|ChunkId=NP5|ChunkType=child|Translit=bīca
+14	हुई	हो	VERB	VM	PFV;V;V.PTCP;SG;FEM	15	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=huī
+15	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	24	obl	_	Vib=0_में|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bātacīta
+16	में	में	ADP	PSP	ADP	15	case	_	ChunkId=NP6|ChunkType=child|Translit=meṁ
+17	सरबजीत	सरबजीत	PROPN	NNP	PROPN;3;SG;ACC;MASC	19	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=sarabajīta
+18	की	का	ADP	PSP	ADP;SG;ACC;FEM	17	case	_	ChunkId=NP7|ChunkType=child|Translit=kī
+19	रिहाई	रिहाई	NOUN	NN	N;3;SG;ACC;FEM	21	nmod	_	Vib=0_का|Tam=0|ChunkId=NP8|ChunkType=head|Translit=rihāī
+20	के	का	ADP	PSP	ADP;SG;ACC;MASC	19	case	_	ChunkId=NP8|ChunkType=child|Translit=ke
+21	मुद्दे	मुद्दा	NOUN	NN	N;3;SG;ACC;MASC	24	obl	_	Vib=0_पर|Tam=0|ChunkId=NP9|ChunkType=head|Translit=mudde
+22	पर	पर	ADP	PSP	ADP	21	case	_	ChunkId=NP9|ChunkType=child|Translit=para
+23	चर्चा	चर्चा	NOUN	NN	N;3;SG;ACC;FEM	24	nsubj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=carcā
+24	हुई	हो	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=huī|Vib=या
+25	।	।	PUNCT	SYM	_	24	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7735
+# text = निजी टीवी चैनलों के मुताबिक विदेश सचिव श्याम सरन ने दोनों नेताओं के बीच चार घंटे से अधिक समय तक चली बैठक में सरबजीत की रिहाई के मामले पर बातचीत की जानकारी दी ।
+1	निजी	निजी	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP|ChunkType=child|Translit=nijī
+2	टीवी	टीवी	NOUN	NNC	NOM;N;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=ṭīvī
+3	चैनलों	चैनल	NOUN	NN	MASC;N;3;ACC;PL	33	obl	_	Vib=0_के_मुताबिक|Tam=0|ChunkId=NP|ChunkType=head|Translit=cainaloṁ
+4	के	के	ADP	PSP	ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+5	मुताबिक	मुताबिक	ADP	PSP	ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=mutābika
+6	विदेश	विदेश	NOUN	NNC	NOM;N;3;SG;MASC	7	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=videśa
+7	सचिव	सचिव	NOUN	NN	NOM;N;3;SG;MASC	9	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=saciva
+8	श्याम	श्याम	PROPN	NNPC	PROPN;NOM;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=śyāma
+9	सरन	सरन	PROPN	NNP	PROPN;3;SG;ACC;MASC	33	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sarana
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+11	दोनों	दो	NUM	QC	PL;NUM	12	nummod	_	ChunkId=NP3|ChunkType=child|Translit=donoṁ
+12	नेताओं	नेता	NOUN	NN	MASC;N;3;ACC;PL	21	obl	_	Vib=0_के_बीच|Tam=0|ChunkId=NP3|ChunkType=head|Translit=netāoṁ
+13	के	के	ADP	PSP	ADP	12	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+14	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	12	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=bīca
+15	चार	चार	NUM	QC	NUM	16	nummod	_	ChunkId=NP4|ChunkType=child|Translit=cāra
+16	घंटे	घंटा	NOUN	NN	N;3;SG;ACC;MASC	18	obl	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ghaṁṭe
+17	से	से	ADP	PSP	ADP	16	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+18	अधिक	अधिक	DET	QF	DET	19	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head|Translit=adhika
+19	समय	समय	NOUN	NN	N;3;SG;ACC;MASC	21	obl	_	Vib=0_तक|Tam=0|ChunkId=NP5|ChunkType=head|Translit=samaya
+20	तक	तक	ADP	PSP	ADP	19	case	_	ChunkId=NP5|ChunkType=child|Translit=taka
+21	चली	चल	VERB	VM	PFV;V;V.PTCP;SG;FEM	22	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=calī
+22	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	33	obl	_	Vib=0_में|Tam=0|ChunkId=NP6|ChunkType=head|Translit=baiṭhaka
+23	में	में	ADP	PSP	ADP	22	case	_	ChunkId=NP6|ChunkType=child|Translit=meṁ
+24	सरबजीत	सरबजीत	PROPN	NNP	PROPN;3;SG;ACC;MASC	26	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=sarabajīta
+25	की	का	ADP	PSP	ADP;SG;ACC;FEM	24	case	_	ChunkId=NP7|ChunkType=child|Translit=kī
+26	रिहाई	रिहाई	NOUN	NN	N;3;SG;ACC;FEM	28	nmod	_	Vib=0_का|Tam=0|ChunkId=NP8|ChunkType=head|Translit=rihāī
+27	के	का	ADP	PSP	ADP;SG;ACC;MASC	26	case	_	ChunkId=NP8|ChunkType=child|Translit=ke
+28	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	33	obl	_	Vib=0_पर|Tam=0|ChunkId=NP9|ChunkType=head|Translit=māmale
+29	पर	पर	ADP	PSP	ADP	28	case	_	ChunkId=NP9|ChunkType=child|Translit=para
+30	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	32	nmod	_	Vib=0_का|Tam=0|ChunkId=NP10|ChunkType=head|Translit=bātacīta
+31	की	का	ADP	PSP	ADP;NOM;SG;FEM	30	case	_	ChunkId=NP10|ChunkType=child|Translit=kī
+32	जानकारी	जानकारी	NOUN	NN	NOM;N;3;SG;FEM	33	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=jānakārī
+33	दी	दे	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=dī|Vib=या
+34	।	।	PUNCT	SYM	_	33	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7736
+# text = उन्होंने कहा कि मुशर्रफ ने इस मामले पर विचार करने का भारत को भरोसा दिया है ।
+1	उन्होंने	वह	PRON	PRP	FORM;{ACC/ERG};3;SG;PRO	2	nsubj	_	Vib=ने|Tam=ne|ChunkId=NP|ChunkType=head|Translit=unhoṁne
+2	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+3	कि	कि	SCONJ	CC	CONJ	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+4	मुशर्रफ	मुशर्रफ	PROPN	NNP	PROPN;3;SG;ACC;MASC	15	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=muśarrapha
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+6	इस	यह	DET	DEM	SG;DET;3;ACC	7	det	_	ChunkId=NP3|ChunkType=child|Translit=isa
+7	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	15	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=māmale
+8	पर	पर	ADP	PSP	ADP	7	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+9	विचार	विचार	NOUN	NN	NOM;N;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=vicāra
+10	करने	कर	VERB	VM	V;ACC;NFIN;SG	12	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=karane
+11	का	का	ADP	PSP	ADP;NOM;SG;MASC	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+12	भारत	भारत	PROPN	NNP	PROPN;3;SG;ACC;MASC	15	iobj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bhārata
+13	को	को	ADP	PSP	ADP	12	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+14	भरोसा	भरोसा	NOUN	NN	NOM;N;3;SG;MASC	15	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bharosā
+15	दिया	दे	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	2	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=diyā|Vib=या_है
+16	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	15	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+17	।	।	PUNCT	SYM	_	2	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7737
+# text = बृहस्पतिवार को दोनों नेताओं ने बातचीत के बाद एक साझा बयान पर हस्ताक्षर किए जिसे मनमोहन सिंह की मौजूदगी में मुशर्रफ ने पढ़कर सुनाया ।
+1	बृहस्पतिवार	बृहस्पतिवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_को|Tam=0|ChunkId=NP|ChunkType=head|Translit=br̥haspativāra
+2	को	को	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ko
+3	दोनों	दो	NUM	QC	PL;NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=donoṁ
+4	नेताओं	नेता	NOUN	NN	MASC;N;3;ACC;PL	14	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=netāoṁ
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+6	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	14	obl	_	Vib=0_के_बाद|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bātacīta
+7	के	के	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	6	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=bāda
+9	एक	एक	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=eka
+10	साझा	साझा	ADJ	JJ	ACC;MASC;SG;ADJ	11	amod	_	ChunkId=NP4|ChunkType=child|Translit=sājhā
+11	बयान	बयान	NOUN	NN	N;3;SG;ACC;MASC	14	obl	_	Vib=0_पर|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bayāna
+12	पर	पर	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=para
+13	हस्ताक्षर	हस्ताक्षर	NOUN	NN	NOM;N;3;PL;MASC	14	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=hastākṣara
+14	किए	कर	VERB	VM	MASC;ACT;PFV;V;V.PTCP;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kie|Vib=या
+15	जिसे	जो	PRON	PRP	{ACC/DAT};3;SG;PRO	24	obj	_	Vib=को|Tam=ko|ChunkId=NP6|ChunkType=head|Translit=jise
+16	मनमोहन	मनमोहन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=manamohana
+17	सिंह	सिंह	PROPN	NNP	PROPN;3;SG;ACC;MASC	19	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=siṁha
+18	की	का	ADP	PSP	ADP;SG;ACC;FEM	17	case	_	ChunkId=NP7|ChunkType=child|Translit=kī
+19	मौजूदगी	मौजूदगी	NOUN	NN	N;3;SG;ACC;FEM	24	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=maujūdagī
+20	में	में	ADP	PSP	ADP	19	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+21	मुशर्रफ	मुशर्रफ	PROPN	NNP	PROPN;3;SG;ACC;MASC	24	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP9|ChunkType=head|Translit=muśarrapha
+22	ने	ने	ADP	PSP	ADP	21	case	_	ChunkId=NP9|ChunkType=child|Translit=ne
+23	पढ़कर	पढ़	VERB	VM	V;V.CVB	24	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=paṛhakara
+24	सुनाया	सुना	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	11	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=sunāyā|Vib=या
+25	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7738
+# text = हालांकि इसमें सरबजीत मामले का कोई जिक्र नहीं था ।
+1	हालांकि	हालांकि	SCONJ	CC	CONJ	7	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=hālāṁki
+2	इसमें	यह	PRON	PRP	{ACC/IN+ESS};3;SG;PRO	7	nmod	_	Vib=में|Tam=meM|ChunkId=NP|ChunkType=head|Translit=isameṁ
+3	सरबजीत	सरबजीत	PROPN	NNP	PROPN;NOM;3;SG;MASC	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=sarabajīta
+4	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=māmale
+5	का	का	ADP	PSP	ADP;NOM;SG;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	कोई	कोई	PRON	PRP	NOM;3;SG;PRO	7	det	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=koī
+7	जिक्र	जिक्र	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jikra
+8	नहीं	नहीं	PART	NEG	NEG;PART	7	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nahīṁ
+9	था	था	AUX	VM	FIN;ACT;SG;IND;MASC;V;PST	7	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=WA|Translit=thā|Vib=था
+10	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7739
+# text = बुधवार को सरबजीत की रिहाई को तब एक झटका लगा था जब पाक सुप्रीम कोर्ट ने पाकिस्तान में पांच स्थानों पर हुए बम विस्फोट के लिए सरबजीत को सुनाई गई मौत की सजा को बहाल रखते हुए कहा था कि मृत्युदंड पूरी तरह सही है और उसे इस मामले में किसी तरह की रियायत नहीं दी जा सकती ।
+1	बुधवार	बुधवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	obl	_	Vib=0_को|Tam=0|ChunkId=NP|ChunkType=head|Translit=budhavāra
+2	को	को	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ko
+3	सरबजीत	सरबजीत	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sarabajīta
+4	की	का	ADP	PSP	ADP;SG;ACC;FEM	3	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+5	रिहाई	रिहाई	NOUN	NN	N;3;SG;ACC;FEM	10	obj	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=rihāī
+6	को	को	ADP	PSP	ADP	5	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+7	तब	तब	PRON	PRP	NOM;PRO	10	obl	_	ChunkId=NP4|ChunkType=head|Translit=taba
+8	एक	एक	NUM	QC	NUM	9	nummod	_	ChunkId=NP5|ChunkType=child|Translit=eka
+9	झटका	झटका	NOUN	NN	NOM;N;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=jhaṭakā
+10	लगा	लग	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=lagā|Vib=या_था
+11	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	10	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+12	जब	जब	PRON	PRP	NOM;PRO	38	obl	_	ChunkId=NP6|ChunkType=head|Translit=jaba
+13	पाक	पाक	PROPN	NNPC	PROPN;NOM;3;SG;MASC	15	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=pāka
+14	सुप्रीम	सुप्रीम	PROPN	NNPC	ACC;PROPN	15	compound	_	ChunkId=NP7|ChunkType=child|Translit=suprīma
+15	कोर्ट	कोर्ट	PROPN	NNP	PROPN;3;SG;ACC;FEM	38	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP7|ChunkType=head|Translit=korṭa
+16	ने	ने	ADP	PSP	ADP	15	case	_	ChunkId=NP7|ChunkType=child|Translit=ne
+17	पाकिस्तान	पाकिस्तान	PROPN	NNP	PROPN;3;SG;ACC;MASC	22	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=pākistāna
+18	में	में	ADP	PSP	ADP	17	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+19	पांच	पांच	NUM	QC	NUM	20	nummod	_	ChunkId=NP9|ChunkType=child|Translit=pāṁca
+20	स्थानों	स्थान	NOUN	NN	MASC;N;3;ACC;PL	22	obl	_	Vib=0_पर|Tam=0|ChunkId=NP9|ChunkType=head|Translit=sthānoṁ
+21	पर	पर	ADP	PSP	ADP	20	case	_	ChunkId=NP9|ChunkType=child|Translit=para
+22	हुए	हो	VERB	VM	PFV;V;V.PTCP;SG;MASC	24	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=hue
+23	बम	बम	NOUN	NNC	NOM;N;3;SG;MASC	24	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child|Translit=bama
+24	विस्फोट	विस्फोट	NOUN	NN	N;3;SG;ACC;MASC	29	obl	_	Vib=0_के_लिए|Tam=0|ChunkId=NP10|ChunkType=head|Translit=visphoṭa
+25	के	के	ADP	PSP	ADP	24	case	_	ChunkId=NP10|ChunkType=child|Translit=ke
+26	लिए	लिए	ADP	PSP	ADP	24	case	_	ChunkId=NP10|ChunkType=child|Translit=lie
+27	सरबजीत	सरबजीत	PROPN	NNP	PROPN;3;SG;ACC;MASC	29	iobj	_	Vib=0_को|Tam=0|ChunkId=NP11|ChunkType=head|Translit=sarabajīta
+28	को	को	ADP	PSP	ADP	27	case	_	ChunkId=NP11|ChunkType=child|Translit=ko
+29	सुनाई	सुना	VERB	VM	PFV;V;V.PTCP;SG;FEM	31	acl	_	Vib=या_जा+या१|Tam=yA|ChunkId=VGNF2|ChunkType=head|Translit=sunāī
+30	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	29	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGNF2|ChunkType=child|Translit=gaī
+31	मौत	मौत	NOUN	NN	N;3;SG;ACC;FEM	33	nmod	_	Vib=0_का|Tam=0|ChunkId=NP12|ChunkType=head|Translit=mauta
+32	की	का	ADP	PSP	ADP;SG;ACC;FEM	31	case	_	ChunkId=NP12|ChunkType=child|Translit=kī
+33	सजा	सजा	NOUN	NN	N;3;SG;ACC;FEM	36	obj	_	Vib=0_को|Tam=0|ChunkId=NP13|ChunkType=head|Translit=sajā
+34	को	को	ADP	PSP	ADP	33	case	_	ChunkId=NP13|ChunkType=child|Translit=ko
+35	बहाल	बहाल	ADJ	JJ	ADJ	36	advmod	_	ChunkId=JJP|ChunkType=head|Translit=bahāla
+36	रखते	रख	VERB	VM	V;V.PTCP;SG;IPFV;MASC	38	advcl	_	Vib=ता_हो+या|Tam=wA|ChunkId=VGNF3|ChunkType=head|Translit=rakhate
+37	हुए	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	36	aux	_	Vib=या|Tam=yA|ChunkId=VGNF3|ChunkType=child|Translit=hue
+38	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	7	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या_था
+39	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	38	aux	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thā
+40	कि	कि	SCONJ	CC	CONJ	44	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+41	मृत्युदंड	मृत्युदंड	NOUN	NN	NOM;N;3;SG;MASC	44	nsubj	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=mr̥tyudaṁḍa
+42	पूरी	पूरा	ADJ	JJ	FEM;NOM;SG;ADJ	43	amod	_	ChunkId=NP15|ChunkType=child|Translit=pūrī
+43	तरह	तरह	NOUN	NN	NOM;N;3;SG;FEM	44	obl	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=taraha
+44	सही	सही	ADJ	JJ	ADJ	38	obj	_	ChunkId=JJP2|ChunkType=head|Translit=sahī
+45	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	44	cop	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+46	और	और	CCONJ	CC	CONJ	56	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+47	उसे	वह	PRON	PRP	{ACC/DAT};3;SG;PRO	56	iobj	_	Vib=को|Tam=ko|ChunkId=NP16|ChunkType=head|Translit=use
+48	इस	यह	DET	DEM	SG;DET;3;ACC	49	det	_	ChunkId=NP17|ChunkType=child|Translit=isa
+49	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	56	obl	_	Vib=0_में|Tam=0|ChunkId=NP17|ChunkType=head|Translit=māmale
+50	में	में	ADP	PSP	ADP	49	case	_	ChunkId=NP17|ChunkType=child|Translit=meṁ
+51	किसी	कोई	PRON	PRP	3;SG;ACC;PRO	52	det	_	Vib=0|Tam=0|ChunkId=NP18|ChunkType=child|Translit=kisī
+52	तरह	तरह	NOUN	NN	N;3;SG;ACC;FEM	54	nmod	_	Vib=0_का|Tam=0|ChunkId=NP18|ChunkType=head|Translit=taraha
+53	की	का	ADP	PSP	ADP;NOM;SG;FEM	52	case	_	ChunkId=NP18|ChunkType=child|Translit=kī
+54	रियायत	रियायत	NOUN	NN	NOM;N;3;SG;FEM	56	compound	_	Vib=0|Tam=0|ChunkId=NP19|ChunkType=head|Translit=riyāyata
+55	नहीं	नहीं	PART	NEG	NEG;PART	56	advmod	_	ChunkId=VGF4|ChunkType=child|Translit=nahīṁ
+56	दी	दे	VERB	VM	ACT;PFV;V;V.PTCP;SG	44	conj	_	ChunkId=VGF4|ChunkType=head|Stype=declarative|Tam=yA|Translit=dī|Vib=या_जा_सक+ता
+57	जा	जा	AUX	VAUX	V	56	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF4|ChunkType=child|Translit=jā
+58	सकती	सक	AUX	VAUX	FEM;V.PTCP;SG;IPFV;V	56	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF4|ChunkType=child|Translit=sakatī
+59	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7740
+# text = जस्टिस मोहम्मद नवाज अब्बासी ने अपने फैसले में मौत की सजा को सही ठहराया था ।
+1	जस्टिस	जस्टिस	NOUN	NNC	NOM;N;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=jasṭisa
+2	मोहम्मद	मोहम्मद	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=mohammada
+3	नवाज	नवाज	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=navāja
+4	अब्बासी	अब्बासी	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=abbāsī
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+6	अपने	अपना	PRON	PRP	ACC;MASC;PRO	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=apane
+7	फैसले	फैसला	NOUN	NN	N;3;SG;ACC;MASC	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=phaisale
+8	में	में	ADP	PSP	ADP	7	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+9	मौत	मौत	NOUN	NN	N;3;SG;ACC;FEM	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mauta
+10	की	का	ADP	PSP	ADP;SG;ACC;FEM	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	सजा	सजा	NOUN	NN	N;3;SG;ACC;FEM	14	obj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sajā
+12	को	को	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+13	सही	सही	ADJ	JJ	ADJ	14	acl	_	ChunkId=JJP|ChunkType=head|Translit=sahī
+14	ठहराया	ठहरा	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=ṭhaharāyā|Vib=या_था
+15	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	14	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+16	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7741
+# text = बिहार समेत कुछ राज्यों में होने वाले विधानसभा चुनाव की मजूबरी में राजग के घटक दलों ने मतभेद भुला दिया है ।
+1	बिहार	बिहार	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	obl	_	Vib=0_समेत|Tam=0|ChunkId=NP|ChunkType=head|Translit=bihāra
+2	समेत	समेत	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=sameta
+3	कुछ	कुछ	DET	QF	DET	4	det	_	ChunkId=NP2|ChunkType=child|Translit=kucha
+4	राज्यों	राज्य	NOUN	NN	MASC;N;3;ACC;PL	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rājyoṁ
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+6	होने	हो	VERB	VM	V;ACC;NFIN;SG	9	amod	_	Vib=ना_वाला|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=hone
+7	वाले	वाला	ADJ	PSP	ACC;MASC;SG;ADJ	6	compound	_	ChunkId=VGNN|ChunkType=child|Translit=vāle
+8	विधानसभा	विधानसभा	NOUN	NNC	NOM;N;3;SG;FEM	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=vidhānasabhā
+9	चुनाव	चुनाव	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=cunāva
+10	की	का	ADP	PSP	ADP;SG;ACC;FEM	9	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+11	मजूबरी	मजूबरी	NOUN	NN	N;3;SG;ACC;FEM	19	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=majūbarī
+12	में	में	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+13	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	16	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rājaga
+14	के	का	ADP	PSP	ADP;ACC;PL;MASC	13	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+15	घटक	घटक	NOUN	NNC	NOM;N;3;SG;MASC	16	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=ghaṭaka
+16	दलों	दल	NOUN	NN	MASC;N;3;ACC;PL	19	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=daloṁ
+17	ने	ने	ADP	PSP	ADP	16	case	_	ChunkId=NP6|ChunkType=child|Translit=ne
+18	मतभेद	मतभेद	NOUN	NN	NOM;N;3;SG;MASC	19	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=matabheda
+19	भुला	भुला	VERB	VM	ACT;V;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=bhulā|Vib=0_दे+या_है
+20	दिया	दे	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	19	compound	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=diyā
+21	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	19	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+22	।	।	PUNCT	SYM	_	19	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7742
+# text = हिंदुत्व पर एक तरह से भाजपा के सुर में सुर मिलाते हुए राजग ने जहां अयोध्या मामले का हल बातचीत के जरिए निकालने की बात की है, वहीं उसने देश के धर्मनिरपेक्ष ढांचे के प्रति भी प्रतिबद्धता दोहराई है ।
+1	हिंदुत्व	हिंदुत्व	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_पर|Tam=0|ChunkId=NP|ChunkType=head|Translit=hiṁdutva
+2	पर	पर	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=para
+3	एक	एक	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+4	तरह	तरह	NOUN	NN	N;3;SG;ACC;FEM	11	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=taraha
+5	से	से	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+6	भाजपा	भाजपा	PROPN	NNP	PROPN;3;SG;ACC;FEM	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhājapā
+7	के	का	ADP	PSP	ADP;SG;ACC;MASC	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	सुर	सुर	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sura
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	सुर	सुर	NOUN	NN	NOM;N;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sura
+11	मिलाते	मिला	VERB	VM	V;V.PTCP;SG;IPFV;MASC	13	acl	_	Vib=ता_हो+या|Tam=wA|ChunkId=VGNF|ChunkType=head|Translit=milāte
+12	हुए	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	11	aux	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=child|Translit=hue
+13	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	26	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=rājaga
+14	ने	ने	ADP	PSP	ADP	13	case	_	ChunkId=NP6|ChunkType=child|Translit=ne
+15	जहां	जहाँ	ADV	RB	ADV	26	obl	_	ChunkId=RBP|ChunkType=head|Translit=jahāṁ
+16	अयोध्या	अयोध्या	PROPN	NNP	PROPN;NOM;3;SG;FEM	17	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=ayodhyā
+17	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	19	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=māmale
+18	का	का	ADP	PSP	ADP;NOM;SG;MASC	17	case	_	ChunkId=NP7|ChunkType=child|Translit=kā
+19	हल	हल	NOUN	NN	NOM;N;3;SG;MASC	23	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=hala
+20	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	23	obl	_	Vib=0_के_जरिये|Tam=0|ChunkId=NP9|ChunkType=head|Translit=bātacīta
+21	के	के	ADP	PSP	ADP	20	case	_	ChunkId=NP9|ChunkType=child|Translit=ke
+22	जरिए	जरिये	ADP	PSP	ADP	20	case	_	ChunkId=NP9|ChunkType=child|Translit=jarie
+23	निकालने	निकाल	VERB	VM	V;ACC;NFIN;SG	25	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=nikālane
+24	की	का	ADP	PSP	ADP;NOM;SG;FEM	23	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kī
+25	बात	बात	NOUN	NN	NOM;N;3;SG;FEM	26	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=bāta
+26	की	कर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	29	acl:relcl	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kī|Vib=या_है
+27	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	26	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+28	,	,	PUNCT	SYM	_	26	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+29	वहीं	वहीं	ADV	RB	ADV	39	obl	_	ChunkId=RBP2|ChunkType=head|Translit=vahīṁ
+30	उसने	वह	PRON	PRP	{ACC/ERG};3;SG;PRO	39	nsubj	_	Vib=ने|Tam=ne|ChunkId=NP11|ChunkType=head|Translit=usane
+31	देश	देश	NOUN	NN	N;3;SG;ACC;MASC	34	nmod	_	Vib=0_का|Tam=0|ChunkId=NP12|ChunkType=head|Translit=deśa
+32	के	का	ADP	PSP	ADP;SG;ACC;MASC	31	case	_	ChunkId=NP12|ChunkType=child|Translit=ke
+33	धर्मनिरपेक्ष	धर्मनिरपेक्ष	ADJ	JJ	ACC;ADJ	34	amod	_	ChunkId=NP13|ChunkType=child|Translit=dharmanirapekṣa
+34	ढांचे	ढांचा	NOUN	NN	N;3;SG;ACC;MASC	39	obl	_	Vib=0_के_प्रति|Tam=0|ChunkId=NP13|ChunkType=head|Translit=ḍhāṁce
+35	के	के	ADP	PSP	ADP	34	case	_	ChunkId=NP13|ChunkType=child|Translit=ke
+36	प्रति	प्रति	ADP	PSP	ADP	34	case	_	ChunkId=NP13|ChunkType=child|Translit=prati
+37	भी	भी	PART	RP	PART	34	dep	_	ChunkId=NP13|ChunkType=child|Translit=bhī
+38	प्रतिबद्धता	प्रतिबद्धता	NOUN	NN	NOM;N;3;SG;FEM	39	compound	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=head|Translit=pratibaddhatā
+39	दोहराई	दोहरा	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	0	root	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=doharāī|Vib=या_है
+40	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	39	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+41	।	।	PUNCT	SYM	_	39	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7743
+# text = जद (यू) की मांग पर सोमवार को बुलाई गई राजग की बैठक में राजग को एकजुट रखने का फैसला करते हुए कहा गया कि कांग्रेस - वामपंथी गठबंधन का यही एकमात्र विकल्प है ।
+1	जद	जद	PROPN	NNPC	PROPN;3;SG;ACC;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=jada
+2	(	(	PUNCT	SYM	_	3	punct	_	SpaceAfter=No|ChunkId=NP|ChunkType=child|Translit=(
+3	यू	यू	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	SpaceAfter=No|Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=yū
+4	)	)	PUNCT	SYM	_	3	punct	_	ChunkId=NP|ChunkType=child|Translit=)
+5	की	का	ADP	PSP	ADP;SG;ACC;FEM	3	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+6	मांग	मांग	NOUN	NN	N;3;SG;ACC;FEM	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=māṁga
+7	पर	पर	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+8	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	obl	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=somavāra
+9	को	को	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+10	बुलाई	बुला	VERB	VM	PFV;V;V.PTCP;SG;FEM	12	amod	_	Vib=या_जा+या१|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=bulāī
+11	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	10	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gaī
+12	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=rājaga
+13	की	का	ADP	PSP	ADP;SG;ACC;FEM	12	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+14	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	22	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=baiṭhaka
+15	में	में	ADP	PSP	ADP	14	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+16	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	19	obj	_	Vib=0_को|Tam=0|ChunkId=NP6|ChunkType=head|Translit=rājaga
+17	को	को	ADP	PSP	ADP	16	case	_	ChunkId=NP6|ChunkType=child|Translit=ko
+18	एकजुट	एकजुट	ADV	RB	ADV	19	advmod	_	ChunkId=RBP|ChunkType=head|Translit=ekajuṭa
+19	रखने	रख	VERB	VM	V;ACC;NFIN;SG	21	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=rakhane
+20	का	का	ADP	PSP	ADP;NOM;SG;MASC	19	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+21	फैसला	फैसला	NOUN	NN	NOM;N;3;SG;MASC	22	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=phaisalā
+22	करते	कर	VERB	VM	V;V.PTCP;SG;IPFV;MASC	24	advcl	_	Vib=ता_हो+या|Tam=wA|ChunkId=VGNF2|ChunkType=head|Translit=karate
+23	हुए	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	22	aux	_	Vib=या|Tam=yA|ChunkId=VGNF2|ChunkType=child|Translit=hue
+24	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या_जा+या१
+25	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	24	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+26	कि	कि	SCONJ	CC	CONJ	34	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+27	कांग्रेस	कांग्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	29	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kāṁgresa
+28	-	-	PUNCT	SYM	_	27	punct	_	ChunkId=NP8|ChunkType=child|Translit=-
+29	वामपंथी	वामपंथी	PROPN	NNP	PROPN;NOM;3;SG;MASC	30	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=vāmapaṁthī
+30	गठबंधन	गठबंधन	NOUN	NN	N;3;SG;ACC;MASC	34	nmod	_	Vib=0_का|Tam=0|ChunkId=NP8|ChunkType=head|Translit=gaṭhabaṁdhana
+31	का	का	ADP	PSP	ADP;NOM;SG;MASC	30	case	_	ChunkId=NP8|ChunkType=child|Translit=kā
+32	यही	यह	DET	DEM	DET;NOM;3;SG;MASC	34	det	_	ChunkId=NP9|ChunkType=child|Translit=yahī
+33	एकमात्र	एकमात्र	ADJ	JJ	NOM;ADJ	34	amod	_	ChunkId=NP9|ChunkType=child|Translit=ekamātra
+34	विकल्प	विकल्प	NOUN	NN	NOM;N;3;SG;MASC	24	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=vikalpa
+35	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	34	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+36	।	।	PUNCT	SYM	_	24	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7744
+# text = हालांकि यह बैठक हिंदुत्व मुद्दे पर भाजपा से स्पष्टीकरण मांगने के लिए बुलाई गई थी ।
+1	हालांकि	हालांकि	SCONJ	CC	CONJ	13	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=hālāṁki
+2	यह	यह	DET	DEM	SG;DET;NOM;3	3	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+3	बैठक	बैठक	NOUN	NN	NOM;N;3;SG;FEM	13	nsubj:pass	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=baiṭhaka
+4	हिंदुत्व	हिंदुत्व	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=hiṁdutva
+5	मुद्दे	मुद्दा	NOUN	NN	N;3;SG;ACC;MASC	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mudde
+6	पर	पर	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+7	भाजपा	भाजपा	PROPN	NNP	PROPN;3;SG;ACC;FEM	10	obj	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhājapā
+8	से	से	ADP	PSP	ADP	7	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+9	स्पष्टीकरण	स्पष्टीकरण	NOUN	NN	NOM;N;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=spaṣṭīkaraṇa
+10	मांगने	मांग	VERB	VM	V;ACC;NFIN	13	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=māṁgane
+11	के	के	ADP	PSP	ADP	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+12	लिए	लिए	ADP	PSP	ADP	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+13	बुलाई	बुला	VERB	VM	PFV;V;PASS;V.PTCP;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=bulāī|Vib=या_जा+या१_था
+14	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	13	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+15	थी	था	AUX	VAUX	FIN;SG;FEM;IND;V;PST	13	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thī
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7745
+# text = डेढ़ घंटे चली बैठक में अधिकांश समय आगामी विधानसभा चुनाव पर चर्चा होती रही ।
+1	डेढ़	डेढ़	NUM	QC	NUM	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=ḍeṛha
+2	घंटे	घंटा	NOUN	NN	NOM;N;3;PL;MASC	3	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ghaṁṭe
+3	चली	चल	VERB	VM	PFV;V;V.PTCP;SG;FEM	4	amod	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=calī
+4	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	13	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=baiṭhaka
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+6	अधिकांश	अधिकांश	ADJ	JJ	NOM;ADJ	7	amod	_	ChunkId=NP3|ChunkType=child|Translit=adhikāṁśa
+7	समय	समय	NOUN	NN	NOM;N;3;SG;MASC	13	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=samaya
+8	आगामी	आगामी	ADJ	JJ	ACC;ADJ	10	amod	_	ChunkId=NP4|ChunkType=child|Translit=āgāmī
+9	विधानसभा	विधानसभा	NOUN	NNC	NOM;N;3;SG;FEM	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=vidhānasabhā
+10	चुनाव	चुनाव	NOUN	NN	N;3;SG;ACC;MASC	13	obl	_	Vib=0_पर|Tam=0|ChunkId=NP4|ChunkType=head|Translit=cunāva
+11	पर	पर	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=para
+12	चर्चा	चर्चा	NOUN	NN	NOM;N;3;SG;FEM	13	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=carcā
+13	होती	हो	VERB	VM	ACT;V;FEM;V.PTCP;SG;IPFV	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=hotī|Vib=ता_रह+या
+14	रही	रह	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	13	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahī
+15	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7746
+# text = अयोध्या विवाद का बातचीत के जरिए समाधान करने का प्रस्ताव पारित करने के बाद राजग के घटक दल गठबंधन को और मजबूत करने, बिहार में एंटी लालू फ्रंट बनाने और आंतरिक सुरक्षा एवं महंगाई जैसे मुद्दों पर यूपीए सरकार को घेरने की रणनीति बनाने में जुटे रहे ।
+1	अयोध्या	अयोध्या	PROPN	NNP	PROPN;NOM;3;SG;FEM	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=ayodhyā
+2	विवाद	विवाद	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=vivāda
+3	का	का	ADP	PSP	ADP;SG;ACC;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+4	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	8	obl	_	Vib=0_के_जरिये|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bātacīta
+5	के	के	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	जरिए	जरिये	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=jarie
+7	समाधान	समाधान	NOUN	NN	NOM;N;3;SG;MASC	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=samādhāna
+8	करने	कर	VERB	VM	V;ACC;NFIN;SG	10	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=karane
+9	का	का	ADP	PSP	ADP;NOM;SG;MASC	8	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+10	प्रस्ताव	प्रस्ताव	NOUN	NN	NOM;N;3;SG;MASC	12	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=prastāva
+11	पारित	पारित	ADJ	JJ	ADJ	12	compound	_	ChunkId=JJP|ChunkType=head|Translit=pārita
+12	करने	कर	VERB	VM	NFIN;V;3;SG;ACC	23	obl	_	Vib=ना_के_बाद|Tam=nA|ChunkId=VGNN2|ChunkType=head|Translit=karane
+13	के	के	ADP	PSP	ADP	12	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=ke
+14	बाद	बाद	ADV	NST	NOM;ADV;3;SG;MASC	12	mark	_	AltTag=ADV-NOUN|ChunkId=VGNN2|ChunkType=child|Translit=bāda
+15	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rājaga
+16	के	का	ADP	PSP	ADP;NOM;PL;MASC	15	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+17	घटक	घटक	NOUN	NNC	NOM;N;3;SG;MASC	18	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=ghaṭaka
+18	दल	दल	NOUN	NN	NOM;N;3;PL;MASC	23	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=dala
+19	गठबंधन	गठबंधन	NOUN	NN	N;3;SG;ACC;MASC	23	obj	_	Vib=0_को|Tam=0|ChunkId=NP7|ChunkType=head|Translit=gaṭhabaṁdhana
+20	को	को	ADP	PSP	ADP	19	case	_	ChunkId=NP7|ChunkType=child|Translit=ko
+21	और	और	DET	QF	DET	22	det	_	ChunkId=NP8|ChunkType=child|Translit=aura
+22	मजबूत	मजबूत	ADJ	JJ	ADJ	23	compound	_	ChunkId=NP8|ChunkType=head|Translit=majabūta
+23	करने	कर	VERB	VM	V;ACC;NFIN	47	obl	_	SpaceAfter=No|Vib=ना|Tam=nA|ChunkId=VGNN3|ChunkType=head|Translit=karane
+24	,	,	PUNCT	SYM	_	30	punct	_	ChunkId=VGNN3|ChunkType=child|Translit=,
+25	बिहार	बिहार	PROPN	NNP	PROPN;3;SG;ACC;MASC	30	obl	_	Vib=0_में|Tam=0|ChunkId=NP9|ChunkType=head|Translit=bihāra
+26	में	में	ADP	PSP	ADP	25	case	_	ChunkId=NP9|ChunkType=child|Translit=meṁ
+27	एंटी	एंटी	PROPN	NNPC	NOM;PROPN	29	compound	_	ChunkId=NP10|ChunkType=child|Translit=eṁṭī
+28	लालू	लालू	PROPN	NNPC	PROPN;NOM;3;SG;MASC	29	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child|Translit=lālū
+29	फ्रंट	फ्रंट	PROPN	NNP	PROPN;NOM;3;SG;MASC	30	obj	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=phraṁṭa
+30	बनाने	बना	VERB	VM	V;ACC;NFIN	23	conj	_	Vib=ना|Tam=nA|ChunkId=VGNN4|ChunkType=head|Translit=banāne
+31	और	और	CCONJ	CC	CONJ	45	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+32	आंतरिक	आंतरिक	ADJ	JJ	NOM;ADJ	33	amod	_	ChunkId=NP11|ChunkType=child|Translit=āṁtarika
+33	सुरक्षा	सुरक्षा	NOUN	NN	N;3;SG;ACC;FEM	42	obl	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=surakṣā
+34	एवं	एवं	CCONJ	CC	CONJ	35	cc	_	ChunkId=CCP2|ChunkType=head|Translit=evaṁ
+35	महंगाई	महंगाई	NOUN	NN	N;3;SG;ACC;FEM	33	conj	_	Vib=0_जैसा|Tam=0|ChunkId=NP12|ChunkType=head|Translit=mahaṁgāī
+36	जैसे	जैसा	ADP	PSP	ADP;ACC;PL;MASC	33	case	_	ChunkId=NP12|ChunkType=child|Translit=jaise
+37	मुद्दों	मुद्दा	NOUN	NN	MASC;N;3;ACC;PL	42	obl	_	Vib=0_पर|Tam=0|ChunkId=NP13|ChunkType=head|Translit=muddoṁ
+38	पर	पर	ADP	PSP	ADP	37	case	_	ChunkId=NP13|ChunkType=child|Translit=para
+39	यूपीए	यूपीए	PROPN	NNP	PROPN;NOM;3;SG;MASC	40	nmod	_	Vib=0|Tam=0|ChunkId=NP14|ChunkType=child|Translit=yūpīe
+40	सरकार	सरकार	NOUN	NN	N;3;SG;ACC;FEM	42	obj	_	Vib=0_को|Tam=0|ChunkId=NP14|ChunkType=head|Translit=sarakāra
+41	को	को	ADP	PSP	ADP	40	case	_	ChunkId=NP14|ChunkType=child|Translit=ko
+42	घेरने	घेर	VERB	VM	V;ACC;NFIN;SG	44	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN5|ChunkType=head|Translit=gherane
+43	की	का	ADP	PSP	ADP;NOM;SG;FEM	42	mark	_	ChunkId=VGNN5|ChunkType=child|Translit=kī
+44	रणनीति	रणनीति	NOUN	NN	NOM;N;3;SG;FEM	45	compound	_	Vib=0|Tam=0|ChunkId=NP15|ChunkType=head|Translit=raṇanīti
+45	बनाने	बना	VERB	VM	V;ACC;NFIN	23	conj	_	Vib=ना_में|Tam=nA|ChunkId=VGNN6|ChunkType=head|Translit=banāne
+46	में	में	ADP	PSP	ADP	45	mark	_	ChunkId=VGNN6|ChunkType=child|Translit=meṁ
+47	जुटे	जुट	VERB	VM	MASC;ACT;PFV;V;V.PTCP;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=juṭe|Vib=या_रह+या
+48	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	47	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+49	।	।	PUNCT	SYM	_	47	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7747
+# text = इस तरह राजग की बैठक में तकरीबन एक सप्ताह बाद रांची में आयोजित होने वाली भाजपा कार्यकारिणी की बैठक का एजेंडा तैयार किया गया ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	तरह	तरह	NOUN	NN	NOM;N;3;SG;FEM	23	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=taraha
+3	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rājaga
+4	की	का	ADP	PSP	ADP;SG;ACC;FEM	3	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+5	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	23	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=baiṭhaka
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+7	तकरीबन	तकरीबन	PART	RP	PART	8	dep	_	ChunkId=NP4|ChunkType=child|Translit=takarībana
+8	एक	एक	NUM	QC	NUM	9	nummod	_	ChunkId=NP4|ChunkType=child|Translit=eka
+9	सप्ताह	सप्ताह	NOUN	NN	NOM;N;3;SG;MASC	14	obl	_	Vib=0_बाद|Tam=0|ChunkId=NP4|ChunkType=head|Translit=saptāha
+10	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	9	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child|Translit=bāda
+11	रांची	रांची	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rāṁcī
+12	में	में	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+13	आयोजित	आयोजित	ADJ	JJ	ADJ	14	compound	_	ChunkId=JJP|ChunkType=head|Translit=āyojita
+14	होने	हो	VERB	VM	V;ACC;NFIN;SG	17	amod	_	Vib=ना_वाला|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=hone
+15	वाली	वाला	ADJ	PSP	ACC;FEM;SG;ADJ	14	compound	_	ChunkId=VGNN|ChunkType=child|Translit=vālī
+16	भाजपा	भाजपा	PROPN	NNP	PROPN;NOM;3;SG;FEM	17	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=bhājapā
+17	कार्यकारिणी	कार्यकारिणी	NOUN	NN	N;3;SG;ACC;FEM	19	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=kāryakāriṇī
+18	की	का	ADP	PSP	ADP;SG;ACC;FEM	17	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+19	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	21	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=baiṭhaka
+20	का	का	ADP	PSP	ADP;NOM;SG;MASC	19	case	_	ChunkId=NP7|ChunkType=child|Translit=kā
+21	एजेंडा	एजेंडा	NOUN	NN	NOM;N;3;SG;MASC	23	obj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=ejeṁḍā
+22	तैयार	तैयार	ADJ	JJ	ADJ	23	compound	_	ChunkId=JJP2|ChunkType=head|Translit=taiyāra
+23	किया	कर	VERB	VM	PFV;V;PASS;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kiyā|Vib=या_जा+या१
+24	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	23	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+25	।	।	PUNCT	SYM	_	23	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7748
+# text = राजग ने आगामी विधानसभा चुनावों के मद्देनजर सभी विवादों को दरकिनार कर गठबंधन को और अधिक मजबूत करने का प्रस्ताव पारित किया ।
+1	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	22	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājaga
+2	ने	ने	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+3	आगामी	आगामी	ADJ	JJ	ACC;ADJ	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=āgāmī
+4	विधानसभा	विधानसभा	NOUN	NNC	NOM;N;3;SG;FEM	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=vidhānasabhā
+5	चुनावों	चुनाव	NOUN	NN	MASC;N;3;ACC;PL	22	obl	_	Vib=0_के_मद्देनजर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=cunāvoṁ
+6	के	के	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+7	मद्देनजर	मद्देनजर	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=maddenajara
+8	सभी	सभी	DET	QF	DET	9	det	_	ChunkId=NP3|ChunkType=child|Translit=sabhī
+9	विवादों	विवाद	NOUN	NN	MASC;N;3;ACC;PL	12	obj	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vivādoṁ
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+11	दरकिनार	दरकिनार	ADV	RB	ADV	12	advmod	_	ChunkId=RBP|ChunkType=head|Translit=darakināra
+12	कर	कर	VERB	VM	V	22	advcl	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=kara
+13	गठबंधन	गठबंधन	NOUN	NN	N;3;SG;ACC;MASC	18	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=gaṭhabaṁdhana
+14	को	को	ADP	PSP	ADP	13	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+15	और	और	ADV	INTF	ADV	16	advmod	_	AltTag=avy-ADV|ChunkId=JJP|ChunkType=child|Translit=aura
+16	अधिक	अधिक	DET	QF	DET	17	det	_	ChunkId=JJP|ChunkType=child|Translit=adhika
+17	मजबूत	मजबूत	ADJ	JJ	ADJ	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=majabūta
+18	करने	कर	VERB	VM	V;ACC;NFIN;SG	20	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=karane
+19	का	का	ADP	PSP	ADP;NOM;SG;MASC	18	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+20	प्रस्ताव	प्रस्ताव	NOUN	NN	NOM;N;3;SG;MASC	22	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=prastāva
+21	पारित	पारित	ADJ	JJ	ADJ	22	compound	_	ChunkId=JJP2|ChunkType=head|Translit=pārita
+22	किया	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kiyā|Vib=या
+23	।	।	PUNCT	SYM	_	22	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7749
+# text = बिहार विधानसभा चुनाव को ध्यान में रखते हुए राजग ने लालू विरोधी ताकतों से एकजुट होने का आह्वान किया है ।
+1	बिहार	बिहार	PROPN	NNPC	PROPN;NOM;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=bihāra
+2	विधानसभा	विधानसभा	PROPN	NNP	PROPN;NOM;3;SG;FEM	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=vidhānasabhā
+3	चुनाव	चुनाव	NOUN	NN	N;3;SG;ACC;MASC	7	obj	_	Vib=0_को|Tam=0|ChunkId=NP|ChunkType=head|Translit=cunāva
+4	को	को	ADP	PSP	ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=ko
+5	ध्यान	ध्यान	NOUN	NN	N;3;SG;ACC;MASC	7	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dhyāna
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+7	रखते	रख	VERB	VM	V;V.PTCP;SG;IPFV;MASC	19	acl	_	Vib=ता_हो+या|Tam=wA|ChunkId=VGNF|ChunkType=head|Translit=rakhate
+8	हुए	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	7	aux	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=child|Translit=hue
+9	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	19	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP3|ChunkType=head|Translit=rājaga
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=ne
+11	लालू	लालू	PROPN	NNP	PROPN;NOM;3;SG;MASC	12	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=lālū
+12	विरोधी	विरोधी	ADJ	JJ	ACC;ADJ	13	amod	_	ChunkId=JJP|ChunkType=head|Translit=virodhī
+13	ताकतों	ताकत	NOUN	NN	N;3;ACC;FEM;PL	16	obj	_	Vib=0_से|Tam=0|ChunkId=NP5|ChunkType=head|Translit=tākatoṁ
+14	से	से	ADP	PSP	ADP	13	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+15	एकजुट	एकजुट	ADV	RB	ADV	16	advmod	_	ChunkId=RBP|ChunkType=head|Translit=ekajuṭa
+16	होने	हो	VERB	VM	V;ACC;NFIN;SG	18	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=hone
+17	का	का	ADP	PSP	ADP;NOM;SG;MASC	16	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+18	आह्वान	आह्वान	NOUN	NN	NOM;N;3;SG;MASC	19	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=āhvāna
+19	किया	कर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kiyā|Vib=या_है
+20	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	19	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+21	।	।	PUNCT	SYM	_	19	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7750
+# text = राजग का इशारा लोक जनतांत्रिक पार्टी की ओर है ।
+1	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nsubj	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājaga
+2	का	का	ADP	PSP	ADP;NOM;SG;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	इशारा	इशारा	NOUN	NN	NOM;N;3;SG;MASC	6	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=iśārā
+4	लोक	लोक	PROPN	NNPC	PROPN;NOM;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=loka
+5	जनतांत्रिक	जनतांत्रिक	PROPN	NNPC	ACC;PROPN	6	compound	_	ChunkId=NP3|ChunkType=child|Translit=janatāṁtrika
+6	पार्टी	पार्टी	PROPN	NNP	PROPN;3;SG;ACC;FEM	0	root	_	Vib=0_का_ओर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pārṭī
+7	की	का	ADP	PSP	ADP;NOM;SG;FEM	6	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+8	ओर	ओर	ADP	NST	ADP;NOM;3;SG;FEM	6	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=ora
+9	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+10	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7751
+# text = भाजपा के हिंदुत्व पर वापस जाने की अटकलों के बीच बैठक के बाद राजग संयोजक जॉर्ज फर्नाडिस ने कहा कि हम अयोध्या मामले में हमेशा से अदालती फैसले के पक्ष में रहे हैं, लेकिन न्यायिक प्रक्रिया में हो रही देरी के कारण राजग बातचीत के जरिए इसका समाधान चाहता है ।
+1	भाजपा	भाजपा	PROPN	NNP	PROPN;3;SG;ACC;FEM	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=bhājapā
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	हिंदुत्व	हिंदुत्व	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=hiṁdutva
+4	पर	पर	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+5	वापस	वापस	ADJ	JJ	ADJ	6	compound	_	ChunkId=JJP|ChunkType=head|Translit=vāpasa
+6	जाने	जा	VERB	VM	V;PL;ACC;NFIN	8	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=jāne
+7	की	का	ADP	PSP	ADP;ACC;FEM;PL	6	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kī
+8	अटकलों	अटकल	NOUN	NN	N;3;ACC;FEM;PL	19	obl	_	Vib=0_के_बीच|Tam=0|ChunkId=NP3|ChunkType=head|Translit=aṭakaloṁ
+9	के	के	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+10	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	8	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=bīca
+11	बैठक	बैठक	NOUN	NN	N;3;SG;ACC;FEM	19	obl	_	Vib=0_के_बाद|Tam=0|ChunkId=NP4|ChunkType=head|Translit=baiṭhaka
+12	के	के	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+13	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	11	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child|Translit=bāda
+14	राजग	राजग	PROPN	NNP	PROPN;NOM;3;SG;MASC	15	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=rājaga
+15	संयोजक	संयोजक	NOUN	NN	N;3;SG;ACC;MASC	17	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=saṁyojaka
+16	जॉर्ज	जॉर्ज	PROPN	NNPC	PROPN;NOM;3;SG;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=jôrja
+17	फर्नाडिस	फर्नाडिस	PROPN	NNP	PROPN;3;SG;ACC;MASC	19	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=pharnāḍisa
+18	ने	ने	ADP	PSP	ADP	17	case	_	ChunkId=NP6|ChunkType=child|Translit=ne
+19	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+20	कि	कि	SCONJ	CC	CONJ	32	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+21	हम	हम	PRON	PRP	NOM;1;PL;PRO	32	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=hama
+22	अयोध्या	अयोध्या	PROPN	NNP	PROPN;NOM;3;SG;FEM	23	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=ayodhyā
+23	मामले	मामला	NOUN	NN	N;3;SG;ACC;MASC	32	obl	_	Vib=0_में|Tam=0|ChunkId=NP8|ChunkType=head|Translit=māmale
+24	में	में	ADP	PSP	ADP	23	case	_	ChunkId=NP8|ChunkType=child|Translit=meṁ
+25	हमेशा	हमेशा	ADV	RB	ADV	32	advmod	_	ChunkId=RBP|ChunkType=head|Translit=hameśā
+26	से	से	PART	RP	PART	25	dep	_	ChunkId=RBP|ChunkType=child|Translit=se
+27	अदालती	अदालती	ADJ	JJ	ACC;ADJ	28	amod	_	ChunkId=NP9|ChunkType=child|Translit=adālatī
+28	फैसले	फैसला	NOUN	NN	N;3;SG;ACC;MASC	49	nmod	_	Vib=0_के|Tam=0|ChunkId=NP9|ChunkType=head|Translit=phaisale
+29	के	के	ADP	PSP	ADP	28	case	_	ChunkId=NP9|ChunkType=child|Translit=ke
+30	पक्ष	पक्ष	NOUN	NN	N;3;SG;ACC;MASC	32	obl	_	Vib=0_में|Tam=0|ChunkId=NP10|ChunkType=head|Translit=pakṣa
+31	में	में	ADP	PSP	ADP	30	case	_	ChunkId=NP10|ChunkType=child|Translit=meṁ
+32	रहे	रह	VERB	VM	MASC;ACT;PFV;V;V.PTCP;3;PL	19	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=rahe|Vib=या_है
+33	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	32	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+34	,	,	PUNCT	SYM	_	35	punct	_	ChunkId=VGF2|ChunkType=child|Translit=,
+35	लेकिन	लेकिन	CCONJ	CC	CONJ	50	cc	_	ChunkId=CCP2|ChunkType=head|Translit=lekina
+36	न्यायिक	न्यायिक	ADJ	JJ	ACC;ADJ	37	amod	_	ChunkId=NP11|ChunkType=child|Translit=nyāyika
+37	प्रक्रिया	प्रक्रिया	NOUN	NN	N;3;SG;ACC;FEM	39	obl	_	Vib=0_में|Tam=0|ChunkId=NP11|ChunkType=head|Translit=prakriyā
+38	में	में	ADP	PSP	ADP	37	case	_	ChunkId=NP11|ChunkType=child|Translit=meṁ
+39	हो	हो	VERB	VM	V;SG	49	amod	_	Vib=0_रह+या|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=ho
+40	रही	रह	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	39	aux	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=child|Translit=rahī
+41	देरी	देरी	NOUN	NN	N;3;SG;ACC;FEM	50	obl	_	Vib=0_के_कारण|Tam=0|ChunkId=NP12|ChunkType=head|Translit=derī
+42	के	के	ADP	PSP	ACC;ADP;MASC	41	case	_	ChunkId=NP12|ChunkType=child|Translit=ke
+43	कारण	कारण	ADP	PSP	ACC;ADP;MASC	41	case	_	ChunkId=NP12|ChunkType=child|Translit=kāraṇa
+44	राजग	राजग	PROPN	NNP	PROPN;NOM;3;SG;MASC	50	nsubj	_	Vib=0|Tam=0|ChunkId=NP13|ChunkType=head|Translit=rājaga
+45	बातचीत	बातचीत	NOUN	NN	N;3;SG;ACC;FEM	50	obl	_	Vib=0_के_जरिये|Tam=0|ChunkId=NP14|ChunkType=head|Translit=bātacīta
+46	के	के	ADP	PSP	ADP	45	case	_	ChunkId=NP14|ChunkType=child|Translit=ke
+47	जरिए	जरिये	ADP	PSP	ADP	45	case	_	ChunkId=NP14|ChunkType=child|Translit=jarie
+48	इसका	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	49	nmod	_	Vib=का|Tam=kA|ChunkId=NP15|ChunkType=head|Translit=isakā
+49	समाधान	समाधान	NOUN	NN	NOM;N;3;SG;MASC	50	compound	_	Vib=0|Tam=0|ChunkId=NP16|ChunkType=head|Translit=samādhāna
+50	चाहता	चाह	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	32	conj	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=wA|Translit=cāhatā|Vib=ता_है
+51	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	50	aux	_	Vib=है|Tam=hE|ChunkId=VGF3|ChunkType=child|Translit=hai
+52	।	।	PUNCT	SYM	_	19	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7752
+# text = सरकार इस प्रयास में तेजी लाए ताकि समस्या का शीघ्र निपटारा हो सके ।
+1	सरकार	सरकार	NOUN	NN	NOM;N;3;SG;FEM	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=sarakāra
+2	इस	यह	DET	DEM	SG;DET;3;ACC	3	det	_	ChunkId=NP2|ChunkType=child|Translit=isa
+3	प्रयास	प्रयास	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=prayāsa
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	तेजी	तेजी	NOUN	NN	NOM;N;3;SG;FEM	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=tejī
+6	लाए	ला	VERB	VM	FIN;ACT;V;3;SG;SBJV	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=eM|Translit=lāe|Vib=एं
+7	ताकि	ताकि	SCONJ	CC	CONJ	6	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=tāki
+8	समस्या	समस्या	NOUN	NN	N;3;SG;ACC;FEM	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=samasyā
+9	का	का	ADP	PSP	ADP;NOM;SG;MASC	8	case	_	ChunkId=NP4|ChunkType=child|Translit=kā
+10	शीघ्र	शीघ्र	ADV	RB	ADV	12	advmod	_	ChunkId=RBP|ChunkType=head|Translit=śīghra
+11	निपटारा	निपटारा	NOUN	NN	NOM;N;3;SG;MASC	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=nipaṭārā
+12	हो	हो	VERB	VM	V;ACT;3;SG	6	advcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_सक+एं
+13	सके	सक	AUX	VAUX	FIN;3;SG;V;SBJV	12	aux	_	Vib=एं|Tam=eM|ChunkId=VGF2|ChunkType=child|Translit=sake
+14	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7753
+# text = राजग का विश्वास है कि अयोध्या विवाद के शीघ्र निपटारे से राष्ट्रीय एकता और अखंडता को बढ़ावा मिलेगा और भारत सामाजिक रूप से मजबूत होगा ।
+1	राजग	राजग	PROPN	NNP	PROPN;3;SG;ACC;MASC	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājaga
+2	का	का	ADP	PSP	ADP;NOM;SG;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	विश्वास	विश्वास	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=viśvāsa
+4	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	3	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+5	कि	कि	SCONJ	CC	CONJ	18	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+6	अयोध्या	अयोध्या	PROPN	NNP	PROPN;NOM;3;SG;FEM	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ayodhyā
+7	विवाद	विवाद	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vivāda
+8	के	का	ADP	PSP	ADP;SG;ACC;MASC	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+9	शीघ्र	शीघ्र	ADV	RB	ADV	18	advmod	_	ChunkId=RBP|ChunkType=head|Translit=śīghra
+10	निपटारे	निपटारा	NOUN	NN	N;3;SG;ACC;MASC	18	obl	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nipaṭāre
+11	से	से	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+12	राष्ट्रीय	राष्ट्रीय	ADJ	JJ	ACC;ADJ	18	iobj	_	ChunkId=JJP|ChunkType=head|Translit=rāṣṭrīya
+13	एकता	एकता	NOUN	NN	N;3;SG;ACC;FEM	12	conj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ekatā
+14	और	और	CCONJ	CC	CONJ	15	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+15	अखंडता	अखंडता	NOUN	NN	N;3;SG;ACC;FEM	12	conj	_	Vib=0_को|Tam=0|ChunkId=NP6|ChunkType=head|Translit=akhaṁḍatā
+16	को	को	ADP	PSP	ADP	12	case	_	ChunkId=NP6|ChunkType=child|Translit=ko
+17	बढ़ावा	बढ़ावा	NOUN	NN	NOM;N;3;SG;MASC	18	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=baṛhāvā
+18	मिलेगा	मिल	VERB	VM	FIN;ACT;V;3;SG;FUT;IND;MASC	3	ccomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=gA|Translit=milegā|Vib=गा
+19	और	और	CCONJ	CC	CONJ	25	cc	_	ChunkId=CCP3|ChunkType=head|Translit=aura
+20	भारत	भारत	PROPN	NNP	PROPN;NOM;3;SG;MASC	25	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=bhārata
+21	सामाजिक	सामाजिक	ADJ	JJ	ACC;ADJ	22	amod	_	ChunkId=NP9|ChunkType=child|Translit=sāmājika
+22	रूप	रूप	NOUN	NN	N;3;SG;ACC;MASC	25	obl	_	Vib=0_से|Tam=0|ChunkId=NP9|ChunkType=head|Translit=rūpa
+23	से	से	ADP	PSP	ADP	22	case	_	ChunkId=NP9|ChunkType=child|Translit=se
+24	मजबूत	मजबूत	ADJ	JJ	ADJ	25	compound	_	ChunkId=JJP2|ChunkType=head|Translit=majabūta
+25	होगा	हो	VERB	VM	FIN;ACT;V;3;SG;FUT;IND;MASC	18	conj	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=gA|Translit=hogā|Vib=गा
+26	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

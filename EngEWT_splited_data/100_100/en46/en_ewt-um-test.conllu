@@ -1,0 +1,295 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0006
+# text = U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago.
+1	U.S.	U.S.	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	President	President	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+3	George	George	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+4	W.	W.	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+5	Bush	Bush	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+6	shakes	shake	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+7	hands	hand	NOUN	NNS	PL;N	6	obj	6:obj	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	Chinese	Chinese	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	President	President	PROPN	NNP	SG;PROPN	6	obl	6:obl:with	_
+11	Hu	Hu	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+12	Jintao	Jintao	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+13	in	in	ADP	IN	ADP	16	case	16:case	_
+14	a	a	DET	DT	INDF;DET	16	det	16:det	_
+15	bilateral	bilateral	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	meeting	meeting	NOUN	NN	SG;N	6	obl	6:obl:in	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	Santiago	Santiago	PROPN	NNP	SG;PROPN	16	nmod	16:nmod:in	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0007
+# text = Bush is in Santiago for the annual Asia-Pacific Economic Cooperation (APEC) leaders meeting.
+1	Bush	Bush	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	in	in	ADP	IN	ADP	4	case	4:case	_
+4	Santiago	Santiago	PROPN	NNP	SG;PROPN	0	root	0:root	_
+5	for	for	ADP	IN	ADP	17	case	17:case	_
+6	the	the	DET	DT	DEF;DET	17	det	17:det	_
+7	annual	annual	ADJ	JJ	ADJ	17	amod	17:amod	_
+8	Asia	Asia	PROPN	NNP	SG;PROPN	10	compound	10:compound	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
+10	Pacific	Pacific	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+11	Economic	Economic	ADJ	NNP	ADJ	12	amod	12:amod	_
+12	Cooperation	Cooperation	PROPN	NNP	SG;PROPN	17	compound	17:compound	_
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+14	APEC	APEC	PROPN	NNP	SG;PROPN	12	appos	12:appos	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
+16	leaders	leader	NOUN	NNS	PL;N	17	compound	17:compound	_
+17	meeting	meeting	NOUN	NN	SG;N	4	obl	4:obl:for	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0008
+# text = Hopefully President Bush can accomplish these goals which will not only help strengthen our Chinese allies, but will also help fight the war on terror.
+1	Hopefully	hopefully	ADV	RB	ADV	5	advmod	5:advmod	_
+2	President	President	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+3	Bush	Bush	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+4	can	can	AUX	MD	V;FIN	5	aux	5:aux	_
+5	accomplish	accomplish	VERB	VB	NFIN;V	0	root	0:root	_
+6	these	this	DET	DT	PL;DET	7	det	7:det	_
+7	goals	goal	NOUN	NNS	PL;N	5	obj	5:obj|12:nsubj|21:nsubj	_
+8	which	which	PRON	WDT	PRO	12	nsubj	7:ref	_
+9	will	will	AUX	MD	V;FIN	12	aux	12:aux	_
+10	not	not	PART	RB	PART	12	advmod	12:advmod	_
+11	only	only	ADV	RB	ADV	12	advmod	12:advmod	_
+12	help	help	VERB	VB	NFIN;V	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+13	strengthen	strengthen	VERB	VB	NFIN;V	12	xcomp	12:xcomp	_
+14	our	our	PRON	PRP$	GEN;PL;PRO;1	16	nmod:poss	16:nmod:poss	_
+15	Chinese	Chinese	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	allies	ally	NOUN	NNS	PL;N	13	obj	13:obj	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	21:punct	_
+18	but	but	CCONJ	CC	CONJ	21	cc	21:cc	_
+19	will	will	AUX	MD	V;FIN	21	aux	21:aux	_
+20	also	also	ADV	RB	ADV	21	advmod	21:advmod	_
+21	help	help	VERB	VB	NFIN;V	12	conj	7:acl:relcl|12:conj:but	_
+22	fight	fight	VERB	VB	NFIN;V	21	xcomp	21:xcomp	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	war	war	NOUN	NN	SG;N	22	obj	22:obj	_
+25	on	on	ADP	IN	ADP	26	case	26:case	_
+26	terror	terror	NOUN	NN	SG;N	24	nmod	24:nmod:on	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0009
+# text = Selah!
+1	Selah	Selah	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0010
+# newpar id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-p0003
+# text = --
+1	--	--	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0011
+# text = Posted by Hidden Nook to Hidden Nook at 11/20/2004 03:10:35 PM
+1	Posted	post	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	_
+3	Hidden	Hidden	ADJ	NNP	ADJ	4	amod	4:amod	_
+4	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl:agent	1:obl:agent	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	Hidden	Hidden	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl	1:obl:to	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	11/20/2004	11/20/2004	NUM	CD	NUM	1	obl	1:obl:at	_
+10	03:10:35	03:10:35	NUM	CD	NUM	11	nummod	11:nummod	_
+11	PM	p.m.	NOUN	NN	SG;N	9	nmod:tmod	9:nmod:tmod	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0001
+# text = Email: BlackBayou <BlackBa...@excite.com>
+1	Email	email	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	BlackBayou	BlackBayou	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+4	<	<	PUNCT	-LRB-	_	5	punct	5:punct	SpaceAfter=No
+5	BlackBa...@excite.com	BlackBa...@excite.com	PROPN	ADD	PROPN	3	list	3:list	SpaceAfter=No
+6	>	>	PUNCT	-RRB-	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0002
+# text = Groups: alt.animals.cat
+1	Groups	group	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	alt.animals.cat	alt.animals.cat	NOUN	NN	SG;N	1	appos	1:appos	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0003
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0002
+# text = I started this page to help with my boredom.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	started	start	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	this	this	DET	DT	SG;DET	4	det	4:det	_
+4	page	page	NOUN	NN	SG;N	2	obj	2:obj	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	help	help	VERB	VB	NFIN;V	2	advcl	2:advcl:to	_
+7	with	with	ADP	IN	ADP	9	case	9:case	_
+8	my	my	PRON	PRP$	GEN;PRO;1;SG	9	nmod:poss	9:nmod:poss	_
+9	boredom	boredom	NOUN	NN	SG;N	6	obl	6:obl:with	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0004
+# text = I have Chronic Lyme disease, so I'm stuck at home.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	Chronic	chronic	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	Lyme	Lyme	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	disease	disease	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	10:punct	_
+7	so	so	ADV	RB	ADV	10	advmod	10:advmod	_
+8-9	I'm	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+9	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	10	cop	10:cop	_
+10	stuck	stuck	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+11	at	at	ADP	IN	ADP	12	case	12:case	_
+12	home	home	NOUN	NN	SG;N	10	obl	10:obl:at	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0005
+# text = I started collecting animations & jokes just to help with my boredom and depression.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|3:nsubj:xsubj	_
+2	started	start	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	collecting	collect	VERB	VBG	V.MSDR;V	2	xcomp	2:xcomp	_
+4	animations	animation	NOUN	NNS	PL;N	3	obj	3:obj	_
+5	&	&	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	jokes	joke	NOUN	NNS	PL;N	4	conj	3:obj|4:conj	_
+7	just	just	ADV	RB	ADV	9	advmod	9:advmod	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	help	help	VERB	VB	NFIN;V	3	advcl	3:advcl:to	_
+10	with	with	ADP	IN	ADP	12	case	12:case	_
+11	my	my	PRON	PRP$	GEN;PRO;1;SG	12	nmod:poss	12:nmod:poss	_
+12	boredom	boredom	NOUN	NN	SG;N	9	obl	9:obl:with	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	depression	depression	NOUN	NN	SG;N	12	conj	9:obl:with|12:conj:and	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0006
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0003
+# text = I enjoyed the animations and wanted to share them with my friends.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|6:nsubj|8:nsubj:xsubj	_
+2	enjoyed	enjoy	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	animations	animation	NOUN	NNS	PL;N	2	obj	2:obj	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	wanted	want	VERB	VBD	1;V;PST;FIN;SG;IND	2	conj	2:conj:and	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	share	share	VERB	VB	NFIN;V	6	xcomp	6:xcomp	_
+9	them	they	PRON	PRP	PL;ACC;PRO;3	8	obj	8:obj	_
+10	with	with	ADP	IN	ADP	12	case	12:case	_
+11	my	my	PRON	PRP$	GEN;PRO;1;SG	12	nmod:poss	12:nmod:poss	_
+12	friends	friend	NOUN	NNS	PL;N	8	obl	8:obl:with	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0007
+# text = So I started a small mailing list and added their addresses to it.
+1	So	so	ADV	RB	ADV	3	advmod	3:advmod	_
+2	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|9:nsubj	_
+3	started	start	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	7	det	7:det	_
+5	small	small	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	mailing	mailing	NOUN	NN	SG;N	7	compound	7:compound	_
+7	list	list	NOUN	NN	SG;N	3	obj	3:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	added	add	VERB	VBD	1;V;PST;FIN;SG;IND	3	conj	3:conj:and	_
+10	their	their	PRON	PRP$	GEN;PL;PRO;3	11	nmod:poss	11:nmod:poss	_
+11	addresses	address	NOUN	NNS	PL;N	9	obj	9:obj	_
+12	to	to	ADP	IN	ADP	13	case	13:case	_
+13	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	9	obl	9:obl:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0008
+# text = Along with an area on the page for those to join the mailing list.
+1	Along	along	ADP	IN	ADP	4	case	4:case	_
+2	with	with	ADP	IN	ADP	4	case	4:case	_
+3	an	a	DET	DT	INDF;DET	4	det	4:det	_
+4	area	area	NOUN	NN	SG;N	0	root	0:root	_
+5	on	on	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	page	page	NOUN	NN	SG;N	4	nmod	4:nmod:on	_
+8	for	for	SCONJ	IN	CONJ	11	mark	11:mark	_
+9	those	that	PRON	DT	PL;PRO	11	nsubj	11:nsubj	_
+10	to	to	PART	TO	PART	11	mark	11:mark	_
+11	join	join	VERB	VB	NFIN;V	4	acl	4:acl:to	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	mailing	mailing	NOUN	NN	SG;N	14	compound	14:compound	_
+14	list	list	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0009
+# text = I started with 21 email addresses.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	started	start	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	6	case	6:case	_
+4	21	21	NUM	CD	NUM	6	nummod	6:nummod	_
+5	email	email	NOUN	NN	SG;N	6	compound	6:compound	_
+6	addresses	address	NOUN	NNS	PL;N	2	obl	2:obl:with	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0010
+# text = We now have over 5000 addresses.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+2	now	now	ADV	RB	ADV	3	advmod	3:advmod	_
+3	have	have	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+4	over	over	ADV	RB	ADV	5	advmod	5:advmod	_
+5	5000	5000	NUM	CD	NUM	6	nummod	6:nummod	_
+6	addresses	address	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0011
+# text = My wife and I would love for you to come and visit our page
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	2	nmod:poss	2:nmod:poss	_
+2	wife	wife	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	2	conj	2:conj:and|6:nsubj	_
+5	would	would	AUX	MD	V;FIN	6	aux	6:aux	_
+6	love	love	VERB	VB	NFIN;V	0	root	0:root	_
+7	for	for	SCONJ	IN	CONJ	10	mark	10:mark	_
+8	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj|12:nsubj	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	come	come	VERB	VB	NFIN;V	6	advcl	6:advcl:to	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	visit	visit	VERB	VB	NFIN;V	10	conj	6:advcl:to|10:conj:and	_
+13	our	our	PRON	PRP$	GEN;PL;PRO;1	14	nmod:poss	14:nmod:poss	_
+14	page	page	NOUN	NN	SG;N	12	obj	12:obj	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0012
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0004
+# text = http://www.myshutter.com/flash.htm our collection of comedy
+1	http://www.myshutter.com/flash.htm	http://www.myshutter.com/flash.htm	PROPN	ADD	PROPN	0	root	0:root	_
+2	our	our	PRON	PRP$	GEN;PL;PRO;1	3	nmod:poss	3:nmod:poss	_
+3	collection	collection	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	comedy	comedy	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0013
+# text = http://www.myshutter.com Before becoming disabled, I was an AVID amateur photographer.. come and visit and sign our guestbook
+1	http://www.myshutter.com	http://www.myshutter.com	PROPN	ADD	PROPN	0	root	0:root	_
+2	Before	before	SCONJ	IN	CONJ	3	mark	3:mark	_
+3	becoming	become	VERB	VBG	PRS;V;V.PTCP	11	advcl	11:advcl:before	_
+4	disabled	disabled	ADJ	JJ	ADJ	3	xcomp	3:xcomp	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	3:punct	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+7	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	11	cop	11:cop	_
+8	an	a	DET	DT	INDF;DET	11	det	11:det	_
+9	AVID	avid	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	amateur	amateur	NOUN	NN	SG;N	11	compound	11:compound	_
+11	photographer	photographer	NOUN	NN	SG;N	1	parataxis	1:parataxis	SpaceAfter=No
+12	..	..	PUNCT	,	_	13	punct	13:punct	_
+13	come	come	VERB	VB	FIN;V;IMP	11	parataxis	11:parataxis	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	visit	visit	VERB	VB	FIN;V;IMP	13	conj	13:conj:and	_
+16	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+17	sign	sign	VERB	VB	FIN;V;IMP	13	conj	13:conj:and	_
+18	our	our	PRON	PRP$	GEN;PL;PRO;1	19	nmod:poss	19:nmod:poss	_
+19	guestbook	guestbook	NOUN	NN	SG;N	17	obj	17:obj	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0014
+# text = -----= Posted via Newsfeeds.Com, Uncensored Usenet News =-----
+1	-----=	-----=	PUNCT	NFP	_	2	punct	2:punct	_
+2	Posted	post	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+3	via	via	ADP	IN	ADP	4	case	4:case	_
+4	Newsfeeds.Com	Newsfeeds.Com	PROPN	ADD	PROPN	2	obl	2:obl:via	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	Uncensored	uncensored	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	Usenet	usenet	NOUN	NN	SG;N	8	compound	8:compound	_
+8	News	news	NOUN	NN	SG;N	4	appos	4:appos	_
+9	=-----	=-----	PUNCT	NFP	_	2	punct	2:punct	_
+

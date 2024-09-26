@@ -1,0 +1,187 @@
+# sent_id = reviews-079827-0005
+# text = It clearly had been prepared from fresh ingredients.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	5	nsubj:pass	5:nsubj:pass	_
+2	clearly	clearly	ADV	RB	ADV	5	advmod	5:advmod	_
+3	had	have	AUX	VBD	FIN;3;V;IND;SG;PST	5	aux	5:aux	_
+4	been	be	AUX	VBN	V;V.PTCP;PST	5	aux:pass	5:aux:pass	_
+5	prepared	prepare	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+6	from	from	ADP	IN	ADP	8	case	8:case	_
+7	fresh	fresh	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	ingredients	ingredient	NOUN	NNS	PL;N	5	obl	5:obl:from	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-079827-0006
+# text = We'll be back often.
+1-2	We'll	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+2	'll	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	be	be	AUX	VB	V;NFIN	0	root	0:root	_
+4	back	back	ADV	RB	ADV	3	advmod	3:advmod	_
+5	often	often	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-266676
+# sent_id = reviews-266676-0001
+# newpar id = reviews-266676-p0001
+# text = Thanks For A Great Job
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+2	For	for	ADP	IN	ADP	5	case	5:case	_
+3	A	a	DET	DT	DET;INDF	5	det	5:det	_
+4	Great	great	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	Job	job	NOUN	NN	SG;N	1	nmod	1:nmod:for	_
+
+# sent_id = reviews-266676-0002
+# newpar id = reviews-266676-p0002
+# text = Thanks For The Prompt Service And Great Job You And Your Boys Have Done On Our New Solar System, The Panels On The Roof Look Great And The Power We Are Putting Back In To The Grid Is Great, Great Job Thanks
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+2	For	for	ADP	IN	ADP	5	case	5:case	_
+3	The	the	DET	DT	DET;DEF	5	det	5:det	_
+4	Prompt	prompt	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	Service	service	NOUN	NN	SG;N	1	nmod	1:nmod:for|14:obj	_
+6	And	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	Great	great	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	Job	job	NOUN	NN	SG;N	5	conj	1:nmod:for|5:conj:and	_
+9	You	you	PRON	PRP	NOM;2;PRO	14	nsubj	14:nsubj	_
+10	And	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+11	Your	your	PRON	PRP$	PRO;GEN;2	12	nmod:poss	12:nmod:poss	_
+12	Boys	boy	NOUN	NNS	PL;N	9	conj	9:conj:and|14:nsubj	_
+13	Have	have	AUX	VBP	FIN;PRS;2;V;IND;SG	14	aux	14:aux	_
+14	Done	do	VERB	VBN	V;V.PTCP;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+15	On	on	ADP	IN	ADP	19	case	19:case	_
+16	Our	our	PRON	PRP$	PRO;GEN;PL;1	19	nmod:poss	19:nmod:poss	_
+17	New	new	ADJ	JJ	ADJ	19	amod	19:amod	_
+18	Solar	solar	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	System	system	NOUN	NN	SG;N	14	obl	14:obl:on	SpaceAfter=No
+20	,	,	PUNCT	,	_	26	punct	26:punct	_
+21	The	the	DET	DT	DET;DEF	22	det	22:det	_
+22	Panels	panel	NOUN	NNS	PL;N	26	nsubj	26:nsubj|27:nsubj:xsubj	_
+23	On	on	ADP	IN	ADP	25	case	25:case	_
+24	The	the	DET	DT	DET;DEF	25	det	25:det	_
+25	Roof	roof	NOUN	NN	SG;N	22	nmod	22:nmod:on	_
+26	Look	look	VERB	VBP	FIN;PRS;3;PL;V;IND	1	parataxis	1:parataxis	_
+27	Great	great	ADJ	JJ	ADJ	26	xcomp	26:xcomp	_
+28	And	and	CCONJ	CC	CONJ	40	cc	40:cc	_
+29	The	the	DET	DT	DET;DEF	30	det	30:det	_
+30	Power	power	NOUN	NN	SG;N	40	nsubj	33:obj|40:nsubj	_
+31	We	we	PRON	PRP	PRO;PL;1;NOM	33	nsubj	33:nsubj	_
+32	Are	be	AUX	VBP	FIN;PRS;PL;1;V;IND	33	aux	33:aux	_
+33	Putting	put	VERB	VBG	PRS;V;V.PTCP	30	acl:relcl	30:acl:relcl	Cxn=rc-red-obj
+34	Back	back	ADV	RB	ADV	33	advmod	33:advmod	_
+35	In	into	ADP	GW	ADP	38	case	38:case	_
+36	To	_	X	IN	_	35	goeswith	35:goeswith	_
+37	The	the	DET	DT	DET;DEF	38	det	38:det	_
+38	Grid	grid	NOUN	NN	SG;N	34	obl	34:obl:to	_
+39	Is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	40	cop	40:cop	_
+40	Great	great	ADJ	JJ	ADJ	26	conj	26:conj:and	SpaceAfter=No
+41	,	,	PUNCT	,	_	43	punct	43:punct	_
+42	Great	great	ADJ	JJ	ADJ	43	amod	43:amod	_
+43	Job	job	NOUN	NN	SG;N	1	parataxis	1:parataxis	_
+44	Thanks	thanks	NOUN	NN	SG;N	43	discourse	43:discourse	_
+
+# newdoc id = reviews-194830
+# sent_id = reviews-194830-0001
+# newpar id = reviews-194830-p0001
+# text = impressive truly impressive
+1	impressive	impressive	ADJ	JJ	ADJ	0	root	0:root	_
+2	truly	truly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	impressive	impressive	ADJ	JJ	ADJ	1	parataxis	1:parataxis	_
+
+# sent_id = reviews-194830-0002
+# newpar id = reviews-194830-p0002
+# text = The First time I walked in there with my teacup chihuahua puppy I knew I'd be here a lot.
+1	The	the	DET	DT	DET;DEF	3	det	3:det	_
+2	First	first	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	time	time	NOUN	NN	SG;N	14	obl:tmod	5:obl|14:obl:tmod	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+5	walked	walk	VERB	VBD	FIN;1;V;IND;SG;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obl
+6	in	in	ADP	IN	ADP	7	case	7:case	_
+7	there	there	ADV	RB	ADV	5	obl	5:obl:in	_
+8	with	with	ADP	IN	ADP	12	case	12:case	_
+9	my	my	PRON	PRP$	PRO;GEN;1;SG	12	nmod:poss	12:nmod:poss	_
+10	teacup	teacup	NOUN	NN	SG;N	11	compound	11:compound	_
+11	chihuahua	chihuahua	NOUN	NN	SG;N	12	compound	12:compound	_
+12	puppy	puppy	NOUN	NN	SG;N	5	obl	5:obl:with	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+14	knew	know	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+15-16	I'd	_	_	_	_	_	_	_	_
+15	I	I	PRON	PRP	PRO;1;NOM;SG	18	nsubj	18:nsubj	_
+16	'd	would	AUX	MD	FIN;V	18	aux	18:aux	_
+17	be	be	AUX	VB	V;NFIN	18	cop	18:cop	_
+18	here	here	ADV	RB	ADV	14	ccomp	14:ccomp	_
+19	a	a	DET	DT	DET;INDF	20	det	20:det	_
+20	lot	lot	NOUN	NN	SG;N	18	obl:npmod	18:obl:npmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = reviews-194830-0003
+# text = Pets Discount has lovely employees, a wonderful grooming service, and everything I need to keep my dog in tip top condition!
+1	Pets	Pet	PROPN	NNPS	PROPN;PL	2	compound	2:compound	_
+2	Discount	Discount	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+3	has	have	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	lovely	lovely	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	employees	employee	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	10	punct	10:punct	_
+7	a	a	DET	DT	DET;INDF	10	det	10:det	_
+8	wonderful	wonderful	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	grooming	grooming	NOUN	NN	SG;N	10	compound	10:compound	_
+10	service	service	NOUN	NN	SG;N	5	conj	3:obj|5:conj:and	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	everything	everything	PRON	NN	PRO;SG	5	conj	3:obj|5:conj:and|15:obj	_
+14	I	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj|17:nsubj:xsubj	_
+15	need	need	VERB	VBP	FIN;PRS;1;V;IND;SG	13	acl:relcl	13:acl:relcl	Cxn=rc-red-obj
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	keep	keep	VERB	VB	NFIN;V	15	xcomp	15:xcomp	_
+18	my	my	PRON	PRP$	PRO;GEN;1;SG	19	nmod:poss	19:nmod:poss	_
+19	dog	dog	NOUN	NN	SG;N	17	obj	17:obj	_
+20	in	in	ADP	IN	ADP	23	case	23:case	_
+21	tip	tip	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	top	top	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	condition	condition	NOUN	NN	SG;N	17	obl	17:obl:in	SpaceAfter=No
+24	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-371492
+# sent_id = reviews-371492-0001
+# newpar id = reviews-371492-p0001
+# text = Excellent service!
+1	Excellent	excellent	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	service	service	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-371492-0002
+# newpar id = reviews-371492-p0002
+# text = I am so glad that we now have a good nail shop on San Mateo Avenue!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	4	cop	4:cop	_
+3	so	so	ADV	RB	ADV	4	advmod	4:advmod	_
+4	glad	glad	ADJ	JJ	ADJ	0	root	0:root	_
+5	that	that	SCONJ	IN	CONJ	8	mark	8:mark	_
+6	we	we	PRON	PRP	PRO;PL;1;NOM	8	nsubj	8:nsubj	_
+7	now	now	ADV	RB	ADV	8	advmod	8:advmod	_
+8	have	have	VERB	VBP	FIN;PRS;PL;1;V;IND	4	ccomp	4:ccomp	_
+9	a	a	DET	DT	DET;INDF	12	det	12:det	_
+10	good	good	ADJ	JJ	ADJ	12	amod	12:amod	_
+11	nail	nail	NOUN	NN	SG;N	12	compound	12:compound	_
+12	shop	shop	NOUN	NN	SG;N	8	obj	8:obj	_
+13	on	on	ADP	IN	ADP	16	case	16:case	_
+14	San	San	PROPN	NNP	SG;PROPN	16	compound	16:compound	_
+15	Mateo	Mateo	PROPN	NNP	SG;PROPN	14	flat	14:flat	_
+16	Avenue	Avenue	PROPN	NNP	SG;PROPN	12	nmod	12:nmod:on	SpaceAfter=No
+17	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-371492-0003
+# text = No more having to drive to San Francisco for a great mani pedi.
+1	No	no	ADV	RB	ADV	2	advmod	2:advmod	_
+2	more	more	ADV	RBR	CMPR;ADV	3	advmod	3:advmod	_
+3	having	have	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	drive	drive	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	San	San	PROPN	NNP	SG;PROPN	5	obl	5:obl:to	_
+8	Francisco	Francisco	PROPN	NNP	SG;PROPN	7	flat	7:flat	_
+9	for	for	ADP	IN	ADP	13	case	13:case	_
+10	a	a	DET	DT	DET;INDF	13	det	13:det	_
+11	great	great	ADJ	JJ	ADJ	13	amod	13:amod	_
+12	mani	mani	NOUN	NN	SG;N	13	compound	13:compound	_
+13	pedi	pedi	NOUN	NN	SG;N	5	obl	5:obl:for	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+

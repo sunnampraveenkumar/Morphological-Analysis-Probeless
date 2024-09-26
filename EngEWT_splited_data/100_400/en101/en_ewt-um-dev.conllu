@@ -1,0 +1,70 @@
+# sent_id = email-enronsent08_01-0049
+# text = How about skidoo skis for the front and tracks for the back..
+1	How	how	ADV	WRB	ADV	0	root	0:root	_
+2	about	about	ADP	IN	ADP	4	case	4:case	_
+3	skidoo	skidoo	NOUN	NN	SG;N	4	compound	4:compound	_
+4	skis	ski	NOUN	NNS	PL;N	1	obl	1:obl:about	_
+5	for	for	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	front	front	NOUN	NN	SG;N	4	nmod	4:nmod:for	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	tracks	track	NOUN	NNS	PL;N	4	conj	1:obl:about|4:conj:and	_
+10	for	for	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DET;DEF	12	det	12:det	_
+12	back	back	NOUN	NN	SG;N	9	nmod	9:nmod:for	SpaceAfter=No
+13	..	..	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent08_01-0050
+# newpar id = email-enronsent08_01-p0014
+# text = Lexus IS 300.
+1	Lexus	Lexus	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	IS	IS	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	300	300	NUM	CD	NUM	2	nummod	2:nummod	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent08_01-0051
+# text = Not sure if I am going to buy 17" or 16" wheels for the winter.
+1	Not	not	PART	RB	PART	2	advmod	2:advmod	_
+2	sure	sure	ADJ	JJ	ADJ	0	root	0:root	_
+3	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+5	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	6	aux	6:aux	_
+6	going	go	VERB	VBG	PRS;V;V.PTCP	2	ccomp	2:ccomp	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	buy	buy	VERB	VB	NFIN;V	6	xcomp	6:xcomp	_
+9	17	17	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+10	"	"	NOUN	NN	SG;N	8	obj	8:obj	_
+11	or	or	CCONJ	CC	CONJ	14	cc	14:cc	_
+12	16	16	NUM	CD	NUM	13	nummod	13:nummod	SpaceAfter=No
+13	"	"	NOUN	NN	SG;N	14	compound	14:compound	_
+14	wheels	wheel	NOUN	NNS	PL;N	10	conj	8:obj|10:conj	_
+15	for	for	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DET;DEF	17	det	17:det	_
+17	winter	winter	NOUN	NN	SG;N	8	obl	8:obl:for	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent08_01-0052
+# text = Jackass.
+1	Jackass	jackass	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = email-enronsent30_02
+# sent_id = email-enronsent30_02-0001
+# newpar id = email-enronsent30_02-p0001
+# text = You have always been on the move seeking affectionate, satisfying and harmonious relationships.
+1	You	you	PRON	PRP	NOM;2;PRO	7	nsubj	7:nsubj	_
+2	have	have	AUX	VBP	FIN;PRS;2;V;IND;SG	7	aux	7:aux	_
+3	always	always	ADV	RB	ADV	7	advmod	7:advmod	_
+4	been	be	AUX	VBN	V;V.PTCP;PST	7	cop	7:cop	_
+5	on	on	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	move	move	NOUN	NN	SG;N	0	root	0:root	_
+8	seeking	seek	VERB	VBG	PRS;V;V.PTCP	7	advcl	7:advcl	_
+9	affectionate	affectionate	ADJ	JJ	ADJ	14	amod	14:amod	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	satisfying	satisfying	ADJ	JJ	ADJ	9	conj	9:conj:and|14:amod	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	harmonious	harmonious	ADJ	JJ	ADJ	9	conj	9:conj:and|14:amod	_
+14	relationships	relationship	NOUN	NNS	PL;N	8	obj	8:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	7:punct	_
+

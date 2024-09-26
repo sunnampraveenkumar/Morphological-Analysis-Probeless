@@ -1,0 +1,383 @@
+# sent_id = email-enronsent14_01-0130
+# text = Thank you,
+1	Thank	thank	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+2	you	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent14_01-0131
+# text = Bill Dorsey.
+1	Bill	Bill	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Dorsey	Dorsey	PROPN	NNP	PROPN;SG	1	flat	1:flat	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent14_01-0132
+# newpar id = email-enronsent14_01-p0028
+# text = Thank you for the invitation.
+1	Thank	thank	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+2	you	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	_
+3	for	for	ADP	IN	ADP	5	case	5:case	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	invitation	invitation	NOUN	NN	SG;N	1	obl	1:obl:for	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent14_01-0133
+# text = Unfortunately Debbie and I will not be able to attend due to previous committments.
+1	Unfortunately	unfortunately	ADV	RB	ADV	8	advmod	8:advmod	_
+2	Debbie	Debbie	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	I	I	PRON	PRP	NOM;1;PRO;SG	2	conj	2:conj:and|8:nsubj|10:nsubj:xsubj	_
+5	will	will	AUX	MD	V;FIN	8	aux	8:aux	_
+6	not	not	PART	RB	PART	8	advmod	8:advmod	_
+7	be	be	AUX	VB	V;NFIN	8	cop	8:cop	_
+8	able	able	ADJ	JJ	ADJ	0	root	0:root	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	attend	attend	VERB	VB	V;NFIN	8	xcomp	8:xcomp	_
+11	due	due	ADP	IN	ADP	14	case	14:case	_
+12	to	to	ADP	IN	ADP	11	fixed	11:fixed	_
+13	previous	previous	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	committments	committment	NOUN	NNS	N;PL	8	obl	8:obl:due_to	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# newdoc id = email-enronsent41_01
+# sent_id = email-enronsent41_01-0001
+# newpar id = email-enronsent41_01-p0001
+# text = Tana,
+1	Tana	Tana	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0002
+# text = Please review the process below:
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	review	review	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	process	process	NOUN	NN	SG;N	2	obj	2:obj	_
+5	below	below	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+6	:	:	PUNCT	:	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0003
+# newpar id = email-enronsent41_01-p0002
+# text = With divisions, EOL does request a new Password Application for the applicant reflecting the name as you noted below.
+1	With	with	ADP	IN	ADP	2	case	2:case	_
+2	divisions	division	NOUN	NNS	N;PL	6	obl	6:obl:with	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	EOL	EOL	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj	_
+5	does	do	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	aux	6:aux	_
+6	request	request	VERB	VB	V;NFIN	0	root	0:root	_
+7	a	a	DET	DT	DET;INDF	10	det	10:det	_
+8	new	new	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	Password	password	NOUN	NN	SG;N	10	compound	10:compound	_
+10	Application	application	NOUN	NN	SG;N	6	obj	6:obj	_
+11	for	for	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	applicant	applicant	NOUN	NN	SG;N	10	nmod	10:nmod:for	_
+14	reflecting	reflect	VERB	VBG	V;V.MSDR	10	acl	10:acl	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	name	name	NOUN	NN	SG;N	14	obj	14:obj	_
+17	as	as	SCONJ	IN	CONJ	19	mark	19:mark	_
+18	you	you	PRON	PRP	2;NOM;PRO	19	nsubj	19:nsubj	_
+19	noted	note	VERB	VBD	V;IND;2;FIN;PST;SG	6	advcl	6:advcl:as	_
+20	below	below	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent41_01-0004
+# text = When the company is set up in the EOL database we link the company to the Parent and reference the CP ID.
+1	When	when	ADV	WRB	ADV	5	advmod	5:advmod	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	company	company	NOUN	NN	SG;N	5	nsubj:pass	5:nsubj:pass	_
+4	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	aux:pass	5:aux:pass	_
+5	set	set	VERB	VBN	V;V.PTCP;PST;PASS	12	advcl	12:advcl:when	_
+6	up	up	ADP	RP	ADP	5	compound:prt	5:compound:prt	_
+7	in	in	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	EOL	EOL	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+10	database	database	NOUN	NN	SG;N	5	obl	5:obl:in	_
+11	we	we	PRON	PRP	NOM;PL;1;PRO	12	nsubj	12:nsubj|19:nsubj	_
+12	link	link	VERB	VBP	V;PRS;IND;FIN;PL;1	0	root	0:root	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	company	company	NOUN	NN	SG;N	12	obj	12:obj	_
+15	to	to	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	Parent	parent	NOUN	NN	SG;N	12	obl	12:obl:to	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	reference	reference	VERB	VBP	V;PRS;IND;FIN;PL;1	12	conj	12:conj:and	_
+20	the	the	DET	DT	DEF;DET	22	det	22:det	_
+21	CP	cp	NOUN	NN	SG;N	22	compound	22:compound	_
+22	ID	id	NOUN	NN	SG;N	19	obj	19:obj	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent41_01-0005
+# text = Sam, please confirm, Global Counterparty also provides the links to establish correlation between the parent and child for our downstream systems.
+1	Sam	Sam	PROPN	NNP	PROPN;SG	4	vocative	4:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+4	confirm	confirm	VERB	VB	V;FIN;IMP	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	9:punct	_
+6	Global	Global	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Counterparty	Counterparty	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+8	also	also	ADV	RB	ADV	9	advmod	9:advmod	_
+9	provides	provide	VERB	VBZ	V;3;PRS;IND;FIN;SG	4	ccomp	4:ccomp	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	links	link	NOUN	NNS	N;PL	9	obj	9:obj	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	establish	establish	VERB	VB	V;NFIN	9	advcl	9:advcl:to	_
+14	correlation	correlation	NOUN	NN	SG;N	13	obj	13:obj	_
+15	between	between	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	parent	parent	NOUN	NN	SG;N	14	nmod	14:nmod:between	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	child	child	NOUN	NN	SG;N	17	conj	14:nmod:between|17:conj:and	_
+20	for	for	ADP	IN	ADP	23	case	23:case	_
+21	our	our	PRON	PRP$	GEN;PL;PRO;1	23	nmod:poss	23:nmod:poss	_
+22	downstream	downstream	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	systems	system	NOUN	NNS	N;PL	13	obl	13:obl:for	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent41_01-0006
+# text = Let me know if this is the appropriate steps that you would like to see.
+1	Let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	ACC;1;PRO;SG	1	obj	1:obj|3:nsubj:xsubj	_
+3	know	know	VERB	VB	V;NFIN	1	xcomp	1:xcomp	_
+4	if	if	SCONJ	IN	CONJ	9	mark	9:mark	_
+5	this	this	PRON	DT	SG;PRO	9	nsubj	9:nsubj	_
+6	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	9	cop	9:cop	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	appropriate	appropriate	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	steps	step	NOUN	NNS	N;PL	3	ccomp	3:ccomp|15:obj	_
+10	that	that	PRON	WDT	PRO	15	obj	9:ref	_
+11	you	you	PRON	PRP	2;NOM;PRO	13	nsubj	13:nsubj|15:nsubj:xsubj	_
+12	would	would	AUX	MD	V;FIN	13	aux	13:aux	_
+13	like	like	VERB	VB	V;NFIN	9	acl:relcl	9:acl:relcl	Cxn=rc-that-obj_xcomp
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	see	see	VERB	VB	V;NFIN	13	xcomp	13:xcomp	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0007
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0008
+# text = Stephanie
+1	Stephanie	Stephanie	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent41_01-0009
+# text = Sam & Stephanie,
+1	Sam	Sam	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	&	&	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	Stephanie	Stephanie	PROPN	NNP	PROPN;SG	1	conj	1:conj	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0010
+# newpar id = email-enronsent41_01-p0003
+# text = Re: Cargill Ferrous International
+1	Re	re	ADP	IN	ADP	5	case	5:case	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+3	Cargill	Cargill	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	Ferrous	Ferrous	ADJ	NNP	ADJ	5	amod	5:amod	_
+5	International	International	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent41_01-0011
+# text = It was my understanding with the EOL Team that all divisions would have the legal incorporated entity as part of the name.
+1	It	it	PRON	PRP	3;NOM;NEUT;PRO;SG	4	expl	4:expl	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	4	cop	4:cop	_
+3	my	my	PRON	PRP$	GEN;1;PRO;SG	4	nmod:poss	4:nmod:poss	_
+4	understanding	understanding	NOUN	NN	SG;N	0	root	0:root	_
+5	with	with	ADP	IN	ADP	8	case	8:case	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	EOL	EOL	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Team	team	NOUN	NN	SG;N	4	nmod	4:nmod:with	_
+9	that	that	SCONJ	IN	CONJ	13	mark	13:mark	_
+10	all	all	DET	DT	DET	11	det	11:det	_
+11	divisions	division	NOUN	NNS	N;PL	13	nsubj	13:nsubj	_
+12	would	would	AUX	MD	V;FIN	13	aux	13:aux	_
+13	have	have	VERB	VB	V;NFIN	4	csubj	4:csubj	_
+14	the	the	DET	DT	DEF;DET	17	det	17:det	_
+15	legal	legal	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	incorporated	incorporate	VERB	VBN	V;V.PTCP;PST;PASS	17	amod	17:amod	_
+17	entity	entity	NOUN	NN	SG;N	13	obj	13:obj	_
+18	as	as	ADP	IN	ADP	19	case	19:case	_
+19	part	part	NOUN	NN	SG;N	13	obl	13:obl:as	_
+20	of	of	ADP	IN	ADP	22	case	22:case	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	name	name	NOUN	NN	SG;N	19	nmod	19:nmod:of	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent41_01-0012
+# text = Stephanie, I my preference is to kick their Password Application back and get them to change it to read something like "Cargill Ferrous International, a division of Cargill, Inc." or "Cargill, Inc. acting through its Cargill Ferrous International Division".
+1	Stephanie	Stephanie	PROPN	NNP	PROPN;SG	8	vocative	8:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	NOM;1;PRO;SG	8	reparandum	8:reparandum	_
+4	my	my	PRON	PRP$	GEN;1;PRO;SG	5	nmod:poss	5:nmod:poss	_
+5	preference	preference	NOUN	NN	SG;N	8	nsubj:outer	8:nsubj:outer|14:nsubj:outer	_
+6	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	8	cop	8:cop	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	kick	kick	VERB	VB	V;NFIN	0	root	0:root	_
+9	their	their	PRON	PRP$	3;GEN;PL;PRO	11	nmod:poss	11:nmod:poss	_
+10	Password	password	NOUN	NN	SG;N	11	compound	11:compound	_
+11	Application	application	NOUN	NN	SG;N	8	obj	8:obj	_
+12	back	back	ADV	RB	ADV	8	advmod	8:advmod	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	get	get	VERB	VB	V;NFIN	8	conj	0:root|8:conj:and	_
+15	them	they	PRON	PRP	ACC;3;PL;PRO	14	obj	14:obj|17:nsubj:xsubj	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	change	change	VERB	VB	V;NFIN	14	xcomp	14:xcomp	_
+18	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	17	obj	17:obj	_
+19	to	to	PART	TO	PART	20	mark	20:mark	_
+20	read	read	VERB	VB	V;NFIN	17	advcl	17:advcl:to	_
+21	something	something	PRON	NN	SG;PRO	20	obj	20:obj	_
+22	like	like	ADP	IN	ADP	26	case	26:case	_
+23	"	"	PUNCT	``	_	26	punct	26:punct	SpaceAfter=No
+24	Cargill	Cargill	PROPN	NNP	PROPN;SG	25	compound	25:compound	_
+25	Ferrous	Ferrous	ADJ	NNP	ADJ	26	amod	26:amod	_
+26	International	International	PROPN	NNP	PROPN;SG	21	nmod	21:nmod:like	SpaceAfter=No
+27	,	,	PUNCT	,	_	29	punct	29:punct	_
+28	a	a	DET	DT	DET;INDF	29	det	29:det	_
+29	division	division	NOUN	NN	SG;N	26	appos	26:appos	_
+30	of	of	ADP	IN	ADP	33	case	33:case	_
+31	Cargill	Cargill	PROPN	NNP	PROPN;SG	33	compound	33:compound	SpaceAfter=No
+32	,	,	PUNCT	,	_	31	punct	31:punct	_
+33	Inc.	Inc.	PROPN	NNP	PROPN;SG	29	nmod	29:nmod:of	SpaceAfter=No
+34	"	"	PUNCT	''	_	26	punct	26:punct	_
+35	or	or	CCONJ	CC	CONJ	39	cc	39:cc	_
+36	"	"	PUNCT	``	_	39	punct	39:punct	SpaceAfter=No
+37	Cargill	Cargill	PROPN	NNP	PROPN;SG	39	compound	39:compound	SpaceAfter=No
+38	,	,	PUNCT	,	_	37	punct	37:punct	_
+39	Inc.	Inc.	PROPN	NNP	PROPN;SG	26	conj	21:nmod:like|26:conj:or	_
+40	acting	act	VERB	VBG	V;V.MSDR	39	acl	39:acl	_
+41	through	through	ADP	IN	ADP	46	case	46:case	_
+42	its	its	PRON	PRP$	3;GEN;NEUT;PRO;SG	46	nmod:poss	46:nmod:poss	_
+43	Cargill	Cargill	PROPN	NNP	PROPN;SG	44	compound	44:compound	_
+44	Ferrous	Ferrous	ADJ	NNP	ADJ	45	amod	45:amod	_
+45	International	International	PROPN	NNP	PROPN;SG	46	compound	46:compound	_
+46	Division	division	NOUN	NN	SG;N	40	obl	40:obl:through	SpaceAfter=No
+47	"	"	PUNCT	''	_	39	punct	39:punct	SpaceAfter=No
+48	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent41_01-0013
+# text = Samuel Schott
+1	Samuel	Samuel	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Schott	Schott	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent41_01-0014
+# text = 03/21/2001 01:58 PM
+1	03/21/2001	03/21/2001	NUM	CD	NUM	0	root	0:root	_
+2	01:58	01:58	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent41_01-0015
+# text = Any GCP adjustments will be highlighted in red.
+1	Any	any	DET	DT	DET	3	det	3:det	_
+2	GCP	gcp	NOUN	NN	SG;N	3	compound	3:compound	_
+3	adjustments	adjustment	NOUN	NNS	N;PL	6	nsubj:pass	6:nsubj:pass	_
+4	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+5	be	be	AUX	VB	V;NFIN	6	aux:pass	6:aux:pass	_
+6	highlighted	highlight	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+7	in	in	ADP	IN	ADP	8	case	8:case	_
+8	red	red	ADJ	JJ	ADJ	6	obl	6:obl:in	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent41_01-0016
+# newpar id = email-enronsent41_01-p0004
+# text = Attn. GCP_London:
+1	Attn.	attn.	NOUN	NN	SG;N	0	root	0:root	_
+2	GCP_London	GCP_London	PROPN	NNP	PROPN;SG	1	vocative	1:vocative	SpaceAfter=No
+3	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0017
+# text = There's a new EOL Counterparty listed in the UK.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	PRO	2	expl	2:expl	_
+2	's	be	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	6	det	6:det	_
+4	new	new	ADJ	JJ	ADJ	6	amod	6:amod	_
+5	EOL	EOL	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	Counterparty	counterparty	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+7	listed	list	VERB	VBN	V;V.PTCP;PST;PASS	6	acl	6:acl	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	UK	UK	PROPN	NNP	PROPN;SG	7	obl	7:obl:in	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0018
+# text = Please respond.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	respond	respond	VERB	VB	V;FIN;IMP	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0019
+# newpar id = email-enronsent41_01-p0005
+# text = Best Rgds.
+1	Best	good	ADJ	JJS	ADJ;RL	2	amod	2:amod	_
+2	Rgds	rgd	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0020
+# newpar id = email-enronsent41_01-p0006
+# text = Samuel x3-9890 ENW_GCP
+1	Samuel	Samuel	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	x3-9890	x3-9890	NOUN	NN	SG;N	1	list	1:list	_
+3	ENW_GCP	ENW_GCP	PROPN	NNP	PROPN;SG	1	list	1:list	_
+
+# sent_id = email-enronsent41_01-0021
+# text = Please see attached.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	see	see	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	attached	attach	VERB	VBN	V;V.PTCP;PST;PASS	2	obj	2:obj	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0022
+# newpar id = email-enronsent41_01-p0007
+# text = Harry -
+1	Harry	Harry	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	-	-	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent41_01-0023
+# text = are you the right lawyer to look at this?
+1	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	5	cop	5:cop	_
+2	you	you	PRON	PRP	2;NOM;PRO	5	nsubj	5:nsubj	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	right	right	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	lawyer	lawyer	NOUN	NN	SG;N	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	look	look	VERB	VB	V;NFIN	5	acl	5:acl:to	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	this	this	PRON	DT	SG;PRO	7	obl	7:obl:at	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent41_01-0024
+# text = Robert B Cass
+1	Robert	Robert	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	B	B	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Cass	Cass	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent41_01-0025
+# text = 04/16/2001 04:52 PM
+1	04/16/2001	04/16/2001	NUM	CD	NUM	0	root	0:root	_
+2	04:52	04:52	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent41_01-0026
+# text = Please approve the following product type in Datamanager after 11:00 p.m.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	approve	approve	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	6	det	6:det	_
+4	following	follow	VERB	VBG	V;V.MSDR	6	amod	6:amod	_
+5	product	product	NOUN	NN	SG;N	6	compound	6:compound	_
+6	type	type	NOUN	NN	SG;N	2	obj	2:obj	_
+7	in	in	ADP	IN	ADP	8	case	8:case	_
+8	Datamanager	Datamanager	PROPN	NNP	PROPN;SG	2	obl	2:obl:in	_
+9	after	after	ADP	IN	ADP	11	case	11:case	_
+10	11:00	11:00	NUM	CD	NUM	11	nummod	11:nummod	_
+11	p.m	p.m.	NOUN	NN	SG;N	2	obl	2:obl:after	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent41_01-0027
+# text = See the steps for approval below.
+1	See	see	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	steps	step	NOUN	NNS	N;PL	1	obj	1:obj	_
+4	for	for	ADP	IN	ADP	5	case	5:case	_
+5	approval	approval	NOUN	NN	SG;N	3	nmod	3:nmod:for	_
+6	below	below	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+

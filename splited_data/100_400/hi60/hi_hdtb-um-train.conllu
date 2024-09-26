@@ -1,0 +1,652 @@
+# sent_id = train-s1979
+# text = यहां कल रात तापमान शून्य था.
+1	यहां	यहाँ	PRON	PRP	NOM;PRO	5	nmod	_	ChunkId=NP|ChunkType=head|Translit=yahāṁ
+2	कल	कल	NOUN	NN	NOM;N;3;SG;MASC	3	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kala
+3	रात	रात	NOUN	NN	NOM;N;3;SG;FEM	5	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rāta
+4	तापमान	तापमान	NOUN	NN	NOM;N;3;SG;MASC	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=tāpamāna
+5	शून्य	शून्य	NUM	QC	NUM	0	root	_	ChunkId=NP4|ChunkType=head|Translit=śūnya
+6	था	था	AUX	VM	FIN;ACT;3;SG;IND;MASC;V;PST	5	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=WA|Translit=thā|Vib=था
+7	.	.	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1980
+# text = जबकि राष्ट्रीय राजधानी दिल्ली में मंगलवार को इस मौसम की सबसे अधिक ठंड पड़ी.
+1	जबकि	जबकि	CCONJ	CC	CONJ	14	cc	_	ChunkId=CCP|ChunkType=head|Translit=jabaki
+2	राष्ट्रीय	राष्ट्रीय	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP|ChunkType=child|Translit=rāṣṭrīya
+3	राजधानी	राजधानी	NOUN	NN	N;3;SG;ACC;FEM	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājadhānī
+4	दिल्ली	दिल्ली	PROPN	NNP	PROPN;3;SG;ACC;FEM	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dillī
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+6	मंगलवार	मंगलवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁgalavāra
+7	को	को	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+8	इस	यह	DET	DEM	SG;DET;3;ACC	9	det	_	ChunkId=NP4|ChunkType=child|Translit=isa
+9	मौसम	मौसम	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mausama
+10	की	का	ADP	PSP	ADP;NOM;SG;FEM	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	सबसे	सबसे	ADV	INTF	ADV	12	advmod	_	AltTag=avy-ADV|ChunkId=NP5|ChunkType=child|Translit=sabase
+12	अधिक	अधिक	DET	QF	DET	13	det	_	ChunkId=NP5|ChunkType=child|Translit=adhika
+13	ठंड	ठंड	NOUN	NN	NOM;N;3;SG;FEM	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ṭhaṁḍa
+14	पड़ी	पड	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=paṛī|Vib=या
+15	.	.	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1981
+# text = यहां न्यूनतम तापमान ५.१ डिग्री सेल्सियस रहा जोकि सोमवार को ५.७ था.
+1	यहां	यहाँ	PRON	PRP	NOM;PRO	7	obl	_	ChunkId=NP|ChunkType=head|Translit=yahāṁ
+2	न्यूनतम	न्यूनतम	ADJ	JJ	NOM;ADJ	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=nyūnatama
+3	तापमान	तापमान	NOUN	NN	NOM;N;3;SG;MASC	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tāpamāna
+4	५.१	५.१	NUM	QC	NUM	6	nummod	_	ChunkId=NP3|ChunkType=child|Translit=5.1
+5	डिग्री	डिग्री	NOUN	NNC	NOM;N;3;SG;FEM	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=ḍigrī
+6	सेल्सियस	सेल्सियस	NOUN	NN	NOM;N;3;SG;MASC	7	xcomp	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=selsiyasa
+7	रहा	रह	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=rahā|Vib=या
+8	जोकि	जोकि	PRON	PRP	PRO	11	nsubj	_	ChunkId=NP4|ChunkType=head|Translit=joki
+9	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nmod	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=somavāra
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+11	५.७	५.७	NUM	QC	NUM	3	acl:relcl	_	ChunkId=NP6|ChunkType=head|Translit=5.7
+12	था	था	AUX	VM	FIN;ACT;3;SG;IND;MASC;V;PST	11	cop	_	ChunkId=VGF2|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=WA|Translit=thā|Vib=था
+13	.	.	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1982
+# text = इसी के साथ पूरे महानगर पर कोहरे की घनी परत छाई रही.
+1	इसी	यह	PRON	PRP	3;SG;ACC;PRO	11	obl	_	Vib=0_के_साथ|Tam=0|ChunkId=NP|ChunkType=head|Translit=isī
+2	के	के	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	साथ	साथ	ADP	NST	ADP;NOM;3;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=sātha
+4	पूरे	पूरा	ADJ	JJ	ACC;MASC;SG;ADJ	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=pūre
+5	महानगर	महानगर	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mahānagara
+6	पर	पर	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+7	कोहरे	कोहरा	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kohare
+8	की	का	ADP	PSP	ADP;NOM;SG;FEM	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	घनी	घना	ADJ	JJ	FEM;NOM;SG;ADJ	10	amod	_	ChunkId=NP4|ChunkType=child|Translit=ghanī
+10	परत	परत	NOUN	NN	NOM;N;3;SG;FEM	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=parata
+11	छाई	छा	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=chāī|Vib=या_रह+या
+12	रही	रह	AUX	VAUX	PFV;V.PTCP;3;SG;FEM;V	11	aux	_	SpaceAfter=No|Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahī
+13	.	.	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1983
+# text = मौसम विभाग के अधिकारियों के मुताबिक कुछ समय तक कोहरे की यही स्थिति बनी रहेगी.
+1	मौसम	मौसम	NOUN	NNC	NOM;N;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=mausama
+2	विभाग	विभाग	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=vibhāga
+3	के	का	ADP	PSP	ADP;ACC;PL;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	अधिकारियों	अधिकारी	NOUN	NN	MASC;N;3;ACC;PL	14	obl	_	Vib=0_के_मुताबिक|Tam=0|ChunkId=NP2|ChunkType=head|Translit=adhikāriyoṁ
+5	के	के	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	मुताबिक	मुताबिक	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=mutābika
+7	कुछ	कुछ	DET	QF	DET	8	det	_	ChunkId=NP3|ChunkType=child|Translit=kucha
+8	समय	समय	NOUN	NN	N;3;SG;ACC;MASC	14	obl	_	Vib=0_तक|Tam=0|ChunkId=NP3|ChunkType=head|Translit=samaya
+9	तक	तक	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=taka
+10	कोहरे	कोहरा	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kohare
+11	की	का	ADP	PSP	ADP;NOM;SG;FEM	10	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+12	यही	यह	DET	DEM	SG;DET;NOM;3	13	det	_	ChunkId=NP5|ChunkType=child|Translit=yahī
+13	स्थिति	स्थिति	NOUN	NN	NOM;N;3;SG;FEM	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=sthiti
+14	बनी	बन	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banī|Vib=या_रह+गा
+15	रहेगी	रह	AUX	VAUX	FIN;3;SG;FUT;FEM;IND;V	14	aux	_	SpaceAfter=No|Vib=गा|Tam=gA|ChunkId=VGF|ChunkType=child|Translit=rahegī
+16	.	.	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1984
+# text = पालम क्षेत्र में तड़के जबरदस्त कोहरा छा गया जिसके कारण पांच सौ मीटर की दूरी पर भी दिखना बंद हो गया.
+1	पालम	पालम	PROPN	NNP	PROPN;NOM;3;SG;MASC	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=pālama
+2	क्षेत्र	क्षेत्र	NOUN	NN	N;3;SG;ACC;MASC	7	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=kṣetra
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	तड़के	तडके	NOUN	NN	NOM;N;3;SG;MASC	7	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=taṛake
+5	जबरदस्त	जबरदस्त	ADJ	JJ	NOM;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=jabaradasta
+6	कोहरा	कोहरा	NOUN	NN	NOM;N;3;SG;MASC	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=koharā
+7	छा	छा	VERB	VM	V;ACT;SG	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=chā|Vib=0_जा+या१
+8	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	7	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+9	जिसके	जो	PRON	PRP	{ACC/GEN};3;PL;MASC;PRO	20	obl	_	Vib=0_कारण|Tam=ke|ChunkId=NP4|ChunkType=head|Translit=jisake
+10	कारण	कारण	ADP	PSP	ACC;ADP;MASC	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kāraṇa
+11	पांच	पांच	NUM	QCC	NUM	12	compound	_	ChunkId=NP5|ChunkType=child|Translit=pāṁca
+12	सौ	सौ	NUM	QC	NUM	13	nummod	_	ChunkId=NP5|ChunkType=child|Translit=sau
+13	मीटर	मीटर	NOUN	NN	N;3;SG;ACC;MASC	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=mīṭara
+14	की	का	ADP	PSP	ADP;SG;ACC;FEM	13	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+15	दूरी	दूरी	NOUN	NN	N;3;SG;ACC;FEM	18	obl	_	Vib=0_पर|Tam=0|ChunkId=NP6|ChunkType=head|Translit=dūrī
+16	पर	पर	ADP	PSP	ADP	15	case	_	ChunkId=NP6|ChunkType=child|Translit=para
+17	भी	भी	PART	RP	PART	15	dep	_	ChunkId=NP6|ChunkType=child|Translit=bhī
+18	दिखना	दिख	VERB	VM	V;NOM;NFIN	20	nsubj	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=dikhanā
+19	बंद	बंद	ADJ	JJ	ADJ	20	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+20	हो	हो	VERB	VM	V;ACT;3;SG	7	advcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_जा+या१
+21	गया	जा	AUX	VAUX	PFV;V.PTCP;3;SG;MASC;V	20	aux	_	SpaceAfter=No|Vib=या१|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gayā
+22	.	.	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1985
+# text = इसके चलते समय पर विमानों की उड़ानों में दिक्कतें आई.
+1	इसके	यह	PRON	PRP	{ACC/GEN};3;PL;MASC;PRO	10	obl	_	Vib=0_चलते|Tam=ke|ChunkId=NP|ChunkType=head|Translit=isake
+2	चलते	चलते	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=calate
+3	समय	समय	NOUN	NN	N;3;SG;ACC;MASC	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=samaya
+4	पर	पर	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+5	विमानों	विमान	NOUN	NN	MASC;N;3;ACC;PL	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vimānoṁ
+6	की	का	ADP	PSP	ADP;ACC;FEM;PL	5	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+7	उड़ानों	उडान	NOUN	NN	N;3;ACC;FEM;PL	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=uṛānoṁ
+8	में	में	ADP	PSP	ADP	7	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+9	दिक्कतें	दिक्कत	NOUN	NN	NOM;N;3;FEM;PL	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=dikkateṁ
+10	आई	आ	VERB	VM	ACT;PFV;V;V.PTCP;3;FEM;PL	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=āī|Vib=या
+11	.	.	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1986
+# text = लेकिन भारतीय विमान पत्तन के प्रवक्ता के अनुसार विमानों के उतरने व उड़ान भरने भर की रोशनी थी.
+1	लेकिन	लेकिन	CCONJ	CC	CONJ	17	cc	_	ChunkId=CCP|ChunkType=head|Translit=lekina
+2	भारतीय	भारतीय	ADJ	JJ	ACC;ADJ	4	amod	_	ChunkId=NP|ChunkType=child|Translit=bhāratīya
+3	विमान	विमान	NOUN	NNC	NOM;N;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=vimāna
+4	पत्तन	पत्तन	NOUN	NN	N;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=pattana
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+6	प्रवक्ता	प्रवक्ता	NOUN	NN	N;3;SG;ACC;MASC	17	nmod	_	Vib=0_के_अनुसार|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pravaktā
+7	के	के	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+8	अनुसार	अनुसार	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=anusāra
+9	विमानों	विमान	NOUN	NN	MASC;N;3;ACC;PL	11	nsubj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vimānoṁ
+10	के	का	ADP	PSP	ACC;ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+11	उतरने	उतर	VERB	VM	V;ACC;NFIN	17	nmod	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=utarane
+12	व	व	CCONJ	CC	CONJ	14	cc	_	ChunkId=CCP2|ChunkType=head|Translit=va
+13	उड़ान	उडान	NOUN	NN	NOM;N;3;SG;FEM	14	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=uṛāna
+14	भरने	भर	VERB	VM	V;ACC;NFIN;SG	11	conj	_	Vib=ना_का|Tam=nA|ChunkId=VGNN2|ChunkType=head|Translit=bharane
+15	भर	भर	PART	RP	PART	14	dep	_	ChunkId=VGNN2|ChunkType=child|Translit=bhara
+16	की	का	ADP	PSP	ADP;NOM;SG;FEM	11	mark	_	ChunkId=VGNN2|ChunkType=child|Translit=kī
+17	रोशनी	रोशनी	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rośanī
+18	थी	था	AUX	VM	FIN;ACT;3;SG;FEM;IND;V;PST	17	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=WA|Translit=thī|Vib=था
+19	.	.	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1987
+# text = सुबह नौ बजे सफदरजंग इलाके में पचास मीटर तक भी नहीं देखा जा सकता था.
+1	सुबह	सुबह	NOUN	NN	NOM;N;3;SG;FEM	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=subaha
+2	नौ	नौ	NUM	QC	NUM	3	nummod	_	ChunkId=NP2|ChunkType=child|Translit=nau
+3	बजे	बजे	NOUN	NN	NOM;N;3;SG;MASC	12	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=baje
+4	सफदरजंग	सफदरजंग	PROPN	NNP	PROPN;NOM;3;SG;MASC	5	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=saphadarajaṁga
+5	इलाके	इलाका	NOUN	NN	N;3;SG;ACC;MASC	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ilāke
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+7	पचास	पचास	NUM	QC	NUM	8	nummod	_	ChunkId=NP4|ChunkType=child|Translit=pacāsa
+8	मीटर	मीटर	NOUN	NN	N;3;SG;ACC;MASC	12	obl	_	Vib=0_तक|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mīṭara
+9	तक	तक	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=taka
+10	भी	भी	PART	RP	PART	8	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī
+11	नहीं	नहीं	PART	NEG	NEG;PART	12	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nahīṁ
+12	देखा	देख	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=dekhā|Vib=या_जा_सक+ता_था
+13	जा	जा	AUX	VAUX	V	12	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=jā
+14	सकता	सक	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	12	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=sakatā
+15	था	था	AUX	VAUX	FIN;3;SG;IND;MASC;V;PST	12	aux:pass	_	SpaceAfter=No|Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+16	.	.	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1988
+# text = इसलिए सुबह सड़कों पर भी यातायात न के बराबर रहा.
+1	इसलिए	इसलिये	PRON	PRP	PRO	10	obl	_	ChunkId=NP|ChunkType=head|Translit=isalie
+2	सुबह	सुबह	NOUN	NN	NOM;N;3;SG;FEM	10	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=subaha
+3	सड़कों	सडक	NOUN	NN	N;3;ACC;FEM;PL	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saṛakoṁ
+4	पर	पर	ADP	PSP	ADP	3	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+5	भी	भी	PART	RP	PART	3	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī
+6	यातायात	यातायात	NOUN	NN	NOM;N;3;SG;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=yātāyāta
+7	न	न	NOUN	NN	N;3;SG;ACC;MASC	10	xcomp	_	Vib=0_के_बराबर|Tam=0|ChunkId=NP5|ChunkType=head|Translit=na
+8	के	के	ADP	PSP	ADP	7	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+9	बराबर	बराबर	ADP	PSP	ADP	7	case	_	ChunkId=NP5|ChunkType=child|Translit=barābara
+10	रहा	रह	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=rahā|Vib=या
+11	.	.	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1989
+# text = राजधानी में वाहन फ़ॉग लाइट के बावजूद रेंगते नज़र आए.
+1	राजधानी	राजधानी	NOUN	NN	N;3;SG;ACC;FEM	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=rājadhānī
+2	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	वाहन	वाहन	NOUN	NN	NOM;N;3;PL;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vāhana
+4	फ़ॉग	फ़ॉग	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=fôga
+5	लाइट	लाइट	NOUN	NN	N;3;SG;ACC;FEM	10	obl	_	Vib=0_के_बावजूद|Tam=0|ChunkId=NP3|ChunkType=head|Translit=lāiṭa
+6	के	के	ADP	PSP	ADP	5	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	बावजूद	बावजूद	ADP	PSP	ADP	5	case	_	ChunkId=NP3|ChunkType=child|Translit=bāvajūda
+8	रेंगते	रेंग	VERB	VM	MASC;V;V.PTCP;IPFV;PL	3	acl	_	Vib=ता|Tam=wA|ChunkId=VGNF|ChunkType=head|Translit=reṁgate
+9	नज़र	नजर	NOUN	NN	NOM;N;3;SG;FEM	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=nazara
+10	आए	आ	VERB	VM	ACT;PFV;V;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=āe|Vib=या
+11	.	.	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1990
+# text = इसी कारण रेल विभाग ने आज सात ट्रेनें रद्द कर दी हैं.
+1	इसी	यह	PRON	PRP	{ACC/GEN};3;SG;PRO	10	obl	_	Vib=0_कारण|Tam=ke|ChunkId=NP|ChunkType=head|Translit=isī
+2	कारण	कारण	ADP	PSP	ACC;ADP;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=kāraṇa
+3	रेल	रेल	NOUN	NNC	NOM;N;3;SG;FEM	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=rela
+4	विभाग	विभाग	NOUN	NN	N;3;SG;ACC;MASC	10	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vibhāga
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+6	आज	आज	NOUN	NN	NOM;N;3;SG;MASC	10	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āja
+7	सात	सात	NUM	QC	NUM	8	nummod	_	ChunkId=NP4|ChunkType=child|Translit=sāta
+8	ट्रेनें	ट्रेन	NOUN	NN	NOM;N;3;FEM;PL	10	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ṭreneṁ
+9	रद्द	रद्द	ADJ	JJ	ADJ	10	compound	_	ChunkId=JJP|ChunkType=head|Translit=radda
+10	कर	कर	VERB	VM	ACT;V;3;FEM;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_दे+या_है
+11	दी	दे	VERB	VAUX	PFV;V;V.PTCP;FEM;PL	10	compound	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=dī
+12	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	10	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+13	.	.	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1991
+# text = इनमें दिल्ली से हावड़ा जनता एक्सप्रेस, दिल्ली - मालदा फरक्का एक्सप्रेस, मुगलसराय -JOIN बरेली एक्सप्रेस, दिल्ली - मुगलसराय लालकिला एक्सप्रेस, अंबाला -JOIN इलाहाबाद ऊंचाहार एक्सप्रेस, दिल्ली - फरुखाबाद कालिंदी एक्सप्रेस व नई दिल्ली - रीवां एक्सप्रेस शामिल हैं.
+1	इनमें	यह	PRON	PRP	{ACC/IN+ESS};3;PL;PRO	42	nmod	_	Vib=में|Tam=meM|ChunkId=NP|ChunkType=head|Translit=inameṁ
+2	दिल्ली	दिल्ली	PROPN	NNP	PROPN;3;SG;ACC;FEM	42	nmod	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dillī
+3	से	से	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+4	हावड़ा	हावड़ा	PROPN	NNPC	PROPN;NOM;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=hāvaṛā
+5	जनता	जनता	PROPN	NNPC	PROPN;NOM;3;SG;FEM	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=janatā
+6	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	42	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=eksapresa
+7	,	,	PUNCT	SYM	_	12	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+8	दिल्ली	दिल्ली	PROPN	NNP	PROPN;NOM;3;SG;FEM	10	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=dillī
+9	-	-	PUNCT	SYM	_	10	punct	_	ChunkId=NP4|ChunkType=child|Translit=-
+10	मालदा	मालदा	PROPN	NNP	PROPN;NOM;3;SG;MASC	12	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=māladā
+11	फरक्का	फरक्का	PROPN	NNPC	PROPN;NOM;3;SG;MASC	12	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=pharakkā
+12	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=eksapresa
+13	,	,	PUNCT	SYM	_	17	punct	_	ChunkId=NP4|ChunkType=child|Translit=,
+14	मुगलसराय	मुगलसराय	PROPN	NNPC	PROPN;NOM;3;SG;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=mugalasarāya
+15	-JOIN	-JOIN	PUNCT	SYM	_	17	punct	_	ChunkId=NP5|ChunkType=child|Translit=-JOIN
+16	बरेली	बरेली	PROPN	NNPC	PROPN;NOM;3;SG;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=barelī
+17	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=eksapresa
+18	,	,	PUNCT	SYM	_	23	punct	_	ChunkId=NP5|ChunkType=child|Translit=,
+19	दिल्ली	दिल्ली	PROPN	NNP	PROPN;NOM;3;SG;FEM	21	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=dillī
+20	-	-	PUNCT	SYM	_	21	punct	_	ChunkId=NP6|ChunkType=child|Translit=-
+21	मुगलसराय	मुगलसराय	PROPN	NNP	PROPN;NOM;3;SG;MASC	23	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=mugalasarāya
+22	लालकिला	लालकिला	PROPN	NNPC	PROPN;NOM;3;SG;MASC	23	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=lālakilā
+23	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=eksapresa
+24	,	,	PUNCT	SYM	_	29	punct	_	ChunkId=NP6|ChunkType=child|Translit=,
+25	अंबाला	अंबाला	PROPN	NNP	PROPN;NOM;3;SG;MASC	27	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=aṁbālā
+26	-JOIN	-JOIN	PUNCT	SYM	_	27	punct	_	ChunkId=NP7|ChunkType=child|Translit=-JOIN
+27	इलाहाबाद	इलाहाबाद	PROPN	NNP	PROPN;NOM;3;SG;MASC	29	nmod	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=ilāhābāda
+28	ऊंचाहार	ऊंचाहार	PROPN	NNPC	PROPN;NOM;3;SG;MASC	29	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=ūṁcāhāra
+29	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=eksapresa
+30	,	,	PUNCT	SYM	_	35	punct	_	ChunkId=NP7|ChunkType=child|Translit=,
+31	दिल्ली	दिल्ली	PROPN	NNP	PROPN;NOM;3;SG;FEM	33	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=dillī
+32	-	-	PUNCT	SYM	_	31	punct	_	ChunkId=NP8|ChunkType=child|Translit=-
+33	फरुखाबाद	फरुखाबाद	PROPN	NNP	PROPN;NOM;3;SG;MASC	35	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=pharukhābāda
+34	कालिंदी	कालिंदी	PROPN	NNPC	PROPN;NOM;3;SG;MASC	35	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=kāliṁdī
+35	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=eksapresa
+36	व	व	CCONJ	CC	CONJ	41	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+37	नई	नया	PROPN	NNPC	FEM;NOM;PROPN;SG	41	compound	_	ChunkId=NP9|ChunkType=child|Translit=naī
+38	दिल्ली	दिल्ली	PROPN	NNPC	PROPN;NOM;3;SG;FEM	41	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=dillī
+39	-	-	PUNCT	SYM	_	41	punct	_	ChunkId=NP9|ChunkType=child|Translit=-
+40	रीवां	रीवां	PROPN	NNPC	PROPN;NOM;3;SG;MASC	41	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=rīvāṁ
+41	एक्सप्रेस	एक्सप्रेस	PROPN	NNP	PROPN;NOM;3;SG;FEM	6	conj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=eksapresa
+42	शामिल	शामिल	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=śāmila
+43	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	42	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+44	.	.	PUNCT	SYM	_	42	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1992
+# text = उसकी उम्र दस लाख वर्ष है और उसे अभी तक का सबसे नवजात नया ग्रह माना जा रहा है.
+1	उसकी	वह	PRON	PRP	{ACC/GEN};3;SG;FEM;PRO	2	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=usakī
+2	उम्र	उम्र	NOUN	NN	NOM;N;3;SG;FEM	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=umra
+3	दस	दस	NUM	QCC	NUM	4	compound	_	ChunkId=NP3|ChunkType=child|Translit=dasa
+4	लाख	लाख	NUM	QC	NUM	5	nummod	_	ChunkId=NP3|ChunkType=child|Translit=lākha
+5	वर्ष	वर्ष	NOUN	NN	NOM;N;3;PL;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=varṣa
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	और	और	CCONJ	CC	CONJ	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	उसे	वह	PRON	PRP	{ACC/DAT};3;SG;PRO	16	obj	_	Vib=को|Tam=ko|ChunkId=NP4|ChunkType=head|Translit=use
+9	अभी	अभी	PRON	PRP	ACC;PRO	15	nmod	_	Vib=0_तक_का|ChunkId=NP5|ChunkType=head|Translit=abhī
+10	तक	तक	ADP	PSP	ADP	9	case	_	ChunkId=NP5|ChunkType=child|Translit=taka
+11	का	का	ADP	PSP	ADP;NOM;SG;MASC	9	case	_	ChunkId=NP5|ChunkType=child|Translit=kā
+12	सबसे	सबसे	ADV	INTF	ADV	13	advmod	_	AltTag=avy-ADV|ChunkId=NP6|ChunkType=child|Translit=sabase
+13	नवजात	नवजात	ADJ	JJ	NOM;ADJ	15	amod	_	ChunkId=NP6|ChunkType=child|Translit=navajāta
+14	नया	नया	ADJ	JJ	NOM;MASC;SG;ADJ	13	amod	_	ChunkId=NP6|ChunkType=child|Translit=nayā
+15	ग्रह	ग्रह	NOUN	NN	NOM;N;3;SG;MASC	16	acl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=graha
+16	माना	मान	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	5	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=mānā|Vib=या_जा_रह+या_है
+17	जा	जा	AUX	VAUX	V	16	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child|Translit=jā
+18	रहा	रह	AUX	VAUX	PFV;V.PTCP;3;SG;MASC;V	16	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahā
+19	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	16	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+20	.	.	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1993
+# text = अमेरिकी अंतरिक्ष एजेंसी नासा के पिट्जर टेलीस्कोप की इस ताजा खोज से खगोल विज्ञानियों में काफ़ी उत्साह है.
+1	अमेरिकी	अमेरिकी	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP|ChunkType=child|Translit=amerikī
+2	अंतरिक्ष	अंतरिक्ष	NOUN	NNC	NOM;N;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=aṁtarikṣa
+3	एजेंसी	एजेंसी	NOUN	NN	N;3;SG;ACC;FEM	4	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ejeṁsī
+4	नासा	नासा	PROPN	NNP	PROPN;3;SG;ACC;FEM	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nāsā
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	पिट्जर	पिट्जर	PROPN	NNP	PROPN;NOM;3;SG;MASC	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=piṭjara
+7	टेलीस्कोप	टेलीस्कोप	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ṭelīskopa
+8	की	का	ADP	PSP	ADP;NOM;SG;FEM	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	इस	यह	DET	DEM	SG;DET;3;ACC	11	det	_	ChunkId=NP4|ChunkType=child|Translit=isa
+10	ताजा	ताजा	ADJ	JJ	NOM;MASC;SG;ADJ	11	amod	_	ChunkId=NP4|ChunkType=child|Translit=tājā
+11	खोज	खोज	NOUN	NN	N;3;SG;ACC;FEM	17	nmod	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=khoja
+12	से	से	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+13	खगोल	खगोल	NOUN	NNC	NOM;N;3;SG;MASC	14	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=khagola
+14	विज्ञानियों	विज्ञानी	NOUN	NN	MASC;N;3;ACC;PL	17	nmod	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=vijñāniyoṁ
+15	में	में	ADP	PSP	ADP	14	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+16	काफ़ी	काफी	DET	QF	DET	17	det	_	ChunkId=NP6|ChunkType=child|Translit=kāfī
+17	उत्साह	उत्साह	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=utsāha
+18	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	17	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+19	.	.	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1994
+# text = नए ग्रह के अध्ययन से अंतरिक्ष की कुछ गूढ़ गुत्थियां सुलझ सकती हैं.
+1	नए	नया	ADJ	JJ	ACC;MASC;SG;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=nae
+2	ग्रह	ग्रह	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=graha
+3	के	का	ADP	PSP	ADP;SG;ACC;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	अध्ययन	अध्ययन	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=adhyayana
+5	से	से	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+6	अंतरिक्ष	अंतरिक्ष	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=aṁtarikṣa
+7	की	का	ADP	PSP	ADP;NOM;SG;FEM	6	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+8	कुछ	कुछ	DET	QF	DET	10	det	_	ChunkId=NP4|ChunkType=child|Translit=kucha
+9	गूढ़	गूढ	ADJ	JJ	NOM;ADJ	10	amod	_	ChunkId=NP4|ChunkType=child|Translit=gūṛha
+10	गुत्थियां	गुत्थी	NOUN	NN	NOM;N;3;FEM;PL	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=gutthiyāṁ
+11	सुलझ	सुलझ	VERB	VM	ACT;V;3;FEM;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=sulajha|Vib=0_सक+ता_है
+12	सकती	सक	AUX	VAUX	FEM;V.PTCP;3;IPFV;PL;V	11	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=sakatī
+13	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	11	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+14	.	.	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1995
+# text = कभी किसी तारे या ग्रह के बारे में पता चलता है तो कभी मंगल की कई गुत्थियां सुलझ जाती हैं.
+1	कभी	कभी	PRON	PRP	PRO	10	obl	_	ChunkId=NP|ChunkType=head|Translit=kabhī
+2	किसी	कोई	PRON	PRP	3;SG;ACC;PRO	3	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kisī
+3	तारे	तारा	NOUN	NN	N;3;SG;ACC;MASC	10	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tāre
+4	या	या	CCONJ	CC	CONJ	5	cc	_	ChunkId=CCP|ChunkType=head|Translit=yā
+5	ग्रह	ग्रह	NOUN	NN	N;3;SG;ACC;MASC	3	conj	_	Vib=0_के_बारे_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=graha
+6	के	के	ADP	PSP	ADP	3	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	बारे	बारे	ADP	PSP	ADP	3	case	_	ChunkId=NP3|ChunkType=child|Translit=bāre
+8	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+9	पता	पता	NOUN	NN	NOM;N;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=patā
+10	चलता	चल	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=calatā|Vib=ता_है
+11	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	10	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+12	तो	तो	SCONJ	CC	CONJ	10	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|Translit=to
+13	कभी	कभी	PRON	PRP	PRO	18	obl	_	ChunkId=NP5|ChunkType=head|Translit=kabhī
+14	मंगल	मंगल	PROPN	NNP	PROPN;3;SG;ACC;MASC	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=maṁgala
+15	की	का	ADP	PSP	ADP;NOM;SG;FEM	14	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+16	कई	कई	DET	QF	DET	17	det	_	ChunkId=NP7|ChunkType=child|Translit=kaī
+17	गुत्थियां	गुत्थी	NOUN	NN	NOM;N;3;FEM;PL	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=gutthiyāṁ
+18	सुलझ	सुलझ	VERB	VM	ACT;V;3;FEM;PL	10	advcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=sulajha|Vib=0_जा+ता_है
+19	जाती	जा	AUX	VAUX	FEM;V.PTCP;3;IPFV;PL;V	18	aux	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātī
+20	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	18	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+21	.	.	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1996
+# text = न्यूयॉर्क की रोचेस्टर यूनिवर्सिटी के खगोलशास्त्री डैन वाटसन के अनुसार इस संभावित सबसे कम उम्र ग्रह को कोकू ताउ -JOIN ४ नाम के तारे के चक्कर काटते देखा गया है.
+1	न्यूयॉर्क	न्यूयॉर्क	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=nyūyôrka
+2	की	का	ADP	PSP	ADP;NOM;SG;FEM	1	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+3	रोचेस्टर	रोचेस्टर	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=rocesṭara
+4	यूनिवर्सिटी	यूनिवर्सिटी	PROPN	NNP	PROPN;3;SG;ACC;FEM	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yūnivarsiṭī
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	खगोलशास्त्री	खगोलशास्त्री	NOUN	NN	N;3;SG;ACC;MASC	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=khagolaśāstrī
+7	डैन	डैन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	8	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=ḍaina
+8	वाटसन	वाटसन	PROPN	NNP	PROPN;3;SG;ACC;MASC	28	obl	_	Vib=0_के_अनुसार|Tam=0|ChunkId=NP4|ChunkType=head|Translit=vāṭasana
+9	के	के	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+10	अनुसार	अनुसार	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=anusāra
+11	इस	यह	DET	DEM	SG;DET;3;ACC	15	det	_	ChunkId=NP5|ChunkType=child|Translit=isa
+12	संभावित	संभावित	ADJ	JJ	NOM;ADJ	15	amod	_	ChunkId=NP5|ChunkType=child|Translit=saṁbhāvita
+13	सबसे	सबसे	ADV	INTF	ADV	14	advmod	_	AltTag=avy-ADV|ChunkId=NP5|ChunkType=child|Translit=sabase
+14	कम	कम	DET	QF	DET	15	det	_	ChunkId=NP5|ChunkType=child|Translit=kama
+15	उम्र	उम्र	NOUN	NN	NOM;N;3;SG;FEM	16	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=umra
+16	ग्रह	ग्रह	NOUN	NN	N;3;SG;ACC;MASC	28	obj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=graha
+17	को	को	ADP	PSP	ADP	16	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+18	कोकू	कोकू	PROPN	NNPC	PROPN;NOM;3;SG;MASC	21	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=kokū
+19	ताउ	ताउ	PROPN	NNPC	PROPN;NOM;3;SG;MASC	21	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=tāu
+20	-JOIN	-JOIN	PUNCT	SYM	_	21	punct	_	ChunkId=NP6|ChunkType=child|Translit=-JOIN
+21	४	४	PROPN	NNP	NOM;PROPN;3;SG	22	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=4
+22	नाम	नाम	NOUN	NN	N;3;SG;ACC;MASC	24	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=nāma
+23	के	का	ADP	PSP	ADP;SG;ACC;MASC	22	case	_	ChunkId=NP7|ChunkType=child|Translit=ke
+24	तारे	तारा	NOUN	NN	N;3;SG;ACC;MASC	26	nmod	_	Vib=0_का|Tam=0|ChunkId=NP8|ChunkType=head|Translit=tāre
+25	के	का	ADP	PSP	ADP;NOM;PL;MASC	24	case	_	ChunkId=NP8|ChunkType=child|Translit=ke
+26	चक्कर	चक्कर	NOUN	NN	NOM;N;3;PL;MASC	27	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=cakkara
+27	काटते	काट	VERB	VM	V;IPFV;V.PTCP;SG	28	advcl	_	Vib=ता|Tam=wA|ChunkId=VGNF|ChunkType=head|Translit=kāṭate
+28	देखा	देख	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=dekhā|Vib=या_जा+या१_है
+29	गया	जा	AUX	VAUX	PFV;V.PTCP;3;SG;MASC;V	28	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+30	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	28	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+31	.	.	PUNCT	SYM	_	28	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1997
+# text = यह वर्ष तारामंडल में लगभग ४२० प्रकाशवर्ष दूर है.
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	वर्ष	वर्ष	NOUN	NN	NOM;N;3;SG;MASC	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=varṣa
+3	तारामंडल	तारामंडल	NOUN	NN	N;3;SG;ACC;MASC	8	nmod	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=tārāmaṁḍala
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	लगभग	लगभग	PART	RP	PART	6	dep	_	ChunkId=NP3|ChunkType=child|Translit=lagabhaga
+6	४२०	४२०	NUM	QC	NUM	7	nummod	_	ChunkId=NP3|ChunkType=child|Translit=420
+7	प्रकाशवर्ष	प्रकाशवर्ष	NOUN	NN	NOM;N;3;SG;MASC	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=prakāśavarṣa
+8	दूर	दूर	ADV	NST	NOM;ADV;3;SG;MASC	0	root	_	AltTag=ADV-NOUN|ChunkId=NP4|ChunkType=head|Translit=dūra
+9	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	8	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+10	.	.	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1998
+# text = वैज्ञानिक इसे 'बेबी प्लेनेट' भी कह रहे हैं.
+1	वैज्ञानिक	वैज्ञानिक	NOUN	NN	NOM;N;3;PL;MASC	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=vaijñānika
+2	इसे	यह	PRON	PRP	{ACC/DAT};3;SG;PRO	8	obj	_	Vib=को|Tam=ko|ChunkId=NP2|ChunkType=head|Translit=ise
+3	'	'	PUNCT	SYM	_	5	punct	_	SpaceAfter=No|ChunkId=NP3|ChunkType=child|Translit='
+4	बेबी	बेबी	PROPN	NNPC	NOM;PROPN;3;SG	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=bebī
+5	प्लेनेट	प्लेनेट	PROPN	NNP	PROPN;NOM;3;SG;MASC	8	acl	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pleneṭa
+6	'	'	PUNCT	SYM	_	5	punct	_	ChunkId=NP3|ChunkType=child|Translit='
+7	भी	भी	PART	RP	PART	5	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī
+8	कह	कह	VERB	VM	V;ACT;PL;3	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kaha|Vib=0_रह+या_है
+9	रहे	रह	AUX	VAUX	PFV;V.PTCP;3;PL;V	8	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+10	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	8	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+11	.	.	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s1999
+# text = वैज्ञानिक सौ ऐसे ग्रहों का पता लगा चुके हैं जो हमारे सौरमंडल से बाहर हैं.
+1	वैज्ञानिक	वैज्ञानिक	NOUN	NN	NOM;N;3;PL;MASC	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=vaijñānika
+2	सौ	सौ	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=sau
+3	ऐसे	ऐसा	DET	DEM	MASC;DET;ACC;PL	4	det	_	ChunkId=NP2|ChunkType=child|Translit=aise
+4	ग्रहों	ग्रह	NOUN	NN	MASC;N;3;ACC;PL	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=grahoṁ
+5	का	का	ADP	PSP	ADP;NOM;SG;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	पता	पता	NOUN	NN	NOM;N;3;SG;MASC	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=patā
+7	लगा	लगा	VERB	VM	MASC;ACT;PFV;V;V.PTCP;3;PL	8	xcomp	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=lagā|Vib=या_चुक+या_है
+8	चुके	चुक	VERB	VAUX	MASC;PFV;V;V.PTCP;3;PL	0	root	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=cuke
+9	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	8	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+10	जो	जो	PRON	PRP	NOM;PRO;3	12	nsubj	_	ChunkId=NP4|ChunkType=head|Translit=jo
+11	हमारे	हम	PRON	PRP	{ACC/GEN};1;PL;MASC;PRO	12	nmod	_	Vib=का|Tam=kA|ChunkId=NP5|ChunkType=head|Translit=hamāre
+12	सौरमंडल	सौरमंडल	NOUN	NN	N;3;SG;ACC;MASC	4	acl:relcl	_	Vib=0_से_बाहर|Tam=0|ChunkId=NP6|ChunkType=head|Translit=sauramaṁḍala
+13	से	से	ADP	PSP	ADP	12	case	_	ChunkId=NP6|ChunkType=child|Translit=se
+14	बाहर	बाहर	ADP	NST	ADP;NOM;3;SG;MASC	12	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child|Translit=bāhara
+15	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	12	cop	_	ChunkId=VGF2|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+16	.	.	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2000
+# text = लेकिन आमतौर पर माना जाता है कि यह अरबों साल पुराने होते हैं.
+1	लेकिन	लेकिन	CCONJ	CC	CONJ	4	cc	_	ChunkId=CCP|ChunkType=head|Translit=lekina
+2	आमतौर	आमतौर	NOUN	NN	N;3;SG;ACC;MASC	4	obl	_	Vib=0_पर|Tam=0|ChunkId=NP|ChunkType=head|Translit=āmataura
+3	पर	पर	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=para
+4	माना	मान	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=mānā|Vib=या_जा+ता_है
+5	जाता	जा	AUX	VAUX	V.PTCP;3;SG;IPFV;MASC;V	4	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+6	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	4	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+7	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|Translit=ki
+8	यह	यह	PRON	PRP	NOM;3;SG;PRO	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yaha
+9	अरबों	अरब	NUM	QC	PL;NUM	10	nummod	_	ChunkId=NP3|ChunkType=child|Translit=araboṁ
+10	साल	साल	NOUN	NN	NOM;N;3;PL;MASC	11	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sāla
+11	पुराने	पुराना	ADJ	JJ	PL;MASC;ADJ	12	xcomp	_	ChunkId=JJP|ChunkType=head|Translit=purāne
+12	होते	हो	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	4	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=wA|Translit=hote|Vib=ता_है
+13	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	12	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+14	.	.	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2001
+# text = पृथ्वी और इसके सभी पड़ोसी ग्रह लगभग साढ़े चार अरब साल पुराने हैं.
+1	पृथ्वी	पृथ्वी	NOUN	NN	NOM;N;3;SG;FEM	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=pr̥thvī
+2	और	और	CCONJ	CC	CONJ	6	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+3	इसके	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	6	nmod	_	Vib=का|Tam=kA|ChunkId=NP2|ChunkType=head|Translit=isake
+4	सभी	सभी	DET	QF	DET	6	det	_	ChunkId=NP3|ChunkType=child|Translit=sabhī
+5	पड़ोसी	पडोसी	ADJ	JJ	NOM;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=paṛosī
+6	ग्रह	ग्रह	NOUN	NN	NOM;N;3;PL;MASC	1	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=graha
+7	लगभग	लगभग	PART	RP	PART	10	dep	_	ChunkId=NP4|ChunkType=child|Translit=lagabhaga
+8	साढ़े	साढ़े	NUM	QCC	NUM	10	dep	_	ChunkId=NP4|ChunkType=child|Translit=sāṛhe
+9	चार	चार	NUM	QCC	NUM	10	dep	_	ChunkId=NP4|ChunkType=child|Translit=cāra
+10	अरब	अरब	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=araba
+11	साल	साल	NOUN	NN	NOM;N;3;PL;MASC	12	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sāla
+12	पुराने	पुराना	ADJ	JJ	PL;MASC;ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=purāne
+13	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	12	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+14	.	.	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2002
+# text = यहां वैज्ञानिकों ने धूल में छिद्र पाया.
+1	यहां	यहाँ	PRON	PRP	NOM;PRO	7	obl	_	ChunkId=NP|ChunkType=head|Translit=yahāṁ
+2	वैज्ञानिकों	वैज्ञानिक	NOUN	NN	MASC;N;3;ACC;PL	7	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vaijñānikoṁ
+3	ने	ने	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+4	धूल	धूल	NOUN	NN	N;3;SG;ACC;FEM	7	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dhūla
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+6	छिद्र	छिद्र	NOUN	NN	NOM;N;3;SG;MASC	7	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=chidra
+7	पाया	पा	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=pāyā|Vib=या
+8	.	.	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2003
+# text = माना जा रहा है कि यह ग्रह इसी धूल के मिलने से बना है.
+1	माना	मान	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=mānā|Vib=या_जा_रह+या_है
+2	जा	जा	AUX	VAUX	V	1	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=jā
+3	रहा	रह	AUX	VAUX	PFV;V.PTCP;3;SG;MASC;V	1	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahā
+4	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	1	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+5	कि	कि	SCONJ	CC	CONJ	13	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+6	यह	यह	DET	DEM	SG;DET;NOM;3	7	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+7	ग्रह	ग्रह	NOUN	NN	NOM;N;3;SG;MASC	13	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=graha
+8	इसी	यह	DET	DEM	SG;DET;3;ACC	9	det	_	ChunkId=NP2|ChunkType=child|Translit=isī
+9	धूल	धूल	NOUN	NN	N;3;SG;ACC;FEM	11	nsubj	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dhūla
+10	के	का	ADP	PSP	ACC;ADP	9	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+11	मिलने	मिल	VERB	VM	V;ACC;NFIN	13	advcl	_	Vib=ना_से|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=milane
+12	से	से	ADP	PSP	ADP	11	mark	_	ChunkId=VGNN|ChunkType=child|Translit=se
+13	बना	बन	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	1	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=banā|Vib=या_है.+है
+14	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;MASC;V	13	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+15	.	.	PUNCT	SYM	_	1	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2004
+# text = नासा मुख्यालय में वाटसन ने बताया कि यह 'बेबी प्लेनेट' दस लाख साल पुराना है और हमारे द्वारा अभी तक देखे गए ग्रहों में यह सबसे युवा है.
+1	नासा	नासा	PROPN	NNP	PROPN;NOM;3;SG;FEM	2	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=nāsā
+2	मुख्यालय	मुख्यालय	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=mukhyālaya
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	वाटसन	वाटसन	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vāṭasana
+5	ने	ने	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+6	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+7	कि	कि	SCONJ	CC	CONJ	16	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+8	यह	यह	DET	DEM	SG;DET;NOM;3	11	det	_	ChunkId=NP3|ChunkType=child|Translit=yaha
+9	'	'	PUNCT	SYM	_	11	punct	_	SpaceAfter=No|ChunkId=NP3|ChunkType=child|Translit='
+10	बेबी	बेबी	PROPN	NNPC	NOM;PROPN;3;SG	11	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=bebī
+11	प्लेनेट	प्लेनेट	PROPN	NNP	PROPN;NOM;3;SG;MASC	16	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pleneṭa
+12	'	'	PUNCT	SYM	_	11	punct	_	ChunkId=NP3|ChunkType=child|Translit='
+13	दस	दस	NUM	QCC	NUM	14	compound	_	ChunkId=NP4|ChunkType=child|Translit=dasa
+14	लाख	लाख	NUM	QC	NUM	15	nummod	_	ChunkId=NP4|ChunkType=child|Translit=lākha
+15	साल	साल	NOUN	NN	NOM;N;3;PL;MASC	16	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sāla
+16	पुराना	पुराना	ADJ	JJ	MASC;SG;ADJ	6	obj	_	ChunkId=JJP|ChunkType=head|Translit=purānā
+17	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	16	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+18	और	और	CCONJ	CC	CONJ	29	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+19	हमारे	हम	PRON	PRP	{ACC/GEN};1;PL;MASC;PRO	23	nsubj:pass	_	Vib=0_द्वारा|Tam=ke|ChunkId=NP5|ChunkType=head|Translit=hamāre
+20	द्वारा	द्वारा	ADP	PSP	ADP	19	case	_	ChunkId=NP5|ChunkType=child|Translit=dvārā
+21	अभी	अभी	PRON	PRP	ACC;PRO	23	obl	_	Vib=0_तक|ChunkId=NP6|ChunkType=head|Translit=abhī
+22	तक	तक	ADP	PSP	ADP	21	case	_	ChunkId=NP6|ChunkType=child|Translit=taka
+23	देखे	देख	VERB	VM	V;PL;PFV;V.PTCP	25	acl	_	Vib=या_जा+या१|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=dekhe
+24	गए	जा	AUX	VAUX	PFV;PL;V;V.PTCP	23	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gae
+25	ग्रहों	ग्रह	NOUN	NN	MASC;N;3;ACC;PL	29	nmod	_	Vib=0_में|Tam=0|ChunkId=NP7|ChunkType=head|Translit=grahoṁ
+26	में	में	ADP	PSP	ADP	25	case	_	ChunkId=NP7|ChunkType=child|Translit=meṁ
+27	यह	यह	PRON	PRP	NOM;3;SG;PRO	29	nsubj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=yaha
+28	सबसे	सबसे	ADV	INTF	ADV	29	advmod	_	AltTag=avy-ADV|ChunkId=JJP2|ChunkType=child|Translit=sabase
+29	युवा	युवा	ADJ	JJ	MASC;SG;ADJ	16	conj	_	ChunkId=JJP2|ChunkType=head|Translit=yuvā
+30	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	29	cop	_	ChunkId=VGF3|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+31	.	.	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2005
+# text = वाशिंगटन के कारनेजी इंस्टीट्यूशन के खगोलशास्त्री एलन बॉस ने इस नई खोज को एक चुनौती बताया.
+1	वाशिंगटन	वाशिंगटन	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=vāśiṁgaṭana
+2	के	का	ADP	PSP	ADP;NOM;PL;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	कारनेजी	कारनेजी	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kāranejī
+4	इंस्टीट्यूशन	इंस्टीट्यूशन	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=iṁsṭīṭyūśana
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	खगोलशास्त्री	खगोलशास्त्री	NOUN	NN	N;3;SG;ACC;MASC	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=khagolaśāstrī
+7	एलन	एलन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	8	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=elana
+8	बॉस	बॉस	PROPN	NNP	PROPN;3;SG;ACC;MASC	16	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=bôsa
+9	ने	ने	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+10	इस	यह	DET	DEM	SG;DET;3;ACC	12	det	_	ChunkId=NP5|ChunkType=child|Translit=isa
+11	नई	नया	ADJ	JJ	ACC;FEM;SG;ADJ	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=naī
+12	खोज	खोज	NOUN	NN	N;3;SG;ACC;FEM	16	obj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=khoja
+13	को	को	ADP	PSP	ADP	12	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+14	एक	एक	NUM	QC	NUM	15	nummod	_	ChunkId=NP6|ChunkType=child|Translit=eka
+15	चुनौती	चुनौती	NOUN	NN	NOM;N;3;SG;FEM	16	acl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=cunautī
+16	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+17	.	.	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2006
+# text = कोकू ताउ -JOIN ४ के पास देखे गए ग्रह को बनने में लगभग चालीस लाख साल का समय लगता है.
+1	कोकू	कोकू	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=kokū
+2	ताउ	ताउ	PROPN	NNPC	PROPN;NOM;3;SG;MASC	4	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=tāu
+3	-JOIN	-JOIN	PUNCT	SYM	_	4	punct	_	ChunkId=NP|ChunkType=child|Translit=-JOIN
+4	४	४	PROPN	NNP	ACC;PROPN;3;SG	7	obl	_	Vib=0_के_पास|Tam=0|ChunkId=NP|ChunkType=head|Translit=4
+5	के	के	ADP	PSP	ADP	4	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+6	पास	पास	ADP	NST	ADP;NOM;3;SG;MASC	4	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=pāsa
+7	देखे	देख	VERB	VM	V;PFV;V.PTCP;SG	9	acl	_	Vib=या_जा+या१|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=dekhe
+8	गए	जा	AUX	VAUX	PFV;V;V.PTCP;SG	7	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gae
+9	ग्रह	ग्रह	NOUN	NN	N;3;SG;ACC;MASC	11	nsubj	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=graha
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+11	बनने	बन	VERB	VM	V;ACC;NFIN	19	obl	_	Vib=ना_में|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=banane
+12	में	में	ADP	PSP	ADP	11	mark	_	ChunkId=VGNN|ChunkType=child|Translit=meṁ
+13	लगभग	लगभग	PART	RP	PART	15	dep	_	ChunkId=NP3|ChunkType=child|Translit=lagabhaga
+14	चालीस	चालीस	NUM	QCC	NUM	15	dep	_	ChunkId=NP3|ChunkType=child|Translit=cālīsa
+15	लाख	लाख	NUM	QC	NUM	16	nummod	_	ChunkId=NP3|ChunkType=child|Translit=lākha
+16	साल	साल	NOUN	NN	N;3;SG;ACC;MASC	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sāla
+17	का	का	ADP	PSP	ADP;NOM;SG;MASC	16	case	_	ChunkId=NP3|ChunkType=child|Translit=kā
+18	समय	समय	NOUN	NN	NOM;N;3;SG;MASC	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=samaya
+19	लगता	लग	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=lagatā|Vib=ता_है
+20	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	19	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+21	.	.	PUNCT	SYM	_	19	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2007
+# text = जो चट्टानी सतह और गैस के संवर्धन से बनता है.
+1	जो	जो	PRON	PRP	NOM;3;SG;PRO	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=jo
+2	चट्टानी	चट्टानी	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=caṭṭānī
+3	सतह	सतह	NOUN	NN	N;3;SG;ACC;FEM	7	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sataha
+4	और	और	CCONJ	CC	CONJ	5	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+5	गैस	गैस	NOUN	NN	N;3;SG;ACC;FEM	3	conj	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=gaisa
+6	के	का	ADP	PSP	ADP;SG;ACC;MASC	3	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+7	संवर्धन	संवर्धन	NOUN	NN	N;3;SG;ACC;MASC	9	obl	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=saṁvardhana
+8	से	से	ADP	PSP	ADP	7	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+9	बनता	बन	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=banatā|Vib=ता_है
+10	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	9	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+11	.	.	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2008
+# text = वैकल्पिक स्पष्टीकरण से माना जा सकता है कि गैस शीघ्र संचित हो जाती है.
+1	वैकल्पिक	वैकल्पिक	ADJ	JJ	ACC;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=vaikalpika
+2	स्पष्टीकरण	स्पष्टीकरण	NOUN	NN	N;3;SG;ACC;MASC	4	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=spaṣṭīkaraṇa
+3	से	से	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=se
+4	माना	मान	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=mānā|Vib=या_जा_सक+ता_है
+5	जा	जा	AUX	VAUX	V	4	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=jā
+6	सकता	सक	AUX	VAUX	V.PTCP;3;SG;IPFV;MASC;V	4	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=sakatā
+7	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	4	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+8	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+9	गैस	गैस	NOUN	NN	NOM;N;3;SG;FEM	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=gaisa
+10	शीघ्र	शीघ्र	ADV	RB	ADV	12	advmod	_	ChunkId=RBP|ChunkType=head|Translit=śīghra
+11	संचित	संचित	ADJ	JJ	ADJ	12	compound	_	ChunkId=JJP|ChunkType=head|Translit=saṁcita
+12	हो	हो	VERB	VM	ACT;V;3;SG;FEM	4	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_जा+ता_है
+13	जाती	जा	AUX	VAUX	FEM;V.PTCP;3;SG;IPFV;V	12	aux	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātī
+14	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	12	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+15	.	.	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2009
+# text = बॉस ने कहा कि अगर यह सच है तो इसमें ग्रहीय प्रणाली के संदर्भ में 'गूढ़ निहितार्थ' है.
+1	बॉस	बॉस	PROPN	NNP	PROPN;3;SG;ACC;MASC	3	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=bôsa
+2	ने	ने	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+3	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+4	कि	कि	SCONJ	CC	CONJ	18	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	अगर	अगर	SCONJ	CC	CONJ	7	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP2|ChunkType=head|Translit=agara
+6	यह	यह	PRON	PRP	NOM;3;SG;PRO	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yaha
+7	सच	सच	NOUN	NN	NOM;N;3;SG;MASC	18	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saca
+8	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	7	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+9	तो	तो	SCONJ	CC	CONJ	18	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP3|ChunkType=head|Translit=to
+10	इसमें	यह	PRON	PRP	{ACC/IN+ESS};3;SG;PRO	18	nmod	_	Vib=में|Tam=meM|ChunkId=NP4|ChunkType=head|Translit=isameṁ
+11	ग्रहीय	ग्रहीय	ADJ	JJ	ACC;ADJ	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=grahīya
+12	प्रणाली	प्रणाली	NOUN	NN	N;3;SG;ACC;FEM	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=praṇālī
+13	के	का	ADP	PSP	ADP;SG;ACC;MASC	12	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+14	संदर्भ	संदर्भ	NOUN	NN	N;3;SG;ACC;MASC	18	nmod	_	Vib=0_में|Tam=0|ChunkId=NP6|ChunkType=head|Translit=saṁdarbha
+15	में	में	ADP	PSP	ADP	14	case	_	ChunkId=NP6|ChunkType=child|Translit=meṁ
+16	'	'	PUNCT	SYM	_	17	punct	_	SpaceAfter=No|ChunkId=NP7|ChunkType=child|Translit='
+17	गूढ़	गूढ	ADJ	JJ	NOM;ADJ	18	amod	_	ChunkId=NP7|ChunkType=child|Translit=gūṛha
+18	निहितार्थ	निहितार्थ	NOUN	NN	NOM;N;3;SG;MASC	3	obj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=nihitārtha
+19	'	'	PUNCT	SYM	_	18	punct	_	ChunkId=NP7|ChunkType=child|Translit='
+20	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	18	cop	_	ChunkId=VGF3|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+21	.	.	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2010
+# text = इससे ग्रहीय निर्माण के कई मुख्य सिद्धांतों से संबंधित कई जानकारी मिल सकती हैं.
+1	इससे	यह	PRON	PRP	{ACC/INS};3;SG;PRO	12	obl	_	Vib=से|Tam=se|ChunkId=NP|ChunkType=head|Translit=isase
+2	ग्रहीय	ग्रहीय	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=grahīya
+3	निर्माण	निर्माण	NOUN	NN	N;3;SG;ACC;MASC	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nirmāṇa
+4	के	का	ADP	PSP	ADP;NOM;PL;MASC	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+5	कई	कई	DET	QF	DET	7	det	_	ChunkId=NP3|ChunkType=child|Translit=kaī
+6	मुख्य	मुख्य	ADJ	JJ	ACC;ADJ	7	amod	_	ChunkId=NP3|ChunkType=child|Translit=mukhya
+7	सिद्धांतों	सिद्धांत	NOUN	NN	MASC;N;3;ACC;PL	9	obl	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=siddhāṁtoṁ
+8	से	से	ADP	PSP	ADP	7	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+9	संबंधित	संबंधित	ADJ	JJ	NOM;ADJ	11	amod	_	ChunkId=JJP|ChunkType=head|Translit=saṁbaṁdhita
+10	कई	कई	DET	QF	DET	11	det	_	ChunkId=NP4|ChunkType=child|Translit=kaī
+11	जानकारी	जानकारी	NOUN	NN	NOM;N;3;FEM;PL	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jānakārī
+12	मिल	मिल	VERB	VM	ACT;V;3;FEM;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=mila|Vib=0_सक+ता_है
+13	सकती	सक	AUX	VAUX	FEM;V.PTCP;3;IPFV;PL;V	12	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=sakatī
+14	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	12	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+15	.	.	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2011
+# text = वहीं पिट्जर ने स्टेलर नर्सरी क्षेत्र में ३०० हाल ही में बने तारों का पता लगाया है.
+1	वहीं	वहीं	ADV	RB	ADV	16	obl	_	ChunkId=RBP|ChunkType=head|Translit=vahīṁ
+2	पिट्जर	पिट्जर	PROPN	NNP	PROPN;3;SG;ACC;MASC	16	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=piṭjara
+3	ने	ने	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+4	स्टेलर	स्टेलर	PROPN	NNPC	PROPN;NOM;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=sṭelara
+5	नर्सरी	नर्सरी	PROPN	NNP	PROPN;NOM;3;SG;MASC	6	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=narsarī
+6	क्षेत्र	क्षेत्र	NOUN	NN	N;3;SG;ACC;MASC	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kṣetra
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+8	३००	३००	NUM	QC	NUM	13	nummod	_	ChunkId=NP3|ChunkType=head|Translit=300
+9	हाल	हाल	NOUN	NN	N;3;SG;ACC;MASC	12	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=hāla
+10	ही	ही	PART	RP	PART	9	dep	_	ChunkId=NP4|ChunkType=child|Translit=hī
+11	में	में	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+12	बने	बन	VERB	VM	V;PL;PFV;V.PTCP	13	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=bane
+13	तारों	तारा	NOUN	NN	MASC;N;3;ACC;PL	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=tāroṁ
+14	का	का	ADP	PSP	ADP;NOM;SG;MASC	13	case	_	ChunkId=NP5|ChunkType=child|Translit=kā
+15	पता	पता	NOUN	NN	NOM;N;3;SG;MASC	16	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=patā
+16	लगाया	लगा	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=lagāyā|Vib=या_है
+17	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	16	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	.	.	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

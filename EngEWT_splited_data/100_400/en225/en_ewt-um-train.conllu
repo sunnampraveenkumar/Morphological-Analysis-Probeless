@@ -1,0 +1,776 @@
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0016
+# text = 200 - Number of regulation rollbacks downgrading or weakening environmental laws in Bush's first three years in office.
+1	200	200	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	regulation	regulation	NOUN	NN	SG;N	6	compound	6:compound	_
+6	rollbacks	rollback	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+7	downgrading	downgrade	VERB	VBG	V;V.MSDR	6	acl	6:acl	_
+8	or	or	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	weakening	weaken	VERB	VBG	V;V.MSDR	7	conj	6:acl|7:conj:or	_
+10	environmental	environmental	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	laws	law	NOUN	NNS	N;PL	7	obj	7:obj|9:obj	_
+12	in	in	ADP	IN	ADP	17	case	17:case	_
+13-14	Bush's	_	_	_	_	_	_	_	_
+13	Bush	Bush	PROPN	NNP	PROPN;SG	17	nmod:poss	17:nmod:poss	_
+14	's	's	PART	POS	PART	13	case	13:case	_
+15	first	first	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	three	three	NUM	CD	NUM	17	nummod	17:nummod	_
+17	years	year	NOUN	NNS	N;PL	3	nmod	3:nmod:in	_
+18	in	in	ADP	IN	ADP	19	case	19:case	_
+19	office	office	NOUN	NN	SG;N	17	nmod	17:nmod:in	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0017
+# text = 31 - Number of Bush administration appointees who are alumni of the energy industry (includes four cabinet secretaries, the six most powerful White House officials, and more than 20 other high-level appointees).
+1	31	31	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	administration	administration	NOUN	NN	SG;N	7	compound	7:compound	_
+7	appointees	appointee	NOUN	NNS	N;PL	3	nmod	3:nmod:of|10:nsubj	_
+8	who	who	PRON	WP	PRO	10	nsubj	7:ref	_
+9	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	10	cop	10:cop	_
+10	alumni	alumnus	NOUN	NNS	N;PL	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	energy	energy	NOUN	NN	SG;N	14	compound	14:compound	_
+14	industry	industry	NOUN	NN	SG;N	10	nmod	10:nmod:of	_
+15	(	(	PUNCT	-LRB-	_	16	punct	16:punct	SpaceAfter=No
+16	includes	include	VERB	VBZ	V;3;PRS;IND;FIN;SG	3	acl	3:acl	_
+17	four	four	NUM	CD	NUM	19	nummod	19:nummod	_
+18	cabinet	cabinet	NOUN	NN	SG;N	19	compound	19:compound	_
+19	secretaries	secretary	NOUN	NNS	N;PL	16	obj	16:obj	SpaceAfter=No
+20	,	,	PUNCT	,	_	27	punct	27:punct	_
+21	the	the	DET	DT	DEF;DET	27	det	27:det	_
+22	six	six	NUM	CD	NUM	27	nummod	27:nummod	_
+23	most	most	ADV	RBS	RL;ADV	24	advmod	24:advmod	_
+24	powerful	powerful	ADJ	JJ	ADJ	27	amod	27:amod	_
+25	White	White	ADJ	NNP	ADJ	26	amod	26:amod	_
+26	House	House	PROPN	NNP	PROPN;SG	27	compound	27:compound	_
+27	officials	official	NOUN	NNS	N;PL	19	conj	16:obj|19:conj:and	SpaceAfter=No
+28	,	,	PUNCT	,	_	37	punct	37:punct	_
+29	and	and	CCONJ	CC	CONJ	37	cc	37:cc	_
+30	more	more	ADJ	JJR	CMPR;ADJ	32	advmod	32:advmod	_
+31	than	than	ADP	IN	ADP	30	fixed	30:fixed	_
+32	20	20	NUM	CD	NUM	37	nummod	37:nummod	_
+33	other	other	ADJ	JJ	ADJ	37	amod	37:amod	_
+34	high	high	ADJ	JJ	ADJ	36	amod	36:amod	SpaceAfter=No
+35	-	-	PUNCT	HYPH	_	34	punct	34:punct	SpaceAfter=No
+36	level	level	NOUN	NN	SG;N	37	compound	37:compound	_
+37	appointees	appointee	NOUN	NNS	N;PL	19	conj	16:obj|19:conj:and	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	_	16	punct	16:punct	SpaceAfter=No
+39	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0018
+# text = 50= Approximate number of policy changes and regulation rollbacks injurious to the environment that have been announced by the Bush administration on Fridays after 5pm, a time that makes it all but impossible for news organisations to relay the information to the widest possible audience.
+1	50	50	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	=	-	PUNCT	:	_	4	punct	4:punct	CorrectForm=-
+3	Approximate	approximate	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	policy	policy	NOUN	NN	SG;N	7	compound	7:compound	_
+7	changes	change	NOUN	NNS	N;PL	4	nmod	4:nmod:of|18:nsubj:pass	_
+8	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	regulation	regulation	NOUN	NN	SG;N	10	compound	10:compound	_
+10	rollbacks	rollback	NOUN	NNS	N;PL	7	conj	4:nmod:of|7:conj:and|18:nsubj:pass	_
+11	injurious	injurious	ADJ	JJ	ADJ	7	amod	7:amod	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	environment	environment	NOUN	NN	SG;N	11	obl	11:obl:to	_
+15	that	that	PRON	WDT	PRO	18	nsubj:pass	7:ref	_
+16	have	have	AUX	VBP	3;PRS;IND;FIN;PL;V	18	aux	18:aux	_
+17	been	be	AUX	VBN	V;V.PTCP;PST	18	aux:pass	18:aux:pass	_
+18	announced	announce	VERB	VBN	V;V.PTCP;PST;PASS	7	acl:relcl	7:acl:relcl	Cxn=rc-that-nsubj:pass
+19	by	by	ADP	IN	ADP	22	case	22:case	_
+20	the	the	DET	DT	DEF;DET	22	det	22:det	_
+21	Bush	Bush	PROPN	NNP	PROPN;SG	22	compound	22:compound	_
+22	administration	administration	NOUN	NN	SG;N	18	obl:agent	18:obl:agent	_
+23	on	on	ADP	IN	ADP	24	case	24:case	_
+24	Fridays	Friday	PROPN	NNPS	PROPN;PL	18	obl	18:obl:on	_
+25	after	after	ADP	IN	ADP	27	case	27:case	_
+26	5	5	NUM	CD	NUM	27	nummod	27:nummod	SpaceAfter=No
+27	pm	p.m.	NOUN	NN	SG;N	24	nmod	24:nmod:after	SpaceAfter=No
+28	,	,	PUNCT	,	_	30	punct	30:punct	_
+29	a	a	DET	DT	DET;INDF	30	det	30:det	_
+30	time	time	NOUN	NN	SG;N	24	appos	24:appos|32:nsubj	_
+31	that	that	PRON	WDT	PRO	32	nsubj	30:ref	_
+32	makes	make	VERB	VBZ	V;3;PRS;IND;FIN;SG	30	acl:relcl	30:acl:relcl	Cxn=rc-that-nsubj
+33	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	32	expl	32:expl	_
+34	all	all	DET	RB	DET	36	advmod	36:advmod	_
+35	but	but	ADP	RB	ADP	34	fixed	34:fixed	_
+36	impossible	impossible	ADJ	JJ	ADJ	32	xcomp	32:xcomp	_
+37	for	for	SCONJ	IN	CONJ	41	mark	41:mark	_
+38	news	news	NOUN	NN	SG;N	39	compound	39:compound	_
+39	organisations	organisation	NOUN	NNS	N;PL	41	nsubj	41:nsubj	_
+40	to	to	PART	TO	PART	41	mark	41:mark	_
+41	relay	relay	VERB	VB	V;NFIN	32	ccomp	32:ccomp|36:csubj:xsubj	_
+42	the	the	DET	DT	DEF;DET	43	det	43:det	_
+43	information	information	NOUN	NN	SG;N	41	obj	41:obj	_
+44	to	to	ADP	IN	ADP	48	case	48:case	_
+45	the	the	DET	DT	DEF;DET	48	det	48:det	_
+46	widest	wide	ADJ	JJS	ADJ;RL	48	amod	48:amod	_
+47	possible	possible	ADJ	JJ	ADJ	48	amod	48:amod	_
+48	audience	audience	NOUN	NN	SG;N	41	obl	41:obl:to	SpaceAfter=No
+49	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0019
+# text = 50 - Percentage decline in Environmental Protection Agency enforcement actions against polluters under Bush's watch.
+1	50	50	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	4	compound	4:compound	_
+4	decline	decline	NOUN	NN	SG;N	1	appos	1:appos	_
+5	in	in	ADP	IN	ADP	10	case	10:case	_
+6	Environmental	Environmental	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Protection	Protection	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Agency	Agency	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+9	enforcement	enforcement	NOUN	NN	SG;N	10	compound	10:compound	_
+10	actions	action	NOUN	NNS	N;PL	4	nmod	4:nmod:in	_
+11	against	against	ADP	IN	ADP	12	case	12:case	_
+12	polluters	polluter	NOUN	NNS	N;PL	10	nmod	10:nmod:against	_
+13	under	under	ADP	IN	ADP	16	case	16:case	_
+14-15	Bush's	_	_	_	_	_	_	_	_
+14	Bush	Bush	PROPN	NNP	PROPN;SG	16	nmod:poss	16:nmod:poss	_
+15	's	's	PART	POS	PART	14	case	14:case	_
+16	watch	watch	NOUN	NN	SG;N	4	nmod	4:nmod:under	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0020
+# text = 34 - Percentage decline in criminal penalties for environmental crimes since Bush took office.
+1	34	34	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	4	compound	4:compound	_
+4	decline	decline	NOUN	NN	SG;N	1	appos	1:appos	_
+5	in	in	ADP	IN	ADP	7	case	7:case	_
+6	criminal	criminal	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	penalties	penalty	NOUN	NNS	N;PL	4	nmod	4:nmod:in	_
+8	for	for	ADP	IN	ADP	10	case	10:case	_
+9	environmental	environmental	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	crimes	crime	NOUN	NNS	N;PL	7	nmod	7:nmod:for	_
+11	since	since	SCONJ	IN	CONJ	13	mark	13:mark	_
+12	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+13	took	take	VERB	VBD	V;3;IND;FIN;PST;SG	4	acl	4:acl:since	_
+14	office	office	NOUN	NN	SG;N	13	obj	13:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0021
+# text = 50 - Percentage decline in civil penalties for environmental crimes since Bush took office.
+1	50	50	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	4	compound	4:compound	_
+4	decline	decline	NOUN	NN	SG;N	1	appos	1:appos	_
+5	in	in	ADP	IN	ADP	7	case	7:case	_
+6	civil	civil	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	penalties	penalty	NOUN	NNS	N;PL	4	nmod	4:nmod:in	_
+8	for	for	ADP	IN	ADP	10	case	10:case	_
+9	environmental	environmental	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	crimes	crime	NOUN	NNS	N;PL	7	nmod	7:nmod:for	_
+11	since	since	SCONJ	IN	CONJ	13	mark	13:mark	_
+12	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+13	took	take	VERB	VBD	V;3;IND;FIN;PST;SG	4	acl	4:acl:since	_
+14	office	office	NOUN	NN	SG;N	13	obj	13:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0022
+# text = $6.1m - Amount the EPA historically valued each human life when conducting economic analyses of proposed regulations.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	6.1	6.1	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	SG;N	1	appos	1:appos|9:obl	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	EPA	EPA	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+8	historically	historically	ADV	RB	ADV	9	advmod	9:advmod	_
+9	valued	value	VERB	VBD	V;3;IND;FIN;PST;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+10	each	each	DET	DT	DET	12	det	12:det	_
+11	human	human	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	life	life	NOUN	NN	SG;N	9	obj	9:obj	_
+13	when	when	ADV	WRB	ADV	14	advmod	14:advmod	_
+14	conducting	conduct	VERB	VBG	V;V.PTCP;PRS	9	advcl	9:advcl:when	_
+15	economic	economic	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	analyses	analysis	NOUN	NNS	N;PL	14	obj	14:obj	_
+17	of	of	ADP	IN	ADP	19	case	19:case	_
+18	proposed	propose	VERB	VBN	V;V.PTCP;PST;PASS	19	amod	19:amod	_
+19	regulations	regulation	NOUN	NNS	N;PL	16	nmod	16:nmod:of	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0023
+# text = $3.7m - Amount the EPA valued each human life when conducting analyses of proposed regulations during the Bush administration.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	3.7	3.7	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	SG;N	1	appos	1:appos|8:obl	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	EPA	EPA	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+8	valued	value	VERB	VBD	V;3;IND;FIN;PST;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+9	each	each	DET	DT	DET	11	det	11:det	_
+10	human	human	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	life	life	NOUN	NN	SG;N	8	obj	8:obj	_
+12	when	when	ADV	WRB	ADV	13	advmod	13:advmod	_
+13	conducting	conduct	VERB	VBG	V;V.PTCP;PRS	8	advcl	8:advcl:when	_
+14	analyses	analysis	NOUN	NNS	N;PL	13	obj	13:obj	_
+15	of	of	ADP	IN	ADP	17	case	17:case	_
+16	proposed	propose	VERB	VBN	V;V.PTCP;PST;PASS	17	amod	17:amod	_
+17	regulations	regulation	NOUN	NNS	N;PL	14	nmod	14:nmod:of	_
+18	during	during	ADP	IN	ADP	21	case	21:case	_
+19	the	the	DET	DT	DEF;DET	21	det	21:det	_
+20	Bush	Bush	PROPN	NNP	PROPN;SG	21	compound	21:compound	_
+21	administration	administration	NOUN	NN	SG;N	8	obl	8:obl:during	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0024
+# text = 62 - Number of members of Cheney's 63-person Energy Task Force with ties to corporate energy interests.
+1	62	62	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	members	member	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	of	of	ADP	IN	ADP	14	case	14:case	_
+7-8	Cheney's	_	_	_	_	_	_	_	_
+7	Cheney	Cheney	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+8	's	's	PART	POS	PART	7	case	7:case	_
+9	63	63	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	person	person	NOUN	NN	SG;N	14	compound	14:compound	_
+12	Energy	Energy	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+13	Task	Task	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	Force	Force	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:of	_
+15	with	with	ADP	IN	ADP	16	case	16:case	_
+16	ties	tie	NOUN	NNS	N;PL	5	nmod	5:nmod:with	_
+17	to	to	ADP	IN	ADP	20	case	20:case	_
+18	corporate	corporate	ADJ	JJ	ADJ	20	amod	20:amod	_
+19	energy	energy	NOUN	NN	SG;N	20	compound	20:compound	_
+20	interests	interest	NOUN	NNS	N;PL	16	nmod	16:nmod:to	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0025
+# text = 0 - Number of environmentalists asked to attend Cheney's Energy Task Force meetings.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	environmentalists	environmentalist	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	asked	ask	VERB	VBN	V;V.PTCP;PST;PASS	5	acl	5:acl	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	attend	attend	VERB	VB	V;NFIN	6	xcomp	6:xcomp	_
+9-10	Cheney's	_	_	_	_	_	_	_	_
+9	Cheney	Cheney	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+10	's	's	PART	POS	PART	9	case	9:case	_
+11	Energy	Energy	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+12	Task	Task	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	Force	Force	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	meetings	meeting	NOUN	NNS	N;PL	8	obj	8:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0026
+# text = 6 - Number of months before 11 September that Cheney's Energy Task Force investigated Iraq's oil reserves.
+1	6	6	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	months	month	NOUN	NNS	N;PL	3	nmod	3:nmod:of|15:obl:npmod	_
+6	before	before	ADP	IN	ADP	8	case	8:case	_
+7	11	11	NUM	CD	NUM	8	nummod	8:nummod	_
+8	September	September	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:before	_
+9	that	that	PRON	WDT	PRO	15	obl:npmod	5:ref	_
+10-11	Cheney's	_	_	_	_	_	_	_	_
+10	Cheney	Cheney	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+11	's	's	PART	POS	PART	10	case	10:case	_
+12	Energy	Energy	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+13	Task	Task	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	Force	Force	PROPN	NNP	PROPN;SG	15	nsubj	15:nsubj	_
+15	investigated	investigate	VERB	VBD	V;3;IND;FIN;PST;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obl:npmod
+16-17	Iraq's	_	_	_	_	_	_	_	_
+16	Iraq	Iraq	PROPN	NNP	PROPN;SG	19	nmod:poss	19:nmod:poss	_
+17	's	's	PART	POS	PART	16	case	16:case	_
+18	oil	oil	NOUN	NN	SG;N	19	compound	19:compound	_
+19	reserves	reserve	NOUN	NNS	N;PL	15	obj	15:obj	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0027
+# text = 2 - Percentage of the world's population that is British.
+1	2	2	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|11:nsubj	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6-7	world's	_	_	_	_	_	_	_	_
+6	world	world	NOUN	NN	SG;N	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	population	population	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+9	that	that	PRON	WDT	PRO	11	nsubj	3:ref	_
+10	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	cop	11:cop	_
+11	British	British	ADJ	JJ	ADJ	3	acl:relcl	3:acl:relcl	Cxn=rc-that-nsubj|SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0028
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0004
+# text = 2 - Percentage of the world's oil used by Britain.
+1	2	2	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6-7	world's	_	_	_	_	_	_	_	_
+6	world	world	NOUN	NN	SG;N	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	oil	oil	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+9	used	use	VERB	VBN	V;V.PTCP;PST;PASS	3	acl	3:acl	_
+10	by	by	ADP	IN	ADP	11	case	11:case	_
+11	Britain	Britain	PROPN	NNP	PROPN;SG	9	obl:agent	9:obl:agent	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0029
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0005
+# text = 5 - Percentage of the world's population that is American.
+1	5	5	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|11:nsubj	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6-7	world's	_	_	_	_	_	_	_	_
+6	world	world	NOUN	NN	SG;N	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	population	population	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+9	that	that	PRON	WDT	PRO	11	nsubj	3:ref	_
+10	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	cop	11:cop	_
+11	American	American	ADJ	JJ	ADJ	3	acl:relcl	3:acl:relcl	Cxn=rc-that-nsubj|SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0030
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0006
+# text = 25 - Percentage of the world's oil used by America.
+1	25	25	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6-7	world's	_	_	_	_	_	_	_	_
+6	world	world	NOUN	NN	SG;N	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	oil	oil	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+9	used	use	VERB	VBN	V;V.PTCP;PST;PASS	3	acl	3:acl	_
+10	by	by	ADP	IN	ADP	11	case	11:case	_
+11	America	America	PROPN	NNP	PROPN;SG	9	obl:agent	9:obl:agent	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0031
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0007
+# text = 63 - Percentage of oil the United States imported in 2003, a record high.
+1	63	63	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|9:obj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	oil	oil	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	United	United	ADJ	NNP	ADJ	8	amod	8:amod	_
+8	States	State	PROPN	NNPS	PROPN;PL	9	nsubj	9:nsubj	_
+9	imported	import	VERB	VBD	V;3;IND;FIN;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obj
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	2003	2003	NUM	CD	NUM	9	obl	9:obl:in	SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	15:punct	_
+13	a	a	DET	DT	DET;INDF	15	det	15:det	_
+14	record	record	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	high	high	NOUN	NN	SG;N	3	appos	3:appos	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0032
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0008
+# text = 24,000 - Estimated number of premature deaths that will occur under Bush's Clear Skies initiative.
+1	24,000	24000	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Estimated	estimate	VERB	VBN	V;V.PTCP;PST;PASS	4	amod	4:amod	_
+4	number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	premature	premature	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	deaths	death	NOUN	NNS	N;PL	4	nmod	4:nmod:of|10:nsubj	_
+8	that	that	PRON	WDT	PRO	10	nsubj	7:ref	_
+9	will	will	AUX	MD	V;FIN	10	aux	10:aux	_
+10	occur	occur	VERB	VB	V;NFIN	7	acl:relcl	7:acl:relcl	Cxn=rc-that-nsubj
+11	under	under	ADP	IN	ADP	16	case	16:case	_
+12-13	Bush's	_	_	_	_	_	_	_	_
+12	Bush	Bush	PROPN	NNP	PROPN;SG	16	nmod:poss	16:nmod:poss	_
+13	's	's	PART	POS	PART	12	case	12:case	_
+14	Clear	Clear	ADJ	NNP	ADJ	15	amod	15:amod	_
+15	Skies	Sky	PROPN	NNPS	PROPN;PL	16	compound	16:compound	_
+16	initiative	initiative	NOUN	NN	SG;N	10	obl	10:obl:under	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0033
+# text = 300 - Number of Clean Water Act violations by the mountaintop-mining industry in 2003.
+1	300	300	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	Clean	Clean	ADJ	NNP	ADJ	7	amod	7:amod	_
+6	Water	Water	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	Act	Act	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	violations	violation	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	by	by	ADP	IN	ADP	14	case	14:case	_
+10	the	the	DET	DT	DEF;DET	14	det	14:det	_
+11	mountaintop	mountaintop	NOUN	NN	SG;N	13	compound	13:compound	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+13	mining	mining	NOUN	NN	SG;N	14	compound	14:compound	_
+14	industry	industry	NOUN	NN	SG;N	8	nmod	8:nmod:by	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	2003	2003	NUM	CD	NUM	8	nmod	8:nmod:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0034
+# text = 750,000 - Tons of toxic waste the US military, the world's biggest polluter, generates around the world each year.
+1	750,000	750000	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Tons	ton	NOUN	NNS	N;PL	1	appos	1:appos|17:obj	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	toxic	toxic	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	waste	waste	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	US	US	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	military	military	NOUN	NN	SG;N	17	nsubj	17:nsubj	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	15:punct	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12-13	world's	_	_	_	_	_	_	_	_
+12	world	world	NOUN	NN	SG;N	15	nmod:poss	15:nmod:poss	_
+13	's	's	PART	POS	PART	12	case	12:case	_
+14	biggest	big	ADJ	JJS	ADJ;RL	15	amod	15:amod	_
+15	polluter	polluter	NOUN	NN	SG;N	9	appos	9:appos	SpaceAfter=No
+16	,	,	PUNCT	,	_	9	punct	9:punct	_
+17	generates	generate	VERB	VBZ	V;3;PRS;IND;FIN;SG	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obj
+18	around	around	ADP	IN	ADP	20	case	20:case	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	world	world	NOUN	NN	SG;N	17	obl	17:obl:around	_
+21	each	each	DET	DT	DET	22	det	22:det	_
+22	year	year	NOUN	NN	SG;N	17	obl:tmod	17:obl:tmod	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0035
+# text = $3.8bn - Amount in the Superfund trust fund for toxic site clean-ups in 1995, the Year "polluter pays" fees expired.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	3.8	3.8	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	bn	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	SG;N	1	appos	1:appos	_
+6	in	in	ADP	IN	ADP	10	case	10:case	_
+7	the	the	DET	DT	DEF;DET	10	det	10:det	_
+8	Superfund	Superfund	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+9	trust	trust	NOUN	NN	SG;N	10	compound	10:compound	_
+10	fund	fund	NOUN	NN	SG;N	5	nmod	5:nmod:in	_
+11	for	for	ADP	IN	ADP	16	case	16:case	_
+12	toxic	toxic	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	site	site	NOUN	NN	SG;N	16	compound	16:compound	_
+14	clean	clean	NOUN	NN	SG;N	16	compound	16:compound	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+16	ups	up	NOUN	NNS	N;PL	10	nmod	10:nmod:for	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	1995	1995	NUM	CD	NUM	5	nmod	5:nmod:in	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	21:punct	_
+20	the	the	DET	DT	DEF;DET	21	det	21:det	_
+21	Year	year	NOUN	NN	SG;N	18	appos	18:appos|27:obl	_
+22	"	"	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
+23	polluter	polluter	NOUN	NN	SG;N	24	nsubj	24:nsubj	_
+24	pays	pay	VERB	VBZ	V;3;PRS;IND;FIN;SG	26	compound	26:compound	SpaceAfter=No
+25	"	"	PUNCT	''	_	24	punct	24:punct	_
+26	fees	fee	NOUN	NNS	N;PL	27	nsubj	27:nsubj	_
+27	expired	expire	VERB	VBD	V;3;IND;FIN;PST;PL	21	acl:relcl	21:acl:relcl	Cxn=rc-red-obl|SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0036
+# text = $0 - Amount of uncommitted dollars in the Superfund trust fund for toxic site clean-ups in 2003.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	0	0	NUM	CD	NUM	1	nummod	1:nummod	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Amount	amount	NOUN	NN	SG;N	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	uncommitted	uncommitted	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	dollars	dollar	NOUN	NNS	N;PL	4	nmod	4:nmod:of	_
+8	in	in	ADP	IN	ADP	12	case	12:case	_
+9	the	the	DET	DT	DEF;DET	12	det	12:det	_
+10	Superfund	Superfund	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+11	trust	trust	NOUN	NN	SG;N	12	compound	12:compound	_
+12	fund	fund	NOUN	NN	SG;N	4	nmod	4:nmod:in	_
+13	for	for	ADP	IN	ADP	18	case	18:case	_
+14	toxic	toxic	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	site	site	NOUN	NN	SG;N	18	compound	18:compound	_
+16	clean	clean	NOUN	NN	SG;N	18	compound	18:compound	SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+18	ups	up	NOUN	NNS	N;PL	12	nmod	12:nmod:for	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	2003	2003	NUM	CD	NUM	4	nmod	4:nmod:in	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0037
+# text = 270 - Estimated number of court decisions citing federal Negligence in endangered-species protection that remained unheeded during the first year of the Bush administration.
+1	270	270	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Estimated	estimate	VERB	VBN	V;V.PTCP;PST;PASS	4	amod	4:amod	_
+4	number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	court	court	NOUN	NN	SG;N	7	compound	7:compound	_
+7	decisions	decision	NOUN	NNS	N;PL	4	nmod	4:nmod:of|17:nsubj|18:nsubj:xsubj	_
+8	citing	cite	VERB	VBG	V;V.MSDR	7	acl	7:acl	_
+9	federal	federal	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	Negligence	negligence	NOUN	NN	SG;N	8	obj	8:obj	_
+11	in	in	ADP	IN	ADP	15	case	15:case	_
+12	endangered	endangered	ADJ	JJ	ADJ	14	amod	14:amod	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
+14	species	species	NOUN	NN	SG;N	15	compound	15:compound	_
+15	protection	protection	NOUN	NN	SG;N	8	obl	8:obl:in	_
+16	that	that	PRON	WDT	PRO	17	nsubj	7:ref	_
+17	remained	remain	VERB	VBD	V;3;IND;FIN;PST;SG	7	acl:relcl	7:acl:relcl	Cxn=rc-that-nsubj
+18	unheeded	unheeded	ADJ	JJ	ADJ	17	xcomp	17:xcomp	_
+19	during	during	ADP	IN	ADP	22	case	22:case	_
+20	the	the	DET	DT	DEF;DET	22	det	22:det	_
+21	first	first	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	year	year	NOUN	NN	SG;N	18	obl	18:obl:during	_
+23	of	of	ADP	IN	ADP	26	case	26:case	_
+24	the	the	DET	DT	DEF;DET	26	det	26:det	_
+25	Bush	Bush	PROPN	NNP	PROPN;SG	26	compound	26:compound	_
+26	administration	administration	NOUN	NN	SG;N	22	nmod	22:nmod:of	SpaceAfter=No
+27	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0038
+# text = 100 - Percentage of those decisions that Bush then decided to allow the government to ignore indefinitely.
+1	100	100	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|16:obj	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	those	that	DET	DT	PL;DET	6	det	6:det	_
+6	decisions	decision	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+7	that	that	PRON	WDT	PRO	16	obj	3:ref	_
+8	Bush	Bush	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+9	then	then	ADV	RB	ADV	10	advmod	10:advmod	_
+10	decided	decide	VERB	VBD	V;3;IND;FIN;PST;SG	3	acl:relcl	3:acl:relcl	Cxn=rc-that-obj_xcomp_xcomp
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	allow	allow	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	government	government	NOUN	NN	SG;N	12	iobj	12:iobj|16:nsubj:xsubj	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	ignore	ignore	VERB	VB	V;NFIN	12	xcomp	12:xcomp	_
+17	indefinitely	indefinitely	ADV	RB	ADV	16	advmod	16:advmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0039
+# text = 50- Percentage of screened workers at Ground Zero who now suffer from long-term health problems, almost half of whom don't have health insurance.
+1	50	50	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	screened	screen	VERB	VBN	V;V.PTCP;PST;PASS	6	amod	6:amod	_
+6	workers	worker	NOUN	NNS	N;PL	3	nmod	3:nmod:of|12:nsubj|21:nmod:of	_
+7	at	at	ADP	IN	ADP	9	case	9:case	_
+8	Ground	Ground	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Zero	Zero	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:at	_
+10	who	who	PRON	WP	PRO	12	nsubj	6:ref	_
+11	now	now	ADV	RB	ADV	12	advmod	12:advmod	_
+12	suffer	suffer	VERB	VBP	V;3;PRS;IND;FIN;PL	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj
+13	from	from	ADP	IN	ADP	18	case	18:case	_
+14	long	long	ADJ	JJ	ADJ	16	amod	16:amod	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+16	term	term	NOUN	NN	SG;N	18	compound	18:compound	_
+17	health	health	NOUN	NN	SG;N	18	compound	18:compound	_
+18	problems	problem	NOUN	NNS	N;PL	12	obl	12:obl:from	SpaceAfter=No
+19	,	,	PUNCT	,	_	26	punct	26:punct	_
+20	almost	almost	ADV	RB	ADV	21	advmod	21:advmod	_
+21	half	half	NOUN	NN	SG;N	26	nsubj	26:nsubj	_
+22	of	of	ADP	IN	ADP	23	case	23:case	_
+23	whom	whom	PRON	WP	PRO	21	nmod	6:ref	_
+24-25	don't	_	_	_	_	_	_	_	_
+24	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	26	aux	26:aux	_
+25	n't	not	PART	RB	PART	26	advmod	26:advmod	_
+26	have	have	VERB	VB	V;NFIN	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj-pfront
+27	health	health	NOUN	NN	SG;N	28	compound	28:compound	_
+28	insurance	insurance	NOUN	NN	SG;N	26	obj	26:obj	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0040
+# text = 78 - Percentage of workers at Ground Zero who now suffer from lung ailments.
+1	78	78	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|11:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	workers	worker	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	at	at	ADP	IN	ADP	8	case	8:case	_
+7	Ground	Ground	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Zero	Zero	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:at	_
+9	who	who	PRON	WP	PRO	11	nsubj	3:ref	_
+10	now	now	ADV	RB	ADV	11	advmod	11:advmod	_
+11	suffer	suffer	VERB	VBP	V;3;PRS;IND;FIN;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+12	from	from	ADP	IN	ADP	14	case	14:case	_
+13	lung	lung	NOUN	NN	SG;N	14	compound	14:compound	_
+14	ailments	ailment	NOUN	NNS	N;PL	11	obl	11:obl:from	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0041
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0009
+# text = 88 - Percentage of workers at Ground Zero who Now suffer from ear, nose, or throat problems.
+1	88	88	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	SG;N	1	appos	1:appos|11:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	workers	worker	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	at	at	ADP	IN	ADP	8	case	8:case	_
+7	Ground	Ground	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Zero	Zero	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:at	_
+9	who	who	PRON	WP	PRO	11	nsubj	3:ref	_
+10	Now	now	ADV	RB	ADV	11	advmod	11:advmod	_
+11	suffer	suffer	VERB	VBP	V;3;PRS;IND;FIN;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+12	from	from	ADP	IN	ADP	19	case	19:case	_
+13	ear	ear	NOUN	NN	SG;N	19	compound	19:compound	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	nose	nose	NOUN	NN	SG;N	13	conj	13:conj:or|19:compound	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	18:punct	_
+17	or	or	CCONJ	CC	CONJ	18	cc	18:cc	_
+18	throat	throat	NOUN	NN	SG;N	13	conj	13:conj:or|19:compound	_
+19	problems	problem	NOUN	NNS	N;PL	11	obl	11:obl:from	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0042
+# text = 22 - Asbestos levels at Ground Zero were 22 times higher than the levels in Libby, Montana, where the W R Grace mine produced one of the worst Superfund disasters in US history.
+1	22	22	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	11	punct	11:punct	_
+3	Asbestos	asbestos	NOUN	NN	SG;N	4	compound	4:compound	_
+4	levels	level	NOUN	NNS	N;PL	11	nsubj	11:nsubj	_
+5	at	at	ADP	IN	ADP	7	case	7:case	_
+6	Ground	Ground	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	Zero	Zero	PROPN	NNP	PROPN;SG	4	nmod	4:nmod:at	_
+8	were	be	AUX	VBD	3;IND;FIN;PST;PL;V	11	cop	11:cop	_
+9	22	22	NUM	CD	NUM	10	nummod	10:nummod	_
+10	times	time	NOUN	NNS	N;PL	11	obl:npmod	11:obl:npmod	_
+11	higher	high	ADJ	JJR	CMPR;ADJ	1	appos	1:appos	_
+12	than	than	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	levels	level	NOUN	NNS	N;PL	11	obl	11:obl:than	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	Libby	Libby	PROPN	NNP	PROPN;SG	14	nmod	14:nmod:in|26:obl	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	Montana	Montana	PROPN	NNP	PROPN;SG	16	appos	16:appos	SpaceAfter=No
+19	,	,	PUNCT	,	_	26	punct	26:punct	_
+20	where	where	ADV	WRB	ADV	26	advmod	16:ref	_
+21	the	the	DET	DT	DEF;DET	25	det	25:det	_
+22	W	W	PROPN	NNP	PROPN;SG	24	compound	24:compound	_
+23	R	R	PROPN	NNP	PROPN;SG	24	compound	24:compound	_
+24	Grace	Grace	PROPN	NNP	PROPN;SG	25	compound	25:compound	_
+25	mine	mine	NOUN	NN	SG;N	26	nsubj	26:nsubj	_
+26	produced	produce	VERB	VBD	V;3;IND;FIN;PST;SG	16	acl:relcl	16:acl:relcl	Cxn=rc-wh-obl
+27	one	one	NUM	CD	NUM	26	obj	26:obj	_
+28	of	of	ADP	IN	ADP	32	case	32:case	_
+29	the	the	DET	DT	DEF;DET	32	det	32:det	_
+30	worst	bad	ADJ	JJS	ADJ;RL	32	amod	32:amod	_
+31	Superfund	Superfund	PROPN	NNP	PROPN;SG	32	compound	32:compound	_
+32	disasters	disaster	NOUN	NNS	N;PL	27	nmod	27:nmod:of	_
+33	in	in	ADP	IN	ADP	35	case	35:case	_
+34	US	US	PROPN	NNP	PROPN;SG	35	compound	35:compound	_
+35	history	history	NOUN	NN	SG;N	32	nmod	32:nmod:in	SpaceAfter=No
+36	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0043
+# text = 1 - Number of Bush administration public statements on National security issued between 20 January 2001 and 10 September 2001 that mentioned al-Qa'ida.
+1	1	1	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	administration	administration	NOUN	NN	SG;N	8	compound	8:compound	_
+7	public	public	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	statements	statement	NOUN	NNS	N;PL	3	nmod	3:nmod:of|22:nsubj	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	National	national	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	security	security	NOUN	NN	SG;N	8	nmod	8:nmod:on	_
+12	issued	issue	VERB	VBN	V;V.PTCP;PST;PASS	8	acl	8:acl	_
+13	between	between	ADP	IN	ADP	15	case	15:case	_
+14	20	20	NUM	CD	NUM	15	nummod	15:nummod	_
+15	January	January	PROPN	NNP	PROPN;SG	12	obl	12:obl:between	_
+16	2001	2001	NUM	CD	NUM	15	nummod	15:nummod	_
+17	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+18	10	10	NUM	CD	NUM	19	nummod	19:nummod	_
+19	September	September	PROPN	NNP	PROPN;SG	15	conj	12:obl:between|15:conj:and	_
+20	2001	2001	NUM	CD	NUM	19	nummod	19:nummod	_
+21	that	that	PRON	WDT	PRO	22	nsubj	8:ref	_
+22	mentioned	mention	VERB	VBD	V;3;IND;FIN;PST;PL	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+23	al	al	PROPN	NNP	PROPN;SG	25	compound	25:compound	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	23:punct	SpaceAfter=No
+25	Qa'ida	Qa'ida	PROPN	NNP	PROPN;SG	22	obj	22:obj	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0044
+# text = 104 - Number of Bush administration public statements on National security and defense in the same period that mentioned Iraq or Saddam Hussein.
+1	104	104	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	administration	administration	NOUN	NN	SG;N	8	compound	8:compound	_
+7	public	public	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	statements	statement	NOUN	NNS	N;PL	3	nmod	3:nmod:of|19:nsubj	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	National	national	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	security	security	NOUN	NN	SG;N	8	nmod	8:nmod:on	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	defense	defense	NOUN	NN	SG;N	11	conj	8:nmod:on|11:conj:and	_
+14	in	in	ADP	IN	ADP	17	case	17:case	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	same	same	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	period	period	NOUN	NN	SG;N	8	nmod	8:nmod:in	_
+18	that	that	PRON	WDT	PRO	19	nsubj	8:ref	_
+19	mentioned	mention	VERB	VBD	V;3;IND;FIN;PST;PL	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+20	Iraq	Iraq	PROPN	NNP	PROPN;SG	19	obj	19:obj	_
+21	or	or	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	Saddam	Saddam	PROPN	NNP	PROPN;SG	20	conj	19:obj|20:conj:or	_
+23	Hussein	Hussein	PROPN	NNP	PROPN;SG	22	flat	22:flat	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0045
+# text = 101 - Number of Bush administration public statements on National security and defense in the same period that mentioned missile defence.
+1	101	101	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	administration	administration	NOUN	NN	SG;N	8	compound	8:compound	_
+7	public	public	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	statements	statement	NOUN	NNS	N;PL	3	nmod	3:nmod:of|19:nsubj	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	National	national	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	security	security	NOUN	NN	SG;N	8	nmod	8:nmod:on	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	defense	defense	NOUN	NN	SG;N	11	conj	8:nmod:on|11:conj:and	_
+14	in	in	ADP	IN	ADP	17	case	17:case	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	same	same	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	period	period	NOUN	NN	SG;N	8	nmod	8:nmod:in	_
+18	that	that	PRON	WDT	PRO	19	nsubj	8:ref	_
+19	mentioned	mention	VERB	VBD	V;3;IND;FIN;PST;PL	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+20	missile	missile	NOUN	NN	SG;N	21	compound	21:compound	_
+21	defence	defence	NOUN	NN	SG;N	19	obj	19:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0046
+# text = 65 - Number of Bush administration public statements on National security and defense in the same period that mentioned weapons of mass destruction.
+1	65	65	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	administration	administration	NOUN	NN	SG;N	8	compound	8:compound	_
+7	public	public	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	statements	statement	NOUN	NNS	N;PL	3	nmod	3:nmod:of|19:nsubj	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	National	national	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	security	security	NOUN	NN	SG;N	8	nmod	8:nmod:on	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	defense	defense	NOUN	NN	SG;N	11	conj	8:nmod:on|11:conj:and	_
+14	in	in	ADP	IN	ADP	17	case	17:case	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	same	same	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	period	period	NOUN	NN	SG;N	8	nmod	8:nmod:in	_
+18	that	that	PRON	WDT	PRO	19	nsubj	8:ref	_
+19	mentioned	mention	VERB	VBD	V;3;IND;FIN;PST;PL	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+20	weapons	weapon	NOUN	NNS	N;PL	19	obj	19:obj	_
+21	of	of	ADP	IN	ADP	23	case	23:case	_
+22	mass	mass	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	destruction	destruction	NOUN	NN	SG;N	20	nmod	20:nmod:of	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+

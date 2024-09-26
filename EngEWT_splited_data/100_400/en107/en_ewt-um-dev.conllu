@@ -1,0 +1,80 @@
+# sent_id = email-enronsent30_02-0027
+# text = Constance,
+1	Constance	Constance	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent30_02-0028
+# newpar id = email-enronsent30_02-p0009
+# text = I was on vacation from October 4th to October 19th and I didn't submit my timesheet yet.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	4	cop	4:cop	_
+3	on	on	ADP	IN	ADP	4	case	4:case	_
+4	vacation	vacation	NOUN	NN	SG;N	0	root	0:root	_
+5	from	from	ADP	IN	ADP	6	case	6:case	_
+6	October	October	PROPN	NNP	SG;PROPN	4	obl	4:obl:from	_
+7	4th	4th	NOUN	NN	SG;N	6	nummod	6:nummod	_
+8	to	to	ADP	IN	ADP	9	case	9:case	_
+9	October	October	PROPN	NNP	SG;PROPN	4	obl	4:obl:to	_
+10	19th	19th	NOUN	NN	SG;N	9	nummod	9:nummod	_
+11	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+12	I	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj	_
+13-14	didn't	_	_	_	_	_	_	_	_
+13	did	do	AUX	VBD	FIN;1;V;IND;SG;PST	15	aux	15:aux	_
+14	n't	not	PART	RB	PART	15	advmod	15:advmod	_
+15	submit	submit	VERB	VB	NFIN;V	4	conj	4:conj:and	_
+16	my	my	PRON	PRP$	PRO;GEN;1;SG	17	nmod:poss	17:nmod:poss	_
+17	timesheet	timesheet	NOUN	NN	SG;N	15	obj	15:obj	_
+18	yet	yet	ADV	RB	ADV	15	advmod	15:advmod	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent30_02-0029
+# text = I tried to do it on the HRonline web-site, but the procedure is too complicated.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	tried	try	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	do	do	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	4	obj	4:obj	_
+6	on	on	ADP	IN	ADP	11	case	11:case	_
+7	the	the	DET	DT	DET;DEF	11	det	11:det	_
+8	HRonline	HRonline	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+9	web	web	NOUN	NN	SG;N	11	compound	11:compound	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	site	site	NOUN	NN	SG;N	4	obl	4:obl:on	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	18:punct	_
+13	but	but	CCONJ	CC	CONJ	18	cc	18:cc	_
+14	the	the	DET	DT	DET;DEF	15	det	15:det	_
+15	procedure	procedure	NOUN	NN	SG;N	18	nsubj	18:nsubj	_
+16	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	18	cop	18:cop	_
+17	too	too	ADV	RB	ADV	18	advmod	18:advmod	_
+18	complicated	complicated	ADJ	JJ	ADJ	2	conj	2:conj:but	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent30_02-0030
+# text = Is it possible that you or somebody else in the HR department mark the vacation time?
+1	Is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	cop	3:cop	_
+2	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	expl	3:expl	_
+3	possible	possible	ADJ	JJ	ADJ	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	13	mark	13:mark	_
+5	you	you	PRON	PRP	NOM;2;PRO	13	nsubj	13:nsubj	_
+6	or	or	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	somebody	somebody	PRON	NN	PRO;SG	5	conj	5:conj:or|13:nsubj	_
+8	else	else	ADJ	JJ	ADJ	7	amod	7:amod	_
+9	in	in	ADP	IN	ADP	12	case	12:case	_
+10	the	the	DET	DT	DET;DEF	12	det	12:det	_
+11	HR	HR	NOUN	NN	SG;N	12	compound	12:compound	_
+12	department	department	NOUN	NN	SG;N	7	nmod	7:nmod:in	_
+13	mark	mark	VERB	VB	NFIN;V	3	csubj	3:csubj	_
+14	the	the	DET	DT	DET;DEF	16	det	16:det	_
+15	vacation	vacation	NOUN	NN	SG;N	16	compound	16:compound	_
+16	time	time	NOUN	NN	SG;N	13	obj	13:obj	SpaceAfter=No
+17	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent30_02-0031
+# text = I would really appreciate that.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	would	would	AUX	MD	FIN;V	4	aux	4:aux	_
+3	really	really	ADV	RB	ADV	4	advmod	4:advmod	_
+4	appreciate	appreciate	VERB	VB	NFIN;V	0	root	0:root	_
+5	that	that	PRON	DT	PRO;SG	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+

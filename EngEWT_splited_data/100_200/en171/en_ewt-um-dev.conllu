@@ -1,0 +1,135 @@
+# sent_id = reviews-147825-0004
+# text = Don't think I've ever been charged before.
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VBP	FIN;PRS;1;V;IND;SG	3	aux	3:aux	_
+2	n't	not	PART	RB	PART	3	advmod	3:advmod	_
+3	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+4-5	I've	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	8	nsubj:pass	8:nsubj:pass	_
+5	've	have	AUX	VBP	FIN;PRS;1;V;IND;SG	8	aux	8:aux	_
+6	ever	ever	ADV	RB	ADV	8	advmod	8:advmod	_
+7	been	be	AUX	VBN	V;V.PTCP;PST	8	aux:pass	8:aux:pass	_
+8	charged	charge	VERB	VBN	PASS;V;V.PTCP;PST	3	ccomp	3:ccomp	_
+9	before	before	ADV	RB	ADV	8	advmod	8:advmod	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-147825-0005
+# text = Oh, and salad cream, not mayonnaise, on the coleslaw.
+1	Oh	oh	INTJ	UH	INTJ	5	discourse	5:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+4	salad	salad	NOUN	NN	SG;N	5	compound	5:compound	_
+5	cream	cream	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	not	not	PART	RB	PART	8	advmod	8:advmod	_
+8	mayonnaise	mayonnaise	NOUN	NN	SG;N	5	conj	5:conj:not	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	12:punct	_
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DET;DEF	12	det	12:det	_
+12	coleslaw	coleslaw	NOUN	NN	SG;N	5	nmod	5:nmod:on	SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-147825-0006
+# text = Avoid!
+1	Avoid	avoid	VERB	VB	FIN;V;IMP	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-030875
+# sent_id = reviews-030875-0001
+# newpar id = reviews-030875-p0001
+# text = Slice Pizza at former Britt's Location
+1	Slice	Slice	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Pizza	Pizza	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	at	at	ADP	IN	ADP	7	case	7:case	_
+4	former	former	ADJ	JJ	ADJ	7	amod	7:amod	_
+5-6	Britt's	_	_	_	_	_	_	_	_
+5	Britt	Britt	PROPN	NNP	SG;PROPN	7	nmod:poss	7:nmod:poss	_
+6	's	's	PART	POS	PART	5	case	5:case	_
+7	Location	location	NOUN	NN	SG;N	2	nmod	2:nmod:at	_
+
+# sent_id = reviews-030875-0002
+# newpar id = reviews-030875-p0002
+# text = Britt's Pizza is long gone.
+1-2	Britt's	_	_	_	_	_	_	_	_
+1	Britt	Britt	PROPN	NNP	SG;PROPN	3	nmod:poss	3:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	Pizza	Pizza	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	6	cop	6:cop	_
+5	long	long	ADV	RB	ADV	6	advmod	6:advmod	_
+6	gone	gone	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = reviews-030875-0003
+# text = Their location, the northwest corner of S. 10th & Federal Sts., is now home to Slice Pizza.
+1	Their	their	PRON	PRP$	PRO;GEN;3;PL	2	nmod:poss	2:nmod:poss	_
+2	location	location	NOUN	NN	SG;N	16	nsubj	16:nsubj	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	6:punct	_
+4	the	the	DET	DT	DET;DEF	6	det	6:det	_
+5	northwest	northwest	NOUN	NN	SG;N	6	compound	6:compound	_
+6	corner	corner	NOUN	NN	SG;N	2	appos	2:appos	_
+7	of	of	ADP	IN	ADP	12	case	12:case	_
+8	S.	S.	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	10th	10th	ADJ	NNP	ADJ	12	amod	12:amod	_
+10	&	&	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	Federal	Federal	PROPN	NNP	SG;PROPN	9	conj	9:conj|12:compound	_
+12	Sts.	Sts.	PROPN	NNPS	PROPN;PL	6	nmod	6:nmod:of	SpaceAfter=No
+13	,	,	PUNCT	,	_	2	punct	2:punct	_
+14	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	16	cop	16:cop	_
+15	now	now	ADV	RB	ADV	16	advmod	16:advmod	_
+16	home	home	NOUN	NN	SG;N	0	root	0:root	_
+17	to	to	ADP	IN	ADP	19	case	19:case	_
+18	Slice	Slice	PROPN	NNP	SG;PROPN	19	compound	19:compound	_
+19	Pizza	Pizza	PROPN	NNP	SG;PROPN	16	nmod	16:nmod:to	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# newdoc id = reviews-379701
+# sent_id = reviews-379701-0001
+# newpar id = reviews-379701-p0001
+# text = VERYYYY!!!! VERYYY!! Good auto repair men.
+1	VERYYYY	very	ADV	RB	ADV	5	advmod	5:advmod	CorrectForm=Very|SpaceAfter=No
+2	!!!!	!!!!	PUNCT	.	_	1	punct	1:punct	_
+3	VERYYY	very	ADV	RB	ADV	5	advmod	5:advmod	CorrectForm=very|SpaceAfter=No
+4	!!	!!	PUNCT	.	_	3	punct	3:punct	_
+5	Good	good	ADJ	JJ	ADJ	8	amod	8:amod	_
+6	auto	auto	NOUN	NN	SG;N	7	compound	7:compound	_
+7	repair	repair	NOUN	NN	SG;N	8	compound	8:compound	_
+8	men	man	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-379701-0002
+# text = Do the job honest and quickly as possible.
+1	Do	do	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+2	the	the	DET	DT	DET;DEF	3	det	3:det	_
+3	job	job	NOUN	NN	SG;N	1	obj	1:obj	_
+4	honest	honest	ADV	RB	ADV	1	advmod	1:advmod	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	quickly	quickly	ADV	RB	ADV	4	conj	1:advmod|4:conj:and	_
+7	as	as	SCONJ	IN	CONJ	8	mark	8:mark	_
+8	possible	possible	ADJ	JJ	ADJ	6	advcl	6:advcl:as	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-379701-0003
+# text = Would 100% recomend to others for a great service.
+1	Would	would	AUX	MD	FIN;V	4	aux	4:aux	_
+2	100	100	NUM	CD	NUM	3	nummod	3:nummod	SpaceAfter=No
+3	%	%	SYM	NN	SG	4	obl:npmod	4:obl:npmod	_
+4	recomend	recommend	VERB	VB	NFIN;V	0	root	0:root	CorrectForm=recommend
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	others	other	NOUN	NNS	PL;N	4	obl	4:obl:to	_
+7	for	for	ADP	IN	ADP	10	case	10:case	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	great	great	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	service	service	NOUN	NN	SG;N	4	obl	4:obl:for	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-379701-0004
+# text = Thank You Barrys Auto Tech!
+1	Thank	thank	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+2	You	you	PRON	PRP	NOM;2;PRO	1	obj	1:obj	_
+3-4	Barrys	_	_	_	_	_	_	_	_
+3	Barry	Barry	PROPN	NNP	SG;PROPN	6	nmod:poss	6:nmod:poss	_
+4	s	's	PART	POS	PART	3	case	3:case	CorrectForm='s
+5	Auto	Auto	PROPN	NNP	SG;PROPN	6	compound	6:compound	_
+6	Tech	Tech	PROPN	NNP	SG;PROPN	2	appos	2:appos	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	1:punct	_
+

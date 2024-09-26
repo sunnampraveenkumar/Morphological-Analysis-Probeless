@@ -1,0 +1,63 @@
+# sent_id = answers-20111107213255AAT0HQq_ans-0002
+# newpar id = answers-20111107213255AAT0HQq_ans-p0002
+# text = Here is a product page from a company that makes mold making materials
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	1	cop	1:cop	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	product	product	NOUN	NN	SG;N	5	compound	5:compound	_
+5	page	page	NOUN	NN	SG;N	1	nsubj	1:nsubj	_
+6	from	from	ADP	IN	ADP	8	case	8:case	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	company	company	NOUN	NN	SG;N	5	nmod	5:nmod:from|10:nsubj	_
+9	that	that	PRON	WDT	PRO	10	nsubj	8:ref	_
+10	makes	make	VERB	VBZ	FIN;PRS;3;V;IND;SG	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+11	mold	mold	NOUN	NN	SG;N	12	compound	12:compound	_
+12	making	making	NOUN	NN	SG;N	13	compound	13:compound	_
+13	materials	material	NOUN	NNS	PL;N	10	obj	10:obj	_
+
+# sent_id = answers-20111107213255AAT0HQq_ans-0003
+# text = http://www.smooth-on.com/p132/Beginner-Brushable-Mold-Rubber-Options/pages.html
+1	http://www.smooth-on.com/p132/Beginner-Brushable-Mold-Rubber-Options/pages.html	http://www.smooth-on.com/p132/Beginner-Brushable-Mold-Rubber-Options/pages.html	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = answers-20111107213255AAT0HQq_ans-0004
+# text = It is a starting place to look
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	starting	starting	NOUN	NN	SG;N	5	compound	5:compound	_
+5	place	place	NOUN	NN	SG;N	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	look	look	VERB	VB	NFIN;V	5	acl	5:acl:to	_
+
+# newdoc id = answers-20111108084633AAzZD8i_ans
+# sent_id = answers-20111108084633AAzZD8i_ans-0001
+# newpar id = answers-20111108084633AAzZD8i_ans-p0001
+# text = How many days will speed post take to reach from Delhi to Mumbai?
+1	How	how	ADV	WRB	ADV	2	advmod	2:advmod	_
+2	many	many	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	days	day	NOUN	NNS	PL;N	7	obj	7:obj	_
+4	will	will	AUX	MD	FIN;V	7	aux	7:aux	_
+5	speed	speed	NOUN	NN	SG;N	6	compound	6:compound	_
+6	post	post	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+7	take	take	VERB	VB	NFIN;V	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	reach	reach	VERB	VB	NFIN;V	7	advcl	7:advcl:to	_
+10	from	from	ADP	IN	ADP	11	case	11:case	_
+11	Delhi	Delhi	PROPN	NNP	SG;PROPN	9	obl	9:obl:from	_
+12	to	to	ADP	IN	ADP	13	case	13:case	_
+13	Mumbai	Mumbai	PROPN	NNP	SG;PROPN	9	obl	9:obl:to	SpaceAfter=No
+14	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108084633AAzZD8i_ans-0002
+# newpar id = answers-20111108084633AAzZD8i_ans-p0002
+# text = Give it three days barring Sundays and holidays.
+1	Give	give	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	1	iobj	1:iobj	_
+3	three	three	NUM	CD	NUM	4	nummod	4:nummod	_
+4	days	day	NOUN	NNS	PL;N	1	obj	1:obj	_
+5	barring	bar	VERB	VBG	PRS;V;V.PTCP	6	case	6:case	_
+6	Sundays	Sunday	PROPN	NNPS	PROPN;PL	4	nmod	4:nmod:barring	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	holidays	holiday	NOUN	NNS	PL;N	6	conj	4:nmod:barring|6:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+

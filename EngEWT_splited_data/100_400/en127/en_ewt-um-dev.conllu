@@ -1,0 +1,133 @@
+# sent_id = email-enronsent19_02-0006
+# text = My mane is Visit Phunnarungsi.
+1	My	my	PRON	PRP$	PRO;GEN;1;SG	2	nmod:poss	2:nmod:poss	_
+2	mane	mane	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+4	Visit	Visit	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Phunnarungsi	Phunnarungsi	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent19_02-0007
+# text = I used to e-mail Vince Kaminski about the advice on his article "The Challenge of Pricing and Risk Managing Electricity Derivatives" and he had mailed me the copy.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	used	use	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	e-mail	e-mail	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	Vince	Vince	PROPN	NNP	SG;PROPN	4	obj	4:obj	_
+6	Kaminski	Kaminski	PROPN	NNP	SG;PROPN	5	flat	5:flat	_
+7	about	about	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	advice	advice	NOUN	NN	SG;N	4	obl	4:obl:about	_
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	his	his	PRON	PRP$	PRO;MASC;GEN;3;SG	12	nmod:poss	12:nmod:poss	_
+12	article	article	NOUN	NN	SG;N	9	nmod	9:nmod:on	_
+13	"	"	PUNCT	``	_	15	punct	15:punct	SpaceAfter=No
+14	The	the	DET	DT	DET;DEF	15	det	15:det	_
+15	Challenge	Challenge	PROPN	NNP	SG;PROPN	12	appos	12:appos	_
+16	of	of	SCONJ	IN	CONJ	17	mark	17:mark	_
+17	Pricing	price	VERB	VBG	V;V.MSDR	15	acl	15:acl:of	_
+18	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	Risk	Risk	PROPN	NNP	SG;PROPN	20	compound	20:compound	_
+20	Managing	manage	VERB	VBG	V;V.MSDR	17	conj	15:acl:of|17:conj:and	_
+21	Electricity	Electricity	PROPN	NNP	SG;PROPN	22	compound	22:compound	_
+22	Derivatives	Derivative	PROPN	NNPS	PROPN;PL	17	obj	17:obj|20:obj	SpaceAfter=No
+23	"	"	PUNCT	''	_	15	punct	15:punct	_
+24	and	and	CCONJ	CC	CONJ	27	cc	27:cc	_
+25	he	he	PRON	PRP	PRO;MASC;3;NOM;SG	27	nsubj	27:nsubj	_
+26	had	have	AUX	VBD	FIN;3;V;IND;SG;PST	27	aux	27:aux	_
+27	mailed	mail	VERB	VBN	V;V.PTCP;PST	2	conj	2:conj:and	_
+28	me	I	PRON	PRP	PRO;ACC;1;SG	27	iobj	27:iobj	_
+29	the	the	DET	DT	DET;DEF	30	det	30:det	_
+30	copy	copy	NOUN	NN	SG;N	27	obj	27:obj	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent19_02-0008
+# text = I am now modelling the Queensland electricity spot price using Geometric Brownian Mean Reverting Jump Diffusion Model and have followed your paper "Making the most of mean reversion" to estimate the mean reversion speed.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj|20:nsubj	_
+2	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	4	aux	4:aux	_
+3	now	now	ADV	RB	ADV	4	advmod	4:advmod	_
+4	modelling	model	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	the	the	DET	DT	DET;DEF	9	det	9:det	_
+6	Queensland	Queensland	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	electricity	electricity	NOUN	NN	SG;N	9	compound	9:compound	_
+8	spot	spot	NOUN	NN	SG;N	9	compound	9:compound	_
+9	price	price	NOUN	NN	SG;N	4	obj	4:obj	_
+10	using	use	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl	_
+11	Geometric	geometric	ADJ	JJ	ADJ	17	amod	17:amod	_
+12	Brownian	brownian	ADJ	JJ	ADJ	17	amod	17:amod	_
+13	Mean	mean	NOUN	NN	SG;N	14	compound	14:compound	_
+14	Reverting	revert	VERB	VBG	V;V.MSDR	17	amod	17:amod	_
+15	Jump	jump	NOUN	NN	SG;N	16	compound	16:compound	_
+16	Diffusion	diffusion	NOUN	NN	SG;N	17	compound	17:compound	_
+17	Model	model	NOUN	NN	SG;N	10	obj	10:obj	_
+18	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	20	aux	20:aux	_
+20	followed	follow	VERB	VBN	V;V.PTCP;PST	4	conj	4:conj:and	_
+21	your	your	PRON	PRP$	PRO;GEN;2	22	nmod:poss	22:nmod:poss	_
+22	paper	paper	NOUN	NN	SG;N	20	obj	20:obj	_
+23	"	"	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
+24	Making	make	VERB	VBG	V;V.MSDR	22	appos	22:appos	_
+25	the	the	DET	DT	DET;DEF	26	det	26:det	_
+26	most	most	ADJ	JJS	ADJ;RL	24	obj	24:obj	_
+27	of	of	ADP	IN	ADP	29	case	29:case	_
+28	mean	mean	PROPN	NNP	SG;PROPN	29	compound	29:compound	_
+29	reversion	reversion	PROPN	NNP	SG;PROPN	24	obl	24:obl:of	SpaceAfter=No
+30	"	"	PUNCT	''	_	24	punct	24:punct	_
+31	to	to	PART	TO	PART	32	mark	32:mark	_
+32	estimate	estimate	VERB	VB	NFIN;V	20	advcl	20:advcl:to	_
+33	the	the	DET	DT	DET;DEF	36	det	36:det	_
+34	mean	mean	NOUN	NN	SG;N	36	compound	36:compound	_
+35	reversion	reversion	NOUN	NN	SG;N	36	compound	36:compound	_
+36	speed	speed	NOUN	NN	SG;N	32	obj	32:obj	SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent19_02-0009
+# text = I use Queensland half-hourly price during 13 December, 1998-30 June 2001 giving about 44,000 price observations.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	use	use	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	Queensland	Queensland	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+4	half	half	ADJ	JJ	ADJ	6	amod	6:amod	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
+6	hourly	hourly	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	price	price	NOUN	NN	SG;N	2	obj	2:obj	_
+8	during	during	ADP	IN	ADP	10	case	10:case	_
+9	13	13	NUM	CD	NUM	10	nummod	10:nummod	_
+10	December	December	PROPN	NNP	SG;PROPN	2	obl	2:obl:during	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
+12	1998	1998	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+13	-	-	SYM	SYM	_	15	case	15:case	SpaceAfter=No
+14	30	30	NUM	CD	NUM	15	nummod	15:nummod	_
+15	June	June	PROPN	NNP	SG;PROPN	10	nmod	10:nmod	_
+16	2001	2001	NUM	CD	NUM	15	nummod	15:nummod	_
+17	giving	give	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl	_
+18	about	about	ADV	RB	ADV	19	advmod	19:advmod	_
+19	44,000	44000	NUM	CD	NUM	21	nummod	21:nummod	_
+20	price	price	NOUN	NN	SG;N	21	compound	21:compound	_
+21	observations	observation	NOUN	NNS	PL;N	17	obj	17:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent19_02-0010
+# text = However, the result from Ordinary Least Squares was not as expected due to different sign for both slope & intercept.
+1	However	however	ADV	RB	ADV	12	advmod	12:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	the	the	DET	DT	DET;DEF	4	det	4:det	_
+4	result	result	NOUN	NN	SG;N	12	nsubj:outer	12:nsubj:outer	_
+5	from	from	ADP	IN	ADP	8	case	8:case	_
+6	Ordinary	ordinary	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	Least	least	ADJ	JJS	ADJ;RL	8	amod	8:amod	_
+8	Squares	square	NOUN	NNS	PL;N	4	nmod	4:nmod:from	_
+9	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	12	cop	12:cop	_
+10	not	not	PART	RB	PART	12	advmod	12:advmod	_
+11	as	as	SCONJ	IN	CONJ	12	mark	12:mark	_
+12	expected	expect	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+13	due	due	ADP	IN	ADP	16	case	16:case	_
+14	to	to	ADP	IN	ADP	13	fixed	13:fixed	_
+15	different	different	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	sign	sign	NOUN	NN	SG;N	12	obl	12:obl:due_to	_
+17	for	for	ADP	IN	ADP	19	case	19:case	_
+18	both	both	CCONJ	CC	CONJ	19	cc:preconj	19:cc:preconj	_
+19	slope	slope	NOUN	NN	SG;N	16	nmod	16:nmod:for	_
+20	&	&	CCONJ	CC	CONJ	21	cc	21:cc	_
+21	intercept	intercept	NOUN	NN	SG;N	19	conj	16:nmod:for|19:conj	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	12:punct	_
+

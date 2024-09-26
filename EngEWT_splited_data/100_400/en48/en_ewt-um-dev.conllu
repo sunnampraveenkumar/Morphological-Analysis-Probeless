@@ -1,0 +1,75 @@
+# sent_id = email-enronsent23_13-0010
+# newpar id = email-enronsent23_13-p0005
+# text = boob out?
+1	boob	boob	VERB	VB	NFIN;V	0	root	0:root	_
+2	out	out	ADP	RP	ADP	1	compound:prt	1:compound:prt	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent23_13-0011
+# text = should I be embarrassed that I haven't the slightest idea what that means?
+1	should	should	AUX	MD	FIN;V	4	aux	4:aux	_
+2	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+3	be	be	AUX	VB	V;NFIN	4	cop	4:cop	_
+4	embarrassed	embarrassed	ADJ	JJ	ADJ	0	root	0:root	_
+5	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+7-8	haven't	_	_	_	_	_	_	_	_
+7	have	have	VERB	VBP	FIN;PRS;1;V;IND;SG	4	ccomp	4:ccomp	_
+8	n't	not	PART	RB	PART	7	advmod	7:advmod	_
+9	the	the	DET	DT	DET;DEF	11	det	11:det	_
+10	slightest	slight	ADJ	JJS	ADJ;RL	11	amod	11:amod	_
+11	idea	idea	NOUN	NN	SG;N	7	obj	7:obj|14:obj	_
+12	what	what	PRON	WP	PRO	14	obj	11:ref	_
+13	that	that	PRON	DT	PRO;SG	14	nsubj	14:nsubj	_
+14	means	mean	VERB	VBZ	FIN;PRS;3;V;IND;SG	11	acl:relcl	11:acl:relcl	Cxn=rc-wh-obj|SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = email-enronsent23_08
+# sent_id = email-enronsent23_08-0001
+# newpar id = email-enronsent23_08-p0001
+# text = i am going out tonight to get wasted if anyone is interested.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	out	out	ADV	RB	ADV	3	advmod	3:advmod	_
+5	tonight	tonight	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod	_
+6	to	to	PART	TO	PART	8	mark	8:mark	_
+7	get	get	VERB	VB	NFIN;V	3	advcl	3:advcl:to	_
+8	wasted	wasted	ADJ	JJ	ADJ	7	xcomp	7:xcomp	_
+9	if	if	SCONJ	IN	CONJ	12	mark	12:mark	_
+10	anyone	anyone	PRON	NN	PRO;SG	12	nsubj	12:nsubj	_
+11	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	cop	12:cop	_
+12	interested	interested	ADJ	JJ	ADJ	3	advcl	3:advcl:if	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_08-0002
+# text = jill allen finishes her cpa today and she and her friends are going to party.
+1	jill	jill	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	allen	allen	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	finishes	finish	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	her	her	PRON	PRP$	PRO;GEN;3;FEM;SG	5	nmod:poss	5:nmod:poss	_
+5	cpa	cpa	NOUN	NN	SG;N	3	obj	3:obj	_
+6	today	today	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod	_
+7	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+8	she	she	PRON	PRP	PRO;3;NOM;FEM;SG	13	nsubj	13:nsubj|15:nsubj:xsubj	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	her	her	PRON	PRP$	PRO;GEN;3;FEM;SG	11	nmod:poss	11:nmod:poss	_
+11	friends	friend	NOUN	NNS	PL;N	8	conj	8:conj:and|13:nsubj|15:nsubj:xsubj	_
+12	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	13	aux	13:aux	_
+13	going	go	VERB	VBG	PRS;V;V.PTCP	3	conj	3:conj:and	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	party	party	VERB	VB	NFIN;V	13	xcomp	13:xcomp	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_08-0003
+# newpar id = email-enronsent23_08-p0002
+# text = max and jen are looking for you.
+1	max	max	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	jen	jen	PROPN	NNP	SG;PROPN	1	conj	1:conj:and|5:nsubj	_
+4	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	5	aux	5:aux	_
+5	looking	look	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+6	for	for	ADP	IN	ADP	7	case	7:case	_
+7	you	you	PRON	PRP	2;PRO;ACC	5	obl	5:obl:for	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+

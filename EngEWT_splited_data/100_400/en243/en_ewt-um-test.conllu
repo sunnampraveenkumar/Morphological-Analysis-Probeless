@@ -1,0 +1,65 @@
+# sent_id = answers-20090717130909AAPrVWu_ans-0004
+# newpar id = answers-20090717130909AAPrVWu_ans-p0004
+# text = Someone had to be first.
+1	Someone	someone	PRON	NN	SG;PRO	2	nsubj	2:nsubj|5:nsubj:xsubj	_
+2	had	have	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	5	mark	5:mark	_
+4	be	be	AUX	VB	NFIN;V	5	cop	5:cop	_
+5	first	first	ADJ	JJ	ADJ	2	xcomp	2:xcomp	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20090717130909AAPrVWu_ans-0005
+# text = I have never been there.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+2	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	5	aux	5:aux	_
+3	never	never	ADV	RB	ADV	5	advmod	5:advmod	_
+4	been	be	AUX	VBN	V;V.PTCP;PST	5	cop	5:cop	_
+5	there	there	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20090717130909AAPrVWu_ans-0006
+# newpar id = answers-20090717130909AAPrVWu_ans-p0005
+# text = well, I don't ask questions here because I have no clue what "Iguazu" is...
+1	well	well	INTJ	UH	INTJ	6	discourse	6:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	PRO;1;NOM;SG	6	nsubj	6:nsubj	_
+4-5	don't	_	_	_	_	_	_	_	_
+4	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	6	aux	6:aux	_
+5	n't	not	PART	RB	PART	6	advmod	6:advmod	_
+6	ask	ask	VERB	VB	NFIN;V	0	root	0:root	_
+7	questions	question	NOUN	NNS	PL;N	6	obj	6:obj	_
+8	here	here	ADV	RB	ADV	6	advmod	6:advmod	_
+9	because	because	SCONJ	IN	CONJ	11	mark	11:mark	_
+10	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	6	advcl	6:advcl:because	_
+12	no	no	DET	DT	DET	13	det	13:det	_
+13	clue	clue	NOUN	NN	SG;N	11	obj	11:obj	_
+14	what	what	PRON	WP	PRO	11	ccomp	11:ccomp	_
+15	"	"	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No
+16	Iguazu	Iguazu	PROPN	NNP	SG;PROPN	14	nsubj	14:nsubj	SpaceAfter=No
+17	"	"	PUNCT	''	_	16	punct	16:punct	_
+18	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	14	cop	14:cop	SpaceAfter=No
+19	...	...	PUNCT	.	_	6	punct	6:punct	_
+
+# newdoc id = answers-20111108064636AAvIKDE_ans
+# sent_id = answers-20111108064636AAvIKDE_ans-0001
+# newpar id = answers-20111108064636AAvIKDE_ans-p0001
+# text = What do you think of Air France?
+1	What	what	PRON	WP	PRO	4	obj	4:obj	_
+2	do	do	AUX	VBP	V;FIN;PRS;2;SG;IND	4	aux	4:aux	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	Air	Air	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	France	France	PROPN	NNP	SG;PROPN	4	obl	4:obl:of	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111108064636AAvIKDE_ans-0002
+# newpar id = answers-20111108064636AAvIKDE_ans-p0002
+# text = I love Air France!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	love	love	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	Air	Air	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	France	France	PROPN	NNP	SG;PROPN	2	obj	2:obj	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	2:punct	_
+

@@ -1,0 +1,599 @@
+# sent_id = email-enronsent10_01-0011
+# text = DF
+1	DF	DF	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0012
+# text = James Centilli
+1	James	James	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Centilli	Centilli	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent10_01-0013
+# text = 12/14/2000 02:49 PM
+1	12/14/2000	12/14/2000	NUM	CD	NUM	0	root	0:root	_
+2	02:49	02:49	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0014
+# text = Would you please contact Gerald Nemec and review the Gallup Compression Service Contract in respect to the Load Control Management.
+1	Would	would	AUX	MD	V;FIN	4	aux	4:aux	_
+2	you	you	PRON	PRP	2;NOM;PRO	4	nsubj	4:nsubj|8:nsubj	_
+3	please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+4	contact	contact	VERB	VB	V;NFIN	0	root	0:root	_
+5	Gerald	Gerald	PROPN	NNP	PROPN;SG	4	obj	4:obj	_
+6	Nemec	Nemec	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	review	review	VERB	VB	V;NFIN	4	conj	4:conj:and	_
+9	the	the	DET	DT	DEF;DET	13	det	13:det	_
+10	Gallup	Gallup	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+11	Compression	Compression	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+12	Service	Service	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	Contract	Contract	PROPN	NNP	PROPN;SG	8	obj	8:obj	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	respect	respect	NOUN	NN	SG;N	8	obl	8:obl:in	_
+16	to	to	ADP	IN	ADP	20	case	20:case	_
+17	the	the	DET	DT	DEF;DET	20	det	20:det	_
+18	Load	load	NOUN	NN	SG;N	19	compound	19:compound	_
+19	Control	control	NOUN	NN	SG;N	20	compound	20:compound	_
+20	Management	management	NOUN	NN	SG;N	15	nmod	15:nmod:to	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0015
+# text = My understanding was that ECS was to provide a means to access CDEC's online profile in order for us to make a decision to avoid running the compressor during CDEC's peak load periods.
+1	My	my	PRON	PRP$	GEN;1;PRO;SG	2	nmod:poss	2:nmod:poss	_
+2	understanding	understanding	NOUN	NN	SG;N	8	nsubj:outer	8:nsubj:outer	_
+3	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	8	cop	8:cop	_
+4	that	that	SCONJ	IN	CONJ	8	mark	8:mark	_
+5	ECS	ECS	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+6	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	8	aux	8:aux	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	provide	provide	VERB	VB	V;NFIN	0	root	0:root	_
+9	a	a	DET	DT	DET;INDF	10	det	10:det	_
+10	means	means	NOUN	NN	SG;N	8	obj	8:obj	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	access	access	VERB	VB	V;NFIN	10	acl	10:acl:to	_
+13-14	CDEC's	_	_	_	_	_	_	_	_
+13	CDEC	CDEC	PROPN	NNP	PROPN;SG	16	nmod:poss	16:nmod:poss	_
+14	's	's	PART	POS	PART	13	case	13:case	_
+15	online	online	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	profile	profile	NOUN	NN	SG;N	12	obj	12:obj	_
+17	in	in	ADP	IN	ADP	22	mark	22:mark	_
+18	order	order	NOUN	NN	SG;N	17	fixed	17:fixed	_
+19	for	for	SCONJ	IN	CONJ	22	mark	22:mark	_
+20	us	we	PRON	PRP	ACC;PL;1;PRO	22	nsubj	22:nsubj	_
+21	to	to	PART	TO	PART	22	mark	22:mark	_
+22	make	make	VERB	VB	V;NFIN	12	advcl	12:advcl:to	_
+23	a	a	DET	DT	DET;INDF	24	det	24:det	_
+24	decision	decision	NOUN	NN	SG;N	22	obj	22:obj	_
+25	to	to	PART	TO	PART	26	mark	26:mark	_
+26	avoid	avoid	VERB	VB	V;NFIN	24	acl	24:acl:to	_
+27	running	run	VERB	VBG	V;V.MSDR	26	xcomp	26:xcomp	_
+28	the	the	DET	DT	DEF;DET	29	det	29:det	_
+29	compressor	compressor	NOUN	NN	SG;N	27	obj	27:obj	_
+30	during	during	ADP	IN	ADP	35	case	35:case	_
+31-32	CDEC's	_	_	_	_	_	_	_	_
+31	CDEC	CDEC	PROPN	NNP	PROPN;SG	35	nmod:poss	35:nmod:poss	_
+32	's	's	PART	POS	PART	31	case	31:case	_
+33	peak	peak	NOUN	NN	SG;N	35	compound	35:compound	_
+34	load	load	NOUN	NN	SG;N	35	compound	35:compound	_
+35	periods	period	NOUN	NNS	N;PL	27	obl	27:obl:during	SpaceAfter=No
+36	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent10_01-0016
+# text = We have not received access to this information which has resulted so far in additional electric cost of $200,987.33 for the period of July through September.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	4	nsubj	4:nsubj	_
+2	have	have	AUX	VBP	PRS;IND;FIN;PL;1;V	4	aux	4:aux	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	received	receive	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+5	access	access	NOUN	NN	SG;N	4	obj	4:obj	_
+6	to	to	ADP	IN	ADP	8	case	8:case	_
+7	this	this	DET	DT	SG;DET	8	det	8:det	_
+8	information	information	NOUN	NN	SG;N	5	nmod	5:nmod:to|11:nsubj	_
+9	which	which	PRON	WDT	PRO	11	nsubj	8:ref	_
+10	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	aux	11:aux	_
+11	resulted	result	VERB	VBN	V;V.PTCP;PST	8	acl:relcl	8:acl:relcl	Cxn=rc-wh-nsubj
+12	so	so	ADV	RB	ADV	13	advmod	13:advmod	_
+13	far	far	ADV	RB	ADV	11	advmod	11:advmod	_
+14	in	in	ADP	IN	ADP	17	case	17:case	_
+15	additional	additional	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	electric	electric	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	cost	cost	NOUN	NN	SG;N	11	obl	11:obl:in	_
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19	$	$	SYM	$	_	17	nmod	17:nmod:of	SpaceAfter=No
+20	200,987.33	200987.33	NUM	CD	NUM	19	nummod	19:nummod	_
+21	for	for	ADP	IN	ADP	23	case	23:case	_
+22	the	the	DET	DT	DEF;DET	23	det	23:det	_
+23	period	period	NOUN	NN	SG;N	11	obl	11:obl:for	_
+24	of	of	ADP	IN	ADP	25	case	25:case	_
+25	July	July	PROPN	NNP	PROPN;SG	23	nmod	23:nmod:of	_
+26	through	through	ADP	IN	ADP	27	case	27:case	_
+27	September	September	PROPN	NNP	PROPN;SG	25	nmod	25:nmod:through	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0017
+# text = Additional cost will be incurred for the remainder of this year, that I have not been able to review yet.
+1	Additional	additional	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	cost	cost	NOUN	NN	SG;N	5	nsubj:pass	5:nsubj:pass|20:obj	_
+3	will	will	AUX	MD	V;FIN	5	aux	5:aux	_
+4	be	be	AUX	VB	V;NFIN	5	aux:pass	5:aux:pass	_
+5	incurred	incur	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	remainder	remainder	NOUN	NN	SG;N	5	obl	5:obl:for	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	this	this	DET	DT	SG;DET	11	det	11:det	_
+11	year	year	NOUN	NN	SG;N	8	nmod	8:nmod:of	SpaceAfter=No
+12	,	,	PUNCT	,	_	18	punct	18:punct	_
+13	that	that	PRON	WDT	PRO	20	obj	2:ref	_
+14	I	I	PRON	PRP	NOM;1;PRO;SG	18	nsubj	18:nsubj	_
+15	have	have	AUX	VBP	PRS;IND;FIN;1;V;SG	18	aux	18:aux	_
+16	not	not	PART	RB	PART	18	advmod	18:advmod	_
+17	been	be	AUX	VBN	V;V.PTCP;PST	18	cop	18:cop	_
+18	able	able	ADJ	JJ	ADJ	2	acl:relcl	2:acl:relcl	Cxn=rc-that-obj_xcomp
+19	to	to	PART	TO	PART	20	mark	20:mark	_
+20	review	review	VERB	VB	V;NFIN	18	xcomp	18:xcomp	_
+21	yet	yet	ADV	RB	ADV	18	advmod	18:advmod	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent10_01-0018
+# text = This cost is averaging $79,000 per month if we continue to run the compressor as we have in August and September.
+1	This	this	DET	DT	SG;DET	2	det	2:det	_
+2	cost	cost	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	4	aux	4:aux	_
+4	averaging	average	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+5	$	$	SYM	$	_	4	obj	4:obj	SpaceAfter=No
+6	79,000	79000	NUM	CD	NUM	5	nummod	5:nummod	_
+7	per	per	ADP	IN	ADP	8	case	8:case	_
+8	month	month	NOUN	NN	SG;N	5	nmod	5:nmod:per	_
+9	if	if	SCONJ	IN	CONJ	11	mark	11:mark	_
+10	we	we	PRON	PRP	NOM;PL;1;PRO	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+11	continue	continue	VERB	VBP	V;PRS;IND;FIN;PL;1	4	advcl	4:advcl:if	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	run	run	VERB	VB	V;NFIN	11	xcomp	11:xcomp	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	compressor	compressor	NOUN	NN	SG;N	13	obj	13:obj	_
+16	as	as	SCONJ	IN	CONJ	18	mark	18:mark	_
+17	we	we	PRON	PRP	NOM;PL;1;PRO	18	nsubj	18:nsubj	_
+18	have	have	AUX	VBP	PRS;IND;FIN;PL;1;V	13	advcl	13:advcl:as	Promoted=Yes
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	August	August	PROPN	NNP	PROPN;SG	18	obl	18:obl:in	_
+21	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	September	September	PROPN	NNP	PROPN;SG	20	conj	18:obl:in|20:conj:and	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0019
+# text = Good point, but I'm comfortable we're covered because our bidders were all bidding on a chunk of capacity and primary points.
+1	Good	good	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	point	point	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	7:punct	_
+4	but	but	CCONJ	CC	CONJ	7	cc	7:cc	_
+5-6	I'm	_	_	_	_	_	_	_	_
+5	I	I	PRON	PRP	NOM;1;PRO;SG	7	nsubj	7:nsubj	_
+6	'm	be	AUX	VBP	PRS;IND;FIN;1;V;SG	7	cop	7:cop	_
+7	comfortable	comfortable	ADJ	JJ	ADJ	2	conj	2:conj:but	_
+8-9	we're	_	_	_	_	_	_	_	_
+8	we	we	PRON	PRP	NOM;PL;1;PRO	10	nsubj:pass	10:nsubj:pass	_
+9	're	be	AUX	VBP	PRS;IND;FIN;PL;1;V	10	aux:pass	10:aux:pass	_
+10	covered	cover	VERB	VBN	V;V.PTCP;PST;PASS	7	ccomp	7:ccomp	_
+11	because	because	SCONJ	IN	CONJ	16	mark	16:mark	_
+12	our	our	PRON	PRP$	GEN;PL;PRO;1	13	nmod:poss	13:nmod:poss	_
+13	bidders	bidder	NOUN	NNS	N;PL	16	nsubj	16:nsubj	_
+14	were	be	AUX	VBD	3;IND;FIN;PST;PL;V	16	aux	16:aux	_
+15	all	all	ADV	RB	ADV	16	advmod	16:advmod	_
+16	bidding	bid	VERB	VBG	V;V.PTCP;PRS	10	advcl	10:advcl:because	_
+17	on	on	ADP	IN	ADP	19	case	19:case	_
+18	a	a	DET	DT	DET;INDF	19	det	19:det	_
+19	chunk	chunk	NOUN	NN	SG;N	16	obl	16:obl:on	_
+20	of	of	ADP	IN	ADP	21	case	21:case	_
+21	capacity	capacity	NOUN	NN	SG;N	19	nmod	19:nmod:of	_
+22	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+23	primary	primary	ADJ	JJ	ADJ	24	amod	24:amod	_
+24	points	point	NOUN	NNS	N;PL	19	conj	16:obl:on|19:conj:and	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent10_01-0020
+# text = They are deemed to be on notice that they had alternate point rights (its in the tariff) and if they wanted to submit a bid that had a different rate for primaries and alternates, they could have done so.
+1	They	they	PRON	PRP	3;NOM;PL;PRO	3	nsubj:pass	3:nsubj:pass|7:nsubj:xsubj	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	3	aux:pass	3:aux:pass	_
+3	deemed	deem	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+4	to	to	PART	TO	PART	7	mark	7:mark	_
+5	be	be	AUX	VB	V;NFIN	7	cop	7:cop	_
+6	on	on	ADP	IN	ADP	7	case	7:case	_
+7	notice	notice	NOUN	NN	SG;N	3	xcomp	3:xcomp	_
+8	that	that	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	they	they	PRON	PRP	3;NOM;PL;PRO	10	nsubj	10:nsubj	_
+10	had	have	VERB	VBD	V;3;IND;FIN;PST;PL	7	acl	7:acl:that	_
+11	alternate	alternate	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	point	point	NOUN	NN	SG;N	13	compound	13:compound	_
+13	rights	right	NOUN	NNS	N;PL	10	obj	10:obj	_
+14	(	(	PUNCT	-LRB-	_	19	punct	19:punct	SpaceAfter=No
+15-16	its	_	_	_	_	_	_	_	_
+15	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	19	nsubj	19:nsubj	_
+16	s	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	19	cop	19:cop	CorrectForm='s
+17	in	in	ADP	IN	ADP	19	case	19:case	_
+18	the	the	DET	DT	DEF;DET	19	det	19:det	_
+19	tariff	tariff	NOUN	NN	SG;N	10	parataxis	10:parataxis	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	_
+21	and	and	CCONJ	CC	CONJ	42	cc	42:cc	_
+22	if	if	SCONJ	IN	CONJ	24	mark	24:mark	_
+23	they	they	PRON	PRP	3;NOM;PL;PRO	24	nsubj	24:nsubj|26:nsubj:xsubj	_
+24	wanted	want	VERB	VBD	V;3;IND;FIN;PST;PL	42	advcl	42:advcl:if	_
+25	to	to	PART	TO	PART	26	mark	26:mark	_
+26	submit	submit	VERB	VB	V;NFIN	24	xcomp	24:xcomp	_
+27	a	a	DET	DT	DET;INDF	28	det	28:det	_
+28	bid	bid	NOUN	NN	SG;N	26	obj	26:obj|30:nsubj	_
+29	that	that	PRON	WDT	PRO	30	nsubj	28:ref	_
+30	had	have	VERB	VBD	V;3;IND;FIN;PST;SG	28	acl:relcl	28:acl:relcl	Cxn=rc-that-nsubj
+31	a	a	DET	DT	DET;INDF	33	det	33:det	_
+32	different	different	ADJ	JJ	ADJ	33	amod	33:amod	_
+33	rate	rate	NOUN	NN	SG;N	30	obj	30:obj	_
+34	for	for	ADP	IN	ADP	35	case	35:case	_
+35	primaries	primary	NOUN	NNS	N;PL	33	nmod	33:nmod:for	_
+36	and	and	CCONJ	CC	CONJ	37	cc	37:cc	_
+37	alternates	alternate	NOUN	NNS	N;PL	35	conj	33:nmod:for|35:conj:and	SpaceAfter=No
+38	,	,	PUNCT	,	_	24	punct	24:punct	_
+39	they	they	PRON	PRP	3;NOM;PL;PRO	42	nsubj	42:nsubj	_
+40	could	could	AUX	MD	V;FIN	42	aux	42:aux	_
+41	have	have	AUX	VB	V;NFIN	42	aux	42:aux	_
+42	done	do	VERB	VBN	V;V.PTCP;PST	3	conj	3:conj:and	_
+43	so	so	ADV	RB	ADV	42	advmod	42:advmod	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0021
+# text = None of them did, and most importantly, the winning bidders did not.
+1	None	none	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	them	they	PRON	PRP	ACC;3;PL;PRO	1	nmod	1:nmod:of	_
+4	did	do	AUX	VBD	3;IND;FIN;PST;V;SG	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	13	punct	13:punct	_
+6	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+7	most	most	ADV	RBS	RL;ADV	8	advmod	8:advmod	_
+8	importantly	importantly	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	8:punct	_
+10	the	the	DET	DT	DEF;DET	12	det	12:det	_
+11	winning	win	VERB	VBG	V;V.MSDR	12	amod	12:amod	_
+12	bidders	bidder	NOUN	NNS	N;PL	13	nsubj	13:nsubj	_
+13	did	do	AUX	VBD	3;IND;FIN;PST;PL;V	4	conj	4:conj:and	_
+14	not	not	PART	RB	PART	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0022
+# text = Our letter agreement simply memorializes that we will charge the same negotiated rate whether the gas flows on primaries or alternates.
+1	Our	our	PRON	PRP$	GEN;PL;PRO;1	3	nmod:poss	3:nmod:poss	_
+2	letter	letter	NOUN	NN	SG;N	3	compound	3:compound	_
+3	agreement	agreement	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	simply	simply	ADV	RB	ADV	5	advmod	5:advmod	_
+5	memorializes	memorialize	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+6	that	that	SCONJ	IN	CONJ	9	mark	9:mark	_
+7	we	we	PRON	PRP	NOM;PL;1;PRO	9	nsubj	9:nsubj	_
+8	will	will	AUX	MD	V;FIN	9	aux	9:aux	_
+9	charge	charge	VERB	VB	V;NFIN	5	ccomp	5:ccomp	_
+10	the	the	DET	DT	DEF;DET	13	det	13:det	_
+11	same	same	ADJ	JJ	ADJ	13	amod	13:amod	_
+12	negotiated	negotiate	VERB	VBN	V;V.PTCP;PST;PASS	13	amod	13:amod	_
+13	rate	rate	NOUN	NN	SG;N	9	obj	9:obj	_
+14	whether	whether	SCONJ	IN	CONJ	17	mark	17:mark	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	gas	gas	NOUN	NN	SG;N	17	nsubj	17:nsubj	_
+17	flows	flow	VERB	VBZ	V;3;PRS;IND;FIN;SG	9	advcl	9:advcl:whether	_
+18	on	on	ADP	IN	ADP	19	case	19:case	_
+19	primaries	primary	NOUN	NNS	N;PL	17	obl	17:obl:on	_
+20	or	or	CCONJ	CC	CONJ	21	cc	21:cc	_
+21	alternates	alternate	NOUN	NNS	N;PL	19	conj	17:obl:on|19:conj:or	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent10_01-0023
+# text = I assume from your message you are OK with this and they can get it nailed down?
+1	I	I	PRON	PRP	NOM;1;PRO;SG	2	nsubj	2:nsubj	_
+2	assume	assume	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+3	from	from	ADP	IN	ADP	5	case	5:case	_
+4	your	your	PRON	PRP$	GEN;2;PRO	5	nmod:poss	5:nmod:poss	_
+5	message	message	NOUN	NN	SG;N	2	obl	2:obl:from	_
+6	you	you	PRON	PRP	2;NOM;PRO	8	nsubj	8:nsubj	_
+7	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	8	cop	8:cop	_
+8	OK	ok	ADJ	JJ	ADJ	2	ccomp	2:ccomp	_
+9	with	with	ADP	IN	ADP	10	case	10:case	_
+10	this	this	PRON	DT	SG;PRO	8	obl	8:obl:with	_
+11	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+12	they	they	PRON	PRP	3;NOM;PL;PRO	14	nsubj	14:nsubj	_
+13	can	can	AUX	MD	V;FIN	14	aux	14:aux	_
+14	get	get	VERB	VB	V;NFIN	8	conj	2:ccomp|8:conj:and	_
+15	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	14	obj	14:obj|16:nsubj:xsubj	_
+16	nailed	nail	VERB	VBN	V;V.PTCP;PST;PASS	14	xcomp	14:xcomp	_
+17	down	down	ADV	RB	ADV	16	advmod	16:advmod	SpaceAfter=No
+18	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0024
+# text = DF
+1	DF	DF	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0025
+# text = I just got done looking at the underlying contract language as set forth in the pro forma service agreement in the tariff and it specifically says that the max rate would apply unless a discount or negotiated rate has been agreed to.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	got	get	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+4	done	done	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+5	looking	look	VERB	VBG	V;V.PTCP;PRS	3	advcl	3:advcl	_
+6	at	at	ADP	IN	ADP	10	case	10:case	_
+7	the	the	DET	DT	DEF;DET	10	det	10:det	_
+8	underlying	underlying	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	contract	contract	NOUN	NN	SG;N	10	compound	10:compound	_
+10	language	language	NOUN	NN	SG;N	5	obl	5:obl:at	_
+11	as	as	SCONJ	IN	CONJ	12	mark	12:mark	_
+12	set	set	VERB	VBN	V;V.PTCP;PST;PASS	10	acl	10:acl:as	_
+13	forth	forth	ADV	RB	ADV	12	advmod	12:advmod	_
+14	in	in	ADP	IN	ADP	19	case	19:case	_
+15	the	the	DET	DT	DEF;DET	19	det	19:det	_
+16	pro	pro	X	FW	_	19	amod	19:amod	_
+17	forma	forma	X	FW	_	16	flat	16:flat	_
+18	service	service	NOUN	NN	SG;N	19	compound	19:compound	_
+19	agreement	agreement	NOUN	NN	SG;N	12	obl	12:obl:in	_
+20	in	in	ADP	IN	ADP	22	case	22:case	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	tariff	tariff	NOUN	NN	SG;N	19	nmod	19:nmod:in	_
+23	and	and	CCONJ	CC	CONJ	26	cc	26:cc	_
+24	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	26	nsubj	26:nsubj	_
+25	specifically	specifically	ADV	RB	ADV	26	advmod	26:advmod	_
+26	says	say	VERB	VBZ	V;3;PRS;IND;FIN;SG	4	conj	4:conj:and	_
+27	that	that	SCONJ	IN	CONJ	32	mark	32:mark	_
+28	the	the	DET	DT	DEF;DET	30	det	30:det	_
+29	max	max	ADJ	JJ	ADJ	30	amod	30:amod	_
+30	rate	rate	NOUN	NN	SG;N	32	nsubj	32:nsubj	_
+31	would	would	AUX	MD	V;FIN	32	aux	32:aux	_
+32	apply	apply	VERB	VB	V;NFIN	26	ccomp	26:ccomp	_
+33	unless	unless	SCONJ	IN	CONJ	41	mark	41:mark	_
+34	a	a	DET	DT	DET;INDF	35	det	35:det	_
+35	discount	discount	NOUN	NN	SG;N	41	nsubj:pass	41:nsubj:pass	_
+36	or	or	CCONJ	CC	CONJ	38	cc	38:cc	_
+37	negotiated	negotiate	VERB	VBN	V;V.PTCP;PST;PASS	38	amod	38:amod	_
+38	rate	rate	NOUN	NN	SG;N	35	conj	35:conj:or|41:nsubj:pass	_
+39	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	41	aux	41:aux	_
+40	been	be	AUX	VBN	V;V.PTCP;PST	41	aux:pass	41:aux:pass	_
+41	agreed	agree	VERB	VBN	V;V.PTCP;PST;PASS	32	advcl	32:advcl:unless	_
+42	to	to	ADP	IN	ADP	41	obl	41:obl	Promoted=Yes|SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0026
+# text = My concern with adding the language below is, could it be argued that not everyone knew the rate would or could apply at any point, since we just stated Topack and Needles and if they knew they might have bid a different rate??
+1	My	my	PRON	PRP$	GEN;1;PRO;SG	2	nmod:poss	2:nmod:poss	_
+2	concern	concern	NOUN	NN	SG;N	13	nsubj:outer	13:nsubj:outer	_
+3	with	with	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	adding	add	VERB	VBG	V;V.MSDR	2	acl	2:acl:with	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	language	language	NOUN	NN	SG;N	4	obj	4:obj	_
+7	below	below	ADV	RB	ADV	6	advmod	6:advmod	_
+8	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	13	cop	13:cop	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	8:punct	_
+10	could	could	AUX	MD	V;FIN	13	aux	13:aux	_
+11	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	13	nsubj:pass	13:nsubj:pass	_
+12	be	be	AUX	VB	V;NFIN	13	aux:pass	13:aux:pass	_
+13	argued	argue	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+14	that	that	SCONJ	IN	CONJ	17	mark	17:mark	_
+15	not	not	PART	RB	PART	16	advmod	16:advmod	_
+16	everyone	everyone	PRON	NN	SG;PRO	17	nsubj	17:nsubj	_
+17	knew	know	VERB	VBD	V;3;IND;FIN;PST;SG	13	ccomp	13:ccomp	_
+18	the	the	DET	DT	DEF;DET	19	det	19:det	_
+19	rate	rate	NOUN	NN	SG;N	23	nsubj	23:nsubj	_
+20	would	would	AUX	MD	V;FIN	23	aux	23:aux	_
+21	or	or	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	could	could	AUX	MD	V;FIN	20	conj	20:conj:or	_
+23	apply	apply	VERB	VB	V;NFIN	17	ccomp	17:ccomp	_
+24	at	at	ADP	IN	ADP	26	case	26:case	_
+25	any	any	DET	DT	DET	26	det	26:det	_
+26	point	point	NOUN	NN	SG;N	23	obl	23:obl:at	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	31:punct	_
+28	since	since	SCONJ	IN	CONJ	31	mark	31:mark	_
+29	we	we	PRON	PRP	NOM;PL;1;PRO	31	nsubj	31:nsubj	_
+30	just	just	ADV	RB	ADV	31	advmod	31:advmod	_
+31	stated	state	VERB	VBD	V;IND;FIN;PST;PL;1	17	advcl	17:advcl:since	_
+32	Topack	Topack	PROPN	NNP	PROPN;SG	31	obj	31:obj	_
+33	and	and	CCONJ	CC	CONJ	34	cc	34:cc	_
+34	Needles	Needle	PROPN	NNPS	PROPN;PL	32	conj	31:obj|32:conj:and	_
+35	and	and	CCONJ	CC	CONJ	42	cc	42:cc	_
+36	if	if	SCONJ	IN	CONJ	38	mark	38:mark	_
+37	they	they	PRON	PRP	3;NOM;PL;PRO	38	nsubj	38:nsubj	_
+38	knew	know	VERB	VBD	V;3;IND;FIN;PST;PL	42	advcl	42:advcl:if	_
+39	they	they	PRON	PRP	3;NOM;PL;PRO	42	nsubj	42:nsubj	_
+40	might	might	AUX	MD	V;FIN	42	aux	42:aux	_
+41	have	have	AUX	VB	V;NFIN	42	aux	42:aux	_
+42	bid	bid	VERB	VBN	V;V.PTCP;PST	13	conj	13:conj:and	_
+43	a	a	DET	DT	DET;INDF	45	det	45:det	_
+44	different	different	ADJ	JJ	ADJ	45	amod	45:amod	_
+45	rate	rate	NOUN	NN	SG;N	42	obj	42:obj	SpaceAfter=No
+46	??	??	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = email-enronsent10_01-0027
+# text = Susan Scott
+1	Susan	Susan	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Scott	Scott	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent10_01-0028
+# text = 01/11/2001 02:42 PM
+1	01/11/2001	01/11/2001	NUM	CD	NUM	0	root	0:root	_
+2	02:42	02:42	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0029
+# text = After discussions with the commercial group I propose that that redlined language be added to the attached Dynegy agreement and to the 4 other negotiated rate agreements we've done.
+1	After	after	ADP	IN	ADP	2	case	2:case	_
+2	discussions	discussion	NOUN	NNS	N;PL	8	obl	8:obl:after	_
+3	with	with	ADP	IN	ADP	6	case	6:case	_
+4	the	the	DET	DT	DEF;DET	6	det	6:det	_
+5	commercial	commercial	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	group	group	NOUN	NN	SG;N	2	nmod	2:nmod:with	_
+7	I	I	PRON	PRP	NOM;1;PRO;SG	8	nsubj	8:nsubj	_
+8	propose	propose	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+9	that	that	SCONJ	IN	CONJ	14	mark	14:mark	_
+10	that	that	DET	DT	SG;DET	12	det	12:det	_
+11	redlined	redlined	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	language	language	NOUN	NN	SG;N	14	nsubj:pass	14:nsubj:pass	_
+13	be	be	AUX	VB	3;PRS;SBJV;FIN;V;SG	14	aux:pass	14:aux:pass	_
+14	added	add	VERB	VBN	V;V.PTCP;PST;PASS	8	ccomp	8:ccomp	_
+15	to	to	ADP	IN	ADP	19	case	19:case	_
+16	the	the	DET	DT	DEF;DET	19	det	19:det	_
+17	attached	attach	VERB	VBN	V;V.PTCP;PST;PASS	19	amod	19:amod	_
+18	Dynegy	Dynegy	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+19	agreement	agreement	NOUN	NN	SG;N	14	obl	14:obl:to	_
+20	and	and	CCONJ	CC	CONJ	27	cc	27:cc	_
+21	to	to	ADP	IN	ADP	27	case	27:case	_
+22	the	the	DET	DT	DEF;DET	27	det	27:det	_
+23	4	4	NUM	CD	NUM	27	nummod	27:nummod	_
+24	other	other	ADJ	JJ	ADJ	27	amod	27:amod	_
+25	negotiated	negotiate	VERB	VBN	V;V.PTCP;PST;PASS	26	amod	26:amod	_
+26	rate	rate	NOUN	NN	SG;N	27	compound	27:compound	_
+27	agreements	agreement	NOUN	NNS	N;PL	19	conj	14:obl:to|19:conj:and|30:obj	_
+28-29	we've	_	_	_	_	_	_	_	_
+28	we	we	PRON	PRP	NOM;PL;1;PRO	30	nsubj	30:nsubj	_
+29	've	have	AUX	VBP	PRS;IND;FIN;PL;1;V	30	aux	30:aux	_
+30	done	do	VERB	VBN	V;V.PTCP;PST	27	acl:relcl	27:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent10_01-0030
+# text = If there are any objections you need to get back to me ASAP.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	there	there	PRON	EX	PRO	3	expl	3:expl	_
+3	are	be	VERB	VBP	V;3;PRS;IND;FIN;PL	7	advcl	7:advcl:if	_
+4	any	any	DET	DT	DET	5	det	5:det	_
+5	objections	objection	NOUN	NNS	N;PL	3	nsubj	3:nsubj	_
+6	you	you	PRON	PRP	2;NOM;PRO	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7	need	need	VERB	VBP	V;PRS;IND;2;FIN;SG	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	get	get	VERB	VB	V;NFIN	7	xcomp	7:xcomp	_
+10	back	back	ADV	RB	ADV	9	advmod	9:advmod	_
+11	to	to	ADP	IN	ADP	12	case	12:case	_
+12	me	I	PRON	PRP	ACC;1;PRO;SG	10	obl	10:obl:to	_
+13	ASAP	ASAP	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent10_01-0031
+# text = pls print.
+1	pls	pls	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	print	print	VERB	VB	V;FIN;IMP	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0032
+# text = df
+1	df	df	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0033
+# text = In discussion with Dave, we thought it would be good to put this together in a format of questions and answers.
+1	In	in	ADP	IN	ADP	2	case	2:case	_
+2	discussion	discussion	NOUN	NN	SG;N	7	obl	7:obl:in	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	Dave	Dave	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:with	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	2:punct	_
+6	we	we	PRON	PRP	NOM;PL;1;PRO	7	nsubj	7:nsubj	_
+7	thought	think	VERB	VBD	V;IND;FIN;PST;PL;1	0	root	0:root	_
+8	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	11	expl	11:expl	_
+9	would	would	AUX	MD	V;FIN	11	aux	11:aux	_
+10	be	be	AUX	VB	V;NFIN	11	cop	11:cop	_
+11	good	good	ADJ	JJ	ADJ	7	ccomp	7:ccomp	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	put	put	VERB	VB	V;NFIN	11	csubj	11:csubj	_
+14	this	this	PRON	DT	SG;PRO	13	obj	13:obj	_
+15	together	together	ADV	RB	ADV	13	advmod	13:advmod	_
+16	in	in	ADP	IN	ADP	18	case	18:case	_
+17	a	a	DET	DT	DET;INDF	18	det	18:det	_
+18	format	format	NOUN	NN	SG;N	13	obl	13:obl:in	_
+19	of	of	ADP	IN	ADP	20	case	20:case	_
+20	questions	question	NOUN	NNS	N;PL	18	nmod	18:nmod:of	_
+21	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	answers	answer	NOUN	NNS	N;PL	20	conj	18:nmod:of|20:conj:and	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent10_01-0034
+# text = However, as you will see, the questions I thought of got kinda long- but I think we need answers for all of them.
+1	However	however	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	as	as	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	you	you	PRON	PRP	2;NOM;PRO	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+6	see	see	VERB	VB	V;NFIN	13	advcl	13:advcl:as	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	6:punct	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	questions	question	NOUN	NNS	N;PL	13	nsubj	11:obl:of|13:nsubj|15:nsubj:xsubj	_
+10	I	I	PRON	PRP	NOM;1;PRO;SG	11	nsubj	11:nsubj	_
+11	thought	think	VERB	VBD	V;IND;FIN;PST;1;SG	9	acl:relcl	9:acl:relcl	Cxn=rc-red-obl-pstrand
+12	of	of	ADP	IN	ADP	11	obl	9:case	Promoted=Yes
+13	got	get	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+14	kinda	kinda	ADV	RB	ADV	13	advmod	13:advmod	_
+15	long	long	ADJ	JJ	ADJ	13	xcomp	13:xcomp	SpaceAfter=No
+16	-	-	PUNCT	,	_	19	punct	19:punct	_
+17	but	but	CCONJ	CC	CONJ	19	cc	19:cc	_
+18	I	I	PRON	PRP	NOM;1;PRO;SG	19	nsubj	19:nsubj	_
+19	think	think	VERB	VBP	V;PRS;IND;FIN;1;SG	15	conj	13:xcomp|15:conj:but	_
+20	we	we	PRON	PRP	NOM;PL;1;PRO	21	nsubj	21:nsubj	_
+21	need	need	VERB	VBP	V;PRS;IND;FIN;PL;1	19	ccomp	19:ccomp	_
+22	answers	answer	NOUN	NNS	N;PL	21	obj	21:obj	_
+23	for	for	ADP	IN	ADP	24	case	24:case	_
+24	all	all	DET	DT	DET	22	nmod	22:nmod:for	_
+25	of	of	ADP	IN	ADP	26	case	26:case	_
+26	them	they	PRON	PRP	ACC;3;PL;PRO	24	nmod	24:nmod:of	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = email-enronsent10_01-0035
+# text = One thought is to have just the agenda as a couple topics and then lead in with the first two questions as I've listed.
+1	One	one	NUM	CD	NUM	2	nummod	2:nummod	_
+2	thought	thought	NOUN	NN	SG;N	5	nsubj:outer	5:nsubj:outer|15:nsubj:outer	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+6	just	just	ADV	RB	ADV	8	advmod	8:advmod	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	agenda	agenda	NOUN	NN	SG;N	5	obj	5:obj	_
+9	as	as	ADP	IN	ADP	12	case	12:case	_
+10	a	a	DET	DT	DET;INDF	11	det	11:det	_
+11	couple	couple	NOUN	NN	SG;N	12	nmod:npmod	12:nmod:npmod	_
+12	topics	topic	NOUN	NNS	N;PL	5	obl	5:obl:as	_
+13	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	then	then	ADV	RB	ADV	15	advmod	15:advmod	_
+15	lead	lead	VERB	VB	V;NFIN	5	conj	0:root|5:conj:and	_
+16	in	in	ADV	RB	ADV	15	advmod	15:advmod	_
+17	with	with	ADP	IN	ADP	21	case	21:case	_
+18	the	the	DET	DT	DEF;DET	21	det	21:det	_
+19	first	first	ADJ	JJ	ADJ	21	amod	21:amod	_
+20	two	two	NUM	CD	NUM	21	nummod	21:nummod	_
+21	questions	question	NOUN	NNS	N;PL	15	obl	15:obl:with	_
+22	as	as	SCONJ	IN	CONJ	25	mark	25:mark	_
+23-24	I've	_	_	_	_	_	_	_	_
+23	I	I	PRON	PRP	NOM;1;PRO;SG	25	nsubj	25:nsubj	_
+24	've	have	AUX	VBP	PRS;IND;FIN;1;V;SG	25	aux	25:aux	_
+25	listed	list	VERB	VBN	V;V.PTCP;PST	15	advcl	15:advcl:as	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent10_01-0036
+# text = Please provide me your thoughts asap.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	provide	provide	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	ACC;1;PRO;SG	2	iobj	2:iobj	_
+4	your	your	PRON	PRP$	GEN;2;PRO	5	nmod:poss	5:nmod:poss	_
+5	thoughts	thought	NOUN	NNS	N;PL	2	obj	2:obj	_
+6	asap	ASAP	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0037
+# text = MK
+1	MK	MK	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0038
+# newpar id = email-enronsent10_01-p0002
+# text = whasssup?
+1	whasssup	whassup	INTJ	UH	INTJ	0	root	0:root	CorrectForm=whassup|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0039
+# newpar id = email-enronsent10_01-p0003
+# text = Here it is.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	1	nsubj	1:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	1	cop	1:cop	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0040
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0041
+# text = DF
+1	DF	DF	PROPN	NNP	PROPN;SG	0	root	0:root	_
+

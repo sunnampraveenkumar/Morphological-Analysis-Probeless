@@ -1,0 +1,1244 @@
+# sent_id = email-enronsent33_01-0150
+# text = 11/29/2000 09:52 AM
+1	11/29/2000	11/29/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:52	09:52	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent33_01-0151
+# text = Thanks, Richard.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	Richard	Richard	PROPN	NNP	PROPN;SG	1	vocative	1:vocative	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0152
+# text = Do you have a tel # for Mike?
+1	Do	do	AUX	VBP	PRS;IND;2;FIN;V;SG	3	aux	3:aux	_
+2	you	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj	_
+3	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	tel	tel	NOUN	NN	SG;N	6	compound	6:compound	_
+6	#	#	SYM	NN	SG	3	obj	3:obj	_
+7	for	for	ADP	IN	ADP	8	case	8:case	_
+8	Mike	Mike	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:for	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0153
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0154
+# newpar id = email-enronsent33_01-p0038
+# text = Mark Palmer@ENRON
+1	Mark	MarkPalmer@ENRON	PROPN	GW	PROPN	0	root	0:root	_
+2	Palmer@ENRON	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent33_01-0155
+# text = 11/29/2000 10:45 AM
+1	11/29/2000	11/29/2000	NUM	CD	NUM	0	root	0:root	_
+2	10:45	10:45	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent33_01-0156
+# text = I'll send a copy of the suit filed against the generators as soon as I get it.
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	'll	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	send	send	VERB	VB	V;NFIN	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	copy	copy	NOUN	NN	SG;N	3	obj	3:obj	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	suit	suit	NOUN	NN	SG;N	5	nmod	5:nmod:of	_
+9	filed	file	VERB	VBN	V;V.PTCP;PST;PASS	8	acl	8:acl	_
+10	against	against	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	generators	generator	NOUN	NNS	N;PL	9	obl	9:obl:against	_
+13	as	as	ADV	RB	ADV	14	advmod	14:advmod	_
+14	soon	soon	ADV	RB	ADV	3	advmod	3:advmod	_
+15	as	as	SCONJ	IN	CONJ	17	mark	17:mark	_
+16	I	I	PRON	PRP	NOM;1;PRO;SG	17	nsubj	17:nsubj	_
+17	get	get	VERB	VBP	V;PRS;IND;FIN;1;SG	14	advcl	14:advcl:as	_
+18	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	17	obj	17:obj	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0157
+# newpar id = email-enronsent33_01-p0039
+# text = Mark
+1	Mark	Mark	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent33_01-0158
+# newpar id = email-enronsent33_01-p0040
+# text = "Leopold, Jason" <Jason.Leopold@dowjones.com>
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	Leopold	Leopold	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	Jason	Jason	PROPN	NNP	PROPN;SG	2	flat	2:flat	SpaceAfter=No
+5	"	"	PUNCT	''	_	2	punct	2:punct	_
+6	<	<	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+7	Jason.Leopold@dowjones.com	Jason.Leopold@dowjones.com	PROPN	ADD	PROPN	2	list	2:list	SpaceAfter=No
+8	>	>	PUNCT	-RRB-	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent33_01-0159
+# text = 11/29/2000 10:40 AM
+1	11/29/2000	11/29/2000	NUM	CD	NUM	0	root	0:root	_
+2	10:40	10:40	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent33_01-0160
+# text = Hello Energyphiles:
+1	Hello	hello	INTJ	UH	INTJ	0	root	0:root	_
+2	Energyphiles	energyphile	NOUN	NNS	N;PL	1	vocative	1:vocative	SpaceAfter=No
+3	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0161
+# newpar id = email-enronsent33_01-p0041
+# text = OK, perhaps it was inevitable.
+1	OK	ok	INTJ	UH	INTJ	6	discourse	6:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	perhaps	perhaps	ADV	RB	ADV	6	advmod	6:advmod	_
+4	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	6	nsubj	6:nsubj	_
+5	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	6	cop	6:cop	_
+6	inevitable	inevitable	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent33_01-0162
+# text = But it is now official.
+1	But	but	CCONJ	CC	CONJ	5	cc	5:cc	_
+2	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+4	now	now	ADV	RB	ADV	5	advmod	5:advmod	_
+5	official	official	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent33_01-0163
+# text = A team of San Diego's best anti-trust and class action attorneys has been assembled to take on the electric generators and marketers in California state court in an effort to return the electricity overcharges that have battered San Diego and the rest of California this year.
+1	A	a	DET	DT	DET;INDF	2	det	2:det	_
+2	team	team	NOUN	NN	SG;N	15	nsubj:pass	15:nsubj:pass	_
+3	of	of	ADP	IN	ADP	12	case	12:case	_
+4	San	San	PROPN	NNP	PROPN;SG	12	nmod:poss	12:nmod:poss	_
+5-6	Diego's	_	_	_	_	_	_	_	_
+5	Diego	Diego	PROPN	NNP	PROPN;SG	4	flat	4:flat	_
+6	's	's	PART	POS	PART	4	case	4:case	_
+7	best	good	ADJ	JJS	ADJ;RL	12	amod	12:amod	_
+8	anti-trust	anti-trust	ADJ	JJ	ADJ	12	amod	12:amod	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	class	class	NOUN	NN	SG;N	11	compound	11:compound	_
+11	action	action	NOUN	NN	SG;N	8	conj	8:conj:and|12:amod	_
+12	attorneys	attorney	NOUN	NNS	N;PL	2	nmod	2:nmod:of	_
+13	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	15	aux	15:aux	_
+14	been	be	AUX	VBN	V;V.PTCP;PST	15	aux:pass	15:aux:pass	_
+15	assembled	assemble	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	take	take	VERB	VB	V;NFIN	15	advcl	15:advcl:to	_
+18	on	on	ADP	RP	ADP	17	compound:prt	17:compound:prt	_
+19	the	the	DET	DT	DEF;DET	21	det	21:det	_
+20	electric	electric	ADJ	JJ	ADJ	21	amod	21:amod	_
+21	generators	generator	NOUN	NNS	N;PL	17	obj	17:obj	_
+22	and	and	CCONJ	CC	CONJ	23	cc	23:cc	_
+23	marketers	marketer	NOUN	NNS	N;PL	21	conj	17:obj|21:conj:and	_
+24	in	in	ADP	IN	ADP	27	case	27:case	_
+25	California	California	PROPN	NNP	PROPN;SG	26	compound	26:compound	_
+26	state	state	NOUN	NN	SG;N	27	compound	27:compound	_
+27	court	court	NOUN	NN	SG;N	17	obl	17:obl:in	_
+28	in	in	ADP	IN	ADP	30	case	30:case	_
+29	an	a	DET	DT	DET;INDF	30	det	30:det	_
+30	effort	effort	NOUN	NN	SG;N	17	obl	17:obl:in	_
+31	to	to	PART	TO	PART	32	mark	32:mark	_
+32	return	return	VERB	VB	V;NFIN	30	acl	30:acl:to	_
+33	the	the	DET	DT	DEF;DET	35	det	35:det	_
+34	electricity	electricity	NOUN	NN	SG;N	35	compound	35:compound	_
+35	overcharges	overcharge	NOUN	NNS	N;PL	32	obj	32:obj|38:nsubj	_
+36	that	that	PRON	WDT	PRO	38	nsubj	35:ref	_
+37	have	have	AUX	VBP	3;PRS;IND;FIN;PL;V	38	aux	38:aux	_
+38	battered	batter	VERB	VBN	V;V.PTCP;PST	35	acl:relcl	35:acl:relcl	Cxn=rc-that-nsubj
+39	San	San	PROPN	NNP	PROPN;SG	38	obj	38:obj	_
+40	Diego	Diego	PROPN	NNP	PROPN;SG	39	flat	39:flat	_
+41	and	and	CCONJ	CC	CONJ	43	cc	43:cc	_
+42	the	the	DET	DT	DEF;DET	43	det	43:det	_
+43	rest	rest	NOUN	NN	SG;N	39	conj	38:obj|39:conj:and	_
+44	of	of	ADP	IN	ADP	45	case	45:case	_
+45	California	California	PROPN	NNP	PROPN;SG	43	nmod	43:nmod:of	_
+46	this	this	DET	DT	SG;DET	47	det	47:det	_
+47	year	year	NOUN	NN	SG;N	38	obl:tmod	38:obl:tmod	SpaceAfter=No
+48	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = email-enronsent33_01-0164
+# text = A press conference will be held to discuss the consumer class action lawsuit to be filed today.
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	press	press	NOUN	NN	SG;N	3	compound	3:compound	_
+3	conference	conference	NOUN	NN	SG;N	6	nsubj:pass	6:nsubj:pass	_
+4	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+5	be	be	AUX	VB	V;NFIN	6	aux:pass	6:aux:pass	_
+6	held	hold	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	discuss	discuss	VERB	VB	V;NFIN	6	advcl	6:advcl:to	_
+9	the	the	DET	DT	DEF;DET	13	det	13:det	_
+10	consumer	consumer	NOUN	NN	SG;N	13	compound	13:compound	_
+11	class	class	NOUN	NN	SG;N	12	compound	12:compound	_
+12	action	action	NOUN	NN	SG;N	13	compound	13:compound	_
+13	lawsuit	lawsuit	NOUN	NN	SG;N	8	obj	8:obj	_
+14	to	to	PART	TO	PART	16	mark	16:mark	_
+15	be	be	AUX	VB	V;NFIN	16	aux:pass	16:aux:pass	_
+16	filed	file	VERB	VBN	V;V.PTCP;PST;PASS	13	acl	13:acl:to	_
+17	today	today	NOUN	NN	SG;N	16	obl:tmod	16:obl:tmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent33_01-0165
+# text = WHEN: 11am - noon
+1	WHEN	when	ADV	WRB	ADV	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	4	punct	4:punct	_
+3	11	11	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+4	am	a.m.	NOUN	NN	SG;N	1	appos	1:appos	_
+5	-	-	SYM	SYM	_	6	case	6:case	_
+6	noon	noon	NOUN	NN	SG;N	4	nmod	4:nmod	_
+
+# sent_id = email-enronsent33_01-0166
+# text = WHERE: 550 West C St. (b/t Columbia & India) Suite 1810 Law Offices of Levine, Steinberg, Miller & Huver 619-231-9449
+1	WHERE	where	ADV	WRB	ADV	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	6	punct	6:punct	_
+3	550	550	NUM	CD	NUM	6	nummod	6:nummod	_
+4	West	West	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+5	C	C	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	St.	St.	PROPN	NNP	PROPN;SG	1	appos	1:appos	_
+7	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+8	b/t	between	ADP	IN	ADP	9	case	9:case	_
+9	Columbia	Columbia	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:between	_
+10	&	&	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	India	India	PROPN	NNP	PROPN;SG	9	conj	6:nmod:between|9:conj	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+13	Suite	suite	NOUN	NN	SG;N	6	appos	6:appos	_
+14	1810	1810	NUM	CD	NUM	13	nummod	13:nummod	_
+15	Law	Law	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+16	Offices	Office	PROPN	NNPS	PROPN;PL	6	appos	6:appos	_
+17	of	of	ADP	IN	ADP	18	case	18:case	_
+18	Levine	Levine	PROPN	NNP	PROPN;SG	16	nmod	16:nmod:of	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	20:punct	_
+20	Steinberg	Steinberg	PROPN	NNP	PROPN;SG	18	conj	16:nmod:of|18:conj	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	Miller	Miller	PROPN	NNP	PROPN;SG	18	conj	16:nmod:of|18:conj	_
+23	&	&	CCONJ	CC	CONJ	24	cc	24:cc	_
+24	Huver	Huver	PROPN	NNP	PROPN;SG	18	conj	16:nmod:of|18:conj	_
+25	619-231-9449	619-231-9449	NUM	CD	NUM	6	list	6:list	_
+
+# sent_id = email-enronsent33_01-0167
+# text = WHAT: Copies of the filed complaint will be made available at that time.
+1	WHAT	what	PRON	WP	PRO	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	10	punct	10:punct	_
+3	Copies	copy	NOUN	NNS	N;PL	10	nsubj:pass	10:nsubj:pass|11:nsubj:xsubj	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	filed	file	VERB	VBN	V;V.PTCP;PST;PASS	7	amod	7:amod	_
+7	complaint	complaint	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+8	will	will	AUX	MD	V;FIN	10	aux	10:aux	_
+9	be	be	AUX	VB	V;NFIN	10	aux:pass	10:aux:pass	_
+10	made	make	VERB	VBN	V;V.PTCP;PST;PASS	1	appos	1:appos	_
+11	available	available	ADJ	JJ	ADJ	10	xcomp	10:xcomp	_
+12	at	at	ADP	IN	ADP	14	case	14:case	_
+13	that	that	DET	DT	SG;DET	14	det	14:det	_
+14	time	time	NOUN	NN	SG;N	10	obl	10:obl:at	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0168
+# text = UCAN's executive director and the attorney team will be available to answer questions about the complaint.
+1-2	UCAN's	_	_	_	_	_	_	_	_
+1	UCAN	UCAN	PROPN	NNP	PROPN;SG	4	nmod:poss	4:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	executive	executive	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	director	director	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	attorney	attorney	NOUN	NN	SG;N	8	compound	8:compound	_
+8	team	team	NOUN	NN	SG;N	4	conj	4:conj:and|11:nsubj	_
+9	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+10	be	be	AUX	VB	V;NFIN	11	cop	11:cop	_
+11	available	available	ADJ	JJ	ADJ	0	root	0:root	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	answer	answer	VERB	VB	V;NFIN	11	advcl	11:advcl:to	_
+14	questions	question	NOUN	NNS	N;PL	13	obj	13:obj	_
+15	about	about	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	complaint	complaint	NOUN	NN	SG;N	14	nmod	14:nmod:about	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent33_01-0169
+# text = We are hopeful that we can post the complaint to the UCAN web site later today.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	3	nsubj	3:nsubj	_
+2	are	be	AUX	VBP	PRS;IND;FIN;PL;1;V	3	cop	3:cop	_
+3	hopeful	hopeful	ADJ	JJ	ADJ	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	we	we	PRON	PRP	NOM;PL;1;PRO	7	nsubj	7:nsubj	_
+6	can	can	AUX	MD	V;FIN	7	aux	7:aux	_
+7	post	post	VERB	VB	V;NFIN	3	ccomp	3:ccomp	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	complaint	complaint	NOUN	NN	SG;N	7	obj	7:obj	_
+10	to	to	ADP	IN	ADP	14	case	14:case	_
+11	the	the	DET	DT	DEF;DET	14	det	14:det	_
+12	UCAN	UCAN	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+13	web	web	NOUN	NN	SG;N	14	compound	14:compound	_
+14	site	site	NOUN	NN	SG;N	7	obl	7:obl:to	_
+15	later	late	ADV	RBR	CMPR;ADV	16	advmod	16:advmod	_
+16	today	today	NOUN	NN	SG;N	7	obl:tmod	7:obl:tmod	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0170
+# text = ***********************************
+1	***********************************	***********************************	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = email-enronsent33_01-0171
+# text = "Time is the best teacher, except for the fact that it kills off its best students"
+1	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+2	Time	time	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	cop	6:cop	_
+4	the	the	DET	DT	DEF;DET	6	det	6:det	_
+5	best	good	ADJ	JJS	ADJ;RL	6	amod	6:amod	_
+6	teacher	teacher	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	except	except	ADP	IN	ADP	11	case	11:case	_
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	fact	fact	NOUN	NN	SG;N	6	obl	6:obl:for	_
+12	that	that	SCONJ	IN	CONJ	14	mark	14:mark	_
+13	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	14	nsubj	14:nsubj	_
+14	kills	kill	VERB	VBZ	V;3;PRS;IND;FIN;SG	11	acl	11:acl:that	_
+15	off	off	ADP	RP	ADP	14	compound:prt	14:compound:prt	_
+16	its	its	PRON	PRP$	3;GEN;NEUT;PRO;SG	18	nmod:poss	18:nmod:poss	_
+17	best	good	ADJ	JJS	ADJ;RL	18	amod	18:amod	_
+18	students	student	NOUN	NNS	N;PL	14	obj	14:obj	SpaceAfter=No
+19	"	"	PUNCT	''	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent33_01-0172
+# text = Michael Shames Executive Director Utility Consumers' Action Network 1717 Kettner Blvd. Suite 105 San Diego, CA 92101 619-696-6966 mshames@ucan.org
+1	Michael	Michael	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Shames	Shames	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Executive	executive	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Director	director	NOUN	NN	SG;N	1	list	1:list	_
+5	Utility	Utility	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6-7	Consumers'	_	_	_	_	_	_	_	_
+6	Consumers	Consumer	PROPN	NNPS	PROPN;PL	9	nmod:poss	9:nmod:poss	_
+7	'	's	PART	POS	PART	6	case	6:case	_
+8	Action	Action	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Network	Network	PROPN	NNP	PROPN;SG	1	list	1:list	_
+10	1717	1717	NUM	CD	NUM	12	nummod	12:nummod	_
+11	Kettner	Kettner	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+12	Blvd.	Blvd.	PROPN	NNP	PROPN;SG	1	list	1:list	_
+13	Suite	suite	NOUN	NN	SG;N	12	appos	12:appos	_
+14	105	105	NUM	CD	NUM	13	nummod	13:nummod	_
+15	San	San	PROPN	NNP	PROPN;SG	12	appos	12:appos	_
+16	Diego	Diego	PROPN	NNP	PROPN;SG	15	flat	15:flat	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	CA	CA	PROPN	NNP	PROPN;SG	15	appos	15:appos	_
+19	92101	92101	NUM	CD	NUM	12	appos	12:appos	_
+20	619-696-6966	619-696-6966	NUM	CD	NUM	1	list	1:list	_
+21	mshames@ucan.org	mshames@ucan.org	PROPN	ADD	PROPN	1	list	1:list	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-p0001
+# text = the industry of Marriage and Kids, you heard me.
+1	the	the	DET	DT	DEF;DET	2	det	2:det	_
+2	industry	industry	NOUN	NN	SG;N	0	root	0:root	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	Marriage	marriage	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	Kids	kid	NOUN	NNS	N;PL	4	conj	2:nmod:of|4:conj:and	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	you	you	PRON	PRP	2;NOM;PRO	9	nsubj	9:nsubj	_
+9	heard	hear	VERB	VBD	V;IND;2;FIN;PST;SG	2	parataxis	2:parataxis	_
+10	me	I	PRON	PRP	ACC;1;PRO;SG	9	obj	9:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0002
+# text = Marriage is, in and of itself, a noble concept, but it too often leads to kids and kids flat out suck.
+1	Marriage	marriage	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+2	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	cop	11:cop	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	in	in	ADP	IN	ADP	7	case	7:case	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	of	of	ADP	IN	ADP	4	conj	4:conj:and|7:case	_
+7	itself	itself	PRON	PRP	ACC;3;NEUT;REFL;PRO;SG	11	obl	11:obl:of	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	a	a	DET	DT	DET;INDF	11	det	11:det	_
+10	noble	noble	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	concept	concept	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	17:punct	_
+13	but	but	CCONJ	CC	CONJ	17	cc	17:cc	_
+14	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	17	nsubj	17:nsubj	_
+15	too	too	ADV	RB	ADV	16	advmod	16:advmod	_
+16	often	often	ADV	RB	ADV	17	advmod	17:advmod	_
+17	leads	lead	VERB	VBZ	V;3;PRS;IND;FIN;SG	11	conj	11:conj:but	_
+18	to	to	ADP	IN	ADP	19	case	19:case	_
+19	kids	kid	NOUN	NNS	N;PL	17	obl	17:obl:to	_
+20	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+21	kids	kid	NOUN	NNS	N;PL	24	nsubj	24:nsubj	_
+22	flat	flat	ADV	RB	ADV	23	advmod	23:advmod	_
+23	out	out	ADV	RB	ADV	24	advmod	24:advmod	_
+24	suck	suck	VERB	VBP	V;3;PRS;IND;FIN;PL	17	conj	17:conj:and	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0003
+# text = How can I say such an abomination, ask you?
+1	How	how	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	can	can	AUX	MD	V;FIN	4	aux	4:aux	_
+3	I	I	PRON	PRP	NOM;1;PRO;SG	4	nsubj	4:nsubj	_
+4	say	say	VERB	VB	V;NFIN	9	ccomp	9:ccomp	_
+5	such	such	DET	PDT	DET	7	det:predet	7:det:predet	_
+6	an	a	DET	DT	DET;INDF	7	det	7:det	_
+7	abomination	abomination	NOUN	NN	SG;N	4	obj	4:obj	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	4:punct	_
+9	ask	ask	VERB	VBP	V;PRS;IND;2;FIN;SG	0	root	0:root	_
+10	you	you	PRON	PRP	2;NOM;PRO	9	nsubj	9:nsubj	SpaceAfter=No
+11	?	?	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0004
+# text = Look around you and notice all the mind numbing trailor trash cretins out there who should not be procreating, yet they do.
+1	Look	look	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	around	around	ADP	IN	ADP	3	case	3:case	_
+3	you	you	PRON	PRP	ACC;2;PRO	1	obl	1:obl:around	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	notice	notice	VERB	VB	V;FIN;IMP	1	conj	1:conj:and	_
+6	all	all	DET	PDT	DET	12	det:predet	12:det:predet	_
+7	the	the	DET	DT	DEF;DET	12	det	12:det	_
+8	mind	mind	NOUN	NN	SG;N	9	compound	9:compound	_
+9	numbing	numb	VERB	VBG	V;V.MSDR	12	amod	12:amod	_
+10	trailor	trailor	NOUN	NN	SG;N	11	compound	11:compound	_
+11	trash	trash	NOUN	NN	SG;N	12	compound	12:compound	_
+12	cretins	cretin	NOUN	NNS	N;PL	5	obj	5:obj|19:nsubj	_
+13	out	out	ADV	RB	ADV	14	advmod	14:advmod	_
+14	there	there	ADV	RB	ADV	12	advmod	12:advmod	_
+15	who	who	PRON	WP	PRO	19	nsubj	12:ref	_
+16	should	should	AUX	MD	V;FIN	19	aux	19:aux	_
+17	not	not	PART	RB	PART	19	advmod	19:advmod	_
+18	be	be	AUX	VB	V;NFIN	19	aux	19:aux	_
+19	procreating	procreate	VERB	VBG	V;V.PTCP;PRS	12	acl:relcl	12:acl:relcl	Cxn=rc-wh-nsubj-auxstrand|SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	23:punct	_
+21	yet	yet	CCONJ	CC	CONJ	23	cc	23:cc	_
+22	they	they	PRON	PRP	3;NOM;PL;PRO	23	nsubj	23:nsubj	_
+23	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	19	conj	12:acl:relcl|19:conj:yet	Promoted=Yes|SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0005
+# text = These are the people who keep Jerry springer on the air.
+1	These	this	PRON	DT	PL;PRO	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	4	cop	4:cop	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	people	people	NOUN	NNS	N;PL	0	root	0:root|6:nsubj	_
+5	who	who	PRON	WP	PRO	6	nsubj	4:ref	_
+6	keep	keep	VERB	VBP	V;3;PRS;IND;FIN;PL	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+7	Jerry	Jerry	PROPN	NNP	PROPN;SG	6	obj	6:obj	_
+8	springer	springer	PROPN	NNP	PROPN;SG	7	flat	7:flat	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	air	air	NOUN	NN	SG;N	6	obl	6:obl:on	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0006
+# text = These are the kids who will destroy society, because of the crapfest the American family has become under the post hippie culture, you heard again.
+1	These	this	PRON	DT	PL;PRO	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	4	cop	4:cop	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	kids	kid	NOUN	NNS	N;PL	0	root	0:root|7:nsubj	_
+5	who	who	PRON	WP	PRO	7	nsubj	4:ref	_
+6	will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+7	destroy	destroy	VERB	VB	V;NFIN	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+8	society	society	NOUN	NN	SG;N	7	obj	7:obj	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	because	because	ADP	IN	ADP	13	case	13:case	_
+11	of	of	ADP	IN	ADP	10	fixed	10:fixed	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	crapfest	crapfest	NOUN	NN	SG;N	7	obl	7:obl:because_of|18:obj	_
+14	the	the	DET	DT	DEF;DET	16	det	16:det	_
+15	American	American	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	family	family	NOUN	NN	SG;N	18	nsubj	18:nsubj	_
+17	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	18	aux	18:aux	_
+18	become	become	VERB	VBN	V;V.PTCP;PST	13	acl:relcl	13:acl:relcl	Cxn=rc-red-obj
+19	under	under	ADP	IN	ADP	23	case	23:case	_
+20	the	the	DET	DT	DEF;DET	23	det	23:det	_
+21	post	post	ADV	AFX	ADV	22	advmod	22:advmod	_
+22	hippie	hippie	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	culture	culture	NOUN	NN	SG;N	18	obl	18:obl:under	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	26:punct	_
+25	you	you	PRON	PRP	2;NOM;PRO	26	nsubj	26:nsubj	_
+26	heard	hear	VERB	VBD	V;IND;2;FIN;PST;SG	4	parataxis	4:parataxis	_
+27	again	again	ADV	RB	ADV	26	advmod	26:advmod	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0007
+# text = And you might think by reading this I blame the kids.....
+1	And	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+2	you	you	PRON	PRP	2;NOM;PRO	4	nsubj	4:nsubj	_
+3	might	might	AUX	MD	V;FIN	4	aux	4:aux	_
+4	think	think	VERB	VB	V;NFIN	0	root	0:root	_
+5	by	by	SCONJ	IN	CONJ	6	mark	6:mark	_
+6	reading	read	VERB	VBG	V;V.PTCP;PRS	4	advcl	4:advcl:by	_
+7	this	this	PRON	DT	SG;PRO	6	obj	6:obj	_
+8	I	I	PRON	PRP	NOM;1;PRO;SG	9	nsubj	9:nsubj	_
+9	blame	blame	VERB	VBP	V;PRS;IND;FIN;1;SG	4	ccomp	4:ccomp	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	kids	kid	NOUN	NNS	N;PL	9	obj	9:obj	SpaceAfter=No
+12	.....	.....	PUNCT	,	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0008
+# text = Not so, Kids are what kids are and will do what they do.
+1	Not	not	PART	RB	PART	2	advmod	2:advmod	_
+2	so	so	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	6:punct	_
+4	Kids	kid	NOUN	NNS	N;PL	6	nsubj	6:nsubj|11:nsubj	_
+5	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	6	cop	6:cop	_
+6	what	what	PRON	WP	PRO	2	parataxis	2:parataxis	_
+7	kids	kid	NOUN	NNS	N;PL	8	nsubj	8:nsubj	_
+8	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	6	acl:relcl	6:acl:relcl	Cxn=rc-free-pred-auxstrand|Promoted=Yes
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+11	do	do	VERB	VB	V;NFIN	6	conj	6:conj:and	_
+12	what	what	PRON	WP	PRO	11	obj	11:obj|14:obj	_
+13	they	they	PRON	PRP	3;NOM;PL;PRO	14	nsubj	14:nsubj	_
+14	do	do	VERB	VBP	V;3;PRS;IND;FIN;PL	12	acl:relcl	12:acl:relcl	Cxn=rc-free-obj|SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0009
+# text = It is literally monkey see and monkey do with them.
+1	It	it	PRON	PRP	3;NOM;NEUT;PRO;SG	5	nsubj:outer	5:nsubj:outer|8:nsubj:outer	_
+2	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+3	literally	literally	ADV	RB	ADV	5	advmod	5:advmod	_
+4	monkey	monkey	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+5	see	see	VERB	VB	V;NFIN	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	monkey	monkey	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+8	do	do	VERB	VB	V;NFIN	5	conj	0:root|5:conj:and	_
+9	with	with	ADP	IN	ADP	10	case	10:case	_
+10	them	they	PRON	PRP	ACC;3;PL;PRO	5	obl	5:obl:with	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0010
+# text = That will likely never change.
+1	That	that	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+2	will	will	AUX	MD	V;FIN	5	aux	5:aux	_
+3	likely	likely	ADV	RB	ADV	5	advmod	5:advmod	_
+4	never	never	ADV	RB	ADV	5	advmod	5:advmod	_
+5	change	change	VERB	VB	V;NFIN	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0011
+# text = It's the bad parents out there who fuck up their lives and dont seem to understand that once you decide to have kids, it is indeed time to grow up and be a responsible role model for those kids.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	3;NOM;NEUT;PRO;SG	5	expl	5:expl	_
+2	's	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	bad	bad	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	parents	parent	NOUN	NNS	N;PL	0	root	0:root|9:nsubj|16:nsubj|18:nsubj:xsubj	_
+6	out	out	ADV	RB	ADV	7	advmod	7:advmod	_
+7	there	there	ADV	RB	ADV	5	advmod	5:advmod	_
+8	who	who	PRON	WP	PRO	9	nsubj	5:ref	_
+9	fuck	fuck	VERB	VBP	V;3;PRS;IND;FIN;PL	5	advcl:relcl	5:advcl:relcl	Cxn=rc-cleft.wh-nsubj
+10	up	up	ADP	RP	ADP	9	compound:prt	9:compound:prt	_
+11	their	their	PRON	PRP$	3;GEN;PL;PRO	12	nmod:poss	12:nmod:poss	_
+12	lives	life	NOUN	NNS	N;PL	9	obj	9:obj	_
+13	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+14-15	dont	_	_	_	_	_	_	_	_
+14	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	16	aux	16:aux	_
+15	nt	not	PART	RB	PART	16	advmod	16:advmod	CorrectForm=n't
+16	seem	seem	VERB	VB	V;NFIN	9	conj	5:acl:relcl|9:conj:and	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	understand	understand	VERB	VB	V;NFIN	16	xcomp	16:xcomp	_
+19	that	that	SCONJ	IN	CONJ	30	mark	30:mark	_
+20	once	once	SCONJ	IN	CONJ	22	mark	22:mark	_
+21	you	you	PRON	PRP	2;NOM;PRO	22	nsubj	22:nsubj|24:nsubj:xsubj	_
+22	decide	decide	VERB	VBP	V;PRS;IND;2;FIN;SG	30	advcl	30:advcl:once	_
+23	to	to	PART	TO	PART	24	mark	24:mark	_
+24	have	have	VERB	VB	V;NFIN	22	xcomp	22:xcomp	_
+25	kids	kid	NOUN	NNS	N;PL	24	obj	24:obj	SpaceAfter=No
+26	,	,	PUNCT	,	_	22	punct	22:punct	_
+27	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	30	nsubj	30:nsubj	_
+28	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	30	cop	30:cop	_
+29	indeed	indeed	ADV	RB	ADV	30	advmod	30:advmod	_
+30	time	time	NOUN	NN	SG;N	18	ccomp	18:ccomp	_
+31	to	to	PART	TO	PART	32	mark	32:mark	_
+32	grow	grow	VERB	VB	V;NFIN	30	acl	30:acl:to	_
+33	up	up	ADP	RP	ADP	32	compound:prt	32:compound:prt	_
+34	and	and	CCONJ	CC	CONJ	39	cc	39:cc	_
+35	be	be	AUX	VB	V;NFIN	39	cop	39:cop	_
+36	a	a	DET	DT	DET;INDF	39	det	39:det	_
+37	responsible	responsible	ADJ	JJ	ADJ	39	amod	39:amod	_
+38	role	role	NOUN	NN	SG;N	39	compound	39:compound	_
+39	model	model	NOUN	NN	SG;N	32	conj	30:acl:to|32:conj:and	_
+40	for	for	ADP	IN	ADP	42	case	42:case	_
+41	those	that	DET	DT	PL;DET	42	det	42:det	_
+42	kids	kid	NOUN	NNS	N;PL	39	nmod	39:nmod:for	SpaceAfter=No
+43	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0012
+# text = Very few parents do this.
+1	Very	very	ADV	RB	ADV	2	advmod	2:advmod	_
+2	few	few	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	parents	parent	NOUN	NNS	N;PL	4	nsubj	4:nsubj	_
+4	do	do	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+5	this	this	PRON	DT	SG;PRO	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0013
+# text = And this is a direct result of the Politically correct, permissive, time out granting bullshit liberal culture that has caused this.
+1	And	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+2	this	this	PRON	DT	SG;PRO	6	nsubj	6:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	cop	6:cop	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	direct	direct	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	result	result	NOUN	NN	SG;N	0	root	0:root	_
+7	of	of	ADP	IN	ADP	19	case	19:case	_
+8	the	the	DET	DT	DEF;DET	19	det	19:det	_
+9	Politically	politically	ADV	RB	ADV	10	advmod	10:advmod	_
+10	correct	correct	ADJ	JJ	ADJ	19	amod	19:amod	SpaceAfter=No
+11	,	,	PUNCT	,	_	10	punct	10:punct	_
+12	permissive	permissive	ADJ	JJ	ADJ	19	amod	19:amod	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	12:punct	_
+14	time	time	NOUN	NN	SG;N	15	compound	15:compound	_
+15	out	out	NOUN	NN	SG;N	16	obj	16:obj	_
+16	granting	grant	VERB	VBG	V;V.MSDR	19	acl	19:acl	_
+17	bullshit	bullshit	NOUN	NN	SG;N	19	compound	19:compound	_
+18	liberal	liberal	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	culture	culture	NOUN	NN	SG;N	6	nmod	6:nmod:of|22:nsubj	_
+20	that	that	PRON	WDT	PRO	22	nsubj	19:ref	_
+21	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	22	aux	22:aux	_
+22	caused	cause	VERB	VBN	V;V.PTCP;PST	19	acl:relcl	19:acl:relcl	Cxn=rc-that-nsubj
+23	this	this	PRON	DT	SG;PRO	22	obj	22:obj	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0014
+# text = When you blame it all on society, there's noone to to take responsibility and all of a sudden you have generation of fucked up kids who are likley smoking, drinking, doing drugs, fucking the neighbor or some internet perv just because you are too lazy to see waht they're doing.
+1	When	when	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	you	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj	_
+3	blame	blame	VERB	VBP	V;PRS;IND;2;FIN;SG	10	advcl	10:advcl:when	_
+4	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	3	obj	3:obj	_
+5	all	all	DET	DT	DET	4	advmod	4:advmod	_
+6	on	on	ADP	IN	ADP	7	case	7:case	_
+7	society	society	NOUN	NN	SG;N	3	obl	3:obl:on	SpaceAfter=No
+8	,	,	PUNCT	,	_	3	punct	3:punct	_
+9-10	there's	_	_	_	_	_	_	_	_
+9	there	there	PRON	EX	PRO	10	expl	10:expl	_
+10	's	be	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+11	noone	no-one	PRON	NN	SG;PRO	10	nsubj	10:nsubj	CorrectForm=no-one
+12	to	to	PART	TO	PART	14	reparandum	14:reparandum	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	take	take	VERB	VB	V;NFIN	11	acl	11:acl:to	_
+15	responsibility	responsibility	NOUN	NN	SG;N	14	obj	14:obj	_
+16	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+17	all	all	ADV	RB	ADV	20	advmod	20:advmod	_
+18	of	of	ADV	RB	ADV	20	advmod	20:advmod	_
+19	a	a	ADV	RB	ADV	20	advmod	20:advmod	_
+20	sudden	sudden	ADV	RB	ADV	22	advmod	22:advmod	_
+21	you	you	PRON	PRP	2;NOM;PRO	22	nsubj	22:nsubj	_
+22	have	have	VERB	VBP	V;PRS;IND;2;FIN;SG	10	conj	10:conj:and	_
+23	generation	generation	NOUN	NN	SG;N	22	obj	22:obj	_
+24	of	of	ADP	IN	ADP	27	case	27:case	_
+25	fucked	fuck	VERB	VBN	V;V.PTCP;PST;PASS	27	amod	27:amod	_
+26	up	up	ADP	RP	ADP	25	compound	25:compound	_
+27	kids	kid	NOUN	NNS	N;PL	23	nmod	23:nmod:of|31:nsubj|33:nsubj|35:nsubj|38:nsubj	_
+28	who	who	PRON	WP	PRO	31	nsubj	27:ref	_
+29	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	31	aux	31:aux	_
+30	likley	likely	ADV	RB	ADV	31	advmod	31:advmod	CorrectForm=likely
+31	smoking	smoke	VERB	VBG	V;V.PTCP;PRS	27	acl:relcl	27:acl:relcl	Cxn=rc-wh-nsubj|SpaceAfter=No
+32	,	,	PUNCT	,	_	33	punct	33:punct	_
+33	drinking	drink	VERB	VBG	V;V.PTCP;PRS	31	conj	27:acl:relcl|31:conj	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	35:punct	_
+35	doing	do	VERB	VBG	V;V.PTCP;PRS	31	conj	27:acl:relcl|31:conj	_
+36	drugs	drug	NOUN	NNS	N;PL	35	obj	35:obj	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	38:punct	_
+38	fucking	fuck	VERB	VBG	V;V.PTCP;PRS	31	conj	27:acl:relcl|31:conj	_
+39	the	the	DET	DT	DEF;DET	40	det	40:det	_
+40	neighbor	neighbor	NOUN	NN	SG;N	38	obj	38:obj	_
+41	or	or	CCONJ	CC	CONJ	44	cc	44:cc	_
+42	some	some	DET	DT	DET	44	det	44:det	_
+43	internet	internet	NOUN	NN	SG;N	44	compound	44:compound	_
+44	perv	perv	NOUN	NN	SG;N	40	conj	38:obj|40:conj:or	_
+45	just	just	ADV	RB	ADV	50	advmod	50:advmod	_
+46	because	because	SCONJ	IN	CONJ	50	mark	50:mark	_
+47	you	you	PRON	PRP	2;NOM;PRO	50	nsubj	50:nsubj	_
+48	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	50	cop	50:cop	_
+49	too	too	ADV	RB	ADV	50	advmod	50:advmod	_
+50	lazy	lazy	ADJ	JJ	ADJ	31	advcl	31:advcl:because	_
+51	to	to	PART	TO	PART	52	mark	52:mark	_
+52	see	see	VERB	VB	V;NFIN	50	advcl	50:advcl:to	_
+53	waht	what	PRON	WP	PRO	56	obj	56:obj	CorrectForm=what
+54-55	they're	_	_	_	_	_	_	_	_
+54	they	they	PRON	PRP	3;NOM;PL;PRO	56	nsubj	56:nsubj	_
+55	're	be	AUX	VBP	3;PRS;IND;FIN;PL;V	56	aux	56:aux	_
+56	doing	do	VERB	VBG	V;V.PTCP;PRS	52	ccomp	52:ccomp	SpaceAfter=No
+57	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0015
+# text = People like this will never have my sympathy, nor do they deserve my sympathy.
+1	People	people	NOUN	NNS	N;PL	6	nsubj	6:nsubj	_
+2	like	like	ADP	IN	ADP	3	case	3:case	_
+3	this	this	PRON	DT	SG;PRO	1	nmod	1:nmod:like	_
+4	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+5	never	never	ADV	RB	ADV	6	advmod	6:advmod	_
+6	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+7	my	my	PRON	PRP$	GEN;1;PRO;SG	8	nmod:poss	8:nmod:poss	_
+8	sympathy	sympathy	NOUN	NN	SG;N	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	nor	nor	CCONJ	CC	CONJ	13	cc	13:cc	_
+11	do	do	AUX	VBP	3;PRS;IND;FIN;PL;V	13	aux	13:aux	_
+12	they	they	PRON	PRP	3;NOM;PL;PRO	13	nsubj	13:nsubj	_
+13	deserve	deserve	VERB	VB	V;NFIN	6	conj	6:conj:nor	_
+14	my	my	PRON	PRP$	GEN;1;PRO;SG	15	nmod:poss	15:nmod:poss	_
+15	sympathy	sympathy	NOUN	NN	SG;N	13	obj	13:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0016
+# text = Look inside yourselves parents, is this you?
+1	Look	look	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	inside	inside	ADP	IN	ADP	3	case	3:case	_
+3	yourselves	yourselves	PRON	PRP	ACC;2;REFL;PL;PRO	1	obl	1:obl:inside	_
+4	parents	parent	NOUN	NNS	N;PL	1	vocative	1:vocative	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	8	cop	8:cop	_
+7	this	this	PRON	DT	SG;PRO	8	nsubj	8:nsubj	_
+8	you	you	PRON	PRP	2;NOM;PRO	1	parataxis	1:parataxis	SpaceAfter=No
+9	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0017
+# text = Probably it is.
+1	Probably	probably	ADV	RB	ADV	3	advmod	3:advmod	_
+2	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	3	nsubj	3:nsubj	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0018
+# text = Fuck you.
+1	Fuck	fuck	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	you	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0019
+# text = Stop trying to pawn your brats off on others to "get a break" .
+1	Stop	stop	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	trying	try	VERB	VBG	V;V.MSDR	1	xcomp	1:xcomp	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	pawn	pawn	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	your	your	PRON	PRP$	GEN;2;PRO	6	nmod:poss	6:nmod:poss	_
+6	brats	brat	NOUN	NNS	N;PL	4	obj	4:obj	_
+7	off	off	ADP	RP	ADP	4	compound:prt	4:compound:prt	_
+8	on	on	ADP	IN	ADP	9	case	9:case	_
+9	others	other	NOUN	NNS	N;PL	4	obl	4:obl:on	_
+10	to	to	PART	TO	PART	12	mark	12:mark	_
+11	"	"	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No
+12	get	get	VERB	VB	V;NFIN	4	advcl	4:advcl:to	_
+13	a	a	DET	DT	DET;INDF	14	det	14:det	_
+14	break	break	NOUN	NN	SG;N	12	obj	12:obj	SpaceAfter=No
+15	"	"	PUNCT	''	_	12	punct	12:punct	_
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0020
+# text = You made a choice to be a mommy, you dont get a break until they move out, thats the choice that you madea and that's life.
+1	You	you	PRON	PRP	2;NOM;PRO	2	nsubj	2:nsubj	_
+2	made	make	VERB	VBD	V;IND;2;FIN;PST;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	choice	choice	NOUN	NN	SG;N	2	obj	2:obj	_
+5	to	to	PART	TO	PART	8	mark	8:mark	_
+6	be	be	AUX	VB	V;NFIN	8	cop	8:cop	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	mommy	mommy	NOUN	NN	SG;N	4	acl	4:acl:to	SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	you	you	PRON	PRP	2;NOM;PRO	13	nsubj	13:nsubj	_
+11-12	dont	_	_	_	_	_	_	_	_
+11	do	do	AUX	VBP	PRS;IND;2;FIN;V;SG	13	aux	13:aux	_
+12	nt	not	PART	RB	PART	13	advmod	13:advmod	CorrectForm=n't
+13	get	get	VERB	VB	V;NFIN	2	parataxis	2:parataxis	_
+14	a	a	DET	DT	DET;INDF	15	det	15:det	_
+15	break	break	NOUN	NN	SG;N	13	obj	13:obj	_
+16	until	until	SCONJ	IN	CONJ	18	mark	18:mark	_
+17	they	they	PRON	PRP	3;NOM;PL;PRO	18	nsubj	18:nsubj	_
+18	move	move	VERB	VBP	V;3;PRS;IND;FIN;PL	13	advcl	13:advcl:until	_
+19	out	out	ADV	RB	ADV	18	advmod	18:advmod	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	24:punct	_
+21-22	thats	_	_	_	_	_	_	_	_
+21	that	that	PRON	DT	SG;PRO	24	nsubj	24:nsubj	_
+22	s	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	24	cop	24:cop	CorrectForm='s
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	choice	choice	NOUN	NN	SG;N	2	parataxis	2:parataxis|27:obj	_
+25	that	that	PRON	WDT	PRO	27	obj	24:ref	_
+26	you	you	PRON	PRP	2;NOM;PRO	27	nsubj	27:nsubj	_
+27	madea	make	VERB	VBD	V;IND;2;FIN;PST;SG	24	acl:relcl	24:acl:relcl	CorrectForm=made|Cxn=rc-that-obj
+28	and	and	CCONJ	CC	CONJ	31	cc	31:cc	_
+29-30	that's	_	_	_	_	_	_	_	_
+29	that	that	PRON	DT	SG;PRO	31	nsubj	31:nsubj	_
+30	's	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	31	cop	31:cop	_
+31	life	life	NOUN	NN	SG;N	24	conj	24:conj:and|27:obj	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0021
+# text = Tough shit.
+1	Tough	tough	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	shit	shit	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0022
+# text = Just because you're stuck, doesnt give you the right to drag down all the singles around you.
+1	Just	just	ADV	RB	ADV	5	advmod	5:advmod	_
+2	because	because	SCONJ	IN	CONJ	5	mark	5:mark	_
+3-4	you're	_	_	_	_	_	_	_	_
+3	you	you	PRON	PRP	2;NOM;PRO	5	nsubj	5:nsubj	_
+4	're	be	AUX	VBP	PRS;IND;2;FIN;V;SG	5	cop	5:cop	_
+5	stuck	stuck	ADJ	JJ	ADJ	9	advcl	9:advcl:because	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7-8	doesnt	_	_	_	_	_	_	_	_
+7	does	do	AUX	VBZ	3;PRS;IND;FIN;V;SG	9	aux	9:aux	_
+8	nt	not	PART	RB	PART	9	advmod	9:advmod	CorrectForm=n't
+9	give	give	VERB	VB	V;NFIN	0	root	0:root	_
+10	you	you	PRON	PRP	ACC;2;PRO	9	iobj	9:iobj	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	right	right	NOUN	NN	SG;N	9	obj	9:obj	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	drag	drag	VERB	VB	V;NFIN	12	acl	12:acl:to	_
+15	down	down	ADP	RP	ADP	14	compound:prt	14:compound:prt	_
+16	all	all	DET	PDT	DET	18	det:predet	18:det:predet	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	singles	single	NOUN	NNS	N;PL	14	obj	14:obj	_
+19	around	around	ADP	IN	ADP	20	case	20:case	_
+20	you	you	PRON	PRP	ACC;2;PRO	18	nmod	18:nmod:around	SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0023
+# text = Another time I'll segueway into all the fun work related instances where "Mommies" get out of doing work and hiding behind childcare as the reason.
+1	Another	another	DET	DT	DET	2	det	2:det	_
+2	time	time	NOUN	NN	SG;N	5	obl:tmod	5:obl:tmod	_
+3-4	I'll	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	NOM;1;PRO;SG	5	nsubj	5:nsubj	_
+4	'll	will	AUX	MD	V;FIN	5	aux	5:aux	_
+5	segueway	segue	VERB	VB	V;NFIN	0	root	0:root	CorrectForm=segue
+6	into	into	ADP	IN	ADP	12	case	12:case	_
+7	all	all	DET	PDT	DET	12	det:predet	12:det:predet	_
+8	the	the	DET	DT	DEF;DET	12	det	12:det	_
+9	fun	fun	ADJ	JJ	ADJ	12	amod	12:amod	_
+10	work	work	NOUN	NN	SG;N	11	compound	11:compound	_
+11	related	related	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	instances	instance	NOUN	NNS	N;PL	5	obl	5:obl:into	_
+13	where	where	ADV	WRB	ADV	17	advmod	17:advmod	_
+14	"	"	PUNCT	``	_	15	punct	15:punct	SpaceAfter=No
+15	Mommies	mommy	NOUN	NNS	N;PL	17	nsubj	17:nsubj|20:nsubj:xsubj|23:nsubj	SpaceAfter=No
+16	"	"	PUNCT	''	_	15	punct	15:punct	_
+17	get	get	VERB	VBP	V;3;PRS;IND;FIN;PL	5	advcl	5:advcl:where	_
+18	out	out	ADP	IN	ADP	20	mark	20:mark	_
+19	of	of	SCONJ	IN	CONJ	20	mark	20:mark	_
+20	doing	do	VERB	VBG	V;V.MSDR	17	xcomp	17:xcomp	_
+21	work	work	NOUN	NN	SG;N	20	obj	20:obj	_
+22	and	and	CCONJ	CC	CONJ	23	cc	23:cc	_
+23	hiding	hide	VERB	VBG	V;V.PTCP;PRS	17	conj	5:advcl:where|17:conj:and	_
+24	behind	behind	ADP	IN	ADP	25	case	25:case	_
+25	childcare	childcare	NOUN	NN	SG;N	23	obl	23:obl:behind	_
+26	as	as	ADP	IN	ADP	28	case	28:case	_
+27	the	the	DET	DT	DEF;DET	28	det	28:det	_
+28	reason	reason	NOUN	NN	SG;N	23	obl	23:obl:as	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0024
+# text = This is the insidious conspiracy I call "Mommism".
+1	This	this	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	insidious	insidious	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	conspiracy	conspiracy	NOUN	NN	SG;N	0	root	0:root|7:obj	_
+6	I	I	PRON	PRP	NOM;1;PRO;SG	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7	call	call	VERB	VBP	V;PRS;IND;FIN;1;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+8	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+9	Mommism	mommism	NOUN	NN	SG;N	7	xcomp	7:xcomp	SpaceAfter=No
+10	"	"	PUNCT	''	_	9	punct	9:punct	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.badgers_172dcd8baf26948f_ENG_20040823_121900-0025
+# text = It must be stamped out.
+1	It	it	PRON	PRP	3;NOM;NEUT;PRO;SG	4	nsubj:pass	4:nsubj:pass	_
+2	must	must	AUX	MD	V;FIN	4	aux	4:aux	_
+3	be	be	AUX	VB	V;NFIN	4	aux:pass	4:aux:pass	_
+4	stamped	stamp	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+5	out	out	ADP	RP	ADP	4	compound:prt	4:compound:prt	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0001
+# newpar id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-p0001
+# text = [http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines	http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0002
+# newpar id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-p0002
+# text = (Newsday.com)
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	Newsday.com	Newsday.com	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0003
+# text = It looks like NASA is ready to sour again after it's devastating loss from the Columbia accident which occurred nearly two years ago.
+1	It	it	PRON	PRP	3;NOM;NEUT;PRO;SG	2	nsubj	2:nsubj	_
+2	looks	look	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	like	like	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	NASA	NASA	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+5	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	cop	6:cop	_
+6	ready	ready	ADJ	JJ	ADJ	2	advcl	2:advcl:like	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	sour	sour	VERB	VB	V;NFIN	6	xcomp	6:xcomp	_
+9	again	again	ADV	RB	ADV	8	advmod	8:advmod	_
+10	after	after	ADP	IN	ADP	13	case	13:case	_
+11	it's	its	PRON	PRP$	3;GEN;NEUT;PRO;SG	13	nmod:poss	13:nmod:poss	CorrectForm=its
+12	devastating	devastating	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	loss	loss	NOUN	NN	SG;N	8	obl	8:obl:after	_
+14	from	from	ADP	IN	ADP	17	case	17:case	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	Columbia	Columbia	PROPN	NNP	PROPN;SG	17	compound	17:compound	_
+17	accident	accident	NOUN	NN	SG;N	13	nmod	13:nmod:from|19:nsubj	_
+18	which	which	PRON	WDT	PRO	19	nsubj	17:ref	_
+19	occurred	occur	VERB	VBD	V;3;IND;FIN;PST;SG	17	acl:relcl	17:acl:relcl	Cxn=rc-wh-nsubj
+20	nearly	nearly	ADV	RB	ADV	21	advmod	21:advmod	_
+21	two	two	NUM	CD	NUM	22	nummod	22:nummod	_
+22	years	year	NOUN	NNS	N;PL	23	obl:npmod	23:obl:npmod	_
+23	ago	ago	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0004
+# text = Now, NASA engineers and astronauts are almost giddy with "go" fever as the tentative date for the first launch since the Columbia disaster approaches.
+1	Now	now	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	NASA	NASA	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	engineers	engineer	NOUN	NNS	N;PL	9	nsubj	9:nsubj	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	astronauts	astronaut	NOUN	NNS	N;PL	4	conj	4:conj:and|9:nsubj	_
+7	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	9	cop	9:cop	_
+8	almost	almost	ADV	RB	ADV	9	advmod	9:advmod	_
+9	giddy	giddy	ADJ	JJ	ADJ	0	root	0:root	_
+10	with	with	ADP	IN	ADP	14	case	14:case	_
+11	"	"	PUNCT	``	_	12	punct	12:punct	SpaceAfter=No
+12	go	go	NOUN	NN	SG;N	14	compound	14:compound	SpaceAfter=No
+13	"	"	PUNCT	''	_	12	punct	12:punct	_
+14	fever	fever	NOUN	NN	SG;N	9	obl	9:obl:with	_
+15	as	as	SCONJ	IN	CONJ	27	mark	27:mark	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	tentative	tentative	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	date	date	NOUN	NN	SG;N	27	nsubj	27:nsubj	_
+19	for	for	ADP	IN	ADP	22	case	22:case	_
+20	the	the	DET	DT	DEF;DET	22	det	22:det	_
+21	first	first	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	launch	launch	NOUN	NN	SG;N	18	nmod	18:nmod:for	_
+23	since	since	ADP	IN	ADP	26	case	26:case	_
+24	the	the	DET	DT	DEF;DET	26	det	26:det	_
+25	Columbia	Columbia	PROPN	NNP	PROPN;SG	26	compound	26:compound	_
+26	disaster	disaster	NOUN	NN	SG;N	22	nmod	22:nmod:since	_
+27	approaches	approach	VERB	VBZ	V;3;PRS;IND;FIN;SG	9	advcl	9:advcl:as	SpaceAfter=No
+28	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0005
+# text = The most important question isn't whether Discovery is technically ready to fly with new safety features and emergency procedures, but whether the agency itself has learned from the crucial errors most common to Challenger and Columbia, errors that grew out of a management culture that discouraged criticism and sacrificed safety for image-puffing and budget-cutting.
+1	The	the	DET	DT	DEF;DET	4	det	4:det	_
+2	most	most	ADV	RBS	RL;ADV	3	advmod	3:advmod	_
+3	important	important	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	question	question	NOUN	NN	SG;N	11	nsubj:outer	11:nsubj:outer	_
+5-6	isn't	_	_	_	_	_	_	_	_
+5	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	cop	11:cop	_
+6	n't	not	PART	RB	PART	11	advmod	11:advmod	_
+7	whether	whether	SCONJ	IN	CONJ	11	mark	11:mark	_
+8	Discovery	Discovery	PROPN	NNP	PROPN;SG	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+9	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	11	cop	11:cop	_
+10	technically	technically	ADV	RB	ADV	11	advmod	11:advmod	_
+11	ready	ready	ADJ	JJ	ADJ	0	root	0:root	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	fly	fly	VERB	VB	V;NFIN	11	xcomp	11:xcomp	_
+14	with	with	ADP	IN	ADP	17	case	17:case	_
+15	new	new	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	safety	safety	NOUN	NN	SG;N	17	compound	17:compound	_
+17	features	feature	NOUN	NNS	N;PL	13	obl	13:obl:with	_
+18	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	emergency	emergency	NOUN	NN	SG;N	20	compound	20:compound	_
+20	procedures	procedure	NOUN	NNS	N;PL	17	conj	13:obl:with|17:conj:and	SpaceAfter=No
+21	,	,	PUNCT	,	_	28	punct	28:punct	_
+22	but	but	CCONJ	CC	CONJ	28	cc	28:cc	_
+23	whether	whether	SCONJ	IN	CONJ	28	mark	28:mark	_
+24	the	the	DET	DT	DEF;DET	25	det	25:det	_
+25	agency	agency	NOUN	NN	SG;N	28	nsubj	28:nsubj	_
+26	itself	itself	PRON	PRP	ACC;3;NEUT;REFL;PRO;SG	25	nmod:npmod	25:nmod:npmod	_
+27	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	28	aux	28:aux	_
+28	learned	learn	VERB	VBN	V;V.PTCP;PST	11	conj	11:conj:but	_
+29	from	from	ADP	IN	ADP	32	case	32:case	_
+30	the	the	DET	DT	DEF;DET	32	det	32:det	_
+31	crucial	crucial	ADJ	JJ	ADJ	32	amod	32:amod	_
+32	errors	error	NOUN	NNS	N;PL	28	obl	28:obl:from	_
+33	most	most	ADV	RBS	RL;ADV	34	advmod	34:advmod	_
+34	common	common	ADJ	JJ	ADJ	32	amod	32:amod	_
+35	to	to	ADP	IN	ADP	36	case	36:case	_
+36	Challenger	Challenger	PROPN	NNP	PROPN;SG	34	obl	34:obl:to	_
+37	and	and	CCONJ	CC	CONJ	38	cc	38:cc	_
+38	Columbia	Columbia	PROPN	NNP	PROPN;SG	36	conj	34:obl:to|36:conj:and	SpaceAfter=No
+39	,	,	PUNCT	,	_	40	punct	40:punct	_
+40	errors	error	NOUN	NNS	N;PL	32	appos	32:appos|42:nsubj	_
+41	that	that	PRON	WDT	PRO	42	nsubj	40:ref	_
+42	grew	grow	VERB	VBD	V;3;IND;FIN;PST;PL	40	acl:relcl	40:acl:relcl	Cxn=rc-that-nsubj
+43	out	out	ADP	IN	ADP	47	case	47:case	_
+44	of	of	ADP	IN	ADP	47	case	47:case	_
+45	a	a	DET	DT	DET;INDF	47	det	47:det	_
+46	management	management	NOUN	NN	SG;N	47	compound	47:compound	_
+47	culture	culture	NOUN	NN	SG;N	42	obl	42:obl:of|49:nsubj|52:nsubj	_
+48	that	that	PRON	WDT	PRO	49	nsubj	47:ref	_
+49	discouraged	discourage	VERB	VBD	V;3;IND;FIN;PST;SG	47	acl:relcl	47:acl:relcl	Cxn=rc-that-nsubj
+50	criticism	criticism	NOUN	NN	SG;N	49	obj	49:obj	_
+51	and	and	CCONJ	CC	CONJ	52	cc	52:cc	_
+52	sacrificed	sacrifice	VERB	VBD	V;3;IND;FIN;PST;SG	49	conj	47:acl:relcl|49:conj:and	_
+53	safety	safety	NOUN	NN	SG;N	52	obj	52:obj	_
+54	for	for	ADP	IN	ADP	57	case	57:case	_
+55	image	image	NOUN	NN	SG;N	57	compound	57:compound	SpaceAfter=No
+56	-	-	PUNCT	,	_	55	punct	55:punct	SpaceAfter=No
+57	puffing	puffing	NOUN	NN	SG;N	52	obl	52:obl:for	_
+58	and	and	CCONJ	CC	CONJ	61	cc	61:cc	_
+59	budget	budget	NOUN	NN	SG;N	61	compound	61:compound	SpaceAfter=No
+60	-	-	PUNCT	HYPH	_	59	punct	59:punct	SpaceAfter=No
+61	cutting	cutting	NOUN	NN	SG;N	57	conj	52:obl:for|57:conj:and	SpaceAfter=No
+62	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0006
+# text = I hope so.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	2	nsubj	2:nsubj	_
+2	hope	hope	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+3	so	so	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0007
+# text = Seeing another "Columbia" incident can be quite frightening (I woke up to it early in the morning when I was in Texas).
+1	Seeing	see	VERB	VBG	V;V.MSDR	10	csubj	10:csubj	_
+2	another	another	DET	DT	DET	6	det	6:det	_
+3	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+4	Columbia	Columbia	PROPN	NNP	PROPN;SG	6	compound	6:compound	SpaceAfter=No
+5	"	"	PUNCT	''	_	4	punct	4:punct	_
+6	incident	incident	NOUN	NN	SG;N	1	obj	1:obj	_
+7	can	can	AUX	MD	V;FIN	10	aux	10:aux	_
+8	be	be	AUX	VB	V;NFIN	10	cop	10:cop	_
+9	quite	quite	ADV	RB	ADV	10	advmod	10:advmod	_
+10	frightening	frightening	ADJ	JJ	ADJ	0	root	0:root	_
+11	(	(	PUNCT	-LRB-	_	13	punct	13:punct	SpaceAfter=No
+12	I	I	PRON	PRP	NOM;1;PRO;SG	13	nsubj	13:nsubj	_
+13	woke	wake	VERB	VBD	V;IND;FIN;PST;1;SG	10	parataxis	10:parataxis	_
+14	up	up	ADP	RP	ADP	13	compound:prt	13:compound:prt	_
+15	to	to	ADP	IN	ADP	16	case	16:case	_
+16	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	13	obl	13:obl:to	_
+17	early	early	ADV	RB	ADV	20	advmod	20:advmod	_
+18	in	in	ADP	IN	ADP	20	case	20:case	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	morning	morning	NOUN	NN	SG;N	13	obl	13:obl:in	_
+21	when	when	ADV	WRB	ADV	25	advmod	25:advmod	_
+22	I	I	PRON	PRP	NOM;1;PRO;SG	25	nsubj	25:nsubj	_
+23	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	25	cop	25:cop	_
+24	in	in	ADP	IN	ADP	25	case	25:case	_
+25	Texas	Texas	PROPN	NNP	PROPN;SG	13	advcl	13:advcl:in	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	13	punct	13:punct	SpaceAfter=No
+27	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0008
+# text = We don't need another incident as exploring the cosmos is something that keeps our imagination going as a species.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	PRS;IND;FIN;PL;1;V	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	need	need	VERB	VB	V;NFIN	0	root	0:root	_
+5	another	another	DET	DT	DET	6	det	6:det	_
+6	incident	incident	NOUN	NN	SG;N	4	obj	4:obj	_
+7	as	as	SCONJ	IN	CONJ	12	mark	12:mark	_
+8	exploring	explore	VERB	VBG	V;V.MSDR	12	csubj	12:csubj	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	cosmos	cosmos	NOUN	NN	SG;N	8	obj	8:obj	_
+11	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	12	cop	12:cop	_
+12	something	something	PRON	NN	SG;PRO	4	advcl	4:advcl:as|14:nsubj	_
+13	that	that	PRON	WDT	PRO	14	nsubj	12:ref	_
+14	keeps	keep	VERB	VBZ	V;3;PRS;IND;FIN;SG	12	acl:relcl	12:acl:relcl	Cxn=rc-that-nsubj
+15	our	our	PRON	PRP$	GEN;PL;PRO;1	16	nmod:poss	16:nmod:poss	_
+16	imagination	imagination	NOUN	NN	SG;N	17	nsubj	17:nsubj	_
+17	going	go	VERB	VBG	V;V.MSDR	14	ccomp	14:ccomp	_
+18	as	as	ADP	IN	ADP	20	case	20:case	_
+19	a	a	DET	DT	DET;INDF	20	det	20:det	_
+20	species	species	NOUN	NN	SG;N	17	obl	17:obl:as	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0009
+# text = Maybe one day they will allow space tourism, (hopefully that will be in the near future)although I would recommend that NASA build new shuttles instead of trying to preserve the older ones.
+1	Maybe	maybe	ADV	RB	ADV	6	advmod	6:advmod	_
+2	one	one	NUM	CD	NUM	3	nummod	3:nummod	_
+3	day	day	NOUN	NN	SG;N	6	obl:tmod	6:obl:tmod	_
+4	they	they	PRON	PRP	3;NOM;PL;PRO	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+6	allow	allow	VERB	VB	V;NFIN	0	root	0:root	_
+7	space	space	NOUN	NN	SG;N	8	compound	8:compound	_
+8	tourism	tourism	NOUN	NN	SG;N	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	,	_	18	punct	18:punct	_
+10	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+11	hopefully	hopefully	ADV	RB	ADV	18	advmod	18:advmod	_
+12	that	that	PRON	DT	SG;PRO	18	nsubj	18:nsubj	_
+13	will	will	AUX	MD	V;FIN	18	aux	18:aux	_
+14	be	be	AUX	VB	V;NFIN	18	cop	18:cop	_
+15	in	in	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	near	near	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	future	future	NOUN	NN	SG;N	6	parataxis	6:parataxis	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
+20	although	although	SCONJ	IN	CONJ	23	mark	23:mark	_
+21	I	I	PRON	PRP	NOM;1;PRO;SG	23	nsubj	23:nsubj	_
+22	would	would	AUX	MD	V;FIN	23	aux	23:aux	_
+23	recommend	recommend	VERB	VB	V;NFIN	6	advcl	6:advcl:although	_
+24	that	that	SCONJ	IN	CONJ	26	mark	26:mark	_
+25	NASA	NASA	PROPN	NNP	PROPN;SG	26	nsubj	26:nsubj	_
+26	build	build	VERB	VB	V;3;PRS;SBJV;FIN;SG	23	ccomp	23:ccomp	_
+27	new	new	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	shuttles	shuttle	NOUN	NNS	N;PL	26	obj	26:obj	_
+29	instead	instead	ADV	RB	ADV	31	mark	31:mark	_
+30	of	of	SCONJ	IN	CONJ	29	fixed	29:fixed	_
+31	trying	try	VERB	VBG	V;V.PTCP;PRS	26	advcl	26:advcl:instead_of	_
+32	to	to	PART	TO	PART	33	mark	33:mark	_
+33	preserve	preserve	VERB	VB	V;NFIN	31	xcomp	31:xcomp	_
+34	the	the	DET	DT	DEF;DET	36	det	36:det	_
+35	older	old	ADJ	JJR	CMPR;ADJ	36	amod	36:amod	_
+36	ones	one	NOUN	NNS	N;PL	33	obj	33:obj	SpaceAfter=No
+37	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0010
+# newpar id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-p0003
+# text = You do have to give NASA credit on some things as they have eliminated the "fear of reporting failure" culture that probably led to the lack of reporting defects on the Columbia shuttle.
+1	You	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	do	do	AUX	VBP	PRS;IND;2;FIN;V;SG	3	aux	3:aux	_
+3	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	give	give	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+6	NASA	NASA	PROPN	NNP	PROPN;SG	5	iobj	5:iobj	_
+7	credit	credit	NOUN	NN	SG;N	5	obj	5:obj	_
+8	on	on	ADP	IN	ADP	10	case	10:case	_
+9	some	some	DET	DT	DET	10	det	10:det	_
+10	things	thing	NOUN	NNS	N;PL	5	obl	5:obl:on	_
+11	as	as	SCONJ	IN	CONJ	14	mark	14:mark	_
+12	they	they	PRON	PRP	3;NOM;PL;PRO	14	nsubj	14:nsubj	_
+13	have	have	AUX	VBP	3;PRS;IND;FIN;PL;V	14	aux	14:aux	_
+14	eliminated	eliminate	VERB	VBN	V;V.PTCP;PST	5	advcl	5:advcl:as	_
+15	the	the	DET	DT	DEF;DET	22	det	22:det	_
+16	"	"	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No
+17	fear	fear	NOUN	NN	SG;N	22	compound	22:compound	_
+18	of	of	SCONJ	IN	CONJ	19	mark	19:mark	_
+19	reporting	report	VERB	VBG	V;V.MSDR	17	acl	17:acl:of	_
+20	failure	failure	NOUN	NN	SG;N	19	obj	19:obj	SpaceAfter=No
+21	"	"	PUNCT	''	_	17	punct	17:punct	_
+22	culture	culture	NOUN	NN	SG;N	14	obj	14:obj|25:nsubj	_
+23	that	that	PRON	WDT	PRO	25	nsubj	22:ref	_
+24	probably	probably	ADV	RB	ADV	25	advmod	25:advmod	_
+25	led	lead	VERB	VBD	V;3;IND;FIN;PST;SG	22	acl:relcl	22:acl:relcl	Cxn=rc-that-nsubj
+26	to	to	ADP	IN	ADP	28	case	28:case	_
+27	the	the	DET	DT	DEF;DET	28	det	28:det	_
+28	lack	lack	NOUN	NN	SG;N	25	obl	25:obl:to	_
+29	of	of	SCONJ	IN	CONJ	30	mark	30:mark	_
+30	reporting	report	VERB	VBG	V;V.MSDR	28	acl	28:acl:of	_
+31	defects	defect	NOUN	NNS	N;PL	30	obj	30:obj	_
+32	on	on	ADP	IN	ADP	35	case	35:case	_
+33	the	the	DET	DT	DEF;DET	35	det	35:det	_
+34	Columbia	Columbia	PROPN	NNP	PROPN;SG	35	compound	35:compound	_
+35	shuttle	shuttle	NOUN	NN	SG;N	30	obl	30:obl:on	SpaceAfter=No
+36	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0011
+# text = Instead they are encouraging everyone to come forward if they see any potential problems (as it is clear that overlooked problems could result in unnecessary losses).
+1	Instead	instead	ADV	RB	ADV	4	advmod	4:advmod	_
+2	they	they	PRON	PRP	3;NOM;PL;PRO	4	nsubj	4:nsubj	_
+3	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	4	aux	4:aux	_
+4	encouraging	encourage	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+5	everyone	everyone	PRON	NN	SG;PRO	4	obj	4:obj|7:nsubj:xsubj	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	come	come	VERB	VB	V;NFIN	4	xcomp	4:xcomp	_
+8	forward	forward	ADV	RB	ADV	7	advmod	7:advmod	_
+9	if	if	SCONJ	IN	CONJ	11	mark	11:mark	_
+10	they	they	PRON	PRP	3;NOM;PL;PRO	11	nsubj	11:nsubj	_
+11	see	see	VERB	VBP	V;3;PRS;IND;FIN;PL	7	advcl	7:advcl:if	_
+12	any	any	DET	DT	DET	14	det	14:det	_
+13	potential	potential	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	problems	problem	NOUN	NNS	N;PL	11	obj	11:obj	_
+15	(	(	PUNCT	-LRB-	_	19	punct	19:punct	SpaceAfter=No
+16	as	as	SCONJ	IN	CONJ	19	mark	19:mark	_
+17	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	19	expl	19:expl	_
+18	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	19	cop	19:cop	_
+19	clear	clear	ADJ	JJ	ADJ	4	parataxis	4:parataxis	_
+20	that	that	SCONJ	IN	CONJ	24	mark	24:mark	_
+21	overlooked	overlook	VERB	VBN	V;V.PTCP;PST;PASS	22	amod	22:amod	_
+22	problems	problem	NOUN	NNS	N;PL	24	nsubj	24:nsubj	_
+23	could	could	AUX	MD	V;FIN	24	aux	24:aux	_
+24	result	result	VERB	VB	V;NFIN	19	csubj	19:csubj	_
+25	in	in	ADP	IN	ADP	27	case	27:case	_
+26	unnecessary	unnecessary	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	losses	loss	NOUN	NNS	N;PL	24	obl	24:obl:in	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	19	punct	19:punct	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0012
+# text = But supporters are pointing a few good things out:
+1	But	but	CCONJ	CC	CONJ	4	cc	4:cc	_
+2	supporters	supporter	NOUN	NNS	N;PL	4	nsubj	4:nsubj	_
+3	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	4	aux	4:aux	_
+4	pointing	point	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	8	det	8:det	_
+6	few	few	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	good	good	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	things	thing	NOUN	NNS	N;PL	4	obj	4:obj	_
+9	out	out	ADP	RP	ADP	4	compound:prt	4:compound:prt	SpaceAfter=No
+10	:	:	PUNCT	:	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0013
+# text = Clearly, the agency has worked hard at tackling the technical challenges posed by a superb and surprisingly independent-minded investigative panel.
+1	Clearly	clearly	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	agency	agency	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+5	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	aux	6:aux	_
+6	worked	work	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+7	hard	hard	ADV	RB	ADV	6	advmod	6:advmod	_
+8	at	at	SCONJ	IN	CONJ	9	mark	9:mark	_
+9	tackling	tackle	VERB	VBG	V;V.PTCP;PRS	6	advcl	6:advcl:at	_
+10	the	the	DET	DT	DEF;DET	12	det	12:det	_
+11	technical	technical	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	challenges	challenge	NOUN	NNS	N;PL	9	obj	9:obj	_
+13	posed	pose	VERB	VBN	V;V.PTCP;PST;PASS	12	acl	12:acl	_
+14	by	by	ADP	IN	ADP	23	case	23:case	_
+15	a	a	DET	DT	DET;INDF	23	det	23:det	_
+16	superb	superb	ADJ	JJ	ADJ	23	amod	23:amod	_
+17	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+18	surprisingly	surprisingly	ADV	RB	ADV	21	advmod	21:advmod	_
+19	independent	independent	ADJ	JJ	ADJ	21	amod	21:amod	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
+21	minded	minded	ADJ	JJ	ADJ	16	conj	16:conj:and|23:amod	_
+22	investigative	investigative	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	panel	panel	NOUN	NN	SG;N	13	obl:agent	13:obl:agent	SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0014
+# text = A few weeks ago, shuttle workers at the Kennedy Space Center received a rocket-like boost in morale with two important deliveries for the next shuttle to carry.
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	few	few	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	weeks	week	NOUN	NNS	N;PL	4	obl:npmod	4:obl:npmod	_
+4	ago	ago	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	shuttle	shuttle	NOUN	NN	SG;N	7	compound	7:compound	_
+7	workers	worker	NOUN	NNS	N;PL	13	nsubj	13:nsubj	_
+8	at	at	ADP	IN	ADP	12	case	12:case	_
+9	the	the	DET	DT	DEF;DET	12	det	12:det	_
+10	Kennedy	Kennedy	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+11	Space	Space	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+12	Center	Center	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:at	_
+13	received	receive	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+14	a	a	DET	DT	DET;INDF	18	det	18:det	_
+15	rocket	rocket	NOUN	NN	SG;N	17	obl:npmod	17:obl:npmod	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
+17	like	like	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	boost	boost	NOUN	NN	SG;N	13	obj	13:obj	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	morale	morale	NOUN	NN	SG;N	18	nmod	18:nmod:in	_
+21	with	with	ADP	IN	ADP	24	case	24:case	_
+22	two	two	NUM	CD	NUM	24	nummod	24:nummod	_
+23	important	important	ADJ	JJ	ADJ	24	amod	24:amod	_
+24	deliveries	delivery	NOUN	NNS	N;PL	13	obl	13:obl:with	_
+25	for	for	SCONJ	IN	CONJ	30	mark	30:mark	_
+26	the	the	DET	DT	DEF;DET	28	det	28:det	_
+27	next	next	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	shuttle	shuttle	NOUN	NN	SG;N	30	nsubj	30:nsubj	_
+29	to	to	PART	TO	PART	30	mark	30:mark	_
+30	carry	carry	VERB	VB	V;NFIN	24	acl	24:acl:to	SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	13:punct	_
+

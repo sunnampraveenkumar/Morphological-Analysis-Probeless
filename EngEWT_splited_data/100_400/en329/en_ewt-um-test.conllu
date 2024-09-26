@@ -1,0 +1,55 @@
+# sent_id = reviews-046500-0002
+# text = Ladies room, Open Sundays
+1	Ladies	lady	NOUN	NNS	PL;N	2	nmod:poss	2:nmod:poss	MissingWordsAfter='
+2	room	room	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	Open	open	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+5	Sundays	Sunday	PROPN	NNPS	PROPN;PL	2	nmod:tmod	2:nmod:tmod	_
+
+# newdoc id = reviews-138110
+# sent_id = reviews-138110-0001
+# newpar id = reviews-138110-p0001
+# text = This is a great place to get a permit
+1	This	this	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+3	a	a	DET	DT	INDF;DET	5	det	5:det	_
+4	great	great	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	place	place	NOUN	NN	SG;N	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	get	get	VERB	VB	NFIN;V	5	acl	5:acl:to	_
+8	a	a	DET	DT	INDF;DET	9	det	9:det	_
+9	permit	permit	NOUN	NN	SG;N	7	obj	7:obj	_
+
+# sent_id = reviews-138110-0002
+# newpar id = reviews-138110-p0002
+# text = I had to get a permit here, it was cool
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	had	have	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	get	get	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	a	a	DET	DT	INDF;DET	6	det	6:det	_
+6	permit	permit	NOUN	NN	SG;N	4	obj	4:obj	_
+7	here	here	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	11	nsubj	11:nsubj	_
+10	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	11	cop	11:cop	_
+11	cool	cool	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+
+# newdoc id = reviews-104703
+# sent_id = reviews-104703-0001
+# newpar id = reviews-104703-p0001
+# text = best
+1	best	good	ADJ	JJS	RL;ADJ	0	root	0:root	_
+
+# sent_id = reviews-104703-0002
+# text = Best pedi mani Ive ever had.
+1	Best	good	ADJ	JJS	RL;ADJ	3	amod	3:amod	_
+2	pedi	pedi	NOUN	NN	SG;N	3	compound	3:compound	_
+3	mani	mani	NOUN	NN	SG;N	0	root	0:root|7:obj	_
+4-5	Ive	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+5	ve	have	AUX	VBP	V;1;FIN;PRS;SG;IND	7	aux	7:aux	CorrectForm='ve
+6	ever	ever	ADV	RB	ADV	7	advmod	7:advmod	_
+7	had	have	VERB	VBN	PST;V;V.PTCP	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+

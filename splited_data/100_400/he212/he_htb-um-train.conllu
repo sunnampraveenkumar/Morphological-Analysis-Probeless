@@ -1,0 +1,308 @@
+# sent_id = 3032
+# text = "בוקר אחד, כאשר פתחה את עיניה, עלה בראשה המשפט זכיתי בריבונות.
+1	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+2	בוקר	בוקר	NOUN	NOUN	MASC;SG;N	12	dep	_	_
+3	אחד	אחד	NUM	NUM	MASC;SG;NUM	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	12	punct	_	_
+5	כאשר	כאשר	SCONJ	SCONJ	CONJ	6	mark	_	_
+6	פתחה	פתח	VERB	VERB	SG;V;3;PST;FEM	12	advcl	_	_
+7	את	את	ADP	ADP	ADP;ACC	8	case:acc	_	_
+8-10	עיניה	_	_	_	_	_	_	_	SpaceAfter=No
+8	עין_	עין	NOUN	NOUN	FEM;N;PL;DEF	6	obj	_	_
+9	_של_	של	ADP	ADP	ADP	10	case:gen	_	_
+10	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	8	nmod:poss	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	עלה	עלה	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+13-16	בראשה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	ADP	14	case	_	_
+14	ראש_	ראש	NOUN	NOUN	MASC;SG;N;DEF	12	obl	_	_
+15	_של_	של	ADP	ADP	ADP	16	case:gen	_	_
+16	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	14	nmod:poss	_	_
+17-18	המשפט	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	DET	18	det	_	_
+18	משפט	משפט	NOUN	NOUN	MASC;SG;N	12	nsubj	_	_
+19	זכיתי	זכה	VERB	VERB	SG;ACT;V;{FEM/MASC};1;PST	18	acl	_	_
+20-21	בריבונות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	ADP	21	case	_	_
+21	ריבונות	ריבונות	NOUN	NOUN	SG;N;FEM	19	obl	_	_
+22	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 3033
+# text = היא הרגישה בת מזל ומשוחררת, אך לא יכלה לומר מה היה הדבר שממנו השתחררה".
+1	היא	הוא	PRON	PRON	SG;3;PRO;FEM	2	nsubj	_	_
+2	הרגישה	הרגיש	VERB	VERB	SG;ACT;V;3;PST;FEM	0	root	_	_
+3	בת	בת	NOUN	NOUN	SG;FEM;N;PSSD	6	dep	_	_
+4	מזל	מזל	NOUN	NOUN	MASC;SG;N	3	compound:smixut	_	_
+5-6	ומשוחררת	_	_	_	_	_	_	_	SpaceAfter=No
+5	ו	ו	CCONJ	CCONJ	CONJ	6	dep	_	_
+6	משוחררת	משוחרר	ADJ	ADJ	SG;FEM;ADJ	2	xcomp	_	HebSource=ConvUncertainLabel
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8	אך	אך	CCONJ	CCONJ	CONJ	10	cc	_	_
+9	לא	לא	ADV	ADV	NEG;ADV	10	advmod	_	_
+10	יכלה	יכל	VERB	VERB	SG;V;3;FUT;MASC	2	conj	_	_
+11	לומר	אמר	VERB	VERB	NFIN;ACT;V	10	xcomp	_	_
+12	מה	מה	ADV	ADV	ADV	11	advcl	_	_
+13	היה	היה	AUX	AUX	POS;V;SG;3;MASC;PST	12	cop	_	_
+14-15	הדבר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	דבר	דבר	NOUN	NOUN	MASC;SG;N	12	nsubj	_	_
+16-18	שממנו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	CONJ	19	mark	_	_
+17	מן_	מן	ADP	ADP	ADP	18	case	_	_
+18	_הוא	הוא	PRON	PRON	SG;3;MASC;PRO	19	obl	_	_
+19	השתחררה	השתחרר	VERB	VERB	SG;V;3;PST;FEM	15	acl:relcl	_	SpaceAfter=No
+20	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 3034
+# text = ב26 שנותיו כסופר, שבהן פירסם יותר מ12 ספרים מספר ורגאס יוסה הוא לא נהנה מכתיבת ספר כמו שנהנה הפעם.
+1-2	ב26	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	3	case	_	_
+2	26	26	NUM	NUM	NUM	3	nummod	_	_
+3-5	שנותיו	_	_	_	_	_	_	_	_
+3	שנה_	שנה	NOUN	NOUN	FEM;N;PL;DEF	22	obl	_	_
+4	_של_	של	ADP	ADP	ADP	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	3	nmod:poss	_	_
+6-7	כסופר	_	_	_	_	_	_	_	SpaceAfter=No
+6	כ	כ	ADP	ADP	ADP	7	case	_	_
+7	סופר	סופר	NOUN	NOUN	MASC;SG;N	3	nmod	_	_
+8	,	,	PUNCT	PUNCT	_	3	punct	_	_
+9-11	שבהן	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	CONJ	12	mark	_	_
+10	ב_	ב	ADP	ADP	ADP	11	case	_	_
+11	_הן	הוא	PRON	PRON	PL;3;PRO;FEM	12	obl	_	_
+12	פירסם	פרסם	VERB	VERB	SG;ACT;V;3;MASC;PST	3	acl:relcl	_	_
+13	יותר	יותר	ADV	ADV	ADV	16	advmod	_	HebSource=ConvUncertainHead
+14-15	מ12	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	ADP	13	fixed	_	_
+15	12	12	NUM	NUM	NUM	16	nummod	_	_
+16	ספרים	ספר	NOUN	NOUN	MASC;N;PL	12	obj	_	_
+17	מספר	סיפר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	22	parataxis	_	_
+18	ורגאס	ורגאס	PROPN	PROPN	PROPN	17	nsubj	_	_
+19	יוסה	יוסה	PROPN	PROPN	PROPN	18	flat:name	_	_
+20	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	22	nsubj	_	_
+21	לא	לא	ADV	ADV	NEG;ADV	22	advmod	_	_
+22	נהנה	נהנה	VERB	VERB	SG;V;3;MID;MASC;PST	0	root	_	_
+23-24	מכתיבת	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	ADP	24	case	_	_
+24	כתיבת	כתיבה	NOUN	NOUN	SG;FEM;N;PSSD	22	obl	_	_
+25	ספר	ספר	NOUN	NOUN	MASC;SG;N	24	compound:smixut	_	_
+26	כמו	כמו	ADP	ADP	ADP	28	case	_	_
+27-28	שנהנה	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	CONJ	28	mark	_	_
+28	נהנה	נהנה	VERB	VERB	SG;V;3;MID;MASC;PST	22	obl	_	_
+29	הפעם	הפעם	ADV	ADV	ADV	28	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# sent_id = 3035
+# text = לעומת שפתו בספרים כמו "שיחה בקתדרלה" או "חייו האמיתיים של אלחנדרו מייטה", שבהם הרקע הוא פרו על סבלותיה ומצוקתה, הפרוזה ב"בשבחי האם החורגת" היא אכן עבותה ועסיסית, מתפתלת ומורכבת.
+1	לעומת	לעומת	ADP	ADP	ADP	2	case	_	_
+2-4	שפתו	_	_	_	_	_	_	_	_
+2	שפה_	שפה	NOUN	NOUN	SG;FEM;N;DEF	53	obl	_	_
+3	_של_	של	ADP	ADP	ADP	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	2	nmod:poss	_	_
+5-6	בספרים	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	6	case	_	_
+6	ספרים	ספר	NOUN	NOUN	MASC;N;PL	2	nmod	_	_
+7	כמו	כמו	ADP	ADP	ADP	9	case	_	_
+8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	שיחה	שיחה	NOUN	NOUN	SG;N;FEM	6	nmod	_	_
+10-11	בקתדרלה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	ADP	11	case	_	_
+11	קתדרלה	קתדרלה	NOUN	NOUN	SG;N;FEM	9	nmod	_	_
+12	"	"	PUNCT	PUNCT	_	9	punct	_	_
+13	או	או	CCONJ	CCONJ	CONJ	15	cc	_	_
+14	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15-17	חייו	_	_	_	_	_	_	_	_
+15	חיים_	חיים	NOUN	NOUN	MASC;N;PL;DEF	9	conj	_	_
+16	_של_	של	ADP	ADP	ADP	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	15	nmod:poss	_	_
+18-19	האמיתיים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	DET	19	det	_	_
+19	אמיתיים	אמיתי	ADJ	ADJ	MASC;PL;ADJ	15	amod	_	_
+20	של	של	ADP	ADP	ADP;GEN	21	case:gen	_	_
+21	אלחנדרו	אלחנדרו	PROPN	PROPN	PROPN	15	nmod:poss	_	_
+22	מייטה	מייטה	PROPN	PROPN	PROPN	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	9	punct	_	_
+25-27	שבהם	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	CONJ	31	mark	_	_
+26	ב_	ב	ADP	ADP	ADP	27	case	_	_
+27	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	31	nmod	_	_
+28-29	הרקע	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	DET	29	det	_	_
+29	רקע	רקע	NOUN	NOUN	MASC;SG;N	31	nsubj:cop	_	_
+30	הוא	הוא	PRON	PRON	POS;SG;3;MASC;PRO	31	cop	_	_
+31	פרו	פרו	PROPN	PROPN	PROPN	9	acl:relcl	_	_
+32	על	על	ADP	ADP	ADP	33	case	_	_
+33-35	סבלותיה	_	_	_	_	_	_	_	_
+33	סבל_	סבל	NOUN	NOUN	MASC;N;PL;DEF	31	nmod	_	_
+34	_של_	של	ADP	ADP	ADP	35	case:gen	_	_
+35	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	33	nmod:poss	_	_
+36-39	ומצוקתה	_	_	_	_	_	_	_	SpaceAfter=No
+36	ו	ו	CCONJ	CCONJ	CONJ	37	cc	_	_
+37	מצוקה_	מצוקה	NOUN	NOUN	SG;FEM;N;DEF	33	conj	_	_
+38	_של_	של	ADP	ADP	ADP	39	case:gen	_	_
+39	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	37	nmod:poss	_	_
+40	,	,	PUNCT	PUNCT	_	53	punct	_	_
+41-42	הפרוזה	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	DET	42	det	_	_
+42	פרוזה	פרוזה	NOUN	NOUN	SG;N;FEM	53	nsubj:cop	_	_
+43-46	ב"בשבחי	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	ADP	46	case	_	_
+44	"	"	PUNCT	PUNCT	_	46	punct	_	_
+45	ב	ב	ADP	ADP	ADP	46	case	_	_
+46	שבחי	_	NOUN	NOUN	MASC;N;PL;PSSD	42	nmod	_	_
+47-48	האם	_	_	_	_	_	_	_	_
+47	ה	ה	DET	DET	DET	48	det	_	_
+48	אם	אם	NOUN	NOUN	SG;N;FEM	46	compound:smixut	_	_
+49-50	החורגת	_	_	_	_	_	_	_	SpaceAfter=No
+49	ה	ה	DET	DET	DET	50	det	_	_
+50	חורגת	חורג	ADJ	ADJ	SG;FEM;ADJ	48	amod	_	_
+51	"	"	PUNCT	PUNCT	_	46	punct	_	_
+52	היא	הוא	PRON	PRON	POS;SG;3;PRO;FEM	53	cop	_	_
+53	אכן	אכן	ADV	ADV	ADV	0	root	_	_
+54	עבותה	עבות	ADJ	ADJ	SG;FEM;ADJ	53	dep	_	HebSource=ConvUncertainHead
+55-56	ועסיסית	_	_	_	_	_	_	_	SpaceAfter=No
+55	ו	ו	CCONJ	CCONJ	CONJ	56	cc	_	_
+56	עסיסית	עסיסי	ADJ	ADJ	SG;FEM;ADJ	54	conj	_	_
+57	,	,	PUNCT	PUNCT	_	54	punct	_	_
+58	מתפתלת	התפתל	VERB	VERB	{1/2/3};SG;V;V.PTCP;FEM	54	amod	_	_
+59-60	ומורכבת	_	_	_	_	_	_	_	SpaceAfter=No
+59	ו	ו	CCONJ	CCONJ	CONJ	60	cc	_	_
+60	מורכבת	מורכב	ADJ	ADJ	SG;FEM;ADJ	58	conj	_	_
+61	.	.	PUNCT	PUNCT	_	53	punct	_	_
+
+# sent_id = 3036
+# text = "כתיבה בדרך כלל אינה התנסות כה מאושרת בשבילי", אומר המחבר.
+1	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+2	כתיבה	כתיבה	NOUN	NOUN	SG;N;FEM	7	nsubj	_	_
+3-4	בדרך	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	ADP	7	case	_	_
+4	דרך	דרך	NOUN	NOUN	SG;FEM;N;PSSD	3	fixed	_	_
+5	כלל	כלל	NOUN	NOUN	MASC;SG;N	3	fixed	_	_
+6	אינה	אינו	AUX	AUX	V;SG;NEG;3;V.PTCP;FEM	7	cop	_	_
+7	התנסות	התנסות	NOUN	NOUN	SG;N;FEM	14	advcl	_	_
+8	כה	כה	ADV	ADV	ADV	9	advmod	_	_
+9	מאושרת	מאושר	ADJ	ADJ	SG;FEM;ADJ	7	amod	_	_
+10-11	בשבילי	_	_	_	_	_	_	_	SpaceAfter=No
+10	בשביל_	בשביל	ADP	ADP	ADP	11	case	_	_
+11	_אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	7	nmod	_	_
+12	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	אומר	אמר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+15-16	המחבר	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	מחבר	מחבר	NOUN	NOUN	MASC;SG;N	14	nsubj	_	_
+17	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# sent_id = 3037
+# text = "היא כאובה מאוד.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	היא	הוא	PRON	PRON	SG;3;PRO;FEM	3	nsubj	_	_
+3	כאובה	כאוב	ADJ	ADJ	SG;FEM;ADJ	0	root	_	_
+4	מאוד	מאוד	ADV	ADV	ADV	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3038
+# text = אבל הפעם התענגתי על הכתיבה.
+1	אבל	אבל	CCONJ	CCONJ	CONJ	3	cc	_	_
+2	הפעם	הפעם	ADV	ADV	ADV	3	advmod	_	_
+3	התענגתי	התענג	VERB	VERB	SG;V;{FEM/MASC};1;PST	0	root	_	_
+4	על	על	ADP	ADP	ADP	6	case	_	_
+5-6	הכתיבה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	כתיבה	כתיבה	NOUN	NOUN	SG;N;FEM	3	obl	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3039
+# text = בדרך כלל השפה שלי מאופקת ובלתי נראית.
+1-2	בדרך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	8	case	_	_
+2	דרך	דרך	NOUN	NOUN	SG;FEM;N;PSSD	1	fixed	_	_
+3	כלל	כלל	NOUN	NOUN	MASC;SG;N	1	fixed	_	_
+4-5	השפה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	DET	5	det	_	_
+5	שפה	שפה	NOUN	NOUN	SG;N;FEM	8	nsubj	_	_
+6-7	שלי	_	_	_	_	_	_	_	_
+6	של_	של	ADP	ADP	ADP;GEN	7	case:gen	_	_
+7	_אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	5	nmod:poss	_	_
+8	מאופקת	מאופק	ADJ	ADJ	SG;FEM;ADJ	0	root	_	_
+9-10	ובלתי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	CONJ	11	cc	_	_
+10	בלתי	בלתי	ADV	ADV	ADV	11	compound:affix	_	_
+11	נראית	נראה	VERB	VERB	{1/2/3};SG;V;MID;V.PTCP;FEM	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 3040
+# text = אבל סיפור זה על אובססיות וטקסים דרש שפה נראית וחושנית, שפה המעבירה מוסיקה ותחושות.
+1	אבל	אבל	CCONJ	CCONJ	CONJ	8	cc	_	_
+2	סיפור	סיפור	NOUN	NOUN	MASC;SG;N	8	nsubj	_	_
+3	זה	זה	PRON	PRON	SG;3;MASC;PRO	2	det	_	_
+4	על	על	ADP	ADP	ADP	5	case	_	_
+5	אובססיות	אובססיה	NOUN	NOUN	N;PL;FEM	2	nmod	_	_
+6-7	וטקסים	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	CONJ	7	cc	_	_
+7	טקסים	טקס	NOUN	NOUN	MASC;N;PL	5	conj	_	_
+8	דרש	דרש	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+9	שפה	שפה	NOUN	NOUN	SG;N;FEM	8	obj	_	_
+10	נראית	נראה	VERB	VERB	{1/2/3};SG;V;MID;V.PTCP;FEM	9	amod	_	_
+11-12	וחושנית	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	CONJ	12	cc	_	_
+12	חושנית	חושני	ADJ	ADJ	SG;FEM;ADJ	10	conj	_	_
+13	,	,	PUNCT	PUNCT	_	9	punct	_	_
+14	שפה	שפה	NOUN	NOUN	SG;N;FEM	9	appos	_	_
+15-16	המעבירה	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	CONJ	16	mark	_	_
+16	מעבירה	העביר	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	14	acl:relcl	_	_
+17	מוסיקה	מוזיקה	NOUN	NOUN	SG;N;FEM	16	obj	_	_
+18-19	ותחושות	_	_	_	_	_	_	_	SpaceAfter=No
+18	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+19	תחושות	תחושה	NOUN	NOUN	N;PL;FEM	17	conj	_	_
+20	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 3041
+# text = הסיפור גם דרש מאמץ רב כדי להימנע מהוולגריות של זימה וניבולי פה.
+1-2	הסיפור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	סיפור	סיפור	NOUN	NOUN	MASC;SG;N	4	nsubj	_	_
+3	גם	גם	ADV	ADV	ADV	4	advmod	_	_
+4	דרש	דרש	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+5	מאמץ	מאמץ	NOUN	NOUN	MASC;SG;N	4	obj	_	_
+6	רב	רב	ADJ	ADJ	MASC;SG;ADJ	5	amod	_	_
+7	כדי	כדי	ADP	ADP	ADP	8	case	_	_
+8	להימנע	נמנע	VERB	VERB	NFIN;MID;V	4	advcl	_	_
+9-11	מהוולגריות	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	ADP	11	case	_	_
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	וולגריות	וולגריות	NOUN	NOUN	SG;N;FEM	8	obl	_	_
+12	של	של	ADP	ADP	ADP;GEN	13	case:gen	_	_
+13	זימה	זימה	NOUN	NOUN	SG;N;FEM	11	nmod:poss	_	_
+14-15	וניבולי	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	CONJ	15	cc	_	_
+15	ניבולי	ניבול	NOUN	NOUN	MASC;N;PL;PSSD	13	conj	_	_
+16	פה	פה	NOUN	NOUN	MASC;SG;N	15	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 3042
+# text = שיכתבתי אותו פעמים רבות".
+1	שיכתבתי	שכתב	VERB	VERB	SG;ACT;V;{FEM/MASC};1;PST	0	root	_	_
+2-3	אותו	_	_	_	_	_	_	_	_
+2	את_	את	ADP	ADP	ADP;ACC	3	case:acc	_	_
+3	_הוא	הוא	PRON	PRON	SG;3;MASC;PRO	1	obj	_	_
+4	פעמים	פעם	NOUN	NOUN	N;PL;FEM	1	dep	_	_
+5	רבות	רב	ADJ	ADJ	FEM;PL;ADJ	4	amod	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3043
+# text = הספר מותיר כמה שאלות פתוחות.
+1-2	הספר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	ספר	ספר	NOUN	NOUN	MASC;SG;N	3	nsubj	_	_
+3	מותיר	הותיר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+4	כמה	כמה	DET	DET	PSSD;DET	5	det	_	_
+5	שאלות	שאלה	NOUN	NOUN	N;PL;FEM	3	obj	_	_
+6	פתוחות	פתוח	ADJ	ADJ	FEM;PL;ADJ	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

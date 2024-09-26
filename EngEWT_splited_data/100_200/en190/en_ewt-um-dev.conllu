@@ -1,0 +1,153 @@
+# sent_id = reviews-371492-0004
+# text = Both Tina and Vicky are excellent.
+1	Both	both	CCONJ	CC	CONJ	2	cc:preconj	2:cc:preconj	_
+2	Tina	Tina	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Vicky	Vicky	PROPN	NNP	SG;PROPN	2	conj	2:conj:and|6:nsubj	_
+5	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	6	cop	6:cop	_
+6	excellent	excellent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = reviews-371492-0005
+# text = I will definitely refer my friends and family:)
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	will	will	AUX	MD	FIN;V	4	aux	4:aux	_
+3	definitely	definitely	ADV	RB	ADV	4	advmod	4:advmod	_
+4	refer	refer	VERB	VB	NFIN;V	0	root	0:root	_
+5	my	my	PRON	PRP$	PRO;GEN;1;SG	6	nmod:poss	6:nmod:poss	_
+6	friends	friend	NOUN	NNS	PL;N	4	obj	4:obj	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	family	family	NOUN	NN	SG;N	6	conj	4:obj|6:conj:and	SpaceAfter=No
+9	:)	:)	SYM	NFP	_	4	discourse	4:discourse	_
+
+# newdoc id = reviews-288930
+# sent_id = reviews-288930-0001
+# newpar id = reviews-288930-p0001
+# text = great! :P
+1	great	great	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+3	:P	:p	SYM	NFP	_	1	discourse	1:discourse	_
+
+# sent_id = reviews-288930-0002
+# text = you get a really good view of the city and there is also attractions like simulator, short movies.
+1	you	you	PRON	PRP	NOM;2;PRO	2	nsubj	2:nsubj	_
+2	get	get	VERB	VBP	FIN;PRS;2;V;IND;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	6	det	6:det	_
+4	really	really	ADV	RB	ADV	5	advmod	5:advmod	_
+5	good	good	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	view	view	NOUN	NN	SG;N	2	obj	2:obj	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	city	city	NOUN	NN	SG;N	6	nmod	6:nmod:of	_
+10	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+11	there	there	PRON	EX	PRO	12	expl	12:expl	_
+12	is	be	VERB	VBZ	FIN;PRS;3;V;IND;SG	2	conj	2:conj:and	_
+13	also	also	ADV	RB	ADV	12	advmod	12:advmod	_
+14	attractions	attraction	NOUN	NNS	PL;N	12	nsubj	12:nsubj	_
+15	like	like	ADP	IN	ADP	16	case	16:case	_
+16	simulator	simulator	NOUN	NN	SG;N	14	nmod	14:nmod:like	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	19:punct	_
+18	short	short	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	movies	movie	NOUN	NNS	PL;N	16	conj	14:nmod:like|16:conj	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-288930-0003
+# text = Try the 360 restraunt u spin in the cn tower with a beautiful view the sky pod elevator is about an hour line up in the summer
+1	Try	try	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	the	the	DET	DT	DET;DEF	4	det	4:det	_
+3	360	360	NUM	CD	NUM	4	nummod	4:nummod	_
+4	restraunt	restaurant	NOUN	NN	SG;N	1	obj	1:obj	CorrectForm=restaurant
+5	u	you	PRON	PRP	PRO;2;NOM	6	nsubj	6:nsubj	CorrectForm=you
+6	spin	spin	VERB	VBP	FIN;PRS;2;V;IND;SG	1	parataxis	1:parataxis	_
+7	in	in	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DET;DEF	10	det	10:det	_
+9	cn	cn	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	tower	tower	PROPN	NNP	SG;PROPN	6	obl	6:obl:in	_
+11	with	with	ADP	IN	ADP	14	case	14:case	_
+12	a	a	DET	DT	DET;INDF	14	det	14:det	_
+13	beautiful	beautiful	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	view	view	NOUN	NN	SG;N	6	obl	6:obl:with	_
+15	the	the	DET	DT	DET;DEF	18	det	18:det	_
+16	sky	sky	NOUN	NN	SG;N	17	compound	17:compound	_
+17	pod	pod	NOUN	NN	SG;N	18	compound	18:compound	_
+18	elevator	elevator	NOUN	NN	SG;N	24	nsubj	24:nsubj	_
+19	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	24	cop	24:cop	_
+20	about	about	ADV	RB	ADV	22	advmod	22:advmod	_
+21	an	a	DET	DT	DET;INDF	22	det	22:det	_
+22	hour	hour	NOUN	NN	SG;N	24	compound	24:compound	_
+23	line	line	NOUN	NN	SG;N	24	compound	24:compound	_
+24	up	up	NOUN	NN	SG;N	1	parataxis	1:parataxis	_
+25	in	in	ADP	IN	ADP	27	case	27:case	_
+26	the	the	DET	DT	DET;DEF	27	det	27:det	_
+27	summer	summer	NOUN	NN	SG;N	24	obl	24:obl:in	_
+
+# newdoc id = reviews-374000
+# sent_id = reviews-374000-0001
+# newpar id = reviews-374000-p0001
+# text = GREAT Store GREAT Service!
+1	GREAT	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Store	store	NOUN	NN	SG;N	0	root	0:root	_
+3	GREAT	great	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Service	service	NOUN	NN	SG;N	2	conj	2:conj	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-374000-0002
+# newpar id = reviews-374000-p0002
+# text = “This store is great!!
+1	“	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+2	This	this	DET	DT	DET;SG	3	det	3:det	_
+3	store	store	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+5	great	great	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	!!	!!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-374000-0003
+# text = I love walking in and not being hassled.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|3:nsubj:xsubj|8:nsubj:xsubj	_
+2	love	love	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	walking	walk	VERB	VBG	V;V.MSDR	2	xcomp	2:xcomp	_
+4	in	in	ADV	RB	ADV	3	advmod	3:advmod	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	not	not	PART	RB	PART	8	advmod	8:advmod	_
+7	being	be	AUX	VBG	PRS;V;V.PTCP	8	aux:pass	8:aux:pass	_
+8	hassled	hassle	VERB	VBN	PASS;V;V.PTCP;PST	3	conj	2:xcomp|3:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-374000-0004
+# text = I was there when they did a free raffle in August and I won a hard drive!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	cop	3:cop	_
+3	there	there	ADV	RB	ADV	0	root	0:root	_
+4	when	when	ADV	WRB	ADV	6	advmod	6:advmod	_
+5	they	they	PRON	PRP	PRO;3;PL;NOM	6	nsubj	6:nsubj	_
+6	did	do	VERB	VBD	FIN;3;PL;V;IND;PST	3	advcl	3:advcl:when	_
+7	a	a	DET	DT	DET;INDF	9	det	9:det	_
+8	free	free	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	raffle	raffle	NOUN	NN	SG;N	6	obj	6:obj	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	August	August	PROPN	NNP	SG;PROPN	6	obl	6:obl:in	_
+12	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+14	won	win	VERB	VBD	FIN;1;V;IND;SG;PST	3	conj	3:conj:and	_
+15	a	a	DET	DT	DET;INDF	17	det	17:det	_
+16	hard	hard	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	drive	drive	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+18	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-374000-0005
+# text = The reason I go back is because the employees are sooooo nice.”
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	reason	reason	NOUN	NN	SG;N	12	nsubj:outer	4:obl|12:nsubj:outer	_
+3	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+4	go	go	VERB	VBP	FIN;PRS;1;V;IND;SG	2	acl:relcl	2:acl:relcl	Cxn=rc-red-obl
+5	back	back	ADV	RB	ADV	4	advmod	4:advmod	_
+6	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	cop	12:cop	_
+7	because	because	SCONJ	IN	CONJ	12	mark	12:mark	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	employees	employee	NOUN	NNS	PL;N	12	nsubj	12:nsubj	_
+10	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	12	cop	12:cop	_
+11	sooooo	so	ADV	RB	ADV	12	advmod	12:advmod	CorrectForm=so
+12	nice	nice	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	12:punct	SpaceAfter=No
+14	”	"	PUNCT	''	_	12	punct	12:punct	_
+

@@ -1,0 +1,65 @@
+# sent_id = reviews-262722-0005
+# text = Accurate check-out.
+1	Accurate	accurate	ADJ	JJ	ADJ	4	amod	4:amod	_
+2	check	check	NOUN	NN	SG;N	4	compound	4:compound	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	2:punct	SpaceAfter=No
+4	out	out	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-262722-0006
+# text = Rooms clean.
+1	Rooms	room	NOUN	NNS	PL;N	2	nsubj	2:nsubj	_
+2	clean	clean	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-262722-0007
+# text = Lifts quick, clean, accurate, and correctly sized.
+1	Lifts	lift	NOUN	NNS	PL;N	2	nsubj	2:nsubj|4:nsubj|6:nsubj|10:nsubj:pass	_
+2	quick	quick	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	clean	clean	ADJ	JJ	ADJ	2	conj	2:conj:and	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	accurate	accurate	ADJ	JJ	ADJ	2	conj	2:conj:and	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	correctly	correctly	ADV	RB	ADV	10	advmod	10:advmod	_
+10	sized	size	VERB	VBN	PASS;V;V.PTCP;PST	2	conj	2:conj:and	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-262722-0008
+# text = Choose this hotel over the Hilton (which is on the next block).
+1	Choose	choose	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	this	this	DET	DT	DET;SG	3	det	3:det	_
+3	hotel	hotel	NOUN	NN	SG;N	1	obj	1:obj	_
+4	over	over	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	Hilton	Hilton	PROPN	NNP	SG;PROPN	1	obl	1:obl:over|13:nsubj	_
+7	(	(	PUNCT	-LRB-	_	13	punct	13:punct	SpaceAfter=No
+8	which	which	PRON	WDT	PRO	13	nsubj	6:ref	_
+9	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	13	cop	13:cop	_
+10	on	on	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DET;DEF	13	det	13:det	_
+12	next	next	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	block	block	NOUN	NN	SG;N	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	punct	13:punct	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-323248
+# sent_id = reviews-323248-0001
+# newpar id = reviews-323248-p0001
+# text = Summary: Not cheep, but very fast, and super friendly service.
+1	Summary	summary	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	4	punct	4:punct	_
+3	Not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	cheep	cheap	ADJ	JJ	ADJ	1	parataxis	1:parataxis	CorrectForm=cheap|SpaceAfter=No
+5	,	,	PUNCT	,	_	13	punct	13:punct	_
+6	but	but	CCONJ	CC	CONJ	13	cc	13:cc	_
+7	very	very	ADV	RB	ADV	8	advmod	8:advmod	_
+8	fast	fast	ADJ	JJ	ADJ	13	amod	13:amod	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	12:punct	_
+10	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+11	super	super	ADV	RB	ADV	12	advmod	12:advmod	_
+12	friendly	friendly	ADJ	JJ	ADJ	8	conj	8:conj:and|13:amod	_
+13	service	service	NOUN	NN	SG;N	4	conj	4:conj:but	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+

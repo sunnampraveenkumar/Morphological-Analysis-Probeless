@@ -1,0 +1,73 @@
+# sent_id = answers-20111108093942AAYF9Dn_ans-0002
+# newpar id = answers-20111108093942AAYF9Dn_ans-p0002
+# text = UP Roadways buses ply frequently between Sector-37 crossing in Noida and Kasna in Greater Noida, passing through Pari Chowk.
+1	UP	UP	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Roadways	Roadway	PROPN	NNPS	PROPN;PL	3	compound	3:compound	_
+3	buses	bus	NOUN	NNS	PL;N	4	nsubj	4:nsubj	_
+4	ply	ply	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+5	frequently	frequently	ADV	RB	ADV	4	advmod	4:advmod	_
+6	between	between	ADP	IN	ADP	10	case	10:case	_
+7	Sector	Sector	PROPN	NNP	SG;PROPN	10	compound	10:compound	SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+9	37	37	NUM	CD	NUM	7	nummod	7:nummod	_
+10	crossing	crossing	NOUN	NN	SG;N	4	obl	4:obl:between	_
+11	in	in	ADP	IN	ADP	12	case	12:case	_
+12	Noida	Noida	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:in	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	Kasna	Kasna	PROPN	NNP	SG;PROPN	10	conj	4:obl:between|10:conj:and	_
+15	in	in	ADP	IN	ADP	17	case	17:case	_
+16	Greater	Great	ADJ	NNP	ADJ;CMPR	17	amod	17:amod	_
+17	Noida	Noida	PROPN	NNP	SG;PROPN	14	nmod	14:nmod:in	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	19:punct	_
+19	passing	pass	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl	_
+20	through	through	ADP	IN	ADP	22	case	22:case	_
+21	Pari	Pari	PROPN	NNP	SG;PROPN	22	compound	22:compound	_
+22	Chowk	Chowk	PROPN	NNP	SG;PROPN	19	obl	19:obl:through	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0003
+# text = Apart from these there are numerous cabs that ferry passengers between Sector-37 crossing and Pari Chowk.
+1	Apart	apart	ADV	RB	ADV	5	advmod	5:advmod	_
+2	from	from	ADP	IN	ADP	3	case	3:case	_
+3	these	this	PRON	DT	PRO;PL	1	obl	1:obl:from	_
+4	there	there	PRON	EX	PRO	5	expl	5:expl	_
+5	are	be	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+6	numerous	numerous	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	cabs	cab	NOUN	NNS	PL;N	5	nsubj	5:nsubj|9:nsubj	_
+8	that	that	PRON	WDT	PRO	9	nsubj	7:ref	_
+9	ferry	ferry	VERB	VBP	FIN;PRS;3;PL;V;IND	7	acl:relcl	7:acl:relcl	Cxn=rc-that-nsubj
+10	passengers	passenger	NOUN	NNS	PL;N	9	obj	9:obj	_
+11	between	between	ADP	IN	ADP	15	case	15:case	_
+12	Sector	Sector	PROPN	NNP	SG;PROPN	15	compound	15:compound	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+14	37	37	NUM	CD	NUM	12	nummod	12:nummod	_
+15	crossing	crossing	NOUN	NN	SG;N	9	obl	9:obl:between	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	Pari	Pari	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	Chowk	Chowk	PROPN	NNP	SG;PROPN	15	conj	9:obl:between|15:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0004
+# newpar id = answers-20111108093942AAYF9Dn_ans-p0003
+# text = Yes bus service is available.
+1	Yes	yes	INTJ	UH	INTJ	5	discourse	5:discourse	_
+2	bus	bus	NOUN	NN	SG;N	3	compound	3:compound	_
+3	service	service	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+5	available	available	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0005
+# text = it is not frequent.
+1	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	frequent	frequent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111108093942AAYF9Dn_ans-0006
+# newpar id = answers-20111108093942AAYF9Dn_ans-p0004
+# text = Hi,
+1	Hi	hi	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+

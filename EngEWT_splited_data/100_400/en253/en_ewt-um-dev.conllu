@@ -1,0 +1,96 @@
+# sent_id = answers-20111107173110AA0lVuB_ans-0004
+# text = Being a suburban teenager, I don't really know where is cheap, safe, and close to orchestra hall (220 South Michigan Ave.)
+1	Being	be	AUX	VBG	PRS;V;V.PTCP	4	cop	4:cop	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	suburban	suburban	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	teenager	teenager	NOUN	NN	SG;N	10	advcl	10:advcl	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+7-8	don't	_	_	_	_	_	_	_	_
+7	do	do	AUX	VBP	FIN;PRS;1;V;IND;SG	10	aux	10:aux	_
+8	n't	not	PART	RB	PART	10	advmod	10:advmod	_
+9	really	really	ADV	RB	ADV	10	advmod	10:advmod	_
+10	know	know	VERB	VB	NFIN;V	0	root	0:root	_
+11	where	where	ADV	WRB	ADV	13	advmod	13:advmod	_
+12	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	13	cop	13:cop	_
+13	cheap	cheap	ADJ	JJ	ADJ	10	ccomp	10:ccomp	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	safe	safe	ADJ	JJ	ADJ	13	conj	10:ccomp|13:conj:and	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	18:punct	_
+17	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+18	close	close	ADJ	JJ	ADJ	13	conj	10:ccomp|13:conj:and	_
+19	to	to	ADP	IN	ADP	21	case	21:case	_
+20	orchestra	orchestra	NOUN	NN	SG;N	21	compound	21:compound	_
+21	hall	hall	NOUN	NN	SG;N	18	obl	18:obl:to	_
+22	(	(	PUNCT	-LRB-	_	26	punct	26:punct	SpaceAfter=No
+23	220	220	NUM	CD	NUM	26	nummod	26:nummod	_
+24	South	South	PROPN	NNP	SG;PROPN	26	compound	26:compound	_
+25	Michigan	Michigan	PROPN	NNP	SG;PROPN	26	compound	26:compound	_
+26	Ave	Ave	PROPN	NNP	SG;PROPN	21	appos	21:appos	SpaceAfter=No
+27	.	.	PUNCT	.	_	26	punct	26:punct	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	26	punct	26:punct	_
+
+# sent_id = answers-20111107173110AA0lVuB_ans-0005
+# text = Does anyone have any ideas for restaurants within walking distance where I can't get lost?
+1	Does	do	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	aux	3:aux	_
+2	anyone	anyone	PRON	NN	PRO;SG	3	nsubj	3:nsubj	_
+3	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+4	any	any	DET	DT	DET	5	det	5:det	_
+5	ideas	idea	NOUN	NNS	PL;N	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	7	case	7:case	_
+7	restaurants	restaurant	NOUN	NNS	PL;N	5	nmod	5:nmod:for|15:obl	_
+8	within	within	ADP	IN	ADP	10	case	10:case	_
+9	walking	walking	NOUN	NN	SG;N	10	compound	10:compound	_
+10	distance	distance	NOUN	NN	SG;N	7	nmod	7:nmod:within	_
+11	where	where	ADV	WRB	ADV	15	advmod	7:ref	_
+12	I	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj|16:nsubj:xsubj	_
+13-14	can't	_	_	_	_	_	_	_	_
+13	ca	can	AUX	MD	FIN;V	15	aux	15:aux	_
+14	n't	not	PART	RB	PART	15	advmod	15:advmod	_
+15	get	get	VERB	VB	NFIN;V	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-obl
+16	lost	lost	ADJ	JJ	ADJ	15	xcomp	15:xcomp	SpaceAfter=No
+17	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107173110AA0lVuB_ans-0006
+# newpar id = answers-20111107173110AA0lVuB_ans-p0003
+# text = I don't know.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	FIN;PRS;1;V;IND;SG	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	know	know	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111107173110AA0lVuB_ans-0007
+# text = Maybe if you post the question again, someone will give you a good answer.
+1	Maybe	maybe	ADV	RB	ADV	11	advmod	11:advmod	_
+2	if	if	SCONJ	IN	CONJ	4	mark	4:mark	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	post	post	VERB	VBP	FIN;PRS;2;V;IND;SG	11	advcl	11:advcl:if	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	question	question	NOUN	NN	SG;N	4	obj	4:obj	_
+7	again	again	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	4	punct	4:punct	_
+9	someone	someone	PRON	NN	PRO;SG	11	nsubj	11:nsubj	_
+10	will	will	AUX	MD	FIN;V	11	aux	11:aux	_
+11	give	give	VERB	VB	NFIN;V	0	root	0:root	_
+12	you	you	PRON	PRP	2;PRO;ACC	11	iobj	11:iobj	_
+13	a	a	DET	DT	DET;INDF	15	det	15:det	_
+14	good	good	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	answer	answer	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# newdoc id = answers-20111104115557AAEDR78_ans
+# sent_id = answers-20111104115557AAEDR78_ans-0001
+# newpar id = answers-20111104115557AAEDR78_ans-p0001
+# text = Does Crack Barrel ban employees from having tattoos?
+1	Does	do	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	aux	4:aux	_
+2	Crack	Crack	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Barrel	Barrel	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+4	ban	ban	VERB	VB	NFIN;V	0	root	0:root	_
+5	employees	employee	NOUN	NNS	PL;N	4	obj	4:obj	_
+6	from	from	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	having	have	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl:from	_
+8	tattoos	tattoo	NOUN	NNS	PL;N	7	obj	7:obj	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	4:punct	_
+

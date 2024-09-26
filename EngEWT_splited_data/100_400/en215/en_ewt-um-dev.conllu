@@ -1,0 +1,53 @@
+# sent_id = answers-20111108092417AAt9bST_ans-0004
+# text = They are not a national park, but are extremely beautiful.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	6	nsubj	6:nsubj|11:nsubj	_
+2	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	6	cop	6:cop	_
+3	not	not	PART	RB	PART	6	advmod	6:advmod	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	national	national	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	park	park	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+9	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	11	cop	11:cop	_
+10	extremely	extremely	ADV	RB	ADV	11	advmod	11:advmod	_
+11	beautiful	beautiful	ADJ	JJ	ADJ	6	conj	6:conj:but	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = answers-20111108092417AAt9bST_ans-0005
+# text = www.visitsouthshropshire.co.uk
+1	www.visitsouthshropshire.co.uk	www.visitsouthshropshire.co.uk	PROPN	ADD	PROPN	0	root	0:root	_
+
+# newdoc id = answers-20090705172848AAU56mj_ans
+# sent_id = answers-20090705172848AAU56mj_ans-0001
+# newpar id = answers-20090705172848AAU56mj_ans-p0001
+# text = Trivia!
+1	Trivia	trivia	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20090705172848AAU56mj_ans-0002
+# text = When was Miramar founded?
+1	When	when	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	4	aux:pass	4:aux:pass	_
+3	Miramar	Miramar	PROPN	NNP	SG;PROPN	4	nsubj:pass	4:nsubj:pass	_
+4	founded	found	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20090705172848AAU56mj_ans-0003
+# newpar id = answers-20090705172848AAU56mj_ans-p0002
+# text = I'll give best answer for the first person who gets it right!
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'll	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	give	give	VERB	VB	NFIN;V	0	root	0:root	_
+4	best	good	ADJ	JJS	ADJ;RL	5	amod	5:amod	_
+5	answer	answer	NOUN	NN	SG;N	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DET;DEF	9	det	9:det	_
+8	first	first	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	person	person	NOUN	NN	SG;N	3	obl	3:obl:for|11:nsubj	_
+10	who	who	PRON	WP	PRO	11	nsubj	9:ref	_
+11	gets	get	VERB	VBZ	FIN;PRS;3;V;IND;SG	9	acl:relcl	9:acl:relcl	Cxn=rc-wh-nsubj
+12	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	11	obj	11:obj|13:nsubj:xsubj	_
+13	right	right	ADJ	JJ	ADJ	11	xcomp	11:xcomp	SpaceAfter=No
+14	!	!	PUNCT	.	_	3	punct	3:punct	_
+

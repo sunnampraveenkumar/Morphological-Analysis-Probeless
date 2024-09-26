@@ -1,0 +1,98 @@
+# sent_id = newsgroup-groups.google.com_APassionforRats_207517af35c166ef_ENG_20050526_150700-0006
+# newpar id = newsgroup-groups.google.com_APassionforRats_207517af35c166ef_ENG_20050526_150700-p0004
+# text = "...there is no companion quite so devoted, so communicative, so loving and so mesmerizing as a rat."
+1	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+2	...	...	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+3	there	there	PRON	EX	PRO	4	expl	4:expl	_
+4	is	be	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+5	no	no	DET	DT	DET	6	det	6:det	_
+6	companion	companion	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+7	quite	quite	ADV	RB	ADV	9	advmod	9:advmod	_
+8	so	so	ADV	RB	ADV	9	advmod	9:advmod	_
+9	devoted	devoted	ADJ	JJ	ADJ	6	amod	6:amod	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	so	so	ADV	RB	ADV	12	advmod	12:advmod	_
+12	communicative	communicative	ADJ	JJ	ADJ	9	conj	6:amod|9:conj:and	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	15:punct	_
+14	so	so	ADV	RB	ADV	15	advmod	15:advmod	_
+15	loving	loving	ADJ	JJ	ADJ	9	conj	6:amod|9:conj:and	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	so	so	ADV	RB	ADV	18	advmod	18:advmod	_
+18	mesmerizing	mesmerizing	ADJ	JJ	ADJ	9	conj	6:amod|9:conj:and	_
+19	as	as	ADP	IN	ADP	21	case	21:case	_
+20	a	a	DET	DT	INDF;DET	21	det	21:det	_
+21	rat	rat	NOUN	NN	SG;N	9	obl	9:obl:as	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	4:punct	SpaceAfter=No
+23	"	"	PUNCT	''	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_APassionforRats_207517af35c166ef_ENG_20050526_150700-0007
+# text = ~CGoehring
+1	~	~	PUNCT	NFP	_	2	punct	2:punct	SpaceAfter=No
+2	CGoehring	CGoehring	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# newdoc id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900
+# sent_id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-0001
+# newpar id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-p0001
+# text = Email: Anthony Beavers <CognitiveScienceN...@gmail.com>
+1	Email	email	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	Anthony	Anthony	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+4	Beavers	Beavers	PROPN	NNP	SG;PROPN	3	flat	3:flat	_
+5	<	<	PUNCT	-LRB-	_	6	punct	6:punct	SpaceAfter=No
+6	CognitiveScienceN...@gmail.com	CognitiveScienceN...@gmail.com	PROPN	ADD	PROPN	3	appos	3:appos	SpaceAfter=No
+7	>	>	PUNCT	-RRB-	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-0002
+# text = Inhibitory Systems Control the Pattern of Activity in the Cortex
+1	Inhibitory	inhibitory	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Systems	system	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	Control	control	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	Pattern	pattern	NOUN	NN	SG;N	3	obj	3:obj	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	Activity	activity	NOUN	NN	SG;N	5	nmod	5:nmod:of	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	Cortex	cortex	NOUN	NN	SG;N	5	nmod	5:nmod:in	_
+
+# sent_id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-0003
+# newpar id = newsgroup-groups.google.com_CognitiveScienceNews_05a0175fc6ece48b_ENG_20050828_091900-p0002
+# text = "Inhibitory systems are essential for controlling the pattern of activity in the cortex, which has important implications for the mechanisms of cortical operation, according to a Yale School of Medicine study in Neuron....
+1	"	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+2	Inhibitory	inhibitory	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	systems	system	NOUN	NNS	PL;N	5	nsubj	5:nsubj	_
+4	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	5	cop	5:cop	_
+5	essential	essential	ADJ	JJ	ADJ	0	root	0:root	_
+6	for	for	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	controlling	control	VERB	VBG	PRS;V;V.PTCP	5	advcl	5:advcl:for	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	pattern	pattern	NOUN	NN	SG;N	7	obj	7:obj|17:nsubj	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	activity	activity	NOUN	NN	SG;N	9	nmod	9:nmod:of	_
+12	in	in	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	cortex	cortex	NOUN	NN	SG;N	9	nmod	9:nmod:in	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	17:punct	_
+16	which	which	PRON	WDT	PRO	17	nsubj	9:ref	_
+17	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	9	acl:relcl	9:acl:relcl	Cxn=rc-wh-nsubj
+18	important	important	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	implications	implication	NOUN	NNS	PL;N	17	obj	17:obj	_
+20	for	for	ADP	IN	ADP	22	case	22:case	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	mechanisms	mechanism	NOUN	NNS	PL;N	19	nmod	19:nmod:for	_
+23	of	of	ADP	IN	ADP	25	case	25:case	_
+24	cortical	cortical	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	operation	operation	NOUN	NN	SG;N	22	nmod	22:nmod:of	SpaceAfter=No
+26	,	,	PUNCT	,	_	34	punct	34:punct	_
+27	according	accord	VERB	VBG	PRS;V;V.PTCP	34	case	34:case	_
+28	to	to	ADP	IN	ADP	27	fixed	27:fixed	_
+29	a	a	DET	DT	INDF;DET	34	det	34:det	_
+30	Yale	Yale	PROPN	NNP	SG;PROPN	31	compound	31:compound	_
+31	School	School	PROPN	NNP	SG;PROPN	34	compound	34:compound	_
+32	of	of	ADP	IN	ADP	33	case	33:case	_
+33	Medicine	Medicine	PROPN	NNP	SG;PROPN	31	nmod	31:nmod:of	_
+34	study	study	NOUN	NN	SG;N	5	obl	5:obl:according_to	_
+35	in	in	ADP	IN	ADP	36	case	36:case	_
+36	Neuron	Neuron	PROPN	NNP	SG;PROPN	34	nmod	34:nmod:in	SpaceAfter=No
+37	....	....	PUNCT	,	_	5	punct	5:punct	_
+

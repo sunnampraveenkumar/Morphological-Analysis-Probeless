@@ -1,0 +1,71 @@
+# sent_id = answers-20090705172848AAU56mj_ans-0004
+# newpar id = answers-20090705172848AAU56mj_ans-p0003
+# text = September 20, 1888?
+1	September	September	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	20	20	NUM	CD	NUM	1	nummod	1:nummod	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	1888	1888	NUM	CD	NUM	1	nummod	1:nummod	SpaceAfter=No
+5	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20090705172848AAU56mj_ans-0005
+# newpar id = answers-20090705172848AAU56mj_ans-p0004
+# text = It was incorporated as a city on May 26, 1955.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj:pass	3:nsubj:pass	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	aux:pass	3:aux:pass	_
+3	incorporated	incorporate	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+4	as	as	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	city	city	NOUN	NN	SG;N	3	obl	3:obl:as	_
+7	on	on	ADP	IN	ADP	8	case	8:case	_
+8	May	May	PROPN	NNP	SG;PROPN	3	obl	3:obl:on	_
+9	26	26	NUM	CD	NUM	8	nummod	8:nummod	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	1955	1955	NUM	CD	NUM	8	nummod	8:nummod	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20090705172848AAU56mj_ans-0006
+# newpar id = answers-20090705172848AAU56mj_ans-p0005
+# text = Miramar was founded September 20 1888.
+1	Miramar	Miramar	PROPN	NNP	SG;PROPN	3	nsubj:pass	3:nsubj:pass	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	aux:pass	3:aux:pass	_
+3	founded	found	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+4	September	September	PROPN	NNP	SG;PROPN	3	obl:tmod	3:obl:tmod	_
+5	20	20	NUM	CD	NUM	4	nummod	4:nummod	_
+6	1888	1888	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = answers-20111108033619AAb3VQ4_ans
+# sent_id = answers-20111108033619AAb3VQ4_ans-0001
+# newpar id = answers-20111108033619AAb3VQ4_ans-p0001
+# text = Do people Bare-knuckle box in Ireland?
+1	Do	do	AUX	VBP	FIN;PRS;3;PL;V;IND	6	aux	6:aux	_
+2	people	people	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+3	Bare	bare	ADJ	JJ	ADJ	5	amod	5:amod	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+5	knuckle	knuckle	NOUN	NN	SG;N	6	obl:npmod	6:obl:npmod	_
+6	box	box	VERB	VB	NFIN;V	0	root	0:root	_
+7	in	in	ADP	IN	ADP	8	case	8:case	_
+8	Ireland	Ireland	PROPN	NNP	SG;PROPN	6	obl	6:obl:in	SpaceAfter=No
+9	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = answers-20111108033619AAb3VQ4_ans-0002
+# newpar id = answers-20111108033619AAb3VQ4_ans-p0002
+# text = Certain elements of the travelling community engage in this activity, but overall no not really.
+1	Certain	certain	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	elements	element	NOUN	NNS	PL;N	7	nsubj	7:nsubj|16:nsubj	_
+3	of	of	ADP	IN	ADP	6	case	6:case	_
+4	the	the	DET	DT	DET;DEF	6	det	6:det	_
+5	travelling	travelling	NOUN	NN	SG;N	6	compound	6:compound	_
+6	community	community	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+7	engage	engage	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	this	this	DET	DT	DET;SG	10	det	10:det	_
+10	activity	activity	NOUN	NN	SG;N	7	obl	7:obl:in	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	16:punct	_
+12	but	but	CCONJ	CC	CONJ	16	cc	16:cc	_
+13	overall	overall	ADV	RB	ADV	16	advmod	16:advmod	_
+14	no	no	INTJ	UH	INTJ	16	discourse	16:discourse	_
+15	not	not	PART	RB	PART	16	advmod	16:advmod	_
+16	really	really	ADV	RB	ADV	7	conj	7:conj:but	Promoted=Yes|SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	7:punct	_
+

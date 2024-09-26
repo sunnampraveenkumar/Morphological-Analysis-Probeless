@@ -1,0 +1,74 @@
+# newdoc id = email-enronsent09_02
+# sent_id = email-enronsent09_02-0001
+# newpar id = email-enronsent09_02-p0001
+# text = Michael Olsen@ENRON
+1	Michael	MichaelOlsen@ENRON	PROPN	GW	PROPN	0	root	0:root	_
+2	Olsen@ENRON	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent09_02-0002
+# text = 12/07/2000 02:29 PM
+1	12/07/2000	12/07/2000	NUM	CD	NUM	0	root	0:root	_
+2	02:29	02:29	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent09_02-0003
+# text = Daren,
+1	Daren	Daren	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent09_02-0004
+# newpar id = email-enronsent09_02-p0002
+# text = I was wondering if it would be OK for me to sit in with you one day to get a general feel of your end of the process.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	3	aux	3:aux	_
+3	wondering	wonder	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	if	if	SCONJ	IN	CONJ	8	mark	8:mark	_
+5	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	8	expl	8:expl	_
+6	would	would	AUX	MD	V;FIN	8	aux	8:aux	_
+7	be	be	AUX	VB	NFIN;V	8	cop	8:cop	_
+8	OK	ok	ADJ	JJ	ADJ	3	ccomp	3:ccomp	_
+9	for	for	SCONJ	IN	CONJ	12	mark	12:mark	_
+10	me	I	PRON	PRP	ACC;PRO;1;SG	12	nsubj	12:nsubj	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	sit	sit	VERB	VB	NFIN;V	8	csubj	8:csubj	_
+13	in	in	ADV	RB	ADV	12	advmod	12:advmod	_
+14	with	with	ADP	IN	ADP	15	case	15:case	_
+15	you	you	PRON	PRP	2;ACC;PRO	12	obl	12:obl:with	_
+16	one	one	NUM	CD	NUM	17	nummod	17:nummod	_
+17	day	day	NOUN	NN	SG;N	12	obl:tmod	12:obl:tmod	_
+18	to	to	PART	TO	PART	19	mark	19:mark	_
+19	get	get	VERB	VB	NFIN;V	12	advcl	12:advcl:to	_
+20	a	a	DET	DT	INDF;DET	22	det	22:det	_
+21	general	general	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	feel	feel	NOUN	NN	SG;N	19	obj	19:obj	_
+23	of	of	ADP	IN	ADP	25	case	25:case	_
+24	your	your	PRON	PRP$	GEN;PRO;2	25	nmod:poss	25:nmod:poss	_
+25	end	end	NOUN	NN	SG;N	22	nmod	22:nmod:of	_
+26	of	of	ADP	IN	ADP	28	case	28:case	_
+27	the	the	DET	DT	DEF;DET	28	det	28:det	_
+28	process	process	NOUN	NN	SG;N	25	nmod	25:nmod:of	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent09_02-0005
+# text = Pat had told me before he left that it would help me better grasp the process as a whole.
+1	Pat	Pat	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	3	aux	3:aux	_
+3	told	tell	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	me	I	PRON	PRP	ACC;PRO;1;SG	3	iobj	3:iobj	_
+5	before	before	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	7	nsubj	7:nsubj	_
+7	left	leave	VERB	VBD	PST;V;3;FIN;SG;IND	3	advcl	3:advcl:before	_
+8	that	that	SCONJ	IN	CONJ	11	mark	11:mark	_
+9	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	11	nsubj	11:nsubj	_
+10	would	would	AUX	MD	V;FIN	11	aux	11:aux	_
+11	help	help	VERB	VB	NFIN;V	3	ccomp	3:ccomp	_
+12	me	I	PRON	PRP	ACC;PRO;1;SG	11	obj	11:obj|14:nsubj:xsubj	_
+13	better	well	ADV	RBR	ADV;CMPR	14	advmod	14:advmod	_
+14	grasp	grasp	VERB	VB	NFIN;V	11	xcomp	11:xcomp	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	process	process	NOUN	NN	SG;N	14	obj	14:obj	_
+17	as	as	ADP	IN	ADP	19	case	19:case	_
+18	a	a	DET	DT	INDF;DET	19	det	19:det	_
+19	whole	whole	NOUN	NN	SG;N	14	obl	14:obl:as	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+

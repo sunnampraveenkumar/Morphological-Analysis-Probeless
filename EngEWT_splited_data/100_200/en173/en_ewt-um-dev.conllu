@@ -1,0 +1,168 @@
+# sent_id = reviews-058274-0002
+# text = Service - the workers are usually pleasant.
+1	Service	service	NOUN	NN	SG;N	0	root	0:root	_
+2	-	-	PUNCT	:	_	7	punct	7:punct	_
+3	the	the	DET	DT	DET;DEF	4	det	4:det	_
+4	workers	worker	NOUN	NNS	PL;N	7	nsubj	7:nsubj	_
+5	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	7	cop	7:cop	_
+6	usually	usually	ADV	RB	ADV	7	advmod	7:advmod	_
+7	pleasant	pleasant	ADJ	JJ	ADJ	1	appos	1:appos	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-058274-0003
+# text = Atmosphere is always fun, the assortment of customers adds entertainment to the meal
+1	Atmosphere	atmosphere	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	always	always	ADV	RB	ADV	4	advmod	4:advmod	_
+4	fun	fun	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	10:punct	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	assortment	assortment	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	customers	customer	NOUN	NNS	PL;N	7	nmod	7:nmod:of	_
+10	adds	add	VERB	VBZ	FIN;PRS;3;V;IND;SG	4	parataxis	4:parataxis	_
+11	entertainment	entertainment	NOUN	NN	SG;N	10	obj	10:obj	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DET;DEF	14	det	14:det	_
+14	meal	meal	NOUN	NN	SG;N	10	obl	10:obl:to	_
+
+# newdoc id = reviews-158740
+# sent_id = reviews-158740-0001
+# newpar id = reviews-158740-p0001
+# text = awesome place!!!
+1	awesome	awesome	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	place	place	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!!!	!!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-158740-0002
+# text = it was worth of the ride more than an hour...
+1	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	cop	3:cop	_
+3	worth	worth	ADJ	JJ	ADJ	0	root	0:root	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	ride	ride	NOUN	NN	SG;N	3	obl	3:obl:of	_
+7	more	more	ADJ	JJR	ADJ;CMPR	6	advmod	6:advmod	_
+8	than	than	ADP	IN	ADP	7	fixed	7:fixed	_
+9	an	a	DET	DT	DET;INDF	10	det	10:det	_
+10	hour	hour	NOUN	NN	SG;N	6	parataxis	6:parataxis	SpaceAfter=No
+11	...	...	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+
+# sent_id = reviews-158740-0003
+# text = I had so many strawberries right on the field...strongly recomend...dont forget to try their great ice cream
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	had	have	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	so	so	ADV	RB	ADV	4	advmod	4:advmod	_
+4	many	many	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	strawberries	strawberry	NOUN	NNS	PL;N	2	obj	2:obj	_
+6	right	right	ADV	RB	ADV	9	advmod	9:advmod	_
+7	on	on	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	field	field	NOUN	NN	SG;N	2	obl	2:obl:on	SpaceAfter=No
+10	...	...	PUNCT	,	_	12	punct	12:punct	SpaceAfter=No
+11	strongly	strongly	ADV	RB	ADV	12	advmod	12:advmod	_
+12	recomend	recommend	VERB	VBP	FIN;PRS;1;V;IND;SG	2	parataxis	2:parataxis	CorrectForm=recommend|SpaceAfter=No
+13	...	...	PUNCT	,	_	16	punct	16:punct	SpaceAfter=No
+14-15	dont	_	_	_	_	_	_	_	_
+14	do	do	AUX	VB	FIN;V;IMP	16	aux	16:aux	_
+15	nt	not	PART	RB	PART	16	advmod	16:advmod	CorrectForm=n't
+16	forget	forget	VERB	VB	FIN;V;IMP	2	parataxis	2:parataxis	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	try	try	VERB	VB	NFIN;V	16	xcomp	16:xcomp	_
+19	their	their	PRON	PRP$	PRO;GEN;3;PL	22	nmod:poss	22:nmod:poss	_
+20	great	great	ADJ	JJ	ADJ	22	amod	22:amod	_
+21	ice	ice	NOUN	NN	SG;N	22	compound	22:compound	_
+22	cream	cream	NOUN	NN	SG;N	18	obj	18:obj	_
+
+# newdoc id = reviews-090390
+# sent_id = reviews-090390-0001
+# newpar id = reviews-090390-p0001
+# text = wrong location
+1	wrong	wrong	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	location	location	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-090390-0002
+# newpar id = reviews-090390-p0002
+# text = this is not where the Blue Water Bridge Duty Free is located.
+1	this	this	PRON	DT	PRO;SG	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	where	where	ADV	WRB	ADV	0	root	0:root|12:advmod	_
+5	the	the	DET	DT	DET;DEF	10	det	10:det	_
+6	Blue	Blue	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Water	Water	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+8	Bridge	Bridge	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+9	Duty	Duty	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Free	Free	PROPN	NNP	SG;PROPN	12	nsubj:pass	12:nsubj:pass	_
+11	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	aux:pass	12:aux:pass	_
+12	located	locate	VERB	VBN	PASS;V;V.PTCP;PST	4	advcl:relcl	4:advcl:relcl	Cxn=rc-free-advmod|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-090390-0003
+# text = It is, surprisingly, near the Blue Water Bridges, some miles to the west of this location.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	2	nsubj	2:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	surprisingly	surprisingly	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	10:punct	_
+6	near	near	ADP	IN	ADP	10	case	10:case	_
+7	the	the	DET	DT	DET;DEF	10	det	10:det	_
+8	Blue	Blue	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Water	Water	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Bridges	Bridge	PROPN	NNPS	PROPN;PL	2	obl	2:obl:near	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	16:punct	_
+12	some	some	DET	DT	DET	13	det	13:det	_
+13	miles	mile	NOUN	NNS	PL;N	16	nmod:npmod	16:nmod:npmod	_
+14	to	to	ADP	IN	ADP	16	case	16:case	_
+15	the	the	DET	DT	DET;DEF	16	det	16:det	_
+16	west	west	NOUN	NN	SG;N	10	nmod	10:nmod:to	_
+17	of	of	ADP	IN	ADP	19	case	19:case	_
+18	this	this	DET	DT	DET;SG	19	det	19:det	_
+19	location	location	NOUN	NN	SG;N	16	nmod	16:nmod:of	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-009943
+# sent_id = reviews-009943-0001
+# newpar id = reviews-009943-p0001
+# text = such a great idea this was, so easy to load and pack, no ramp, no step up no back aches.
+1	such	such	DET	PDT	DET	4	det:predet	4:det:predet	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	great	great	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	idea	idea	NOUN	NN	SG;N	0	root	0:root	_
+5	this	this	PRON	DT	PRO;SG	4	nsubj	4:nsubj	_
+6	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	4	cop	4:cop	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	so	so	ADV	RB	ADV	9	advmod	9:advmod	_
+9	easy	easy	ADJ	JJ	ADJ	4	parataxis	4:parataxis	_
+10	to	to	PART	TO	PART	11	mark	11:mark	_
+11	load	load	VERB	VB	NFIN;V	9	ccomp	9:ccomp	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	pack	pack	VERB	VB	NFIN;V	11	conj	9:ccomp|11:conj:and	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	16:punct	_
+15	no	no	DET	DT	DET	16	det	16:det	_
+16	ramp	ramp	NOUN	NN	SG;N	4	parataxis	4:parataxis	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	19:punct	_
+18	no	no	DET	DT	DET	19	det	19:det	_
+19	step	step	NOUN	NN	SG;N	16	appos	16:appos	_
+20	up	up	ADV	RB	ADV	19	advmod	19:advmod	_
+21	no	no	DET	DT	DET	23	det	23:det	_
+22	back	back	NOUN	NN	SG;N	23	compound	23:compound	_
+23	aches	ache	NOUN	NNS	PL;N	4	parataxis	4:parataxis	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-009943-0002
+# text = moving with a pod was the best moving experience i have had.
+1	moving	move	VERB	VBG	V;V.MSDR	9	csubj	9:csubj	_
+2	with	with	ADP	IN	ADP	4	case	4:case	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	pod	pod	NOUN	NN	SG;N	1	obl	1:obl:with	_
+5	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	9	cop	9:cop	_
+6	the	the	DET	DT	DET;DEF	9	det	9:det	_
+7	best	good	ADJ	JJS	ADJ;RL	9	amod	9:amod	_
+8	moving	moving	NOUN	NN	SG;N	9	compound	9:compound	_
+9	experience	experience	NOUN	NN	SG;N	0	root	0:root|12:obj	_
+10	i	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj	_
+11	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	12	aux	12:aux	_
+12	had	have	VERB	VBN	V;V.PTCP;PST	9	acl:relcl	9:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	9:punct	_
+

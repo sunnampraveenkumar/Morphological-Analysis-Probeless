@@ -1,0 +1,364 @@
+# sent_id = 4010
+# text = מי שרוצים לצייד בבת אחת את כל המשפחה או לפחות כמה מהם, יכולים לחסוך בקנייה שם.
+1	מי	מי	ADV	ADV	ADV	18	nsubj	_	_
+2-3	שרוצים	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	CONJ	3	mark	_	_
+3	רוצים	רצה	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	1	acl:relcl	_	_
+4	לצייד	צייד	VERB	VERB	NFIN;ACT;V	3	xcomp	_	_
+5-6	בבת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	4	case	_	_
+6	בת	בת	NOUN	NOUN	SG;N;FEM	5	fixed	_	_
+7	אחת	אחת	NUM	NUM	SG;NUM;FEM	5	fixed	_	_
+8	את	את	ADP	ADP	ADP;ACC	11	case:acc	_	_
+9	כל	כול	DET	DET	PSSD;DET	11	det	_	_
+10-11	המשפחה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	משפחה	משפחה	NOUN	NOUN	SG;N;FEM	4	obj	_	_
+12	או	או	CCONJ	CCONJ	CONJ	16	cc	_	_
+13	לפחות	לפחות	ADV	ADV	ADV	16	advmod	_	_
+14	כמה	כמה	DET	DET	PSSD;DET	16	det	_	_
+15-16	מהם	_	_	_	_	_	_	_	SpaceAfter=No
+15	מן_	מן	ADP	ADP	ADP	16	case	_	_
+16	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	11	conj	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	יכולים	יכול	VERB	VERB	{1/2/3};PL;V;MASC;V.PTCP	0	root	_	Modal=Yes
+19	לחסוך	חסך	VERB	VERB	NFIN;ACT;V	18	xcomp	_	_
+20-21	בקנייה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	ADP	21	case	_	_
+21	קנייה	קנייה	NOUN	NOUN	SG;N;FEM	19	obl	_	_
+22	שם	שם	ADV	ADV	ADV	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# sent_id = 4011
+# text = בשביל זוג נעליים אחד לא תמיד משתלם לעשות את הדרך.
+1	בשביל	בשביל	ADP	ADP	ADP	2	case	_	_
+2	זוג	זוג	NOUN	NOUN	MASC;SG;N;PSSD	7	obl	_	_
+3	נעליים	נעל	NOUN	NOUN	N;PL;FEM	2	compound:smixut	_	_
+4	אחד	אחד	NUM	NUM	MASC;SG;NUM	2	nummod	_	_
+5	לא	לא	ADV	ADV	NEG;ADV	7	advmod	_	_
+6	תמיד	תמיד	ADV	ADV	ADV	7	advmod	_	_
+7	משתלם	השתלם	VERB	VERB	{1/2/3};SG;V;MASC;V.PTCP	0	root	_	_
+8	לעשות	עשה	VERB	VERB	NFIN;ACT;V	7	xcomp	_	_
+9	את	את	ADP	ADP	ADP;ACC	11	case:acc	_	_
+10-11	הדרך	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	דרך	דרך	NOUN	NOUN	SG;N;FEM	8	obj	_	_
+12	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 4012
+# text = ההנחות, לדברי אנשי "מגה", הן בשיעור של 10% 13%.
+1-2	ההנחות	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	הנחות	הנחה	NOUN	NOUN	N;PL;FEM	13	nsubj:cop	_	_
+3	,	,	PUNCT	PUNCT	_	13	punct	_	_
+4-5	לדברי	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	ADP	5	case	_	_
+5	דברי	דבר	NOUN	NOUN	MASC;N;PL;PSSD	13	nmod	_	_
+6	אנשי	איש	NOUN	NOUN	MASC;N;PL;PSSD	5	compound:smixut	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	מגה	מגה	PROPN	PROPN	PROPN	6	compound:smixut	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	הן	הוא	PRON	PRON	POS;PL;3;PRO;FEM	13	cop	_	_
+12-13	בשיעור	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	13	case	_	_
+13	שיעור	שיעור	NOUN	NOUN	MASC;SG;N	0	root	_	_
+14	של	של	ADP	ADP	ADP;GEN	16	case:gen	_	_
+15	10	10	NUM	NUM	NUM	16	nummod	_	SpaceAfter=No
+16	%	%	NOUN	NOUN	MASC;{PL/SG};N	13	nmod:poss	_	_
+17	13	13	NUM	NUM	NUM	18	nummod	_	SpaceAfter=No
+18	%	%	NOUN	NOUN	MASC;{PL/SG};N	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 4013
+# text = בחנויות העודפים מוכרים גם שאריות של זוגות משנה קודמת במחירי מציאה, וכן סוג ב בהנחה ניכרת.
+1-2	בחנויות	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	2	case	_	_
+2	חנויות	חנות	NOUN	NOUN	FEM;N;PL;PSSD	5	obl	_	_
+3-4	העודפים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	עודפים	עודף	NOUN	NOUN	MASC;N;PL	2	compound:smixut	_	_
+5	מוכרים	מכר	VERB	VERB	{1/2/3};PL;V;MASC;V.PTCP	0	root	_	_
+6	גם	גם	ADV	ADV	ADV	5	advmod	_	_
+7	שאריות	שארית	NOUN	NOUN	N;PL;FEM	5	obj	_	_
+8	של	של	ADP	ADP	ADP;GEN	9	case:gen	_	_
+9	זוגות	זוג	NOUN	NOUN	MASC;N;PL	7	nmod:poss	_	_
+10-11	משנה	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	ADP	11	case	_	_
+11	שנה	שנה	NOUN	NOUN	SG;N;FEM	9	nmod	_	_
+12	קודמת	קודם	ADJ	ADJ	SG;FEM;ADJ	11	amod	_	_
+13-14	במחירי	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	ADP	14	case	_	_
+14	מחירי	מחיר	NOUN	NOUN	MASC;N;PL;PSSD	7	nmod	_	_
+15	מציאה	מציאה	NOUN	NOUN	SG;N;FEM	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	7	punct	_	_
+17-18	וכן	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+18	כן	כן	ADV	ADV	ADV	19	advmod	_	_
+19	סוג	סוג	NOUN	NOUN	MASC;SG;N	7	conj	_	_
+20	ב	ב	PROPN	PROPN	PROPN	19	flat:name	_	_
+21-22	בהנחה	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	ADP	22	case	_	_
+22	הנחה	הנחה	NOUN	NOUN	SG;N;FEM	19	nmod	_	_
+23	ניכרת	ניכר	ADJ	ADJ	SG;FEM;ADJ	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 4014
+# text = כרגע ניתן למצוא שם, בין השאר, נעלי בית לתינוקות ב9.90 ש"ח; נעלי בית לילדות ב13.90 ש"ח; סוגים הדורים יותר, כגון נעלי קטיפה לילדות, ב23.90 ש"ח, או נעלי בית צבעוניות, גבוהות, מצמר סרוג, ב24.90, לעומת27.90 ש"ח בחנויות.
+1	כרגע	כרגע	ADV	ADV	ADV	2	advmod	_	_
+2	ניתן	ניתן	ADJ	ADJ	MASC;SG;ADJ	0	root	_	Modal=Yes
+3	למצוא	מצא	VERB	VERB	NFIN;ACT;V	2	csubj	_	_
+4	שם	שם	ADV	ADV	ADV	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	בין	בין	ADP	ADP	ADP	8	case	_	_
+7-8	השאר	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	שאר	שאר	NOUN	NOUN	MASC;SG;N	3	obl	_	_
+9	,	,	PUNCT	PUNCT	_	3	punct	_	_
+10	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	3	obj	_	_
+11	בית	בית	NOUN	NOUN	MASC;SG;N	10	compound:smixut	_	_
+12-13	לתינוקות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	ADP	13	case	_	_
+13	תינוקות	תינוק	NOUN	NOUN	N;PL;FEM	10	nmod	_	_
+14-15	ב9.90	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	ADP	16	case	_	_
+15	9.90	9.90	NUM	NUM	NUM	16	nummod	_	_
+16	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	10	nmod	_	SpaceAfter=No
+17	;	;	PUNCT	PUNCT	_	18	punct	_	_
+18	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	10	conj	_	_
+19	בית	בית	NOUN	NOUN	MASC;SG;N	18	compound:smixut	_	_
+20-21	לילדות	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	ADP	21	case	_	_
+21	ילדות	ילד	NOUN	NOUN	N;PL;FEM	18	nmod	_	_
+22-23	ב13.90	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	ADP	24	case	_	_
+23	13.90	13.90	NUM	NUM	NUM	24	nummod	_	_
+24	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	18	nmod	_	SpaceAfter=No
+25	;	;	PUNCT	PUNCT	_	26	punct	_	_
+26	סוגים	סוג	NOUN	NOUN	MASC;N;PL	10	conj	_	_
+27	הדורים	הדור	ADJ	ADJ	MASC;PL;ADJ	26	amod	_	_
+28	יותר	יותר	ADV	ADV	ADV	27	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	26	punct	_	_
+30	כגון	כגון	ADP	ADP	ADP	31	case	_	_
+31	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	26	nmod	_	_
+32	קטיפה	קטיפה	NOUN	NOUN	SG;N;FEM	31	compound:smixut	_	_
+33-34	לילדות	_	_	_	_	_	_	_	SpaceAfter=No
+33	ל	ל	ADP	ADP	ADP	34	case	_	_
+34	ילדות	ילד	NOUN	NOUN	N;PL;FEM	31	nmod	_	_
+35	,	,	PUNCT	PUNCT	_	31	punct	_	_
+36-37	ב23.90	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	ADP	38	case	_	_
+37	23.90	23.90	NUM	NUM	NUM	38	nummod	_	_
+38	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	31	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	PUNCT	_	31	punct	_	_
+40	או	או	CCONJ	CCONJ	CONJ	41	cc	_	_
+41	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	31	conj	_	_
+42	בית	בית	NOUN	NOUN	MASC;SG;N	41	compound:smixut	_	_
+43	צבעוניות	צבעוני	ADJ	ADJ	FEM;PL;ADJ	41	amod	_	SpaceAfter=No
+44	,	,	PUNCT	PUNCT	_	41	punct	_	_
+45	גבוהות	גבוה	ADJ	ADJ	FEM;PL;ADJ	41	amod	_	SpaceAfter=No
+46	,	,	PUNCT	PUNCT	_	41	punct	_	_
+47-48	מצמר	_	_	_	_	_	_	_	_
+47	מ	מ	ADP	ADP	ADP	48	case	_	_
+48	צמר	צמר	NOUN	NOUN	MASC;SG;N	41	nmod	_	_
+49	סרוג	סרוג	ADJ	ADJ	MASC;SG;ADJ	48	amod	_	SpaceAfter=No
+50	,	,	PUNCT	PUNCT	_	41	punct	_	_
+51-52	ב24.90	_	_	_	_	_	_	_	SpaceAfter=No
+51	ב	ב	ADP	ADP	ADP	52	case	_	_
+52	24.90	24.90	NUM	NUM	NUM	41	nmod	_	_
+53	,	,	PUNCT	PUNCT	_	41	punct	_	_
+54-55	לעומת27.90	_	_	_	_	_	_	_	_
+54	לעומת	לעומת	ADP	ADP	ADP	56	case	_	_
+55	27.90	27.90	NUM	NUM	NUM	56	nummod	_	_
+56	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	41	nmod	_	_
+57-59	בחנויות	_	_	_	_	_	_	_	SpaceAfter=No
+57	ב	ב	ADP	ADP	ADP	59	case	_	_
+58	ה_	ה	DET	DET	DET	59	det	_	_
+59	חנויות	חנות	NOUN	NOUN	N;PL;FEM	56	nmod	_	_
+60	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4015
+# text = כן מוצעות נעלי "פינוק" לבית ב12.9 ש"ח, לדגם פתוח מאחור.
+1	כן	כן	ADV	ADV	ADV	2	advmod	_	_
+2	מוצעות	הוצע	VERB	VERB	{1/2/3};PL;V;PASS;V.PTCP;FEM	0	root	_	_
+3	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	2	nsubj	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	פינוק	פינוק	NOUN	NOUN	MASC;SG;N	3	compound:smixut	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	_
+7-9	לבית	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	ADP	9	case	_	_
+8	ה_	ה	DET	DET	DET	9	det	_	_
+9	בית	בית	NOUN	NOUN	MASC;SG;N	3	nmod	_	_
+10-11	ב12.9	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	ADP	12	case	_	_
+11	21.9	21.9	NUM	NUM	NUM	12	nummod	_	_
+12	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	3	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	3	punct	_	_
+14-15	לדגם	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	ADP	15	case	_	_
+15	דגם	דגם	NOUN	NOUN	MASC;SG;N	3	nmod	_	_
+16	פתוח	פתוח	ADJ	ADJ	MASC;SG;ADJ	15	amod	_	_
+17	מאחור	מאחור	ADV	ADV	ADV	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 4016
+# text = נעלי בית ונעלי ספורט הן המבוקשות ביותר בחנויות אלו, אומרת כרמלה עברון, המנהלת את החנות ברוממה בירושלים.
+1	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	8	nsubj:cop	_	_
+2	בית	בית	NOUN	NOUN	MASC;SG;N	1	compound:smixut	_	_
+3-4	ונעלי	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	CONJ	4	cc	_	_
+4	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	1	conj	_	_
+5	ספורט	ספורט	NOUN	NOUN	MASC;SG;N	4	compound:smixut	_	_
+6	הן	הוא	PRON	PRON	POS;PL;3;PRO;FEM	8	cop	_	_
+7-8	המבוקשות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	מבוקשות	מבוקש	ADJ	ADJ	FEM;PL;ADJ	14	obl	_	_
+9	ביותר	ביותר	ADV	ADV	ADV	8	advmod	_	_
+10-11	בחנויות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	ADP	11	case	_	_
+11	חנויות	חנות	NOUN	NOUN	N;PL;FEM	8	obl	_	_
+12	אלו	אלו	PRON	PRON	PL;{FEM/MASC};3;PRO	11	det	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	אומרת	אמר	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+15	כרמלה	כרמלה	PROPN	PROPN	PROPN	14	nsubj	_	_
+16	עברון	עברון	PROPN	PROPN	PROPN	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	15	punct	_	_
+18-19	המנהלת	_	_	_	_	_	_	_	_
+18	ה	ה	SCONJ	SCONJ	CONJ	19	mark	_	_
+19	מנהלת	ניהל	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	15	acl:relcl	_	_
+20	את	את	ADP	ADP	ADP;ACC	22	case:acc	_	_
+21-22	החנות	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	DET	22	det	_	_
+22	חנות	חנות	NOUN	NOUN	SG;N;FEM	19	obj	_	_
+23-24	ברוממה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	ADP	24	case	_	_
+24	רוממה	רוממה	PROPN	PROPN	PROPN	22	nmod	_	_
+25-26	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	ADP	26	case	_	_
+26	ירושלים	ירושלים	PROPN	PROPN	PROPN	22	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# sent_id = 4017
+# text = שנה אחר שנה מציעים את נעלי הבית המרוכסנות והמשובצות בגובה שלושה רבעים.
+1	שנה	שנה	NOUN	NOUN	SG;N;FEM	4	dep	_	_
+2	אחר	אחר	ADP	ADP	ADP	3	case	_	_
+3	שנה	שנה	NOUN	NOUN	SG;N;FEM	1	nmod	_	_
+4	מציעים	הציע	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+5	את	את	ADP	ADP	ADP;ACC	6	case:acc	_	_
+6	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	4	obj	_	_
+7-8	הבית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	בית	בית	NOUN	NOUN	MASC;SG;N	6	compound:smixut	_	_
+9-10	המרוכסנות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	DET	10	det	_	_
+10	מרוכסנות	מרוכסן	ADJ	ADJ	FEM;PL;ADJ	6	amod	_	_
+11-13	והמשובצות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	CONJ	13	cc	_	_
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	משובצות	משובץ	ADJ	ADJ	FEM;PL;ADJ	10	conj	_	_
+14-15	בגובה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	ADP	15	case	_	_
+15	גובה	גובה	NOUN	NOUN	MASC;SG;N;PSSD	4	obl	_	_
+16	שלושה	שלושה	NUM	NUM	MASC;SG;NUM	17	nummod	_	_
+17	רבעים	רובע	NOUN	NOUN	MASC;N;PL	15	compound:smixut	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 4018
+# text = המחיר, החל ב19.90 ש"ח ועד ל23.40 ש"ח.
+1-2	המחיר	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	מחיר	מחיר	NOUN	NOUN	MASC;SG;N	4	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	החל	החל	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+5-6	ב19.90	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	7	case	_	_
+6	19.10	19.10	NUM	NUM	NUM	7	nummod	_	_
+7	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	4	obl	_	_
+8-9	ועד	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	CONJ	12	cc	_	_
+9	עד	עד	ADP	ADP	ADP	12	case	_	_
+10-11	ל23.40	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	ADP	9	fixed	_	_
+11	32.40	32.40	NUM	NUM	NUM	12	nummod	_	_
+12	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 4019
+# text = המידות מ21 ועד ל47.
+1-2	המידות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	מידות	מידה	NOUN	NOUN	N;PL;FEM	4	nsubj	_	_
+3-4	מ21	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	ADP	4	case	_	_
+4	21	21	NUM	NUM	NUM	0	root	_	_
+5-6	ועד	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	CONJ	8	cc	_	_
+6	עד	עד	ADP	ADP	ADP	8	case	_	_
+7-8	ל47	_	_	_	_	_	_	_	SpaceAfter=No
+7	ל	ל	ADP	ADP	ADP	6	fixed	_	_
+8	47	47	NUM	NUM	NUM	4	conj	_	_
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 4020
+# text = נעלי גברים יש עד למידה 47 ונעלי נשים עד למידה 42, אך לא בכל הדגמים.
+1	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	3	nsubj	_	_
+2	גברים	גבר	NOUN	NOUN	MASC;N;PL	1	compound:smixut	_	_
+3	יש	יש	VERB	VERB	V	0	root	_	_
+4	עד	עד	ADP	ADP	ADP	6	case	_	_
+5-6	למידה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	ADP	4	fixed	_	_
+6	מידה	מידה	NOUN	NOUN	SG;N;FEM	3	obl	_	_
+7	47	47	NUM	NUM	NUM	6	nummod	_	_
+8-9	ונעלי	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	CONJ	9	cc	_	_
+9	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	3	conj	_	_
+10	נשים	איש	NOUN	NOUN	N;PL;FEM	9	compound:smixut	_	_
+11	עד	עד	ADP	ADP	ADP	13	case	_	_
+12-13	למידה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	ADP	11	fixed	_	_
+13	מידה	מידה	NOUN	NOUN	SG;N;FEM	9	nmod	_	_
+14	42	42	NUM	NUM	NUM	13	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	3	punct	_	_
+16	אך	אך	CCONJ	CCONJ	CONJ	3	cc	_	_
+17	לא	לא	ADV	ADV	NEG;ADV	18	advmod	_	_
+18-19	בכל	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	ADP	21	case	_	_
+19	כל	כול	DET	DET	PSSD;DET	21	det	_	_
+20-21	הדגמים	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	דגמים	דגם	NOUN	NOUN	MASC;N;PL	3	dep	_	_
+22	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4021
+# text = נעלי תינוקות מעור סוג ב, עם פגם אסתטי מזערי, עולות 29.90 ש"ח במקום 50-70 ש"ח בחנויות, אבל המבחר דל.
+1	נעלי	נעל	NOUN	NOUN	FEM;N;PL;PSSD	13	nsubj	_	_
+2	תינוקות	תינוק	NOUN	NOUN	N;PL;FEM	1	compound:smixut	_	_
+3-4	מעור	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	ADP	4	case	_	_
+4	עור	עור	NOUN	NOUN	MASC;SG;N;PSSD	1	nmod	_	_
+5	סוג	סוג	NOUN	NOUN	MASC;SG;N;PSSD	4	compound:smixut	_	_
+6	ב	ב	PROPN	PROPN	PROPN	5	compound:smixut	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	עם	עם	ADP	ADP	ADP	9	case	_	_
+9	פגם	פגם	NOUN	NOUN	MASC;SG;N	4	appos	_	_
+10	אסתטי	אסתטי	ADJ	ADJ	MASC;SG;ADJ	9	amod	_	_
+11	מזערי	מזערי	ADJ	ADJ	MASC;SG;ADJ	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	9	punct	_	_
+13	עולות	עלה	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	0	root	_	_
+14	29.90	29.90	NUM	NUM	NUM	15	nummod	_	_
+15	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	13	obj	_	_
+16	במקום	במקום	ADP	ADP	ADP	18	case	_	_
+17	50-70	50-70	NUM	NUM	NUM	18	nummod	_	_
+18	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	15	nmod	_	_
+19-21	בחנויות	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	ADP	21	case	_	_
+20	ה_	ה	DET	DET	DET	21	det	_	_
+21	חנויות	חנות	NOUN	NOUN	N;PL;FEM	18	nmod	_	_
+22	,	,	PUNCT	PUNCT	_	13	punct	_	_
+23	אבל	אבל	CCONJ	CCONJ	CONJ	26	cc	_	_
+24-25	המבחר	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	DET	25	det	_	_
+25	מבחר	מבחר	NOUN	NOUN	MASC;SG;N	26	nsubj	_	_
+26	דל	דל	ADJ	ADJ	MASC;SG;ADJ	13	conj	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	13	punct	_	_
+

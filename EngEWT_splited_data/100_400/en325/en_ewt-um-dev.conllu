@@ -1,0 +1,51 @@
+# sent_id = reviews-149922-0002
+# text = The front desk staff was very pleasant and efficient.
+1	The	the	DET	DT	DET;DEF	4	det	4:det	_
+2	front	front	NOUN	NN	SG;N	3	compound	3:compound	_
+3	desk	desk	NOUN	NN	SG;N	4	compound	4:compound	_
+4	staff	staff	NOUN	NN	SG;N	7	nsubj	7:nsubj|9:nsubj	_
+5	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	7	cop	7:cop	_
+6	very	very	ADV	RB	ADV	7	advmod	7:advmod	_
+7	pleasant	pleasant	ADJ	JJ	ADJ	0	root	0:root	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	efficient	efficient	ADJ	JJ	ADJ	7	conj	7:conj:and	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-149922-0003
+# text = Serves FREE breakfast !
+1	Serves	serve	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+2	FREE	free	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	breakfast	breakfast	NOUN	NN	SG;N	1	obj	1:obj	_
+4	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-001961
+# sent_id = reviews-001961-0001
+# newpar id = reviews-001961-p0001
+# text = Buyer Beware!!
+1	Buyer	buyer	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+2	Beware	beware	VERB	VB	FIN;V;IMP	0	root	0:root	SpaceAfter=No
+3	!!	!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-001961-0002
+# text = Rusted out and unsafe cars sold here!
+1	Rusted	rust	VERB	VBN	PASS;V;V.PTCP;PST	5	amod	5:amod	_
+2	out	out	ADP	RP	ADP	1	compound	1:compound	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	unsafe	unsafe	ADJ	JJ	ADJ	1	conj	1:conj:and|5:amod	_
+5	cars	car	NOUN	NNS	PL;N	6	nsubj:pass	6:nsubj:pass	_
+6	sold	sell	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+7	here	here	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+8	!	!	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = reviews-001961-0003
+# text = Have a real mechanic check before you buy!!!!
+1	Have	have	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	real	real	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	mechanic	mechanic	NOUN	NN	SG;N	1	obj	1:obj|5:nsubj:xsubj	_
+5	check	check	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+6	before	before	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj	_
+8	buy	buy	VERB	VBP	FIN;PRS;2;V;IND;SG	5	advcl	5:advcl:before	SpaceAfter=No
+9	!!!!	!!!!	PUNCT	.	_	1	punct	1:punct	_
+

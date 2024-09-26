@@ -1,0 +1,98 @@
+# sent_id = reviews-252791-0002
+# text = I was very upset when I went to Mother Plucker, they had NO FEATHERS and the quality is TERRIBLE.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	4	cop	4:cop	_
+3	very	very	ADV	RB	ADV	4	advmod	4:advmod	_
+4	upset	upset	ADJ	JJ	ADJ	0	root	0:root	_
+5	when	when	ADV	WRB	ADV	7	advmod	7:advmod	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+7	went	go	VERB	VBD	1;V;PST;FIN;SG;IND	4	advcl	4:advcl:when	_
+8	to	to	ADP	IN	ADP	9	case	9:case	_
+9	Mother	Mother	PROPN	NNP	SG;PROPN	7	obl	7:obl:to	_
+10	Plucker	Plucker	PROPN	NNP	SG;PROPN	9	flat	9:flat	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	they	they	PRON	PRP	PL;PRO;3;NOM	13	nsubj	13:nsubj	_
+13	had	have	VERB	VBD	PL;PST;V;3;FIN;IND	4	conj	4:conj:and	_
+14	NO	no	DET	DT	DET	15	det	15:det	_
+15	FEATHERS	feather	NOUN	NNS	PL;N	13	obj	13:obj	_
+16	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	quality	quality	NOUN	NN	SG;N	20	nsubj	20:nsubj	_
+19	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	20	cop	20:cop	_
+20	TERRIBLE	terrible	ADJ	JJ	ADJ	4	conj	4:conj:and	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-252791-0003
+# text = I had to dig in a bag to find one nice feather, what a joke!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	had	have	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	dig	dig	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	in	in	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	bag	bag	NOUN	NN	SG;N	4	obl	4:obl:in	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	find	find	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+10	one	one	NUM	CD	NUM	12	nummod	12:nummod	_
+11	nice	nice	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	feather	feather	NOUN	NN	SG;N	9	obj	9:obj	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	what	what	PRON	WDT	PRO	16	det:predet	16:det:predet	_
+15	a	a	DET	DT	INDF;DET	16	det	16:det	_
+16	joke	joke	NOUN	NN	SG;N	2	parataxis	2:parataxis	SpaceAfter=No
+17	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-193257
+# sent_id = reviews-193257-0001
+# newpar id = reviews-193257-p0001
+# text = Gets the Job Done
+1	Gets	get	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	Job	job	NOUN	NN	SG;N	1	obj	1:obj|4:nsubj:xsubj	_
+4	Done	done	ADJ	JJ	ADJ	1	xcomp	1:xcomp	_
+
+# sent_id = reviews-193257-0002
+# newpar id = reviews-193257-p0002
+# text = We have utilized Mr. Pozza and his firm twice now in our family and both times have been very pleased.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj|20:nsubj	_
+2	have	have	AUX	VBP	PL;V;1;FIN;PRS;IND	3	aux	3:aux	_
+3	utilized	utilize	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	Mr.	Mr.	PROPN	NNP	SG;PROPN	3	obj	3:obj	_
+5	Pozza	Pozza	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	his	his	PRON	PRP$	GEN;PRO;3;SG;MASC	8	nmod:poss	8:nmod:poss	_
+8	firm	firm	NOUN	NN	SG;N	4	conj	3:obj|4:conj:and	_
+9	twice	twice	ADV	RB	ADV	3	advmod	3:advmod	_
+10	now	now	ADV	RB	ADV	3	advmod	3:advmod	_
+11	in	in	ADP	IN	ADP	13	case	13:case	_
+12	our	our	PRON	PRP$	GEN;PL;PRO;1	13	nmod:poss	13:nmod:poss	_
+13	family	family	NOUN	NN	SG;N	3	obl	3:obl:in	_
+14	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+15	both	both	DET	DT	DET	16	det	16:det	_
+16	times	time	NOUN	NNS	PL;N	20	obl:tmod	20:obl:tmod	_
+17	have	have	AUX	VBP	PL;V;1;FIN;PRS;IND	20	aux	20:aux	_
+18	been	be	AUX	VBN	V;V.PTCP;PST	20	cop	20:cop	_
+19	very	very	ADV	RB	ADV	20	advmod	20:advmod	_
+20	pleased	pleased	ADJ	JJ	ADJ	3	conj	3:conj:and	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-193257-0003
+# text = I would not hesitate to use him again or refer him to my family or friends.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj|6:nsubj:xsubj|10:nsubj:xsubj	_
+2	would	would	AUX	MD	V;FIN	4	aux	4:aux	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	hesitate	hesitate	VERB	VB	NFIN;V	0	root	0:root	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	use	use	VERB	VB	NFIN;V	4	xcomp	4:xcomp	_
+7	him	he	PRON	PRP	ACC;PRO;3;SG;MASC	6	obj	6:obj	_
+8	again	again	ADV	RB	ADV	6	advmod	6:advmod	_
+9	or	or	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	refer	refer	VERB	VB	NFIN;V	6	conj	4:xcomp|6:conj:or	_
+11	him	he	PRON	PRP	ACC;PRO;3;SG;MASC	10	obj	10:obj	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	my	my	PRON	PRP$	GEN;PRO;1;SG	14	nmod:poss	14:nmod:poss	_
+14	family	family	NOUN	NN	SG;N	10	obl	10:obl:to	_
+15	or	or	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	friends	friend	NOUN	NNS	PL;N	14	conj	10:obl:to|14:conj:or	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	4:punct	_
+

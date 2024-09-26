@@ -1,0 +1,109 @@
+# sent_id = email-enronsent23_02-0006
+# newpar id = email-enronsent23_02-p0003
+# text = we can go somewhere nice.
+1	we	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+3	go	go	VERB	VB	NFIN;V	0	root	0:root	_
+4	somewhere	somewhere	NOUN	NN	SG;N	3	obl	3:obl	_
+5	nice	nice	ADJ	JJ	ADJ	4	amod	4:amod	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_02-0007
+# text = real nice.
+1	real	real	ADV	RB	ADV	2	advmod	2:advmod	_
+2	nice	nice	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = email-enronsent23_06
+# sent_id = email-enronsent23_06-0001
+# newpar id = email-enronsent23_06-p0001
+# text = oh.
+1	oh	oh	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent23_06-0002
+# text = my bad.
+1	my	my	PRON	PRP$	GEN;PRO;1;SG	2	nmod:poss	2:nmod:poss	_
+2	bad	bad	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_06-0003
+# text = i must have had you messed up with some other girl i made the bet with.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	must	must	AUX	MD	V;FIN	4	aux	4:aux	_
+3	have	have	AUX	VB	NFIN;V	4	aux	4:aux	_
+4	had	have	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+5	you	you	PRON	PRP	NOM;2;PRO	4	obj	4:obj|6:nsubj:xsubj	_
+6	messed	mess	VERB	VBN	PASS;PST;V;V.PTCP	4	xcomp	4:xcomp	_
+7	up	up	ADP	RP	ADP	6	compound:prt	6:compound:prt	_
+8	with	with	ADP	IN	ADP	11	case	11:case	_
+9	some	some	DET	DT	DET	11	det	11:det	_
+10	other	other	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	girl	girl	NOUN	NN	SG;N	6	obl	6:obl:with|13:obl	_
+12	i	I	PRON	PRP	PRO;1;NOM;SG	13	nsubj	13:nsubj	_
+13	made	make	VERB	VBD	1;V;PST;FIN;SG;IND	11	acl:relcl	11:acl:relcl	Cxn=rc-red-obl-pstrand
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	bet	bet	NOUN	NN	SG;N	13	obj	13:obj	_
+16	with	with	ADP	IN	ADP	13	obl	13:obl	Promoted=Yes|SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_06-0004
+# text = bet?
+1	bet	bet	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent23_06-0005
+# text = really, i have no idea what you're talking about.
+1	really	really	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	i	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+4	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+5	no	no	DET	DT	DET	6	det	6:det	_
+6	idea	idea	NOUN	NN	SG;N	4	obj	4:obj	_
+7	what	what	PRON	WP	PRO	10	obl	10:obl:about	_
+8-9	you're	_	_	_	_	_	_	_	_
+8	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+9	're	be	AUX	VBP	V;FIN;PRS;2;SG;IND	10	aux	10:aux	_
+10	talking	talk	VERB	VBG	PRS;V;V.PTCP	4	ccomp	4:ccomp	_
+11	about	about	ADP	IN	ADP	7	case	7:case	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_06-0006
+# text = you must be thinking of someone else.
+1	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+2	must	must	AUX	MD	V;FIN	4	aux	4:aux	_
+3	be	be	AUX	VB	NFIN;V	4	aux	4:aux	_
+4	thinking	think	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	someone	someone	PRON	NN	SG;PRO	4	obl	4:obl:of	_
+7	else	else	ADJ	JJ	ADJ	6	amod	6:amod	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_06-0007
+# text = i don't even like a&m, i wouldn't bet on them.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	5	aux	5:aux	_
+3	n't	not	PART	RB	PART	5	advmod	5:advmod	_
+4	even	even	ADV	RB	ADV	5	advmod	5:advmod	_
+5	like	like	VERB	VB	NFIN;V	0	root	0:root	_
+6	a&m	A&M	PROPN	NNP	SG;PROPN	5	obj	5:obj	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	i	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+9-10	wouldn't	_	_	_	_	_	_	_	_
+9	would	would	AUX	MD	V;FIN	11	aux	11:aux	_
+10	n't	not	PART	RB	PART	11	advmod	11:advmod	_
+11	bet	bet	VERB	VB	NFIN;V	5	parataxis	5:parataxis	_
+12	on	on	ADP	IN	ADP	13	case	13:case	_
+13	them	they	PRON	PRP	PL;ACC;PRO;3	11	obl	11:obl:on	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent23_06-0008
+# newpar id = email-enronsent23_06-p0002
+# text = colorado beat texas a&m.
+1	colorado	Colorado	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	beat	beat	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+3	texas	Texas	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	a&m	A&M	PROPN	NNP	SG;PROPN	2	obj	2:obj	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+

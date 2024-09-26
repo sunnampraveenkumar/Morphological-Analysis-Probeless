@@ -1,0 +1,59 @@
+# sent_id = answers-20111108102900AA9qsc8_ans-0003
+# newpar id = answers-20111108102900AA9qsc8_ans-p0003
+# text = I have a cat named GummiBear, so no, R2D2 is not a stupid name.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	cat	cat	NOUN	NN	SG;N	2	obj	2:obj	_
+5	named	name	VERB	VBN	PASS;V;V.PTCP;PST	4	acl	4:acl	_
+6	GummiBear	GummiBear	PROPN	NNP	SG;PROPN	5	xcomp	5:xcomp	SpaceAfter=No
+7	,	,	PUNCT	,	_	16	punct	16:punct	_
+8	so	so	ADV	RB	ADV	16	advmod	16:advmod	_
+9	no	no	INTJ	UH	INTJ	16	discourse	16:discourse	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	9:punct	_
+11	R2D2	R2D2	PROPN	NNP	SG;PROPN	16	nsubj	16:nsubj	_
+12	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	16	cop	16:cop	_
+13	not	not	PART	RB	PART	16	advmod	16:advmod	_
+14	a	a	DET	DT	DET;INDF	16	det	16:det	_
+15	stupid	stupid	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	name	name	NOUN	NN	SG;N	2	parataxis	2:parataxis	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108102900AA9qsc8_ans-0004
+# newpar id = answers-20111108102900AA9qsc8_ans-p0004
+# text = its your cat you can pick and name you want
+1-2	its	_	_	_	_	_	_	_	_
+1	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	4	nsubj	4:nsubj	_
+2	s	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	CorrectForm='s
+3	your	your	PRON	PRP$	PRO;GEN;2	4	nmod:poss	4:nmod:poss	_
+4	cat	cat	NOUN	NN	SG;N	0	root	0:root	_
+5	you	you	PRON	PRP	NOM;2;PRO	7	nsubj	7:nsubj	_
+6	can	can	AUX	MD	FIN;V	7	aux	7:aux	_
+7	pick	pick	VERB	VB	NFIN;V	4	parataxis	4:parataxis	_
+8	and	any	DET	DT	DET	9	det	9:det	CorrectForm=any
+9	name	name	NOUN	NN	SG;N	7	obj	7:obj|11:obj	_
+10	you	you	PRON	PRP	NOM;2;PRO	11	nsubj	11:nsubj	_
+11	want	want	VERB	VBP	FIN;PRS;2;V;IND;SG	9	acl:relcl	9:acl:relcl	Cxn=rc-red-obj
+
+# sent_id = answers-20111108102900AA9qsc8_ans-0005
+# newpar id = answers-20111108102900AA9qsc8_ans-p0005
+# text = Hell no.
+1	Hell	hell	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	no	no	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108102900AA9qsc8_ans-0006
+# text = Thats a great name.
+1-2	Thats	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	PRO;SG	5	nsubj	5:nsubj	_
+2	s	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	CorrectForm='s
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	great	great	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	name	name	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108102900AA9qsc8_ans-0007
+# text = Kudos.
+1	Kudos	kudos	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+

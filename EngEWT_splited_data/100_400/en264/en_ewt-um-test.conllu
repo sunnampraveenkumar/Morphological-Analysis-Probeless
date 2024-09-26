@@ -1,0 +1,67 @@
+# sent_id = answers-20081218053636AA9vV0u_ans-0002
+# newpar id = answers-20081218053636AA9vV0u_ans-p0002
+# text = "In Argentina, beef is revered, respected, and praised.
+1	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
+2	In	in	ADP	IN	ADP	3	case	3:case	_
+3	Argentina	Argentina	PROPN	NNP	SG;PROPN	7	obl	7:obl:in	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	beef	beef	NOUN	NN	SG;N	7	nsubj:pass	7:nsubj:pass|9:nsubj:pass|12:nsubj:pass	_
+6	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	7	aux:pass	7:aux:pass	_
+7	revered	revere	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	respected	respect	VERB	VBN	PASS;PST;V;V.PTCP	7	conj	7:conj:and	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	praised	praise	VERB	VBN	PASS;PST;V;V.PTCP	7	conj	7:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0003
+# text = Come see how we continue this tradition."
+1	Come	come	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	see	see	VERB	VB	FIN;V;IMP	1	parataxis	1:parataxis	_
+3	how	how	ADV	WRB	ADV	5	advmod	5:advmod	_
+4	we	we	PRON	PRP	PL;PRO;1;NOM	5	nsubj	5:nsubj	_
+5	continue	continue	VERB	VBP	PL;1;V;FIN;PRS;IND	2	ccomp	2:ccomp	_
+6	this	this	DET	DT	SG;DET	7	det	7:det	_
+7	tradition	tradition	NOUN	NN	SG;N	5	obj	5:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	SpaceAfter=No
+9	"	"	PUNCT	''	_	1	punct	1:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0004
+# newpar id = answers-20081218053636AA9vV0u_ans-p0003
+# text = A taste of Argentina.
+1	A	a	DET	DT	INDF;DET	2	det	2:det	_
+2	taste	taste	NOUN	NN	SG;N	0	root	0:root	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	Argentina	Argentina	PROPN	NNP	SG;PROPN	2	nmod	2:nmod:of	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0005
+# text = Here are some articles that discuss the details of slogan writing.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	1	cop	1:cop	_
+3	some	some	DET	DT	DET	4	det	4:det	_
+4	articles	article	NOUN	NNS	PL;N	1	nsubj	1:nsubj|6:nsubj	_
+5	that	that	PRON	WDT	PRO	6	nsubj	4:ref	_
+6	discuss	discuss	VERB	VBP	PL;V;3;FIN;PRS;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	details	detail	NOUN	NNS	PL;N	6	obj	6:obj	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	slogan	slogan	NOUN	NN	SG;N	11	compound	11:compound	_
+11	writing	writing	NOUN	NN	SG;N	8	nmod	8:nmod:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0006
+# text = Why certain slogans work and why some don't.
+1	Why	why	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	certain	certain	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	slogans	slogan	NOUN	NNS	PL;N	4	nsubj	4:nsubj	_
+4	work	work	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	why	why	ADV	WRB	ADV	8	advmod	8:advmod	_
+7	some	some	DET	DT	DET	8	nsubj	8:nsubj	_
+8-9	don't	_	_	_	_	_	_	_	SpaceAfter=No
+8	do	do	AUX	VBP	PL;V;3;FIN;PRS;IND	4	conj	4:conj:and	_
+9	n't	not	PART	RB	PART	8	advmod	8:advmod	_
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+

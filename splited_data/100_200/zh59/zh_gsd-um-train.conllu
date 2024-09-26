@@ -1,0 +1,640 @@
+# sent_id = train-s1122
+# text = 乾隆五十一年（1786年）秋，臺灣天地會首領林爽文率軍起事，連克彰化、鳳山，圍攻府城，朝廷震動，派遣福康安領軍鎮壓，李威光隨往。
+# translit = 乾lóngwǔshíyīnián(1786nián)qiū,臺wāntiāndehuìshǒulǐnglínshuǎngwénlǜjūnqǐshì,liánkè彰huà,fèngshān,wéigōngfǔchéng,cháotíngzhèndòng,pàiqiǎnfúkāng'ānlǐngjūnzhènyā,liwēiguāngsuíwǎng.
+1	乾隆	乾隆	PROPN	NNP	PROPN	3	nmod	_	SpaceAfter=No|Translit=乾lóng|LTranslit=乾lóng
+2	五十一	五十一	NUM	CD	NUM	3	nummod	_	SpaceAfter=No|Translit=wǔshíyī|LTranslit=wǔshíyī
+3	年	年	NOUN	NNB	N	8	nmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+4	（	（	PUNCT	(	_	6	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+5	1786	1786	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=1786|LTranslit=1786
+6	年	年	NOUN	NNB	N	3	appos	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+7	）	）	PUNCT	)	_	6	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+8	秋	秋	NOUN	NN	N	24	nmod:tmod	_	SpaceAfter=No|Translit=qiū|LTranslit=qiū
+9	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	臺灣	臺灣	PROPN	NNP	PROPN	13	nmod	_	SpaceAfter=No|Translit=臺wān|LTranslit=臺wān
+11	天地	天地	NOUN	NN	N	12	compound	_	SpaceAfter=No|Translit=tiānde|LTranslit=tiānde
+12	會	會	PART	SFN	PART	13	nmod	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+13	首領	首領	NOUN	NN	N	24	nsubj	_	SpaceAfter=No|Translit=shǒulǐng|LTranslit=shǒulǐng
+14	林	林	PROPN	NNP	PROPN	13	appos	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+15	爽文	爽文	PROPN	NNP	PROPN	14	flat:name	_	SpaceAfter=No|Translit=shuǎngwén|LTranslit=shuǎngwén
+16	率軍	率軍	VERB	VV	V	17	advcl	_	SpaceAfter=No|Translit=lǜjūn|LTranslit=lǜjūn
+17	起事	起事	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=qǐshì|LTranslit=qǐshì
+18	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	連克	連克	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=liánkè|LTranslit=liánkè
+20	彰化	彰化	PROPN	NNP	PROPN	19	obj	_	SpaceAfter=No|Translit=彰huà|LTranslit=彰huà
+21	、	、	PUNCT	EC	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+22	鳳山	鳳山	PROPN	NNP	PROPN	20	conj	_	SpaceAfter=No|Translit=fèngshān|LTranslit=fèngshān
+23	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+24	圍攻	圍攻	VERB	VV	V	30	advcl	_	SpaceAfter=No|Translit=wéigōng|LTranslit=wéigōng
+25	府城	府城	PROPN	NNP	PROPN	24	obj	_	SpaceAfter=No|Translit=fǔchéng|LTranslit=fǔchéng
+26	，	，	PUNCT	,	_	24	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+27	朝廷	朝廷	NOUN	NN	N	30	nsubj	_	SpaceAfter=No|Translit=cháotíng|LTranslit=cháotíng
+28	震動	震動	VERB	VV	V	30	advcl	_	SpaceAfter=No|Translit=zhèndòng|LTranslit=zhèndòng
+29	，	，	PUNCT	,	_	28	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+30	派遣	派遣	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=pàiqiǎn|LTranslit=pàiqiǎn
+31	福康安	福康安	PROPN	NNP	PROPN	33	nsubj	_	SpaceAfter=No|Translit=fúkāng'ān|LTranslit=fúkāng'ān
+32	領軍	領軍	VERB	VV	V	33	advcl	_	SpaceAfter=No|Translit=lǐngjūn|LTranslit=lǐngjūn
+33	鎮壓	鎮壓	VERB	VV	V	30	ccomp	_	SpaceAfter=No|Translit=zhènyā|LTranslit=zhènyā
+34	，	，	PUNCT	,	_	37	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+35	李	李	PROPN	NNP	PROPN	37	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+36	威光	威光	PROPN	NNP	PROPN	35	flat:name	_	SpaceAfter=No|Translit=wēiguāng|LTranslit=wēiguāng
+37	隨往	隨往	VERB	VV	V	30	parataxis	_	SpaceAfter=No|Translit=suíwǎng|LTranslit=suíwǎng
+38	。	。	PUNCT	.	_	30	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1123
+# text = 及後她於1998年-2001年間與何家勁相戀。
+# translit = jíhòutāyú1998nián-2001niánjiānyǔhéjiājìnxiāngliàn.
+1	及後	及後	ADV	RB	ADV	13	advmod	_	SpaceAfter=No|Translit=jíhòu|LTranslit=jíhòu
+2	她	她	PRON	PRP	3;PRO	13	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+3	於	於	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+4	1998	1998	NUM	CD	NUM	8	nummod	_	SpaceAfter=No|Translit=1998|LTranslit=1998
+5	年	年	NOUN	NNB	N	4	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+6	-	-	PUNCT	HYPH	_	5	punct	_	SpaceAfter=No|Translit=-|LTranslit=-
+7	2001	2001	NUM	CD	NUM	8	nummod	_	SpaceAfter=No|Translit=2001|LTranslit=2001
+8	年	年	NOUN	NNB	N	13	obl	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+9	間	間	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=jiān|LTranslit=jiān
+10	與	與	ADP	IN	ADP	11	case	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+11	何	何	PROPN	NNP	PROPN	13	obl	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+12	家勁	家勁	PROPN	NNP	PROPN	11	flat:name	_	SpaceAfter=No|Translit=jiājìn|LTranslit=jiājìn
+13	相戀	相戀	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=xiāngliàn|LTranslit=xiāngliàn
+14	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1124
+# text = 1999年，李宗偉參加馬來西亞全國羽毛球錦標賽，他先後擊敗國內高手，一舉贏得全國冠軍，成為了國家隊男單的接班人。
+# translit = 1999nián,lizōngwěicānjiāmǎláixiyàquánguóyǔmáoqiújǐnbiāosài,tāxiānhòujībàiguónèigāoshǒu,yījǔ贏dequánguóguānjūn,chéngwèileguójiāduìnándāndejiēbānrén.
+1	1999	1999	NUM	CD	NUM	2	nummod	_	SpaceAfter=No|Translit=1999|LTranslit=1999
+2	年	年	NOUN	NNB	N	6	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	，	，	PUNCT	,	_	2	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+4	李	李	PROPN	NNP	PROPN	6	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+5	宗偉	宗偉	PROPN	NNP	PROPN	4	flat:name	_	SpaceAfter=No|Translit=zōngwěi|LTranslit=zōngwěi
+6	參加	參加	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=cānjiā|LTranslit=cānjiā
+7	馬來西亞	馬來西亞	PROPN	NNP	PROPN	12	nmod	_	SpaceAfter=No|Translit=mǎláixiyà|LTranslit=mǎláixiyà
+8	全國	全國	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=quánguó|LTranslit=quánguó
+9	羽毛	羽毛	NOUN	NN	N	10	compound	_	SpaceAfter=No|Translit=yǔmáo|LTranslit=yǔmáo
+10	球	球	PART	SFN	PART	12	nmod	_	SpaceAfter=No|Translit=qiú|LTranslit=qiú
+11	錦標	錦標	NOUN	NN	N	12	compound	_	SpaceAfter=No|Translit=jǐnbiāo|LTranslit=jǐnbiāo
+12	賽	賽	PART	SFN	PART	6	obj	_	SpaceAfter=No|Translit=sài|LTranslit=sài
+13	，	，	PUNCT	,	_	25	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	他	他	PRON	PRP	3;PRO	25	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+15	先後	先後	ADV	RB	ADV	16	advmod	_	SpaceAfter=No|Translit=xiānhòu|LTranslit=xiānhòu
+16	擊敗	擊敗	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=jībài|LTranslit=jībài
+17	國內	國內	NOUN	NN	N	18	nmod	_	SpaceAfter=No|Translit=guónèi|LTranslit=guónèi
+18	高手	高手	NOUN	NN	N	16	obj	_	SpaceAfter=No|Translit=gāoshǒu|LTranslit=gāoshǒu
+19	，	，	PUNCT	,	_	16	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	一舉	一舉	ADV	RB	ADV	21	advmod	_	SpaceAfter=No|Translit=yījǔ|LTranslit=yījǔ
+21	贏得	贏得	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=贏de|LTranslit=贏de
+22	全國	全國	NOUN	NN	N	23	nmod	_	SpaceAfter=No|Translit=quánguó|LTranslit=quánguó
+23	冠軍	冠軍	NOUN	NN	N	21	obj	_	SpaceAfter=No|Translit=guānjūn|LTranslit=guānjūn
+24	，	，	PUNCT	,	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	成	成	VERB	VV	V	6	parataxis	_	SpaceAfter=No|Translit=chéng|LTranslit=chéng
+26	為	為	VERB	VC	V	25	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+27	了	了	AUX	AS	PFV;V	25	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+28	國家	國家	NOUN	NN	N	29	compound	_	SpaceAfter=No|Translit=guójiā|LTranslit=guójiā
+29	隊	隊	PART	SFN	PART	31	nmod	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+30	男	男	NOUN	NN	N	31	nmod	_	SpaceAfter=No|Translit=nán|LTranslit=nán
+31	單	單	NUM	CD	NUM	34	nummod	_	SpaceAfter=No|Translit=dān|LTranslit=dān
+32	的	的	PART	DEC	PART;GEN	31	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+33	接班	接班	VERB	VV	V	34	compound	_	SpaceAfter=No|Translit=jiēbān|LTranslit=jiēbān
+34	人	人	PART	SFN	PART	25	obj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+35	。	。	PUNCT	.	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1125
+# text = 抗戰期間在張天佐部隊打游擊，抗戰勝利後編入國軍王耀武部隊。
+# translit = kàngzhànqījiānzàizhāngtiān佐bùduìdǎyóujī,kàngzhànshènglìhòubiānrùguójūnwángyàowǔbùduì.
+1	抗戰	抗戰	NOUN	NN	N	2	nmod	_	SpaceAfter=No|Translit=kàngzhàn|LTranslit=kàngzhàn
+2	期間	期間	NOUN	NN	N	13	nmod:tmod	_	SpaceAfter=No|Translit=qījiān|LTranslit=qījiān
+3	在	在	ADP	IN	ADP	11	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+4	張	張	PROPN	NNP	PROPN	6	nmod	_	SpaceAfter=No|Translit=zhāng|LTranslit=zhāng
+5	天佐	天佐	PROPN	NNP	PROPN	6	nmod	_	SpaceAfter=No|Translit=tiān佐|LTranslit=tiān佐
+6	部隊	部隊	NOUN	NN	N	7	nsubj	_	SpaceAfter=No|Translit=bùduì|LTranslit=bùduì
+7	打	打	VERB	VV	V	11	advcl	_	SpaceAfter=No|Translit=dǎ|LTranslit=dǎ
+8	游擊	游擊	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=yóujī|LTranslit=yóujī
+9	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	抗戰	抗戰	VERB	VV	V	11	csubj	_	SpaceAfter=No|Translit=kàngzhàn|LTranslit=kàngzhàn
+11	勝利	勝利	VERB	VV	V	13	xcomp	_	SpaceAfter=No|Translit=shènglì|LTranslit=shènglì
+12	後	後	ADP	IN	ADP	11	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+13	編入	編入	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=biānrù|LTranslit=biānrù
+14	國軍	國軍	NOUN	NN	N	17	nmod	_	SpaceAfter=No|Translit=guójūn|LTranslit=guójūn
+15	王	王	PROPN	NNP	PROPN	17	nmod	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+16	耀武	耀武	PROPN	NNP	PROPN	17	nmod	_	SpaceAfter=No|Translit=yàowǔ|LTranslit=yàowǔ
+17	部隊	部隊	NOUN	NN	N	13	obj	_	SpaceAfter=No|Translit=bùduì|LTranslit=bùduì
+18	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1126
+# text = 起訴書指出，重慶機場集團有限公司（下稱江北機場）作為重慶江北國際機場的經營者和管理者，未盡到安全保障義務，置原告人身、財產安全和人格尊嚴於不顧，放任不法分子聚集機場對原告肆意侮辱誹謗，致使原告人身權利受損、名譽權受到嚴重侵犯。
+# translit = qǐsushūzhǐchū,zhòngqìngjīchǎngjítuányǒuxiàngōngsī(xiàchēngjiāngběijīchǎng)zuòwèizhòngqìngjiāngběiguójìjīchǎngdejīngyíngzhěhéguǎnlǐzhě,wèijǐndào'ānquánbǎozhàngyìwu,zhìyuángàorénshēn,cáichǎn'ānquánhéréngézūnyányúbùgù,fàngrènbùfǎfēnzijùjíjīchǎngduìyuángào肆yìwǔrǔ誹謗,zhìshǐyuángàorénshēnquánlìshòusǔn,míngyùquánshòudàoyánzhòngqīnfàn.
+1	起訴	起訴	VERB	VV	V	2	compound	_	SpaceAfter=No|Translit=qǐsu|LTranslit=qǐsu
+2	書	書	PART	SFN	PART	3	nsubj	_	SpaceAfter=No|Translit=shū|LTranslit=shū
+3	指出	指出	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=zhǐchū|LTranslit=zhǐchū
+4	，	，	PUNCT	,	_	57	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	重慶	重慶	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=zhòngqìng|LTranslit=zhòngqìng
+6	機場	機場	NOUN	NN	N	9	nmod	_	SpaceAfter=No|Translit=jīchǎng|LTranslit=jīchǎng
+7	集團	集團	NOUN	NN	N	9	nmod	_	SpaceAfter=No|Translit=jítuán|LTranslit=jítuán
+8	有限	有限	NOUN	NN	N	9	nmod	_	SpaceAfter=No|Translit=yǒuxiàn|LTranslit=yǒuxiàn
+9	公司	公司	NOUN	NN	N	46	nsubj	_	SpaceAfter=No|Translit=gōngsī|LTranslit=gōngsī
+10	（	（	PUNCT	(	_	11	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+11	下稱	下稱	VERB	VV	V	46	advcl	_	SpaceAfter=No|Translit=xiàchēng|LTranslit=xiàchēng
+12	江北	江北	PROPN	NNP	PROPN	13	nmod	_	SpaceAfter=No|Translit=jiāngběi|LTranslit=jiāngběi
+13	機場	機場	NOUN	NN	N	11	obj	_	SpaceAfter=No|Translit=jīchǎng|LTranslit=jīchǎng
+14	）	）	PUNCT	)	_	11	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+15	作	作	VERB	VV	V	46	advcl	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+16	為	為	VERB	VC	V	15	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+17	重慶	重慶	PROPN	NNP	PROPN	20	nmod	_	SpaceAfter=No|Translit=zhòngqìng|LTranslit=zhòngqìng
+18	江北	江北	PROPN	NNP	PROPN	20	nmod	_	SpaceAfter=No|Translit=jiāngběi|LTranslit=jiāngběi
+19	國際	國際	NOUN	NN	N	20	nmod	_	SpaceAfter=No|Translit=guójì|LTranslit=guójì
+20	機場	機場	NOUN	NN	N	23	nmod	_	SpaceAfter=No|Translit=jīchǎng|LTranslit=jīchǎng
+21	的	的	PART	DEC	PART;GEN	20	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+22	經營	經營	VERB	VV	V	23	compound	_	SpaceAfter=No|Translit=jīngyíng|LTranslit=jīngyíng
+23	者	者	PART	SFN	PART	15	obj	_	SpaceAfter=No|Translit=zhě|LTranslit=zhě
+24	和	和	CCONJ	CC	CONJ	26	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+25	管理	管理	VERB	VV	V	26	compound	_	SpaceAfter=No|Translit=guǎnlǐ|LTranslit=guǎnlǐ
+26	者	者	PART	SFN	PART	23	conj	_	SpaceAfter=No|Translit=zhě|LTranslit=zhě
+27	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+28	未	未	ADV	RB	NEG;ADV	29	advmod	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+29	盡到	盡到	VERB	VV	V	46	advcl	_	SpaceAfter=No|Translit=jǐndào|LTranslit=jǐndào
+30	安全	安全	NOUN	NN	N	32	nmod	_	SpaceAfter=No|Translit='ānquán|LTranslit='ānquán
+31	保障	保障	NOUN	NN	N	32	nmod	_	SpaceAfter=No|Translit=bǎozhàng|LTranslit=bǎozhàng
+32	義務	義務	NOUN	NN	N	29	obj	_	SpaceAfter=No|Translit=yìwu|LTranslit=yìwu
+33	，	，	PUNCT	,	_	29	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+34	置	置	VERB	VV	V	46	advcl	_	SpaceAfter=No|Translit=zhì|LTranslit=zhì
+35	原告	原告	NOUN	NN	N	39	nmod	_	SpaceAfter=No|Translit=yuángào|LTranslit=yuángào
+36	人身	人身	NOUN	NN	N	39	nmod	_	SpaceAfter=No|Translit=rénshēn|LTranslit=rénshēn
+37	、	、	PUNCT	EC	_	38	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+38	財產	財產	NOUN	NN	N	36	conj	_	SpaceAfter=No|Translit=cáichǎn|LTranslit=cáichǎn
+39	安全	安全	NOUN	NN	N	34	obj	_	SpaceAfter=No|Translit='ānquán|LTranslit='ānquán
+40	和	和	CCONJ	CC	CONJ	42	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+41	人格	人格	NOUN	NN	N	42	nmod	_	SpaceAfter=No|Translit=réngé|LTranslit=réngé
+42	尊嚴	尊嚴	NOUN	NN	N	39	conj	_	SpaceAfter=No|Translit=zūnyán|LTranslit=zūnyán
+43	於	於	ADP	IN	ADP	44	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+44	不顧	顧	VERB	VV	NEG;V	34	xcomp	_	SpaceAfter=No|Translit=bùgù|LTranslit=gù
+45	，	，	PUNCT	,	_	34	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+46	放任	放任	VERB	VV	V;CAUS	57	csubj	_	SpaceAfter=No|Translit=fàngrèn|LTranslit=fàngrèn
+47	不法	不法	ADJ	JJ	ADJ	48	amod	_	SpaceAfter=No|Translit=bùfǎ|LTranslit=bùfǎ
+48	分子	分子	NOUN	NN	N	55	nsubj	_	SpaceAfter=No|Translit=fēnzi|LTranslit=fēnzi
+49	聚集	聚集	VERB	VV	V	55	advcl	_	SpaceAfter=No|Translit=jùjí|LTranslit=jùjí
+50	機場	機場	NOUN	NN	N	49	obj	_	SpaceAfter=No|Translit=jīchǎng|LTranslit=jīchǎng
+51	對	對	ADP	IN	ADP	52	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+52	原告	原告	NOUN	NN	N	55	obl	_	SpaceAfter=No|Translit=yuángào|LTranslit=yuángào
+53	肆意	肆意	ADV	RB	ADV	55	advmod	_	SpaceAfter=No|Translit=肆yì|LTranslit=肆yì
+54	侮辱	侮辱	VERB	VV	V	55	advcl	_	SpaceAfter=No|Translit=wǔrǔ|LTranslit=wǔrǔ
+55	誹謗	誹謗	VERB	VV	V	46	ccomp	_	SpaceAfter=No|Translit=誹謗|LTranslit=誹謗
+56	，	，	PUNCT	,	_	46	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+57	致使	致使	VERB	VV	V;CAUS	3	ccomp	_	SpaceAfter=No|Translit=zhìshǐ|LTranslit=zhìshǐ
+58	原告	原告	NOUN	NN	N	60	nmod	_	SpaceAfter=No|Translit=yuángào|LTranslit=yuángào
+59	人身	人身	NOUN	NN	N	60	nmod	_	SpaceAfter=No|Translit=rénshēn|LTranslit=rénshēn
+60	權利	權利	NOUN	NN	N	61	nsubj	_	SpaceAfter=No|Translit=quánlì|LTranslit=quánlì
+61	受損	受損	VERB	VV	V	57	ccomp	_	SpaceAfter=No|Translit=shòusǔn|LTranslit=shòusǔn
+62	、	、	PUNCT	EC	_	65	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+63	名譽	名譽	NOUN	NN	N	64	compound	_	SpaceAfter=No|Translit=míngyù|LTranslit=míngyù
+64	權	權	PART	SFN	PART	65	nsubj	_	SpaceAfter=No|Translit=quán|LTranslit=quán
+65	受到	受到	VERB	VV	V	61	conj	_	SpaceAfter=No|Translit=shòudào|LTranslit=shòudào
+66	嚴重	嚴重	ADV	RB	ADV	67	advmod	_	SpaceAfter=No|Translit=yánzhòng|LTranslit=yánzhòng
+67	侵犯	侵犯	VERB	VV	V	65	xcomp	_	SpaceAfter=No|Translit=qīnfàn|LTranslit=qīnfàn
+68	。	。	PUNCT	.	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1127
+# text = 高子程還稱，李莊認罪前，曾有高級領導找李莊談話，要求其撤回上訴，更換辯護律師。
+# translit = gāozichéngháichēng,lizhuāngrènzuìqián,céngyǒugāojílǐngdǎozhǎolizhuāngtánhuà,yàoqiúqíchèhuíshàngsu,gènghuànbiànhùlǜshī.
+1	高	高	PROPN	NNP	PROPN	4	nsubj	_	SpaceAfter=No|Translit=gāo|LTranslit=gāo
+2	子程	子程	PROPN	NNP	PROPN	1	flat:name	_	SpaceAfter=No|Translit=zichéng|LTranslit=zichéng
+3	還	還	SCONJ	RB	CONJ	4	mark	_	SpaceAfter=No|Translit=hái|LTranslit=hái
+4	稱	稱	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chēng|LTranslit=chēng
+5	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	李	李	PROPN	NNP	PROPN	8	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+7	莊	莊	PROPN	NNP	PROPN	6	flat:name	_	SpaceAfter=No|Translit=zhuāng|LTranslit=zhuāng
+8	認罪	認罪	VERB	VV	V	12	advcl	_	SpaceAfter=No|Translit=rènzuì|LTranslit=rènzuì
+9	前	前	ADP	IN	ADP	8	mark	_	SpaceAfter=No|Translit=qián|LTranslit=qián
+10	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	曾	曾	ADV	RB	ADV	12	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+12	有	有	VERB	VV	V	4	ccomp	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+13	高級	高級	ADJ	JJ	ADJ	14	amod	_	SpaceAfter=No|Translit=gāojí|LTranslit=gāojí
+14	領導	領導	NOUN	NN	N	20	nsubj	_	SpaceAfter=No|Translit=lǐngdǎo|LTranslit=lǐngdǎo
+15	找	找	VERB	VV	V	18	advcl	_	SpaceAfter=No|Translit=zhǎo|LTranslit=zhǎo
+16	李	李	PROPN	NNP	PROPN	15	obj	_	SpaceAfter=No|Translit=li|LTranslit=li
+17	莊	莊	PROPN	NNP	PROPN	16	flat:name	_	SpaceAfter=No|Translit=zhuāng|LTranslit=zhuāng
+18	談話	談話	VERB	VV	V	20	advcl	_	SpaceAfter=No|Translit=tánhuà|LTranslit=tánhuà
+19	，	，	PUNCT	,	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	要求	要求	VERB	VV	V;CAUS	12	ccomp	_	SpaceAfter=No|Translit=yàoqiú|LTranslit=yàoqiú
+21	其	其	PRON	PRP	3;PRO	25	nsubj	_	SpaceAfter=No|Translit=qí|LTranslit=qí
+22	撤回	撤回	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=chèhuí|LTranslit=chèhuí
+23	上訴	上訴	NOUN	NN	N	22	obj	_	SpaceAfter=No|Translit=shàngsu|LTranslit=shàngsu
+24	，	，	PUNCT	,	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	更換	更換	VERB	VV	V	20	ccomp	_	SpaceAfter=No|Translit=gènghuàn|LTranslit=gènghuàn
+26	辯護	辯護	NOUN	NN	N	27	nmod	_	SpaceAfter=No|Translit=biànhù|LTranslit=biànhù
+27	律師	律師	NOUN	NN	N	25	obj	_	SpaceAfter=No|Translit=lǜshī|LTranslit=lǜshī
+28	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1128
+# text = 綜合而言：質疑權貴、憑良心論事、無論有幾多人反對，只要覺得自己做得對，就堅持去做
+# translit = zōnghé'éryán:zhìyíquánguì,píngliángxīnlùnshì,wúlùnyǒujǐduōrénfǎnduì,zhǐyàojuédezìjǐzuòdeduì,jiùjiānchíqùzuò
+1	綜合	綜合	VERB	VV	V	3	advcl	_	SpaceAfter=No|Translit=zōnghé|LTranslit=zōnghé
+2	而	而	SCONJ	RB	CONJ	3	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+3	言	言	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=yán|LTranslit=yán
+4	：	：	PUNCT	:	_	5	punct	_	SpaceAfter=No|Translit=:|LTranslit=:
+5	質疑	質疑	VERB	VV	V	3	xcomp	_	SpaceAfter=No|Translit=zhìyí|LTranslit=zhìyí
+6	權貴	權貴	NOUN	NN	N	5	obj	_	SpaceAfter=No|Translit=quánguì|LTranslit=quánguì
+7	、	、	PUNCT	EC	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	憑	憑	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=píng|LTranslit=píng
+9	良心	良心	NOUN	NN	N	10	obl	_	SpaceAfter=No|Translit=liángxīn|LTranslit=liángxīn
+10	論事	論事	VERB	VV	V	5	conj	_	SpaceAfter=No|Translit=lùnshì|LTranslit=lùnshì
+11	、	、	PUNCT	EC	_	28	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+12	無論	無論	ADP	IN	ADP	13	case	_	SpaceAfter=No|Translit=wúlùn|LTranslit=wúlùn
+13	有	有	VERB	VV	V	28	xcomp	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+14	幾多	幾多	NUM	CD	NUM	15	nummod	_	SpaceAfter=No|Translit=jǐduō|LTranslit=jǐduō
+15	人	人	NOUN	NN	N	16	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+16	反對	反對	VERB	VV	V	13	ccomp	_	SpaceAfter=No|Translit=fǎnduì|LTranslit=fǎnduì
+17	，	，	PUNCT	,	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	只要	只要	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=zhǐyào|LTranslit=zhǐyào
+19	覺得	覺得	VERB	VV	V	28	xcomp	_	SpaceAfter=No|Translit=juéde|LTranslit=juéde
+20	自己	自己	PRON	PRD	PRO	21	nsubj	_	SpaceAfter=No|Translit=zìjǐ|LTranslit=zìjǐ
+21	做	做	VERB	VV	V	19	ccomp	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+22	得	得	PART	DEV	PART	21	compound:ext	_	SpaceAfter=No|Translit=de|LTranslit=de
+23	對	對	ADJ	JJ	ADJ	21	xcomp	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+24	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	就	就	SCONJ	RB	CONJ	28	mark	_	SpaceAfter=No|Translit=jiù|LTranslit=jiù
+26	堅持	堅持	VERB	VV	V	28	advcl	_	SpaceAfter=No|Translit=jiānchí|LTranslit=jiānchí
+27	去	去	SCONJ	RB	CONJ	28	mark	_	SpaceAfter=No|Translit=qù|LTranslit=qù
+28	做	做	VERB	VV	V	5	conj	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+
+# sent_id = train-s1129
+# text = 而悲觀則與消極相連，對前景悲觀，覺得努力去做也不會達到預期目標，又怎會積極呢？
+# translit = 'érbēiguānzéyǔxiāojíxiānglián,duìqiánjǐngbēiguān,juédenǔlìqùzuòyěbùhuìdádàoyùqīmùbiāo,yòuzěnhuìjījíne?
+1	而	而	SCONJ	RB	CONJ	6	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+2	悲觀	悲觀	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=bēiguān|LTranslit=bēiguān
+3	則	則	SCONJ	RB	CONJ	6	mark	_	SpaceAfter=No|Translit=zé|LTranslit=zé
+4	與	與	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+5	消極	消極	NOUN	NN	N	6	obl	_	SpaceAfter=No|Translit=xiāojí|LTranslit=xiāojí
+6	相連	相連	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=xiānglián|LTranslit=xiānglián
+7	，	，	PUNCT	,	_	25	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	對	對	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+9	前景	前景	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=qiánjǐng|LTranslit=qiánjǐng
+10	悲觀	悲觀	ADJ	JJ	ADJ	25	advcl	_	SpaceAfter=No|Translit=bēiguān|LTranslit=bēiguān
+11	，	，	PUNCT	,	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+12	覺得	覺得	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=juéde|LTranslit=juéde
+13	努力	努力	VERB	VV	V	15	advcl	_	SpaceAfter=No|Translit=nǔlì|LTranslit=nǔlì
+14	去	去	SCONJ	RB	CONJ	15	mark	_	SpaceAfter=No|Translit=qù|LTranslit=qù
+15	做	做	VERB	VV	V	18	advcl	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+16	也	也	SCONJ	RB	CONJ	18	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+17	不會	會	AUX	MD	NEG;V	18	aux	_	SpaceAfter=No|Translit=bùhuì|LTranslit=huì
+18	達到	達到	VERB	VV	V	12	xcomp	_	SpaceAfter=No|Translit=dádào|LTranslit=dádào
+19	預期	預期	NOUN	NN	N	20	nmod	_	SpaceAfter=No|Translit=yùqī|LTranslit=yùqī
+20	目標	目標	NOUN	NN	N	18	obj	_	SpaceAfter=No|Translit=mùbiāo|LTranslit=mùbiāo
+21	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+22	又	又	SCONJ	RB	CONJ	25	mark	_	SpaceAfter=No|Translit=yòu|LTranslit=yòu
+23	怎	怎	ADV	RB	ADV	25	advmod	_	SpaceAfter=No|Translit=zěn|LTranslit=zěn
+24	會	會	AUX	MD	V	25	aux	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+25	積極	積極	ADJ	JJ	ADJ	6	parataxis	_	SpaceAfter=No|Translit=jījí|LTranslit=jījí
+26	呢	呢	PART	UH	PART	25	discourse:sp	_	SpaceAfter=No|Translit=ne|LTranslit=ne
+27	？	？	PUNCT	.	_	6	punct	_	SpaceAfter=No|Translit=?|LTranslit=?
+
+# sent_id = train-s1130
+# text = 由於他是朝鮮史上第一位正式受洗的天主教信徒，因此1784年被朝鮮半島天主教視為開教之始。
+# translit = yóuyútāshìcháoxiānshǐshàngdìyīwèizhèngshìshòuxǐdetiānzhǔjiàoxìntú,yīncǐ1784niánbèicháoxiānbàndǎotiānzhǔjiàoshìwèikāijiàozhīshǐ.
+1	由於	由於	ADP	IN	ADP	13	case	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
+2	他	他	PRON	PRP	3;PRO	13	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+3	是	是	AUX	VC	V	13	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+4	朝鮮	朝鮮	PROPN	NNP	PROPN	13	nmod	_	SpaceAfter=No|Translit=cháoxiān|LTranslit=cháoxiān
+5	史上	史上	NOUN	NN	N	13	nmod	_	SpaceAfter=No|Translit=shǐshàng|LTranslit=shǐshàng
+6	第一	第一	NUM	CD	NUM	13	nummod	_	SpaceAfter=No|Translit=dìyī|LTranslit=dìyī
+7	位	位	NOUN	NNB	N	6	clf	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+8	正式	正式	ADV	RB	ADV	9	advmod	_	SpaceAfter=No|Translit=zhèngshì|LTranslit=zhèngshì
+9	受洗	受洗	VERB	VV	V	13	acl:relcl	_	SpaceAfter=No|Translit=shòuxǐ|LTranslit=shòuxǐ
+10	的	的	SCONJ	DEC	CONJ	9	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+11	天主	天主	PROPN	NNP	PROPN	12	compound	_	SpaceAfter=No|Translit=tiānzhǔ|LTranslit=tiānzhǔ
+12	教	教	PART	SFN	PART	13	nmod	_	SpaceAfter=No|Translit=jiào|LTranslit=jiào
+13	信徒	信徒	NOUN	NN	N	24	ccomp	_	SpaceAfter=No|Translit=xìntú|LTranslit=xìntú
+14	，	，	PUNCT	,	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	因	因	ADP	IN	ADP	16	case	_	SpaceAfter=No|Translit=yīn|LTranslit=yīn
+16	此	此	PRON	PRD	PRO	24	obl	_	SpaceAfter=No|Translit=cǐ|LTranslit=cǐ
+17	1784	1784	NUM	CD	NUM	18	nummod	_	SpaceAfter=No|Translit=1784|LTranslit=1784
+18	年	年	NOUN	NNB	N	24	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+19	被	被	AUX	BB	PASS;V	24	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+20	朝鮮	朝鮮	PROPN	NNP	PROPN	23	nmod	_	SpaceAfter=No|Translit=cháoxiān|LTranslit=cháoxiān
+21	半島	半島	NOUN	NN	N	23	nmod	_	SpaceAfter=No|Translit=bàndǎo|LTranslit=bàndǎo
+22	天主	天主	PROPN	NNP	PROPN	23	compound	_	SpaceAfter=No|Translit=tiānzhǔ|LTranslit=tiānzhǔ
+23	教	教	PART	SFN	PART	24	nsubj	_	SpaceAfter=No|Translit=jiào|LTranslit=jiào
+24	視	視	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+25	為	為	VERB	VC	V	24	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+26	開教	開教	VERB	VV	V	28	acl:relcl	_	SpaceAfter=No|Translit=kāijiào|LTranslit=kāijiào
+27	之	之	SCONJ	DEC	CONJ	26	mark:rel	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+28	始	始	NOUN	NN	N	24	obj	_	SpaceAfter=No|Translit=shǐ|LTranslit=shǐ
+29	。	。	PUNCT	.	_	24	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1131
+# text = 二人住在小石山的一個破舊的窯洞內，孩子便出生在這裡。
+# translit = 'èrrénzhùzàixiǎoshíshāndeyīgèpòjiùdeyáodòngnèi,háizibiànchūshēngzàizhèli.
+1	二	二	NUM	CD	NUM	2	nummod	_	SpaceAfter=No|Translit='èr|LTranslit='èr
+2	人	人	NOUN	NN	N	3	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+3	住	住	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=zhù|LTranslit=zhù
+4	在	在	ADP	IN	ADP	12	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+5	小石	小石	PROPN	NNP	PROPN	6	compound	_	SpaceAfter=No|Translit=xiǎoshí|LTranslit=xiǎoshí
+6	山	山	PART	SFN	PART	12	nmod	_	SpaceAfter=No|Translit=shān|LTranslit=shān
+7	的	的	PART	DEC	PART;GEN	6	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	一	一	NUM	CD	NUM	12	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+9	個	個	NOUN	NNB	N	8	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
+10	破舊	破舊	ADJ	JJ	ADJ	12	amod	_	SpaceAfter=No|Translit=pòjiù|LTranslit=pòjiù
+11	的	的	SCONJ	DEC	CONJ	10	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+12	窯洞	窯洞	NOUN	NN	N	3	obl	_	SpaceAfter=No|Translit=yáodòng|LTranslit=yáodòng
+13	內	內	NOUN	NN	N	12	acl	_	SpaceAfter=No|Translit=nèi|LTranslit=nèi
+14	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	孩子	孩子	NOUN	NN	N	17	nsubj	_	SpaceAfter=No|Translit=háizi|LTranslit=háizi
+16	便	便	SCONJ	RB	CONJ	17	mark	_	SpaceAfter=No|Translit=biàn|LTranslit=biàn
+17	出生	出生	VERB	VV	V	3	parataxis	_	SpaceAfter=No|Translit=chūshēng|LTranslit=chūshēng
+18	在	在	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+19	這裡	這裡	PRON	PRD	PRO	17	obl	_	SpaceAfter=No|Translit=zhèli|LTranslit=zhèli
+20	。	。	PUNCT	.	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1132
+# text = 孔令華的父親、中國人民解放軍中將孔從周得知後大驚，覺得自己是國軍西北軍降將，嚴令兒子不得與李敏來往。
+# translit = kǒnglìnghuádefùqīn,zhōngguórénmínjiěfàngjūnzhōngjiāngkǒngcóngzhōudezhīhòudàjīng,juédezìjǐshìguójūnxiběijūnjiàngjiāng,yánlìngrzibùdeyǔlimǐnláiwǎng.
+1	孔	孔	PROPN	NNP	PROPN	4	nmod	_	SpaceAfter=No|Translit=kǒng|LTranslit=kǒng
+2	令華	令華	PROPN	NNP	PROPN	1	flat:name	_	SpaceAfter=No|Translit=lìnghuá|LTranslit=lìnghuá
+3	的	的	PART	DEC	PART;GEN	1	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+4	父親	父親	NOUN	NN	N	25	nsubj	_	SpaceAfter=No|Translit=fùqīn|LTranslit=fùqīn
+5	、	、	PUNCT	EC	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	中國	中國	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=zhōngguó|LTranslit=zhōngguó
+7	人民	人民	NOUN	NN	N	9	nmod	_	SpaceAfter=No|Translit=rénmín|LTranslit=rénmín
+8	解放	解放	VERB	VV	V	9	compound	_	SpaceAfter=No|Translit=jiěfàng|LTranslit=jiěfàng
+9	軍	軍	PART	SFN	PART	10	nmod	_	SpaceAfter=No|Translit=jūn|LTranslit=jūn
+10	中將	中將	NOUN	NN	N	4	conj	_	SpaceAfter=No|Translit=zhōngjiāng|LTranslit=zhōngjiāng
+11	孔	孔	PROPN	NNP	PROPN	4	appos	_	SpaceAfter=No|Translit=kǒng|LTranslit=kǒng
+12	從周	從周	PROPN	NNP	PROPN	11	flat:name	_	SpaceAfter=No|Translit=cóngzhōu|LTranslit=cóngzhōu
+13	得知	得知	VERB	VV	V	15	advcl	_	SpaceAfter=No|Translit=dezhī|LTranslit=dezhī
+14	後	後	ADP	IN	ADP	13	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+15	大驚	大驚	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=dàjīng|LTranslit=dàjīng
+16	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	覺得	覺得	VERB	VV	V	25	advcl	_	SpaceAfter=No|Translit=juéde|LTranslit=juéde
+18	自己	自己	PRON	PRD	PRO	23	nsubj	_	SpaceAfter=No|Translit=zìjǐ|LTranslit=zìjǐ
+19	是	是	AUX	VC	V	23	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+20	國軍	國軍	NOUN	NN	N	22	nmod	_	SpaceAfter=No|Translit=guójūn|LTranslit=guójūn
+21	西北	西北	NOUN	NN	N	22	compound	_	SpaceAfter=No|Translit=xiběi|LTranslit=xiběi
+22	軍	軍	PART	SFN	PART	23	nmod	_	SpaceAfter=No|Translit=jūn|LTranslit=jūn
+23	降將	降將	NOUN	NN	N	17	ccomp	_	SpaceAfter=No|Translit=jiàngjiāng|LTranslit=jiàngjiāng
+24	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	嚴令	嚴令	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=yánlìng|LTranslit=yánlìng
+26	兒子	兒子	NOUN	NN	N	31	nsubj	_	SpaceAfter=No|Translit=rzi|LTranslit=rzi
+27	不得	得	AUX	MD	NEG;V	31	aux	_	SpaceAfter=No|Translit=bùde|LTranslit=de
+28	與	與	ADP	IN	ADP	29	case	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+29	李	李	PROPN	NNP	PROPN	31	obl	_	SpaceAfter=No|Translit=li|LTranslit=li
+30	敏	敏	PROPN	NNP	PROPN	29	flat:name	_	SpaceAfter=No|Translit=mǐn|LTranslit=mǐn
+31	來往	來往	VERB	VV	V	25	ccomp	_	SpaceAfter=No|Translit=láiwǎng|LTranslit=láiwǎng
+32	。	。	PUNCT	.	_	25	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1133
+# text = 於是，從1976年起，李敏便呆在家裡。
+# translit = yúshì,cóng1976niánqǐ,limǐnbiàndāizàijiāli.
+1	於是	於是	SCONJ	RB	CONJ	11	mark	_	SpaceAfter=No|Translit=yúshì|LTranslit=yúshì
+2	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+3	從	從	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=cóng|LTranslit=cóng
+4	1976	1976	NUM	CD	NUM	5	nummod	_	SpaceAfter=No|Translit=1976|LTranslit=1976
+5	年	年	NOUN	NNB	N	11	nmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+6	起	起	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=qǐ|LTranslit=qǐ
+7	，	，	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	李	李	PROPN	NNP	PROPN	11	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+9	敏	敏	PROPN	NNP	PROPN	8	flat:name	_	SpaceAfter=No|Translit=mǐn|LTranslit=mǐn
+10	便	便	SCONJ	RB	CONJ	11	mark	_	SpaceAfter=No|Translit=biàn|LTranslit=biàn
+11	呆	呆	ADJ	JJ	ADJ	0	root	_	SpaceAfter=No|Translit=dāi|LTranslit=dāi
+12	在	在	VERB	VV	V	11	mark	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+13	家裡	家裡	NOUN	NN	N	11	obj	_	SpaceAfter=No|Translit=jiāli|LTranslit=jiāli
+14	。	。	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1134
+# text = 母親賀子珍讓嬌嬌給毛澤東寫了一封信，嬌嬌在信中用俄文匯報了自己的現狀。
+# translit = mǔqīnhèzizhēnràngjiāojiāogěimáo澤dōngxiěleyīfēngxìn,jiāojiāozàixìnzhōngyòng'éwénhuìbàolezìjǐdexiànzhuàng.
+1	母親	母親	NOUN	NN	N	4	nsubj	_	SpaceAfter=No|Translit=mǔqīn|LTranslit=mǔqīn
+2	賀	賀	PROPN	NNP	PROPN	1	appos	_	SpaceAfter=No|Translit=hè|LTranslit=hè
+3	子珍	子珍	PROPN	NNP	PROPN	2	flat:name	_	SpaceAfter=No|Translit=zizhēn|LTranslit=zizhēn
+4	讓	讓	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=ràng|LTranslit=ràng
+5	嬌嬌	嬌嬌	PROPN	NNP	PROPN	9	nsubj	_	SpaceAfter=No|Translit=jiāojiāo|LTranslit=jiāojiāo
+6	給	給	VERB	VV	V	9	advcl	_	SpaceAfter=No|Translit=gěi|LTranslit=gěi
+7	毛	毛	PROPN	NNP	PROPN	6	obj	_	SpaceAfter=No|Translit=máo|LTranslit=máo
+8	澤東	澤東	PROPN	NNP	PROPN	7	flat:name	_	SpaceAfter=No|Translit=澤dōng|LTranslit=澤dōng
+9	寫	寫	VERB	VV	V	4	ccomp	_	SpaceAfter=No|Translit=xiě|LTranslit=xiě
+10	了	了	AUX	AS	PFV;V	9	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+11	一	一	NUM	CD	NUM	13	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+12	封	封	NOUN	NNB	N	11	clf	_	SpaceAfter=No|Translit=fēng|LTranslit=fēng
+13	信	信	NOUN	NN	N	9	obj	_	SpaceAfter=No|Translit=xìn|LTranslit=xìn
+14	，	，	PUNCT	,	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	嬌嬌	嬌嬌	PROPN	NNP	PROPN	21	nsubj	_	SpaceAfter=No|Translit=jiāojiāo|LTranslit=jiāojiāo
+16	在	在	ADP	IN	ADP	17	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+17	信中	信中	NOUN	NN	N	21	obl	_	SpaceAfter=No|Translit=xìnzhōng|LTranslit=xìnzhōng
+18	用	用	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=yòng|LTranslit=yòng
+19	俄	俄	PROPN	NNP	PROPN	20	compound	_	SpaceAfter=No|Translit='é|LTranslit='é
+20	文	文	PART	SFN	PART	18	obj	_	SpaceAfter=No|Translit=wén|LTranslit=wén
+21	匯報	匯報	VERB	VV	V	4	parataxis	_	SpaceAfter=No|Translit=huìbào|LTranslit=huìbào
+22	了	了	AUX	AS	PFV;V	21	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+23	自己	自己	PRON	PRD	PRO	25	det	_	SpaceAfter=No|Translit=zìjǐ|LTranslit=zìjǐ
+24	的	的	PART	DEC	PART;GEN	23	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+25	現狀	現狀	NOUN	NN	N	21	obj	_	SpaceAfter=No|Translit=xiànzhuàng|LTranslit=xiànzhuàng
+26	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1135
+# text = 隨後，王稼祥和嬌嬌一同去接賀子珍離開精神病院。
+# translit = suíhòu,wángjiaxiánghéjiāojiāoyītóngqùjiēhèzizhēnlíkāijīngshénbìngyuàn.
+1	隨後	隨後	ADV	RB	ADV	8	advmod	_	SpaceAfter=No|Translit=suíhòu|LTranslit=suíhòu
+2	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+3	王	王	PROPN	NNP	PROPN	8	nsubj	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+4	稼祥	稼祥	PROPN	NNP	PROPN	3	flat:name	_	SpaceAfter=No|Translit=jiaxiáng|LTranslit=jiaxiáng
+5	和	和	CCONJ	CC	CONJ	6	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+6	嬌嬌	嬌嬌	PROPN	NNP	PROPN	3	conj	_	SpaceAfter=No|Translit=jiāojiāo|LTranslit=jiāojiāo
+7	一同	一同	ADV	RB	ADV	8	advmod	_	SpaceAfter=No|Translit=yītóng|LTranslit=yītóng
+8	去	去	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=qù|LTranslit=qù
+9	接	接	VERB	VV	V;CAUS	8	xcomp	_	SpaceAfter=No|Translit=jiē|LTranslit=jiē
+10	賀	賀	PROPN	NNP	PROPN	12	nsubj	_	SpaceAfter=No|Translit=hè|LTranslit=hè
+11	子珍	子珍	PROPN	NNP	PROPN	10	flat:name	_	SpaceAfter=No|Translit=zizhēn|LTranslit=zizhēn
+12	離開	離開	VERB	VV	V	9	ccomp	_	SpaceAfter=No|Translit=líkāi|LTranslit=líkāi
+13	精神	精神	NOUN	NN	N	14	compound	_	SpaceAfter=No|Translit=jīngshén|LTranslit=jīngshén
+14	病	病	PART	SFN	PART	15	compound	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+15	院	院	PART	SFN	PART	12	obj	_	SpaceAfter=No|Translit=yuàn|LTranslit=yuàn
+16	。	。	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1136
+# text = 由於蕭孟能未能於勝訴時對李敖提出附帶之民事賠償，自此，蕭孟能委託李敖管理並清償債務之市值超過兩千萬之家產如數歸於李敖所有。
+# translit = yóuyú蕭孟néngwèinéngyúshèngsushíduìli敖tíchūfùdàizhīmínshìpéicháng,zìcǐ,蕭孟néngwěi託li敖guǎnlǐbìngqīngchángzhàiwuzhīshìzhíchāoguòliǎngqiānwànzhījiāchǎnrúshùguīyúli敖suǒyǒu.
+1	由於	由於	ADP	IN	ADP	11	case	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
+2	蕭	蕭	PROPN	NNP	PROPN	11	nsubj	_	SpaceAfter=No|Translit=蕭|LTranslit=蕭
+3	孟能	孟能	PROPN	NNP	PROPN	2	flat:name	_	SpaceAfter=No|Translit=孟néng|LTranslit=孟néng
+4	未能	能	AUX	MD	NEG;V	11	aux	_	SpaceAfter=No|Translit=wèinéng|LTranslit=néng
+5	於	於	ADP	IN	ADP	6	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+6	勝訴	勝訴	VERB	VV	V	11	xcomp	_	SpaceAfter=No|Translit=shèngsu|LTranslit=shèngsu
+7	時	時	ADP	IN	ADP	6	mark	_	SpaceAfter=No|Translit=shí|LTranslit=shí
+8	對	對	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+9	李	李	PROPN	NNP	PROPN	11	obl	_	SpaceAfter=No|Translit=li|LTranslit=li
+10	敖	敖	PROPN	NNP	PROPN	9	flat:name	_	SpaceAfter=No|Translit=敖|LTranslit=敖
+11	提出	提出	VERB	VV	V	22	advcl	_	SpaceAfter=No|Translit=tíchū|LTranslit=tíchū
+12	附帶	附帶	VERB	VV	V	15	acl:relcl	_	SpaceAfter=No|Translit=fùdài|LTranslit=fùdài
+13	之	之	SCONJ	DEC	CONJ	12	mark:rel	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+14	民事	民事	NOUN	NN	N	15	nmod	_	SpaceAfter=No|Translit=mínshì|LTranslit=mínshì
+15	賠償	賠償	NOUN	NN	N	11	obj	_	SpaceAfter=No|Translit=péicháng|LTranslit=péicháng
+16	，	，	PUNCT	,	_	11	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	自	自	ADP	IN	ADP	18	case	_	SpaceAfter=No|Translit=zì|LTranslit=zì
+18	此	此	PRON	PRD	PRO	22	obl	_	SpaceAfter=No|Translit=cǐ|LTranslit=cǐ
+19	，	，	PUNCT	,	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	蕭	蕭	PROPN	NNP	PROPN	22	nsubj	_	SpaceAfter=No|Translit=蕭|LTranslit=蕭
+21	孟能	孟能	PROPN	NNP	PROPN	20	flat:name	_	SpaceAfter=No|Translit=孟néng|LTranslit=孟néng
+22	委託	委託	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=wěi託|LTranslit=wěi託
+23	李	李	PROPN	NNP	PROPN	25	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+24	敖	敖	PROPN	NNP	PROPN	23	flat:name	_	SpaceAfter=No|Translit=敖|LTranslit=敖
+25	管理	管理	VERB	VV	V	22	ccomp	_	SpaceAfter=No|Translit=guǎnlǐ|LTranslit=guǎnlǐ
+26	並	並	CCONJ	CC	CONJ	27	cc	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+27	清償	清償	VERB	VV	V	25	conj	_	SpaceAfter=No|Translit=qīngcháng|LTranslit=qīngcháng
+28	債務	債務	NOUN	NN	N	30	nmod	_	SpaceAfter=No|Translit=zhàiwu|LTranslit=zhàiwu
+29	之	之	PART	DEC	PART;GEN	28	case	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+30	市值	市值	NOUN	NN	N	31	nsubj	_	SpaceAfter=No|Translit=shìzhí|LTranslit=shìzhí
+31	超過	超過	VERB	VV	V	22	parataxis	_	SpaceAfter=No|Translit=chāoguò|LTranslit=chāoguò
+32	兩千萬	兩千萬	NUM	CD	NUM	34	nummod	_	SpaceAfter=No|Translit=liǎngqiānwàn|LTranslit=liǎngqiānwàn
+33	之	之	PART	DEC	PART;GEN	32	case	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+34	家產	家產	NOUN	NN	N	31	obj	_	SpaceAfter=No|Translit=jiāchǎn|LTranslit=jiāchǎn
+35	如數	如數	NOUN	NN	N	36	obl	_	SpaceAfter=No|Translit=rúshù|LTranslit=rúshù
+36	歸	歸	VERB	VV	V	22	parataxis	_	SpaceAfter=No|Translit=guī|LTranslit=guī
+37	於	於	VERB	VV	V	36	mark	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+38	李	李	PROPN	NNP	PROPN	41	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+39	敖	敖	PROPN	NNP	PROPN	38	flat:name	_	SpaceAfter=No|Translit=敖|LTranslit=敖
+40	所	所	SCONJ	RB	CONJ	41	mark	_	SpaceAfter=No|Translit=suǒ|LTranslit=suǒ
+41	有	有	VERB	VV	V	36	ccomp	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+42	。	。	PUNCT	.	_	22	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1137
+# text = 父親過世後，李文忠的媽媽靠替人洗衣服養大李文忠，由於勞累過度，竟在李文忠以第一名考上台中一中，放榜的那一天血壓升到220，差點中風。
+# translit = fùqīnguòshìhòu,liwénzhōngdemāmākàotìrénxǐyīfúyǎngdàliwénzhōng,yóuyúláolèiguòdù,jìngzàiliwénzhōngyǐdìyīmíngkǎoshàngtáizhōngyīzhōng,fàngbǎngdenàyītiānxuèyāshēngdào220,chàdiǎnzhōngfēng.
+1	父親	父親	NOUN	NN	N	2	nsubj	_	SpaceAfter=No|Translit=fùqīn|LTranslit=fùqīn
+2	過世	過世	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=guòshì|LTranslit=guòshì
+3	後	後	ADP	IN	ADP	2	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+4	，	，	PUNCT	,	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	李	李	PROPN	NNP	PROPN	8	nmod	_	SpaceAfter=No|Translit=li|LTranslit=li
+6	文忠	文忠	PROPN	NNP	PROPN	5	flat:name	_	SpaceAfter=No|Translit=wénzhōng|LTranslit=wénzhōng
+7	的	的	PART	DEC	PART;GEN	5	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	媽媽	媽媽	NOUN	NN	N	13	nsubj	_	SpaceAfter=No|Translit=māmā|LTranslit=māmā
+9	靠	靠	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=kào|LTranslit=kào
+10	替人	替人	VERB	VV	V	13	xcomp	_	SpaceAfter=No|Translit=tìrén|LTranslit=tìrén
+11	洗	洗	VERB	VV	V	10	xcomp	_	SpaceAfter=No|Translit=xǐ|LTranslit=xǐ
+12	衣服	衣服	NOUN	NN	N	11	obj	_	SpaceAfter=No|Translit=yīfú|LTranslit=yīfú
+13	養大	養大	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=yǎngdà|LTranslit=yǎngdà
+14	李	李	PROPN	NNP	PROPN	13	obj	_	SpaceAfter=No|Translit=li|LTranslit=li
+15	文忠	文忠	PROPN	NNP	PROPN	14	flat:name	_	SpaceAfter=No|Translit=wénzhōng|LTranslit=wénzhōng
+16	，	，	PUNCT	,	_	42	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	由於	由於	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
+18	勞累	勞累	ADJ	JJ	ADJ	19	amod	_	SpaceAfter=No|Translit=láolèi|LTranslit=láolèi
+19	過度	過度	ADJ	JJ	ADJ	42	xcomp	_	SpaceAfter=No|Translit=guòdù|LTranslit=guòdù
+20	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	竟	竟	ADV	RB	ADV	38	advmod	_	SpaceAfter=No|Translit=jìng|LTranslit=jìng
+22	在	在	ADP	IN	ADP	36	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+23	李	李	PROPN	NNP	PROPN	32	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+24	文忠	文忠	PROPN	NNP	PROPN	23	flat:name	_	SpaceAfter=No|Translit=wénzhōng|LTranslit=wénzhōng
+25	以	以	ADP	IN	ADP	27	case	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+26	第一	第一	NUM	CD	NUM	27	nummod	_	SpaceAfter=No|Translit=dìyī|LTranslit=dìyī
+27	名	名	NOUN	NN	N	28	obl	_	SpaceAfter=No|Translit=míng|LTranslit=míng
+28	考上	考上	VERB	VV	V	32	advcl	_	SpaceAfter=No|Translit=kǎoshàng|LTranslit=kǎoshàng
+29	台中	台中	PROPN	NNP	PROPN	30	nmod	_	SpaceAfter=No|Translit=táizhōng|LTranslit=táizhōng
+30	一中	一中	NOUN	NN	N	28	obj	_	SpaceAfter=No|Translit=yīzhōng|LTranslit=yīzhōng
+31	，	，	PUNCT	,	_	28	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+32	放榜	放榜	VERB	VV	V	36	acl:relcl	_	SpaceAfter=No|Translit=fàngbǎng|LTranslit=fàngbǎng
+33	的	的	SCONJ	DEC	CONJ	32	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+34	那	那	DET	DT	DET	36	det	_	SpaceAfter=No|Translit=nà|LTranslit=nà
+35	一	一	NUM	CD	NUM	36	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+36	天	天	NOUN	NNB	N	38	obl	_	SpaceAfter=No|Translit=tiān|LTranslit=tiān
+37	血壓	血壓	NOUN	NN	N	38	nsubj	_	SpaceAfter=No|Translit=xuèyā|LTranslit=xuèyā
+38	升到	升到	VERB	VV	V	42	advcl	_	SpaceAfter=No|Translit=shēngdào|LTranslit=shēngdào
+39	220	220	NUM	CD	NUM	38	obj	_	SpaceAfter=No|Translit=220|LTranslit=220
+40	，	，	PUNCT	,	_	38	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+41	差點	差點	ADV	RB	ADV	42	advmod	_	SpaceAfter=No|Translit=chàdiǎn|LTranslit=chàdiǎn
+42	中風	中風	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=zhōngfēng|LTranslit=zhōngfēng
+43	。	。	PUNCT	.	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1138
+# text = 他娶丞相宇文泰之女義安公主為妻，由於他常年卧病在床，宇文泰日賜錢一千，以供其藥石之費。
+# translit = tāqǔ丞xiāngyǔwéntàizhīnǚyì'āngōngzhǔwèiqī,yóuyútāchángniánwòbìngzàichuáng,yǔwéntàirì賜qiányīqiān,yǐgōngqíyàoshízhīfèi.
+1	他	他	PRON	PRP	3;PRO	2	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+2	娶	娶	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=qǔ|LTranslit=qǔ
+3	丞相	丞相	NOUN	NN	N	7	nmod	_	SpaceAfter=No|Translit=丞xiāng|LTranslit=丞xiāng
+4	宇	宇	PROPN	NNP	PROPN	3	appos	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+5	文泰	文泰	PROPN	NNP	PROPN	4	flat:name	_	SpaceAfter=No|Translit=wéntài|LTranslit=wéntài
+6	之	之	PART	DEC	PART;GEN	4	case	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+7	女	女	NOUN	NN	N	11	nsubj	_	SpaceAfter=No|Translit=nǚ|LTranslit=nǚ
+8	義安	義安	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=yì'ān|LTranslit=yì'ān
+9	公主	公主	NOUN	NN	N	7	appos	_	SpaceAfter=No|Translit=gōngzhǔ|LTranslit=gōngzhǔ
+10	為	為	AUX	VC	V	11	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+11	妻	妻	NOUN	NN	N	2	ccomp	_	SpaceAfter=No|Translit=qī|LTranslit=qī
+12	，	，	PUNCT	,	_	27	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	由於	由於	ADP	IN	ADP	16	case	_	SpaceAfter=No|Translit=yóuyú|LTranslit=yóuyú
+14	他	他	PRON	PRP	3;PRO	16	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+15	常年	常年	ADV	RB	ADV	16	advmod	_	SpaceAfter=No|Translit=chángnián|LTranslit=chángnián
+16	卧病	卧病	VERB	VV	V	27	ccomp	_	SpaceAfter=No|Translit=wòbìng|LTranslit=wòbìng
+17	在	在	VERB	VV	V	16	mark	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+18	床	床	NOUN	NN	N	16	obj	_	SpaceAfter=No|Translit=chuáng|LTranslit=chuáng
+19	，	，	PUNCT	,	_	16	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	宇	宇	PROPN	NNP	PROPN	27	nsubj	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+21	文泰	文泰	PROPN	NNP	PROPN	20	flat:name	_	SpaceAfter=No|Translit=wéntài|LTranslit=wéntài
+22	日賜	日賜	VERB	VV	V	27	advcl	_	SpaceAfter=No|Translit=rì賜|LTranslit=rì賜
+23	錢	錢	NOUN	NN	N	22	obj	_	SpaceAfter=No|Translit=qián|LTranslit=qián
+24	一千	一千	NUM	CD	NUM	23	acl	_	SpaceAfter=No|Translit=yīqiān|LTranslit=yīqiān
+25	，	，	PUNCT	,	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+26	以	以	SCONJ	RB	CONJ	27	mark	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+27	供	供	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=gōng|LTranslit=gōng
+28	其	其	PRON	PRP	3;PRO	31	nmod	_	SpaceAfter=No|Translit=qí|LTranslit=qí
+29	藥石	藥石	NOUN	NN	N	31	nmod	_	SpaceAfter=No|Translit=yàoshí|LTranslit=yàoshí
+30	之	之	PART	DEC	PART;GEN	29	case	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+31	費	費	NOUN	NN	N	27	obj	_	SpaceAfter=No|Translit=fèi|LTranslit=fèi
+32	。	。	PUNCT	.	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1139
+# text = 這可被視為字喃初期萌芽的遺跡。
+# translit = zhèkěbèishìwèizìnánchūqī萌yádeyíjī.
+1	這	這	PRON	PRD	PRO	4	nsubj:pass	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
+2	可	可	AUX	MD	V	4	aux	_	SpaceAfter=No|Translit=kě|LTranslit=kě
+3	被	被	AUX	BB	PASS;V	4	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+4	視	視	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+5	為	為	VERB	VC	V	4	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+6	字喃	字喃	PROPN	NNP	PROPN	8	nsubj	_	SpaceAfter=No|Translit=zìnán|LTranslit=zìnán
+7	初期	初期	NOUN	NN	N	8	nmod:tmod	_	SpaceAfter=No|Translit=chūqī|LTranslit=chūqī
+8	萌芽	萌芽	VERB	VV	V	10	acl:relcl	_	SpaceAfter=No|Translit=萌yá|LTranslit=萌yá
+9	的	的	SCONJ	DEC	CONJ	8	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+10	遺跡	遺跡	NOUN	NN	N	4	obj	_	SpaceAfter=No|Translit=yíjī|LTranslit=yíjī
+11	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1140
+# text = 1996年4月17日，李柱銘抵達美國華盛頓，他承認向美國爭取把香港問題國際化，呼籲國際亦應給予中國壓力，以保證香港政權移交後得以高度自治。
+# translit = 1996nián4yuè17rì,lizhù銘dǐdáměiguóhuáshèngdùn,tāchéngrènxiàngměiguózhēngqǔbǎxiānggǎngwèntíguójìhuà,hū籲guójìyìyīnggěiyǔzhōngguóyālì,yǐbǎozhèngxiānggǎngzhèngquányíjiāohòudeyǐgāodùzìzhì.
+1	1996	1996	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=1996|LTranslit=1996
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	4	4	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=4|LTranslit=4
+4	月	月	NOUN	NNB	N	3	clf	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	17	17	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=17|LTranslit=17
+6	日	日	NOUN	NNB	N	10	nmod:tmod	_	SpaceAfter=No|Translit=rì|LTranslit=rì
+7	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	李	李	PROPN	NNP	PROPN	10	nsubj	_	SpaceAfter=No|Translit=li|LTranslit=li
+9	柱銘	柱銘	PROPN	NNP	PROPN	8	flat:name	_	SpaceAfter=No|Translit=zhù銘|LTranslit=zhù銘
+10	抵達	抵達	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=dǐdá|LTranslit=dǐdá
+11	美國	美國	PROPN	NNP	PROPN	12	nmod	_	SpaceAfter=No|Translit=měiguó|LTranslit=měiguó
+12	華盛頓	華盛頓	PROPN	NNP	PROPN	10	obj	_	SpaceAfter=No|Translit=huáshèngdùn|LTranslit=huáshèngdùn
+13	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	他	他	PRON	PRP	3;PRO	15	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+15	承認	承認	VERB	VV	V	10	parataxis	_	SpaceAfter=No|Translit=chéngrèn|LTranslit=chéngrèn
+16	向	向	ADP	IN	ADP	17	case	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
+17	美國	美國	PROPN	NNP	PROPN	18	obl	_	SpaceAfter=No|Translit=měiguó|LTranslit=měiguó
+18	爭取	爭取	VERB	VV	V	34	advcl	_	SpaceAfter=No|Translit=zhēngqǔ|LTranslit=zhēngqǔ
+19	把	把	ADP	BB	ADP	21	case	_	SpaceAfter=No|Translit=bǎ|LTranslit=bǎ
+20	香港	香港	PROPN	NNP	PROPN	21	nmod	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
+21	問題	問題	NOUN	NN	N	23	obl:patient	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
+22	國際	國際	NOUN	NN	N	23	compound	_	SpaceAfter=No|Translit=guójì|LTranslit=guójì
+23	化	化	PART	SFV	PART	18	xcomp	_	SpaceAfter=No|Translit=huà|LTranslit=huà
+24	，	，	PUNCT	,	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	呼籲	呼籲	VERB	VV	V;CAUS	34	advcl	_	SpaceAfter=No|Translit=hū籲|LTranslit=hū籲
+26	國際	國際	NOUN	NN	N	29	nsubj	_	SpaceAfter=No|Translit=guójì|LTranslit=guójì
+27	亦	亦	SCONJ	RB	CONJ	29	mark	_	SpaceAfter=No|Translit=yì|LTranslit=yì
+28	應	應	AUX	MD	V	29	aux	_	SpaceAfter=No|Translit=yīng|LTranslit=yīng
+29	給予	給予	VERB	VV	V	25	ccomp	_	SpaceAfter=No|Translit=gěiyǔ|LTranslit=gěiyǔ
+30	中國	中國	PROPN	NNP	PROPN	29	iobj	_	SpaceAfter=No|Translit=zhōngguó|LTranslit=zhōngguó
+31	壓力	壓力	NOUN	NN	N	29	obj	_	SpaceAfter=No|Translit=yālì|LTranslit=yālì
+32	，	，	PUNCT	,	_	25	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+33	以	以	SCONJ	RB	CONJ	34	mark	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+34	保證	保證	VERB	VV	V	15	xcomp	_	SpaceAfter=No|Translit=bǎozhèng|LTranslit=bǎozhèng
+35	香港	香港	PROPN	NNP	PROPN	36	nmod	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
+36	政權	政權	NOUN	NN	N	37	nsubj	_	SpaceAfter=No|Translit=zhèngquán|LTranslit=zhèngquán
+37	移交	移交	VERB	VV	V	39	advcl	_	SpaceAfter=No|Translit=yíjiāo|LTranslit=yíjiāo
+38	後	後	ADP	IN	ADP	37	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+39	得	得	VERB	VV	V	34	xcomp	_	SpaceAfter=No|Translit=de|LTranslit=de
+40	以	以	SCONJ	RB	CONJ	42	mark	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+41	高度	高度	NOUN	NN	N	42	obl	_	SpaceAfter=No|Translit=gāodù|LTranslit=gāodù
+42	自治	自治	VERB	VV	V	39	xcomp	_	SpaceAfter=No|Translit=zìzhì|LTranslit=zìzhì
+43	。	。	PUNCT	.	_	34	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

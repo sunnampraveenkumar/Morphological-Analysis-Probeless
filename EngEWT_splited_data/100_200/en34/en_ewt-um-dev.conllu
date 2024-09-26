@@ -1,0 +1,153 @@
+# newdoc id = email-enronsent28_02
+# sent_id = email-enronsent28_02-0001
+# newpar id = email-enronsent28_02-p0001
+# text = Sean Boyle
+1	Sean	Sean	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Boyle	Boyle	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_02-0002
+# text = 08/17/2000 11:21 AM
+1	08/17/2000	08/17/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:21	11:21	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_02-0003
+# text = I spoke to Bruce Garcey at NiMo regarding their RFP.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	spoke	speak	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	ADP	IN	ADP	4	case	4:case	_
+4	Bruce	Bruce	PROPN	NNP	SG;PROPN	2	obl	2:obl:to	_
+5	Garcey	Garcey	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	at	at	ADP	IN	ADP	7	case	7:case	_
+7	NiMo	NiMo	PROPN	NNP	SG;PROPN	4	nmod	4:nmod:at	_
+8	regarding	regard	VERB	VBG	PRS;V;V.PTCP	10	case	10:case	_
+9	their	their	PRON	PRP$	PRO;GEN;3;PL	10	nmod:poss	10:nmod:poss	_
+10	RFP	rfp	NOUN	NN	SG;N	2	obl	2:obl:regarding	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0004
+# text = Bruce indicated NiMo short listed five companies who all bid higher than ENA.
+1	Bruce	Bruce	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	indicated	indicate	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+3	NiMo	NiMo	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+4	short	short	ADJ	JJ	ADJ	5	compound	5:compound	_
+5	listed	list	VERB	VBD	FIN;3;V;IND;SG;PST	2	ccomp	2:ccomp	_
+6	five	five	NUM	CD	NUM	7	nummod	7:nummod	_
+7	companies	company	NOUN	NNS	PL;N	5	obj	5:obj|10:nsubj	_
+8	who	who	PRON	WP	PRO	10	nsubj	7:ref	_
+9	all	all	DET	DT	DET	10	advmod	10:advmod	_
+10	bid	bid	VERB	VBD	FIN;3;PL;V;IND;PST	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+11	higher	high	ADV	RBR	CMPR;ADV	10	advmod	10:advmod	_
+12	than	than	ADP	IN	ADP	13	case	13:case	_
+13	ENA	ENA	PROPN	NNP	SG;PROPN	11	obl	11:obl:than	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0005
+# text = However, he also mentioned we were a close sixth, that is close to the fifth highest bid.
+1	However	however	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	he	he	PRON	PRP	PRO;MASC;3;NOM;SG	5	nsubj	5:nsubj	_
+4	also	also	ADV	RB	ADV	5	advmod	5:advmod	_
+5	mentioned	mention	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+6	we	we	PRON	PRP	PRO;PL;1;NOM	10	nsubj	10:nsubj	_
+7	were	be	AUX	VBD	FIN;PL;1;V;IND;PST	10	cop	10:cop	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	close	close	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	sixth	sixth	ADJ	JJ	ADJ	5	ccomp	5:ccomp	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	that	that	PRON	DT	PRO;SG	14	advmod	14:advmod	_
+13	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	fixed	12:fixed	_
+14	close	close	ADJ	JJ	ADJ	10	parataxis	10:parataxis	_
+15	to	to	ADP	IN	ADP	19	case	19:case	_
+16	the	the	DET	DT	DET;DEF	19	det	19:det	_
+17	fifth	fifth	ADV	RB	ADV	18	advmod	18:advmod	_
+18	highest	high	ADJ	JJS	ADJ;RL	19	amod	19:amod	_
+19	bid	bid	NOUN	NN	SG;N	14	obl	14:obl:to	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent28_02-0006
+# text = He gave no indication on the value of the highest bid.
+1	He	he	PRON	PRP	PRO;MASC;3;NOM;SG	2	nsubj	2:nsubj	_
+2	gave	give	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+3	no	no	DET	DT	DET	4	det	4:det	_
+4	indication	indication	NOUN	NN	SG;N	2	obj	2:obj	_
+5	on	on	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	value	value	NOUN	NN	SG;N	4	nmod	4:nmod:on	_
+8	of	of	ADP	IN	ADP	11	case	11:case	_
+9	the	the	DET	DT	DET;DEF	11	det	11:det	_
+10	highest	high	ADJ	JJS	ADJ;RL	11	amod	11:amod	_
+11	bid	bid	NOUN	NN	SG;N	7	nmod	7:nmod:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0007
+# text = He also said that the other five companies making the short list all proposed alternative structures to the proposed NiMo Tier Structure.
+1	He	he	PRON	PRP	PRO;MASC;3;NOM;SG	3	nsubj	3:nsubj	_
+2	also	also	ADV	RB	ADV	3	advmod	3:advmod	_
+3	said	say	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	14	mark	14:mark	_
+5	the	the	DET	DT	DET;DEF	8	det	8:det	_
+6	other	other	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	five	five	NUM	CD	NUM	8	nummod	8:nummod	_
+8	companies	company	NOUN	NNS	PL;N	14	nsubj	14:nsubj	_
+9	making	make	VERB	VBG	V;V.MSDR	8	acl	8:acl	_
+10	the	the	DET	DT	DET;DEF	12	det	12:det	_
+11	short	short	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	list	list	NOUN	NN	SG;N	9	obj	9:obj	_
+13	all	all	DET	DT	DET	14	advmod	14:advmod	_
+14	proposed	propose	VERB	VBD	FIN;3;PL;V;IND;PST	3	ccomp	3:ccomp	_
+15	alternative	alternative	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	structures	structure	NOUN	NNS	PL;N	14	obj	14:obj	_
+17	to	to	ADP	IN	ADP	22	case	22:case	_
+18	the	the	DET	DT	DET;DEF	22	det	22:det	_
+19	proposed	propose	VERB	VBN	PASS;V;V.PTCP;PST	22	amod	22:amod	_
+20	NiMo	NiMo	PROPN	NNP	SG;PROPN	22	compound	22:compound	_
+21	Tier	tier	NOUN	NN	SG;N	22	compound	22:compound	_
+22	Structure	structure	NOUN	NN	SG;N	16	nmod	16:nmod:to	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_02-0008
+# text = NiMo released an additional RFP for peaking supplies for this winter, I believe Phil should have or be getting that RFP.
+1	NiMo	NiMo	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	released	release	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+3	an	a	DET	DT	DET;INDF	5	det	5:det	_
+4	additional	additional	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	RFP	rfp	NOUN	NN	SG;N	2	obj	2:obj	_
+6	for	for	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	peaking	peak	VERB	VBG	V;V.MSDR	5	acl	5:acl:for	_
+8	supplies	supplies	NOUN	NNS	N	7	obj	7:obj	_
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	this	this	DET	DT	DET;SG	11	det	11:det	_
+11	winter	winter	NOUN	NN	SG;N	7	obl	7:obl:for	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	14:punct	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+14	believe	believe	VERB	VBP	FIN;PRS;1;V;IND;SG	2	parataxis	2:parataxis	_
+15	Phil	Phil	PROPN	NNP	SG;PROPN	17	nsubj	17:nsubj|20:nsubj	_
+16	should	should	AUX	MD	FIN;V	17	aux	17:aux	_
+17	have	have	VERB	VB	NFIN;V	14	ccomp	14:ccomp	_
+18	or	or	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	be	be	AUX	VB	V;NFIN	20	aux	20:aux	_
+20	getting	get	VERB	VBG	PRS;V;V.PTCP	17	conj	14:ccomp|17:conj:or	_
+21	that	that	DET	DT	DET;SG	22	det	22:det	_
+22	RFP	rfp	NOUN	NN	SG;N	17	obj	17:obj|20:obj	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0009
+# text = Phil if you could please make copies and distribute ASAP.
+1	Phil	Phil	PROPN	NNP	SG;PROPN	6	vocative	6:vocative	_
+2	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+3	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj|9:nsubj	_
+4	could	could	AUX	MD	FIN;V	6	aux	6:aux	_
+5	please	please	INTJ	UH	INTJ	6	discourse	6:discourse	_
+6	make	make	VERB	VB	NFIN;V	0	root	0:root	_
+7	copies	copy	NOUN	NNS	PL;N	6	obj	6:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	distribute	distribute	VERB	VB	NFIN;V	6	conj	6:conj:and	_
+10	ASAP	ASAP	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent28_02-0010
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+

@@ -1,0 +1,66 @@
+# sent_id = email-enronsent28_01-0039
+# text = To summarize: Enron's pad gas will now be 3,993,310MMBTU, instead of 4,223,000MMBTU.
+1	To	to	PART	TO	PART	2	mark	2:mark	_
+2	summarize	summarize	VERB	VB	NFIN;V	12	parataxis	12:parataxis	CheckReln=advcl|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4-5	Enron's	_	_	_	_	_	_	_	_
+4	Enron	Enron	PROPN	NNP	SG;PROPN	7	nmod:poss	7:nmod:poss	_
+5	's	's	PART	POS	PART	4	case	4:case	_
+6	pad	pad	NOUN	NN	SG;N	7	compound	7:compound	_
+7	gas	gas	NOUN	NN	SG;N	12	nsubj	12:nsubj	_
+8	will	will	AUX	MD	V;FIN	12	aux	12:aux	_
+9	now	now	ADV	RB	ADV	12	advmod	12:advmod	_
+10	be	be	AUX	VB	NFIN;V	12	cop	12:cop	_
+11	3,993,310	3993310	NUM	CD	NUM	12	nummod	12:nummod	SpaceAfter=No
+12	MMBTU	mmbtu	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	17:punct	_
+14	instead	instead	ADV	RB	ADV	17	case	17:case	_
+15	of	of	ADP	IN	ADP	14	fixed	14:fixed	_
+16	4,223,000	4223000	NUM	CD	NUM	17	nummod	17:nummod	SpaceAfter=No
+17	MMBTU	mmbtu	NOUN	NNS	PL;N	12	nmod	12:nmod:instead_of	CheckReln=obl|SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent28_01-0040
+# text = Enron's working gas will be reduced by 420,588MMBTU.
+1-2	Enron's	_	_	_	_	_	_	_	_
+1	Enron	Enron	PROPN	NNP	SG;PROPN	4	nmod:poss	4:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	working	work	VERB	VBG	V.MSDR;V	4	amod	4:amod	_
+4	gas	gas	NOUN	NN	SG;N	7	nsubj:pass	7:nsubj:pass	_
+5	will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+6	be	be	AUX	VB	NFIN;V	7	aux:pass	7:aux:pass	_
+7	reduced	reduce	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+8	by	by	ADP	IN	ADP	10	case	10:case	_
+9	420,588	420588	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+10	MMBTU	mmbtu	NOUN	NNS	PL;N	7	obl	7:obl:by	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent28_01-0041
+# newpar id = email-enronsent28_01-p0011
+# text = Call me if there are any questions.
+1	Call	call	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	ACC;PRO;1;SG	1	obj	1:obj	_
+3	if	if	SCONJ	IN	CONJ	5	mark	5:mark	_
+4	there	there	PRON	EX	PRO	5	expl	5:expl	_
+5	are	be	VERB	VBP	PL;V;3;FIN;PRS;IND	1	advcl	1:advcl:if	_
+6	any	any	DET	DT	DET	7	det	7:det	_
+7	questions	question	NOUN	NNS	PL;N	5	nsubj	5:nsubj	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_01-0042
+# newpar id = email-enronsent28_01-p0012
+# text = fyi
+1	fyi	fyi	ADV	RB	ADV	0	root	0:root	_
+
+# newdoc id = email-enronsent04_01
+# sent_id = email-enronsent04_01-0001
+# newpar id = email-enronsent04_01-p0001
+# text = yeah i got yelled at also.
+1	yeah	yeah	INTJ	UH	INTJ	4	discourse	4:discourse	_
+2	i	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj:pass	4:nsubj:pass	_
+3	got	get	AUX	VBD	V;1;PST;FIN;SG;IND	4	aux:pass	4:aux:pass	_
+4	yelled	yell	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+5	at	at	ADP	IN	ADP	4	obl	4:obl	Promoted=Yes
+6	also	also	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	4:punct	_
+

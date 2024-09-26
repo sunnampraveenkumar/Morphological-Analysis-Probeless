@@ -1,0 +1,70 @@
+# newdoc id = reviews-374000
+# sent_id = reviews-374000-0001
+# newpar id = reviews-374000-p0001
+# text = GREAT Store GREAT Service!
+1	GREAT	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Store	store	NOUN	NN	SG;N	0	root	0:root	_
+3	GREAT	great	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Service	service	NOUN	NN	SG;N	2	conj	2:conj	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-374000-0002
+# newpar id = reviews-374000-p0002
+# text = “This store is great!!
+1	“	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+2	This	this	DET	DT	DET;SG	3	det	3:det	_
+3	store	store	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+5	great	great	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	!!	!!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-374000-0003
+# text = I love walking in and not being hassled.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|3:nsubj:xsubj|8:nsubj:xsubj	_
+2	love	love	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	walking	walk	VERB	VBG	V;V.MSDR	2	xcomp	2:xcomp	_
+4	in	in	ADV	RB	ADV	3	advmod	3:advmod	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	not	not	PART	RB	PART	8	advmod	8:advmod	_
+7	being	be	AUX	VBG	PRS;V;V.PTCP	8	aux:pass	8:aux:pass	_
+8	hassled	hassle	VERB	VBN	PASS;V;V.PTCP;PST	3	conj	2:xcomp|3:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-374000-0004
+# text = I was there when they did a free raffle in August and I won a hard drive!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	cop	3:cop	_
+3	there	there	ADV	RB	ADV	0	root	0:root	_
+4	when	when	ADV	WRB	ADV	6	advmod	6:advmod	_
+5	they	they	PRON	PRP	PRO;3;PL;NOM	6	nsubj	6:nsubj	_
+6	did	do	VERB	VBD	FIN;3;PL;V;IND;PST	3	advcl	3:advcl:when	_
+7	a	a	DET	DT	DET;INDF	9	det	9:det	_
+8	free	free	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	raffle	raffle	NOUN	NN	SG;N	6	obj	6:obj	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	August	August	PROPN	NNP	SG;PROPN	6	obl	6:obl:in	_
+12	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+14	won	win	VERB	VBD	FIN;1;V;IND;SG;PST	3	conj	3:conj:and	_
+15	a	a	DET	DT	DET;INDF	17	det	17:det	_
+16	hard	hard	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	drive	drive	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+18	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-374000-0005
+# text = The reason I go back is because the employees are sooooo nice.”
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	reason	reason	NOUN	NN	SG;N	12	nsubj:outer	4:obl|12:nsubj:outer	_
+3	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+4	go	go	VERB	VBP	FIN;PRS;1;V;IND;SG	2	acl:relcl	2:acl:relcl	Cxn=rc-red-obl
+5	back	back	ADV	RB	ADV	4	advmod	4:advmod	_
+6	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	cop	12:cop	_
+7	because	because	SCONJ	IN	CONJ	12	mark	12:mark	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	employees	employee	NOUN	NNS	PL;N	12	nsubj	12:nsubj	_
+10	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	12	cop	12:cop	_
+11	sooooo	so	ADV	RB	ADV	12	advmod	12:advmod	CorrectForm=so
+12	nice	nice	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	12:punct	SpaceAfter=No
+14	”	"	PUNCT	''	_	12	punct	12:punct	_
+

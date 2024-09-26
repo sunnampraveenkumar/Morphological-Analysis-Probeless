@@ -1,0 +1,337 @@
+# sent_id = email-enronsent29_02-0044
+# text = Let me know if you are interested.
+1	Let	let	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	ACC;PRO;1;SG	1	obj	1:obj|3:nsubj:xsubj	_
+3	know	know	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+4	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	you	you	PRON	PRP	NOM;2;PRO	7	nsubj	7:nsubj	_
+6	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	7	cop	7:cop	_
+7	interested	interested	ADJ	JJ	ADJ	3	ccomp	3:ccomp	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent29_02-0045
+# text = Janette Elbertson Administrative Coordinator EWS Legal, EB3326 Telephone: (713) 853-7906 Facsimile: (713) 646-2600 e-mail address: janette.elbertson@enron.com
+1	Janette	Janette	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Elbertson	Elbertson	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Administrative	administrative	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Coordinator	coordinator	NOUN	NN	SG;N	1	appos	1:appos	_
+5	EWS	EWS	PROPN	NNP	SG;PROPN	6	compound	6:compound	_
+6	Legal	Legal	PROPN	NNP	SG;PROPN	1	list	1:list	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	EB3326	EB3326	NOUN	NN	SG;N	1	list	1:list	_
+9	Telephone	telephone	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+10	:	:	PUNCT	:	_	12	punct	12:punct	_
+11	(	(	PUNCT	-LRB-	_	12	punct	12:punct	SpaceAfter=No
+12	713	713	NUM	CD	NUM	9	appos	9:appos	SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
+14	853-7906	853-7906	NUM	CD	NUM	12	flat	12:flat	_
+15	Facsimile	facsimile	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+16	:	:	PUNCT	:	_	18	punct	18:punct	_
+17	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+18	713	713	NUM	CD	NUM	15	appos	15:appos	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	punct	18:punct	_
+20	646-2600	646-2600	NUM	CD	NUM	18	flat	18:flat	_
+21	e-mail	e-mail	NOUN	NN	SG;N	22	compound	22:compound	_
+22	address	address	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+23	:	:	PUNCT	:	_	24	punct	24:punct	_
+24	janette.elbertson@enron.com	janette.elbertson@enron.com	PROPN	ADD	PROPN	22	appos	22:appos	_
+
+# newdoc id = email-enronsent28_01
+# sent_id = email-enronsent28_01-0001
+# newpar id = email-enronsent28_01-p0001
+# text = Move-Team@ENRON
+1	Move-Team@ENRON	Move-Team@ENRON	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent28_01-0002
+# text = 09/20/2000 03:22 PM
+1	09/20/2000	09/20/2000	NUM	CD	NUM	0	root	0:root	_
+2	03:22	03:22	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0003
+# text = Sent by: John Salinardo@ENRON
+1	Sent	send	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	John	JohnSalinardo@ENRON	PROPN	GW	PROPN	1	obl:agent	1:obl:agent	_
+5	Salinardo@ENRON	_	X	ADD	_	4	goeswith	4:goeswith	_
+
+# sent_id = email-enronsent28_01-0004
+# text = it is to late for me to add changes.
+1	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	4	expl	4:expl	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	to	too	ADV	RB	ADV	4	advmod	4:advmod	CorrectForm=too
+4	late	late	ADJ	JJ	ADJ	0	root	0:root	_
+5	for	for	SCONJ	IN	CONJ	8	mark	8:mark	_
+6	me	I	PRON	PRP	ACC;PRO;1;SG	8	nsubj	8:nsubj	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	add	add	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+9	changes	change	NOUN	NNS	PL;N	8	obj	8:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0005
+# text = We will have to correct them after the churn.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	correct	correct	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	them	they	PRON	PRP	PL;ACC;PRO;3	5	obj	5:obj	_
+7	after	after	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	churn	churn	NOUN	NN	SG;N	5	obl	5:obl:after	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_01-0006
+# text = Thank you for you patience.
+1	Thank	thank	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	you	you	PRON	PRP	2;ACC;PRO	1	obj	1:obj	_
+3	for	for	ADP	IN	ADP	5	case	5:case	CheckAttachment=4
+4	you	your	PRON	PRP$	GEN;PRO;2	5	nmod:poss	5:nmod:poss	CorrectForm=your
+5	patience	patience	NOUN	NN	SG;N	1	obl	1:obl:for	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_01-0007
+# newpar id = email-enronsent28_01-p0002
+# text = The Dow topped out in February of 1966 at 995.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	Dow	Dow	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+3	topped	top	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+4	out	out	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	in	in	ADP	IN	ADP	6	case	6:case	_
+6	February	February	PROPN	NNP	SG;PROPN	3	obl	3:obl:in	_
+7	of	of	ADP	IN	ADP	8	case	8:case	_
+8	1966	1966	NUM	CD	NUM	6	nmod	6:nmod:of	_
+9	at	at	ADP	IN	ADP	10	case	10:case	_
+10	995	995	NUM	CD	NUM	3	obl	3:obl:at	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_01-0008
+# text = By September of that year the Dow had tumbled to 744.
+1	By	by	ADP	IN	ADP	2	case	2:case	_
+2	September	September	PROPN	NNP	SG;PROPN	9	obl	9:obl:by	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	that	that	DET	DT	SG;DET	5	det	5:det	_
+5	year	year	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	Dow	Dow	PROPN	NNP	SG;PROPN	9	nsubj	9:nsubj	_
+8	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	9	aux	9:aux	_
+9	tumbled	tumble	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	744	744	NUM	CD	NUM	9	obl	9:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent28_01-0009
+# text = The Dow then rallied to a high of 943 in September of '67.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	Dow	Dow	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+3	then	then	ADV	RB	ADV	4	advmod	4:advmod	_
+4	rallied	rally	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	high	high	NOUN	NN	SG;N	4	obl	4:obl:to	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	943	943	NUM	CD	NUM	7	nmod	7:nmod:of	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	September	September	PROPN	NNP	SG;PROPN	4	obl	4:obl:in	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	'67	'67	NUM	CD	NUM	11	nmod	11:nmod:of	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0010
+# text = By March of '68 the Dow had fallen to 825, only to climb to a highly speculative peak of 985 in December of '68.
+1	By	by	ADP	IN	ADP	2	case	2:case	_
+2	March	March	PROPN	NNP	SG;PROPN	8	obl	8:obl:by	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	'68	'68	NUM	CD	NUM	2	nmod	2:nmod:of	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	Dow	Dow	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+7	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	8	aux	8:aux	_
+8	fallen	fall	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+9	to	to	ADP	IN	ADP	10	case	10:case	_
+10	825	825	NUM	CD	NUM	8	obl	8:obl:to	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	only	only	ADV	RB	ADV	14	advmod	14:advmod	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	climb	climb	VERB	VB	NFIN;V	8	advcl	8:advcl:to	_
+15	to	to	ADP	IN	ADP	19	case	19:case	_
+16	a	a	DET	DT	INDF;DET	19	det	19:det	_
+17	highly	highly	ADV	RB	ADV	18	advmod	18:advmod	_
+18	speculative	speculative	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	peak	peak	NOUN	NN	SG;N	14	obl	14:obl:to	_
+20	of	of	ADP	IN	ADP	21	case	21:case	_
+21	985	985	NUM	CD	NUM	19	nmod	19:nmod:of	_
+22	in	in	ADP	IN	ADP	23	case	23:case	_
+23	December	December	PROPN	NNP	SG;PROPN	14	obl	14:obl:in	_
+24	of	of	ADP	IN	ADP	25	case	25:case	_
+25	'68	'68	NUM	CD	NUM	23	nmod	23:nmod:of	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent28_01-0011
+# text = The Dow then sank to 631 in December of '70.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	Dow	Dow	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+3	then	then	ADV	RB	ADV	4	advmod	4:advmod	_
+4	sank	sink	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	631	631	NUM	CD	NUM	4	obl	4:obl:to	_
+7	in	in	ADP	IN	ADP	8	case	8:case	_
+8	December	December	PROPN	NNP	SG;PROPN	4	obl	4:obl:in	_
+9	of	of	ADP	IN	ADP	10	case	10:case	_
+10	'70	'70	NUM	CD	NUM	8	nmod	8:nmod:of	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0012
+# text = By April of '71 the Dow had climbed back to 950, only to fall to 869 in February of '72.
+1	By	by	ADP	IN	ADP	2	case	2:case	_
+2	April	April	PROPN	NNP	SG;PROPN	8	obl	8:obl:by	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	'71	'71	NUM	CD	NUM	2	nmod	2:nmod:of	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	Dow	Dow	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+7	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	8	aux	8:aux	_
+8	climbed	climb	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+9	back	back	ADV	RB	ADV	8	advmod	8:advmod	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	950	950	NUM	CD	NUM	8	obl	8:obl:to	CheckAttachment=9|SpaceAfter=No
+12	,	,	PUNCT	,	_	15	punct	15:punct	_
+13	only	only	ADV	RB	ADV	15	advmod	15:advmod	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	fall	fall	VERB	VB	NFIN;V	8	advcl	8:advcl:to	_
+16	to	to	ADP	IN	ADP	17	case	17:case	_
+17	869	869	NUM	CD	NUM	15	obl	15:obl:to	_
+18	in	in	ADP	IN	ADP	19	case	19:case	_
+19	February	February	PROPN	NNP	SG;PROPN	15	obl	15:obl:in	_
+20	of	of	ADP	IN	ADP	21	case	21:case	_
+21	'72	'72	NUM	CD	NUM	19	nmod	19:nmod:of	SpaceAfter=No
+22	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent28_01-0013
+# text = A big rally then took the Dow (unconfirmed) to a record high of 1051 in January of '73, turning everyone bullish.
+1	A	a	DET	DT	INDF;DET	3	det	3:det	_
+2	big	big	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	rally	rally	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	then	then	ADV	RB	ADV	5	advmod	5:advmod	_
+5	took	take	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	Dow	Dow	PROPN	NNP	SG;PROPN	5	obj	5:obj	_
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+9	unconfirmed	unconfirmed	ADJ	JJ	ADJ	7	amod	7:amod	CheckReln=appos|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+11	to	to	ADP	IN	ADP	14	case	14:case	_
+12	a	a	DET	DT	INDF;DET	14	det	14:det	_
+13	record	record	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	high	high	NOUN	NN	SG;N	5	obl	5:obl:to	_
+15	of	of	ADP	IN	ADP	16	case	16:case	_
+16	1051	1051	NUM	CD	NUM	14	nmod	14:nmod:of	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	January	January	PROPN	NNP	SG;PROPN	5	obl	5:obl:in	_
+19	of	of	ADP	IN	ADP	20	case	20:case	_
+20	'73	'73	NUM	CD	NUM	18	nmod	18:nmod:of	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	turning	turn	VERB	VBG	PRS;V;V.PTCP	5	advcl	5:advcl	_
+23	everyone	everyone	PRON	NN	SG;PRO	22	obj	22:obj|24:nsubj:xsubj	_
+24	bullish	bullish	ADJ	JJ	ADJ	22	xcomp	22:xcomp	CheckAttachment=23|CheckReln=amod|SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent28_01-0014
+# text = But by December of '73 the Dow had collapsed to 788.
+1	But	but	CCONJ	CC	CONJ	9	cc	9:cc	_
+2	by	by	ADP	IN	ADP	3	case	3:case	_
+3	December	December	PROPN	NNP	SG;PROPN	9	obl	9:obl:by	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	'73	'73	NUM	CD	NUM	3	nmod	3:nmod:of	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	Dow	Dow	PROPN	NNP	SG;PROPN	9	nsubj	9:nsubj	_
+8	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	9	aux	9:aux	_
+9	collapsed	collapse	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	788	788	NUM	CD	NUM	9	obl	9:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent28_01-0015
+# text = Think that was bad - by December of '74 the Dow had sunk to a bear market low of 577.
+1	Think	think	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	that	that	PRON	DT	SG;PRO	4	nsubj	4:nsubj	_
+3	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	4	cop	4:cop	_
+4	bad	bad	ADJ	JJ	ADJ	1	ccomp	1:ccomp	_
+5	-	-	PUNCT	,	_	13	punct	13:punct	CheckAttachment=1
+6	by	by	ADP	IN	ADP	7	case	7:case	_
+7	December	December	PROPN	NNP	SG;PROPN	13	obl	13:obl:by	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	'74	'74	NUM	CD	NUM	7	nmod	7:nmod:of	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	Dow	Dow	PROPN	NNP	SG;PROPN	13	nsubj	13:nsubj	_
+12	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	13	aux	13:aux	_
+13	sunk	sink	VERB	VBN	PST;V;V.PTCP	1	parataxis	1:parataxis	_
+14	to	to	ADP	IN	ADP	18	case	18:case	_
+15	a	a	DET	DT	INDF;DET	18	det	18:det	_
+16	bear	bear	NOUN	NN	SG;N	17	compound	17:compound	_
+17	market	market	NOUN	NN	SG;N	18	compound	18:compound	_
+18	low	low	NOUN	NN	SG;N	13	obl	13:obl:to	_
+19	of	of	ADP	IN	ADP	20	case	20:case	_
+20	577	577	NUM	CD	NUM	18	nmod	18:nmod:of	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	13:punct	CheckAttachment=1
+
+# sent_id = email-enronsent28_01-0016
+# text = At that time, the gurus and geniuses of Wall Street were predicting a 250 Dow and many were talking openly about the end of capitalism.
+1	At	at	ADP	IN	ADP	3	case	3:case	_
+2	that	that	DET	DT	SG;DET	3	det	3:det	_
+3	time	time	NOUN	NN	SG;N	13	obl	13:obl:at	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	gurus	guru	NOUN	NNS	PL;N	13	nsubj	13:nsubj	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	geniuses	genius	NOUN	NNS	PL;N	6	conj	6:conj:and|13:nsubj	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	Wall	Wall	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+11	Street	Street	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:of	_
+12	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	13	aux	13:aux	_
+13	predicting	predict	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+14	a	a	DET	DT	INDF;DET	16	det	16:det	_
+15	250	250	NUM	CD	NUM	16	nummod	16:nummod	_
+16	Dow	Dow	PROPN	NNP	SG;PROPN	13	obj	13:obj	_
+17	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+18	many	many	ADJ	JJ	ADJ	20	nsubj	20:nsubj	_
+19	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	20	aux	20:aux	_
+20	talking	talk	VERB	VBG	PRS;V;V.PTCP	13	conj	13:conj:and	_
+21	openly	openly	ADV	RB	ADV	20	advmod	20:advmod	CheckAttachment=24
+22	about	about	ADP	IN	ADP	24	case	24:case	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	end	end	NOUN	NN	SG;N	20	obl	20:obl:about	_
+25	of	of	ADP	IN	ADP	26	case	26:case	_
+26	capitalism	capitalism	NOUN	NN	SG;N	24	nmod	24:nmod:of	SpaceAfter=No
+27	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = email-enronsent28_01-0017
+# text = Of course, that was the bottom
+1	Of	of	ADP	IN	ADP	7	advmod	7:advmod	_
+2	course	course	NOUN	NN	SG;N	1	fixed	1:fixed	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+4	that	that	PRON	DT	SG;PRO	7	nsubj	7:nsubj	_
+5	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	7	cop	7:cop	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	bottom	bottom	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = email-enronsent28_01-0018
+# newpar id = email-enronsent28_01-p0003
+# text = And that's the way the greatest bear market since the Depression worked its way down.
+1	And	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+3	's	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	way	way	NOUN	NN	SG;N	0	root	0:root|13:obl	_
+6	the	the	DET	DT	DEF;DET	9	det	9:det	_
+7	greatest	great	ADJ	JJS	RL;ADJ	9	amod	9:amod	_
+8	bear	bear	NOUN	NN	SG;N	9	compound	9:compound	_
+9	market	market	NOUN	NN	SG;N	13	nsubj	13:nsubj	_
+10	since	since	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	Depression	Depression	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:since	_
+13	worked	work	VERB	VBD	PST;V;3;FIN;SG;IND	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+14	its	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	15	nmod:poss	15:nmod:poss	_
+15	way	way	NOUN	NN	SG;N	13	obj	13:obj	_
+16	down	down	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+

@@ -1,0 +1,237 @@
+# sent_id = train-s1225
+# text = 明治四十三年（1910年），櫟社於台中舉行「庚戌春會」，次年邀請梁啟超來訪。
+# translit = míngzhìsìshísānnián(1910nián),櫟shèyútáizhōngjǔxíng‘庚戌chūnhuì’,cìniányāoqǐngliángqǐchāoláifǎng.
+1	明治	明治	PROPN	NNP	PROPN	3	nmod	_	SpaceAfter=No|Translit=míngzhì|LTranslit=míngzhì
+2	四十三	四十三	NUM	CD	NUM	3	nummod	_	SpaceAfter=No|Translit=sìshísān|LTranslit=sìshísān
+3	年	年	NOUN	NNB	N	19	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+4	（	（	PUNCT	(	_	6	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+5	1910	1910	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=1910|LTranslit=1910
+6	年	年	NOUN	NNB	N	3	appos	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+7	）	）	PUNCT	)	_	6	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+8	，	，	PUNCT	,	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+9	櫟社	櫟社	PROPN	NNP	PROPN	19	nsubj	_	SpaceAfter=No|Translit=櫟shè|LTranslit=櫟shè
+10	於	於	VERB	VV	V	12	advcl	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+11	台中	台中	PROPN	NNP	PROPN	10	obj	_	SpaceAfter=No|Translit=táizhōng|LTranslit=táizhōng
+12	舉行	舉行	VERB	VV	V	19	advcl	_	SpaceAfter=No|Translit=jǔxíng|LTranslit=jǔxíng
+13	「	「	PUNCT	``	_	15	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+14	庚戌	庚戌	NOUN	NN	N	15	nmod	_	SpaceAfter=No|Translit=庚戌|LTranslit=庚戌
+15	春會	春會	NOUN	NN	N	12	obj	_	SpaceAfter=No|Translit=chūnhuì|LTranslit=chūnhuì
+16	」	」	PUNCT	''	_	15	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+17	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	次年	次年	NOUN	NN	N	19	nmod:tmod	_	SpaceAfter=No|Translit=cìnián|LTranslit=cìnián
+19	邀請	邀請	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=yāoqǐng|LTranslit=yāoqǐng
+20	梁	梁	PROPN	NNP	PROPN	22	nsubj	_	SpaceAfter=No|Translit=liáng|LTranslit=liáng
+21	啟超	啟超	PROPN	NNP	PROPN	20	flat:name	_	SpaceAfter=No|Translit=qǐchāo|LTranslit=qǐchāo
+22	來訪	來訪	VERB	VV	V	19	ccomp	_	SpaceAfter=No|Translit=láifǎng|LTranslit=láifǎng
+23	。	。	PUNCT	.	_	19	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1226
+# text = 但兩人性格皆高傲不群，始終不願向對方坦然表達愛意，以致未能長相廝守。
+# translit = dànliǎngrénxìnggéjiēgāo'àobùqún,shǐzhōngbù願xiàngduìfāngtǎnránbiǎodá'àiyì,yǐzhìwèinéngzhǎngxiāng廝shǒu.
+1	但	但	SCONJ	RB	CONJ	6	mark	_	SpaceAfter=No|Translit=dàn|LTranslit=dàn
+2	兩	兩	NUM	CD	NUM	3	nummod	_	SpaceAfter=No|Translit=liǎng|LTranslit=liǎng
+3	人	人	NOUN	NN	N	4	nmod	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+4	性格	性格	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=xìnggé|LTranslit=xìnggé
+5	皆	皆	ADV	RB	ADV	6	advmod	_	SpaceAfter=No|Translit=jiē|LTranslit=jiē
+6	高傲不群	高傲不群	ADJ	JJ	ADJ	0	root	_	SpaceAfter=No|Translit=gāo'àobùqún|LTranslit=gāo'àobùqún
+7	，	，	PUNCT	,	_	13	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	始終	始終	ADV	RB	ADV	13	advmod	_	SpaceAfter=No|Translit=shǐzhōng|LTranslit=shǐzhōng
+9	不願	願	AUX	MD	NEG;V	13	aux	_	SpaceAfter=No|Translit=bù願|LTranslit=願
+10	向	向	ADP	IN	ADP	11	case	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
+11	對方	對方	PRON	PRD	PRO	13	obl	_	SpaceAfter=No|Translit=duìfāng|LTranslit=duìfāng
+12	坦然	坦然	ADV	RB	ADV	13	advmod	_	SpaceAfter=No|Translit=tǎnrán|LTranslit=tǎnrán
+13	表達	表達	VERB	VV	V	6	parataxis	_	SpaceAfter=No|Translit=biǎodá|LTranslit=biǎodá
+14	愛意	愛意	NOUN	NN	N	13	obj	_	SpaceAfter=No|Translit='àiyì|LTranslit='àiyì
+15	，	，	PUNCT	,	_	16	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+16	以致	以致	VERB	VV	V	6	parataxis	_	SpaceAfter=No|Translit=yǐzhì|LTranslit=yǐzhì
+17	未能	能	AUX	MD	NEG;V	19	aux	_	SpaceAfter=No|Translit=wèinéng|LTranslit=néng
+18	長相	長相	ADV	RB	ADV	19	advmod	_	SpaceAfter=No|Translit=zhǎngxiāng|LTranslit=zhǎngxiāng
+19	廝守	廝守	VERB	VV	V	16	xcomp	_	SpaceAfter=No|Translit=廝shǒu|LTranslit=廝shǒu
+20	。	。	PUNCT	.	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1227
+# text = 而他在另一部電影《人嚇人》中飾演的老弱道士，其活靈活現的演出也使人刮目相看。
+# translit = 'értāzàilìngyībùdiànyǐng«rénxiàrén»zhōngshìyǎndelǎoruòdàoshì,qíhuólínghuóxiàndeyǎnchūyěshǐrénguāmùxiāngkàn.
+1	而	而	SCONJ	RB	CONJ	16	mark	_	SpaceAfter=No|Translit='ér|LTranslit='ér
+2	他	他	PRON	PRP	3;PRO	13	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+3	在	在	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+4	另	另	DET	DT	DET	6	det	_	SpaceAfter=No|Translit=lìng|LTranslit=lìng
+5	一	一	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+6	部	部	NOUN	NNB	N	7	nmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+7	電影	電影	NOUN	NN	N	13	obl	_	SpaceAfter=No|Translit=diànyǐng|LTranslit=diànyǐng
+8	《	《	PUNCT	(	_	10	punct	_	SpaceAfter=No|Translit=«|LTranslit=«
+9	人	人	NOUN	NN	N	10	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+10	嚇人	嚇人	VERB	VV	V	7	appos	_	SpaceAfter=No|Translit=xiàrén|LTranslit=xiàrén
+11	》	》	PUNCT	)	_	10	punct	_	SpaceAfter=No|Translit=»|LTranslit=»
+12	中	中	ADP	IN	ADP	10	advcl	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+13	飾演	飾演	VERB	VV	V	16	acl:relcl	_	SpaceAfter=No|Translit=shìyǎn|LTranslit=shìyǎn
+14	的	的	SCONJ	DEC	CONJ	13	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+15	老弱	老弱	ADJ	JJ	ADJ	16	amod	_	SpaceAfter=No|Translit=lǎoruò|LTranslit=lǎoruò
+16	道士	道士	NOUN	NN	N	0	root	_	SpaceAfter=No|Translit=dàoshì|LTranslit=dàoshì
+17	，	，	PUNCT	,	_	23	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	其	其	PRON	PRP	3;PRO	21	nmod	_	SpaceAfter=No|Translit=qí|LTranslit=qí
+19	活靈活現	活靈活現	ADJ	JJ	ADJ	21	amod	_	SpaceAfter=No|Translit=huólínghuóxiàn|LTranslit=huólínghuóxiàn
+20	的	的	SCONJ	DEC	CONJ	19	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+21	演出	演出	NOUN	NN	N	23	nsubj	_	SpaceAfter=No|Translit=yǎnchū|LTranslit=yǎnchū
+22	也	也	SCONJ	RB	CONJ	23	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+23	使	使	VERB	VV	V;CAUS	16	parataxis	_	SpaceAfter=No|Translit=shǐ|LTranslit=shǐ
+24	人	人	NOUN	NN	N	25	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+25	刮目相看	刮目相看	VERB	VV	V	23	ccomp	_	SpaceAfter=No|Translit=guāmùxiāngkàn|LTranslit=guāmùxiāngkàn
+26	。	。	PUNCT	.	_	16	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1228
+# text = 在此國際記者會，外交部長林永樂表示菲國已釋出善意回應，暫緩制裁。
+# translit = zàicǐguójìjìzhěhuì,wàijiāobùzhǎnglínyǒnglèbiǎoshìfēiguóyǐshìchūshànyìhuíyīng,zànhuǎnzhìcái.
+1	在	在	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	此	此	DET	DT	DET	5	det	_	SpaceAfter=No|Translit=cǐ|LTranslit=cǐ
+3	國際	國際	NOUN	NN	N	5	nmod	_	SpaceAfter=No|Translit=guójì|LTranslit=guójì
+4	記者	記者	NOUN	NN	N	5	compound	_	SpaceAfter=No|Translit=jìzhě|LTranslit=jìzhě
+5	會	會	PART	SFN	PART	11	obl	_	SpaceAfter=No|Translit=huì|LTranslit=huì
+6	，	，	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	外交	外交	NOUN	NN	N	8	nmod	_	SpaceAfter=No|Translit=wàijiāo|LTranslit=wàijiāo
+8	部長	部長	NOUN	NN	N	11	nsubj	_	SpaceAfter=No|Translit=bùzhǎng|LTranslit=bùzhǎng
+9	林	林	PROPN	NNP	PROPN	8	appos	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+10	永樂	永樂	PROPN	NNP	PROPN	9	flat:name	_	SpaceAfter=No|Translit=yǒnglè|LTranslit=yǒnglè
+11	表示	表示	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=biǎoshì|LTranslit=biǎoshì
+12	菲國	菲國	PROPN	NNP	PROPN	18	nsubj	_	SpaceAfter=No|Translit=fēiguó|LTranslit=fēiguó
+13	已	已	ADV	RB	ADV	14	advmod	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+14	釋出	釋出	VERB	VV	V	18	advcl	_	SpaceAfter=No|Translit=shìchū|LTranslit=shìchū
+15	善意	善意	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=shànyì|LTranslit=shànyì
+16	回應	回應	NOUN	NN	N	14	obj	_	SpaceAfter=No|Translit=huíyīng|LTranslit=huíyīng
+17	，	，	PUNCT	,	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	暫緩	暫緩	VERB	VV	V	11	ccomp	_	SpaceAfter=No|Translit=zànhuǎn|LTranslit=zànhuǎn
+19	制裁	制裁	NOUN	NN	N	18	obj	_	SpaceAfter=No|Translit=zhìcái|LTranslit=zhìcái
+20	。	。	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1229
+# text = 自80年代中期以來林益一直活躍在系統科學研究領域。
+# translit = zì80niándàizhōngqīyǐláilínyìyīzhíhuóyuèzàixìtǒngkēxuéyánjiūlǐngyù.
+1	自	自	ADP	IN	ADP	4	case	_	SpaceAfter=No|Translit=zì|LTranslit=zì
+2	80	80	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=80|LTranslit=80
+3	年代	年代	NOUN	NNB	N	2	clf	_	SpaceAfter=No|Translit=niándài|LTranslit=niándài
+4	中期	中期	NOUN	NN	N	9	obl	_	SpaceAfter=No|Translit=zhōngqī|LTranslit=zhōngqī
+5	以來	以來	ADP	IN	ADP	4	case	_	SpaceAfter=No|Translit=yǐlái|LTranslit=yǐlái
+6	林	林	PROPN	NNP	PROPN	9	nsubj	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+7	益	益	PROPN	NNP	PROPN	6	flat:name	_	SpaceAfter=No|Translit=yì|LTranslit=yì
+8	一直	一直	ADV	RB	ADV	9	advmod	_	SpaceAfter=No|Translit=yīzhí|LTranslit=yīzhí
+9	活躍	活躍	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=huóyuè|LTranslit=huóyuè
+10	在	在	VERB	VV	V	9	mark	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+11	系統	系統	NOUN	NN	N	14	nmod	_	SpaceAfter=No|Translit=xìtǒng|LTranslit=xìtǒng
+12	科學	科學	NOUN	NN	N	14	nmod	_	SpaceAfter=No|Translit=kēxué|LTranslit=kēxué
+13	研究	研究	NOUN	NN	N	14	nmod	_	SpaceAfter=No|Translit=yánjiū|LTranslit=yánjiū
+14	領域	領域	NOUN	NN	N	9	obj	_	SpaceAfter=No|Translit=lǐngyù|LTranslit=lǐngyù
+15	。	。	PUNCT	.	_	9	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1230
+# text = 1934年11月12日，林直勉因肺病逝世（一說病逝於1935年）。
+# translit = 1934nián11yuè12rì,línzhímiǎnyīnfèibìngshìshì(yīshuōbìngshìyú1935nián).
+1	1934	1934	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=1934|LTranslit=1934
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	11	11	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=11|LTranslit=11
+4	月	月	NOUN	NNB	N	3	clf	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	12	12	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=12|LTranslit=12
+6	日	日	NOUN	NNB	N	12	nmod:tmod	_	SpaceAfter=No|Translit=rì|LTranslit=rì
+7	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	林	林	PROPN	NNP	PROPN	12	nsubj	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+9	直勉	直勉	PROPN	NNP	PROPN	8	flat:name	_	SpaceAfter=No|Translit=zhímiǎn|LTranslit=zhímiǎn
+10	因	因	ADP	IN	ADP	11	case	_	SpaceAfter=No|Translit=yīn|LTranslit=yīn
+11	肺病	肺病	NOUN	NN	N	12	obl	_	SpaceAfter=No|Translit=fèibìng|LTranslit=fèibìng
+12	逝世	逝世	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shìshì|LTranslit=shìshì
+13	（	（	PUNCT	(	_	15	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+14	一	一	NUM	CD	NUM	15	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+15	說	說	NOUN	NN	N	12	parataxis	_	SpaceAfter=No|Translit=shuō|LTranslit=shuō
+16	病逝	病逝	VERB	VV	V	15	appos	_	SpaceAfter=No|Translit=bìngshì|LTranslit=bìngshì
+17	於	於	ADP	IN	ADP	19	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+18	1935	1935	NUM	CD	NUM	19	nummod	_	SpaceAfter=No|Translit=1935|LTranslit=1935
+19	年	年	NOUN	NNB	N	16	obl	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+20	）	）	PUNCT	)	_	15	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+21	。	。	PUNCT	.	_	12	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1231
+# text = 林秀怡（，），生於香港，於第23期無綫電視藝員訓練班畢業後成為無綫電視（TVB）藝員。
+# translit = línxiù怡(,),shēngyúxiānggǎng,yúdì23qīwú綫diànshìyìyuánxunliànbānbìyèhòuchéngwèiwú綫diànshì(TVB)yìyuán.
+1	林	林	PROPN	NNP	PROPN	21	nsubj	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+2	秀怡	秀怡	PROPN	NNP	PROPN	1	flat:name	_	SpaceAfter=No|Translit=xiù怡|LTranslit=xiù怡
+3	（	（	PUNCT	(	_	1	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+4	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	）	）	PUNCT	)	_	1	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+6	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	生	生	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=shēng|LTranslit=shēng
+8	於	於	VERB	VV	V	7	mark	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+9	香港	香港	PROPN	NNP	PROPN	7	obj	_	SpaceAfter=No|Translit=xiānggǎng|LTranslit=xiānggǎng
+10	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	於	於	ADP	IN	ADP	18	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+12	第23	第23	NUM	CD	NUM	13	nummod	_	SpaceAfter=No|Translit=dì23|LTranslit=dì23
+13	期	期	NOUN	NNB	N	18	nmod	_	SpaceAfter=No|Translit=qī|LTranslit=qī
+14	無綫	無綫	PROPN	NNP	PROPN	15	nmod	_	SpaceAfter=No|Translit=wú綫|LTranslit=wú綫
+15	電視	電視	NOUN	NN	N	18	nmod	_	SpaceAfter=No|Translit=diànshì|LTranslit=diànshì
+16	藝員	藝員	NOUN	NN	N	18	nmod	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
+17	訓練	訓練	VERB	VV	V	18	compound	_	SpaceAfter=No|Translit=xunliàn|LTranslit=xunliàn
+18	班	班	PART	SFN	PART	19	obl	_	SpaceAfter=No|Translit=bān|LTranslit=bān
+19	畢業	畢業	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=bìyè|LTranslit=bìyè
+20	後	後	ADP	IN	ADP	19	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+21	成	成	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chéng|LTranslit=chéng
+22	為	為	VERB	VC	V	21	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+23	無綫	無綫	PROPN	NNP	PROPN	24	nmod	_	SpaceAfter=No|Translit=wú綫|LTranslit=wú綫
+24	電視	電視	NOUN	NN	N	28	nmod	_	SpaceAfter=No|Translit=diànshì|LTranslit=diànshì
+25	（	（	PUNCT	(	_	26	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+26	TVB	TVB	X	FW	_	24	appos	_	SpaceAfter=No|Translit=TVB|LTranslit=TVB
+27	）	）	PUNCT	)	_	26	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+28	藝員	藝員	NOUN	NN	N	21	obj	_	SpaceAfter=No|Translit=yìyuán|LTranslit=yìyuán
+29	。	。	PUNCT	.	_	21	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1232
+# text = 館前的林語堂先生的塑像是由雕塑家李維祀教授設計製作的。
+# translit = guǎnqiándelínyǔtángxiānshēngdesùxiàngshìyóudiāosùjiāliwéi祀jiàoshòushèjìzhìzuòde.
+1	館前	館前	NOUN	NN	N	7	nmod	_	SpaceAfter=No|Translit=guǎnqián|LTranslit=guǎnqián
+2	的	的	PART	DEC	PART;GEN	1	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+3	林	林	PROPN	NNP	PROPN	5	nmod	_	SpaceAfter=No|Translit=lín|LTranslit=lín
+4	語堂	語堂	PROPN	NNP	PROPN	5	nmod	_	SpaceAfter=No|Translit=yǔtáng|LTranslit=yǔtáng
+5	先生	先生	NOUN	NN	N	7	nmod	_	SpaceAfter=No|Translit=xiānshēng|LTranslit=xiānshēng
+6	的	的	PART	DEC	PART;GEN	5	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+7	塑像	塑像	NOUN	NN	N	8	nsubj	_	SpaceAfter=No|Translit=sùxiàng|LTranslit=sùxiàng
+8	是	是	VERB	VC	V	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+9	由	由	VERB	VV	V	8	xcomp	_	SpaceAfter=No|Translit=yóu|LTranslit=yóu
+10	雕塑	雕塑	VERB	VV	V	11	compound	_	SpaceAfter=No|Translit=diāosù|LTranslit=diāosù
+11	家	家	PART	SFN	PART	16	nsubj	_	SpaceAfter=No|Translit=jiā|LTranslit=jiā
+12	李	李	PROPN	NNP	PROPN	14	nmod	_	SpaceAfter=No|Translit=li|LTranslit=li
+13	維祀	維祀	PROPN	NNP	PROPN	14	nmod	_	SpaceAfter=No|Translit=wéi祀|LTranslit=wéi祀
+14	教授	教授	NOUN	NN	N	11	appos	_	SpaceAfter=No|Translit=jiàoshòu|LTranslit=jiàoshòu
+15	設計	設計	VERB	VV	V	16	advcl	_	SpaceAfter=No|Translit=shèjì|LTranslit=shèjì
+16	製作	製作	VERB	VV	V	9	ccomp	_	SpaceAfter=No|Translit=zhìzuò|LTranslit=zhìzuò
+17	的	的	PART	UH	PART	8	discourse	_	SpaceAfter=No|Translit=de|LTranslit=de
+18	。	。	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1233
+# text = 1961年08月，在教總理事擴大會議上秘指當年曾爭取到拉薩答應不把「最後目標」列入教育法令中。
+# translit = 1961nián08yuè,zàijiàozǒnglǐshìkuòdàhuìyìshàngmìzhǐdāngniáncéngzhēngqǔdàolāsàdáyīngbùbǎ‘zuìhòumùbiāo’lièrùjiàoyùfǎlìngzhōng.
+1	1961	1961	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=1961|LTranslit=1961
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	08	08	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=08|LTranslit=08
+4	月	月	NOUN	NNB	N	12	nmod:tmod	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	，	，	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	在	在	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+7	教總	教總	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=jiàozǒng|LTranslit=jiàozǒng
+8	理事	理事	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=lǐshì|LTranslit=lǐshì
+9	擴大	擴大	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=kuòdà|LTranslit=kuòdà
+10	會議	會議	NOUN	NN	N	12	obl	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
+11	上	上	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+12	秘指	秘指	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=mìzhǐ|LTranslit=mìzhǐ
+13	當年	當年	NOUN	NN	N	15	nmod:tmod	_	SpaceAfter=No|Translit=dāngnián|LTranslit=dāngnián
+14	曾	曾	ADV	RB	ADV	15	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+15	爭取	爭取	VERB	VV	V	12	xcomp	_	SpaceAfter=No|Translit=zhēngqǔ|LTranslit=zhēngqǔ
+16	到	到	VERB	VV	V	15	mark	_	SpaceAfter=No|Translit=dào|LTranslit=dào
+17	拉薩	拉薩	PROPN	NNP	PROPN	18	nsubj	_	SpaceAfter=No|Translit=lāsà|LTranslit=lāsà
+18	答應	答應	VERB	VV	V	15	ccomp	_	SpaceAfter=No|Translit=dáyīng|LTranslit=dáyīng
+19	不	不	ADV	RB	NEG;ADV	25	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+20	把	把	ADP	BB	ADP	23	case	_	SpaceAfter=No|Translit=bǎ|LTranslit=bǎ
+21	「	「	PUNCT	``	_	23	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+22	最後	最後	NOUN	NN	N	23	nmod	_	SpaceAfter=No|Translit=zuìhòu|LTranslit=zuìhòu
+23	目標	目標	NOUN	NN	N	25	obl:patient	_	SpaceAfter=No|Translit=mùbiāo|LTranslit=mùbiāo
+24	」	」	PUNCT	''	_	23	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+25	列入	列入	VERB	VV	V	18	xcomp	_	SpaceAfter=No|Translit=lièrù|LTranslit=lièrù
+26	教育	教育	NOUN	NN	N	27	nmod	_	SpaceAfter=No|Translit=jiàoyù|LTranslit=jiàoyù
+27	法令	法令	NOUN	NN	N	25	iobj	_	SpaceAfter=No|Translit=fǎlìng|LTranslit=fǎlìng
+28	中	中	ADP	IN	ADP	27	case	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+29	。	。	PUNCT	.	_	12	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

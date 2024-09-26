@@ -1,0 +1,281 @@
+# sent_id = 4096
+# text = על קובה עובר כעת משבר כלכלי קשה ביותר, כיוון שהסיוע מהגוש המזרחי לשעבר נפסק.
+1	על	על	ADP	ADP	ADP	2	case	_	_
+2	קובה	קובה	PROPN	PROPN	PROPN	3	obl	_	_
+3	עובר	עבר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+4	כעת	כעת	ADV	ADV	ADV	3	advmod	_	_
+5	משבר	משבר	NOUN	NOUN	MASC;SG;N	3	nsubj	_	_
+6	כלכלי	כלכלי	ADJ	ADJ	MASC;SG;ADJ	5	amod	_	_
+7	קשה	קשה	ADJ	ADJ	MASC;SG;ADJ	5	amod	_	_
+8	ביותר	ביותר	ADV	ADV	ADV	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	3	punct	_	_
+10	כיוון	כיוון	SCONJ	SCONJ	CONJ	20	case	_	_
+11-13	שהסיוע	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	CONJ	20	mark	_	_
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	סיוע	סיוע	NOUN	NOUN	MASC;SG;N	20	nsubj	_	_
+14-16	מהגוש	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	ADP	16	case	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	גוש	גוש	NOUN	NOUN	MASC;SG;N	13	nmod	_	_
+17-18	המזרחי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	DET	18	det	_	_
+18	מזרחי	מזרחי	ADJ	ADJ	MASC;SG;ADJ	16	amod	_	_
+19	לשעבר	לשעבר	ADV	ADV	ADV	16	advmod	_	_
+20	נפסק	נפסק	VERB	VERB	SG;V;3;MID;MASC;PST	3	obl	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4097
+# text = יהיו לכך גם תוצאות פוליטיות.
+1	יהיו	היה	VERB	VERB	POS;PL;V;3;{FEM/MASC};FUT	0	root	_	_
+2-3	לכך	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	ADP	3	case	_	_
+3	כך	כך	PRON	PRON	PRO;3	1	obl	_	_
+4	גם	גם	ADV	ADV	ADV	1	advmod	_	_
+5	תוצאות	תוצאה	NOUN	NOUN	N;PL;FEM	1	nsubj	_	_
+6	פוליטיות	פוליטי	ADJ	ADJ	FEM;PL;ADJ	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 4098
+# text = אך לדעתי, אין שום סימן לכך שהשפעות אלו יביאו לרפורמות במפלגה הקומוניסטית, כלומר לדמוקרטיזציה מהותית.
+1	אך	אך	CCONJ	CCONJ	CONJ	7	cc	_	_
+2-5	לדעתי	_	_	_	_	_	_	_	SpaceAfter=No
+2	ל	ל	ADP	ADP	ADP	3	case	_	_
+3	דעה_	דעה	NOUN	NOUN	SG;FEM;N;DEF	7	obl	_	_
+4	_של_	של	ADP	ADP	ADP	5	case:gen	_	_
+5	_אני	הוא	PRON	PRON	SG;GEN;1;{FEM/MASC};PRO	3	nmod:poss	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	אין	אין	VERB	VERB	V	0	root	_	_
+8	שום	שום	DET	DET	PSSD;DET	9	det	_	_
+9	סימן	סימן	NOUN	NOUN	MASC;SG;N	7	nsubj	_	_
+10-11	לכך	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	ADP	11	case	_	_
+11	כך	כך	PRON	PRON	PRO;3	9	nmod	_	_
+12-13	שהשפעות	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	CONJ	15	mark	_	_
+13	השפעות	השפעה	NOUN	NOUN	N;PL;FEM	15	nsubj	_	_
+14	אלו	אלו	PRON	PRON	PL;{FEM/MASC};3;PRO	13	det	_	_
+15	יביאו	הביא	VERB	VERB	ACT;PL;V;3;{FEM/MASC};FUT	11	acl:relcl	_	_
+16-17	לרפורמות	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	ADP	17	case	_	_
+17	רפורמות	רפורמה	NOUN	NOUN	N;PL;FEM	15	obl	_	_
+18-20	במפלגה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	ADP	20	case	_	_
+19	ה_	ה	DET	DET	DET	20	det	_	_
+20	מפלגה	מפלגה	NOUN	NOUN	SG;N;FEM	17	nmod	_	_
+21-22	הקומוניסטית	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	DET	22	det	_	_
+22	קומוניסטית	קומוניסטי	ADJ	ADJ	SG;FEM;ADJ	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	15	punct	_	_
+24	כלומר	כלומר	ADV	ADV	ADV	25	advmod	_	_
+25-26	לדמוקרטיזציה	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	ADP	26	case	_	_
+26	דמוקרטיזציה	דמוקרטיזציה	NOUN	NOUN	SG;N;FEM	15	obl	_	_
+27	מהותית	מהותי	ADJ	ADJ	SG;FEM;ADJ	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 4099
+# text = ברור שגם פידל קסטרו עשה שגיאות שעמו יזקוף לחובתו, אבל הוא פעל תמיד ביושר מרבי.
+1	ברור	ברור	ADJ	ADJ	MASC;SG;ADJ	0	root	_	_
+2-3	שגם	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	CONJ	6	mark	_	_
+3	גם	גם	ADV	ADV	ADV	4	advmod	_	_
+4	פידל	פידל	PROPN	PROPN	PROPN	6	nsubj	_	_
+5	קסטרו	קסטרו	PROPN	PROPN	PROPN	4	flat:name	_	_
+6	עשה	עשה	VERB	VERB	SG;ACT;V;3;MASC;PST	1	advcl	_	_
+7	שגיאות	שגיאה	NOUN	NOUN	N;PL;FEM	6	obj	_	_
+8-11	שעמו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	CONJ	12	mark	_	_
+9	עם_	עם	NOUN	NOUN	MASC;SG;N;DEF	12	nsubj	_	_
+10	_של_	של	ADP	ADP	ADP	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	9	nmod:poss	_	_
+12	יזקוף	זקף	VERB	VERB	SG;ACT;V;3;FUT;MASC	7	acl:relcl	_	_
+13-16	לחובתו	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	ADP	14	case	_	_
+14	חובה_	חובה	NOUN	NOUN	SG;FEM;N;DEF	12	obl	_	_
+15	_של_	של	ADP	ADP	ADP	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	14	nmod:poss	_	_
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	אבל	אבל	CCONJ	CCONJ	CONJ	20	cc	_	_
+19	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	20	nsubj	_	_
+20	פעל	פעל	VERB	VERB	SG;ACT;V;3;MASC;PST	1	conj	_	_
+21	תמיד	תמיד	ADV	ADV	ADV	20	advmod	_	_
+22-23	ביושר	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	ADP	23	case	_	_
+23	יושר	יושר	NOUN	NOUN	MASC;SG;N	20	obl	_	_
+24	מרבי	מרבי	ADJ	ADJ	MASC;SG;ADJ	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 4100
+# text = אנו מחויבים לתמיכה פוליטית ומוסרית באף-אם-אל-אן.
+1	אנו	הוא	PRON	PRON	PL;1;{FEM/MASC};PRO	2	nsubj	_	_
+2	מחויבים	חויב	VERB	VERB	{1/2/3};PL;V;PASS;MASC;V.PTCP	0	root	_	_
+3-4	לתמיכה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	ADP	4	case	_	_
+4	תמיכה	תמיכה	NOUN	NOUN	SG;N;FEM	2	obl	_	_
+5	פוליטית	פוליטי	ADJ	ADJ	SG;FEM;ADJ	4	amod	_	_
+6-7	ומוסרית	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	CONJ	7	cc	_	_
+7	מוסרית	מוסרי	ADJ	ADJ	SG;FEM;ADJ	5	conj	_	_
+8-10	באף	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	ADP	10	case	_	_
+9	ה_	ה	DET	DET	DET	10	det	_	_
+10	אף	אף	NOUN	NOUN	MASC;SG;N	4	nmod	_	_
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	אם	אם	NOUN	NOUN	SG;N;FEM	10	flat:name	_	SpaceAfter=No
+13	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+14	אל	אל	PROPN	PROPN	PROPN	10	flat:name	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+16	אן	אן	PROPN	PROPN	PROPN	10	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 4101
+# text = בעיקר אנו מסייעים בחיפוש אחר פתרון פוליטי לבעיות באל סלוודור.
+1	בעיקר	בעיקר	ADV	ADV	ADV	3	advmod	_	_
+2	אנו	הוא	PRON	PRON	PL;1;{FEM/MASC};PRO	3	nsubj	_	_
+3	מסייעים	סייע	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+4-5	בחיפוש	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	חיפוש	חיפוש	NOUN	NOUN	MASC;SG;N	3	obl	_	_
+6	אחר	אחר	ADP	ADP	ADP	7	case	_	_
+7	פתרון	פתרון	NOUN	NOUN	MASC;SG;N	5	nmod	_	_
+8	פוליטי	פוליטי	ADJ	ADJ	MASC;SG;ADJ	7	amod	_	_
+9-11	לבעיות	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	ADP	11	case	_	_
+10	ה_	ה	DET	DET	DET	11	det	_	_
+11	בעיות	בעיה	NOUN	NOUN	N;PL;FEM	7	nmod	_	_
+12-13	באל	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	13	case	_	_
+13	אל	אל	PROPN	PROPN	PROPN	11	nmod	_	_
+14	סלוודור	סלוודור	PROPN	PROPN	PROPN	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4102
+# text = בכך מאשימים אותנו.
+1-2	בכך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	2	case	_	_
+2	כך	כך	PRON	PRON	PRO;3	3	obl	_	_
+3	מאשימים	האשים	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+4-5	אותנו	_	_	_	_	_	_	_	SpaceAfter=No
+4	את_	את	ADP	ADP	ADP;ACC	5	case:acc	_	_
+5	_אנחנו	הוא	PRON	PRON	PL;1;{FEM/MASC};PRO	3	obj	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4103
+# text = אבל על אף יעילותו המהוללת של הסי-איי-אי, הוא לא הצליח מעולם להוכיח שאספקה כזאת אכן קיימת.
+1	אבל	אבל	CCONJ	CCONJ	CONJ	19	cc	_	_
+2	על	על	ADP	ADP	ADP	4	case	_	_
+3	אף	אף	CCONJ	CCONJ	CONJ	2	fixed	_	_
+4-6	יעילותו	_	_	_	_	_	_	_	_
+4	יעילות_	יעילות	NOUN	NOUN	SG;FEM;N;DEF	19	obl	_	_
+5	_של_	של	ADP	ADP	ADP	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	4	nmod:poss	_	_
+7-8	המהוללת	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	מהוללת	_	ADJ	ADJ	ADJ	4	amod	_	_
+9	של	של	ADP	ADP	ADP;GEN	11	case:gen	_	_
+10-11	הסי	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	סי	סי	PROPN	PROPN	PROPN	4	nmod:poss	_	_
+12	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	איי	איי	PROPN	PROPN	PROPN	11	flat:name	_	SpaceAfter=No
+14	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+15	אי	אי	NOUN	NOUN	MASC;SG;N	11	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	19	nsubj	_	_
+18	לא	לא	ADV	ADV	NEG;ADV	19	advmod	_	_
+19	הצליח	הצליח	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+20	מעולם	מעולם	ADV	ADV	ADV	19	advmod	_	_
+21	להוכיח	הוכיח	VERB	VERB	NFIN;ACT;V	19	xcomp	_	_
+22-23	שאספקה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	CONJ	28	mark	_	_
+23	אספקה	אספקה	NOUN	NOUN	SG;N;FEM	28	nsubj	_	_
+24-26	כזאת	_	_	_	_	_	_	_	_
+24	כ	כ	ADP	ADP	ADP	26	case	_	_
+25	ה_	ה	DET	DET	DET	26	det	_	_
+26	זאת	זאת	PRON	PRON	SG;3;PRO;FEM	23	nmod	_	_
+27	אכן	אכן	ADV	ADV	ADV	28	advmod	_	_
+28	קיימת	קיים	ADJ	ADJ	SG;FEM;ADJ	21	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# sent_id = 4104
+# text = אולי על כך שלא הייתי צנוע יותר.
+1	אולי	אולי	ADV	ADV	ADV	0	root	_	_
+2	על	על	ADP	ADP	ADP	3	case	_	_
+3	כך	כך	PRON	PRON	PRO;3	1	dep	_	HebSource=ConvUncertainHead
+4-5	שלא	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	CONJ	7	mark	_	_
+5	לא	לא	ADV	ADV	NEG;ADV	7	advmod	_	_
+6	הייתי	היה	AUX	AUX	POS;V;SG;{FEM/MASC};1;PST	7	cop	_	_
+7	צנוע	צנוע	ADJ	ADJ	MASC;SG;ADJ	3	acl:relcl	_	_
+8	יותר	יותר	ADV	ADV	ADV	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# sent_id = 4105
+# text = ב1989, כאשר ניצחנו במהפכה, התייחסנו לעצמנו בחשיבות רבה.
+1-2	ב1989	_	_	_	_	_	_	_	SpaceAfter=No
+1	ב	ב	ADP	ADP	ADP	2	case	_	_
+2	1989	1989	NUM	NUM	NUM	10	obl	_	_
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	כאשר	כאשר	SCONJ	SCONJ	CONJ	5	mark	_	_
+5	ניצחנו	ניצח	VERB	VERB	ACT;PL;V;{FEM/MASC};1;PST	2	appos	_	_
+6-8	במהפכה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	ADP	8	case	_	_
+7	ה_	ה	DET	DET	DET	8	det	_	_
+8	מהפכה	מהפכה	NOUN	NOUN	SG;N;FEM	5	obl	_	_
+9	,	,	PUNCT	PUNCT	_	5	punct	_	_
+10	התייחסנו	התייחס	VERB	VERB	PL;V;{FEM/MASC};1;PST	0	root	_	_
+11-12	לעצמנו	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	ADP	12	case	_	_
+12	עצמנו	עצמו	PRON	PRON	PL;1;REFL;{FEM/MASC};PRO	10	obl	_	_
+13-14	בחשיבות	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	ADP	14	case	_	_
+14	חשיבות	חשיבות	NOUN	NOUN	SG;N;FEM	10	obl	_	_
+15	רבה	רב	ADJ	ADJ	SG;FEM;ADJ	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 4106
+# text = אולי גם ראינו את עצמנו כגיבורים.
+1	אולי	אולי	ADV	ADV	ADV	3	advmod	_	_
+2	גם	גם	ADV	ADV	ADV	3	advmod	_	_
+3	ראינו	ראה	VERB	VERB	ACT;PL;V;{FEM/MASC};1;PST	0	root	_	_
+4	את	את	ADP	ADP	ADP;ACC	5	case:acc	_	_
+5	עצמנו	עצמו	PRON	PRON	PL;1;REFL;{FEM/MASC};PRO	3	obj	_	_
+6-7	כגיבורים	_	_	_	_	_	_	_	SpaceAfter=No
+6	כ	כ	ADP	ADP	ADP	7	case	_	_
+7	גיבורים	גיבור	NOUN	NOUN	MASC;N;PL	3	obl	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4107
+# text = היום, לראשונה מזה 39 שנה, ילכו אזרחי גואטמאלה לקלפיות בבחירות שייאפשרו העברה אזרחית מלאה של הנשיאות.
+1	היום	היום	ADV	ADV	ADV	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+3	לראשונה	לראשונה	ADV	ADV	ADV	1	advmod	_	HebSource=ConvUncertainHead
+4-5	מזה	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	ADP	7	case	_	_
+5	זה	זה	PRON	PRON	MASC;PRO;3;SG	4	fixed	_	_
+6	39	39	NUM	NUM	NUM	7	nummod	_	_
+7	שנה	שנה	NOUN	NOUN	SG;N;FEM	3	dep	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	ילכו	הלך	VERB	VERB	ACT;PL;V;3;{FEM/MASC};FUT	0	root	_	_
+10	אזרחי	אזרח	NOUN	NOUN	MASC;N;PL;PSSD	9	nsubj	_	_
+11	גואטמאלה	גואטמאלה	PROPN	PROPN	PROPN	10	compound:smixut	_	_
+12-14	לקלפיות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	ADP	14	case	_	_
+13	ה_	ה	DET	DET	DET	14	det	_	_
+14	קלפיות	קלפי	NOUN	NOUN	N;PL;FEM	9	obl	_	_
+15-16	בבחירות	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	ADP	16	case	_	_
+16	בחירות	בחירות	NOUN	NOUN	N;PL;FEM	9	obl	_	_
+17-18	שייאפשרו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	CONJ	18	mark	_	_
+18	ייאפשרו	אפשר	VERB	VERB	ACT;PL;V;3;FUT;MASC	16	acl:relcl	_	_
+19	העברה	העברה	NOUN	NOUN	SG;N;FEM	18	obj	_	_
+20	אזרחית	אזרחי	ADJ	ADJ	SG;FEM;ADJ	19	amod	_	_
+21	מלאה	מלא	ADJ	ADJ	SG;FEM;ADJ	19	amod	_	_
+22	של	של	ADP	ADP	ADP;GEN	24	case:gen	_	_
+23-24	הנשיאות	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	DET	24	det	_	_
+24	נשיאות	נשיאות	NOUN	NOUN	SG;N;FEM	19	nmod	_	_
+25	.	.	PUNCT	PUNCT	_	9	punct	_	_
+

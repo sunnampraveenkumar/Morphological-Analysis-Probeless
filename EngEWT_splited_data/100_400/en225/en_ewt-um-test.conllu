@@ -1,0 +1,54 @@
+# sent_id = answers-20111108063043AAOhkv9_ans-0002
+# newpar id = answers-20111108063043AAOhkv9_ans-p0002
+# text = kolkatta is an Indian State.
+1	kolkatta	Kolkata	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+3	an	a	DET	DT	INDF;DET	5	det	5:det	_
+4	Indian	Indian	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	State	state	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108063043AAOhkv9_ans-0003
+# newpar id = answers-20111108063043AAOhkv9_ans-p0003
+# text = lol... Kolkata is not for sale!!!!!!
+1	lol	lol	INTJ	UH	INTJ	7	discourse	7:discourse	SpaceAfter=No
+2	...	...	PUNCT	,	_	1	punct	1:punct	_
+3	Kolkata	Kolkata	PROPN	NNP	SG;PROPN	7	nsubj	7:nsubj	_
+4	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	7	cop	7:cop	_
+5	not	not	PART	RB	PART	7	advmod	7:advmod	_
+6	for	for	ADP	IN	ADP	7	case	7:case	_
+7	sale	sale	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+8	!!!!!!	!!!!!!	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108063043AAOhkv9_ans-0004
+# text = roflmao
+1	roflmao	roflmao	INTJ	UH	INTJ	0	root	0:root	_
+
+# newdoc id = answers-20090801154222AA09uXV_ans
+# sent_id = answers-20090801154222AA09uXV_ans-0001
+# newpar id = answers-20090801154222AA09uXV_ans-p0001
+# text = Which do you prefer Crab or Shrimp?
+1	Which	which	PRON	WDT	PRO	4	obj	4:obj	ManuallyChecked=PronType
+2	do	do	AUX	VBP	V;FIN;PRS;2;SG;IND	4	aux	4:aux	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	prefer	prefer	VERB	VB	NFIN;V	0	root	0:root	_
+5	Crab	crab	NOUN	NN	SG;N	1	appos	1:appos	_
+6	or	or	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Shrimp	shrimp	NOUN	NN	SG;N	5	conj	1:appos|5:conj:or	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20090801154222AA09uXV_ans-0002
+# newpar id = answers-20090801154222AA09uXV_ans-p0002
+# text = I like shrimp,fried,grilled,or steamed.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	like	like	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	shrimp	shrimp	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	SpaceAfter=No
+5	fried	fry	VERB	VBN	PASS;PST;V;V.PTCP	3	acl	3:acl	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
+7	grilled	grill	VERB	VBN	PASS;PST;V;V.PTCP	5	conj	3:acl|5:conj:or	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	SpaceAfter=No
+9	or	or	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	steamed	steam	VERB	VBN	PASS;PST;V;V.PTCP	5	conj	3:acl|5:conj:or	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+

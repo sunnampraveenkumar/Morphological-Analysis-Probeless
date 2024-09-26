@@ -1,0 +1,476 @@
+# sent_id = email-enronsent20_01-0041
+# text = HR, intended to be a key user of this tool, will not use BackWeb because survey responses cannot be made anonymous.
+1	HR	HR	NOUN	NN	N;SG	15	nsubj	15:nsubj	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	intended	intend	VERB	VBN	V.PTCP;PST;PASS;V	1	acl	1:acl	_
+4	to	to	PART	TO	PART	8	mark	8:mark	_
+5	be	be	AUX	VB	V;NFIN	8	cop	8:cop	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	key	key	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	user	user	NOUN	NN	N;SG	3	xcomp	3:xcomp	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	this	this	DET	DT	DET;SG	11	det	11:det	_
+11	tool	tool	NOUN	NN	N;SG	8	nmod	8:nmod:of	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	1:punct	_
+13	will	will	AUX	MD	V;FIN	15	aux	15:aux	_
+14	not	not	PART	RB	PART	15	advmod	15:advmod	_
+15	use	use	VERB	VB	V;NFIN	0	root	0:root	_
+16	BackWeb	BackWeb	PROPN	NNP	PROPN;SG	15	obj	15:obj	_
+17	because	because	SCONJ	IN	CONJ	23	mark	23:mark	_
+18	survey	survey	NOUN	NN	N;SG	19	compound	19:compound	_
+19	responses	response	NOUN	NNS	N;PL	23	nsubj:pass	23:nsubj:pass|24:nsubj:xsubj	_
+20-21	cannot	_	_	_	_	_	_	_	_
+20	can	can	AUX	MD	V;FIN	23	aux	23:aux	_
+21	not	not	PART	RB	PART	23	advmod	23:advmod	_
+22	be	be	AUX	VB	V;NFIN	23	aux:pass	23:aux:pass	_
+23	made	make	VERB	VBN	V.PTCP;PST;PASS;V	15	advcl	15:advcl:because	_
+24	anonymous	anonymous	ADJ	JJ	ADJ	23	xcomp	23:xcomp	SpaceAfter=No
+25	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = email-enronsent20_01-0042
+# text = HR has already purchased a tool called CONFIRMIT that can execute anonymous surveys.
+1	HR	HR	NOUN	NN	N;SG	4	nsubj	4:nsubj	_
+2	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	4	aux	4:aux	_
+3	already	already	ADV	RB	ADV	4	advmod	4:advmod	_
+4	purchased	purchase	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	tool	tool	NOUN	NN	N;SG	4	obj	4:obj|11:nsubj	_
+7	called	call	VERB	VBN	V.PTCP;PST;PASS;V	6	acl	6:acl	_
+8	CONFIRMIT	CONFIRMIT	PROPN	NNP	PROPN;SG	7	xcomp	7:xcomp	_
+9	that	that	PRON	WDT	PRO	11	nsubj	6:ref	_
+10	can	can	AUX	MD	V;FIN	11	aux	11:aux	_
+11	execute	execute	VERB	VB	V;NFIN	6	acl:relcl	6:acl:relcl	Cxn=rc-that-nsubj
+12	anonymous	anonymous	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	surveys	survey	NOUN	NNS	N;PL	11	obj	11:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent20_01-0043
+# text = Messages will not be delivered simultaneously to all users in the same domain, nor will they be delivered for two to five hours after they are sent by the message administrator.
+1	Messages	message	NOUN	NNS	N;PL	5	nsubj:pass	5:nsubj:pass	_
+2	will	will	AUX	MD	V;FIN	5	aux	5:aux	_
+3	not	not	PART	RB	PART	5	advmod	5:advmod	_
+4	be	be	AUX	VB	V;NFIN	5	aux:pass	5:aux:pass	_
+5	delivered	deliver	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+6	simultaneously	simultaneously	ADV	RB	ADV	5	advmod	5:advmod	_
+7	to	to	ADP	IN	ADP	9	case	9:case	_
+8	all	all	DET	DT	DET	9	det	9:det	_
+9	users	user	NOUN	NNS	N;PL	5	obl	5:obl:to	_
+10	in	in	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	same	same	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	domain	domain	NOUN	NN	N;SG	9	nmod	9:nmod:in	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	19:punct	_
+15	nor	nor	CCONJ	CC	CONJ	19	cc	19:cc	_
+16	will	will	AUX	MD	V;FIN	19	aux	19:aux	_
+17	they	they	PRON	PRP	PRO;3;PL;NOM	19	nsubj:pass	19:nsubj:pass	_
+18	be	be	AUX	VB	V;NFIN	19	aux:pass	19:aux:pass	_
+19	delivered	deliver	VERB	VBN	V.PTCP;PST;PASS;V	5	conj	5:conj:nor	_
+20	for	for	ADP	IN	ADP	24	case	24:case	_
+21	two	two	NUM	CD	NUM	24	nummod	24:nummod	_
+22	to	to	ADP	IN	ADP	23	case	23:case	_
+23	five	five	NUM	CD	NUM	21	nmod	21:nmod:to	_
+24	hours	hour	NOUN	NNS	N;PL	19	obl	19:obl:for	_
+25	after	after	SCONJ	IN	CONJ	28	mark	28:mark	_
+26	they	they	PRON	PRP	PRO;3;PL;NOM	28	nsubj:pass	28:nsubj:pass	_
+27	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	28	aux:pass	28:aux:pass	_
+28	sent	send	VERB	VBN	V.PTCP;PST;PASS;V	24	acl	24:acl:after	_
+29	by	by	ADP	IN	ADP	32	case	32:case	_
+30	the	the	DET	DT	DEF;DET	32	det	32:det	_
+31	message	message	NOUN	NN	N;SG	32	compound	32:compound	_
+32	administrator	administrator	NOUN	NN	N;SG	28	obl:agent	28:obl:agent	SpaceAfter=No
+33	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent20_01-0044
+# text = Another thing to consider is that these messages will be set to expire and disappear within a set period of time, meaning users cannot retrieve them and read them later (as they can with e-mail).
+1	Another	another	DET	DT	DET	2	det	2:det	_
+2	thing	thing	NOUN	NN	N;SG	11	nsubj:outer	11:nsubj:outer	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	consider	consider	VERB	VB	V;NFIN	2	acl	2:acl:to	_
+5	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	11	cop	11:cop	_
+6	that	that	SCONJ	IN	CONJ	11	mark	11:mark	_
+7	these	this	DET	DT	DET;PL	8	det	8:det	_
+8	messages	message	NOUN	NNS	N;PL	11	nsubj	11:nsubj|13:nsubj:xsubj|15:nsubj:xsubj	_
+9	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+10	be	be	AUX	VB	V;NFIN	11	cop	11:cop	_
+11	set	set	ADJ	JJ	ADJ	0	root	0:root	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	expire	expire	VERB	VB	V;NFIN	11	xcomp	11:xcomp	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	disappear	disappear	VERB	VB	V;NFIN	13	conj	11:xcomp|13:conj:and	_
+16	within	within	ADP	IN	ADP	19	case	19:case	_
+17	a	a	DET	DT	DET;INDF	19	det	19:det	_
+18	set	set	VERB	VBN	V.PTCP;PST;PASS;V	19	amod	19:amod	_
+19	period	period	NOUN	NN	N;SG	13	obl	13:obl:within	_
+20	of	of	ADP	IN	ADP	21	case	21:case	_
+21	time	time	NOUN	NN	N;SG	19	nmod	19:nmod:of	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	23:punct	_
+23	meaning	mean	VERB	VBG	V.PTCP;V;PRS	11	parataxis	11:parataxis	_
+24	users	user	NOUN	NNS	N;PL	27	nsubj	27:nsubj|30:nsubj	_
+25-26	cannot	_	_	_	_	_	_	_	_
+25	can	can	AUX	MD	V;FIN	27	aux	27:aux	_
+26	not	not	PART	RB	PART	27	advmod	27:advmod	_
+27	retrieve	retrieve	VERB	VB	V;NFIN	23	ccomp	23:ccomp	_
+28	them	they	PRON	PRP	PRO;3;PL;ACC	27	obj	27:obj	_
+29	and	and	CCONJ	CC	CONJ	30	cc	30:cc	_
+30	read	read	VERB	VB	V;NFIN	27	conj	23:ccomp|27:conj:and	_
+31	them	they	PRON	PRP	PRO;3;PL;ACC	30	obj	30:obj	_
+32	later	late	ADV	RBR	ADV;CMPR	30	advmod	30:advmod	_
+33	(	(	PUNCT	-LRB-	_	36	punct	36:punct	SpaceAfter=No
+34	as	as	SCONJ	IN	CONJ	36	mark	36:mark	_
+35	they	they	PRON	PRP	PRO;3;PL;NOM	36	nsubj	36:nsubj	_
+36	can	can	AUX	MD	V;FIN	30	advcl	30:advcl:as	_
+37	with	with	ADP	IN	ADP	38	case	38:case	_
+38	e-mail	e-mail	NOUN	NN	N;SG	36	obl	36:obl:with	SpaceAfter=No
+39	)	)	PUNCT	-RRB-	_	36	punct	36:punct	SpaceAfter=No
+40	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent20_01-0045
+# text = This means that I could be away from the office for several days and miss a message entirely, because it would have expired and disappeared by the time I returned.
+1	This	this	PRON	DT	PRO;SG	2	nsubj	2:nsubj	_
+2	means	mean	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+3	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+4	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj|15:nsubj	_
+5	could	could	AUX	MD	V;FIN	7	aux	7:aux	_
+6	be	be	AUX	VB	V;NFIN	7	cop	7:cop	_
+7	away	away	ADV	RB	ADV	2	ccomp	2:ccomp	_
+8	from	from	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	office	office	NOUN	NN	N;SG	7	obl	7:obl:from	_
+11	for	for	ADP	IN	ADP	13	case	13:case	_
+12	several	several	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	days	day	NOUN	NNS	N;PL	7	obl	7:obl:for	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	miss	miss	VERB	VB	V;NFIN	7	conj	2:ccomp|7:conj:and	_
+16	a	a	DET	DT	DET;INDF	17	det	17:det	_
+17	message	message	NOUN	NN	N;SG	15	obj	15:obj	_
+18	entirely	entirely	ADV	RB	ADV	15	advmod	15:advmod	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	24:punct	_
+20	because	because	SCONJ	IN	CONJ	24	mark	24:mark	_
+21	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	24	nsubj	24:nsubj|26:nsubj	_
+22	would	would	AUX	MD	V;FIN	24	aux	24:aux	_
+23	have	have	AUX	VB	V;NFIN	24	aux	24:aux	_
+24	expired	expire	VERB	VBN	V.PTCP;PST;V	15	advcl	15:advcl:because	_
+25	and	and	CCONJ	CC	CONJ	26	cc	26:cc	_
+26	disappeared	disappear	VERB	VBN	V.PTCP;PST;V	24	conj	15:advcl:because|24:conj:and	_
+27	by	by	ADP	IN	ADP	29	case	29:case	_
+28	the	the	DET	DT	DEF;DET	29	det	29:det	_
+29	time	time	NOUN	NN	N;SG	24	obl	24:obl:by|31:obl	_
+30	I	I	PRON	PRP	SG;PRO;NOM;1	31	nsubj	31:nsubj	_
+31	returned	return	VERB	VBD	FIN;SG;V;IND;PST;1	29	acl:relcl	29:acl:relcl	Cxn=rc-red-obl|SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_01-0046
+# text = The plain fact is that a few members of IT are pushing this initiative, but they lack commercial sponsorship.
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	plain	plain	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	fact	fact	NOUN	NN	N;SG	12	nsubj:outer	12:nsubj:outer|18:nsubj:outer	_
+4	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	12	cop	12:cop	_
+5	that	that	SCONJ	IN	CONJ	12	mark	12:mark	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	few	few	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	members	member	NOUN	NNS	N;PL	12	nsubj	12:nsubj	_
+9	of	of	ADP	IN	ADP	10	case	10:case	_
+10	IT	IT	NOUN	NN	N;SG	8	nmod	8:nmod:of	_
+11	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	12	aux	12:aux	_
+12	pushing	push	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+13	this	this	DET	DT	DET;SG	14	det	14:det	_
+14	initiative	initiative	NOUN	NN	N;SG	12	obj	12:obj	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	but	but	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	they	they	PRON	PRP	PRO;3;PL;NOM	18	nsubj	18:nsubj	_
+18	lack	lack	VERB	VBP	FIN;V;PRS;IND;3;PL	12	conj	0:root|12:conj:but	_
+19	commercial	commercial	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	sponsorship	sponsorship	NOUN	NN	N;SG	18	obj	18:obj	SpaceAfter=No
+21	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent20_01-0047
+# text = They are hoping Corp will foot the bill for a pilot which will allow them to fully test this tool before implementing it company-wide.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	3	nsubj	3:nsubj	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	3	aux	3:aux	_
+3	hoping	hope	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	Corp	Corp	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+6	foot	foot	VERB	VB	V;NFIN	3	ccomp	3:ccomp	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	bill	bill	NOUN	NN	N;SG	6	obj	6:obj	_
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	a	a	DET	DT	DET;INDF	11	det	11:det	_
+11	pilot	pilot	NOUN	NN	N;SG	8	nmod	8:nmod:for|14:nsubj	_
+12	which	which	PRON	WDT	PRO	14	nsubj	11:ref	_
+13	will	will	AUX	MD	V;FIN	14	aux	14:aux	_
+14	allow	allow	VERB	VB	V;NFIN	11	acl:relcl	11:acl:relcl	Cxn=rc-wh-nsubj
+15	them	they	PRON	PRP	PRO;3;PL;ACC	14	iobj	14:iobj|18:nsubj:xsubj	_
+16	to	to	PART	TO	PART	18	mark	18:mark	_
+17	fully	fully	ADV	RB	ADV	18	advmod	18:advmod	_
+18	test	test	VERB	VB	V;NFIN	14	xcomp	14:xcomp	_
+19	this	this	DET	DT	DET;SG	20	det	20:det	_
+20	tool	tool	NOUN	NN	N;SG	18	obj	18:obj	_
+21	before	before	SCONJ	IN	CONJ	22	mark	22:mark	_
+22	implementing	implement	VERB	VBG	V.PTCP;V;PRS	18	advcl	18:advcl:before	_
+23	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	22	obj	22:obj	_
+24	company	company	NOUN	NN	N;SG	26	obl:npmod	26:obl:npmod	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	24	punct	24:punct	SpaceAfter=No
+26	wide	wide	ADV	RB	ADV	22	advmod	22:advmod	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent20_01-0048
+# text = Please let us know if you have additional questions.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	us	we	PRON	PRP	PRO;PL;1;ACC	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	you	you	PRON	PRP	PRO;2;NOM	7	nsubj	7:nsubj	_
+7	have	have	VERB	VBP	2;FIN;SG;V;PRS;IND	4	ccomp	4:ccomp	_
+8	additional	additional	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	questions	question	NOUN	NNS	N;PL	7	obj	7:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_01-0049
+# newpar id = email-enronsent20_01-p0004
+# text = - er
+1	-	-	PUNCT	NFP	_	2	punct	2:punct	_
+2	er	er	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent20_01-0050
+# newpar id = email-enronsent20_01-p0005
+# text = Steven J Kean
+1	Steven	Steven	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	J	J	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Kean	Kean	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent20_01-0051
+# text = 11/09/2000 11:35 AM
+1	11/09/2000	11/09/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:35	11:35	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent20_01-0052
+# text = Do we have a sense for how many we can reach, how many we can't and where they are?
+1	Do	do	AUX	VBP	FIN;V;PRS;IND;PL;1	3	aux	3:aux	_
+2	we	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj	_
+3	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	sense	sense	NOUN	NN	N;SG	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	11	mark	11:mark	_
+7	how	how	ADV	WRB	ADV	8	advmod	8:advmod	_
+8	many	many	ADJ	JJ	ADJ	11	obj	11:obj	_
+9	we	we	PRON	PRP	PRO;PL;NOM;1	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	V;FIN	11	aux	11:aux	_
+11	reach	reach	VERB	VB	V;NFIN	5	acl	5:acl:for	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	16:punct	_
+13	how	how	ADV	WRB	ADV	14	advmod	14:advmod	_
+14	many	many	ADJ	JJ	ADJ	16	obj	16:obj	_
+15	we	we	PRON	PRP	PRO;PL;NOM;1	16	nsubj	16:nsubj	_
+16-17	can't	_	_	_	_	_	_	_	_
+16	ca	can	AUX	MD	V;FIN	11	conj	5:acl:for|11:conj:and	Promoted=Yes
+17	n't	not	PART	RB	PART	16	advmod	16:advmod	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	where	where	ADV	WRB	ADV	11	conj	5:acl:for|11:conj:and	_
+20	they	they	PRON	PRP	PRO;3;PL;NOM	19	nsubj	19:nsubj	_
+21	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	19	cop	19:cop	SpaceAfter=No
+22	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent20_01-0053
+# text = Are whole offices (eg Tokyo) unreachable or is it only those who have home offices?
+1	Are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	8	cop	8:cop	_
+2	whole	whole	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	offices	office	NOUN	NNS	N;PL	8	nsubj	8:nsubj	_
+4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	SpaceAfter=No
+5	eg	e.g.	ADJ	FW	ADJ	6	amod	6:amod	CorrectForm=e.g.
+6	Tokyo	Tokyo	PROPN	NNP	PROPN;SG	3	appos	3:appos	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
+8	unreachable	unreachable	ADJ	JJ	ADJ	0	root	0:root	_
+9	or	or	CCONJ	CC	CONJ	13	cc	13:cc	_
+10	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	13	cop	13:cop	_
+11	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	13	nsubj	13:nsubj	_
+12	only	only	ADV	RB	ADV	13	advmod	13:advmod	_
+13	those	that	PRON	DT	PRO;PL	8	conj	8:conj:or|15:nsubj	_
+14	who	who	PRON	WP	PRO	15	nsubj	13:ref	_
+15	have	have	VERB	VBP	FIN;V;PRS;IND;3;PL	13	acl:relcl	13:acl:relcl	Cxn=rc-wh-nsubj
+16	home	home	NOUN	NN	N;SG	17	compound	17:compound	_
+17	offices	office	NOUN	NNS	N;PL	15	obj	15:obj	SpaceAfter=No
+18	?	?	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent20_01-0054
+# text = Courtney Votaw
+1	Courtney	Courtney	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Votaw	Votaw	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent20_01-0055
+# text = 11/08/2000 11:02 AM
+1	11/08/2000	11/08/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:02	11:02	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent20_01-0056
+# text = Mark and Steve-
+1	Mark	Mark	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	Steve	Steve	PROPN	NNP	PROPN;SG	1	conj	1:conj:and	SpaceAfter=No
+4	-	-	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_01-0057
+# text = Erin Rice and I would like to meet with you to discuss the issues concerning BackWeb before we proceed.
+1	Erin	Erin	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+2	Rice	Rice	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	I	I	PRON	PRP	SG;PRO;NOM;1	1	conj	1:conj:and|6:nsubj|8:nsubj:xsubj	_
+5	would	would	AUX	MD	V;FIN	6	aux	6:aux	_
+6	like	like	VERB	VB	V;NFIN	0	root	0:root	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	meet	meet	VERB	VB	V;NFIN	6	xcomp	6:xcomp	_
+9	with	with	ADP	IN	ADP	10	case	10:case	_
+10	you	you	PRON	PRP	PRO;2;ACC	8	obl	8:obl:with	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	discuss	discuss	VERB	VB	V;NFIN	8	advcl	8:advcl:to	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	issues	issue	NOUN	NNS	N;PL	12	obj	12:obj	_
+15	concerning	concern	VERB	VBG	V.PTCP;V;PRS	16	case	16:case	_
+16	BackWeb	BackWeb	PROPN	NNP	PROPN;SG	14	nmod	14:nmod:concerning	_
+17	before	before	SCONJ	IN	CONJ	19	mark	19:mark	_
+18	we	we	PRON	PRP	PRO;PL;NOM;1	19	nsubj	19:nsubj	_
+19	proceed	proceed	VERB	VBP	FIN;V;PRS;IND;PL;1	8	advcl	8:advcl:before	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent20_01-0058
+# text = As you can see from the Design Document, they are pretty significant.
+1	As	as	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	you	you	PRON	PRP	PRO;2;NOM	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	V;FIN	4	aux	4:aux	_
+4	see	see	VERB	VB	V;NFIN	13	advcl	13:advcl:as	_
+5	from	from	ADP	IN	ADP	8	case	8:case	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	Design	design	NOUN	NN	N;SG	8	compound	8:compound	_
+8	Document	document	NOUN	NN	N;SG	4	obl	4:obl:from	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	4:punct	_
+10	they	they	PRON	PRP	PRO;3;PL;NOM	13	nsubj	13:nsubj	_
+11	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	13	cop	13:cop	_
+12	pretty	pretty	ADV	RB	ADV	13	advmod	13:advmod	_
+13	significant	significant	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = email-enronsent20_01-0059
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_01-0060
+# text = Courtney
+1	Courtney	Courtney	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent20_01-0061
+# text = calendar
+1	calendar	calendar	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = email-enronsent20_01-0062
+# text = Paul Kaufman@ECT
+1	Paul	PaulKaufman@ECT	PROPN	GW	PROPN	0	root	0:root	_
+2	Kaufman@ECT	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent20_01-0063
+# text = Sent by: Lysa Akin@ECT
+1	Sent	send	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	Lysa	LysaAkin@ECT	PROPN	GW	PROPN	1	obl:agent	1:obl:agent	_
+5	Akin@ECT	_	X	ADD	_	4	goeswith	4:goeswith	_
+
+# sent_id = email-enronsent20_01-0064
+# text = 11/10/2000 05:59 PM
+1	11/10/2000	11/10/2000	NUM	CD	NUM	0	root	0:root	_
+2	05:59	05:59	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent20_01-0065
+# text = Paul Kaufman has asked me to set a conference call to review the FERC Meeting that was held Thursday, Nov. 9th.
+1	Paul	Paul	PROPN	NNP	PROPN;SG	4	nsubj	4:nsubj	_
+2	Kaufman	Kaufman	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	4	aux	4:aux	_
+4	asked	ask	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+5	me	I	PRON	PRP	SG;PRO;1;ACC	4	iobj	4:iobj|7:nsubj:xsubj	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	set	set	VERB	VB	V;NFIN	4	xcomp	4:xcomp	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	conference	conference	NOUN	NN	N;SG	10	compound	10:compound	_
+10	call	call	NOUN	NN	N;SG	7	obj	7:obj	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	review	review	VERB	VB	V;NFIN	7	advcl	7:advcl:to	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	FERC	FERC	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+15	Meeting	meeting	NOUN	NN	N;SG	12	obj	12:obj|18:nsubj:pass	_
+16	that	that	PRON	WDT	PRO	18	nsubj:pass	15:ref	_
+17	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	18	aux:pass	18:aux:pass	_
+18	held	hold	VERB	VBN	V.PTCP;PST;PASS;V	15	acl:relcl	15:acl:relcl	Cxn=rc-that-nsubj:pass
+19	Thursday	Thursday	PROPN	NNP	PROPN;SG	18	obl:tmod	18:obl:tmod	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	22:punct	_
+21	Nov.	November	PROPN	NNP	PROPN;SG	22	compound	22:compound	_
+22	9th	9th	NOUN	NN	N;SG	19	appos	19:appos	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent20_01-0066
+# text = Please be advised that I have set the call as follows:
+1	Please	please	INTJ	UH	INTJ	3	discourse	3:discourse	_
+2	be	be	AUX	VB	V;FIN;IMP	3	aux:pass	3:aux:pass	_
+3	advised	advise	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+6	have	have	AUX	VBP	FIN;SG;V;PRS;IND;1	7	aux	7:aux	_
+7	set	set	VERB	VBN	V.PTCP;PST;V	3	ccomp	3:ccomp	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	call	call	NOUN	NN	N;SG	7	obj	7:obj	_
+10	as	as	SCONJ	IN	CONJ	11	mark	11:mark	_
+11	follows	follow	VERB	VBZ	FIN;SG;V;PRS;IND;3	7	advcl	7:advcl:as	SpaceAfter=No
+12	:	:	PUNCT	:	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent20_01-0067
+# newpar id = email-enronsent20_01-p0006
+# text = Date: Monday, Nov. 13th
+1	Date	date	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	Monday	Monday	PROPN	NNP	PROPN;SG	1	appos	1:appos	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	Nov.	November	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	13th	13th	NOUN	NN	N;SG	3	appos	3:appos	_
+
+# sent_id = email-enronsent20_01-0068
+# text = Time: 11:30am / 1:30pm Central / 2:30pm Eastern
+1	Time	time	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	4	punct	4:punct	_
+3	11:30	11:30	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+4	am	a.m.	NOUN	NN	N;SG	1	appos	1:appos	_
+5	/	/	PUNCT	,	_	7	punct	7:punct	_
+6	1:30	1:30	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+7	pm	p.m.	NOUN	NN	N;SG	4	appos	4:appos	_
+8	Central	Central	PROPN	NNP	PROPN;SG	7	nmod:npmod	7:nmod:npmod	_
+9	/	/	PUNCT	,	_	11	punct	11:punct	_
+10	2:30	2:30	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+11	pm	p.m.	NOUN	NN	N;SG	4	appos	4:appos	_
+12	Eastern	Eastern	PROPN	NNP	PROPN;SG	11	nmod:npmod	11:nmod:npmod	_
+
+# sent_id = email-enronsent20_01-0069
+# text = Call In #: 888-422-7132
+1	Call	call	VERB	VB	V;NFIN	3	compound	3:compound	_
+2	In	in	ADP	RP	ADP	1	compound	1:compound	_
+3	#	#	SYM	NN	SG	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	5:punct	_
+5	888-422-7132	888-422-7132	NUM	CD	NUM	3	appos	3:appos	_
+
+# sent_id = email-enronsent20_01-0070
+# text = Pin #: 411507
+1	Pin	pin	NOUN	NN	N;SG	2	compound	2:compound	_
+2	#	#	SYM	NN	SG	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	411507	411507	NUM	CD	NUM	2	appos	2:appos	_
+
+# sent_id = email-enronsent20_01-0071
+# text = Pin # for Paul Kaufman ONLY: 362416
+1	Pin	pin	NOUN	NN	N;SG	2	compound	2:compound	_
+2	#	#	SYM	NN	SG	0	root	0:root	_
+3	for	for	ADP	IN	ADP	4	case	4:case	_
+4	Paul	Paul	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:for	_
+5	Kaufman	Kaufman	PROPN	NNP	PROPN;SG	4	flat	4:flat	_
+6	ONLY	only	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+7	:	:	PUNCT	:	_	8	punct	8:punct	_
+8	362416	362416	NUM	CD	NUM	2	appos	2:appos	_
+

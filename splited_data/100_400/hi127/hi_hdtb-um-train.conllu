@@ -1,0 +1,621 @@
+# sent_id = train-s4190
+# text = इस पर अपहर्ताओं ने छत की ओर फायरिंग की और सभी को अपनी जगह पर बैठा दिया ।
+1	इस	यह	PRON	PRP	3;SG;ACC;PRO	9	obl	_	Vib=0_पर|Tam=0|ChunkId=NP|ChunkType=head|Translit=isa
+2	पर	पर	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=para
+3	अपहर्ताओं	अपहर्ता	NOUN	NN	MASC;N;3;ACC;PL	9	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=apahartāoṁ
+4	ने	ने	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+5	छत	छत	NOUN	NN	N;3;SG;ACC;MASC	9	obl	_	Vib=0_का_ओर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=chata
+6	की	का	ADP	PSP	ADP;NOM;SG;FEM	5	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+7	ओर	ओर	ADP	NST	ADP;NOM;3;SG;MASC	5	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=ora
+8	फायरिंग	फायरिंग	NOUN	NN	NOM;N;3;SG;FEM	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=phāyariṁga
+9	की	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kī|Vib=या
+10	और	और	CCONJ	CC	CONJ	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+11	सभी	सब	PRON	PRP	ACC;PRO	16	obj	_	Vib=0_को|ChunkId=NP5|ChunkType=head|Translit=sabhī
+12	को	को	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+13	अपनी	अपना	PRON	PRP	ACC;FEM;PRO	14	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=apanī
+14	जगह	जगह	NOUN	NN	N;3;SG;ACC;FEM	16	obl	_	Vib=0_पर|Tam=0|ChunkId=NP7|ChunkType=head|Translit=jagaha
+15	पर	पर	ADP	PSP	ADP	14	case	_	ChunkId=NP7|ChunkType=child|Translit=para
+16	बैठा	बैठ	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	9	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=baiṭhā|Vib=या_दे+या
+17	दिया	दे	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	16	compound	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=diyā
+18	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4191
+# text = याना ने बताया कि अपहर्ता खुद को चेचेन बता रहे थे ।
+1	याना	याना	PROPN	NNP	PROPN;3;SG;ACC;FEM	3	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=yānā
+2	ने	ने	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+3	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+4	कि	कि	SCONJ	CC	CONJ	9	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	अपहर्ता	अपहर्ता	NOUN	NN	NOM;N;3;PL;MASC	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=apahartā
+6	खुद	खुद	PRON	PRP	ACC;PRO	9	obj	_	Vib=0_को|ChunkId=NP3|ChunkType=head|Translit=khuda
+7	को	को	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+8	चेचेन	चेचेन	PROPN	NNP	PROPN;NOM;3;SG;MASC	9	acl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=cecena
+9	बता	बता	VERB	VM	V;PL;MASC;ACT	3	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=batā|Vib=0_रह+या_था
+10	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	9	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahe
+11	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	9	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=the
+12	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4192
+# text = उनका कहना था कि वे चेचेन्या से रूसी सेना की वापसी की मांग कर रहे हैं ।
+1	उनका	वह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	2	nsubj	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=unakā
+2	कहना	कह	VERB	VM	NFIN;V;NOM;SG;MASC	3	nsubj	_	Vib=ना|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=kahanā
+3	था	था	VERB	VM	FIN;ACT;V;SG;IND;MASC;PST	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=WA|Translit=thā|Vib=था
+4	कि	कि	SCONJ	CC	CONJ	14	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	वे	वह	PRON	PRP	NOM;3;PL;PRO	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ve
+6	चेचेन्या	चेचेन्या	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=cecenyā
+7	से	से	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+8	रूसी	रूसी	ADJ	JJ	ACC;ADJ	9	amod	_	ChunkId=NP4|ChunkType=child|Translit=rūsī
+9	सेना	सेना	NOUN	NN	N;3;SG;ACC;FEM	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=senā
+10	की	का	ADP	PSP	ADP;SG;ACC;FEM	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	वापसी	वापसी	NOUN	NN	N;3;SG;ACC;FEM	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=vāpasī
+12	की	का	ADP	PSP	ADP;NOM;SG;FEM	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+13	मांग	मांग	NOUN	NN	NOM;N;3;SG;FEM	14	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=māṁga
+14	कर	कर	VERB	VM	MASC;ACT;V;3;PL	2	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_रह+या_है
+15	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	14	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahe
+16	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	14	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+17	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4193
+# text = वे कह रहे थे कि सेना की वापसी के साथ ही वे हमें रिहा कर देंगे ।
+1	वे	वह	PRON	PRP	NOM;3;PL;PRO	2	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ve
+2	कह	कह	VERB	VM	V;PL;MASC;ACT	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kaha|Vib=0_रह+या_था
+3	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	2	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+4	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	2	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=the
+5	कि	कि	SCONJ	CC	CONJ	15	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+6	सेना	सेना	NOUN	NN	N;3;SG;ACC;FEM	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=senā
+7	की	का	ADP	PSP	ADP;SG;ACC;FEM	6	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+8	वापसी	वापसी	NOUN	NN	N;3;SG;ACC;FEM	15	obl	_	Vib=0_के_साथ|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vāpasī
+9	के	के	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+10	साथ	साथ	ADP	NST	ADP;NOM;SG;MASC	8	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=sātha
+11	ही	ही	PART	RP	PART	8	dep	_	ChunkId=NP3|ChunkType=child|Translit=hī
+12	वे	वह	PRON	PRP	NOM;3;PL;PRO	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ve
+13	हमें	हम	PRON	PRP	{ACC/DAT};1;PL;PRO	15	obj	_	Vib=को|Tam=ko|ChunkId=NP5|ChunkType=head|Translit=hameṁ
+14	रिहा	रिहा	ADJ	JJ	ADJ	15	compound	_	ChunkId=JJP|ChunkType=head|Translit=rihā
+15	कर	कर	VERB	VM	V;ACT;PL;3	2	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_दे+गा
+16	देंगे	दे	VERB	VAUX	MASC;FIN;V;3;FUT;IND;PL	15	compound	_	Vib=गा|Tam=gA|ChunkId=VGF2|ChunkType=child|Translit=deṁge
+17	।	।	PUNCT	SYM	_	2	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4194
+# text = तीसरे दिन के सुबह याना निढाल हो गई ।
+1	तीसरे	तीसरा	ADJ	QO	ADJ;SG;ACC;MASC	2	amod	_	ChunkId=NP|ChunkType=child|Translit=tīsare
+2	दिन	दिन	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=dina
+3	के	का	ADP	PSP	ADP;SG;ACC;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	सुबह	सुबह	NOUN	NN	N;3;SG;ACC;FEM	7	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=subaha
+5	याना	याना	PROPN	NNP	PROPN;NOM;3;SG;FEM	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=yānā
+6	निढाल	निढाल	ADJ	JJ	ADJ	7	xcomp	_	ChunkId=JJP|ChunkType=head|Translit=niḍhāla
+7	हो	हो	VERB	VM	V;ACT;SG	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_जा+या१
+8	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	7	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+9	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4195
+# text = जिम का माहौल काफी दमघोंटू था और बच्चे लगातार रो रहे थे ।
+1	जिम	जिम	NOUN	NN	N;3;SG;ACC;MASC	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=jima
+2	का	का	ADP	PSP	ADP;NOM;SG;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+3	माहौल	माहौल	NOUN	NN	NOM;N;3;SG;MASC	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=māhaula
+4	काफी	काफी	DET	QF	DET	5	det	_	ChunkId=JJP|ChunkType=child|Translit=kāphī
+5	दमघोंटू	दमघोंटू	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=damaghoṁṭū
+6	था	था	AUX	VM	FIN;ACT;SG;IND;MASC;V;PST	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=WA|Translit=thā|Vib=था
+7	और	और	CCONJ	CC	CONJ	10	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	बच्चे	बच्चा	NOUN	NN	NOM;N;3;PL;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bacce
+9	लगातार	लगातार	ADV	RB	ADV	10	advmod	_	ChunkId=RBP|ChunkType=head|Translit=lagātāra
+10	रो	रो	VERB	VM	V;PL;MASC;ACT	5	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ro|Vib=0_रह+या_था
+11	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	10	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahe
+12	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	10	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=the
+13	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4196
+# text = दोपहर बाद करीब २.३० बजे (आईएसटी) एक जोरदार विस्फोट ने बिल्डिंग को हिला दिया ।
+1	दोपहर	दोपहर	NOUN	NN	NOM;N;3;SG;FEM	15	obl	_	Vib=0_बाद|Tam=0|ChunkId=NP|ChunkType=head|Translit=dopahara
+2	बाद	बाद	ADP	NST	ADP;NOM;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bāda
+3	करीब	करीब	PART	RP	PART	4	dep	_	ChunkId=NP2|ChunkType=child|Translit=karība
+4	२.३०	२.३०	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=2.30
+5	बजे	बजे	NOUN	NN	NOM;N;3;SG;MASC	15	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=baje
+6	(	(	PUNCT	SYM	_	7	punct	_	SpaceAfter=No|ChunkId=NP3|ChunkType=child|Translit=(
+7	आईएसटी	आईएसटी	PROPN	NNP	PROPN;NOM;3;SG;MASC	5	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āīesaṭī
+8	)	)	PUNCT	SYM	_	7	punct	_	ChunkId=NP3|ChunkType=child|Translit=)
+9	एक	एक	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=eka
+10	जोरदार	जोरदार	ADJ	JJ	ACC;ADJ	11	amod	_	ChunkId=NP4|ChunkType=child|Translit=joradāra
+11	विस्फोट	विस्फोट	NOUN	NN	N;3;SG;ACC;MASC	15	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=visphoṭa
+12	ने	ने	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+13	बिल्डिंग	बिल्डिंग	NOUN	NN	N;3;SG;ACC;FEM	15	obj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=bilḍiṁga
+14	को	को	ADP	PSP	ADP	13	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+15	हिला	हिल	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=hilā|Vib=या_दे+या
+16	दिया	दे	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	15	compound	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=diyā
+17	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4197
+# text = छत टूट कर बंधकों के ऊपर गिरने लगी ।
+1	छत	छत	NOUN	NN	NOM;N;3;SG;FEM	2	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=chata
+2	टूट	टूट	VERB	VM	V	8	advcl	_	Vib=0_कर|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=ṭūṭa
+3	कर	कर	AUX	VAUX	V	2	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child|Translit=kara
+4	बंधकों	बंधक	NOUN	NN	MASC;N;3;ACC;PL	8	obl	_	Vib=0_के_ऊपर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=baṁdhakoṁ
+5	के	के	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	ऊपर	ऊपर	ADP	NST	ADP;NOM;SG;MASC	4	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|Translit=ūpara
+7	गिरने	गिर	VERB	VM	ACT;NFIN;V;SG;MASC	8	xcomp	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=nA|Translit=girane|Vib=ना_लग+या
+8	लगी	लग	VERB	VAUX	PFV;V;V.PTCP;SG;FEM	0	root	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=lagī
+9	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4198
+# text = एक अपहर्ता ने हमें अपने पीछे पास के कैफेटेरिया में आने को कहा ।
+1	एक	एक	NUM	QC	NUM	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=eka
+2	अपहर्ता	अपहर्ता	NOUN	NN	N;3;SG;ACC;MASC	13	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=apahartā
+3	ने	ने	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+4	हमें	हम	PRON	PRP	{ACC/DAT};1;PL;PRO	13	iobj	_	Vib=को|Tam=ko|ChunkId=NP2|ChunkType=head|Translit=hameṁ
+5	अपने	अपना	PRON	PRP	MASC;{ACC/ERG};PRO	11	obl	_	Vib=0_पीछे|Tam=ne|ChunkId=NP3|ChunkType=head|Translit=apane
+6	पीछे	पीछे	ADP	NST	ADP;NOM;3;SG;MASC	5	case	_	AltTag=ADP-NOUN|ChunkId=NP3|ChunkType=child|Translit=pīche
+7	पास	पास	ADV	NST	ADV;SG;ACC;MASC	9	nmod	_	AltTag=ADV-NOUN|Vib=0_का|ChunkId=NP4|ChunkType=head|Translit=pāsa
+8	के	का	ADP	PSP	ADP;SG;ACC;MASC	7	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+9	कैफेटेरिया	कैफेटेरिया	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_में|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kaipheṭeriyā
+10	में	में	ADP	PSP	ADP	9	case	_	ChunkId=NP5|ChunkType=child|Translit=meṁ
+11	आने	आ	VERB	VM	V;ACC;NFIN	13	obj	_	Vib=ना_को|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=āne
+12	को	को	ADP	PSP	ADP	11	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ko
+13	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+14	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4199
+# text = इसके बाद दूसरा विस्फोट हुआ और आग लग गई ।
+1	इसके	यह	PRON	PRP	{ACC/GEN};3;SG;PRO	5	obl	_	Vib=0_बाद|Tam=ke|ChunkId=NP|ChunkType=head|Translit=isake
+2	बाद	बाद	ADP	NST	ADP;NOM;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bāda
+3	दूसरा	दूसरा	ADJ	QO	ADJ;NOM;SG;MASC	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=dūsarā
+4	विस्फोट	विस्फोट	NOUN	NN	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=visphoṭa
+5	हुआ	हो	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=huā|Vib=या
+6	और	और	CCONJ	CC	CONJ	8	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+7	आग	आग	NOUN	NN	NOM;N;3;SG;FEM	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=āga
+8	लग	लग	VERB	VM	V;ACT;SG	5	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=laga|Vib=0_जा+या१
+9	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	8	aux	_	Vib=या१|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gaī
+10	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4200
+# text = याना ने बताया कि वह अपना सिर घुटनों पर रख कर बैठी थी और उसके हाथ सिर पर थे ।
+1	याना	याना	PROPN	NNP	PROPN;3;SG;ACC;FEM	3	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP|ChunkType=head|Translit=yānā
+2	ने	ने	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ne
+3	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+4	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	वह	वह	PRON	PRP	NOM;3;SG;PRO	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=vaha
+6	अपना	अपना	PRON	PRP	NOM;SG;MASC;PRO	7	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=apanā
+7	सिर	सिर	NOUN	NN	NOM;N;3;SG;MASC	10	obj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sira
+8	घुटनों	घुटना	NOUN	NN	MASC;N;3;ACC;PL	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ghuṭanoṁ
+9	पर	पर	ADP	PSP	ADP	8	case	_	ChunkId=NP5|ChunkType=child|Translit=para
+10	रख	रख	VERB	VM	V	12	advcl	_	Vib=0_कर|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=rakha
+11	कर	कर	AUX	VAUX	V	10	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child|Translit=kara
+12	बैठी	बैठ	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	3	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=baiṭhī|Vib=या_था
+13	थी	था	AUX	VAUX	FIN;SG;FEM;IND;V;PST	12	aux	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thī
+14	और	और	CCONJ	CC	CONJ	17	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+15	उसके	वह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	16	nmod	_	Vib=का|Tam=kA|ChunkId=NP6|ChunkType=head|Translit=usake
+16	हाथ	हाथ	NOUN	NN	MASC;N;3;ACC;PL	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=hātha
+17	सिर	सिर	NOUN	NN	N;3;SG;ACC;MASC	12	conj	_	Vib=0_पर|Tam=0|ChunkId=NP8|ChunkType=head|Translit=sira
+18	पर	पर	ADP	PSP	ADP	17	case	_	ChunkId=NP8|ChunkType=child|Translit=para
+19	थे	था	AUX	VM	MASC;FIN;ACT;IND;PL;V;PST	17	cop	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=WA|Translit=the|Vib=था
+20	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4201
+# text = सिर ऊपर उठाने पर मैंने देखा कि हमारे लोग वहां पहुंच चुके थे ।
+1	सिर	सिर	NOUN	NN	NOM;N;3;SG;MASC	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=sira
+2	ऊपर	ऊपर	ADV	NST	NOM;ADV;3;SG;MASC	3	obl	_	AltTag=ADV-NOUN|ChunkId=NP2|ChunkType=head|Translit=ūpara
+3	उठाने	उठा	VERB	VM	V;ACC;NFIN	6	obl	_	Vib=ना_पर|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=uṭhāne
+4	पर	पर	ADP	PSP	ADP	3	mark	_	ChunkId=VGNN|ChunkType=child|Translit=para
+5	मैंने	मैं	PRON	PRP	{ACC/ERG};1;SG;PRO	6	nsubj	_	Vib=ने|Tam=ne|ChunkId=NP3|ChunkType=head|Translit=maiṁne
+6	देखा	देख	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=dekhā|Vib=या
+7	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+8	हमारे	हम	PRON	PRP	{ACC/GEN};1;PL;MASC;PRO	9	nmod	_	Vib=का|Tam=kA|ChunkId=NP4|ChunkType=head|Translit=hamāre
+9	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=loga
+10	वहां	वहाँ	PRON	PRP	NOM;PRO	12	obl	_	ChunkId=NP6|ChunkType=head|Translit=vahāṁ
+11	पहुंच	पहुंच	VERB	VM	V;PL;MASC;ACT	12	xcomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=pahuṁca|Vib=0_चुक+या_था
+12	चुके	चुक	VERB	VAUX	MASC;PFV;V;V.PTCP;PL	6	obj	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=cuke
+13	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	12	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=the
+14	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4202
+# text = वे फायरिंग कर रहे थे ।
+1	वे	वह	PRON	PRP	NOM;3;PL;PRO	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ve
+2	फायरिंग	फायरिंग	NOUN	NN	NOM;N;3;SG;FEM	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=phāyariṁga
+3	कर	कर	VERB	VM	V;PL;MASC;ACT	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_रह+या_था
+4	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	3	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+5	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	3	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=the
+6	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4203
+# text = उनमें से तीन लोग हमें सुरक्षा दे रहे थे, जबकि चौथा हमें बाहर निकाल रहा था ।
+1	उनमें	वह	PRON	PRP	{ACC/IN+ESS};3;PL;PRO	7	obl	_	Vib=0_से|Tam=meM|ChunkId=NP|ChunkType=head|Translit=unameṁ
+2	से	से	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=se
+3	तीन	तीन	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=tīna
+4	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=loga
+5	हमें	हम	PRON	PRP	{ACC/GEN};1;PL;PRO	7	obj	_	Vib=का|Tam=kA|ChunkId=NP3|ChunkType=head|Translit=hameṁ
+6	सुरक्षा	सुरक्षा	NOUN	NN	NOM;N;3;SG;FEM	7	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=surakṣā
+7	दे	दे	VERB	VM	V;PL;MASC;ACT	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=de|Vib=0_रह+या_था
+8	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	7	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+9	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	7	aux:pass	_	SpaceAfter=No|Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=the
+10	,	,	PUNCT	SYM	_	15	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+11	जबकि	जबकि	CCONJ	CC	CONJ	15	cc	_	ChunkId=CCP|ChunkType=head|Translit=jabaki
+12	चौथा	चौथा	NOUN	NN	NOM;N;3;SG;MASC	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=cauthā
+13	हमें	हम	PRON	PRP	{ACC/DAT};1;PL;PRO	15	obj	_	Vib=को|Tam=ko|ChunkId=NP6|ChunkType=head|Translit=hameṁ
+14	बाहर	बाहर	ADV	NST	NOM;ADV;3;SG;MASC	15	obl	_	AltTag=ADV-NOUN|ChunkId=NP7|ChunkType=head|Translit=bāhara
+15	निकाल	निकाल	VERB	VM	V;ACT;MASC;SG	7	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=nikāla|Vib=0_रह+या_था
+16	रहा	रह	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	15	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahā
+17	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	15	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thā
+18	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4204
+# text = याना को तुरंत एक कार से अस्पताल ले जाया गया ।
+1	याना	याना	PROPN	NNP	PROPN;3;SG;ACC;FEM	8	obj	_	Vib=0_को|Tam=0|ChunkId=NP|ChunkType=head|Translit=yānā
+2	को	को	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ko
+3	तुरंत	तुरंत	ADV	RB	ADV	8	advmod	_	ChunkId=RBP|ChunkType=head|Translit=turaṁta
+4	एक	एक	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+5	कार	कार	NOUN	NN	N;3;SG;ACC;FEM	8	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kāra
+6	से	से	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+7	अस्पताल	अस्पताल	NOUN	NN	NOM;N;3;SG;MASC	8	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=aspatāla
+8	ले	ले	VERB	VM	V;PASS;MASC;SG	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=le|Vib=0_जा+या_जा+या१
+9	जाया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	8	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=jāyā
+10	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	8	aux:pass	_	Vib=या१|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+11	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4205
+# text = सुनामी प्रभावित इलाकों में जिंदगी रफ्ता रफ्ता पुराने ढर्रे पर लौट रही है, लेकिन अब भी लोग सहम जाते हैं ।
+1	सुनामी	सुनामी	ADJ	JJC	ADJ;NOM;3;SG;FEM	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=sunāmī
+2	प्रभावित	प्रभावित	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP|ChunkType=child|Translit=prabhāvita
+3	इलाकों	इलाका	NOUN	NN	MASC;N;3;ACC;PL	11	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=ilākoṁ
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+5	जिंदगी	जिंदगी	NOUN	NN	NOM;N;3;SG;FEM	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=jiṁdagī
+6	रफ्ता	रफ्ता	ADV	RB	ADV	11	advmod	_	ChunkId=RBP|ChunkType=head|Translit=raphtā
+7	रफ्ता	रफ्ता	ADV	RDP	ADV	6	compound	_	AltTag=adv-ADV|ChunkId=RBP|ChunkType=child|Translit=raphtā
+8	पुराने	पुराना	ADJ	JJ	ACC;MASC;SG;ADJ	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=purāne
+9	ढर्रे	ढर्रा	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ḍharre
+10	पर	पर	ADP	PSP	ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+11	लौट	लौट	VERB	VM	ACT;V;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=lauṭa|Vib=0_रह+या_है
+12	रही	रह	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	11	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahī
+13	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	11	aux:pass	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+14	,	,	PUNCT	SYM	_	19	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+15	लेकिन	लेकिन	CCONJ	CC	CONJ	19	cc	_	ChunkId=CCP|ChunkType=head|Translit=lekina
+16	अब	अब	PRON	PRP	NOM;PRO	19	obl	_	ChunkId=NP4|ChunkType=head|Translit=aba
+17	भी	भी	PART	RP	PART	16	dep	_	ChunkId=NP4|ChunkType=child|Translit=bhī
+18	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	19	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=loga
+19	सहम	सहम	VERB	VM	MASC;ACT;V;3;PL	11	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=sahama|Vib=0_जा+ता_है
+20	जाते	जा	AUX	VAUX	MASC;V.PTCP;IPFV;PL;V	19	aux	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jāte
+21	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	19	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+22	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4206
+# text = खासतौर से बच्चे सदमे में हैं और रात में अचानक उठ बैठते हैं ।
+1	खासतौर	खासतौर	NOUN	NN	N;3;SG;ACC;MASC	4	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=khāsataura
+2	से	से	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=se
+3	बच्चे	बच्चा	NOUN	NN	NOM;N;3;PL;MASC	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bacce
+4	सदमे	सदमा	NOUN	NN	N;3;SG;ACC;MASC	0	root	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sadame
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+6	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	4	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+7	और	और	CCONJ	CC	CONJ	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	रात	रात	NOUN	NN	N;3;SG;ACC;FEM	11	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=rāta
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	अचानक	अचानक	ADV	RB	ADV	11	advmod	_	ChunkId=RBP|ChunkType=head|Translit=acānaka
+11	उठ	उठ	VERB	VM	MASC;ACT;V;3;PL	4	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=uṭha|Vib=0_बैठ+ता_है
+12	बैठते	बैठ	VERB	VAUX	MASC;V;V.PTCP;IPFV;PL	11	compound	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=baiṭhate
+13	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	11	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+14	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4207
+# text = इसके अलावा 6 लाख 41 हजार से ज्यादा लोगों को सुरक्षित जगहों पर पहुंचाया जा चुका है ।
+1	इसके	यह	PRON	PRP	{ACC/GEN};3;SG;PRO	16	obl	_	Vib=0_अलावा|Tam=ke|ChunkId=NP|ChunkType=head|Translit=isake
+2	अलावा	अलावा	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=alāvā
+3	6	6	NUM	QCC	NUM	6	compound	_	ChunkId=NP2|ChunkType=child|Translit=6
+4	लाख	लाख	NUM	QCC	NUM	6	compound	_	ChunkId=NP2|ChunkType=child|Translit=lākha
+5	41	41	NUM	QCC	NUM	6	compound	_	ChunkId=NP2|ChunkType=child|Translit=41
+6	हजार	हजार	NUM	QC	ACC;NUM	8	obl	_	Vib=0_से|ChunkId=NP2|ChunkType=head|Translit=hajāra
+7	से	से	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+8	ज्यादा	ज्यादा	DET	QF	DET	9	amod	_	AltTag=ADJ-DET|ChunkId=JJP|ChunkType=head|Translit=jyādā
+9	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	16	obj	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=logoṁ
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+11	सुरक्षित	सुरक्षित	ADJ	JJ	ACC;ADJ	12	amod	_	ChunkId=NP4|ChunkType=child|Translit=surakṣita
+12	जगहों	जगह	NOUN	NN	N;3;ACC;FEM;PL	16	obl	_	Vib=0_पर|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jagahoṁ
+13	पर	पर	ADP	PSP	ADP	12	case	_	ChunkId=NP4|ChunkType=child|Translit=para
+14	पहुंचाया	पहुंचा	VERB	VM	PFV;V;PASS;V.PTCP;3;SG	16	xcomp	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=pahuṁcāyā|Vib=या_जा_चुक_है
+15	जा	जा	AUX	VAUX	V	16	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=jā
+16	चुका	चुक	VERB	VAUX	V	0	root	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=cukā
+17	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	16	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	।	।	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4208
+# text = एक दल बुरी तरह प्रभावित अंडमान निकोबार भी भेजा जा रहा है ।
+1	एक	एक	NUM	QC	NUM	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=eka
+2	दल	दल	NOUN	NN	NOM;N;3;SG;MASC	9	obj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=dala
+3	बुरी	बुरा	ADJ	JJ	FEM;NOM;SG;ADJ	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=burī
+4	तरह	तरह	NOUN	NN	NOM;N;3;SG;FEM	5	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=taraha
+5	प्रभावित	प्रभावित	ADJ	JJ	NOM;ADJ	7	amod	_	ChunkId=JJP|ChunkType=head|Translit=prabhāvita
+6	अंडमान	अंडमान	PROPN	NNPC	PROPN;NOM;3;SG;MASC	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=aṁḍamāna
+7	निकोबार	निकोबार	PROPN	NNP	PROPN;NOM;3;SG;MASC	9	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=nikobāra
+8	भी	भी	PART	RP	PART	7	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī
+9	भेजा	भेज	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=bhejā|Vib=या_जा_रह+या_है
+10	जा	जा	AUX	VAUX	V	9	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF|ChunkType=child|Translit=jā
+11	रहा	रह	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	9	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahā
+12	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	9	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+13	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4209
+# text = प्रधानमंत्री मनमोहन सिंह के भी अंडमान जाने की संभावना है ।
+1	प्रधानमंत्री	प्रधानमंत्री	PROPN	NNP	PROPN;NOM;3;SG;MASC	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=pradhānamaṁtrī
+2	मनमोहन	मनमोहन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=manamohana
+3	सिंह	सिंह	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	nsubj	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=siṁha
+4	के	का	ADP	PSP	ACC;ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+5	भी	भी	PART	RP	PART	3	dep	_	ChunkId=NP|ChunkType=child|Translit=bhī
+6	अंडमान	अंडमान	PROPN	NNP	PROPN;NOM;3;SG;MASC	7	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=aṁḍamāna
+7	जाने	जा	VERB	VM	V;ACC;NFIN;SG	9	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=jāne
+8	की	का	ADP	PSP	ADP;NOM;SG;FEM	7	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kī
+9	संभावना	संभावना	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saṁbhāvanā
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4210
+# text = अंडमान - निकोबार द्वीप समूह पर बचे लोगों को सुरक्षित स्थानों पर पहुंचाने के बाद सेना ने लापता लोगों की तलाश शुरू कर दी है ।
+1	अंडमान	अंडमान	PROPN	NNPC	PROPN;NOM;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=aṁḍamāna
+2	-	-	PUNCT	SYM	_	5	punct	_	ChunkId=NP|ChunkType=child|Translit=-
+3	निकोबार	निकोबार	PROPN	NNPC	PROPN;NOM;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=nikobāra
+4	द्वीप	द्वीप	PROPN	NNPC	PROPN;NOM;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=dvīpa
+5	समूह	समूह	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	obl	_	Vib=0_पर|Tam=0|ChunkId=NP|ChunkType=head|Translit=samūha
+6	पर	पर	ADP	PSP	ADP	5	case	_	ChunkId=NP|ChunkType=child|Translit=para
+7	बचे	बच	VERB	VM	MASC;PFV;V;V.PTCP;PL	8	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=bace
+8	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	13	obj	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=logoṁ
+9	को	को	ADP	PSP	ADP	8	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+10	सुरक्षित	सुरक्षित	ADJ	JJ	ACC;ADJ	11	amod	_	ChunkId=NP3|ChunkType=child|Translit=surakṣita
+11	स्थानों	स्थान	NOUN	NN	MASC;N;3;ACC;PL	13	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sthānoṁ
+12	पर	पर	ADP	PSP	ADP	11	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+13	पहुंचाने	पहुंचा	VERB	VM	NFIN;V;3;SG;ACC	23	obl	_	Vib=ना_के_बाद|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=pahuṁcāne
+14	के	के	ADP	PSP	ADP	13	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+15	बाद	बाद	ADV	NST	NOM;ADV;3;SG;MASC	13	mark	_	AltTag=ADV-NOUN|ChunkId=VGNN|ChunkType=child|Translit=bāda
+16	सेना	सेना	NOUN	NN	N;3;SG;ACC;FEM	23	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=senā
+17	ने	ने	ADP	PSP	ADP	16	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+18	लापता	लापता	ADJ	JJ	ACC;ADJ	19	amod	_	ChunkId=NP5|ChunkType=child|Translit=lāpatā
+19	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	21	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=logoṁ
+20	की	का	ADP	PSP	ADP;NOM;SG;FEM	19	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+21	तलाश	तलाश	NOUN	NN	NOM;N;3;SG;FEM	23	obj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=talāśa
+22	शुरू	शुरू	NOUN	NN	NOM;N;3;SG;MASC	23	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=śurū
+23	कर	कर	VERB	VM	ACT;V;3;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_दे+या_है
+24	दी	दे	VERB	VAUX	PFV;V;V.PTCP;SG;FEM	23	compound	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=dī
+25	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	23	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+26	।	।	PUNCT	SYM	_	23	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4211
+# text = सेना की एकीकृत कमान के मुखिया वाइस एडमिरल रमन पुरी के मुताबिक घने जंगलों की वजह से सेना के जवान पैदल व हैलीकॉप्टर के जरिए जिंदा बचे लोगों की तलाश कर रहे हैं ।
+1	सेना	सेना	NOUN	NN	N;3;SG;ACC;FEM	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=senā
+2	की	का	ADP	PSP	ADP;SG;ACC;FEM	1	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+3	एकीकृत	एकीकृत	ADJ	JJ	ACC;ADJ	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=ekīkr̥ta
+4	कमान	कमान	NOUN	NN	N;3;SG;ACC;FEM	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kamāna
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	मुखिया	मुखिया	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=mukhiyā
+7	वाइस	वाइस	NOUN	NNC	ACC;N	10	compound	_	ChunkId=NP4|ChunkType=child|Translit=vāisa
+8	एडमिरल	एडमिरल	NOUN	NNC	N;3;SG;ACC;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=eḍamirala
+9	रमन	रमन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=ramana
+10	पुरी	पुरी	PROPN	NNP	ACC;PROPN;3;SG	31	obl	_	Vib=0_के_मुताबिक|Tam=0|ChunkId=NP4|ChunkType=head|Translit=purī
+11	के	के	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+12	मुताबिक	मुताबिक	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=mutābika
+13	घने	घना	ADJ	JJ	ACC;PL;MASC;ADJ	14	amod	_	ChunkId=NP5|ChunkType=child|Translit=ghane
+14	जंगलों	जंगल	NOUN	NN	MASC;N;3;ACC;PL	31	obl	_	Vib=0_का_वजह_से|Tam=0|ChunkId=NP5|ChunkType=head|Translit=jaṁgaloṁ
+15	की	का	ADP	PSP	ACC;FEM;ADP	14	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+16	वजह	वजह	ADP	PSP	ACC;FEM;ADP	14	case	_	ChunkId=NP5|ChunkType=child|Translit=vajaha
+17	से	से	ADP	PSP	ADP	14	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+18	सेना	सेना	NOUN	NN	N;3;SG;ACC;FEM	20	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=senā
+19	के	का	ADP	PSP	ADP;NOM;PL;MASC	18	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+20	जवान	जवान	NOUN	NN	NOM;N;3;PL;MASC	31	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=javāna
+21	पैदल	पैदल	NOUN	NN	N;3;SG;ACC;MASC	31	obl	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=paidala
+22	व	व	CCONJ	CC	CONJ	23	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+23	हैलीकॉप्टर	हैलीकॉप्टर	NOUN	NN	N;3;SG;ACC;MASC	21	conj	_	Vib=0_के_जरिये|Tam=0|ChunkId=NP9|ChunkType=head|Translit=hailīkôpṭara
+24	के	के	ADP	PSP	ADP	21	case	_	ChunkId=NP9|ChunkType=child|Translit=ke
+25	जरिए	जरिये	ADP	PSP	ADP	21	case	_	ChunkId=NP9|ChunkType=child|Translit=jarie
+26	जिंदा	जिंदा	ADJ	JJ	ADJ	27	compound	_	ChunkId=JJP|ChunkType=head|Translit=jiṁdā
+27	बचे	बच	VERB	VM	MASC;PFV;V;V.PTCP;PL	28	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=bace
+28	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	30	nmod	_	Vib=0_का|Tam=0|ChunkId=NP10|ChunkType=head|Translit=logoṁ
+29	की	का	ADP	PSP	ADP;NOM;SG;FEM	28	case	_	ChunkId=NP10|ChunkType=child|Translit=kī
+30	तलाश	तलाश	NOUN	NN	NOM;N;3;SG;FEM	31	compound	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=talāśa
+31	कर	कर	VERB	VM	MASC;ACT;V;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kara|Vib=0_रह+या_है
+32	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	31	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+33	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	31	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+34	।	।	PUNCT	SYM	_	31	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4212
+# text = मंगलवार को जारी किए गए सरकारी आंकड़ों के मुताबिक 26 दिसंबर को आई सुनामी लहरों के बाद 5914 लोग लापता हैं जबकि 9571 लोगों की मौत हो चुकी है ।
+1	मंगलवार	मंगलवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	obl	_	Vib=0_को|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁgalavāra
+2	को	को	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ko
+3	जारी	जारी	ADJ	JJ	ADJ	4	compound	_	ChunkId=JJP|ChunkType=head|Translit=jārī
+4	किए	कर	VERB	VM	MASC;PFV;V;V.PTCP;PL	7	acl	_	Vib=या_जा+या1|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=kie
+5	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	4	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gae
+6	सरकारी	सरकारी	ADJ	JJ	ACC;ADJ	7	amod	_	ChunkId=NP2|ChunkType=child|Translit=sarakārī
+7	आंकड़ों	आंकड़ा	NOUN	NN	MASC;N;3;ACC;PL	20	nmod	_	Vib=0_के_मुताबिक|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āṁkaṛoṁ
+8	के	के	ADP	PSP	ADP	7	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+9	मुताबिक	मुताबिक	ADP	PSP	ADP	7	case	_	ChunkId=NP2|ChunkType=child|Translit=mutābika
+10	26	26	PROPN	NNPC	NOM;PROPN;3;SG	11	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=26
+11	दिसंबर	दिसंबर	PROPN	NNP	PROPN;3;SG;ACC;MASC	13	obl	_	Vib=0_को|Tam=0|ChunkId=NP3|ChunkType=head|Translit=disaṁbara
+12	को	को	ADP	PSP	ADP	11	case	_	ChunkId=NP3|ChunkType=child|Translit=ko
+13	आई	आ	VERB	VM	PFV;V;V.PTCP;SG;FEM	15	acl	_	Vib=या|Tam=yA|ChunkId=VGNF2|ChunkType=head|Translit=āī
+14	सुनामी	सुनामी	NOUN	NNC	NOM;N;3;SG;FEM	15	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=sunāmī
+15	लहरों	लहर	NOUN	NN	N;3;ACC;FEM;PL	20	nmod	_	Vib=0_के_बाद|Tam=0|ChunkId=NP4|ChunkType=head|Translit=laharoṁ
+16	के	के	ADP	PSP	ADP	15	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+17	बाद	बाद	ADP	NST	ADP;NOM;3;SG;MASC	15	case	_	AltTag=ADP-NOUN|ChunkId=NP4|ChunkType=child|Translit=bāda
+18	5914	5914	NUM	QC	NUM	19	nummod	_	ChunkId=NP5|ChunkType=child|Translit=5914
+19	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	20	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=loga
+20	लापता	लापता	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP2|ChunkType=head|Translit=lāpatā
+21	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	20	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+22	जबकि	जबकि	CCONJ	CC	CONJ	28	cc	_	ChunkId=CCP|ChunkType=head|Translit=jabaki
+23	9571	9571	NUM	QC	NUM	24	nummod	_	ChunkId=NP6|ChunkType=child|Translit=9571
+24	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	26	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=logoṁ
+25	की	का	ADP	PSP	ADP;NOM;SG;FEM	24	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+26	मौत	मौत	NOUN	NN	NOM;N;3;SG;FEM	27	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=mauta
+27	हो	हो	VERB	VM	ACT;V;3;SG;FEM	28	xcomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_चुक+या_है
+28	चुकी	चुक	VERB	VAUX	PFV;V;V.PTCP;SG;FEM	20	conj	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=cukī
+29	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	28	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+30	।	।	PUNCT	SYM	_	20	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4213
+# text = अकेले कच्छाल द्वीप के 4657 लोग लापता हैं ।
+1	अकेले	अकेला	ADJ	JJ	ACC;MASC;SG;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=akele
+2	कच्छाल	कच्छाल	PROPN	NNP	PROPN;NOM;3;SG;MASC	3	nmod	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=kacchāla
+3	द्वीप	द्वीप	NOUN	NN	N;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=dvīpa
+4	के	का	ADP	PSP	ADP;NOM;PL;MASC	3	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+5	4657	4657	NUM	QC	NUM	6	nummod	_	ChunkId=NP2|ChunkType=child|Translit=4657
+6	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=loga
+7	लापता	लापता	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=lāpatā
+8	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	7	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+9	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4214
+# text = पोर्टब्लेयर में राहत अभियान में जुटे एक अधिकारी ने बताया कि अब लोगों के विस्थापन के बजाय उनके घरों तक राहत पहुंचाई जा रही है ।
+1	पोर्टब्लेयर	पोर्टब्लेयर	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=porṭableyara
+2	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+3	राहत	राहत	NOUN	NNC	NOM;N;3;SG;FEM	4	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=rāhata
+4	अभियान	अभियान	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=abhiyāna
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+6	जुटे	जुट	VERB	VM	PFV;V;V.PTCP;SG;MASC	8	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=juṭe
+7	एक	एक	NUM	QC	NUM	8	nummod	_	ChunkId=NP3|ChunkType=child|Translit=eka
+8	अधिकारी	अधिकारी	NOUN	NN	N;3;SG;ACC;MASC	10	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP3|ChunkType=head|Translit=adhikārī
+9	ने	ने	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ne
+10	बताया	बता	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=batāyā|Vib=या
+11	कि	कि	SCONJ	CC	CONJ	22	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+12	अब	अब	PRON	PRP	NOM;PRO	22	obl	_	ChunkId=NP4|ChunkType=head|Translit=aba
+13	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=logoṁ
+14	के	का	ADP	PSP	ADP;SG;ACC;MASC	13	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+15	विस्थापन	विस्थापन	NOUN	NN	N;3;SG;ACC;MASC	22	obl	_	Vib=0_के_बजाय|Tam=0|ChunkId=NP6|ChunkType=head|Translit=visthāpana
+16	के	के	ADP	PSP	ADP	15	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+17	बजाय	बजाय	ADP	PSP	ADP	15	case	_	ChunkId=NP6|ChunkType=child|Translit=bajāya
+18	उनके	वह	PRON	PRP	{ACC/GEN};3;PL;MASC;PRO	19	nmod	_	Vib=का|Tam=kA|ChunkId=NP7|ChunkType=head|Translit=unake
+19	घरों	घर	NOUN	NN	MASC;N;3;ACC;PL	22	obl	_	Vib=0_तक|Tam=0|ChunkId=NP8|ChunkType=head|Translit=gharoṁ
+20	तक	तक	ADP	PSP	ADP	19	case	_	ChunkId=NP8|ChunkType=child|Translit=taka
+21	राहत	राहत	NOUN	NN	NOM;N;3;SG;FEM	22	obj	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=rāhata
+22	पहुंचाई	पहुंचा	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;FEM	10	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=pahuṁcāī|Vib=या_जा_रह+या_है
+23	जा	जा	AUX	VAUX	V	22	aux:pass	_	Vib=0|Tam=0|ChunkId=VGF2|ChunkType=child|Translit=jā
+24	रही	रह	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	22	aux:pass	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=rahī
+25	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	22	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+26	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4215
+# text = इससे अंडमान निकोबार के विभिन्न द्वीपों से हजारों लोगों को राजधानी पोर्टब्लेयर में बनाए गए राहत शिविरों में लाया गया था ।
+1	इससे	यह	PRON	PRP	{ACC/INS};3;SG;PRO	19	obl	_	Vib=से|Tam=se|ChunkId=NP|ChunkType=head|Translit=isase
+2	अंडमान	अंडमान	PROPN	NNPC	PROPN;NOM;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=aṁḍamāna
+3	निकोबार	निकोबार	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nikobāra
+4	के	का	ADP	PSP	ADP;SG;ACC;MASC	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+5	विभिन्न	विभिन्न	ADJ	JJ	ACC;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=vibhinna
+6	द्वीपों	द्वीप	NOUN	NN	MASC;N;3;ACC;PL	19	obl	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dvīpoṁ
+7	से	से	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+8	हजारों	हजार	NUM	QC	NUM	9	nummod	_	ChunkId=NP4|ChunkType=child|Translit=hajāroṁ
+9	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	19	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=logoṁ
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+11	राजधानी	राजधानी	NOUN	NN	N;3;SG;ACC;FEM	12	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rājadhānī
+12	पोर्टब्लेयर	पोर्टब्लेयर	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP6|ChunkType=head|Translit=porṭableyara
+13	में	में	ADP	PSP	ADP	12	case	_	ChunkId=NP6|ChunkType=child|Translit=meṁ
+14	बनाए	बना	VERB	VM	MASC;PFV;V;V.PTCP;PL	17	acl	_	Vib=या_जा+या1|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=banāe
+15	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	14	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gae
+16	राहत	राहत	NOUN	NNC	NOM;N;3;SG;FEM	17	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=child|Translit=rāhata
+17	शिविरों	शिविर	NOUN	NN	MASC;N;3;ACC;PL	19	obl	_	Vib=0_में|Tam=0|ChunkId=NP7|ChunkType=head|Translit=śiviroṁ
+18	में	में	ADP	PSP	ADP	17	case	_	ChunkId=NP7|ChunkType=child|Translit=meṁ
+19	लाया	ला	VERB	VM	PFV;V;PASS;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=lāyā|Vib=या_जा+या1_था
+20	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	19	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+21	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	19	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+22	।	।	PUNCT	SYM	_	19	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4216
+# text = सुनामी के कहर से जिंदा बच गए लोगों के लिए जिंदगी पहले जैसी आसान नहीं रही ।
+1	सुनामी	सुनामी	NOUN	NN	N;3;SG;ACC;FEM	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=sunāmī
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	कहर	कहर	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kahara
+4	से	से	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+5	जिंदा	जिंदा	ADJ	JJ	ADJ	6	compound	_	ChunkId=JJP|ChunkType=head|Translit=jiṁdā
+6	बच	बच	VERB	VM	V;PL	8	acl	_	Vib=0_जा+या|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=baca
+7	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	6	aux	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=child|Translit=gae
+8	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	16	obl	_	Vib=0_के_लिए|Tam=0|ChunkId=NP3|ChunkType=head|Translit=logoṁ
+9	के	के	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+10	लिए	लिए	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=lie
+11	जिंदगी	जिंदगी	NOUN	NN	NOM;N;3;SG;FEM	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jiṁdagī
+12	पहले	पहले	ADV	NST	ADV;3;SG;ACC;MASC	16	obl	_	AltTag=ADV-NOUN|Vib=0_जैसा|ChunkId=NP5|ChunkType=head|Translit=pahale
+13	जैसी	जैसा	ADP	PSP	ADP;NOM;SG;FEM	12	case	_	ChunkId=NP5|ChunkType=child|Translit=jaisī
+14	आसान	आसान	ADJ	JJ	ADJ	16	xcomp	_	ChunkId=JJP2|ChunkType=head|Translit=āsāna
+15	नहीं	नहीं	PART	NEG	NEG;PART	16	advmod	_	ChunkId=VGF|ChunkType=child|Translit=nahīṁ
+16	रही	रह	VERB	VM	ACT;PFV;V;V.PTCP;SG;FEM	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=rahī|Vib=या
+17	।	।	PUNCT	SYM	_	16	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4217
+# text = ज्यादातर राहत शिविर स्कूलों में बनाए गए हैं ।
+1	ज्यादातर	ज्यादातर	ADJ	JJ	NOM;ADJ	3	amod	_	ChunkId=NP|ChunkType=child|Translit=jyādātara
+2	राहत	राहत	NOUN	NNC	NOM;N;3;SG;FEM	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=rāhata
+3	शिविर	शिविर	NOUN	NN	NOM;N;3;PL;MASC	6	obj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=śivira
+4	स्कूलों	स्कूल	NOUN	NN	MASC;N;3;ACC;PL	6	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=skūloṁ
+5	में	में	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+6	बनाए	बना	VERB	VM	MASC;PFV;V;PASS;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banāe|Vib=या_जा+या1_है
+7	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	6	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gae
+8	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	6	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+9	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4218
+# text = यहां लोग प्लास्टिक की शीटों पर सो कर रात काट रहे हैं ।
+1	यहां	यहाँ	PRON	PRP	NOM;PRO	10	obl	_	ChunkId=NP|ChunkType=head|Translit=yahāṁ
+2	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=loga
+3	प्लास्टिक	प्लास्टिक	NOUN	NN	N;3;SG;ACC;MASC	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=plāsṭika
+4	की	का	ADP	PSP	ADP;ACC;FEM;PL	3	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+5	शीटों	शीट	NOUN	NN	N;3;ACC;FEM;PL	7	obl	_	Vib=0_पर|Tam=0|ChunkId=NP4|ChunkType=head|Translit=śīṭoṁ
+6	पर	पर	ADP	PSP	ADP	5	case	_	ChunkId=NP4|ChunkType=child|Translit=para
+7	सो	सो	VERB	VM	V	10	advcl	_	Vib=0_कर|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=so
+8	कर	कर	AUX	VAUX	V	7	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child|Translit=kara
+9	रात	रात	NOUN	NN	NOM;N;3;SG;FEM	10	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rāta
+10	काट	काट	VERB	VM	MASC;ACT;V;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=kāṭa|Vib=0_रह+या_है
+11	रहे	रह	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	10	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=rahe
+12	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	10	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+13	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4219
+# text = पीने के पानी की भी खासी दिक्कत है ।
+1	पीने	पी	VERB	VM	V;ACC;NFIN;SG	3	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=pīne
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+3	पानी	पानी	NOUN	NN	N;3;SG;ACC;MASC	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=pānī
+4	की	का	ADP	PSP	ADP;NOM;SG;FEM	3	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+5	भी	भी	PART	RP	PART	3	dep	_	ChunkId=NP|ChunkType=child|Translit=bhī
+6	खासी	खासा	ADJ	JJ	FEM;NOM;SG;ADJ	7	amod	_	ChunkId=NP2|ChunkType=child|Translit=khāsī
+7	दिक्कत	दिक्कत	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dikkata
+8	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	7	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+9	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4220
+# text = मनोवैज्ञानिक स्तर पर इसका व्यापक असर हुआ है ।
+1	मनोवैज्ञानिक	मनोवैज्ञानिक	ADJ	JJ	ACC;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=manovaijñānika
+2	स्तर	स्तर	NOUN	NN	N;3;SG;ACC;MASC	7	obl	_	Vib=0_पर|Tam=0|ChunkId=NP|ChunkType=head|Translit=stara
+3	पर	पर	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=para
+4	इसका	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	6	nmod	_	Vib=का|Tam=kA|ChunkId=NP2|ChunkType=head|Translit=isakā
+5	व्यापक	व्यापक	ADJ	JJ	NOM;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=vyāpaka
+6	असर	असर	NOUN	NN	NOM;N;3;SG;MASC	7	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=asara
+7	हुआ	हो	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=huā|Vib=या_है
+8	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	7	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+9	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4221
+# text = राहत शिविर बने पोर्टब्लेयर के एक हाई स्कूल के प्रिंसिपल सुशील सिंह ने कहा, बच्चे भयभीत हैं ।
+1	राहत	राहत	NOUN	NNC	NOM;N;3;SG;FEM	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=rāhata
+2	शिविर	शिविर	NOUN	NN	NOM;N;3;SG;MASC	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=śivira
+3	बने	बन	VERB	VM	PFV;V;V.PTCP;SG;MASC	4	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=bane
+4	पोर्टब्लेयर	पोर्टब्लेयर	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=porṭableyara
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	एक	एक	NUM	QC	NUM	8	nummod	_	ChunkId=NP3|ChunkType=child|Translit=eka
+7	हाई	हाई	NOUN	NNC	ACC;N	8	compound	_	ChunkId=NP3|ChunkType=child|Translit=hāī
+8	स्कूल	स्कूल	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=skūla
+9	के	का	ADP	PSP	ADP;SG;ACC;MASC	8	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+10	प्रिंसिपल	प्रिंसिपल	NOUN	NN	N;3;SG;ACC;MASC	12	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=priṁsipala
+11	सुशील	सुशील	PROPN	NNPC	PROPN;NOM;3;SG;MASC	12	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=suśīla
+12	सिंह	सिंह	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP5|ChunkType=head|Translit=siṁha
+13	ने	ने	ADP	PSP	ADP	12	case	_	ChunkId=NP5|ChunkType=child|Translit=ne
+14	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=yA|Translit=kahā|Vib=या
+15	,	,	PUNCT	SYM	_	14	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+16	बच्चे	बच्चा	NOUN	NN	NOM;N;3;PL;MASC	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bacce
+17	भयभीत	भयभीत	ADJ	JJ	ADJ	14	obj	_	ChunkId=JJP|ChunkType=head|Translit=bhayabhīta
+18	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	17	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+19	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4222
+# text = वे रात में भूकंप की आशंका में उठ जाते हैं और फिर भागने लगते हैं ।
+1	वे	वह	PRON	PRP	3;ACC;PL;PRO	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=ve
+2	रात	रात	NOUN	NN	N;3;SG;ACC;FEM	8	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rāta
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+4	भूकंप	भूकंप	NOUN	NN	N;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=bhūkaṁpa
+5	की	का	ADP	PSP	ADP;SG;ACC;FEM	4	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+6	आशंका	आशंका	NOUN	NN	N;3;SG;ACC;FEM	8	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=āśaṁkā
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+8	उठ	उठ	VERB	VM	MASC;ACT;V;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=uṭha|Vib=0_जा+ता_है
+9	जाते	जा	AUX	VAUX	MASC;V.PTCP;IPFV;PL;V	8	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jāte
+10	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	8	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+11	और	और	CCONJ	CC	CONJ	14	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+12	फिर	फिर	ADV	RB	ADV	14	advmod	_	ChunkId=RBP|ChunkType=head|Translit=phira
+13	भागने	भाग	VERB	VM	MASC;ACT;NFIN;V;3;PL	14	xcomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=nA|Translit=bhāgane|Vib=ना_लग+ता_है
+14	लगते	लग	VERB	VAUX	MASC;V;V.PTCP;IPFV;PL	8	conj	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=lagate
+15	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	14	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+16	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

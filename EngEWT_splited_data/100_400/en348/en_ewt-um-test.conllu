@@ -1,0 +1,90 @@
+# sent_id = reviews-369608-0002
+# text = I worked with Sam Mones who took great care of me.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	worked	work	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	Sam	Sam	PROPN	NNP	SG;PROPN	2	obl	2:obl:with|7:nsubj	_
+5	Mones	Mones	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	who	who	PRON	WP	PRO	7	nsubj	4:ref	_
+7	took	take	VERB	VBD	PST;V;3;FIN;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+8	great	great	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	care	care	NOUN	NN	SG;N	7	obj	7:obj	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	me	I	PRON	PRP	ACC;PRO;1;SG	7	obl	7:obl:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-369608-0003
+# text = This is by far the best run dealership in Miami.
+1	This	this	PRON	DT	SG;PRO	8	nsubj	8:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	cop	8:cop	_
+3	by	by	ADP	IN	ADP	4	case	4:case	_
+4	far	far	ADV	RB	ADV	8	obl	8:obl:by	_
+5	the	the	DET	DT	DEF;DET	8	det	8:det	_
+6	best	well	ADV	RBS	RL;ADV	7	advmod	7:advmod	_
+7	run	run	VERB	VBN	PASS;PST;V;V.PTCP	8	amod	8:amod	_
+8	dealership	dealership	NOUN	NN	SG;N	0	root	0:root	_
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	Miami	Miami	PROPN	NNP	SG;PROPN	8	nmod	8:nmod:in	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# newdoc id = reviews-097548
+# sent_id = reviews-097548-0001
+# newpar id = reviews-097548-p0001
+# text = The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	company	company	NOUN	NN	SG;N	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+3	gets	get	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	busy	busy	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+5	but	but	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+7	never	never	ADV	RB	ADV	8	advmod	8:advmod	_
+8	have	have	VERB	VBP	V;FIN;PRS;2;SG;IND	3	conj	3:conj:but	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	wait	wait	VERB	VB	NFIN;V	8	xcomp	8:xcomp	_
+11	long	long	ADV	RB	ADV	10	advmod	10:advmod	_
+12	because	because	SCONJ	IN	CONJ	15	mark	15:mark	_
+13	they	they	PRON	PRP	PL;PRO;3;NOM	15	nsubj	15:nsubj	_
+14	ARE	be	AUX	VBP	PL;V;3;FIN;PRS;IND	15	cop	15:cop	_
+15	orginizied	organized	ADJ	JJ	ADJ	8	advcl	8:advcl:because	CorrectForm=organized|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	19:punct	_
+17	so	so	ADV	RB	ADV	19	advmod	19:advmod	_
+18	you	you	PRON	PRP	NOM;2;PRO	19	nsubj	19:nsubj	_
+19	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	3	parataxis	3:parataxis	_
+20	in	in	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	out	out	ADV	RB	ADV	20	conj	19:advmod|20:conj:and	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	25:punct	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	paid	pay	VERB	VBN	PASS;PST;V;V.PTCP	20	conj	19:advmod|20:conj:and	_
+26	well	well	ADV	RB	ADV	25	advmod	25:advmod	_
+27	for	for	ADP	IN	ADP	29	case	29:case	_
+28	your	your	PRON	PRP$	GEN;PRO;2	29	nmod:poss	29:nmod:poss	_
+29	scrap	scrap	NOUN	NN	SG;N	25	obl	25:obl:for	_
+
+# newdoc id = reviews-181696
+# sent_id = reviews-181696-0001
+# newpar id = reviews-181696-p0001
+# text = Winning Attorney!
+1	Winning	win	VERB	VBG	V.MSDR;V	2	amod	2:amod	_
+2	Attorney	attorney	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-181696-0002
+# newpar id = reviews-181696-p0002
+# text = The only 10.0 "Perfect Score" AVVO Rated Attorney I Have Ever Met.
+1	The	the	DET	DT	DEF;DET	10	det	10:det	_
+2	only	only	ADJ	JJ	ADJ	10	amod	10:amod	_
+3	10.0	10.0	NUM	CD	NUM	10	nummod	10:nummod	_
+4	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+5	Perfect	perfect	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	Score	score	NOUN	NN	SG;N	10	compound	10:compound	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	6:punct	_
+8	AVVO	AVVO	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Rated	rate	VERB	VBN	PASS;PST;V;V.PTCP	10	amod	10:amod	_
+10	Attorney	attorney	NOUN	NN	SG;N	0	root	0:root|14:obj	_
+11	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+12	Have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	14	aux	14:aux	_
+13	Ever	ever	ADV	RB	ADV	14	advmod	14:advmod	_
+14	Met	meet	VERB	VBN	PST;V;V.PTCP	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	10:punct	_
+

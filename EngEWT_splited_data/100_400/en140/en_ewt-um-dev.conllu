@@ -1,0 +1,114 @@
+# sent_id = email-enronsent00_02-0008
+# newpar id = email-enronsent00_02-p0005
+# text = Phillip,
+1	Phillip	Phillip	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent00_02-0009
+# newpar id = email-enronsent00_02-p0006
+# text = This section pertains to terminated employees who are paid out in the year following the termination event.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	section	section	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	pertains	pertain	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	to	to	ADP	IN	ADP	6	case	6:case	_
+5	terminated	terminate	VERB	VBN	PASS;V;V.PTCP;PST	6	amod	6:amod	_
+6	employees	employee	NOUN	NNS	PL;N	3	obl	3:obl:to|9:nsubj:pass	_
+7	who	who	PRON	WP	PRO	9	nsubj:pass	6:ref	_
+8	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	9	aux:pass	9:aux:pass	_
+9	paid	pay	VERB	VBN	PASS;V;V.PTCP;PST	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj:pass
+10	out	out	ADP	RP	ADP	9	compound:prt	9:compound:prt	_
+11	in	in	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	year	year	NOUN	NN	SG;N	9	obl	9:obl:in	_
+14	following	follow	VERB	VBG	PRS;V;V.PTCP	17	case	17:case	_
+15	the	the	DET	DT	DET;DEF	17	det	17:det	_
+16	termination	termination	NOUN	NN	SG;N	17	compound	17:compound	_
+17	event	event	NOUN	NN	SG;N	13	nmod	13:nmod:following	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent00_02-0010
+# text = The way the tax law works, the tax basis for your share distribution will be based on the closing stock price the day preceding notification to the transfer agent.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	way	way	NOUN	NN	SG;N	17	dislocated	6:obl|17:dislocated	_
+3	the	the	DET	DT	DET;DEF	5	det	5:det	_
+4	tax	tax	NOUN	NN	SG;N	5	compound	5:compound	_
+5	law	law	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+6	works	work	VERB	VBZ	FIN;PRS;3;V;IND;SG	2	acl:relcl	2:acl:relcl	Cxn=rc-red-obl|SpaceAfter=No
+7	,	,	PUNCT	,	_	2	punct	2:punct	_
+8	the	the	DET	DT	DET;DEF	10	det	10:det	_
+9	tax	tax	NOUN	NN	SG;N	10	compound	10:compound	_
+10	basis	basis	NOUN	NN	SG;N	17	nsubj:pass	17:nsubj:pass	_
+11	for	for	ADP	IN	ADP	14	case	14:case	_
+12	your	your	PRON	PRP$	PRO;GEN;2	14	nmod:poss	14:nmod:poss	_
+13	share	share	NOUN	NN	SG;N	14	compound	14:compound	_
+14	distribution	distribution	NOUN	NN	SG;N	10	nmod	10:nmod:for	_
+15	will	will	AUX	MD	FIN;V	17	aux	17:aux	_
+16	be	be	AUX	VB	V;NFIN	17	aux:pass	17:aux:pass	_
+17	based	base	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+18	on	on	ADP	IN	ADP	22	case	22:case	_
+19	the	the	DET	DT	DET;DEF	22	det	22:det	_
+20	closing	close	VERB	VBG	V;V.MSDR	22	amod	22:amod	_
+21	stock	stock	NOUN	NN	SG;N	22	compound	22:compound	_
+22	price	price	NOUN	NN	SG;N	17	obl	17:obl:on	_
+23	the	the	DET	DT	DET;DEF	24	det	24:det	_
+24	day	day	NOUN	NN	SG;N	22	nmod:tmod	22:nmod:tmod	_
+25	preceding	precede	VERB	VBG	V;V.MSDR	24	acl	24:acl	_
+26	notification	notification	NOUN	NN	SG;N	25	obj	25:obj	_
+27	to	to	ADP	IN	ADP	30	case	30:case	_
+28	the	the	DET	DT	DET;DEF	30	det	30:det	_
+29	transfer	transfer	NOUN	NN	SG;N	30	compound	30:compound	_
+30	agent	agent	NOUN	NN	SG;N	26	nmod	26:nmod:to	SpaceAfter=No
+31	.	.	PUNCT	.	_	17	punct	17:punct	_
+
+# sent_id = email-enronsent00_02-0011
+# text = As such, we will distribute net shares calculating the proper withholding at fair market value the day prior to notifying the transfer agent.
+1	As	as	ADP	IN	ADP	2	case	2:case	_
+2	such	such	ADJ	JJ	ADJ	6	obl	6:obl:as	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	we	we	PRON	PRP	PRO;PL;1;NOM	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	FIN;V	6	aux	6:aux	_
+6	distribute	distribute	VERB	VB	NFIN;V	0	root	0:root	_
+7	net	net	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	shares	share	NOUN	NNS	PL;N	6	obj	6:obj	_
+9	calculating	calculate	VERB	VBG	PRS;V;V.PTCP	6	advcl	6:advcl	_
+10	the	the	DET	DT	DET;DEF	12	det	12:det	_
+11	proper	proper	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	withholding	withholding	NOUN	NN	SG;N	9	obj	9:obj	_
+13	at	at	ADP	IN	ADP	16	case	16:case	_
+14	fair	fair	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	market	market	NOUN	NN	SG;N	16	compound	16:compound	_
+16	value	value	NOUN	NN	SG;N	12	nmod	12:nmod:at	_
+17	the	the	DET	DT	DET;DEF	18	det	18:det	_
+18	day	day	NOUN	NN	SG;N	9	obl:tmod	9:obl:tmod	_
+19	prior	prior	ADJ	JJ	ADJ	21	mark	21:mark	_
+20	to	to	SCONJ	IN	CONJ	19	fixed	19:fixed	_
+21	notifying	notify	VERB	VBG	V;V.MSDR	18	acl	18:acl:prior_to	_
+22	the	the	DET	DT	DET;DEF	24	det	24:det	_
+23	transfer	transfer	NOUN	NN	SG;N	24	compound	24:compound	_
+24	agent	agent	NOUN	NN	SG;N	21	iobj	21:iobj	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent00_02-0012
+# text = We will be distributing the shares reflected on your 9/30/01 statement (6,606 shares plus cash for fractional shares).
+1	We	we	PRON	PRP	PRO;PL;1;NOM	4	nsubj	4:nsubj	_
+2	will	will	AUX	MD	FIN;V	4	aux	4:aux	_
+3	be	be	AUX	VB	V;NFIN	4	aux	4:aux	_
+4	distributing	distribute	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	shares	share	NOUN	NNS	PL;N	4	obj	4:obj	_
+7	reflected	reflect	VERB	VBN	PASS;V;V.PTCP;PST	6	acl	6:acl	_
+8	on	on	ADP	IN	ADP	11	case	11:case	_
+9	your	your	PRON	PRP$	PRO;GEN;2	11	nmod:poss	11:nmod:poss	_
+10	9/30/01	9/30/01	NUM	CD	NUM	11	nmod:tmod	11:nmod:tmod	_
+11	statement	statement	NOUN	NN	SG;N	7	obl	7:obl:on	_
+12	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+13	6,606	6606	NUM	CD	NUM	14	nummod	14:nummod	_
+14	shares	share	NOUN	NNS	PL;N	6	appos	6:appos	_
+15	plus	plus	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	cash	cash	NOUN	NN	SG;N	14	conj	6:appos|14:conj:plus	_
+17	for	for	ADP	IN	ADP	19	case	19:case	_
+18	fractional	fractional	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	shares	share	NOUN	NNS	PL;N	16	nmod	16:nmod:for	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+

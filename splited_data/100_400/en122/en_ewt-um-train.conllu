@@ -1,0 +1,780 @@
+# sent_id = email-enronsent31_01-0053
+# text = Ben
+1	Ben	Ben	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent31_01-0054
+# text = Please send me an excel spreadsheet which depicts the value that you see associated with the heat rate spread option.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	send	send	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	iobj	2:iobj	_
+4	an	a	DET	DT	DET;INDF	6	det	6:det	_
+5	excel	excel	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	spreadsheet	spreadsheet	NOUN	NN	N;SG	2	obj	2:obj|8:nsubj	_
+7	which	which	PRON	WDT	PRO	8	nsubj	6:ref	_
+8	depicts	depict	VERB	VBZ	FIN;SG;V;PRS;IND;3	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	value	value	NOUN	NN	N;SG	8	obj	8:obj|13:obj	_
+11	that	that	PRON	WDT	PRO	13	obj	10:ref	_
+12	you	you	PRON	PRP	PRO;2;NOM	13	nsubj	13:nsubj	_
+13	see	see	VERB	VBP	2;FIN;SG;V;PRS;IND	10	acl:relcl	10:acl:relcl	Cxn=rc-that-obj
+14	associated	associate	VERB	VBN	V.PTCP;PST;PASS;V	10	acl	10:acl	_
+15	with	with	ADP	IN	ADP	20	case	20:case	_
+16	the	the	DET	DT	DEF;DET	20	det	20:det	_
+17	heat	heat	NOUN	NN	N;SG	18	compound	18:compound	_
+18	rate	rate	NOUN	NN	N;SG	19	compound	19:compound	_
+19	spread	spread	NOUN	NN	N;SG	20	compound	20:compound	_
+20	option	option	NOUN	NN	N;SG	14	obl	14:obl:with	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent31_01-0055
+# text = I want to make sure that I understand exactly how you propose valuing the transaction and how this value would be booked.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj|4:nsubj:xsubj|5:nsubj:xsubj	_
+2	want	want	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	make	make	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	sure	sure	ADJ	JJ	ADJ	4	xcomp	4:xcomp	_
+6	that	that	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	I	I	PRON	PRP	SG;PRO;NOM;1	8	nsubj	8:nsubj	_
+8	understand	understand	VERB	VBP	FIN;SG;V;PRS;IND;1	5	ccomp	5:ccomp	_
+9	exactly	exactly	ADV	RB	ADV	10	advmod	10:advmod	_
+10	how	how	ADV	WRB	ADV	12	advmod	12:advmod	_
+11	you	you	PRON	PRP	PRO;2;NOM	12	nsubj	12:nsubj|13:nsubj:xsubj	_
+12	propose	propose	VERB	VBP	2;FIN;SG;V;PRS;IND	8	ccomp	8:ccomp	_
+13	valuing	value	VERB	VBG	V.MSDR;V	12	xcomp	12:xcomp	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	transaction	transaction	NOUN	NN	N;SG	13	obj	13:obj	_
+16	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+17	how	how	ADV	WRB	ADV	22	advmod	22:advmod	_
+18	this	this	DET	DT	DET;SG	19	det	19:det	_
+19	value	value	NOUN	NN	N;SG	22	nsubj:pass	22:nsubj:pass	_
+20	would	would	AUX	MD	V;FIN	22	aux	22:aux	_
+21	be	be	AUX	VB	V;NFIN	22	aux:pass	22:aux:pass	_
+22	booked	book	VERB	VBN	V.PTCP;PST;PASS;V	12	conj	8:ccomp|12:conj:and	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent31_01-0056
+# text = As such, please provide the following detail:
+1	As	as	ADP	IN	ADP	2	case	2:case	_
+2	such	such	ADJ	JJ	ADJ	5	obl	5:obl:as	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	please	please	INTJ	UH	INTJ	5	discourse	5:discourse	_
+5	provide	provide	VERB	VB	V;FIN;IMP	0	root	0:root	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	following	follow	VERB	VBG	V.MSDR;V	8	amod	8:amod	_
+8	detail	detail	NOUN	NN	N;SG	5	obj	5:obj	SpaceAfter=No
+9	:	:	PUNCT	:	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent31_01-0057
+# newpar id = email-enronsent31_01-p0006
+# text = Will we be valuing/booking a series of monthly call options or a series of daily call options?
+1	Will	will	AUX	MD	V;FIN	4	aux	4:aux	_
+2	we	we	PRON	PRP	PRO;PL;NOM;1	4	nsubj	4:nsubj|6:nsubj	_
+3	be	be	AUX	VB	V;NFIN	4	aux	4:aux	_
+4	valuing	value	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	SpaceAfter=No
+5	/	/	SYM	,	_	6	cc	6:cc	SpaceAfter=No
+6	booking	book	VERB	VBG	V.PTCP;V;PRS	4	conj	4:conj	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	series	series	NOUN	NN	N;SG	4	obj	4:obj|6:obj	_
+9	of	of	ADP	IN	ADP	12	case	12:case	_
+10	monthly	monthly	ADJ	JJ	ADJ	12	amod	12:amod	_
+11	call	call	NOUN	NN	N;SG	12	compound	12:compound	_
+12	options	option	NOUN	NNS	N;PL	8	nmod	8:nmod:of	_
+13	or	or	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	a	a	DET	DT	DET;INDF	15	det	15:det	_
+15	series	series	NOUN	NN	N;SG	8	conj	4:obj|8:conj:or	_
+16	of	of	ADP	IN	ADP	19	case	19:case	_
+17	daily	daily	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	call	call	NOUN	NN	N;SG	19	compound	19:compound	_
+19	options	option	NOUN	NNS	N;PL	15	nmod	15:nmod:of	SpaceAfter=No
+20	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent31_01-0058
+# text = What power curve are we valuing the deal against - PJM East or West Hub?
+1	What	what	DET	WDT	DET	3	det	3:det	_
+2	power	power	NOUN	NN	N;SG	3	compound	3:compound	_
+3	curve	curve	NOUN	NN	N;SG	6	obl	6:obl:against	_
+4	are	be	AUX	VBP	FIN;V;PRS;IND;PL;1	6	aux	6:aux	_
+5	we	we	PRON	PRP	PRO;PL;NOM;1	6	nsubj	6:nsubj	_
+6	valuing	value	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	deal	deal	NOUN	NN	N;SG	6	obj	6:obj	_
+9	against	against	ADP	IN	ADP	3	case	3:case	_
+10	-	-	PUNCT	,	_	15	punct	15:punct	_
+11	PJM	PJM	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+12	East	East	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+13	or	or	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	West	West	PROPN	NNP	PROPN;SG	12	conj	12:conj:or|15:compound	_
+15	Hub	Hub	PROPN	NNP	PROPN;SG	6	parataxis	6:parataxis	SpaceAfter=No
+16	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent31_01-0059
+# text = Please send me the current fuel curve that you are converting to $/MWh to value the deal?
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	send	send	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	iobj	2:iobj	_
+4	the	the	DET	DT	DEF;DET	7	det	7:det	_
+5	current	current	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	fuel	fuel	NOUN	NN	N;SG	7	compound	7:compound	_
+7	curve	curve	NOUN	NN	N;SG	2	obj	2:obj|11:obj	_
+8	that	that	PRON	WDT	PRO	11	obj	7:ref	_
+9	you	you	PRON	PRP	PRO;2;NOM	11	nsubj	11:nsubj	_
+10	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	11	aux	11:aux	_
+11	converting	convert	VERB	VBG	V.PTCP;V;PRS	7	acl:relcl	7:acl:relcl	Cxn=rc-that-obj
+12	to	to	ADP	IN	ADP	13	case	13:case	_
+13	$	$	SYM	$	_	11	obl	11:obl:to	SpaceAfter=No
+14	/	/	SYM	SYM	_	15	case	15:case	SpaceAfter=No
+15	MWh	mwh	NOUN	NN	N;SG	13	nmod	13:nmod	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	value	value	VERB	VB	V;NFIN	11	advcl	11:advcl:to	_
+18	the	the	DET	DT	DEF;DET	19	det	19:det	_
+19	deal	deal	NOUN	NN	N;SG	17	obj	17:obj	SpaceAfter=No
+20	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent31_01-0060
+# text = What volatilities are you using to value the options - monthly volatilities or intra-day volatilities or a blend of the two (if blending please show me what formula you using to blend the two vols)?
+1	What	what	DET	WDT	DET	2	det	2:det	_
+2	volatilities	volatility	NOUN	NNS	N;PL	5	obj	5:obj	_
+3	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	5	aux	5:aux	_
+4	you	you	PRON	PRP	PRO;2;NOM	5	nsubj	5:nsubj	_
+5	using	use	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	value	value	VERB	VB	V;NFIN	5	advcl	5:advcl:to	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	options	option	NOUN	NNS	N;PL	7	obj	7:obj	_
+10	-	-	PUNCT	,	_	12	punct	12:punct	_
+11	monthly	monthly	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	volatilities	volatility	NOUN	NNS	N;PL	2	appos	2:appos	_
+13	or	or	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	intra-day	intra-day	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	volatilities	volatility	NOUN	NNS	N;PL	12	conj	2:appos|12:conj:or	_
+16	or	or	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	a	a	DET	DT	DET;INDF	18	det	18:det	_
+18	blend	blend	NOUN	NN	N;SG	12	conj	2:appos|12:conj:or	_
+19	of	of	ADP	IN	ADP	21	case	21:case	_
+20	the	the	DET	DT	DEF;DET	21	det	21:det	_
+21	two	two	NUM	CD	NUM	18	nmod	18:nmod:of	_
+22	(	(	PUNCT	-LRB-	_	26	punct	26:punct	SpaceAfter=No
+23	if	if	SCONJ	IN	CONJ	24	mark	24:mark	_
+24	blending	blend	VERB	VBG	V.PTCP;V;PRS	26	advcl	26:advcl:if	_
+25	please	please	INTJ	UH	INTJ	26	discourse	26:discourse	_
+26	show	show	VERB	VB	V;FIN;IMP	5	parataxis	5:parataxis	_
+27	me	I	PRON	PRP	SG;PRO;1;ACC	26	iobj	26:iobj	_
+28	what	what	DET	WDT	DET	29	det	29:det	_
+29	formula	formula	NOUN	NN	N;SG	31	obj	31:obj	_
+30	you	you	PRON	PRP	PRO;2;NOM	31	nsubj	31:nsubj	_
+31	using	use	VERB	VBG	V.MSDR;V	26	ccomp	26:ccomp	_
+32	to	to	PART	TO	PART	33	mark	33:mark	_
+33	blend	blend	VERB	VB	V;NFIN	31	advcl	31:advcl:to	_
+34	the	the	DET	DT	DEF;DET	36	det	36:det	_
+35	two	two	NUM	CD	NUM	36	nummod	36:nummod	_
+36	vols	vol	NOUN	NNS	N;PL	33	obj	33:obj	SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	26	punct	26:punct	SpaceAfter=No
+38	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent31_01-0061
+# text = What expiration date are you using, i.e.: for monthly call options the 15th of the relevant month, and for daily options?
+1	What	what	DET	WDT	DET	3	det	3:det	_
+2	expiration	expiration	NOUN	NN	N;SG	3	compound	3:compound	_
+3	date	date	NOUN	NN	N;SG	6	obj	6:obj	_
+4	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	6	aux	6:aux	_
+5	you	you	PRON	PRP	PRO;2;NOM	6	nsubj	6:nsubj	_
+6	using	use	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	i.e.	i.e.	ADV	FW	ADV	6	advmod	6:advmod	SpaceAfter=No
+9	:	:	PUNCT	:	_	15	punct	15:punct	_
+10	for	for	ADP	IN	ADP	13	case	13:case	_
+11	monthly	monthly	ADJ	JJ	ADJ	13	amod	13:amod	_
+12	call	call	NOUN	NN	N;SG	13	compound	13:compound	_
+13	options	option	NOUN	NNS	N;PL	15	nmod	15:nmod:for	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	15th	15th	NOUN	NN	N;SG	8	nmod:npmod	8:nmod:npmod	_
+16	of	of	ADP	IN	ADP	19	case	19:case	_
+17	the	the	DET	DT	DEF;DET	19	det	19:det	_
+18	relevant	relevant	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	month	month	NOUN	NN	N;SG	15	nmod	15:nmod:of	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	24:punct	_
+21	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+22	for	for	ADP	IN	ADP	24	case	24:case	_
+23	daily	daily	ADJ	JJ	ADJ	24	amod	24:amod	_
+24	options	option	NOUN	NNS	N;PL	13	conj	13:conj:and|15:nmod:for	SpaceAfter=No
+25	?	?	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent31_01-0062
+# text = What correlation are you assuming, 15% flat for twenty years?
+1	What	what	DET	WDT	DET	2	det	2:det	_
+2	correlation	correlation	NOUN	NN	N;SG	5	obj	5:obj	_
+3	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	5	aux	5:aux	_
+4	you	you	PRON	PRP	PRO;2;NOM	5	nsubj	5:nsubj	_
+5	assuming	assume	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	15	15	NUM	CD	NUM	8	nummod	8:nummod	SpaceAfter=No
+8	%	%	SYM	NN	SG	5	parataxis	5:parataxis	_
+9	flat	flat	ADJ	JJ	ADJ	8	amod	8:amod	_
+10	for	for	ADP	IN	ADP	12	case	12:case	_
+11	twenty	twenty	NUM	CD	NUM	12	nummod	12:nummod	_
+12	years	year	NOUN	NNS	N;PL	8	nmod	8:nmod:for	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent31_01-0063
+# text = Are you deducting all operating expenses from the value of the option?
+1	Are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	3	aux	3:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	deducting	deduct	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	all	all	DET	DT	DET	6	det	6:det	_
+5	operating	operating	NOUN	NN	N;SG	6	compound	6:compound	_
+6	expenses	expense	NOUN	NNS	N;PL	3	obj	3:obj	_
+7	from	from	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	value	value	NOUN	NN	N;SG	3	obl	3:obl:from	_
+10	of	of	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	option	option	NOUN	NN	N;SG	9	nmod	9:nmod:of	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent31_01-0064
+# text = Are you using the "SPRDOPT" Exotic Options function to value the option?
+1	Are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	3	aux	3:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	using	use	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	10	det	10:det	_
+5	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+6	SPRDOPT	sprdopt	NOUN	NN	N;SG	9	compound	9:compound	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	6:punct	_
+8	Exotic	exotic	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Options	option	NOUN	NNS	N;PL	10	compound	10:compound	_
+10	function	function	NOUN	NN	N;SG	3	obj	3:obj	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	value	value	VERB	VB	V;NFIN	3	advcl	3:advcl:to	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	option	option	NOUN	NN	N;SG	12	obj	12:obj	SpaceAfter=No
+15	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent31_01-0065
+# text = Are you using the $/MWh VOM dollar amount as your strike?
+1	Are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	3	aux	3:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	using	use	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	10	det	10:det	_
+5	$	$	SYM	$	_	10	compound	10:compound	SpaceAfter=No
+6	/	/	SYM	SYM	_	7	case	7:case	SpaceAfter=No
+7	MWh	mwh	NOUN	NN	N;SG	5	nmod	5:nmod	_
+8	VOM	vom	NOUN	NN	N;SG	10	compound	10:compound	_
+9	dollar	dollar	NOUN	NN	N;SG	10	compound	10:compound	_
+10	amount	amount	NOUN	NN	N;SG	3	obj	3:obj	_
+11	as	as	ADP	IN	ADP	13	case	13:case	_
+12	your	your	PRON	PRP$	2;PRO;GEN	13	nmod:poss	13:nmod:poss	_
+13	strike	strike	NOUN	NN	N;SG	3	obl	3:obl:as	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent31_01-0066
+# text = Has Don provided the fixed payment stream?
+1	Has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	3	aux	3:aux	_
+2	Don	Don	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+3	provided	provide	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	7	det	7:det	_
+5	fixed	fix	VERB	VBN	V.PTCP;PST;PASS;V	6	amod	6:amod	_
+6	payment	payment	NOUN	NN	N;SG	7	compound	7:compound	_
+7	stream	stream	NOUN	NN	N;SG	3	obj	3:obj	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent31_01-0067
+# text = This stream should be covering both P&I and not just principal.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	stream	stream	NOUN	NN	N;SG	5	nsubj	5:nsubj	_
+3	should	should	AUX	MD	V;FIN	5	aux	5:aux	_
+4	be	be	AUX	VB	V;NFIN	5	aux	5:aux	_
+5	covering	cover	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+6	both	both	CCONJ	CC	CONJ	7	cc:preconj	7:cc:preconj	_
+7	P&I	p&i	NOUN	NN	N;SG	5	obj	5:obj	_
+8	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+9	not	not	PART	RB	PART	11	advmod	11:advmod	_
+10	just	just	ADV	RB	ADV	11	advmod	11:advmod	_
+11	principal	principal	NOUN	NN	N;SG	7	conj	5:obj|7:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent31_01-0068
+# text = Yvan, and Ben, please provide answers to these question via written correspondence so that their is limited probability of misunderstanding.
+1	Yvan	Yvan	PROPN	NNP	PROPN;SG	7	vocative	7:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	4	punct	4:punct	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Ben	Ben	PROPN	NNP	PROPN;SG	1	conj	1:conj:and	SpaceAfter=No
+5	,	,	PUNCT	,	_	1	punct	1:punct	_
+6	please	please	INTJ	UH	INTJ	7	discourse	7:discourse	_
+7	provide	provide	VERB	VB	V;FIN;IMP	0	root	0:root	_
+8	answers	answer	NOUN	NNS	N;PL	7	obj	7:obj	_
+9	to	to	ADP	IN	ADP	11	case	11:case	_
+10	these	this	DET	DT	DET;PL	11	det	11:det	_
+11	question	question	NOUN	NN	N;SG	8	nmod	8:nmod:to	_
+12	via	via	ADP	IN	ADP	14	case	14:case	_
+13	written	write	VERB	VBN	V.PTCP;PST;PASS;V	14	amod	14:amod	_
+14	correspondence	correspondence	NOUN	NN	N;SG	7	obl	7:obl:via	_
+15	so	so	SCONJ	IN	CONJ	18	mark	18:mark	_
+16	that	that	SCONJ	IN	CONJ	15	fixed	15:fixed	_
+17	their	there	PRON	EX	PRO	18	expl	18:expl	CorrectForm=there
+18	is	be	VERB	VBZ	FIN;SG;V;PRS;IND;3	7	advcl	7:advcl:so_that	_
+19	limited	limited	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	probability	probability	NOUN	NN	N;SG	18	nsubj	18:nsubj	_
+21	of	of	ADP	IN	ADP	22	case	22:case	_
+22	misunderstanding	misunderstanding	NOUN	NN	N;SG	20	nmod	20:nmod:of	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent31_01-0069
+# text = Thank you both very much for your time and help thus far.
+1	Thank	thank	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+2	you	you	PRON	PRP	PRO;2;ACC	1	obj	1:obj	_
+3	both	both	DET	DT	DET	2	det	2:det	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	much	much	ADV	RB	ADV	1	advmod	1:advmod	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	your	your	PRON	PRP$	2;PRO;GEN	8	nmod:poss	8:nmod:poss	_
+8	time	time	NOUN	NN	N;SG	1	obl	1:obl:for	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	help	help	NOUN	NN	N;SG	8	conj	1:obl:for|8:conj:and	_
+11	thus	thus	ADV	RB	ADV	12	advmod	12:advmod	_
+12	far	far	ADV	RB	ADV	8	advmod	8:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent31_01-0070
+# text = Furthermore, I would like to reiterate that RAC's goal, prior to quoting any credit reserve, is to be 100% confident that: (i) the methodology that is being employed is consistent among the internal groups; and (ii) the inherent value of the price risk management contracts matches.
+1	Furthermore	furthermore	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	SG;PRO;NOM;1	5	nsubj	5:nsubj|7:nsubj:xsubj	_
+4	would	would	AUX	MD	V;FIN	5	aux	5:aux	_
+5	like	like	VERB	VB	V;NFIN	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	reiterate	reiterate	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	that	that	SCONJ	IN	CONJ	25	mark	25:mark	_
+9-10	RAC's	_	_	_	_	_	_	_	_
+9	RAC	rac	NOUN	NN	N;SG	11	nmod:poss	11:nmod:poss	_
+10	's	's	PART	POS	PART	9	case	9:case	_
+11	goal	goal	NOUN	NN	N;SG	25	nsubj:outer	25:nsubj:outer	SpaceAfter=No
+12	,	,	PUNCT	,	_	11	punct	11:punct	_
+13	prior	prior	ADJ	JJ	ADJ	15	mark	15:mark	_
+14	to	to	SCONJ	IN	CONJ	13	fixed	13:fixed	_
+15	quoting	quote	VERB	VBG	V.PTCP;V;PRS	25	advcl	25:advcl:prior_to	_
+16	any	any	DET	DT	DET	18	det	18:det	_
+17	credit	credit	NOUN	NN	N;SG	18	compound	18:compound	_
+18	reserve	reserve	NOUN	NN	N;SG	15	obj	15:obj	SpaceAfter=No
+19	,	,	PUNCT	,	_	15	punct	15:punct	_
+20	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	25	cop	25:cop	_
+21	to	to	PART	TO	PART	25	mark	25:mark	_
+22	be	be	AUX	VB	V;NFIN	25	cop	25:cop	_
+23	100	100	NUM	CD	NUM	24	nummod	24:nummod	SpaceAfter=No
+24	%	%	SYM	NN	SG	25	obl:npmod	25:obl:npmod	_
+25	confident	confident	ADJ	JJ	ADJ	7	ccomp	7:ccomp	_
+26	that	that	SCONJ	IN	CONJ	38	mark	38:mark	SpaceAfter=No
+27	:	:	PUNCT	:	_	26	punct	26:punct	_
+28	(	(	PUNCT	-LRB-	_	29	punct	29:punct	SpaceAfter=No
+29	i	i	NUM	LS	NUM	38	discourse	38:discourse	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	29	punct	29:punct	_
+31	the	the	DET	DT	DEF;DET	32	det	32:det	_
+32	methodology	methodology	NOUN	NN	N;SG	38	nsubj	36:nsubj:pass|38:nsubj	_
+33	that	that	PRON	WDT	PRO	36	nsubj:pass	32:ref	_
+34	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	36	aux	36:aux	_
+35	being	be	AUX	VBG	V.PTCP;V;PRS	36	aux:pass	36:aux:pass	_
+36	employed	employ	VERB	VBN	V.PTCP;PST;PASS;V	32	acl:relcl	32:acl:relcl	Cxn=rc-that-nsubj:pass
+37	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	38	cop	38:cop	_
+38	consistent	consistent	ADJ	JJ	ADJ	25	ccomp	25:ccomp	_
+39	among	among	ADP	IN	ADP	42	case	42:case	_
+40	the	the	DET	DT	DEF;DET	42	det	42:det	_
+41	internal	internal	ADJ	JJ	ADJ	42	amod	42:amod	_
+42	groups	group	NOUN	NNS	N;PL	38	obl	38:obl:among	SpaceAfter=No
+43	;	;	PUNCT	,	_	57	punct	57:punct	_
+44	and	and	CCONJ	CC	CONJ	57	cc	57:cc	_
+45	(	(	PUNCT	-LRB-	_	46	punct	46:punct	SpaceAfter=No
+46	ii	ii	NUM	LS	NUM	57	discourse	57:discourse	SpaceAfter=No
+47	)	)	PUNCT	-RRB-	_	46	punct	46:punct	_
+48	the	the	DET	DT	DEF;DET	50	det	50:det	_
+49	inherent	inherent	ADJ	JJ	ADJ	50	amod	50:amod	_
+50	value	value	NOUN	NN	N;SG	57	nsubj	57:nsubj	_
+51	of	of	ADP	IN	ADP	56	case	56:case	_
+52	the	the	DET	DT	DEF;DET	56	det	56:det	_
+53	price	price	NOUN	NN	N;SG	56	compound	56:compound	_
+54	risk	risk	NOUN	NN	N;SG	55	compound	55:compound	_
+55	management	management	NOUN	NN	N;SG	56	compound	56:compound	_
+56	contracts	contract	NOUN	NNS	N;PL	50	nmod	50:nmod:of	_
+57	matches	match	VERB	VBZ	FIN;SG;V;PRS;IND;3	38	conj	25:ccomp|38:conj:and	SpaceAfter=No
+58	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent31_01-0071
+# text = This enables RAC to manage the associated risk during the life of the transaction both effectively and appropriately.
+1	This	this	PRON	DT	PRO;SG	2	nsubj	2:nsubj	_
+2	enables	enable	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+3	RAC	rac	NOUN	NN	N;SG	2	obj	2:obj|5:nsubj:xsubj	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	manage	manage	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	associated	associate	VERB	VBN	V.PTCP;PST;PASS;V	8	amod	8:amod	_
+8	risk	risk	NOUN	NN	N;SG	5	obj	5:obj	_
+9	during	during	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	life	life	NOUN	NN	N;SG	5	obl	5:obl:during	_
+12	of	of	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	transaction	transaction	NOUN	NN	N;SG	11	nmod	11:nmod:of	_
+15	both	both	CCONJ	CC	CONJ	16	cc:preconj	16:cc:preconj	_
+16	effectively	effectively	ADV	RB	ADV	5	advmod	5:advmod	_
+17	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+18	appropriately	appropriately	ADV	RB	ADV	16	conj	5:advmod|16:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent31_01-0072
+# text = Regards,
+1	Regards	regards	NOUN	NNS	N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent31_01-0073
+# newpar id = email-enronsent31_01-p0007
+# text = Christopher
+1	Christopher	Christopher	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# newdoc id = email-enronsent10_01
+# sent_id = email-enronsent10_01-0001
+# newpar id = email-enronsent10_01-p0001
+# text = Randy, this is the issue I left you the voice mail on.
+1	Randy	Randy	PROPN	NNP	PROPN;SG	6	vocative	6:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	this	this	PRON	DT	PRO;SG	6	nsubj	6:nsubj	_
+4	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	6	cop	6:cop	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	issue	issue	NOUN	NN	N;SG	0	root	0:root|8:obl	_
+7	I	I	PRON	PRP	SG;PRO;NOM;1	8	nsubj	8:nsubj	_
+8	left	leave	VERB	VBD	FIN;SG;V;IND;PST;1	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obl-pstrand
+9	you	you	PRON	PRP	PRO;2;NOM	8	iobj	8:iobj	_
+10	the	the	DET	DT	DEF;DET	12	det	12:det	_
+11	voice	voice	NOUN	NN	N;SG	12	compound	12:compound	_
+12	mail	mail	NOUN	NN	N;SG	8	obj	8:obj	_
+13	on	on	ADP	IN	ADP	8	obl	8:obl	Promoted=Yes|SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent10_01-0002
+# text = Article 6 of the Gallup Compression Services Agreement (which I am sending to you separately) with ECS obligates ECS to "work in good faith with CDEC" to establish an automated system that would automatically have alerted us to peak loading conditions on CDEC's system.
+1	Article	article	NOUN	NN	N;SG	20	nsubj	20:nsubj	_
+2	6	6	NUM	CD	NUM	1	nummod	1:nummod	_
+3	of	of	ADP	IN	ADP	8	case	8:case	_
+4	the	the	DET	DT	DEF;DET	8	det	8:det	_
+5	Gallup	Gallup	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+6	Compression	Compression	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	Services	Service	PROPN	NNPS	PROPN;PL	8	compound	8:compound	_
+8	Agreement	agreement	NOUN	NN	N;SG	1	nmod	1:nmod:of|13:obj	_
+9	(	(	PUNCT	-LRB-	_	13	punct	13:punct	SpaceAfter=No
+10	which	which	PRON	WDT	PRO	13	obj	8:ref	_
+11	I	I	PRON	PRP	SG;PRO;NOM;1	13	nsubj	13:nsubj	_
+12	am	be	AUX	VBP	FIN;SG;V;PRS;IND;1	13	aux	13:aux	_
+13	sending	send	VERB	VBG	V.PTCP;V;PRS	8	acl:relcl	8:acl:relcl	Cxn=rc-wh-obj
+14	to	to	ADP	IN	ADP	15	case	15:case	_
+15	you	you	PRON	PRP	PRO;2;ACC	13	obl	13:obl:to	_
+16	separately	separately	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	13	punct	13:punct	_
+18	with	with	ADP	IN	ADP	19	case	19:case	_
+19	ECS	ECS	PROPN	NNP	PROPN;SG	8	nmod	8:nmod:with	_
+20	obligates	obligate	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+21	ECS	ECS	PROPN	NNP	PROPN;SG	20	obj	20:obj|24:nsubj:xsubj	_
+22	to	to	PART	TO	PART	24	mark	24:mark	_
+23	"	"	PUNCT	``	_	24	punct	24:punct	SpaceAfter=No
+24	work	work	VERB	VB	V;NFIN	20	xcomp	20:xcomp	_
+25	in	in	ADP	IN	ADP	27	case	27:case	_
+26	good	good	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	faith	faith	NOUN	NN	N;SG	24	obl	24:obl:in	_
+28	with	with	ADP	IN	ADP	29	case	29:case	_
+29	CDEC	CDEC	PROPN	NNP	PROPN;SG	24	obl	24:obl:with	SpaceAfter=No
+30	"	"	PUNCT	''	_	24	punct	24:punct	_
+31	to	to	PART	TO	PART	32	mark	32:mark	_
+32	establish	establish	VERB	VB	V;NFIN	24	advcl	24:advcl:to	_
+33	an	a	DET	DT	DET;INDF	35	det	35:det	_
+34	automated	automated	ADJ	JJ	ADJ	35	amod	35:amod	_
+35	system	system	NOUN	NN	N;SG	32	obj	32:obj|40:nsubj	_
+36	that	that	PRON	WDT	PRO	40	nsubj	35:ref	_
+37	would	would	AUX	MD	V;FIN	40	aux	40:aux	_
+38	automatically	automatically	ADV	RB	ADV	40	advmod	40:advmod	_
+39	have	have	AUX	VB	V;NFIN	40	aux	40:aux	_
+40	alerted	alert	VERB	VBN	V.PTCP;PST;V	35	acl:relcl	35:acl:relcl	Cxn=rc-that-nsubj
+41	us	we	PRON	PRP	PRO;PL;1;ACC	40	obj	40:obj	_
+42	to	to	ADP	IN	ADP	45	case	45:case	_
+43	peak	peak	NOUN	NN	N;SG	44	compound	44:compound	_
+44	loading	loading	NOUN	NN	N;SG	45	compound	45:compound	_
+45	conditions	condition	NOUN	NNS	N;PL	40	obl	40:obl:to	_
+46	on	on	ADP	IN	ADP	49	case	49:case	_
+47-48	CDEC's	_	_	_	_	_	_	_	_
+47	CDEC	CDEC	PROPN	NNP	PROPN;SG	49	nmod:poss	49:nmod:poss	_
+48	's	's	PART	POS	PART	47	case	47:case	_
+49	system	system	NOUN	NN	N;SG	45	nmod	45:nmod:on	SpaceAfter=No
+50	.	.	PUNCT	.	_	20	punct	20:punct	_
+
+# sent_id = email-enronsent10_01-0003
+# text = We had a pretty good idea when we signed the contract that ECS would not be able to complete that by the contract start date, so we negotiated a fall back plan under which ECS is obligated to "assist [Transwestern] in developing a manual system to accomplish the same result and will hold harmless and keep [Transwestern] whole for all cost and expenses" associated with the manual system.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	2	nsubj	2:nsubj	_
+2	had	have	VERB	VBD	FIN;V;PST;IND;PL;1	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	6	det	6:det	_
+4	pretty	pretty	ADV	RB	ADV	5	advmod	5:advmod	_
+5	good	good	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	idea	idea	NOUN	NN	N;SG	2	obj	2:obj	_
+7	when	when	ADV	WRB	ADV	9	advmod	9:advmod	_
+8	we	we	PRON	PRP	PRO;PL;NOM;1	9	nsubj	9:nsubj	_
+9	signed	sign	VERB	VBD	FIN;V;PST;IND;PL;1	2	advcl	2:advcl:when	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	contract	contract	NOUN	NN	N;SG	9	obj	9:obj	_
+12	that	that	SCONJ	IN	CONJ	17	mark	17:mark	_
+13	ECS	ECS	PROPN	NNP	PROPN;SG	17	nsubj	17:nsubj|19:nsubj:xsubj	_
+14	would	would	AUX	MD	V;FIN	17	aux	17:aux	_
+15	not	not	PART	RB	PART	17	advmod	17:advmod	_
+16	be	be	AUX	VB	V;NFIN	17	cop	17:cop	_
+17	able	able	ADJ	JJ	ADJ	2	ccomp	2:ccomp	_
+18	to	to	PART	TO	PART	19	mark	19:mark	_
+19	complete	complete	VERB	VB	V;NFIN	17	xcomp	17:xcomp	_
+20	that	that	PRON	DT	PRO;SG	19	obj	19:obj	_
+21	by	by	ADP	IN	ADP	25	case	25:case	_
+22	the	the	DET	DT	DEF;DET	25	det	25:det	_
+23	contract	contract	NOUN	NN	N;SG	25	compound	25:compound	_
+24	start	start	NOUN	NN	N;SG	25	compound	25:compound	_
+25	date	date	NOUN	NN	N;SG	19	obl	19:obl:by	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	29:punct	_
+27	so	so	ADV	RB	ADV	29	advmod	29:advmod	_
+28	we	we	PRON	PRP	PRO;PL;NOM;1	29	nsubj	29:nsubj	_
+29	negotiated	negotiate	VERB	VBD	FIN;V;PST;IND;PL;1	2	parataxis	2:parataxis	_
+30	a	a	DET	DT	DET;INDF	33	det	33:det	_
+31	fall	fall	VERB	VB	V;NFIN	33	compound	33:compound	_
+32	back	back	ADV	RB	ADV	31	advmod	31:advmod	_
+33	plan	plan	NOUN	NN	N;SG	29	obj	29:obj|38:obl	_
+34	under	under	ADP	IN	ADP	35	case	35:case	_
+35	which	which	PRON	WDT	PRO	38	obl	33:ref	_
+36	ECS	ECS	PROPN	NNP	PROPN;SG	38	nsubj:pass	38:nsubj:pass|41:nsubj:xsubj|57:nsubj:pass|58:nsubj:xsubj	_
+37	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	38	aux:pass	38:aux:pass	_
+38	obligated	obligate	VERB	VBN	V.PTCP;PST;PASS;V	33	acl:relcl	33:acl:relcl	Cxn=rc-wh-obl-pfront
+39	to	to	PART	TO	PART	41	mark	41:mark	_
+40	"	"	PUNCT	``	_	41	punct	41:punct	SpaceAfter=No
+41	assist	assist	VERB	VB	V;NFIN	38	xcomp	38:xcomp	_
+42	[	[	PUNCT	-LRB-	_	43	punct	43:punct	SpaceAfter=No
+43	Transwestern	Transwestern	PROPN	NNP	PROPN;SG	41	obj	41:obj	SpaceAfter=No
+44	]	]	PUNCT	-RRB-	_	43	punct	43:punct	_
+45	in	in	SCONJ	IN	CONJ	46	mark	46:mark	_
+46	developing	develop	VERB	VBG	V.PTCP;V;PRS	41	advcl	41:advcl:in	_
+47	a	a	DET	DT	DET;INDF	49	det	49:det	_
+48	manual	manual	ADJ	JJ	ADJ	49	amod	49:amod	_
+49	system	system	NOUN	NN	N;SG	46	obj	46:obj	_
+50	to	to	PART	TO	PART	51	mark	51:mark	_
+51	accomplish	accomplish	VERB	VB	V;NFIN	49	acl	49:acl:to	_
+52	the	the	DET	DT	DEF;DET	54	det	54:det	_
+53	same	same	ADJ	JJ	ADJ	54	amod	54:amod	_
+54	result	result	NOUN	NN	N;SG	51	obj	51:obj	_
+55	and	and	CCONJ	CC	CONJ	57	cc	57:cc	_
+56	will	will	AUX	MD	V;FIN	57	aux	57:aux	_
+57	hold	hold	VERB	VB	V;NFIN	38	conj	33:acl:relcl|38:conj:and	_
+58	harmless	harmless	ADJ	JJ	ADJ	57	xcomp	57:xcomp	_
+59	and	and	CCONJ	CC	CONJ	60	cc	60:cc	_
+60	keep	keep	VERB	VB	V;NFIN	57	conj	57:conj:and	_
+61	[	[	PUNCT	-LRB-	_	62	punct	62:punct	SpaceAfter=No
+62	Transwestern	Transwestern	PROPN	NNP	PROPN;SG	60	obj	60:obj|64:nsubj:xsubj	SpaceAfter=No
+63	]	]	PUNCT	-RRB-	_	62	punct	62:punct	_
+64	whole	whole	ADJ	JJ	ADJ	60	xcomp	60:xcomp	_
+65	for	for	ADP	IN	ADP	67	case	67:case	_
+66	all	all	DET	DT	DET	67	det	67:det	_
+67	cost	cost	NOUN	NN	N;SG	60	obl	60:obl:for	_
+68	and	and	CCONJ	CC	CONJ	69	cc	69:cc	_
+69	expenses	expense	NOUN	NNS	N;PL	67	conj	60:obl:for|67:conj:and	SpaceAfter=No
+70	"	"	PUNCT	''	_	67	punct	67:punct	_
+71	associated	associate	VERB	VBN	V.PTCP;PST;PASS;V	67	acl	67:acl	_
+72	with	with	ADP	IN	ADP	75	case	75:case	_
+73	the	the	DET	DT	DEF;DET	75	det	75:det	_
+74	manual	manual	ADJ	JJ	ADJ	75	amod	75:amod	_
+75	system	system	NOUN	NN	N;SG	71	obl	71:obl:with	SpaceAfter=No
+76	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0004
+# text = We will fight with them about who owes the $200k that James mentions below based on their failure to "assist" us in managing the cost.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	fight	fight	VERB	VB	V;NFIN	0	root	0:root	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	them	they	PRON	PRP	PRO;3;PL;ACC	3	obl	3:obl:with	_
+6	about	about	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	who	who	PRON	WP	PRO	8	nsubj	8:nsubj	_
+8	owes	owe	VERB	VBZ	FIN;SG;V;PRS;IND;3	3	advcl	3:advcl:about	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	$	$	SYM	$	_	8	obj	8:obj|15:obj	SpaceAfter=No
+11	200	200	NUM	CD	NUM	12	compound	12:compound	SpaceAfter=No
+12	k	thousand	NUM	CD	NUM	10	nummod	10:nummod	_
+13	that	that	PRON	WDT	PRO	15	obj	10:ref	_
+14	James	James	PROPN	NNP	PROPN;SG	15	nsubj	15:nsubj	_
+15	mentions	mention	VERB	VBZ	FIN;SG;V;PRS;IND;3	10	acl:relcl	10:acl:relcl	Cxn=rc-that-obj
+16	below	below	ADV	RB	ADV	15	advmod	15:advmod	_
+17	based	base	VERB	VBN	V.PTCP;PST;PASS;V	20	case	20:case	_
+18	on	on	ADP	IN	ADP	20	case	20:case	_
+19	their	their	PRON	PRP$	PRO;3;PL;GEN	20	nmod:poss	20:nmod:poss	_
+20	failure	failure	NOUN	NN	N;SG	8	obl	8:obl:on	_
+21	to	to	PART	TO	PART	23	mark	23:mark	_
+22	"	"	PUNCT	``	_	23	punct	23:punct	SpaceAfter=No
+23	assist	assist	VERB	VB	V;NFIN	20	acl	20:acl:to	SpaceAfter=No
+24	"	"	PUNCT	''	_	23	punct	23:punct	_
+25	us	we	PRON	PRP	PRO;PL;1;ACC	23	obj	23:obj	_
+26	in	in	SCONJ	IN	CONJ	27	mark	27:mark	_
+27	managing	manage	VERB	VBG	V.PTCP;V;PRS	23	advcl	23:advcl:in	_
+28	the	the	DET	DT	DEF;DET	29	det	29:det	_
+29	cost	cost	NOUN	NN	N;SG	27	obj	27:obj	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0005
+# text = In the mean time, we need to make sure that we are doing everything we can to get a handle on the situation to mitigate future costs.
+1	In	in	ADP	IN	ADP	4	case	4:case	_
+2	the	the	DET	DT	DEF;DET	4	det	4:det	_
+3	mean	mean	NOUN	NN	N;SG	4	compound	4:compound	_
+4	time	time	NOUN	NN	N;SG	7	obl	7:obl:in	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	we	we	PRON	PRP	PRO;PL;NOM;1	7	nsubj	7:nsubj|9:nsubj:xsubj|10:nsubj:xsubj	_
+7	need	need	VERB	VBP	FIN;V;PRS;IND;PL;1	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	make	make	VERB	VB	V;NFIN	7	xcomp	7:xcomp	_
+10	sure	sure	ADJ	JJ	ADJ	9	xcomp	9:xcomp	_
+11	that	that	SCONJ	IN	CONJ	14	mark	14:mark	_
+12	we	we	PRON	PRP	PRO;PL;NOM;1	14	nsubj	14:nsubj	_
+13	are	be	AUX	VBP	FIN;V;PRS;IND;PL;1	14	aux	14:aux	_
+14	doing	do	VERB	VBG	V.PTCP;V;PRS	10	ccomp	10:ccomp	_
+15	everything	everything	PRON	NN	PRO;SG	14	obj	14:obj|17:obj	_
+16	we	we	PRON	PRP	PRO;PL;NOM;1	17	nsubj	17:nsubj	_
+17	can	can	AUX	MD	V;FIN	15	acl:relcl	15:acl:relcl	Cxn=rc-red-obj-auxstrand|Promoted=Yes
+18	to	to	PART	TO	PART	19	mark	19:mark	_
+19	get	get	VERB	VB	V;NFIN	14	advcl	14:advcl:to	_
+20	a	a	DET	DT	DET;INDF	21	det	21:det	_
+21	handle	handle	NOUN	NN	N;SG	19	obj	19:obj	_
+22	on	on	ADP	IN	ADP	24	case	24:case	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	situation	situation	NOUN	NN	N;SG	21	nmod	21:nmod:on	_
+25	to	to	PART	TO	PART	26	mark	26:mark	_
+26	mitigate	mitigate	VERB	VB	V;NFIN	19	advcl	19:advcl:to	_
+27	future	future	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	costs	cost	NOUN	NNS	N;PL	26	obj	26:obj	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent10_01-0006
+# text = Do we have someone who is watching this out there?
+1	Do	do	AUX	VBP	FIN;V;PRS;IND;PL;1	3	aux	3:aux	_
+2	we	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj	_
+3	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+4	someone	someone	PRON	NN	PRO;SG	3	obj	3:obj|7:nsubj	_
+5	who	who	PRON	WP	PRO	7	nsubj	4:ref	_
+6	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	7	aux	7:aux	_
+7	watching	watch	VERB	VBG	V.PTCP;V;PRS	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+8	this	this	PRON	DT	PRO;SG	7	obj	7:obj	_
+9	out	out	ADV	RB	ADV	10	advmod	10:advmod	_
+10	there	there	ADV	RB	ADV	7	advmod	7:advmod	SpaceAfter=No
+11	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0007
+# text = We are running so full tilt on TW that we may not have as much flexibiltiy to manage this situation as we expected, but let me know what we can do.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj|26:nsubj	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;PL;1	3	aux	3:aux	_
+3	running	run	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	so	so	ADV	RB	ADV	6	advmod	6:advmod	_
+5	full	full	ADV	RB	ADV	6	advmod	6:advmod	_
+6	tilt	tilt	ADV	RB	ADV	3	advmod	3:advmod	_
+7	on	on	ADP	IN	ADP	8	case	8:case	_
+8	TW	TW	PROPN	NNP	PROPN;SG	3	obl	3:obl:on	_
+9	that	that	SCONJ	IN	CONJ	13	mark	13:mark	_
+10	we	we	PRON	PRP	PRO;PL;NOM;1	13	nsubj	13:nsubj	_
+11	may	may	AUX	MD	V;FIN	13	aux	13:aux	_
+12	not	not	PART	RB	PART	13	advmod	13:advmod	_
+13	have	have	VERB	VB	V;NFIN	6	advcl	6:advcl:that	_
+14	as	as	ADV	RB	ADV	15	advmod	15:advmod	_
+15	much	much	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	flexibiltiy	flexibility	NOUN	NN	N;SG	13	obj	13:obj	CorrectForm=flexibility
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	manage	manage	VERB	VB	V;NFIN	16	acl	16:acl:to	_
+19	this	this	DET	DT	DET;SG	20	det	20:det	_
+20	situation	situation	NOUN	NN	N;SG	18	obj	18:obj	_
+21	as	as	SCONJ	IN	CONJ	23	mark	23:mark	_
+22	we	we	PRON	PRP	PRO;PL;NOM;1	23	nsubj	23:nsubj	_
+23	expected	expect	VERB	VBD	FIN;V;PST;IND;PL;1	15	advcl	15:advcl:as	SpaceAfter=No
+24	,	,	PUNCT	,	_	26	punct	26:punct	_
+25	but	but	CCONJ	CC	CONJ	26	cc	26:cc	_
+26	let	let	VERB	VB	V;FIN;IMP	3	conj	3:conj:but	_
+27	me	I	PRON	PRP	SG;PRO;1;ACC	26	obj	26:obj|28:nsubj:xsubj	_
+28	know	know	VERB	VB	V;NFIN	26	xcomp	26:xcomp	_
+29	what	what	PRON	WP	PRO	32	obj	32:obj	_
+30	we	we	PRON	PRP	PRO;PL;NOM;1	32	nsubj	32:nsubj	_
+31	can	can	AUX	MD	V;FIN	32	aux	32:aux	_
+32	do	do	VERB	VB	V;NFIN	28	ccomp	28:ccomp	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0008
+# text = James had heard that one hold up was the absence of a confidentiality agreement--I guess between ECS and Transwestern--that would permit ECS to communicate to us the details on how to access teh key info. from CDEC.
+1	James	James	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+2	had	have	AUX	VBD	FIN;SG;V;IND;3;PST	3	aux	3:aux	_
+3	heard	hear	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	10	mark	10:mark	_
+5	one	one	NUM	CD	NUM	7	nummod	7:nummod	_
+6	hold	hold	NOUN	NN	N;SG	7	compound	7:compound	_
+7	up	up	NOUN	NN	N;SG	10	nsubj	10:nsubj	_
+8	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	10	cop	10:cop	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	absence	absence	NOUN	NN	N;SG	3	ccomp	3:ccomp	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	a	a	DET	DT	DET;INDF	14	det	14:det	_
+13	confidentiality	confidentiality	NOUN	NN	N;SG	14	compound	14:compound	_
+14	agreement	agreement	NOUN	NN	N;SG	10	nmod	10:nmod:of|25:nsubj	SpaceAfter=No
+15	--	--	PUNCT	,	_	17	punct	17:punct	SpaceAfter=No
+16	I	I	PRON	PRP	SG;PRO;NOM;1	17	nsubj	17:nsubj	_
+17	guess	guess	VERB	VBP	FIN;SG;V;PRS;IND;1	14	parataxis	14:parataxis	_
+18	between	between	ADP	IN	ADP	19	case	19:case	_
+19	ECS	ECS	PROPN	NNP	PROPN;SG	17	obl	17:obl:between	_
+20	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+21	Transwestern	Transwestern	PROPN	NNP	PROPN;SG	19	conj	17:obl:between|19:conj:and	SpaceAfter=No
+22	--	--	PUNCT	,	_	17	punct	17:punct	SpaceAfter=No
+23	that	that	PRON	WDT	PRO	25	nsubj	14:ref	_
+24	would	would	AUX	MD	V;FIN	25	aux	25:aux	_
+25	permit	permit	VERB	VB	V;NFIN	14	acl:relcl	14:acl:relcl	Cxn=rc-that-nsubj
+26	ECS	ECS	PROPN	NNP	PROPN;SG	25	iobj	25:iobj|28:nsubj:xsubj	_
+27	to	to	PART	TO	PART	28	mark	28:mark	_
+28	communicate	communicate	VERB	VB	V;NFIN	25	xcomp	25:xcomp	_
+29	to	to	ADP	IN	ADP	30	case	30:case	_
+30	us	we	PRON	PRP	PRO;PL;1;ACC	28	obl	28:obl:to	_
+31	the	the	DET	DT	DEF;DET	32	det	32:det	_
+32	details	detail	NOUN	NNS	N;PL	28	obj	28:obj	_
+33	on	on	SCONJ	IN	CONJ	36	mark	36:mark	_
+34	how	how	ADV	WRB	ADV	36	advmod	36:advmod	_
+35	to	to	PART	TO	PART	36	mark	36:mark	_
+36	access	access	VERB	VB	V;NFIN	32	acl	32:acl:to	_
+37	teh	the	DET	DT	DEF;DET	39	det	39:det	CorrectForm=the
+38	key	key	ADJ	JJ	ADJ	39	amod	39:amod	_
+39	info.	info.	NOUN	NN	N;SG	36	obj	36:obj	_
+40	from	from	ADP	IN	ADP	41	case	41:case	_
+41	CDEC	CDEC	PROPN	NNP	PROPN;SG	36	obl	36:obl:from	SpaceAfter=No
+42	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0009
+# text = That sounds like a BS excuse from ECS, but it that's what they are saying, let me know and we can figure out a solution.
+1	That	that	PRON	DT	PRO;SG	2	nsubj	2:nsubj|19:nsubj	_
+2	sounds	sound	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+3	like	like	ADP	IN	ADP	6	case	6:case	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	BS	bs	NOUN	NN	N;SG	6	compound	6:compound	_
+6	excuse	excuse	NOUN	NN	N;SG	2	obl	2:obl:like	_
+7	from	from	ADP	IN	ADP	8	case	8:case	_
+8	ECS	ECS	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:from	SpaceAfter=No
+9	,	,	PUNCT	,	_	19	punct	19:punct	_
+10	but	but	CCONJ	CC	CONJ	19	cc	19:cc	_
+11	it	if	SCONJ	IN	CONJ	14	mark	14:mark	CorrectForm=if
+12-13	that's	_	_	_	_	_	_	_	_
+12	that	that	PRON	DT	PRO;SG	14	nsubj	14:nsubj	_
+13	's	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	14	cop	14:cop	_
+14	what	what	PRON	WP	PRO	19	advcl	17:obj|19:advcl:if	_
+15	they	they	PRON	PRP	PRO;3;PL;NOM	17	nsubj	17:nsubj	_
+16	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	17	aux	17:aux	_
+17	saying	say	VERB	VBG	V.PTCP;V;PRS	14	acl:relcl	14:acl:relcl	Cxn=rc-free-obj|SpaceAfter=No
+18	,	,	PUNCT	,	_	14	punct	14:punct	_
+19	let	let	VERB	VB	V;FIN;IMP	2	conj	2:conj:but	_
+20	me	I	PRON	PRP	SG;PRO;1;ACC	19	obj	19:obj|21:nsubj:xsubj	_
+21	know	know	VERB	VB	V;NFIN	19	xcomp	19:xcomp	_
+22	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+23	we	we	PRON	PRP	PRO;PL;NOM;1	25	nsubj	25:nsubj	_
+24	can	can	AUX	MD	V;FIN	25	aux	25:aux	_
+25	figure	figure	VERB	VB	V;NFIN	19	conj	19:conj:and	_
+26	out	out	ADP	RP	ADP	25	compound:prt	25:compound:prt	_
+27	a	a	DET	DT	DET;INDF	28	det	28:det	_
+28	solution	solution	NOUN	NN	N;SG	25	obj	25:obj	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0010
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+

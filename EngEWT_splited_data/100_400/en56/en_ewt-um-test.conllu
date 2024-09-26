@@ -1,0 +1,103 @@
+# sent_id = email-enronsent27_02-0009
+# text = Richard Harper and Mary Nell Browning may have some ideas here but I am sure you've already gone through it with them.
+1	Richard	Richard	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+2	Harper	Harper	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Mary	Mary	PROPN	NNP	SG;PROPN	1	conj	1:conj:and|8:nsubj	_
+5	Nell	Nell	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	Browning	Browning	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+7	may	may	AUX	MD	V;FIN	8	aux	8:aux	_
+8	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+9	some	some	DET	DT	DET	10	det	10:det	_
+10	ideas	idea	NOUN	NNS	PL;N	8	obj	8:obj	_
+11	here	here	ADV	RB	ADV	8	advmod	8:advmod	_
+12	but	but	CCONJ	CC	CONJ	15	cc	15:cc	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj	_
+14	am	be	AUX	VBP	V;1;FIN;PRS;SG;IND	15	cop	15:cop	_
+15	sure	sure	ADJ	JJ	ADJ	8	conj	8:conj:but	_
+16-17	you've	_	_	_	_	_	_	_	_
+16	you	you	PRON	PRP	NOM;2;PRO	19	nsubj	19:nsubj	_
+17	've	have	AUX	VBP	V;FIN;PRS;2;SG;IND	19	aux	19:aux	_
+18	already	already	ADV	RB	ADV	19	advmod	19:advmod	_
+19	gone	go	VERB	VBN	PST;V;V.PTCP	15	ccomp	15:ccomp	_
+20	through	through	ADP	IN	ADP	21	case	21:case	_
+21	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	19	obl	19:obl:through	_
+22	with	with	ADP	IN	ADP	23	case	23:case	_
+23	them	they	PRON	PRP	PL;ACC;PRO;3	19	obl	19:obl:with	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent27_02-0010
+# text = I am amazed how the details get fuzzy on an old project.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	am	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	cop	3:cop	_
+3	amazed	amazed	ADJ	JJ	ADJ	0	root	0:root	_
+4	how	how	ADV	WRB	ADV	7	advmod	7:advmod	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	details	detail	NOUN	NNS	PL;N	7	nsubj	7:nsubj|8:nsubj:xsubj	_
+7	get	get	VERB	VBP	PL;V;3;FIN;PRS;IND	3	ccomp	3:ccomp	_
+8	fuzzy	fuzzy	ADJ	JJ	ADJ	7	xcomp	7:xcomp	_
+9	on	on	ADP	IN	ADP	12	case	12:case	_
+10	an	a	DET	DT	INDF;DET	12	det	12:det	_
+11	old	old	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	project	project	NOUN	NN	SG;N	8	obl	8:obl:on	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent27_02-0011
+# text = When you discussed it, i was trying to think back to our remedies and discussions but the 3 years have made it difficult.
+1	When	when	ADV	WRB	ADV	3	advmod	3:advmod	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	discussed	discuss	VERB	VBD	PST;V;FIN;2;SG;IND	8	advcl	8:advcl:when	_
+4	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	3	obj	3:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	3:punct	_
+6	i	I	PRON	PRP	PRO;1;NOM;SG	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+7	was	be	AUX	VBD	V;1;PST;FIN;SG;IND	8	aux	8:aux	_
+8	trying	try	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	think	think	VERB	VB	NFIN;V	8	xcomp	8:xcomp	_
+11	back	back	ADV	RB	ADV	10	advmod	10:advmod	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	our	our	PRON	PRP$	GEN;PL;PRO;1	14	nmod:poss	14:nmod:poss	_
+14	remedies	remedy	NOUN	NNS	PL;N	11	obl	11:obl:to	_
+15	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	discussions	discussion	NOUN	NNS	PL;N	14	conj	11:obl:to|14:conj:and	_
+17	but	but	CCONJ	CC	CONJ	22	cc	22:cc	_
+18	the	the	DET	DT	DEF;DET	20	det	20:det	_
+19	3	3	NUM	CD	NUM	20	nummod	20:nummod	_
+20	years	year	NOUN	NNS	PL;N	22	nsubj	22:nsubj	_
+21	have	have	AUX	VBP	PL;V;3;FIN;PRS;IND	22	aux	22:aux	_
+22	made	make	VERB	VBN	PST;V;V.PTCP	8	conj	8:conj:but	_
+23	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	22	obj	22:obj|24:nsubj:xsubj	_
+24	difficult	difficult	ADJ	JJ	ADJ	22	xcomp	22:xcomp	SpaceAfter=No
+25	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent27_02-0012
+# text = I don't know if there is anything I can do but I'm always willing to help.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	know	know	VERB	VB	NFIN;V	0	root	0:root	_
+5	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	there	there	PRON	EX	PRO	7	expl	7:expl	_
+7	is	be	VERB	VBZ	V;3;FIN;PRS;SG;IND	4	ccomp	4:ccomp	_
+8	anything	anything	PRON	NN	SG;PRO	7	nsubj	7:nsubj|11:obj	_
+9	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	V;FIN	11	aux	11:aux	_
+11	do	do	VERB	VB	NFIN;V	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obj
+12	but	but	CCONJ	CC	CONJ	16	cc	16:cc	_
+13-14	I'm	_	_	_	_	_	_	_	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	16	nsubj	16:nsubj|18:nsubj:xsubj	_
+14	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	16	cop	16:cop	_
+15	always	always	ADV	RB	ADV	16	advmod	16:advmod	_
+16	willing	willing	ADJ	JJ	ADJ	4	conj	4:conj:but	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	help	help	VERB	VB	NFIN;V	16	xcomp	16:xcomp	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent27_02-0013
+# newpar id = email-enronsent27_02-p0003
+# text = Good luck,
+1	Good	good	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	luck	luck	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+

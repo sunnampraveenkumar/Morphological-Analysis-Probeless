@@ -1,0 +1,343 @@
+# sent_id = 5231
+# text = הדוקר נפצע באורח קל ונלכד.
+1-2	הדוקר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	דוקר	דקר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	3	nsubj	_	_
+3	נפצע	נפצע	VERB	VERB	SG;V;3;MID;MASC;PST	0	root	_	_
+4-5	באורח	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	אורח	אורח	NOUN	NOUN	MASC;SG;N	3	obl	_	_
+6	קל	קל	ADJ	ADJ	MASC;SG;ADJ	5	amod	_	_
+7-8	ונלכד	_	_	_	_	_	_	_	SpaceAfter=No
+7	ו	ו	CCONJ	CCONJ	CONJ	8	cc	_	_
+8	נלכד	נלכד	VERB	VERB	SG;V;3;MID;MASC;PST	3	conj	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 5232
+# text = מחקירתו עולה כי הוא תושב שכם הלומד במכללת אבו-דיס.
+1-4	מחקירתו	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	ADP	5	dep	_	_
+2	חקירה_	חקירה	NOUN	NOUN	SG;FEM;N;DEF	5	dep	_	_
+3	_של_	של	ADP	ADP	ADP	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	2	nmod:poss	_	_
+5	עולה	עלה	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	CONJ	5	dep	_	_
+7	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	5	dep	_	_
+8	תושב	תושב	NOUN	NOUN	MASC;SG;N;PSSD	5	dep	_	_
+9	שכם	שכם	PROPN	PROPN	PROPN	5	dep	_	_
+10-11	הלומד	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	CONJ	5	dep	_	_
+11	לומד	למד	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	5	dep	_	HebSource=ConvUncertainHead
+12-13	במכללת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	5	dep	_	_
+13	מכללת	מכללה	NOUN	NOUN	SG;FEM;N;PSSD	5	dep	_	_
+14	אבו	אבו	PROPN	PROPN	PROPN	5	dep	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+16	דיס	דיס	PROPN	PROPN	PROPN	5	dep	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 5233
+# text = לפני יומיים נסע לבקר חבר ביריחו ואתמול בבוקר הגיע עם אוטובוס לירושלים.
+1	לפני	לפני	ADP	ADP	ADP	2	case	_	_
+2	יומיים	יום	NOUN	NOUN	DU;MASC;N	3	obl	_	_
+3	נסע	נסע	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+4	לבקר	ביקר	VERB	VERB	NFIN;ACT;V	3	xcomp	_	_
+5	חבר	חבר	NOUN	NOUN	MASC;SG;N	4	obj	_	_
+6-7	ביריחו	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	ADP	7	case	_	_
+7	יריחו	יריחו	PROPN	PROPN	PROPN	3	obl	_	_
+8-9	ואתמול	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	CONJ	13	cc	_	_
+9	אתמול	אתמול	ADV	ADV	ADV	13	advmod	_	_
+10-12	בבוקר	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	ADP	12	case	_	_
+11	ה_	ה	DET	DET	DET	12	det	_	_
+12	בוקר	בוקר	NOUN	NOUN	MASC;SG;N	13	obl	_	_
+13	הגיע	הגיע	VERB	VERB	SG;ACT;V;3;MASC;PST	3	conj	_	_
+14	עם	עם	ADP	ADP	ADP	15	case	_	_
+15	אוטובוס	אוטובוס	NOUN	NOUN	MASC;SG;N	13	obl	_	_
+16-17	לירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	ADP	17	case	_	_
+17	ירושלים	ירושלים	PROPN	PROPN	PROPN	13	obl	_	_
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 5234
+# text = הוא פנה לחנות סכינים במזרח העיר, רכש סכין גדול ומשם צעד רגלית במעלה רח הנביאים, נכנס לחנות העצים והמתין.
+1	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	2	nsubj	_	_
+2	פנה	פנה	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+3-4	לחנות	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	ADP	4	case	_	_
+4	חנות	חנות	NOUN	NOUN	SG;FEM;N;PSSD	2	obl	_	_
+5	סכינים	סכין	NOUN	NOUN	N;{FEM/MASC};PL	4	compound:smixut	_	_
+6-7	במזרח	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	ADP	7	case	_	_
+7	מזרח	מזרח	NOUN	NOUN	MASC;SG;N;PSSD	4	nmod	_	_
+8-9	העיר	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	עיר	עיר	NOUN	NOUN	SG;N;FEM	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	רכש	רכש	VERB	VERB	SG;ACT;V;3;MASC;PST	2	conj	_	_
+12	סכין	סכין	NOUN	NOUN	SG;N;{FEM/MASC}	11	obj	_	_
+13	גדול	גדול	ADJ	ADJ	MASC;SG;ADJ	12	amod	_	_
+14-15	ומשם	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	CONJ	16	cc	_	_
+15	משם	משם	ADV	ADV	ADV	16	advmod	_	_
+16	צעד	צעד	VERB	VERB	SG;ACT;V;3;MASC;PST	2	conj	_	_
+17	רגלית	_	ADV	ADV	ADV	16	advmod	_	_
+18-19	במעלה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	ADP	19	case	_	_
+19	מעלה	מעלה	NOUN	NOUN	MASC;SG;N;PSSD	16	obl	_	_
+20	רח	רח	NOUN	NOUN	N	19	compound:smixut	_	_
+21-22	הנביאים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	DET	22	det	_	_
+22	נביאים	נביא	NOUN	NOUN	MASC;N;PL	20	appos	_	_
+23	,	,	PUNCT	PUNCT	_	16	punct	_	_
+24	נכנס	נכנס	VERB	VERB	SG;V;3;MID;MASC;PST	16	conj	_	_
+25-26	לחנות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	ADP	26	case	_	_
+26	חנות	חנות	NOUN	NOUN	SG;FEM;N;PSSD	24	obl	_	_
+27-28	העצים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	DET	28	det	_	_
+28	עצים	עץ	NOUN	NOUN	MASC;N;PL	26	compound:smixut	_	_
+29-30	והמתין	_	_	_	_	_	_	_	SpaceAfter=No
+29	ו	ו	CCONJ	CCONJ	CONJ	30	cc	_	_
+30	המתין	המתין	VERB	VERB	SG;ACT;V;3;MASC;PST	16	conj	_	_
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 5235
+# text = כאשר עברו ארבעת השוטרים בפתח החנות הגיח הדוקר כשהסכין בידו ודקר את עופר חאגבי.
+1	כאשר	כאשר	SCONJ	SCONJ	CONJ	2	mark	_	_
+2	עברו	עבר	VERB	VERB	PL;V;3;{FEM/MASC};PST	10	advcl	_	_
+3	ארבעת	ארבעת	NUM	NUM	MASC;SG;NUM;PSSD	5	nummod	_	_
+4-5	השוטרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	DET	5	det	_	_
+5	שוטרים	שוטר	NOUN	NOUN	MASC;N;PL	2	nsubj	_	_
+6-7	בפתח	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	ADP	7	case	_	_
+7	פתח	פתח	NOUN	NOUN	MASC;SG;N;PSSD	2	obl	_	_
+8-9	החנות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	חנות	חנות	NOUN	NOUN	SG;N;FEM	7	compound:smixut	_	_
+10	הגיח	הגיח	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+11-12	הדוקר	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	DET	12	det	_	_
+12	דוקר	דקר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	10	nsubj	_	_
+13-15	כשהסכין	_	_	_	_	_	_	_	_
+13	כש	כש	SCONJ	SCONJ	CONJ	17	mark	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	סכין	סכין	NOUN	NOUN	SG;N;{FEM/MASC}	17	nsubj	_	_
+16-19	בידו	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	ADP	17	case	_	_
+17	יד_	יד	NOUN	NOUN	SG;FEM;N;DEF	10	ccomp	_	_
+18	_של_	של	ADP	ADP	ADP	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	17	nmod:poss	_	_
+20-21	ודקר	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	CONJ	21	cc	_	_
+21	דקר	דקר	VERB	VERB	SG;ACT;V;3;MASC;PST	10	conj	_	_
+22	את	את	ADP	ADP	ADP;ACC	23	case:acc	_	_
+23	עופר	עופר	PROPN	PROPN	PROPN	21	obj	_	_
+24	חאגבי	חאגבי	PROPN	PROPN	PROPN	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 5236
+# text = תוך זמן קצר חשו למקום כוחות משטרה גדולים וצוותים של מד"א.
+1	תוך	תוך	ADP	ADP	ADP	2	case	_	_
+2	זמן	זמן	NOUN	NOUN	MASC;SG;N	4	obl	_	_
+3	קצר	קצר	ADJ	ADJ	MASC;SG;ADJ	2	amod	_	_
+4	חשו	חש	VERB	VERB	ACT;PL;V;3;{FEM/MASC};PST	0	root	_	_
+5-7	למקום	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	ADP	7	case	_	_
+6	ה_	ה	DET	DET	DET	7	det	_	_
+7	מקום	מקום	NOUN	NOUN	MASC;SG;N	4	obl	_	_
+8	כוחות	כוח	NOUN	NOUN	MASC;N;PL;PSSD	4	nsubj	_	_
+9	משטרה	משטרה	NOUN	NOUN	SG;N;FEM	8	compound:smixut	_	_
+10	גדולים	גדול	ADJ	ADJ	MASC;PL;ADJ	8	amod	_	_
+11-12	וצוותים	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	CONJ	12	cc	_	_
+12	צוותים	צוות	NOUN	NOUN	N;PL;FEM	8	conj	_	_
+13	של	של	ADP	ADP	ADP;GEN	14	case:gen	_	_
+14	מד"א	מד"א	NOUN	NOUN	MASC;SG;N	12	nmod:poss	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 5237
+# text = הם טיפלו שעה ארוכה בעופר חגבי, שאיבד דם רב ואיבד את הכרתו.
+1	הם	הוא	PRON	PRON	PL;3;MASC;PRO	2	nsubj	_	_
+2	טיפלו	טיפל	VERB	VERB	ACT;PL;V;3;{FEM/MASC};PST	0	root	_	_
+3	שעה	שעה	NOUN	NOUN	SG;N;FEM	2	dep	_	_
+4	ארוכה	ארוך	ADJ	ADJ	SG;FEM;ADJ	3	amod	_	_
+5-6	בעופר	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	6	case	_	_
+6	עופר	עופר	PROPN	PROPN	PROPN	2	obl	_	_
+7	חגבי	חגבי	PROPN	PROPN	PROPN	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	6	punct	_	_
+9-10	שאיבד	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	CONJ	10	mark	_	_
+10	איבד	איבד	VERB	VERB	SG;ACT;V;3;MASC;PST	6	acl:relcl	_	_
+11	דם	דם	NOUN	NOUN	MASC;SG;N	10	obj	_	_
+12	רב	רב	ADJ	ADJ	MASC;SG;ADJ	11	amod	_	_
+13-14	ואיבד	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	CONJ	14	cc	_	_
+14	איבד	איבד	VERB	VERB	SG;ACT;V;3;MASC;PST	10	conj	_	_
+15	את	את	ADP	ADP	ADP;ACC	16	case:acc	_	_
+16-18	הכרתו	_	_	_	_	_	_	_	SpaceAfter=No
+16	הכרה_	הכרה	NOUN	NOUN	SG;FEM;N;DEF	14	obj	_	_
+17	_של_	של	ADP	ADP	ADP	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	16	nmod:poss	_	_
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 5238
+# text = חגבי הובא להדסה עין-כרם כשהוא ללא דופק ומונשם.
+1	חגבי	חגבי	PROPN	PROPN	PROPN	2	nsubj	_	_
+2	הובא	הובא	VERB	VERB	SG;V;PASS;3;MASC;PST	0	root	_	_
+3-4	להדסה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	ADP	4	case	_	_
+4	הדסה	הדסה	PROPN	PROPN	PROPN	2	obl	_	_
+5	עין	עין	NOUN	NOUN	SG;N;FEM	4	flat:name	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+7	כרם	כרם	NOUN	NOUN	MASC;SG;N	4	flat:name	_	_
+8-9	כשהוא	_	_	_	_	_	_	_	_
+8	כש	כש	SCONJ	SCONJ	CONJ	11	mark	_	_
+9	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	11	nsubj	_	_
+10	ללא	ללא	ADP	ADP	ADP	11	case	_	_
+11	דופק	דופק	NOUN	NOUN	MASC;SG;N	2	ccomp	_	_
+12-13	ומונשם	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	CONJ	13	cc	_	_
+13	מונשם	הונשם	VERB	VERB	V.PTCP;V	11	conj	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 5239
+# text = לאחר טיפול קצר בחדר מיון הוא הוכנס מיד לחדר הניתוחים, שם עמלו כירורגים על איחוי העצבים וכלי הדם שנקרעו מהסכין.
+1	לאחר	לאחר	ADP	ADP	ADP	2	case	_	_
+2	טיפול	טיפול	NOUN	NOUN	MASC;SG;N	8	obl	_	_
+3	קצר	קצר	ADJ	ADJ	MASC;SG;ADJ	2	amod	_	_
+4-5	בחדר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	חדר	חדר	NOUN	NOUN	MASC;SG;N;PSSD	2	nmod	_	_
+6	מיון	מיון	NOUN	NOUN	MASC;SG;N	5	compound:smixut	_	_
+7	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	8	nsubj	_	_
+8	הוכנס	הוכנס	VERB	VERB	SG;V;PASS;3;MASC;PST	0	root	_	_
+9	מיד	מייד	ADV	ADV	ADV	8	advmod	_	_
+10-11	לחדר	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	ADP	11	case	_	_
+11	חדר	חדר	NOUN	NOUN	MASC;SG;N;PSSD	8	obl	_	_
+12-13	הניתוחים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	ניתוחים	ניתוח	NOUN	NOUN	MASC;N;PL	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	8	punct	_	_
+15	שם	שם	ADV	ADV	ADV	16	advmod	_	_
+16	עמלו	עמל	VERB	VERB	PL;V;3;{FEM/MASC};PST	8	conj	_	_
+17	כירורגים	כירורגים	NOUN	NOUN	N	16	nsubj	_	_
+18	על	על	ADP	ADP	ADP	19	case	_	_
+19	איחוי	איחוי	NOUN	NOUN	MASC;SG;N;PSSD	16	obl	_	_
+20-21	העצבים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	עצבים	עצב	NOUN	NOUN	MASC;N;PL	19	compound:smixut	_	_
+22-23	וכלי	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	CONJ	23	cc	_	_
+23	כלי	כלי	NOUN	NOUN	MASC;SG;N;PSSD	19	conj	_	_
+24-25	הדם	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	DET	25	det	_	_
+25	דם	דם	NOUN	NOUN	MASC;SG;N	23	compound:smixut	_	_
+26-27	שנקרעו	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	CONJ	27	mark	_	_
+27	נקרעו	נקרע	VERB	VERB	PL;V;3;{FEM/MASC};MID;PST	23	acl:relcl	_	_
+28-30	מהסכין	_	_	_	_	_	_	_	SpaceAfter=No
+28	מ	מ	ADP	ADP	ADP	30	case	_	_
+29	ה	ה	DET	DET	DET	30	det	_	_
+30	סכין	סכין	NOUN	NOUN	SG;N;{FEM/MASC}	27	obl	_	_
+31	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 5240
+# text = מצבו של הדוקר שנפגע ברגל הוגדר קל, וגם הוא נלקח להדסה עין כרם שם קיבל טיפול.
+1-3	מצבו	_	_	_	_	_	_	_	_
+1	מצב_	מצב	NOUN	NOUN	MASC;SG;N;DEF	12	nsubj	_	_
+2	_של_	של	ADP	ADP	ADP	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	1	nmod:poss	_	_
+4	של	של	ADP	ADP	ADP;GEN	6	case:gen	_	_
+5-6	הדוקר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	דוקר	דקר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	1	nmod:poss	_	_
+7-8	שנפגע	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	CONJ	8	mark	_	_
+8	נפגע	נפגע	VERB	VERB	SG;V;3;MID;MASC;PST	6	acl:relcl	_	_
+9-11	ברגל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	11	case	_	_
+10	ה_	ה	DET	DET	DET	11	det	_	_
+11	רגל	_	NOUN	NOUN	N	8	obl	_	_
+12	הוגדר	הוגדר	VERB	VERB	SG;V;PASS;3;MASC;PST	0	root	_	_
+13	קל	קל	ADJ	ADJ	MASC;SG;ADJ	12	dep	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	12	punct	_	_
+15-16	וגם	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	CONJ	18	cc	_	_
+16	גם	גם	ADV	ADV	ADV	17	advmod	_	_
+17	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	18	nsubj	_	_
+18	נלקח	נלקח	VERB	VERB	SG;V;3;MID;MASC;PST	12	conj	_	_
+19-20	להדסה	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	ADP	20	case	_	_
+20	הדסה	הדסה	PROPN	PROPN	PROPN	18	obl	_	_
+21	עין	עין	NOUN	NOUN	SG;N;FEM	20	flat:name	_	_
+22	כרם	כרם	NOUN	NOUN	MASC;SG;N	20	flat:name	_	_
+23	שם	שם	ADV	ADV	ADV	24	advmod	_	_
+24	קיבל	קיבל	VERB	VERB	SG;ACT;V;3;MASC;PST	20	dep	_	_
+25	טיפול	טיפול	NOUN	NOUN	MASC;SG;N	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 5241
+# text = השוטר וחבריו לא לבשו אפודות מגן ומיד לאחר הדקירה הורה מפכ"ל המשטרה רב ניצב יעקב טרנר לשוטרים בעיר להקפיד על הוראה זו.
+1-2	השוטר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	שוטר	שוטר	NOUN	NOUN	MASC;SG;N	8	nsubj	_	_
+3-6	וחבריו	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	CONJ	4	cc	_	_
+4	חבר_	חבר	NOUN	NOUN	MASC;N;PL;DEF	2	conj	_	_
+5	_של_	של	ADP	ADP	ADP	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	4	nmod:poss	_	_
+7	לא	לא	ADV	ADV	NEG;ADV	8	advmod	_	_
+8	לבשו	לבש	VERB	VERB	ACT;PL;V;3;{FEM/MASC};PST	0	root	_	_
+9	אפודות	אפודה	NOUN	NOUN	FEM;N;PL;PSSD	8	obj	_	_
+10	מגן	מגן	NOUN	NOUN	MASC;SG;N	9	compound:smixut	_	_
+11-12	ומיד	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	CONJ	16	cc	_	_
+12	מיד	מייד	ADV	ADV	ADV	16	advmod	_	_
+13	לאחר	לאחר	ADP	ADP	ADP	15	case	_	_
+14-15	הדקירה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	דקירה	דקירה	NOUN	NOUN	SG;N;FEM	16	obl	_	_
+16	הורה	הורה	VERB	VERB	SG;ACT;V;3;MASC;PST	8	conj	_	_
+17	מפכ"ל	מפכ"ל	NOUN	NOUN	SG;PSSD;N;MASC	16	nsubj	_	_
+18-19	המשטרה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	DET	19	det	_	_
+19	משטרה	משטרה	NOUN	NOUN	SG;N;FEM	17	compound:smixut	_	_
+20	רב	רב	NOUN	NOUN	N	21	dep	_	HebSource=ConvUncertainHead
+21	ניצב	ניצב	NOUN	NOUN	MASC;SG;N	17	dep	_	HebSource=ConvUncertainHead
+22	יעקב	יעקב	PROPN	PROPN	PROPN	17	dep	_	HebSource=ConvUncertainHead
+23	טרנר	טרנר	PROPN	PROPN	PROPN	22	flat:name	_	_
+24-26	לשוטרים	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	ADP	26	case	_	_
+25	ה_	ה	DET	DET	DET	26	det	_	_
+26	שוטרים	שוטר	NOUN	NOUN	MASC;N;PL	16	obl	_	_
+27-29	בעיר	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	ADP	29	case	_	_
+28	ה_	ה	DET	DET	DET	29	det	_	_
+29	עיר	עיר	NOUN	NOUN	SG;N;FEM	26	nmod	_	_
+30	להקפיד	הקפיד	VERB	VERB	NFIN;ACT;V	16	xcomp	_	_
+31	על	על	ADP	ADP	ADP	32	case	_	_
+32	הוראה	הוראה	NOUN	NOUN	SG;N;FEM	30	obl	_	_
+33	זו	זו	PRON	PRON	SG;3;PRO;FEM	32	det	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 5242
+# text = לדוקר לא היה עבר פלילי, או ביטחוני.
+1-3	לדוקר	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	ADP	3	case	_	_
+2	ה_	ה	DET	DET	DET	3	det	_	_
+3	דוקר	דקר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	5	obl	_	_
+4	לא	לא	ADV	ADV	NEG;ADV	5	advmod	_	_
+5	היה	היה	VERB	VERB	POS;SG;V;3;MASC;PST	0	root	_	_
+6	עבר	עבר	NOUN	NOUN	MASC;SG;N	5	nsubj	_	_
+7	פלילי	פלילי	ADJ	ADJ	MASC;SG;ADJ	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	7	punct	_	_
+9	או	או	CCONJ	CCONJ	CONJ	10	cc	_	_
+10	ביטחוני	בטחוני	ADJ	ADJ	MASC;SG;ADJ	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

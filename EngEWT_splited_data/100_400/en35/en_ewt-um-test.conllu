@@ -1,0 +1,114 @@
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0002
+# text = It notes 10 points at which the US made key mistakes that might have stopped Bin Laden's plot.
+1	It	it	PRON	PRP	PRO;3;NEUT;NOM;SG	2	nsubj	2:nsubj	_
+2	notes	note	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	10	10	NUM	CD	NUM	4	nummod	4:nummod	_
+4	points	point	NOUN	NNS	PL;N	2	obj	2:obj|9:obl	_
+5	at	at	ADP	IN	ADP	6	case	6:case	_
+6	which	which	PRON	WDT	PRO	9	obl	4:ref	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	US	US	PROPN	NNP	SG;PROPN	9	nsubj	9:nsubj	_
+9	made	make	VERB	VBD	PST;V;3;FIN;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-obl-pfront
+10	key	key	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	mistakes	mistake	NOUN	NNS	PL;N	9	obj	9:obj|15:nsubj	_
+12	that	that	PRON	WDT	PRO	15	nsubj	11:ref	_
+13	might	might	AUX	MD	V;FIN	15	aux	15:aux	_
+14	have	have	AUX	VB	NFIN;V	15	aux	15:aux	_
+15	stopped	stop	VERB	VBN	PST;V;V.PTCP	11	acl:relcl	11:acl:relcl	Cxn=rc-that-nsubj
+16	Bin	Bin	PROPN	NNP	SG;PROPN	19	nmod:poss	19:nmod:poss	_
+17-18	Laden's	_	_	_	_	_	_	_	_
+17	Laden	Laden	PROPN	NNP	SG;PROPN	16	flat	16:flat	_
+18	's	's	PART	POS	PART	16	case	16:case	_
+19	plot	plot	NOUN	NN	SG;N	15	obj	15:obj	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0003
+# text = Four of these were under Clinton and 6 under Bush.
+1	Four	four	NUM	CD	NUM	6	nsubj	6:nsubj	_
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	these	this	PRON	DT	PL;PRO	1	nmod	1:nmod:of	_
+4	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	6	cop	6:cop	_
+5	under	under	ADP	IN	ADP	6	case	6:case	_
+6	Clinton	Clinton	PROPN	NNP	SG;PROPN	0	root	0:root	_
+7	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+8	6	6	NUM	CD	NUM	10	nsubj	10:nsubj	_
+9	under	under	ADP	IN	ADP	10	case	10:case	_
+10	Bush	Bush	PROPN	NNP	SG;PROPN	6	conj	6:conj:and	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0004
+# newpar id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-p0002
+# text = Bush came out today and said that if he had known what was coming, he would have expended every effort to stop it, and that so would have Clinton.
+1	Bush	Bush	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj|6:nsubj	_
+2	came	come	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+3	out	out	ADV	RB	ADV	2	advmod	2:advmod	_
+4	today	today	NOUN	NN	SG;N	2	obl:tmod	2:obl:tmod	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	said	say	VERB	VBD	PST;V;3;FIN;SG;IND	2	conj	2:conj:and	_
+7	that	that	SCONJ	IN	CONJ	19	mark	19:mark	_
+8	if	if	SCONJ	IN	CONJ	11	mark	11:mark	_
+9	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	11	nsubj	11:nsubj	_
+10	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	11	aux	11:aux	_
+11	known	know	VERB	VBN	PST;V;V.PTCP	19	advcl	19:advcl:if	_
+12	what	what	PRON	WP	PRO	14	nsubj	14:nsubj	_
+13	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	14	aux	14:aux	_
+14	coming	come	VERB	VBG	PRS;V;V.PTCP	11	ccomp	11:ccomp	SpaceAfter=No
+15	,	,	PUNCT	,	_	11	punct	11:punct	_
+16	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	19	nsubj	19:nsubj	_
+17	would	would	AUX	MD	V;FIN	19	aux	19:aux	_
+18	have	have	AUX	VB	NFIN;V	19	aux	19:aux	_
+19	expended	expend	VERB	VBN	PST;V;V.PTCP	6	ccomp	6:ccomp	_
+20	every	every	DET	DT	DET	21	det	21:det	_
+21	effort	effort	NOUN	NN	SG;N	19	obj	19:obj	_
+22	to	to	PART	TO	PART	23	mark	23:mark	_
+23	stop	stop	VERB	VB	NFIN;V	19	advcl	19:advcl:to	_
+24	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	23	obj	23:obj	SpaceAfter=No
+25	,	,	PUNCT	,	_	30	punct	30:punct	_
+26	and	and	CCONJ	CC	CONJ	30	cc	30:cc	_
+27	that	that	SCONJ	IN	CONJ	30	mark	30:mark	_
+28	so	so	ADV	RB	ADV	30	advmod	30:advmod	_
+29	would	would	AUX	MD	V;FIN	30	aux	30:aux	_
+30	have	have	AUX	VB	NFIN;V	19	conj	6:ccomp|19:conj:and	_
+31	Clinton	Clinton	PROPN	NNP	SG;PROPN	30	nsubj	30:nsubj	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0005
+# text = This statement is, despite its facade of fair-mindedness, so many weasel words.
+1	This	this	DET	DT	SG;DET	2	det	2:det	_
+2	statement	statement	NOUN	NN	SG;N	16	nsubj	16:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	16	cop	16:cop	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	despite	despite	ADP	IN	ADP	7	case	7:case	_
+6	its	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	7	nmod:poss	7:nmod:poss	_
+7	facade	facade	NOUN	NN	SG;N	16	obl	16:obl:despite	_
+8	of	of	ADP	IN	ADP	11	case	11:case	_
+9	fair	fair	ADJ	JJ	ADJ	11	amod	11:amod	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	mindedness	mindedness	NOUN	NN	SG;N	7	nmod	7:nmod:of	SpaceAfter=No
+12	,	,	PUNCT	,	_	7	punct	7:punct	_
+13	so	so	ADV	RB	ADV	14	advmod	14:advmod	_
+14	many	many	ADJ	JJ	ADJ	16	amod	16:amod	_
+15	weasel	weasel	NOUN	NN	SG;N	16	compound	16:compound	_
+16	words	word	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# sent_id = weblog-juancole.com_juancole_20040722101300_ENG_20040722_101300-0006
+# text = Of course Bush would have tried to stop 9/11 if he had known it was coming.
+1	Of	of	ADP	IN	ADP	6	advmod	6:advmod	_
+2	course	course	NOUN	NN	SG;N	1	fixed	1:fixed	_
+3	Bush	Bush	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+4	would	would	AUX	MD	V;FIN	6	aux	6:aux	_
+5	have	have	AUX	VB	NFIN;V	6	aux	6:aux	_
+6	tried	try	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	stop	stop	VERB	VB	NFIN;V	6	xcomp	6:xcomp	_
+9	9/11	9/11	NUM	CD	NUM	8	obj	8:obj	_
+10	if	if	SCONJ	IN	CONJ	13	mark	13:mark	_
+11	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	13	nsubj	13:nsubj	_
+12	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	13	aux	13:aux	_
+13	known	know	VERB	VBN	PST;V;V.PTCP	6	advcl	6:advcl:if	_
+14	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	16	nsubj	16:nsubj	_
+15	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	16	aux	16:aux	_
+16	coming	come	VERB	VBG	PRS;V;V.PTCP	13	ccomp	13:ccomp	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	6:punct	_
+

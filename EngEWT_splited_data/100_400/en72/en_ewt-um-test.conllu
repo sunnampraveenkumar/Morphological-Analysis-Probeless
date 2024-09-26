@@ -1,0 +1,89 @@
+# sent_id = email-enronsent18_01-0014
+# text = I enjoyed your presentations very much.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	enjoyed	enjoy	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	your	your	PRON	PRP$	GEN;PRO;2	4	nmod:poss	4:nmod:poss	_
+4	presentations	presentation	NOUN	NNS	PL;N	2	obj	2:obj	_
+5	very	very	ADV	RB	ADV	6	advmod	6:advmod	_
+6	much	much	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent18_01-0015
+# text = I was wondering if you could give me some references regarding the calculation of correlation coefficients from a GARCH model.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	V;1;PST;FIN;SG;IND	3	aux	3:aux	_
+3	wondering	wonder	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	you	you	PRON	PRP	NOM;2;PRO	7	nsubj	7:nsubj	_
+6	could	could	AUX	MD	V;FIN	7	aux	7:aux	_
+7	give	give	VERB	VB	NFIN;V	3	ccomp	3:ccomp	_
+8	me	I	PRON	PRP	ACC;PRO;1;SG	7	iobj	7:iobj	_
+9	some	some	DET	DT	DET	10	det	10:det	_
+10	references	reference	NOUN	NNS	PL;N	7	obj	7:obj	_
+11	regarding	regard	VERB	VBG	PRS;V;V.PTCP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	calculation	calculation	NOUN	NN	SG;N	10	nmod	10:nmod:regarding	_
+14	of	of	ADP	IN	ADP	16	case	16:case	_
+15	correlation	correlation	NOUN	NN	SG;N	16	compound	16:compound	_
+16	coefficients	coefficient	NOUN	NNS	PL;N	13	nmod	13:nmod:of	_
+17	from	from	ADP	IN	ADP	20	case	20:case	_
+18	a	a	DET	DT	INDF;DET	20	det	20:det	_
+19	GARCH	garch	NOUN	NN	SG;N	20	compound	20:compound	_
+20	model	model	NOUN	NN	SG;N	13	nmod	13:nmod:from	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent18_01-0016
+# text = Thank you.
+1	Thank	thank	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	you	you	PRON	PRP	2;ACC;PRO	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_01-0017
+# newpar id = email-enronsent18_01-p0003
+# text = Magali Van Belle Consultant PHB Hagler Bailly MANAGEMENT AND ECONOMIC CONSULTANTS PHB Hagler Bailly, Inc. (202) 828-3933 direct dial 1776 Eye Street, N.W. (202) 296-3858 facsimile Washington, D.C. 20006-3700 mvanbell@haglerbailly.com e-mail
+1	Magali	Magali	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Van	Van	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Belle	Belle	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+4	Consultant	consultant	NOUN	NN	SG;N	1	list	1:list	_
+5	PHB	PHB	PROPN	NNP	SG;PROPN	1	list	1:list	_
+6	Hagler	Hagler	PROPN	NNP	SG;PROPN	5	flat	5:flat	_
+7	Bailly	Bailly	PROPN	NNP	SG;PROPN	5	flat	5:flat	_
+8	MANAGEMENT	MANAGEMENT	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+9	AND	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	ECONOMIC	ECONOMIC	PROPN	NNP	SG;PROPN	8	conj	8:conj:and|11:compound	_
+11	CONSULTANTS	CONSULTANTS	PROPN	NNPS	PROPN;PL	1	list	1:list	_
+12	PHB	PHB	PROPN	NNP	SG;PROPN	1	list	1:list	_
+13	Hagler	Hagler	PROPN	NNP	SG;PROPN	12	flat	12:flat	_
+14	Bailly	Bailly	PROPN	NNP	SG;PROPN	12	flat	12:flat	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
+16	Inc.	Inc.	PROPN	NNP	SG;PROPN	12	flat	12:flat	_
+17	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+18	202	202	NUM	CD	NUM	1	list	1:list	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	punct	18:punct	_
+20	828-3933	828-3933	NUM	CD	NUM	18	flat	18:flat	_
+21	direct	direct	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	dial	dial	NOUN	NN	SG;N	18	appos	18:appos	_
+23	1776	1776	NUM	CD	NUM	27	nummod	27:nummod	_
+24	Eye	Eye	PROPN	NNP	SG;PROPN	27	compound	27:compound	_
+25	Street	Street	PROPN	NNP	SG;PROPN	27	compound	27:compound	SpaceAfter=No
+26	,	,	PUNCT	,	_	25	punct	25:punct	_
+27	N.W.	N.W.	PROPN	NNP	SG;PROPN	1	list	1:list	_
+28	(	(	PUNCT	-LRB-	_	29	punct	29:punct	SpaceAfter=No
+29	202	202	NUM	CD	NUM	1	list	1:list	SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	29	punct	29:punct	_
+31	296-3858	296-3858	NUM	CD	NUM	29	flat	29:flat	_
+32	facsimile	facsimile	NOUN	NN	SG;N	29	appos	29:appos	_
+33	Washington	Washington	PROPN	NNP	SG;PROPN	1	list	1:list	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	35:punct	_
+35	D.C.	D.C.	PROPN	NNP	SG;PROPN	33	appos	33:appos	_
+36	20006-3700	20006-3700	NUM	CD	NUM	33	appos	33:appos	_
+37	mvanbell@haglerbailly.com	mvanbell@haglerbailly.com	PROPN	ADD	PROPN	1	list	1:list	_
+38	e-mail	e-mail	NOUN	NN	SG;N	37	appos	37:appos	_
+
+# newdoc id = email-enronsent32_02
+# sent_id = email-enronsent32_02-0001
+# newpar id = email-enronsent32_02-p0001
+# text = Andrew Edison@ENRON
+1	Andrew	AndrewEdison@ENRON	PROPN	GW	PROPN	0	root	0:root	_
+2	Edison@ENRON	_	X	ADD	_	1	goeswith	1:goeswith	_
+

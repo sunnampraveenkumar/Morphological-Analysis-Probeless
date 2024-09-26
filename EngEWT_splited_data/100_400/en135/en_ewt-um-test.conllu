@@ -1,0 +1,63 @@
+# sent_id = email-enronsent18_02-0012
+# text = regards,
+1	regards	regards	NOUN	NNS	N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_02-0013
+# newpar id = email-enronsent18_02-p0008
+# text = Sheridan
+1	Sheridan	Sheridan	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0014
+# text = Sheridan Titman Department of Finance College of Business Administration University of Texas Austin, Texas 78712-1179 512-232-2787 (phone) 512-471-5073 (fax) titman@mail.utexas.edu
+1	Sheridan	Sheridan	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Titman	Titman	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	Department	department	NOUN	NN	SG;N	2	list	2:list	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Finance	finance	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+6	College	College	PROPN	NNP	SG;PROPN	2	list	2:list	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	Business	Business	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Administration	Administration	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:of	_
+10	University	University	PROPN	NNP	SG;PROPN	2	list	2:list	_
+11	of	of	ADP	IN	ADP	12	case	12:case	_
+12	Texas	Texas	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:of	_
+13	Austin	Austin	PROPN	NNP	SG;PROPN	2	list	2:list	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	Texas	Texas	PROPN	NNP	SG;PROPN	13	appos	13:appos	_
+16	78712-1179	78712-1179	NUM	CD	NUM	2	list	2:list	_
+17	512-232-2787	512-232-2787	NUM	CD	NUM	2	list	2:list	_
+18	(	(	PUNCT	-LRB-	_	19	punct	19:punct	SpaceAfter=No
+19	phone	phone	NOUN	NN	SG;N	17	appos	17:appos	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	_
+21	512-471-5073	512-471-5073	NUM	CD	NUM	2	list	2:list	_
+22	(	(	PUNCT	-LRB-	_	23	punct	23:punct	SpaceAfter=No
+23	fax	fax	NOUN	NN	SG;N	21	appos	21:appos	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	_
+25	titman@mail.utexas.edu	titman@mail.utexas.edu	PROPN	ADD	PROPN	2	list	2:list	_
+
+# sent_id = email-enronsent18_02-0015
+# text = Bryan,
+1	Bryan	Bryan	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_02-0016
+# newpar id = email-enronsent18_02-p0009
+# text = Did you have a chance to take a look at the resume I sent you?
+1	Did	do	AUX	VBD	V;PST;FIN;2;SG;IND	3	aux	3:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	5	det	5:det	_
+5	chance	chance	NOUN	NN	SG;N	3	obj	3:obj	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	take	take	VERB	VB	NFIN;V	5	acl	5:acl:to	_
+8	a	a	DET	DT	INDF;DET	9	det	9:det	_
+9	look	look	NOUN	NN	SG;N	7	obj	7:obj	_
+10	at	at	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	resume	resume	NOUN	NN	SG;N	9	nmod	9:nmod:at|14:obj	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+14	sent	send	VERB	VBD	1;V;PST;FIN;SG;IND	12	acl:relcl	12:acl:relcl	Cxn=rc-red-obj
+15	you	you	PRON	PRP	2;ACC;PRO	14	iobj	14:iobj	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	3:punct	_
+

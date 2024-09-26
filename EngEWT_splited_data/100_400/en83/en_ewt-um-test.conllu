@@ -1,0 +1,76 @@
+# sent_id = email-enronsent36_01-0021
+# text = I will extract the one for the US corporate Paragraph 13 and email to your contact @ First Union Securities.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|13:nsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	extract	extract	VERB	VB	NFIN;V	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	one	one	NOUN	NN	SG;N	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	10	case	10:case	_
+7	the	the	DET	DT	DEF;DET	10	det	10:det	_
+8	US	US	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+9	corporate	corporate	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	Paragraph	paragraph	NOUN	NN	SG;N	5	nmod	5:nmod:for	_
+11	13	13	NUM	CD	NUM	10	nummod	10:nummod	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	email	email	VERB	VB	NFIN;V	3	conj	3:conj:and	_
+14	to	to	ADP	IN	ADP	16	case	16:case	_
+15	your	your	PRON	PRP$	GEN;PRO;2	16	nmod:poss	16:nmod:poss	_
+16	contact	contact	NOUN	NN	SG;N	13	obl	13:obl:to	_
+17	@	@	ADP	IN	ADP	20	case	20:case	_
+18	First	First	ADJ	NNP	ADJ	19	amod	19:amod	_
+19	Union	Union	PROPN	NNP	SG;PROPN	20	compound	20:compound	_
+20	Securities	Security	PROPN	NNPS	PROPN;PL	16	nmod	16:nmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent36_01-0022
+# newpar id = email-enronsent36_01-p0011
+# text = The sample includes our "caveat", so it should be fine.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	sample	sample	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	includes	include	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	our	our	PRON	PRP$	GEN;PL;PRO;1	6	nmod:poss	6:nmod:poss	_
+5	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+6	caveat	caveat	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	6:punct	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	13:punct	_
+9	so	so	ADV	RB	ADV	13	advmod	13:advmod	_
+10	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	13	nsubj	13:nsubj	_
+11	should	should	AUX	MD	V;FIN	13	aux	13:aux	_
+12	be	be	AUX	VB	NFIN;V	13	cop	13:cop	_
+13	fine	fine	ADJ	JJ	ADJ	3	parataxis	3:parataxis	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent36_01-0023
+# newpar id = email-enronsent36_01-p0012
+# text = Susan
+1	Susan	Susan	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent36_01-0024
+# text = Susan:
+1	Susan	Susan	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent36_01-0025
+# text = While Tanya is reviewing credit, can you please send a "blank form Paragraph 13" for this master.
+1	While	while	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	Tanya	Tanya	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	aux	4:aux	_
+4	reviewing	review	VERB	VBG	PRS;V;V.PTCP	10	advcl	10:advcl:while	_
+5	credit	credit	NOUN	NN	SG;N	4	obj	4:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	4:punct	_
+7	can	can	AUX	MD	V;FIN	10	aux	10:aux	_
+8	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+9	please	please	INTJ	UH	INTJ	10	discourse	10:discourse	_
+10	send	send	VERB	VB	NFIN;V	0	root	0:root	_
+11	a	a	DET	DT	INDF;DET	15	det	15:det	_
+12	"	"	PUNCT	``	_	15	punct	15:punct	SpaceAfter=No
+13	blank	blank	ADJ	JJ	ADJ	15	amod	15:amod	_
+14	form	form	NOUN	NN	SG;N	15	compound	15:compound	_
+15	Paragraph	paragraph	NOUN	NN	SG;N	10	obj	10:obj	_
+16	13	13	NUM	CD	NUM	15	nummod	15:nummod	SpaceAfter=No
+17	"	"	PUNCT	''	_	15	punct	15:punct	_
+18	for	for	ADP	IN	ADP	20	case	20:case	_
+19	this	this	DET	DT	SG;DET	20	det	20:det	_
+20	master	master	NOUN	NN	SG;N	15	nmod	15:nmod:for	SpaceAfter=No
+21	.	.	PUNCT	.	_	10	punct	10:punct	_
+

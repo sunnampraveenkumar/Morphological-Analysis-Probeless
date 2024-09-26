@@ -1,0 +1,754 @@
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0002
+# text = 732-657-3416
+1	732-657-3416	732-657-3416	NUM	CD	NUM	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0003
+# newpar id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-p0002
+# text = has life like animal wholesale figurines made from rabbit and goat fur, feathers and sheeps wool.
+1	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	life	life	NOUN	NN	SG;N	3	obl:npmod	3:obl:npmod	_
+3	like	like	ADJ	JJ	ADJ	6	amod	6:amod	_
+4	animal	animal	NOUN	NN	SG;N	6	compound	6:compound	_
+5	wholesale	wholesale	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	figurines	figurine	NOUN	NNS	PL;N	1	obj	1:obj	_
+7	made	make	VERB	VBN	PASS;PST;V;V.PTCP	6	acl	6:acl	_
+8	from	from	ADP	IN	ADP	12	case	12:case	_
+9	rabbit	rabbit	NOUN	NN	SG;N	12	compound	12:compound	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	goat	goat	NOUN	NN	SG;N	9	conj	9:conj:and|12:compound	_
+12	fur	fur	NOUN	NN	SG;N	7	obl	7:obl:from	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	feathers	feather	NOUN	NNS	PL;N	12	conj	7:obl:from|12:conj:and	_
+15	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+16-17	sheeps	_	_	_	_	_	_	_	_
+16	sheep	sheep	NOUN	NN	SG;N	18	nmod:poss	18:nmod:poss	_
+17	s	's	PART	POS	PART	16	case	16:case	CorrectForm='s
+18	wool	wool	NOUN	NN	SG;N	12	conj	7:obl:from|12:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0004
+# text = Dogs, cats, rabbits, wolves, moose, horses, you name it, we have it.
+1	Dogs	dog	NOUN	NNS	PL;N	18	parataxis	18:parataxis	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	cats	cat	NOUN	NNS	PL;N	1	conj	1:conj	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	rabbits	rabbit	NOUN	NNS	PL;N	1	conj	1:conj	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	wolves	wolf	NOUN	NNS	PL;N	1	conj	1:conj	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	moose	moose	NOUN	NNS	PL;N	1	conj	1:conj	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	horses	horse	NOUN	NNS	PL;N	1	conj	1:conj	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	1:punct	_
+13	you	you	PRON	PRP	NOM;2;PRO	14	nsubj	14:nsubj	_
+14	name	name	VERB	VBP	V;FIN;PRS;2;SG;IND	18	advcl	18:advcl	_
+15	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	14	obj	14:obj	SpaceAfter=No
+16	,	,	PUNCT	,	_	14	punct	14:punct	_
+17	we	we	PRON	PRP	PL;PRO;1;NOM	18	nsubj	18:nsubj	_
+18	have	have	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+19	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	18	obj	18:obj	SpaceAfter=No
+20	.	.	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0005
+# text = People love to buy these cute cuddly little animals for gifts and collectables.
+1	People	people	NOUN	NNS	PL;N	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	love	love	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	buy	buy	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	these	this	DET	DT	PL;DET	9	det	9:det	_
+6	cute	cute	ADJ	JJ	ADJ	9	amod	9:amod	_
+7	cuddly	cuddly	ADJ	JJ	ADJ	9	amod	9:amod	_
+8	little	little	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	animals	animal	NOUN	NNS	PL;N	4	obj	4:obj	_
+10	for	for	ADP	IN	ADP	11	case	11:case	_
+11	gifts	gift	NOUN	NNS	PL;N	4	obl	4:obl:for	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	collectables	collectable	NOUN	NNS	PL;N	11	conj	4:obl:for|11:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0006
+# text = They are very well made and realistic.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	5	nsubj:pass	5:nsubj:pass|7:nsubj	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	5	aux:pass	5:aux:pass	_
+3	very	very	ADV	RB	ADV	4	advmod	4:advmod	_
+4	well	well	ADV	RB	ADV	5	advmod	5:advmod	_
+5	made	make	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	realistic	realistic	ADJ	JJ	ADJ	5	conj	5:conj:and	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0007
+# text = Attention Retail Stores & Vendors:
+1	Attention	attention	NOUN	NN	SG;N	3	discourse	3:discourse	_
+2	Retail	retail	NOUN	NN	SG;N	3	compound	3:compound	_
+3	Stores	store	NOUN	NNS	PL;N	0	root	0:root	_
+4	&	&	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	Vendors	vendor	NOUN	NNS	PL;N	3	conj	3:conj	SpaceAfter=No
+6	:	:	PUNCT	:	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0008
+# text = We are looking to expand our Wholesale Clients across the Nation.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	are	be	AUX	VBP	PL;V;1;FIN;PRS;IND	3	aux	3:aux	_
+3	looking	look	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	expand	expand	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	our	our	PRON	PRP$	GEN;PL;PRO;1	8	nmod:poss	8:nmod:poss	_
+7	Wholesale	wholesale	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	Clients	client	NOUN	NNS	PL;N	5	obj	5:obj	_
+9	across	across	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	Nation	nation	NOUN	NN	SG;N	5	obl	5:obl:across	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0009
+# text = If you own a Retail Store or are a Professional Vendor who exhibits at Sport, Hunting, or Craft Shows and are interested in selling our products,please give us a call!
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj|11:nsubj|24:nsubj	_
+3	own	own	VERB	VBP	V;FIN;PRS;2;SG;IND	31	advcl	31:advcl:if	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	Retail	retail	NOUN	NN	SG;N	6	compound	6:compound	_
+6	Store	store	NOUN	NN	SG;N	3	obj	3:obj	_
+7	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	11	cop	11:cop	_
+9	a	a	DET	DT	INDF;DET	11	det	11:det	_
+10	Professional	professional	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	Vendor	vendor	NOUN	NN	SG;N	3	conj	3:conj:or|13:nsubj|31:advcl:if	_
+12	who	who	PRON	WP	PRO	13	nsubj	11:ref	_
+13	exhibits	exhibit	VERB	VBZ	V;3;FIN;PRS;SG;IND	11	acl:relcl	11:acl:relcl	Cxn=rc-wh-nsubj
+14	at	at	ADP	IN	ADP	21	case	21:case	_
+15	Sport	sport	NOUN	NN	SG;N	21	compound	21:compound	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
+17	Hunting	hunting	NOUN	NN	SG;N	15	conj	15:conj:or|21:compound	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	20:punct	_
+19	or	or	CCONJ	CC	CONJ	20	cc	20:cc	_
+20	Craft	craft	NOUN	NN	SG;N	15	conj	15:conj:or|21:compound	_
+21	Shows	show	NOUN	NNS	PL;N	13	obl	13:obl:at	_
+22	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+23	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	24	cop	24:cop	_
+24	interested	interested	ADJ	JJ	ADJ	3	conj	3:conj:or|31:advcl:if	_
+25	in	in	SCONJ	IN	CONJ	26	mark	26:mark	_
+26	selling	sell	VERB	VBG	PRS;V;V.PTCP	24	advcl	24:advcl:in	_
+27	our	our	PRON	PRP$	GEN;PL;PRO;1	28	nmod:poss	28:nmod:poss	_
+28	products	product	NOUN	NNS	PL;N	26	obj	26:obj	SpaceAfter=No
+29	,	,	PUNCT	,	_	3	punct	3:punct	SpaceAfter=No
+30	please	please	INTJ	UH	INTJ	31	discourse	31:discourse	_
+31	give	give	VERB	VB	FIN;V;IMP	0	root	0:root	_
+32	us	we	PRON	PRP	PL;ACC;PRO;1	31	iobj	31:iobj	_
+33	a	a	DET	DT	INDF;DET	34	det	34:det	_
+34	call	call	NOUN	NN	SG;N	31	obj	31:obj	SpaceAfter=No
+35	!	!	PUNCT	.	_	31	punct	31:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0010
+# text = 732-657-3416
+1	732-657-3416	732-657-3416	NUM	CD	NUM	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0011
+# text = We have a Full Color Catalog and Wholesale Price List ready to mail to you today!
+1	We	we	PRON	PRP	PL;PRO;1;NOM	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+3	a	a	DET	DT	INDF;DET	6	det	6:det	_
+4	Full	full	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	Color	color	NOUN	NN	SG;N	6	compound	6:compound	_
+6	Catalog	catalog	NOUN	NN	SG;N	2	obj	2:obj	_
+7	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+8	Wholesale	wholesale	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Price	price	NOUN	NN	SG;N	10	compound	10:compound	_
+10	List	list	NOUN	NN	SG;N	6	conj	2:obj|6:conj:and	_
+11	ready	ready	ADJ	JJ	ADJ	6	amod	6:amod	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	mail	mail	VERB	VB	NFIN;V	11	xcomp	11:xcomp	_
+14	to	to	ADP	IN	ADP	15	case	15:case	_
+15	you	you	PRON	PRP	2;ACC;PRO	13	obl	13:obl:to	_
+16	today	today	NOUN	NN	SG;N	13	obl:tmod	13:obl:tmod	SpaceAfter=No
+17	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0012
+# text = No minimum order amount.
+1	No	no	DET	DT	DET	4	det	4:det	_
+2	minimum	minimum	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	order	order	NOUN	NN	SG;N	4	compound	4:compound	_
+4	amount	amount	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0013
+# text = Any orders at or over $500.00 an additional 10% off the total order.
+1	Any	any	DET	DT	DET	2	det	2:det	_
+2	orders	order	NOUN	NNS	PL;N	11	nsubj	11:nsubj	_
+3	at	at	ADP	IN	ADP	6	case	6:case	_
+4	or	or	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	over	over	ADP	IN	ADP	3	conj	3:conj:or|6:case	_
+6	$	$	SYM	$	_	2	nmod	2:nmod:over	SpaceAfter=No
+7	500.00	500.00	NUM	CD	NUM	6	nummod	6:nummod	_
+8	an	a	DET	DT	INDF;DET	11	det	11:det	_
+9	additional	additional	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	10	10	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+11	%	%	SYM	NN	SG	0	root	0:root	_
+12	off	off	ADP	IN	ADP	15	case	15:case	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	total	total	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	order	order	NOUN	NN	SG;N	11	nmod	11:nmod:off	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0014
+# text = We accecpt: Visa, MasterCard, Amex, Dinners Club/Carte Blanche, & Personal Checks/Money Orders.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	2	nsubj	2:nsubj	_
+2	accecpt	accecpt	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	Visa	Visa	PROPN	NNP	SG;PROPN	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	MasterCard	MasterCard	PROPN	NNP	SG;PROPN	4	conj	2:obj|4:conj	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	Amex	Amex	PROPN	NNP	SG;PROPN	4	conj	2:obj|4:conj	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	Dinners	Diner	PROPN	NNPS	PROPN;PL	11	compound	11:compound	CorrectForm=Diners
+11	Club	Club	PROPN	NNP	SG;PROPN	4	conj	2:obj|4:conj	SpaceAfter=No
+12	/	/	SYM	,	_	14	cc	14:cc	SpaceAfter=No
+13	Carte	Carte	PROPN	NNP	SG;PROPN	14	compound	14:compound	_
+14	Blanche	Blanche	PROPN	NNP	SG;PROPN	11	conj	11:conj	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	&	&	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	Personal	personal	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	Checks	check	NOUN	NNS	PL;N	4	conj	2:obj|4:conj	SpaceAfter=No
+19	/	/	SYM	,	_	21	cc	21:cc	SpaceAfter=No
+20	Money	money	NOUN	NN	SG;N	21	compound	21:compound	_
+21	Orders	order	NOUN	NNS	PL;N	18	conj	18:conj	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0015
+# text = Animals R Us.Net Bill Schmidt animalsr...@aol.com 732-657-3416 1027 Jolson Court Manchester, N.J. 08759
+1	Animals	Animals	PROPN	ADD	PROPN	3	compound	3:compound	_
+2	R	R	PROPN	ADD	PROPN	3	compound	3:compound	_
+3	Us.Net	Us.Net	PROPN	ADD	PROPN	0	root	0:root	_
+4	Bill	Bill	PROPN	NNP	SG;PROPN	3	list	3:list	_
+5	Schmidt	Schmidt	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	animalsr...@aol.com	animalsr...@aol.com	PROPN	ADD	PROPN	3	list	3:list	_
+7	732-657-3416	732-657-3416	NUM	CD	NUM	3	list	3:list	_
+8	1027	1027	NUM	CD	NUM	10	nummod	10:nummod	_
+9	Jolson	Jolson	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Court	Court	PROPN	NNP	SG;PROPN	3	list	3:list	_
+11	Manchester	Manchester	PROPN	NNP	SG;PROPN	3	list	3:list	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	N.J.	N.J.	PROPN	NNP	SG;PROPN	11	appos	11:appos	_
+14	08759	08759	NUM	CD	NUM	3	list	3:list	_
+
+# newdoc id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0001
+# newpar id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-p0001
+# text = Wei's Magic Cubes
+1-2	Wei's	_	_	_	_	_	_	_	_
+1	Wei	Wei	PROPN	NNP	SG;PROPN	4	nmod:poss	4:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	Magic	magic	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Cubes	cube	NOUN	NNS	PL;N	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0002
+# newpar id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-p0002
+# text = Wei Ligang, a rising star of modern art in China, just had an exhibition in mid-July, 2005 in Hong Kong.
+1	Wei	Wei	PROPN	NNP	SG;PROPN	14	nsubj	14:nsubj	_
+2	Ligang	Ligang	PROPN	NNP	SG;PROPN	1	flat	1:flat	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	6:punct	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	rising	rise	VERB	VBG	V.MSDR;V	6	amod	6:amod	_
+6	star	star	NOUN	NN	SG;N	1	appos	1:appos	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	modern	modern	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	art	art	NOUN	NN	SG;N	6	nmod	6:nmod:of	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	China	China	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:in	SpaceAfter=No
+12	,	,	PUNCT	,	_	1	punct	1:punct	_
+13	just	just	ADV	RB	ADV	14	advmod	14:advmod	_
+14	had	have	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+15	an	a	DET	DT	INDF;DET	16	det	16:det	_
+16	exhibition	exhibition	NOUN	NN	SG;N	14	obj	14:obj	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	mid-July	mid-July	PROPN	NNP	SG;PROPN	14	obl	14:obl:in	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	20:punct	_
+20	2005	2005	NUM	CD	NUM	18	nummod	18:nummod	_
+21	in	in	ADP	IN	ADP	23	case	23:case	_
+22	Hong	Hong	PROPN	NNP	SG;PROPN	23	compound	23:compound	_
+23	Kong	Kong	PROPN	NNP	SG;PROPN	14	obl	14:obl:in	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0003
+# text = He is now lecturing in USA.
+1	He	he	PRON	PRP	PRO;3;NOM;SG;MASC	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	now	now	ADV	RB	ADV	4	advmod	4:advmod	_
+4	lecturing	lecture	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	in	in	ADP	IN	ADP	6	case	6:case	_
+6	USA	USA	PROPN	NNP	SG;PROPN	4	obl	4:obl:in	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0004
+# text = His art perfectly combines painting and Chinese calligraphy.
+1	His	his	PRON	PRP$	GEN;PRO;3;SG;MASC	2	nmod:poss	2:nmod:poss	_
+2	art	art	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	perfectly	perfectly	ADV	RB	ADV	4	advmod	4:advmod	_
+4	combines	combine	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+5	painting	painting	NOUN	NN	SG;N	4	obj	4:obj	_
+6	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	Chinese	Chinese	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	calligraphy	calligraphy	NOUN	NN	SG;N	5	conj	4:obj|5:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0005
+# text = He is regarded as one of the leading Avant-Garde artist of modern calligraphy.
+1	He	he	PRON	PRP	PRO;3;NOM;SG;MASC	3	nsubj:pass	3:nsubj:pass	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	aux:pass	3:aux:pass	_
+3	regarded	regard	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+4	as	as	ADP	IN	ADP	5	case	5:case	_
+5	one	one	NUM	CD	NUM	3	obl	3:obl:as	_
+6	of	of	ADP	IN	ADP	12	case	12:case	_
+7	the	the	DET	DT	DEF;DET	12	det	12:det	_
+8	leading	lead	VERB	VBG	V.MSDR;V	12	amod	12:amod	_
+9	Avant	avant	NOUN	NN	SG;N	11	compound	11:compound	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	Garde	garde	NOUN	NN	SG;N	12	compound	12:compound	_
+12	artist	artist	NOUN	NN	SG;N	5	nmod	5:nmod:of	_
+13	of	of	ADP	IN	ADP	15	case	15:case	_
+14	modern	modern	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	calligraphy	calligraphy	NOUN	NN	SG;N	12	nmod	12:nmod:of	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0006
+# text = His artworks were selected and exhibited in British Museum in 2002.
+1	His	his	PRON	PRP$	GEN;PRO;3;SG;MASC	2	nmod:poss	2:nmod:poss	_
+2	artworks	artwork	NOUN	NNS	PL;N	4	nsubj:pass	4:nsubj:pass|6:nsubj:pass	_
+3	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	4	aux:pass	4:aux:pass	_
+4	selected	select	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	exhibited	exhibit	VERB	VBN	PASS;PST;V;V.PTCP	4	conj	4:conj:and	_
+7	in	in	ADP	IN	ADP	9	case	9:case	_
+8	British	British	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Museum	Museum	PROPN	NNP	SG;PROPN	4	obl	4:obl:in	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	2002	2002	NUM	CD	NUM	4	obl	4:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0007
+# text = "Wei has given some virtuoso performances with brush and ink, often incorporating several different techniques into a single work," said Gordon S. Barrass, curator of the exhibition.
+1	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+2	Wei	Wei	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+3	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	aux	4:aux	_
+4	given	give	VERB	VBN	PST;V;V.PTCP	24	ccomp	24:ccomp	_
+5	some	some	DET	DT	DET	7	det	7:det	_
+6	virtuoso	virtuoso	NOUN	NN	SG;N	7	compound	7:compound	_
+7	performances	performance	NOUN	NNS	PL;N	4	obj	4:obj	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	brush	brush	NOUN	NN	SG;N	4	obl	4:obl:with	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	ink	ink	NOUN	NN	SG;N	9	conj	4:obl:with|9:conj:and	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	14:punct	_
+13	often	often	ADV	RB	ADV	14	advmod	14:advmod	_
+14	incorporating	incorporate	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl	_
+15	several	several	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	different	different	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	techniques	technique	NOUN	NNS	PL;N	14	obj	14:obj	_
+18	into	into	ADP	IN	ADP	21	case	21:case	_
+19	a	a	DET	DT	INDF;DET	21	det	21:det	_
+20	single	single	ADJ	JJ	ADJ	21	amod	21:amod	_
+21	work	work	NOUN	NN	SG;N	14	obl	14:obl:into	SpaceAfter=No
+22	,	,	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+23	"	"	PUNCT	''	_	4	punct	4:punct	_
+24	said	say	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+25	Gordon	Gordon	PROPN	NNP	SG;PROPN	24	nsubj	24:nsubj	_
+26	S.	S.	PROPN	NNP	SG;PROPN	25	flat	25:flat	_
+27	Barrass	Barrass	PROPN	NNP	SG;PROPN	25	flat	25:flat	SpaceAfter=No
+28	,	,	PUNCT	,	_	29	punct	29:punct	_
+29	curator	curator	NOUN	NN	SG;N	25	appos	25:appos	_
+30	of	of	ADP	IN	ADP	32	case	32:case	_
+31	the	the	DET	DT	DEF;DET	32	det	32:det	_
+32	exhibition	exhibition	NOUN	NN	SG;N	29	nmod	29:nmod:of	SpaceAfter=No
+33	.	.	PUNCT	.	_	24	punct	24:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0008
+# text = In the world of "Wei's magic cubes," all seem to be ingeniously planned and tricky.
+1	In	in	ADP	IN	ADP	3	case	3:case	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	world	world	NOUN	NN	SG;N	13	obl	13:obl:in	_
+4	of	of	ADP	IN	ADP	9	case	9:case	_
+5	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+6-7	Wei's	_	_	_	_	_	_	_	_
+6	Wei	Wei	PROPN	NNP	SG;PROPN	9	nmod:poss	9:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	magic	magic	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	cubes	cube	NOUN	NNS	PL;N	3	nmod	3:nmod:of	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	9:punct	SpaceAfter=No
+11	"	"	PUNCT	''	_	9	punct	9:punct	_
+12	all	all	DET	DT	DET	13	nsubj	13:nsubj|17:nsubj:xsubj|19:nsubj:xsubj	_
+13	seem	seem	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+14	to	to	PART	TO	PART	17	mark	17:mark	_
+15	be	be	AUX	VB	NFIN;V	17	aux:pass	17:aux:pass	_
+16	ingeniously	ingeniously	ADV	RB	ADV	17	advmod	17:advmod	_
+17	planned	plan	VERB	VBN	PASS;PST;V;V.PTCP	13	xcomp	13:xcomp	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	tricky	tricky	ADJ	JJ	ADJ	17	conj	13:xcomp|17:conj:and	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0009
+# text = All are mathematical, all are linguistic.
+1	All	all	DET	DT	DET	3	nsubj	3:nsubj	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	3	cop	3:cop	_
+3	mathematical	mathematical	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	all	all	DET	DT	DET	7	nsubj	7:nsubj	_
+6	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	7	cop	7:cop	_
+7	linguistic	linguistic	ADJ	JJ	ADJ	3	conj	3:conj	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0010
+# text = In Wei's art, a logician could see mathematical logic, a cellist could see a ripple of nine bass notes, a country girl could see straw, and Harry Potter could see two accompanied green blazes.
+1	In	in	ADP	IN	ADP	4	case	4:case	_
+2-3	Wei's	_	_	_	_	_	_	_	_
+2	Wei	Wei	PROPN	NNP	SG;PROPN	4	nmod:poss	4:nmod:poss	_
+3	's	's	PART	POS	PART	2	case	2:case	_
+4	art	art	NOUN	NN	SG;N	9	obl	9:obl:in	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	logician	logician	NOUN	NN	SG;N	9	nsubj	9:nsubj	_
+8	could	could	AUX	MD	V;FIN	9	aux	9:aux	_
+9	see	see	VERB	VB	NFIN;V	0	root	0:root	_
+10	mathematical	mathematical	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	logic	logic	NOUN	NN	SG;N	9	obj	9:obj	SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	16:punct	_
+13	a	a	DET	DT	INDF;DET	14	det	14:det	_
+14	cellist	cellist	NOUN	NN	SG;N	16	nsubj	16:nsubj	_
+15	could	could	AUX	MD	V;FIN	16	aux	16:aux	_
+16	see	see	VERB	VB	NFIN;V	9	conj	9:conj:and	_
+17	a	a	DET	DT	INDF;DET	18	det	18:det	_
+18	ripple	ripple	NOUN	NN	SG;N	16	obj	16:obj	_
+19	of	of	ADP	IN	ADP	22	case	22:case	_
+20	nine	nine	NUM	CD	NUM	22	nummod	22:nummod	_
+21	bass	bass	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	notes	note	NOUN	NNS	PL;N	16	obl	16:obl:of	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	28:punct	_
+24	a	a	DET	DT	INDF;DET	26	det	26:det	_
+25	country	country	NOUN	NN	SG;N	26	compound	26:compound	_
+26	girl	girl	NOUN	NN	SG;N	28	nsubj	28:nsubj	_
+27	could	could	AUX	MD	V;FIN	28	aux	28:aux	_
+28	see	see	VERB	VB	NFIN;V	9	conj	9:conj:and	_
+29	straw	straw	NOUN	NN	SG;N	28	obj	28:obj	SpaceAfter=No
+30	,	,	PUNCT	,	_	35	punct	35:punct	_
+31	and	and	CCONJ	CC	CONJ	35	cc	35:cc	_
+32	Harry	Harry	PROPN	NNP	SG;PROPN	35	nsubj	35:nsubj	_
+33	Potter	Potter	PROPN	NNP	SG;PROPN	32	flat	32:flat	_
+34	could	could	AUX	MD	V;FIN	35	aux	35:aux	_
+35	see	see	VERB	VB	NFIN;V	9	conj	9:conj:and	_
+36	two	two	NUM	CD	NUM	39	nummod	39:nummod	_
+37	accompanied	accompany	VERB	VBN	PASS;PST;V;V.PTCP	39	amod	39:amod	_
+38	green	green	ADJ	JJ	ADJ	39	amod	39:amod	_
+39	blazes	blaze	NOUN	NNS	PL;N	35	obj	35:obj	SpaceAfter=No
+40	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0011
+# text = "...to gaze at Wei's art is like entering a floating world of dreams."
+1	"	"	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No
+2	...	...	PUNCT	,	_	11	punct	11:punct	SpaceAfter=No
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	gaze	gaze	VERB	VB	NFIN;V	11	csubj:outer	11:csubj:outer	_
+5	at	at	ADP	IN	ADP	8	case	8:case	_
+6-7	Wei's	_	_	_	_	_	_	_	_
+6	Wei	Wei	PROPN	NNP	SG;PROPN	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	art	art	NOUN	NN	SG;N	4	obl	4:obl:at	_
+9	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	11	cop	11:cop	_
+10	like	like	SCONJ	IN	CONJ	11	mark	11:mark	_
+11	entering	enter	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+12	a	a	DET	DT	INDF;DET	14	det	14:det	_
+13	floating	float	VERB	VBG	V.MSDR;V	14	amod	14:amod	_
+14	world	world	NOUN	NN	SG;N	11	obj	11:obj	_
+15	of	of	ADP	IN	ADP	16	case	16:case	_
+16	dreams	dream	NOUN	NNS	PL;N	14	nmod	14:nmod:of	SpaceAfter=No
+17	.	.	PUNCT	.	_	11	punct	11:punct	SpaceAfter=No
+18	"	"	PUNCT	''	_	11	punct	11:punct	_
+
+# sent_id = newsgroup-groups.google.com_fineart_0339fc0ed4e53c5a_ENG_20050930_025500-0012
+# text = --- The Art of Calligraphy in Modern China (British Museum Press, 2002)
+1	---	---	PUNCT	NFP	_	3	punct	3:punct	_
+2	The	the	DET	DT	DEF;DET	3	det	3:det	_
+3	Art	Art	PROPN	NNP	SG;PROPN	0	root	0:root	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Calligraphy	Calligraphy	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:of	_
+6	in	in	ADP	IN	ADP	8	case	8:case	_
+7	Modern	modern	ADJ	NNP	SG;ADJ	8	compound	8:compound	_
+8	China	China	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:in	_
+9	(	(	PUNCT	-LRB-	_	12	punct	12:punct	SpaceAfter=No
+10	British	British	ADJ	NNP	ADJ	11	amod	11:amod	_
+11	Museum	Museum	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+12	Press	Press	PROPN	NNP	SG;PROPN	3	list	3:list	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	2002	2002	NUM	CD	NUM	12	nmod:tmod	12:nmod:tmod	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
+
+# newdoc id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0001
+# newpar id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-p0001
+# text = [http://news.zdnet.co.uk/internet/0,39020369,39187928,00.htm]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	http://news.zdnet.co.uk/internet/0,39020369,39187928,00.htm	http://news.zdnet.co.uk/internet/0,39020369,39187928,00.htm	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0002
+# newpar id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-p0002
+# text = Photo from Technology News
+1	Photo	photo	NOUN	NN	SG;N	0	root	0:root	_
+2	from	from	ADP	IN	ADP	4	case	4:case	_
+3	Technology	Technology	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	News	News	PROPN	NNP	SG;PROPN	1	nmod	1:nmod:from	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0003
+# text = Wiki Media Foundation, the group behind the Wikipedia online encyclopedia project, said Friday that search giant Google has volunteered to host some of its content on company servers.
+1	Wiki	Wiki	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+2	Media	Media	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Foundation	Foundation	PROPN	NNP	SG;PROPN	14	nsubj	14:nsubj	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	group	group	NOUN	NN	SG;N	3	appos	3:appos	_
+7	behind	behind	ADP	IN	ADP	12	case	12:case	_
+8	the	the	DET	DT	DEF;DET	12	det	12:det	_
+9	Wikipedia	Wikipedia	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+10	online	online	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	encyclopedia	encyclopedia	NOUN	NN	SG;N	12	compound	12:compound	_
+12	project	project	NOUN	NN	SG;N	6	nmod	6:nmod:behind	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	3:punct	_
+14	said	say	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+15	Friday	Friday	PROPN	NNP	SG;PROPN	14	obl:tmod	14:obl:tmod	_
+16	that	that	SCONJ	IN	CONJ	21	mark	21:mark	_
+17	search	search	NOUN	NN	SG;N	18	compound	18:compound	_
+18	giant	giant	NOUN	NN	SG;N	19	compound	19:compound	_
+19	Google	Google	PROPN	NNP	SG;PROPN	21	nsubj	21:nsubj|23:nsubj:xsubj	_
+20	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	21	aux	21:aux	_
+21	volunteered	volunteer	VERB	VBN	PST;V;V.PTCP	14	ccomp	14:ccomp	_
+22	to	to	PART	TO	PART	23	mark	23:mark	_
+23	host	host	VERB	VB	NFIN;V	21	xcomp	21:xcomp	_
+24	some	some	DET	DT	DET	23	obj	23:obj	_
+25	of	of	ADP	IN	ADP	27	case	27:case	_
+26	its	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	27	nmod:poss	27:nmod:poss	_
+27	content	content	NOUN	NN	SG;N	24	nmod	24:nmod:of	_
+28	on	on	ADP	IN	ADP	30	case	30:case	_
+29	company	company	NOUN	NN	SG;N	30	compound	30:compound	_
+30	servers	server	NOUN	NNS	PL;N	23	obl	23:obl:on	SpaceAfter=No
+31	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0004
+# text = (ZD Net)
+1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
+2	ZD	ZD	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Net	Net	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+4	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0005
+# text = It looks like the war between Microsoft and Google is quickly brewing on the horizon.
+1	It	it	PRON	PRP	PRO;3;NEUT;NOM;SG	2	nsubj	2:nsubj	_
+2	looks	look	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	like	like	SCONJ	IN	CONJ	12	mark	12:mark	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	war	war	NOUN	NN	SG;N	12	nsubj	12:nsubj	_
+6	between	between	ADP	IN	ADP	7	case	7:case	_
+7	Microsoft	Microsoft	PROPN	NNP	SG;PROPN	5	nmod	5:nmod:between	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	Google	Google	PROPN	NNP	SG;PROPN	7	conj	5:nmod:between|7:conj:and	_
+10	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	12	aux	12:aux	_
+11	quickly	quickly	ADV	RB	ADV	12	advmod	12:advmod	_
+12	brewing	brew	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:like	_
+13	on	on	ADP	IN	ADP	15	case	15:case	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	horizon	horizon	NOUN	NN	SG;N	12	obl	12:obl:on	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0006
+# text = Microsoft is 4-0 (they took down Netscape, Suns Systems, MAC and IBM) and Google may be their next target.
+1	Microsoft	Microsoft	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	cop	3:cop	_
+3	4	4	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+4	-	-	SYM	SYM	_	5	case	5:case	SpaceAfter=No
+5	0	0	NUM	CD	NUM	3	nmod	3:nmod	_
+6	(	(	PUNCT	-LRB-	_	8	punct	8:punct	SpaceAfter=No
+7	they	they	PRON	PRP	PL;PRO;3;NOM	8	nsubj	8:nsubj	_
+8	took	take	VERB	VBD	PL;PST;V;3;FIN;IND	3	parataxis	3:parataxis	_
+9	down	down	ADP	RP	ADP	8	compound:prt	8:compound:prt	_
+10	Netscape	Netscape	PROPN	NNP	SG;PROPN	8	obj	8:obj	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	Suns	Suns	PROPN	NNPS	PROPN;PL	13	compound	13:compound	_
+13	Systems	System	PROPN	NNPS	PROPN;PL	10	conj	8:obj|10:conj:and	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	MAC	MAC	PROPN	NNP	SG;PROPN	10	conj	8:obj|10:conj:and	_
+16	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+17	IBM	IBM	PROPN	NNP	SG;PROPN	10	conj	8:obj|10:conj:and	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	8	punct	8:punct	_
+19	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+20	Google	Google	PROPN	NNP	SG;PROPN	25	nsubj	25:nsubj	_
+21	may	may	AUX	MD	V;FIN	25	aux	25:aux	_
+22	be	be	AUX	VB	NFIN;V	25	cop	25:cop	_
+23	their	their	PRON	PRP$	GEN;PL;PRO;3	25	nmod:poss	25:nmod:poss	_
+24	next	next	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	target	target	NOUN	NN	SG;N	3	conj	3:conj:and	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0007
+# text = Google is probably making this move to counter Microsoft Search using Encarta (it's online dictionary).
+1	Google	Google	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	probably	probably	ADV	RB	ADV	4	advmod	4:advmod	_
+4	making	make	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	this	this	DET	DT	SG;DET	6	det	6:det	_
+6	move	move	NOUN	NN	SG;N	4	obj	4:obj	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	counter	counter	VERB	VB	NFIN;V	4	advcl	4:advcl	_
+9	Microsoft	Microsoft	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Search	Search	PROPN	NNP	SG;PROPN	11	nsubj	11:nsubj	_
+11	using	use	VERB	VBG	V.MSDR;V	8	ccomp	8:ccomp	_
+12	Encarta	Encarta	PROPN	NNP	SG;PROPN	11	obj	11:obj	_
+13	(	(	PUNCT	-LRB-	_	16	punct	16:punct	SpaceAfter=No
+14	it's	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	16	nmod:poss	16:nmod:poss	CorrectForm=its
+15	online	online	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	dictionary	dictionary	NOUN	NN	SG;N	12	appos	12:appos	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	16	punct	16:punct	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0008
+# text = More below.
+1	More	more	ADJ	JJR	CMPR;ADJ	0	root	0:root	_
+2	below	below	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0009
+# newpar id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-p0003
+# text = But it looks like Google isn't opening it's mouth about the reason behind the offer as Linux News reports:
+1	But	but	CCONJ	CC	CONJ	3	cc	3:cc	_
+2	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	3	nsubj	3:nsubj	_
+3	looks	look	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	like	like	SCONJ	IN	CONJ	8	mark	8:mark	_
+5	Google	Google	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+6-7	isn't	_	_	_	_	_	_	_	_
+6	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	aux	8:aux	_
+7	n't	not	PART	RB	PART	8	advmod	8:advmod	_
+8	opening	open	VERB	VBG	PRS;V;V.PTCP	3	advcl	3:advcl:like	_
+9	it's	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	10	nmod:poss	10:nmod:poss	CorrectForm=its
+10	mouth	mouth	NOUN	NN	SG;N	8	obj	8:obj	_
+11	about	about	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	reason	reason	NOUN	NN	SG;N	8	obl	8:obl:about	_
+14	behind	behind	ADP	IN	ADP	16	case	16:case	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	offer	offer	NOUN	NN	SG;N	13	nmod	13:nmod:behind	_
+17	as	as	SCONJ	IN	CONJ	20	mark	20:mark	_
+18	Linux	Linux	PROPN	NNP	SG;PROPN	19	compound	19:compound	_
+19	News	News	PROPN	NNP	SG;PROPN	20	nsubj	20:nsubj	_
+20	reports	report	VERB	VBZ	V;3;FIN;PRS;SG;IND	8	advcl	8:advcl:as	SpaceAfter=No
+21	:	:	PUNCT	:	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0010
+# text = "While we don't have anything specific to announce today, Google and the Wikimedia Foundation are collaboratively evaluating creative ways to support Wikipedia.org and its community."
+1	"	"	PUNCT	``	_	20	punct	20:punct	SpaceAfter=No
+2	While	while	SCONJ	IN	CONJ	6	mark	6:mark	_
+3	we	we	PRON	PRP	PL;PRO;1;NOM	6	nsubj	6:nsubj	_
+4-5	don't	_	_	_	_	_	_	_	_
+4	do	do	AUX	VBP	PL;V;1;FIN;PRS;IND	6	aux	6:aux	_
+5	n't	not	PART	RB	PART	6	advmod	6:advmod	_
+6	have	have	VERB	VB	NFIN;V	20	advcl	20:advcl:while	_
+7	anything	anything	PRON	NN	SG;PRO	6	obj	6:obj	_
+8	specific	specific	ADJ	JJ	ADJ	7	amod	7:amod	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	announce	announce	VERB	VB	NFIN;V	7	acl	7:acl:to	_
+11	today	today	NOUN	NN	SG;N	10	obl:tmod	10:obl:tmod	SpaceAfter=No
+12	,	,	PUNCT	,	_	6	punct	6:punct	_
+13	Google	Google	PROPN	NNP	SG;PROPN	20	nsubj	20:nsubj	_
+14	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	Wikimedia	Wikimedia	PROPN	NNP	SG;PROPN	17	compound	17:compound	_
+17	Foundation	Foundation	PROPN	NNP	SG;PROPN	13	conj	13:conj:and|20:nsubj	_
+18	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	20	aux	20:aux	_
+19	collaboratively	collaboratively	ADV	RB	ADV	20	advmod	20:advmod	_
+20	evaluating	evaluate	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+21	creative	creative	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	ways	way	NOUN	NNS	PL;N	20	obj	20:obj	_
+23	to	to	PART	TO	PART	24	mark	24:mark	_
+24	support	support	VERB	VB	NFIN;V	22	acl	22:acl:to	_
+25	Wikipedia.org	Wikipedia.org	PROPN	ADD	PROPN	24	obj	24:obj	_
+26	and	and	CCONJ	CC	CONJ	28	cc	28:cc	_
+27	its	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	28	nmod:poss	28:nmod:poss	_
+28	community	community	NOUN	NN	SG;N	25	conj	24:obj|25:conj:and	SpaceAfter=No
+29	.	.	PUNCT	.	_	20	punct	20:punct	SpaceAfter=No
+30	"	"	PUNCT	''	_	20	punct	20:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0011
+# text = Sure Google, although this would put it on coarse for global domination of the internet by 2014.
+1	Sure	sure	INTJ	UH	INTJ	7	discourse	7:discourse	_
+2	Google	Google	PROPN	NNP	SG;PROPN	7	vocative	7:vocative	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	although	although	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	this	this	PRON	DT	SG;PRO	7	nsubj	7:nsubj	_
+6	would	would	AUX	MD	V;FIN	7	aux	7:aux	_
+7	put	put	VERB	VB	NFIN;V	0	root	0:root	_
+8	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	7	obj	7:obj	_
+9	on	on	ADP	IN	ADP	10	case	10:case	_
+10	coarse	coarse	NOUN	NN	SG;N	7	obl	7:obl:on	_
+11	for	for	ADP	IN	ADP	13	case	13:case	_
+12	global	global	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	domination	domination	NOUN	NN	SG;N	10	nmod	10:nmod:for	_
+14	of	of	ADP	IN	ADP	16	case	16:case	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	internet	internet	NOUN	NN	SG;N	13	nmod	13:nmod:of	_
+17	by	by	ADP	IN	ADP	18	case	18:case	_
+18	2014	2014	NUM	CD	NUM	13	nmod	13:nmod:by	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0012
+# text = It will be interesting to see whether or not Google will finally slay the Microsoft Goliath, who has known no major defeat and seeks to vanquish all competition.
+1	It	it	PRON	PRP	PRO;3;NEUT;NOM;SG	4	expl	4:expl	_
+2	will	will	AUX	MD	V;FIN	4	aux	4:aux	_
+3	be	be	AUX	VB	NFIN;V	4	cop	4:cop	_
+4	interesting	interesting	ADJ	JJ	ADJ	0	root	0:root	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	see	see	VERB	VB	NFIN;V	4	csubj	4:csubj	_
+7	whether	whether	SCONJ	IN	CONJ	13	mark	13:mark	_
+8	or	or	CCONJ	CC	CONJ	7	fixed	7:fixed	_
+9	not	not	PART	RB	PART	7	fixed	7:fixed	_
+10	Google	Google	PROPN	NNP	SG;PROPN	13	nsubj	13:nsubj	_
+11	will	will	AUX	MD	V;FIN	13	aux	13:aux	_
+12	finally	finally	ADV	RB	ADV	13	advmod	13:advmod	_
+13	slay	slay	VERB	VB	NFIN;V	6	ccomp	6:ccomp	_
+14	the	the	DET	DT	DEF;DET	16	det	16:det	_
+15	Microsoft	Microsoft	PROPN	NNP	SG;PROPN	16	compound	16:compound	_
+16	Goliath	goliath	NOUN	NN	SG;N	13	obj	13:obj|20:nsubj|25:nsubj|27:nsubj:xsubj	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	who	who	PRON	WP	PRO	20	nsubj	16:ref	_
+19	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	20	aux	20:aux	_
+20	known	know	VERB	VBN	PST;V;V.PTCP	16	acl:relcl	16:acl:relcl	Cxn=rc-wh-nsubj
+21	no	no	DET	DT	DET	23	det	23:det	_
+22	major	major	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	defeat	defeat	NOUN	NN	SG;N	20	obj	20:obj	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	seeks	seek	VERB	VBZ	V;3;FIN;PRS;SG;IND	20	conj	16:acl:relcl|20:conj:and	_
+26	to	to	PART	TO	PART	27	mark	27:mark	_
+27	vanquish	vanquish	VERB	VB	NFIN;V	25	xcomp	25:xcomp	_
+28	all	all	DET	DT	DET	29	det	29:det	_
+29	competition	competition	NOUN	NN	SG;N	27	obj	27:obj	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0013
+# text = Selah!
+1	Selah	Selah	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0014
+# newpar id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-p0004
+# text = --
+1	--	--	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_1fd8f731ae7ffaa0_ENG_20050214_192900-0015
+# text = Posted by Hidden Nook to Hidden Nook at 2/14/2005 07:03:00 PM
+1	Posted	post	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	_
+3	Hidden	Hidden	ADJ	NNP	ADJ	4	amod	4:amod	_
+4	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl:agent	1:obl:agent	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	Hidden	Hidden	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl	1:obl:to	_
+8	at	at	ADP	IN	ADP	11	case	11:case	_
+9	2/14/2005	2/14/2005	NUM	CD	NUM	11	nummod	11:nummod	_
+10	07:03:00	07:03:00	NUM	CD	NUM	11	nummod	11:nummod	_
+11	PM	p.m.	NOUN	NN	SG;N	1	obl	1:obl:at	_
+

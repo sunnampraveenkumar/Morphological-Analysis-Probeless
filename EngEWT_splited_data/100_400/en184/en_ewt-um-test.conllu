@@ -1,0 +1,83 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0006
+# text = U.S. President George W. Bush shakes hands with Chinese President Hu Jintao in a bilateral meeting in Santiago.
+1	U.S.	U.S.	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	President	President	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+3	George	George	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+4	W.	W.	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+5	Bush	Bush	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+6	shakes	shake	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+7	hands	hand	NOUN	NNS	PL;N	6	obj	6:obj	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	Chinese	Chinese	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	President	President	PROPN	NNP	SG;PROPN	6	obl	6:obl:with	_
+11	Hu	Hu	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+12	Jintao	Jintao	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+13	in	in	ADP	IN	ADP	16	case	16:case	_
+14	a	a	DET	DT	INDF;DET	16	det	16:det	_
+15	bilateral	bilateral	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	meeting	meeting	NOUN	NN	SG;N	6	obl	6:obl:in	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	Santiago	Santiago	PROPN	NNP	SG;PROPN	16	nmod	16:nmod:in	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0007
+# text = Bush is in Santiago for the annual Asia-Pacific Economic Cooperation (APEC) leaders meeting.
+1	Bush	Bush	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	in	in	ADP	IN	ADP	4	case	4:case	_
+4	Santiago	Santiago	PROPN	NNP	SG;PROPN	0	root	0:root	_
+5	for	for	ADP	IN	ADP	17	case	17:case	_
+6	the	the	DET	DT	DEF;DET	17	det	17:det	_
+7	annual	annual	ADJ	JJ	ADJ	17	amod	17:amod	_
+8	Asia	Asia	PROPN	NNP	SG;PROPN	10	compound	10:compound	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
+10	Pacific	Pacific	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+11	Economic	Economic	ADJ	NNP	ADJ	12	amod	12:amod	_
+12	Cooperation	Cooperation	PROPN	NNP	SG;PROPN	17	compound	17:compound	_
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+14	APEC	APEC	PROPN	NNP	SG;PROPN	12	appos	12:appos	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
+16	leaders	leader	NOUN	NNS	PL;N	17	compound	17:compound	_
+17	meeting	meeting	NOUN	NN	SG;N	4	obl	4:obl:for	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0008
+# text = Hopefully President Bush can accomplish these goals which will not only help strengthen our Chinese allies, but will also help fight the war on terror.
+1	Hopefully	hopefully	ADV	RB	ADV	5	advmod	5:advmod	_
+2	President	President	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+3	Bush	Bush	PROPN	NNP	SG;PROPN	2	flat	2:flat	_
+4	can	can	AUX	MD	V;FIN	5	aux	5:aux	_
+5	accomplish	accomplish	VERB	VB	NFIN;V	0	root	0:root	_
+6	these	this	DET	DT	PL;DET	7	det	7:det	_
+7	goals	goal	NOUN	NNS	PL;N	5	obj	5:obj|12:nsubj|21:nsubj	_
+8	which	which	PRON	WDT	PRO	12	nsubj	7:ref	_
+9	will	will	AUX	MD	V;FIN	12	aux	12:aux	_
+10	not	not	PART	RB	PART	12	advmod	12:advmod	_
+11	only	only	ADV	RB	ADV	12	advmod	12:advmod	_
+12	help	help	VERB	VB	NFIN;V	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+13	strengthen	strengthen	VERB	VB	NFIN;V	12	xcomp	12:xcomp	_
+14	our	our	PRON	PRP$	GEN;PL;PRO;1	16	nmod:poss	16:nmod:poss	_
+15	Chinese	Chinese	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	allies	ally	NOUN	NNS	PL;N	13	obj	13:obj	SpaceAfter=No
+17	,	,	PUNCT	,	_	21	punct	21:punct	_
+18	but	but	CCONJ	CC	CONJ	21	cc	21:cc	_
+19	will	will	AUX	MD	V;FIN	21	aux	21:aux	_
+20	also	also	ADV	RB	ADV	21	advmod	21:advmod	_
+21	help	help	VERB	VB	NFIN;V	12	conj	7:acl:relcl|12:conj:but	_
+22	fight	fight	VERB	VB	NFIN;V	21	xcomp	21:xcomp	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	war	war	NOUN	NN	SG;N	22	obj	22:obj	_
+25	on	on	ADP	IN	ADP	26	case	26:case	_
+26	terror	terror	NOUN	NN	SG;N	24	nmod	24:nmod:on	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0009
+# text = Selah!
+1	Selah	Selah	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0010
+# newpar id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-p0003
+# text = --
+1	--	--	PUNCT	NFP	_	0	root	0:root	_
+

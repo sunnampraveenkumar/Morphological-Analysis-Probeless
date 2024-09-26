@@ -1,0 +1,231 @@
+# sent_id = email-enronsent20_02-0008
+# text = Take care.
+1	Take	take	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	care	care	NOUN	NN	SG;N	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_02-0009
+# newpar id = email-enronsent20_02-p0003
+# text = Rob Bryngelson
+1	Rob	Rob	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Bryngelson	Bryngelson	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent20_02-0010
+# newpar id = email-enronsent20_02-p0004
+# text = PS -- There is a happy hour tonight at Scudeiros on Dallas Street (just west of the Met Garage) beginning around 5:00.
+1	PS	ps	NOUN	NN	SG;N	4	discourse	4:discourse	_
+2	--	--	PUNCT	:	_	1	punct	1:punct	_
+3	There	there	PRON	EX	PRO	4	expl	4:expl	_
+4	is	be	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	happy	happy	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	hour	hour	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+8	tonight	tonight	NOUN	NN	SG;N	4	obl:tmod	4:obl:tmod	_
+9	at	at	ADP	IN	ADP	10	case	10:case	_
+10	Scudeiros	Scudeiros	PROPN	NNP	SG;PROPN	4	obl	4:obl:at	_
+11	on	on	ADP	IN	ADP	13	case	13:case	_
+12	Dallas	Dallas	PROPN	NNP	SG;PROPN	13	compound	13:compound	_
+13	Street	Street	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:on	_
+14	(	(	PUNCT	-LRB-	_	16	punct	16:punct	SpaceAfter=No
+15	just	just	ADV	RB	ADV	16	advmod	16:advmod	_
+16	west	west	ADV	RB	ADV	10	advmod	10:advmod	_
+17	of	of	ADP	IN	ADP	20	case	20:case	_
+18	the	the	DET	DT	DET;DEF	20	det	20:det	_
+19	Met	Met	PROPN	NNP	SG;PROPN	20	compound	20:compound	_
+20	Garage	garage	NOUN	NN	SG;N	16	obl	16:obl:of	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	16	punct	16:punct	_
+22	beginning	begin	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl	_
+23	around	around	ADP	IN	ADP	24	case	24:case	_
+24	5:00	5:00	NUM	CD	NUM	22	obl	22:obl:around	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent20_02-0011
+# text = If you can make it, please come!
+1	If	if	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	FIN;V	4	aux	4:aux	_
+4	make	make	VERB	VB	NFIN;V	8	advcl	8:advcl:if	_
+5	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	4	obj	4:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	4:punct	_
+7	please	please	INTJ	UH	INTJ	8	discourse	8:discourse	_
+8	come	come	VERB	VB	FIN;V;IMP	0	root	0:root	SpaceAfter=No
+9	!	!	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent20_02-0012
+# newpar id = email-enronsent20_02-p0005
+# text = Traci Warner@ENRON COMMUNICATIONS on 08/16/2000 03:14:14 PM
+1	Traci	TraciWarner@ENRONCOMMUNICATIONS	PROPN	GW	PROPN	0	root	0:root	_
+2	Warner@ENRON	_	X	GW	_	1	goeswith	1:goeswith	_
+3	COMMUNICATIONS	_	X	ADD	_	1	goeswith	1:goeswith	_
+4	on	on	ADP	IN	ADP	5	case	5:case	_
+5	08/16/2000	08/16/2000	NUM	CD	NUM	1	obl	1:obl:on	_
+6	03:14:14	03:14:14	NUM	CD	NUM	7	nummod	7:nummod	_
+7	PM	p.m.	NOUN	NN	SG;N	5	nmod:tmod	5:nmod:tmod	_
+
+# sent_id = email-enronsent20_02-0013
+# text = Steve, Rod and Elyse -
+1	Steve	Steve	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	Rod	Rod	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	Elyse	Elyse	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+6	-	-	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_02-0014
+# text = Just wanted to confirm our meeting on Tuesday Aug 29th from 1:30 -2:30 to discuss Uof H's endowment proposal.
+1	Just	just	ADV	RB	ADV	2	advmod	2:advmod	_
+2	wanted	want	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	confirm	confirm	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	our	our	PRON	PRP$	PRO;GEN;PL;1	6	nmod:poss	6:nmod:poss	_
+6	meeting	meeting	NOUN	NN	SG;N	4	obj	4:obj	_
+7	on	on	ADP	IN	ADP	8	case	8:case	_
+8	Tuesday	Tuesday	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:on	_
+9	Aug	August	PROPN	NNP	SG;PROPN	8	appos	8:appos	_
+10	29th	29th	NOUN	NN	SG;N	9	nummod	9:nummod	_
+11	from	from	ADP	IN	ADP	12	case	12:case	_
+12	1:30	1:30	NUM	CD	NUM	6	nmod	6:nmod:from	_
+13	-	-	SYM	SYM	_	14	case	14:case	SpaceAfter=No
+14	2:30	2:30	NUM	CD	NUM	12	nmod	12:nmod	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	discuss	discuss	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+17	U	U	PROPN	NNP	SG;PROPN	22	nmod:poss	22:nmod:poss	CorrectSpaceAfter=Yes|SpaceAfter=No
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19-20	H's	_	_	_	_	_	_	_	_
+19	H	H	PROPN	NNP	SG;PROPN	17	nmod	17:nmod:of	_
+20	's	's	PART	POS	PART	17	case	17:case	_
+21	endowment	endowment	NOUN	NN	SG;N	22	compound	22:compound	_
+22	proposal	proposal	NOUN	NN	SG;N	16	obj	16:obj	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_02-0015
+# text = We will meeting Rod's office EB4054
+1	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	meeting	meet	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4-5	Rod's	_	_	_	_	_	_	_	_
+4	Rod	Rod	PROPN	NNP	SG;PROPN	6	nmod:poss	6:nmod:poss	_
+5	's	's	PART	POS	PART	4	case	4:case	_
+6	office	office	NOUN	NN	SG;N	3	obj	3:obj	_
+7	EB	EB	PROPN	NNP	SG;PROPN	6	list	6:list	SpaceAfter=No
+8	4054	4054	NUM	CD	NUM	7	nummod	7:nummod	_
+
+# sent_id = email-enronsent20_02-0016
+# newpar id = email-enronsent20_02-p0006
+# text = I look forward to seeing you all there.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	look	look	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	forward	forward	ADV	RB	ADV	2	advmod	2:advmod	_
+4	to	to	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	seeing	see	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:to	_
+6	you	you	PRON	PRP	2;PRO;ACC	5	obj	5:obj	_
+7	all	all	DET	DT	DET	6	det	6:det	_
+8	there	there	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_02-0017
+# newpar id = email-enronsent20_02-p0007
+# text = Sincerely,
+1	Sincerely	sincerely	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_02-0018
+# text = Traci
+1	Traci	Traci	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent20_02-0019
+# text = Traci Warner Enron Broadband Services, Inc. Phone (713) 853-3242 Cell (713) 705-7201
+1	Traci	Traci	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Warner	Warner	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	Enron	Enron	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+4	Broadband	Broadband	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+5	Services	Service	PROPN	NNPS	PROPN;PL	7	compound	7:compound	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	Inc.	Inc.	PROPN	NNP	SG;PROPN	2	list	2:list	_
+8	Phone	phone	NOUN	NN	SG;N	2	list	2:list	_
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+10	713	713	NUM	CD	NUM	8	appos	8:appos	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+12	853-3242	853-3242	NUM	CD	NUM	10	flat	10:flat	_
+13	Cell	cell	NOUN	NN	SG;N	2	list	2:list	_
+14	(	(	PUNCT	-LRB-	_	15	punct	15:punct	SpaceAfter=No
+15	713	713	NUM	CD	NUM	13	appos	13:appos	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
+17	705-7201	705-7201	NUM	CD	NUM	15	flat	15:flat	_
+
+# newdoc id = email-enronsent26_02
+# sent_id = email-enronsent26_02-0001
+# newpar id = email-enronsent26_02-p0001
+# text = Kay Mann
+1	Kay	Kay	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Mann	Mann	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent26_02-0002
+# text = 04/26/2001 07:17 AM
+1	04/26/2001	04/26/2001	NUM	CD	NUM	0	root	0:root	_
+2	07:17	07:17	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent26_02-0003
+# text = Will you be providing an execution version with questions removed/blanks filled in?
+1	Will	will	AUX	MD	FIN;V	4	aux	4:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+3	be	be	AUX	VB	V;NFIN	4	aux	4:aux	_
+4	providing	provide	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	an	a	DET	DT	DET;INDF	7	det	7:det	_
+6	execution	execution	NOUN	NN	SG;N	7	compound	7:compound	_
+7	version	version	NOUN	NN	SG;N	4	obj	4:obj	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	questions	question	NOUN	NNS	PL;N	7	nmod	7:nmod:with	_
+10	removed	remove	VERB	VBN	PASS;V;V.PTCP;PST	9	acl	9:acl	SpaceAfter=No
+11	/	/	SYM	SYM	_	12	cc	12:cc	SpaceAfter=No
+12	blanks	blank	NOUN	NNS	PL;N	9	conj	7:nmod:with|9:conj	_
+13	filled	fill	VERB	VBN	PASS;V;V.PTCP;PST	12	acl	12:acl	_
+14	in	in	ADP	RP	ADP	13	compound:prt	13:compound:prt	SpaceAfter=No
+15	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent26_02-0004
+# text = Please send it directly to kent.shoemaker@ae.ge.com, copy to me.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	send	send	VERB	VB	FIN;V;IMP	0	root	0:root	_
+3	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	2	obj	2:obj	_
+4	directly	directly	ADV	RB	ADV	2	advmod	2:advmod	_
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	kent.shoemaker@ae.ge.com	kent.shoemaker@ae.ge.com	PROPN	ADD	PROPN	2	obl	2:obl:to	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	copy	copy	VERB	VB	FIN;V;IMP	2	parataxis	2:parataxis	_
+9	to	to	ADP	IN	ADP	10	case	10:case	_
+10	me	I	PRON	PRP	PRO;ACC;1;SG	8	obl	8:obl:to	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent26_02-0005
+# newpar id = email-enronsent26_02-p0002
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent26_02-0006
+# newpar id = email-enronsent26_02-p0003
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent26_02-0007
+# newpar id = email-enronsent26_02-p0004
+# text = Kay
+1	Kay	Kay	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent26_02-0008
+# newpar id = email-enronsent26_02-p0005
+# text = "paulhastings.com" made the following annotations on 04/25/01 12:42:55
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	paulhastings.com	paulhastings.com	PROPN	ADD	PROPN	4	nsubj	4:nsubj	SpaceAfter=No
+3	"	"	PUNCT	''	_	2	punct	2:punct	_
+4	made	make	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+5	the	the	DET	DT	DET;DEF	7	det	7:det	_
+6	following	follow	VERB	VBG	V;V.MSDR	7	amod	7:amod	_
+7	annotations	annotation	NOUN	NNS	PL;N	4	obj	4:obj	_
+8	on	on	ADP	IN	ADP	9	case	9:case	_
+9	04/25/01	04/25/01	NUM	CD	NUM	4	obl	4:obl:on	_
+10	12:42:55	12:42:55	NUM	CD	NUM	9	nmod:tmod	9:nmod:tmod	_
+

@@ -1,0 +1,71 @@
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0015
+# text = http://www.newsfeeds.com - The #1 Newsgroup Service in the World!
+1	http://www.newsfeeds.com	http://www.newsfeeds.com	PROPN	ADD	PROPN	0	root	0:root	_
+2	-	-	PUNCT	,	_	7	punct	7:punct	_
+3	The	the	DET	DT	DEF;DET	7	det	7:det	_
+4	#	#	SYM	NN	SG	7	compound	7:compound	SpaceAfter=No
+5	1	1	NUM	CD	NUM	4	nummod	4:nummod	_
+6	Newsgroup	newsgroup	NOUN	NN	SG;N	7	compound	7:compound	_
+7	Service	service	NOUN	NN	SG;N	1	parataxis	1:parataxis	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	World	world	NOUN	NN	SG;N	7	nmod	7:nmod:in	SpaceAfter=No
+11	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0016
+# text = -----== Over 100,000 Newsgroups - 19 Different Servers! =-----
+1	-----==	-----==	PUNCT	NFP	_	4	punct	4:punct	_
+2	Over	over	ADV	RB	ADV	3	advmod	3:advmod	_
+3	100,000	100000	NUM	CD	NUM	4	nummod	4:nummod	_
+4	Newsgroups	newsgroup	NOUN	NNS	PL;N	0	root	0:root	_
+5	-	-	PUNCT	,	_	8	punct	8:punct	_
+6	19	19	NUM	CD	NUM	8	nummod	8:nummod	_
+7	Different	different	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	Servers	server	NOUN	NNS	PL;N	4	parataxis	4:parataxis	SpaceAfter=No
+9	!	!	PUNCT	.	_	4	punct	4:punct	_
+10	=-----	=-----	PUNCT	NFP	_	4	punct	4:punct	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-p0001
+# text = Handcrafted Furry Animals Wholesale, Call for a Catalog NOW!
+1	Handcrafted	handcraft	VERB	VBN	PASS;PST;V;V.PTCP	3	amod	3:amod	_
+2	Furry	furry	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	Animals	animal	NOUN	NNS	PL;N	0	root	0:root	_
+4	Wholesale	wholesale	ADJ	JJ	ADJ	3	amod	3:amod	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	Call	call	VERB	VB	FIN;V;IMP	3	parataxis	3:parataxis	_
+7	for	for	ADP	IN	ADP	9	case	9:case	_
+8	a	a	DET	DT	INDF;DET	9	det	9:det	_
+9	Catalog	catalog	NOUN	NN	SG;N	6	obl	6:obl:for	_
+10	NOW	now	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0002
+# text = 732-657-3416
+1	732-657-3416	732-657-3416	NUM	CD	NUM	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0003
+# newpar id = newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-p0002
+# text = has life like animal wholesale figurines made from rabbit and goat fur, feathers and sheeps wool.
+1	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	life	life	NOUN	NN	SG;N	3	obl:npmod	3:obl:npmod	_
+3	like	like	ADJ	JJ	ADJ	6	amod	6:amod	_
+4	animal	animal	NOUN	NN	SG;N	6	compound	6:compound	_
+5	wholesale	wholesale	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	figurines	figurine	NOUN	NNS	PL;N	1	obj	1:obj	_
+7	made	make	VERB	VBN	PASS;PST;V;V.PTCP	6	acl	6:acl	_
+8	from	from	ADP	IN	ADP	12	case	12:case	_
+9	rabbit	rabbit	NOUN	NN	SG;N	12	compound	12:compound	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	goat	goat	NOUN	NN	SG;N	9	conj	9:conj:and|12:compound	_
+12	fur	fur	NOUN	NN	SG;N	7	obl	7:obl:from	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	feathers	feather	NOUN	NNS	PL;N	12	conj	7:obl:from|12:conj:and	_
+15	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+16-17	sheeps	_	_	_	_	_	_	_	_
+16	sheep	sheep	NOUN	NN	SG;N	18	nmod:poss	18:nmod:poss	_
+17	s	's	PART	POS	PART	16	case	16:case	CorrectForm='s
+18	wool	wool	NOUN	NN	SG;N	12	conj	7:obl:from|12:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+

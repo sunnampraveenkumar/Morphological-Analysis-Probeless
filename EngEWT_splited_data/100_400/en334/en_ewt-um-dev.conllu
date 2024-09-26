@@ -1,0 +1,60 @@
+# sent_id = reviews-064146-0002
+# newpar id = reviews-064146-p0002
+# text = What a hidden gem!
+1	What	what	DET	WDT	DET	4	det:predet	4:det:predet	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	hidden	hidden	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	gem	gem	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-064146-0003
+# text = The food is superb and they were delivered nice and hot!
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	food	food	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+4	superb	superb	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	they	they	PRON	PRP	PRO;3;PL;NOM	8	nsubj:pass	8:nsubj:pass|9:nsubj|11:nsubj	_
+7	were	be	AUX	VBD	FIN;3;PL;V;IND;PST	8	aux:pass	8:aux:pass	_
+8	delivered	deliver	VERB	VBN	PASS;V;V.PTCP;PST	4	conj	4:conj:and	_
+9	nice	nice	ADJ	JJ	ADJ	6	advcl	6:advcl	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	hot	hot	ADJ	JJ	ADJ	9	conj	6:advcl|9:conj:and	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-064146-0004
+# text = I highly recommend this place!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	highly	highly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	recommend	recommend	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+4	this	this	DET	DT	DET;SG	5	det	5:det	_
+5	place	place	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-118770
+# sent_id = reviews-118770-0001
+# newpar id = reviews-118770-p0001
+# text = This place is clean and well run with great people.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	place	place	NOUN	NN	SG;N	4	nsubj	4:nsubj|7:nsubj:pass	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop|7:aux:pass	_
+4	clean	clean	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+6	well	well	ADV	RB	ADV	7	advmod	7:advmod	_
+7	run	run	VERB	VBN	PASS;V;V.PTCP;PST	4	conj	4:conj:and	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	great	great	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	people	people	NOUN	NNS	PL;N	7	obl	7:obl:with	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-118770-0002
+# text = The food is fresh and taste great.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	food	food	NOUN	NN	SG;N	4	nsubj	4:nsubj|6:nsubj|7:nsubj:xsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+4	fresh	fresh	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	taste	taste	VERB	VBP	FIN;PRS;3;PL;V;IND	4	conj	4:conj:and	CorrectForm=tastes|CorrectNumber=Sing
+7	great	great	ADJ	JJ	ADJ	6	xcomp	6:xcomp	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+

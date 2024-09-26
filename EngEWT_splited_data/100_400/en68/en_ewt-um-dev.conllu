@@ -1,0 +1,67 @@
+# newdoc id = email-enronsent28_02
+# sent_id = email-enronsent28_02-0001
+# newpar id = email-enronsent28_02-p0001
+# text = Sean Boyle
+1	Sean	Sean	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Boyle	Boyle	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_02-0002
+# text = 08/17/2000 11:21 AM
+1	08/17/2000	08/17/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:21	11:21	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_02-0003
+# text = I spoke to Bruce Garcey at NiMo regarding their RFP.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	spoke	speak	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	ADP	IN	ADP	4	case	4:case	_
+4	Bruce	Bruce	PROPN	NNP	SG;PROPN	2	obl	2:obl:to	_
+5	Garcey	Garcey	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	at	at	ADP	IN	ADP	7	case	7:case	_
+7	NiMo	NiMo	PROPN	NNP	SG;PROPN	4	nmod	4:nmod:at	_
+8	regarding	regard	VERB	VBG	PRS;V;V.PTCP	10	case	10:case	_
+9	their	their	PRON	PRP$	PRO;GEN;3;PL	10	nmod:poss	10:nmod:poss	_
+10	RFP	rfp	NOUN	NN	SG;N	2	obl	2:obl:regarding	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0004
+# text = Bruce indicated NiMo short listed five companies who all bid higher than ENA.
+1	Bruce	Bruce	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	indicated	indicate	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+3	NiMo	NiMo	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+4	short	short	ADJ	JJ	ADJ	5	compound	5:compound	_
+5	listed	list	VERB	VBD	FIN;3;V;IND;SG;PST	2	ccomp	2:ccomp	_
+6	five	five	NUM	CD	NUM	7	nummod	7:nummod	_
+7	companies	company	NOUN	NNS	PL;N	5	obj	5:obj|10:nsubj	_
+8	who	who	PRON	WP	PRO	10	nsubj	7:ref	_
+9	all	all	DET	DT	DET	10	advmod	10:advmod	_
+10	bid	bid	VERB	VBD	FIN;3;PL;V;IND;PST	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+11	higher	high	ADV	RBR	CMPR;ADV	10	advmod	10:advmod	_
+12	than	than	ADP	IN	ADP	13	case	13:case	_
+13	ENA	ENA	PROPN	NNP	SG;PROPN	11	obl	11:obl:than	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_02-0005
+# text = However, he also mentioned we were a close sixth, that is close to the fifth highest bid.
+1	However	however	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	he	he	PRON	PRP	PRO;MASC;3;NOM;SG	5	nsubj	5:nsubj	_
+4	also	also	ADV	RB	ADV	5	advmod	5:advmod	_
+5	mentioned	mention	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+6	we	we	PRON	PRP	PRO;PL;1;NOM	10	nsubj	10:nsubj	_
+7	were	be	AUX	VBD	FIN;PL;1;V;IND;PST	10	cop	10:cop	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	close	close	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	sixth	sixth	ADJ	JJ	ADJ	5	ccomp	5:ccomp	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	that	that	PRON	DT	PRO;SG	14	advmod	14:advmod	_
+13	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	12	fixed	12:fixed	_
+14	close	close	ADJ	JJ	ADJ	10	parataxis	10:parataxis	_
+15	to	to	ADP	IN	ADP	19	case	19:case	_
+16	the	the	DET	DT	DET;DEF	19	det	19:det	_
+17	fifth	fifth	ADV	RB	ADV	18	advmod	18:advmod	_
+18	highest	high	ADJ	JJS	ADJ;RL	19	amod	19:amod	_
+19	bid	bid	NOUN	NN	SG;N	14	obl	14:obl:to	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	5:punct	_
+

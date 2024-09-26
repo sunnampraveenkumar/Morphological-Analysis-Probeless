@@ -1,0 +1,106 @@
+# sent_id = email-enronsent28_03-0018
+# text = Let me know if acceptable and I will go ahead and execute.
+1	Let	let	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	PRO;ACC;1;SG	1	obj	1:obj|3:nsubj:xsubj	_
+3	know	know	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+4	if	if	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	acceptable	acceptable	ADJ	JJ	ADJ	3	ccomp	3:ccomp	_
+6	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+7	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj|12:nsubj	_
+8	will	will	AUX	MD	FIN;V	9	aux	9:aux	_
+9	go	go	VERB	VB	NFIN;V	1	conj	1:conj:and	_
+10	ahead	ahead	ADV	RB	ADV	9	advmod	9:advmod	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	execute	execute	VERB	VB	NFIN;V	9	conj	9:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_03-0019
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_03-0020
+# newpar id = email-enronsent28_03-p0004
+# text = "Townsend, George" <gtownsend@manorisd.net>
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	Townsend	Townsend	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	George	George	PROPN	NNP	SG;PROPN	2	flat	2:flat	SpaceAfter=No
+5	"	"	PUNCT	''	_	2	punct	2:punct	_
+6	<	<	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+7	gtownsend@manorisd.net	gtownsend@manorisd.net	PROPN	ADD	PROPN	2	list	2:list	SpaceAfter=No
+8	>	>	PUNCT	-RRB-	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent28_03-0021
+# text = 03/27/2001 09:11 AM
+1	03/27/2001	03/27/2001	NUM	CD	NUM	0	root	0:root	_
+2	09:11	09:11	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_03-0022
+# text = Puto,
+1	Puto	Puto	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_03-0023
+# newpar id = email-enronsent28_03-p0005
+# text = What's going on dude?
+1-2	What's	_	_	_	_	_	_	_	_
+1	What	what	PRON	WP	PRO	3	nsubj	3:nsubj	_
+2	's	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	on	on	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	dude	dude	NOUN	NN	SG;N	3	vocative	3:vocative	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_03-0024
+# text = Antigua was awesome.
+1	Antigua	Antigua	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	cop	3:cop	_
+3	awesome	awesome	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_03-0025
+# text = I survived it without a problem.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	survived	survive	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	2	obj	2:obj	_
+4	without	without	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	problem	problem	NOUN	NN	SG;N	2	obl	2:obl:without	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_03-0026
+# text = Heather moving in has been a different story.
+1	Heather	Heather	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	moving	move	VERB	VBG	V;V.MSDR	8	csubj	8:csubj	_
+3	in	in	ADV	RB	ADV	2	advmod	2:advmod	_
+4	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	aux	8:aux	_
+5	been	be	AUX	VBN	V;V.PTCP;PST	8	cop	8:cop	_
+6	a	a	DET	DT	DET;INDF	8	det	8:det	_
+7	different	different	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	story	story	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent28_03-0027
+# text = I didn't realize how much "stuff" you could pack into a one bedroom apartment.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	didn't	_	_	_	_	_	_	_	_
+2	did	do	AUX	VBD	FIN;1;V;IND;SG;PST	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	realize	realize	VERB	VB	NFIN;V	0	root	0:root	_
+5	how	how	ADV	WRB	ADV	6	advmod	6:advmod	_
+6	much	much	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	"	"	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No
+8	stuff	stuff	NOUN	NN	SG;N	12	obj	12:obj	SpaceAfter=No
+9	"	"	PUNCT	''	_	8	punct	8:punct	_
+10	you	you	PRON	PRP	NOM;2;PRO	12	nsubj	12:nsubj	_
+11	could	could	AUX	MD	FIN;V	12	aux	12:aux	_
+12	pack	pack	VERB	VB	NFIN;V	4	ccomp	4:ccomp	_
+13	into	into	ADP	IN	ADP	17	case	17:case	_
+14	a	a	DET	DT	DET;INDF	17	det	17:det	_
+15	one	one	NUM	CD	NUM	16	nummod	16:nummod	_
+16	bedroom	bedroom	NOUN	NN	SG;N	17	compound	17:compound	_
+17	apartment	apartment	NOUN	NN	SG;N	12	obl	12:obl:into	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+

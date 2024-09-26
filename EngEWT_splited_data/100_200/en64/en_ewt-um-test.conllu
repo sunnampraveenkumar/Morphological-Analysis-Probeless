@@ -1,0 +1,118 @@
+# sent_id = email-enronsent32_01-0042
+# newpar id = email-enronsent32_01-p0009
+# text = ?
+1	?	?	PUNCT	.	_	0	root	0:root	_
+
+# sent_id = email-enronsent32_01-0043
+# newpar id = email-enronsent32_01-p0010
+# text = Sheila Tweed
+1	Sheila	Sheila	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Tweed	Tweed	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent32_01-0044
+# text = 03/26/2001 08:58 PM
+1	03/26/2001	03/26/2001	NUM	CD	NUM	0	root	0:root	_
+2	08:58	08:58	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent32_01-0045
+# text = Mary Hain
+1	Mary	Mary	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Hain	Hain	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent32_01-0046
+# text = 03/23/2001 12:24 PM
+1	03/23/2001	03/23/2001	NUM	CD	NUM	0	root	0:root	_
+2	12:24	12:24	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent32_01-0047
+# text = I am going to be the Senior Regulatory Counsel at ISO New England starting on April 9, 2001.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|9:nsubj:xsubj	_
+2	am	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	to	to	PART	TO	PART	9	mark	9:mark	_
+5	be	be	AUX	VB	NFIN;V	9	cop	9:cop	_
+6	the	the	DET	DT	DEF;DET	9	det	9:det	_
+7	Senior	senior	ADJ	JJ	ADJ	9	amod	9:amod	_
+8	Regulatory	regulatory	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Counsel	counsel	NOUN	NN	SG;N	3	xcomp	3:xcomp	_
+10	at	at	ADP	IN	ADP	13	case	13:case	_
+11	ISO	ISO	PROPN	NNP	SG;PROPN	13	compound	13:compound	_
+12	New	New	ADJ	NNP	ADJ	13	amod	13:amod	_
+13	England	England	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:at	_
+14	starting	start	VERB	VBG	PRS;V;V.PTCP	9	advcl	9:advcl	_
+15	on	on	ADP	IN	ADP	16	case	16:case	_
+16	April	April	PROPN	NNP	SG;PROPN	14	obl	14:obl:on	_
+17	9	9	NUM	CD	NUM	16	nummod	16:nummod	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	19:punct	_
+19	2001	2001	NUM	CD	NUM	16	nummod	16:nummod	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent32_01-0048
+# text = My last day in the Portland area will be March 31, 2001.
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	3	nmod:poss	3:nmod:poss	_
+2	last	last	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	day	day	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+4	in	in	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	Portland	Portland	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	area	area	NOUN	NN	SG;N	3	nmod	3:nmod:in	_
+8	will	will	AUX	MD	V;FIN	10	aux	10:aux	_
+9	be	be	AUX	VB	NFIN;V	10	cop	10:cop	_
+10	March	March	PROPN	NNP	SG;PROPN	0	root	0:root	_
+11	31	31	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	2001	2001	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = email-enronsent32_01-0049
+# text = I enjoyed working with you and wish you the best of everything.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|3:nsubj:xsubj|7:nsubj	_
+2	enjoyed	enjoy	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	working	work	VERB	VBG	V.MSDR;V	2	xcomp	2:xcomp	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	you	you	PRON	PRP	2;ACC;PRO	3	obl	3:obl:with	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	wish	wish	VERB	VBP	1;V;FIN;PRS;SG;IND	2	conj	2:conj:and	_
+8	you	you	PRON	PRP	2;ACC;PRO	7	iobj	7:iobj	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	best	good	ADJ	JJS	RL;ADJ	7	obj	7:obj	_
+11	of	of	ADP	IN	ADP	12	case	12:case	_
+12	everything	everything	PRON	NN	SG;PRO	10	obl	10:obl:of	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent32_01-0050
+# text = My new address will be: Mary Hain Senior Regulatory Counsel ISO New England Inc.One Sullivan Road Holyoke, MA 01040-2841 (413) 535-4000 mhain@ISO-NE.com
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	3	nmod:poss	3:nmod:poss	_
+2	new	new	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	address	address	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+4	will	will	AUX	MD	V;FIN	8	aux	8:aux	_
+5	be	be	AUX	VB	NFIN;V	8	cop	8:cop	SpaceAfter=No
+6	:	:	PUNCT	:	_	5	punct	5:punct	_
+7	Mary	Mary	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+8	Hain	Hain	PROPN	NNP	SG;PROPN	0	root	0:root	_
+9	Senior	senior	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	Regulatory	regulatory	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	Counsel	counsel	NOUN	NN	SG;N	8	list	8:list	_
+12	ISO	ISO	PROPN	NNP	SG;PROPN	15	compound	15:compound	_
+13	New	New	ADJ	NNP	ADJ	14	amod	14:amod	_
+14	England	England	PROPN	NNP	SG;PROPN	15	compound	15:compound	_
+15	Inc.	Inc.	PROPN	NNP	SG;PROPN	8	list	8:list	CorrectSpaceAfter=Yes|SpaceAfter=No
+16	One	One	NUM	NNP	NUM	17	nummod	17:nummod	_
+17	Sullivan	Sullivan	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	Road	Road	PROPN	NNP	SG;PROPN	8	list	8:list	_
+19	Holyoke	Holyoke	PROPN	NNP	SG;PROPN	18	appos	18:appos	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	MA	MA	PROPN	NNP	SG;PROPN	19	appos	19:appos	_
+22	01040-2841	01040-2841	NUM	CD	NUM	18	appos	18:appos	_
+23	(	(	PUNCT	-LRB-	_	24	punct	24:punct	SpaceAfter=No
+24	413	413	NUM	CD	NUM	8	list	8:list	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	punct	24:punct	_
+26	535-4000	535-4000	NUM	CD	NUM	24	flat	24:flat	_
+27	mhain@ISO-NE.com	mhain@ISO-NE.com	PROPN	ADD	PROPN	8	list	8:list	_
+
+# sent_id = email-enronsent32_01-0051
+# text = Mark
+1	Mark	Mark	PROPN	NNP	SG;PROPN	0	root	0:root	_
+

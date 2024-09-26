@@ -1,0 +1,54 @@
+# sent_id = answers-20111108081519AAdHz5c_ans-0006
+# newpar id = answers-20111108081519AAdHz5c_ans-p0003
+# text = B&w.
+1	B	B	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+2	&	&	CCONJ	CC	CONJ	3	cc	3:cc	SpaceAfter=No
+3	w	W	ADJ	JJ	ADJ	1	conj	1:conj	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108081519AAdHz5c_ans-0007
+# text = Bose is not good
+1	Bose	Bose	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	good	good	ADJ	JJ	ADJ	0	root	0:root	_
+
+# newdoc id = answers-20111108071652AA8GAZw_ans
+# sent_id = answers-20111108071652AA8GAZw_ans-0001
+# newpar id = answers-20111108071652AA8GAZw_ans-p0001
+# text = USPS Delivery in Auckland,NZ?
+1	USPS	USPS	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Delivery	delivery	NOUN	NN	SG;N	0	root	0:root	_
+3	in	in	ADP	IN	ADP	4	case	4:case	_
+4	Auckland	Auckland	PROPN	NNP	SG;PROPN	2	nmod	2:nmod:in	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	SpaceAfter=No
+6	NZ	NZ	PROPN	NNP	SG;PROPN	4	appos	4:appos	SpaceAfter=No
+7	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108071652AA8GAZw_ans-0002
+# newpar id = answers-20111108071652AA8GAZw_ans-p0002
+# text = I have ordered Bose Headfones worth 300USD.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	ordered	order	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	Bose	Bose	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Headfones	headfone	NOUN	NNS	PL;N	3	obj	3:obj	_
+6	worth	worth	ADJ	JJ	ADJ	5	amod	5:amod	_
+7	300	300	NUM	CD	NUM	8	nummod	8:nummod	SpaceAfter=No
+8	USD	usd	NOUN	NNS	PL;N	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108071652AA8GAZw_ans-0003
+# text = They have been shipped using USPS Priority Mail International Parcels.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	4	nsubj:pass	4:nsubj:pass	_
+2	have	have	AUX	VBP	PL;V;3;FIN;PRS;IND	4	aux	4:aux	_
+3	been	be	AUX	VBN	V;V.PTCP;PST	4	aux:pass	4:aux:pass	_
+4	shipped	ship	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+5	using	use	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl	_
+6	USPS	USPS	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	Priority	priority	NOUN	NN	SG;N	8	compound	8:compound	_
+8	Mail	mail	NOUN	NN	SG;N	10	compound	10:compound	_
+9	International	international	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	Parcels	parcel	NOUN	NNS	PL;N	5	obj	5:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+

@@ -1,0 +1,69 @@
+# sent_id = reviews-060396-0002
+# text = The restaurant is the most beautiful thai restaurant in Geelong... just love it
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	restaurant	restaurant	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	cop	8:cop	_
+4	the	the	DET	DT	DEF;DET	8	det	8:det	_
+5	most	most	ADV	RBS	RL;ADV	6	advmod	6:advmod	_
+6	beautiful	beautiful	ADJ	JJ	ADJ	8	compound	8:compound	_
+7	thai	Thai	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	restaurant	restaurant	NOUN	NN	SG;N	0	root	0:root	_
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	Geelong	Geelong	PROPN	NNP	SG;PROPN	8	nmod	8:nmod:in	SpaceAfter=No
+11	...	...	PUNCT	,	_	13	punct	13:punct	_
+12	just	just	ADV	RB	ADV	13	advmod	13:advmod	_
+13	love	love	VERB	VBP	1;V;FIN;PRS;SG;IND	8	parataxis	8:parataxis	_
+14	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	13	obj	13:obj	_
+
+# newdoc id = reviews-034320
+# sent_id = reviews-034320-0001
+# newpar id = reviews-034320-p0001
+# text = Fresh and unic!
+1	Fresh	fresh	ADJ	JJ	ADJ	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	unic	unique	ADJ	JJ	ADJ	1	conj	1:conj:and	CorrectForm=unique|SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-034320-0002
+# newpar id = reviews-034320-p0002
+# text = Very professional, talented, unic and fresh work.
+1	Very	very	ADV	RB	ADV	2	advmod	2:advmod	_
+2	professional	professional	ADJ	JJ	ADJ	9	amod	9:amod	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	talented	talented	ADJ	JJ	ADJ	2	conj	2:conj:and|9:amod	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	unic	unique	ADJ	JJ	ADJ	2	conj	2:conj:and|9:amod	CorrectForm=unique
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	fresh	fresh	ADJ	JJ	ADJ	2	conj	2:conj:and|9:amod	_
+9	work	work	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = reviews-034320-0003
+# text = Paula has an amazing gift for creativity, vision and the ability to combine art to / with commercial purpose.
+1	Paula	Paula	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	an	a	DET	DT	INDF;DET	5	det	5:det	_
+4	amazing	amazing	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	gift	gift	NOUN	NN	SG;N	2	obj	2:obj	_
+6	for	for	ADP	IN	ADP	7	case	7:case	_
+7	creativity	creativity	NOUN	NN	SG;N	5	nmod	5:nmod:for	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	vision	vision	NOUN	NN	SG;N	5	conj	2:obj|5:conj:and	_
+10	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	ability	ability	NOUN	NN	SG;N	5	conj	2:obj|5:conj:and	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	combine	combine	VERB	VB	NFIN;V	12	acl	12:acl:to	_
+15	art	art	NOUN	NN	SG;N	14	obj	14:obj	_
+16	to	to	ADP	IN	ADP	20	case	20:case	_
+17	/	/	SYM	HYPH	_	18	cc	18:cc	_
+18	with	with	ADP	IN	ADP	16	conj	16:conj|20:case	_
+19	commercial	commercial	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	purpose	purpose	NOUN	NN	SG;N	14	obl	14:obl:with	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-034320-0004
+# text = Bravo!
+1	Bravo	bravo	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+

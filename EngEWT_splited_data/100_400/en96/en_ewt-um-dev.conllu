@@ -1,0 +1,52 @@
+# sent_id = email-enronsent08_01-0024
+# newpar id = email-enronsent08_01-p0005
+# text = Mike
+1	Mike	Mike	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent08_01-0025
+# newpar id = email-enronsent08_01-p0006
+# text = Michael J. McDermott mjmcdermott@hotmail.com
+1	Michael	Michael	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	J.	J.	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	McDermott	McDermott	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+4	mjmcdermott@hotmail.com	mjmcdermott@hotmail.com	PROPN	ADD	PROPN	1	list	1:list	_
+
+# sent_id = email-enronsent08_01-0026
+# text = _________________________________________________________________
+1	_________________________________________________________________	_________________________________________________________________	SYM	NFP	_	0	root	0:root	_
+
+# sent_id = email-enronsent08_01-0027
+# text = Get your FREE download of MSN Explorer at http://explorer.msn.com/intl.asp
+1	Get	get	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	your	your	PRON	PRP$	PRO;GEN;2	4	nmod:poss	4:nmod:poss	_
+3	FREE	free	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	download	download	NOUN	NN	SG;N	1	obj	1:obj	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	MSN	MSN	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+7	Explorer	Explorer	PROPN	NNP	SG;PROPN	4	nmod	4:nmod:of	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	http://explorer.msn.com/intl.asp	http://explorer.msn.com/intl.asp	PROPN	ADD	PROPN	1	obl	1:obl:at	_
+
+# sent_id = email-enronsent08_01-0028
+# newpar id = email-enronsent08_01-p0007
+# text = For me it isn't about fulfillment or finding my life's purpose in my work.
+1	For	for	ADP	IN	ADP	2	case	2:case	_
+2	me	I	PRON	PRP	PRO;ACC;1;SG	7	obl	7:obl:for	_
+3	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	7	nsubj	7:nsubj|9:nsubj	_
+4-5	isn't	_	_	_	_	_	_	_	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	7	cop	7:cop	_
+5	n't	not	PART	RB	PART	7	advmod	7:advmod	_
+6	about	about	ADP	IN	ADP	7	case	7:case	_
+7	fulfillment	fulfillment	NOUN	NN	SG;N	0	root	0:root	_
+8	or	or	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	finding	find	VERB	VBG	PRS;V;V.PTCP	7	conj	7:conj:or	_
+10	my	my	PRON	PRP$	PRO;GEN;1;SG	11	nmod:poss	11:nmod:poss	_
+11-12	life's	_	_	_	_	_	_	_	_
+11	life	life	NOUN	NN	SG;N	13	nmod:poss	13:nmod:poss	_
+12	's	's	PART	POS	PART	11	case	11:case	_
+13	purpose	purpose	NOUN	NN	SG;N	9	obj	9:obj	_
+14	in	in	ADP	IN	ADP	16	case	16:case	_
+15	my	my	PRON	PRP$	PRO;GEN;1;SG	16	nmod:poss	16:nmod:poss	_
+16	work	work	NOUN	NN	SG;N	9	obl	9:obl:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	7:punct	_
+

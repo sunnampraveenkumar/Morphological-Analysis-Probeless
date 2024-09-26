@@ -1,0 +1,76 @@
+# sent_id = reviews-058274-0002
+# text = Service - the workers are usually pleasant.
+1	Service	service	NOUN	NN	SG;N	0	root	0:root	_
+2	-	-	PUNCT	:	_	7	punct	7:punct	_
+3	the	the	DET	DT	DET;DEF	4	det	4:det	_
+4	workers	worker	NOUN	NNS	PL;N	7	nsubj	7:nsubj	_
+5	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	7	cop	7:cop	_
+6	usually	usually	ADV	RB	ADV	7	advmod	7:advmod	_
+7	pleasant	pleasant	ADJ	JJ	ADJ	1	appos	1:appos	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-058274-0003
+# text = Atmosphere is always fun, the assortment of customers adds entertainment to the meal
+1	Atmosphere	atmosphere	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	always	always	ADV	RB	ADV	4	advmod	4:advmod	_
+4	fun	fun	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	10:punct	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	assortment	assortment	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	customers	customer	NOUN	NNS	PL;N	7	nmod	7:nmod:of	_
+10	adds	add	VERB	VBZ	FIN;PRS;3;V;IND;SG	4	parataxis	4:parataxis	_
+11	entertainment	entertainment	NOUN	NN	SG;N	10	obj	10:obj	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DET;DEF	14	det	14:det	_
+14	meal	meal	NOUN	NN	SG;N	10	obl	10:obl:to	_
+
+# newdoc id = reviews-158740
+# sent_id = reviews-158740-0001
+# newpar id = reviews-158740-p0001
+# text = awesome place!!!
+1	awesome	awesome	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	place	place	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!!!	!!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-158740-0002
+# text = it was worth of the ride more than an hour...
+1	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	3	cop	3:cop	_
+3	worth	worth	ADJ	JJ	ADJ	0	root	0:root	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	ride	ride	NOUN	NN	SG;N	3	obl	3:obl:of	_
+7	more	more	ADJ	JJR	ADJ;CMPR	6	advmod	6:advmod	_
+8	than	than	ADP	IN	ADP	7	fixed	7:fixed	_
+9	an	a	DET	DT	DET;INDF	10	det	10:det	_
+10	hour	hour	NOUN	NN	SG;N	6	parataxis	6:parataxis	SpaceAfter=No
+11	...	...	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+
+# sent_id = reviews-158740-0003
+# text = I had so many strawberries right on the field...strongly recomend...dont forget to try their great ice cream
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	had	have	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	so	so	ADV	RB	ADV	4	advmod	4:advmod	_
+4	many	many	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	strawberries	strawberry	NOUN	NNS	PL;N	2	obj	2:obj	_
+6	right	right	ADV	RB	ADV	9	advmod	9:advmod	_
+7	on	on	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	field	field	NOUN	NN	SG;N	2	obl	2:obl:on	SpaceAfter=No
+10	...	...	PUNCT	,	_	12	punct	12:punct	SpaceAfter=No
+11	strongly	strongly	ADV	RB	ADV	12	advmod	12:advmod	_
+12	recomend	recommend	VERB	VBP	FIN;PRS;1;V;IND;SG	2	parataxis	2:parataxis	CorrectForm=recommend|SpaceAfter=No
+13	...	...	PUNCT	,	_	16	punct	16:punct	SpaceAfter=No
+14-15	dont	_	_	_	_	_	_	_	_
+14	do	do	AUX	VB	FIN;V;IMP	16	aux	16:aux	_
+15	nt	not	PART	RB	PART	16	advmod	16:advmod	CorrectForm=n't
+16	forget	forget	VERB	VB	FIN;V;IMP	2	parataxis	2:parataxis	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	try	try	VERB	VB	NFIN;V	16	xcomp	16:xcomp	_
+19	their	their	PRON	PRP$	PRO;GEN;3;PL	22	nmod:poss	22:nmod:poss	_
+20	great	great	ADJ	JJ	ADJ	22	amod	22:amod	_
+21	ice	ice	NOUN	NN	SG;N	22	compound	22:compound	_
+22	cream	cream	NOUN	NN	SG;N	18	obj	18:obj	_
+

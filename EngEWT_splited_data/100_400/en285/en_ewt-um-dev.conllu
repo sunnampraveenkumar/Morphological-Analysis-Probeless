@@ -1,0 +1,98 @@
+# sent_id = answers-20111108102204AAIivYN_ans-0002
+# newpar id = answers-20111108102204AAIivYN_ans-p0002
+# text = i want a small indoor pet that my mother will let me have please help
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	want	want	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	6	det	6:det	_
+4	small	small	ADJ	JJ	ADJ	6	amod	6:amod	_
+5	indoor	indoor	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	pet	pet	NOUN	NN	SG;N	2	obj	2:obj|13:obj	_
+7	that	that	PRON	WDT	PRO	13	obj	6:ref	_
+8	my	my	PRON	PRP$	PRO;GEN;1;SG	9	nmod:poss	9:nmod:poss	_
+9	mother	mother	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+10	will	will	AUX	MD	FIN;V	11	aux	11:aux	_
+11	let	let	VERB	VB	NFIN;V	6	acl:relcl	6:acl:relcl	Cxn=rc-that-obj_xcomp
+12	me	I	PRON	PRP	PRO;ACC;1;SG	11	obj	11:obj|13:nsubj:xsubj	_
+13	have	have	VERB	VB	NFIN;V	11	xcomp	11:xcomp	_
+14	please	please	INTJ	UH	INTJ	15	discourse	15:discourse	_
+15	help	help	VERB	VB	FIN;V;IMP	2	parataxis	2:parataxis	_
+
+# sent_id = answers-20111108102204AAIivYN_ans-0003
+# text = i want something cheap east to take care of and something to hopefully fit in my room
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	want	want	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	something	something	PRON	NN	PRO;SG	2	obj	2:obj	_
+4	cheap	cheap	ADJ	JJ	ADJ	3	amod	3:amod	_
+5	east	easy	ADJ	JJ	ADJ	4	conj	3:amod|4:conj	CorrectForm=easy
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	take	take	VERB	VB	NFIN;V	5	ccomp	5:ccomp	_
+8	care	care	NOUN	NN	SG;N	7	obj	7:obj	_
+9	of	of	ADP	IN	ADP	7	obl	7:obl	Promoted=Yes
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	something	something	PRON	NN	PRO;SG	3	conj	2:obj|3:conj:and	_
+12	to	to	PART	TO	PART	14	mark	14:mark	_
+13	hopefully	hopefully	ADV	RB	ADV	14	advmod	14:advmod	_
+14	fit	fit	VERB	VB	NFIN;V	11	acl	11:acl:to	_
+15	in	in	ADP	IN	ADP	17	case	17:case	_
+16	my	my	PRON	PRP$	PRO;GEN;1;SG	17	nmod:poss	17:nmod:poss	_
+17	room	room	NOUN	NN	SG;N	14	obl	14:obl:in	_
+
+# sent_id = answers-20111108102204AAIivYN_ans-0004
+# newpar id = answers-20111108102204AAIivYN_ans-p0003
+# text = no pet is really easy to take care of.
+1	no	no	DET	DT	DET	2	det	2:det	_
+2	pet	pet	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+4	really	really	ADV	RB	ADV	5	advmod	5:advmod	_
+5	easy	easy	ADJ	JJ	ADJ	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	take	take	VERB	VB	NFIN;V	5	ccomp	5:ccomp	_
+8	care	care	NOUN	NN	SG;N	7	obj	7:obj	_
+9	of	of	ADP	IN	ADP	7	obl	7:obl	Promoted=Yes|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108102204AAIivYN_ans-0005
+# text = they all need love and attn , food, proper surroundings etc.
+1	they	they	PRON	PRP	PRO;3;PL;NOM	3	nsubj	3:nsubj	_
+2	all	all	DET	DT	DET	1	det	1:det	_
+3	need	need	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+4	love	love	NOUN	NN	SG;N	3	obj	3:obj	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	attn	attention	NOUN	NN	SG;N	4	conj	3:obj|4:conj:and	_
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	food	food	NOUN	NN	SG;N	4	conj	3:obj|4:conj:and	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	proper	proper	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	surroundings	surroundings	NOUN	NNS	N	4	conj	3:obj|4:conj:and	_
+12	etc	etc.	NOUN	FW	PL;N	4	conj	3:obj|4:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102204AAIivYN_ans-0006
+# text = the easiest thing would be a fish - but u need to clean the tank weekly, feed it the right amt, etc etc x
+1	the	the	DET	DT	DET;DEF	3	det	3:det	_
+2	easiest	easy	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+3	thing	thing	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+4	would	would	AUX	MD	FIN;V	7	aux	7:aux	_
+5	be	be	AUX	VB	V;NFIN	7	cop	7:cop	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	fish	fish	NOUN	NN	SG;N	0	root	0:root	_
+8	-	-	PUNCT	,	_	11	punct	11:punct	_
+9	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	u	you	PRON	PRP	PRO;2;NOM	11	nsubj	11:nsubj|13:nsubj:xsubj|18:nsubj:xsubj	CorrectForm=you
+11	need	need	VERB	VBP	FIN;PRS;2;V;IND;SG	7	conj	7:conj:but	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	clean	clean	VERB	VB	NFIN;V	11	xcomp	11:xcomp	_
+14	the	the	DET	DT	DET;DEF	15	det	15:det	_
+15	tank	tank	NOUN	NN	SG;N	13	obj	13:obj	_
+16	weekly	weekly	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	feed	feed	VERB	VB	NFIN;V	13	conj	11:xcomp|13:conj	_
+19	it	it	PRON	PRP	PRO;NEUT;ACC;3;SG	18	iobj	18:iobj	_
+20	the	the	DET	DT	DET;DEF	22	det	22:det	_
+21	right	right	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	amt	amount	NOUN	NN	SG;N	18	obj	18:obj	SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	24:punct	_
+24	etc	etc.	NOUN	FW	PL;N	18	conj	18:conj	_
+25	etc	etc.	NOUN	FW	PL;N	18	conj	18:conj	_
+26	x	x	X	GW	_	7	dep	7:dep	_
+

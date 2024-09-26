@@ -1,0 +1,233 @@
+# sent_id = train-s595
+# text = 德克薩斯州政府請求向聯邦最高法院上訴，1989年，聯邦最高法院作出了判決。
+# translit = dékèsàsīzhōuzhèngfǔqǐngqiúxiàngliánbāngzuìgāofǎyuànshàngsu,1989nián,liánbāngzuìgāofǎyuànzuòchūlepànjué.
+1	德克薩斯	德克薩斯	PROPN	NNP	PROPN	2	compound	_	SpaceAfter=No|Translit=dékèsàsī|LTranslit=dékèsàsī
+2	州	州	PART	SFN	PART	3	nmod	_	SpaceAfter=No|Translit=zhōu|LTranslit=zhōu
+3	政府	政府	NOUN	NN	N	4	nsubj	_	SpaceAfter=No|Translit=zhèngfǔ|LTranslit=zhèngfǔ
+4	請求	請求	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=qǐngqiú|LTranslit=qǐngqiú
+5	向	向	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
+6	聯邦	聯邦	NOUN	NN	N	8	nmod	_	SpaceAfter=No|Translit=liánbāng|LTranslit=liánbāng
+7	最高	最高	ADJ	JJ	ADJ	8	amod	_	SpaceAfter=No|Translit=zuìgāo|LTranslit=zuìgāo
+8	法院	法院	NOUN	NN	N	9	obl	_	SpaceAfter=No|Translit=fǎyuàn|LTranslit=fǎyuàn
+9	上訴	上訴	VERB	VV	V	4	xcomp	_	SpaceAfter=No|Translit=shàngsu|LTranslit=shàngsu
+10	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	1989	1989	NUM	CD	NUM	12	nummod	_	SpaceAfter=No|Translit=1989|LTranslit=1989
+12	年	年	NOUN	NNB	N	17	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+13	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	聯邦	聯邦	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=liánbāng|LTranslit=liánbāng
+15	最高	最高	ADJ	JJ	ADJ	16	amod	_	SpaceAfter=No|Translit=zuìgāo|LTranslit=zuìgāo
+16	法院	法院	NOUN	NN	N	17	nsubj	_	SpaceAfter=No|Translit=fǎyuàn|LTranslit=fǎyuàn
+17	作出	作出	VERB	VV	V	4	parataxis	_	SpaceAfter=No|Translit=zuòchū|LTranslit=zuòchū
+18	了	了	AUX	AS	PFV;V	17	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+19	判決	判決	NOUN	NN	N	17	obj	_	SpaceAfter=No|Translit=pànjué|LTranslit=pànjué
+20	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s596
+# text = 焚燒國旗的同時，這群人一邊大喊著口號：「美國，紅、白、藍，我們對你吐口痰，你的立場是搶奪，你的下場是地獄。」
+# translit = 焚shāoguóqídetóngshí,zhèqúnrényībiāndàhǎnzhekǒuhào:‘měiguó,hóng,bái,lán,wǒmenduìnǐtǔkǒután,nǐdelìchǎngshìqiǎngduó,nǐdexiàchǎngshìdeyù.’
+1	焚燒	焚燒	VERB	VV	V	4	acl:relcl	_	SpaceAfter=No|Translit=焚shāo|LTranslit=焚shāo
+2	國旗	國旗	NOUN	NN	N	1	obj	_	SpaceAfter=No|Translit=guóqí|LTranslit=guóqí
+3	的	的	SCONJ	DEC	CONJ	1	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+4	同時	同時	NOUN	NN	N	10	nmod:tmod	_	SpaceAfter=No|Translit=tóngshí|LTranslit=tóngshí
+5	，	，	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	這	這	DET	DT	DET	7	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
+7	群	群	NOUN	NNB	N	8	clf	_	SpaceAfter=No|Translit=qún|LTranslit=qún
+8	人	人	NOUN	NN	N	10	nsubj	_	SpaceAfter=No|Translit=rén|LTranslit=rén
+9	一邊	一邊	ADV	RB	ADV	10	advmod	_	SpaceAfter=No|Translit=yībiān|LTranslit=yībiān
+10	大喊	大喊	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=dàhǎn|LTranslit=dàhǎn
+11	著	著	AUX	AS	PROG;V	10	aux	_	SpaceAfter=No|Translit=zhe|LTranslit=zhe
+12	口號	口號	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=kǒuhào|LTranslit=kǒuhào
+13	：	：	PUNCT	:	_	40	punct	_	SpaceAfter=No|Translit=:|LTranslit=:
+14	「	「	PUNCT	``	_	40	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+15	美國	美國	PROPN	NNP	PROPN	40	advcl	_	SpaceAfter=No|Translit=měiguó|LTranslit=měiguó
+16	，	，	PUNCT	,	_	15	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	紅	紅	NOUN	NN	N	40	advcl	_	SpaceAfter=No|Translit=hóng|LTranslit=hóng
+18	、	、	PUNCT	EC	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	白	白	NOUN	NN	N	17	conj	_	SpaceAfter=No|Translit=bái|LTranslit=bái
+20	、	、	PUNCT	EC	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	藍	藍	NOUN	NN	N	17	conj	_	SpaceAfter=No|Translit=lán|LTranslit=lán
+22	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+23	我們	我	PRON	PRP	PL;1;PRO	26	nsubj	_	SpaceAfter=No|Translit=wǒmen|LTranslit=wǒ
+24	對	對	ADP	IN	ADP	25	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+25	你	你	PRON	PRP	2;PRO	26	obl	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
+26	吐	吐	VERB	VV	V	40	advcl	_	SpaceAfter=No|Translit=tǔ|LTranslit=tǔ
+27	口	口	NOUN	NNB	N	28	nmod	_	SpaceAfter=No|Translit=kǒu|LTranslit=kǒu
+28	痰	痰	NOUN	NN	N	26	obj	_	SpaceAfter=No|Translit=tán|LTranslit=tán
+29	，	，	PUNCT	,	_	26	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+30	你	你	PRON	PRP	2;PRO	32	det	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
+31	的	的	PART	DEC	PART;GEN	30	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+32	立場	立場	NOUN	NN	N	34	nsubj	_	SpaceAfter=No|Translit=lìchǎng|LTranslit=lìchǎng
+33	是	是	AUX	VC	V	34	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+34	搶奪	搶奪	NOUN	NN	N	40	advcl	_	SpaceAfter=No|Translit=qiǎngduó|LTranslit=qiǎngduó
+35	，	，	PUNCT	,	_	34	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+36	你	你	PRON	PRP	2;PRO	38	det	_	SpaceAfter=No|Translit=nǐ|LTranslit=nǐ
+37	的	的	PART	DEC	PART;GEN	36	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+38	下場	下場	NOUN	NN	N	40	nsubj	_	SpaceAfter=No|Translit=xiàchǎng|LTranslit=xiàchǎng
+39	是	是	AUX	VC	V	40	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+40	地獄	地獄	NOUN	NN	N	12	appos	_	SpaceAfter=No|Translit=deyù|LTranslit=deyù
+41	。	。	PUNCT	.	_	40	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+42	」	」	PUNCT	''	_	40	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+
+# sent_id = train-s597
+# text = 以2007年的統計，德州大學系統的總預算超過百億美元，其中十八億為研究支出之經費。
+# translit = yǐ2007niándetǒngjì,dézhōudàxuéxìtǒngdezǒngyùsuànchāoguòbǎiyìměiyuán,qízhōngshíbāyìwèiyánjiūzhīchūzhījīngfèi.
+1	以	以	ADP	IN	ADP	5	case	_	SpaceAfter=No|Translit=yǐ|LTranslit=yǐ
+2	2007	2007	NUM	CD	NUM	3	nummod	_	SpaceAfter=No|Translit=2007|LTranslit=2007
+3	年	年	NOUN	NNB	N	5	nmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	統計	統計	NOUN	NN	N	13	obl	_	SpaceAfter=No|Translit=tǒngjì|LTranslit=tǒngjì
+6	，	，	PUNCT	,	_	5	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	德州	德州	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=dézhōu|LTranslit=dézhōu
+8	大學	大學	NOUN	NN	N	9	nmod	_	SpaceAfter=No|Translit=dàxué|LTranslit=dàxué
+9	系統	系統	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=xìtǒng|LTranslit=xìtǒng
+10	的	的	PART	DEC	PART;GEN	9	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+11	總	總	PART	PFA	PART	12	case	_	SpaceAfter=No|Translit=zǒng|LTranslit=zǒng
+12	預算	預算	NOUN	NN	N	13	nsubj	_	SpaceAfter=No|Translit=yùsuàn|LTranslit=yùsuàn
+13	超過	超過	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chāoguò|LTranslit=chāoguò
+14	百億	百億	NUM	CD	NUM	16	nummod	_	SpaceAfter=No|Translit=bǎiyì|LTranslit=bǎiyì
+15	美	美	PROPN	NNP	PROPN	16	nmod	_	SpaceAfter=No|Translit=měi|LTranslit=měi
+16	元	元	NOUN	NNB	N	13	obj	_	SpaceAfter=No|Translit=yuán|LTranslit=yuán
+17	，	，	PUNCT	,	_	24	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	其中	其中	NOUN	NN	N	19	nmod	_	SpaceAfter=No|Translit=qízhōng|LTranslit=qízhōng
+19	十八億	十八億	NUM	CD	NUM	24	nsubj	_	SpaceAfter=No|Translit=shíbāyì|LTranslit=shíbāyì
+20	為	為	AUX	VC	V	24	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+21	研究	研究	NOUN	NN	N	24	nmod	_	SpaceAfter=No|Translit=yánjiū|LTranslit=yánjiū
+22	支出	支出	VERB	VV	V	24	acl:relcl	_	SpaceAfter=No|Translit=zhīchū|LTranslit=zhīchū
+23	之	之	SCONJ	DEC	CONJ	22	mark:rel	_	SpaceAfter=No|Translit=zhī|LTranslit=zhī
+24	經費	經費	NOUN	NN	N	13	parataxis	_	SpaceAfter=No|Translit=jīngfèi|LTranslit=jīngfèi
+25	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s598
+# text = 美式足球是人氣最旺的運動。
+# translit = měishìzúqiúshìrénqìzuìwàngdeyùndòng.
+1	美	美	PROPN	NNP	PROPN	2	compound	_	SpaceAfter=No|Translit=měi|LTranslit=měi
+2	式	式	PART	SFN	PART	3	nmod	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+3	足球	足球	NOUN	NN	N	8	nsubj	_	SpaceAfter=No|Translit=zúqiú|LTranslit=zúqiú
+4	是	是	AUX	VC	V	8	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+5	人氣	人氣	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=rénqì|LTranslit=rénqì
+6	最旺	最旺	ADJ	JJ	ADJ	8	acl:relcl	_	SpaceAfter=No|Translit=zuìwàng|LTranslit=zuìwàng
+7	的	的	SCONJ	DEC	CONJ	6	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	運動	運動	NOUN	NN	N	0	root	_	SpaceAfter=No|Translit=yùndòng|LTranslit=yùndòng
+9	。	。	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s599
+# text = 本科修學專門學科，學制4年到6年，最初設法政、工、醫、農林四科，本科亦開設德文和中文課。
+# translit = běnkēxiūxuézhuānménxuékē,xuézhì4niándào6nián,zuìchūshèfǎzhèng,gōng,yī,nónglínsìkē,běnkēyìkāishèdéwénhézhōngwénkè.
+1	本科	本科	NOUN	NN	N	2	obl	_	SpaceAfter=No|Translit=běnkē|LTranslit=běnkē
+2	修學	修學	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=xiūxué|LTranslit=xiūxué
+3	專門	專門	ADJ	JJ	ADJ	4	amod	_	SpaceAfter=No|Translit=zhuānmén|LTranslit=zhuānmén
+4	學科	學科	NOUN	NN	N	2	obj	_	SpaceAfter=No|Translit=xuékē|LTranslit=xuékē
+5	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	學制	學制	NOUN	NN	N	8	nsubj	_	SpaceAfter=No|Translit=xuézhì|LTranslit=xuézhì
+7	4	4	NUM	CD	NUM	8	nummod	_	SpaceAfter=No|Translit=4|LTranslit=4
+8	年	年	NOUN	NNB	N	2	parataxis	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+9	到	到	CCONJ	CC	CONJ	11	cc	_	SpaceAfter=No|Translit=dào|LTranslit=dào
+10	6	6	NUM	CD	NUM	11	nummod	_	SpaceAfter=No|Translit=6|LTranslit=6
+11	年	年	NOUN	NNB	N	8	conj	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+12	，	，	PUNCT	,	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	最初	最初	NOUN	NN	N	14	nmod:tmod	_	SpaceAfter=No|Translit=zuìchū|LTranslit=zuìchū
+14	設	設	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=shè|LTranslit=shè
+15	法政	法政	NOUN	NN	N	14	obj	_	SpaceAfter=No|Translit=fǎzhèng|LTranslit=fǎzhèng
+16	、	、	PUNCT	EC	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	工	工	NOUN	NN	N	15	conj	_	SpaceAfter=No|Translit=gōng|LTranslit=gōng
+18	、	、	PUNCT	EC	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	醫	醫	NOUN	NN	N	15	conj	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+20	、	、	PUNCT	EC	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	農林	農林	NOUN	NN	N	15	conj	_	SpaceAfter=No|Translit=nónglín|LTranslit=nónglín
+22	四	四	NUM	CD	NUM	23	nummod	_	SpaceAfter=No|Translit=sì|LTranslit=sì
+23	科	科	NOUN	NN	N	15	appos	_	SpaceAfter=No|Translit=kē|LTranslit=kē
+24	，	，	PUNCT	,	_	27	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	本科	本科	NOUN	NN	N	27	nsubj	_	SpaceAfter=No|Translit=běnkē|LTranslit=běnkē
+26	亦	亦	SCONJ	RB	CONJ	27	mark	_	SpaceAfter=No|Translit=yì|LTranslit=yì
+27	開設	開設	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=kāishè|LTranslit=kāishè
+28	德	德	PROPN	NNP	PROPN	29	compound	_	SpaceAfter=No|Translit=dé|LTranslit=dé
+29	文	文	PART	SFN	PART	33	nmod	_	SpaceAfter=No|Translit=wén|LTranslit=wén
+30	和	和	CCONJ	CC	CONJ	32	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+31	中	中	PROPN	NNP	PROPN	32	compound	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+32	文	文	PART	SFN	PART	29	conj	_	SpaceAfter=No|Translit=wén|LTranslit=wén
+33	課	課	PART	SFN	PART	27	obj	_	SpaceAfter=No|Translit=kè|LTranslit=kè
+34	。	。	PUNCT	.	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s600
+# text = 有一輛290型機車曾被轉讓給軍隊使用，分配給駐紮在Mechernich的空軍後勤團。
+# translit = yǒuyīliàng290xíngjīchēcéngbèizhuǎnrànggěijūnduìshǐyòng,fēnpèigěizhù紮zàiMechernichdekōngjūnhòuqíntuán.
+1	有	有	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+2	一	一	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+3	輛	輛	NOUN	NNB	N	2	clf	_	SpaceAfter=No|Translit=liàng|LTranslit=liàng
+4	290	290	NUM	CD	NUM	5	nummod	_	SpaceAfter=No|Translit=290|LTranslit=290
+5	型	型	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=xíng|LTranslit=xíng
+6	機車	機車	NOUN	NN	N	14	nsubj:pass	_	SpaceAfter=No|Translit=jīchē|LTranslit=jīchē
+7	曾	曾	ADV	RB	ADV	14	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+8	被	被	AUX	BB	PASS;V	14	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+9	轉讓	轉讓	VERB	VV	V;CAUS	14	advcl	_	SpaceAfter=No|Translit=zhuǎnràng|LTranslit=zhuǎnràng
+10	給	給	VERB	VV	V	9	mark	_	SpaceAfter=No|Translit=gěi|LTranslit=gěi
+11	軍隊	軍隊	NOUN	NN	N	12	nsubj	_	SpaceAfter=No|Translit=jūnduì|LTranslit=jūnduì
+12	使用	使用	VERB	VV	V	9	ccomp	_	SpaceAfter=No|Translit=shǐyòng|LTranslit=shǐyòng
+13	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	分配	分配	VERB	VV	V	1	ccomp	_	SpaceAfter=No|Translit=fēnpèi|LTranslit=fēnpèi
+15	給	給	VERB	VV	V	14	mark	_	SpaceAfter=No|Translit=gěi|LTranslit=gěi
+16	駐紮	駐紮	VERB	VV	V	22	acl:relcl	_	SpaceAfter=No|Translit=zhù紮|LTranslit=zhù紮
+17	在	在	ADP	IN	ADP	18	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+18	Mechernich	Mechernich	X	FW	_	16	obl	_	SpaceAfter=No|Translit=Mechernich|LTranslit=Mechernich
+19	的	的	SCONJ	DEC	CONJ	16	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+20	空軍	空軍	NOUN	NN	N	22	nmod	_	SpaceAfter=No|Translit=kōngjūn|LTranslit=kōngjūn
+21	後勤	後勤	NOUN	NN	N	22	compound	_	SpaceAfter=No|Translit=hòuqín|LTranslit=hòuqín
+22	團	團	PART	SFN	PART	14	obj	_	SpaceAfter=No|Translit=tuán|LTranslit=tuán
+23	。	。	PUNCT	.	_	14	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s601
+# text = 這輛車的編號為290999號。
+# translit = zhèliàngchēdebiānhàowèi290999hào.
+1	這	這	DET	DT	DET	2	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
+2	輛	輛	NOUN	NNB	N	3	clf	_	SpaceAfter=No|Translit=liàng|LTranslit=liàng
+3	車	車	NOUN	NN	N	5	nmod	_	SpaceAfter=No|Translit=chē|LTranslit=chē
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	編號	編號	NOUN	NN	N	8	nsubj	_	SpaceAfter=No|Translit=biānhào|LTranslit=biānhào
+6	為	為	AUX	VC	V	8	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+7	290999	290999	NUM	CD	NUM	8	nummod	_	SpaceAfter=No|Translit=290999|LTranslit=290999
+8	號	號	NOUN	NN	N	0	root	_	SpaceAfter=No|Translit=hào|LTranslit=hào
+9	。	。	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s602
+# text = 商業製作的麵疙瘩和自家手工製作的很不一樣，往往形狀統一，缺乏彈性，口感死板。
+# translit = shāngyèzhìzuòde麵gēdahézìjiāshǒugōngzhìzuòdehěnbùyīyàng,wǎngwǎngxíngzhuàngtǒngyī,quēfádànxìng,kǒugǎnsǐbǎn.
+1	商業	商業	NOUN	NN	N	2	obl	_	SpaceAfter=No|Translit=shāngyè|LTranslit=shāngyè
+2	製作	製作	VERB	VV	V	5	acl:relcl	_	SpaceAfter=No|Translit=zhìzuò|LTranslit=zhìzuò
+3	的	的	SCONJ	DEC	CONJ	2	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+4	麵	麵	NOUN	NN	N	5	nmod	_	SpaceAfter=No|Translit=麵|LTranslit=麵
+5	疙瘩	疙瘩	NOUN	NN	N	13	nsubj	_	SpaceAfter=No|Translit=gēda|LTranslit=gēda
+6	和	和	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+7	自家	自家	PRON	PRD	PRO	9	nsubj	_	SpaceAfter=No|Translit=zìjiā|LTranslit=zìjiā
+8	手工	手工	NOUN	NN	N	9	obl	_	SpaceAfter=No|Translit=shǒugōng|LTranslit=shǒugōng
+9	製作	製作	VERB	VV	V	13	advcl	_	SpaceAfter=No|Translit=zhìzuò|LTranslit=zhìzuò
+10	的	的	SCONJ	DEC	CONJ	9	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+11	很	很	ADV	RB	ADV	13	advmod	_	SpaceAfter=No|Translit=hěn|LTranslit=hěn
+12	不	不	ADV	RB	NEG;ADV	13	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+13	一樣	一樣	ADJ	JJ	ADJ	0	root	_	SpaceAfter=No|Translit=yīyàng|LTranslit=yīyàng
+14	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	往往	往往	ADV	RB	ADV	17	advmod	_	SpaceAfter=No|Translit=wǎngwǎng|LTranslit=wǎngwǎng
+16	形狀	形狀	NOUN	NN	N	17	nsubj	_	SpaceAfter=No|Translit=xíngzhuàng|LTranslit=xíngzhuàng
+17	統一	統一	ADJ	JJ	ADJ	13	parataxis	_	SpaceAfter=No|Translit=tǒngyī|LTranslit=tǒngyī
+18	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	缺乏	缺乏	VERB	VV	V	17	conj	_	SpaceAfter=No|Translit=quēfá|LTranslit=quēfá
+20	彈性	彈性	NOUN	NN	N	19	obj	_	SpaceAfter=No|Translit=dànxìng|LTranslit=dànxìng
+21	，	，	PUNCT	,	_	23	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+22	口感	口感	NOUN	NN	N	23	nsubj	_	SpaceAfter=No|Translit=kǒugǎn|LTranslit=kǒugǎn
+23	死板	死板	ADJ	JJ	ADJ	17	conj	_	SpaceAfter=No|Translit=sǐbǎn|LTranslit=sǐbǎn
+24	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s603
+# text = 德國牧羊犬的步態輕鬆靈活，有彈性且平滑。
+# translit = déguómùyángquǎndebùtàiqīng鬆línghuó,yǒudànxìngqiěpínghuá.
+1	德國牧羊犬	德國牧羊犬	NOUN	NN	N	3	nmod	_	SpaceAfter=No|Translit=déguómùyángquǎn|LTranslit=déguómùyángquǎn
+2	的	的	PART	DEC	PART;GEN	1	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+3	步態	步態	NOUN	NN	N	5	nsubj	_	SpaceAfter=No|Translit=bùtài|LTranslit=bùtài
+4	輕鬆	輕鬆	ADJ	JJ	ADJ	5	advcl	_	SpaceAfter=No|Translit=qīng鬆|LTranslit=qīng鬆
+5	靈活	靈活	ADJ	JJ	ADJ	0	root	_	SpaceAfter=No|Translit=línghuó|LTranslit=línghuó
+6	，	，	PUNCT	,	_	7	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	有	有	VERB	VV	V	5	conj	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+8	彈性	彈性	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=dànxìng|LTranslit=dànxìng
+9	且	且	CCONJ	CC	CONJ	10	cc	_	SpaceAfter=No|Translit=qiě|LTranslit=qiě
+10	平滑	平滑	ADJ	JJ	ADJ	5	conj	_	SpaceAfter=No|Translit=pínghuá|LTranslit=pínghuá
+11	。	。	PUNCT	.	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

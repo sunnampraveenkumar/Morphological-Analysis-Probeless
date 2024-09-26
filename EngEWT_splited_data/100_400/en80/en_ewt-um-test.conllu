@@ -1,0 +1,66 @@
+# sent_id = email-enronsent36_01-0006
+# text = Please advise when you can meet to discuss issues related to your area.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	advise	advise	VERB	VB	FIN;V;IMP	0	root	0:root	_
+3	when	when	ADV	WRB	ADV	6	advmod	6:advmod	_
+4	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+5	can	can	AUX	MD	V;FIN	6	aux	6:aux	_
+6	meet	meet	VERB	VB	NFIN;V	2	advcl	2:advcl:when	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	discuss	discuss	VERB	VB	NFIN;V	6	advcl	6:advcl:to	_
+9	issues	issue	NOUN	NNS	PL;N	8	obj	8:obj	_
+10	related	related	ADJ	JJ	ADJ	9	amod	9:amod	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	your	your	PRON	PRP$	GEN;PRO;2	13	nmod:poss	13:nmod:poss	_
+13	area	area	NOUN	NN	SG;N	10	obl	10:obl:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent36_01-0007
+# text = Thanks -
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+2	-	-	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent36_01-0008
+# text = Davis
+1	Davis	Davis	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent36_01-0009
+# text = Clint:
+1	Clint	Clint	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent36_01-0010
+# text = I spoke with Mike Collins [203-719-8385 (phone) and 203-719-7031 (fax)] who conrfirmed to me that the cap included the remaining 2.5+million remaining shares.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	spoke	speak	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	Mike	Mike	PROPN	NNP	SG;PROPN	2	obl	2:obl:with|18:nsubj	_
+5	Collins	Collins	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	[	[	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+7	203-719-8385	203-719-8385	NUM	CD	NUM	4	parataxis	4:parataxis	_
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+9	phone	phone	NOUN	NN	SG;N	7	appos	7:appos	SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	203-719-7031	203-719-7031	NUM	CD	NUM	7	conj	7:conj:and	_
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+14	fax	fax	NOUN	NN	SG;N	12	appos	12:appos	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
+16	]	]	PUNCT	-RRB-	_	7	punct	7:punct	_
+17	who	who	PRON	WP	PRO	18	nsubj	4:ref	_
+18	conrfirmed	conrfirm	VERB	VBD	PST;V;3;FIN;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+19	to	to	ADP	IN	ADP	20	case	20:case	_
+20	me	I	PRON	PRP	ACC;PRO;1;SG	18	obl	18:obl:to	_
+21	that	that	SCONJ	IN	CONJ	24	mark	24:mark	_
+22	the	the	DET	DT	DEF;DET	23	det	23:det	_
+23	cap	cap	NOUN	NN	SG;N	24	nsubj	24:nsubj	_
+24	included	include	VERB	VBD	PST;V;3;FIN;SG;IND	18	ccomp	18:ccomp	_
+25	the	the	DET	DT	DEF;DET	31	det	31:det	_
+26	remaining	remain	VERB	VBG	V.MSDR;V	31	amod	31:amod	_
+27	2.5	2.5	NUM	CD	NUM	29	compound	29:compound	SpaceAfter=No
+28	+	+	SYM	SYM	_	27	advmod	27:advmod	SpaceAfter=No
+29	million	million	NUM	CD	NUM	31	nummod	31:nummod	_
+30	remaining	remain	VERB	VBG	V.MSDR;V	31	amod	31:amod	_
+31	shares	share	NOUN	NNS	PL;N	24	obj	24:obj	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	2:punct	_
+

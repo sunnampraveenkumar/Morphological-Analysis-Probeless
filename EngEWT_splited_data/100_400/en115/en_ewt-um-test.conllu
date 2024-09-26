@@ -1,0 +1,66 @@
+# sent_id = email-enronsent04_01-0012
+# text = Opinions, conclusions and other information in this message that do not relate to the official business of my firm shall be understood as neither given nor endorsed by it.
+1	Opinions	opinion	NOUN	NNS	PL;N	23	nsubj:pass	13:nsubj|23:nsubj:pass	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	conclusions	conclusion	NOUN	NNS	PL;N	1	conj	1:conj:and|13:nsubj|23:nsubj:pass	_
+4	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+5	other	other	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	information	information	NOUN	NN	SG;N	1	conj	1:conj:and|13:nsubj|23:nsubj:pass	_
+7	in	in	ADP	IN	ADP	9	case	9:case	_
+8	this	this	DET	DT	SG;DET	9	det	9:det	_
+9	message	message	NOUN	NN	SG;N	1	nmod	1:nmod:in	_
+10	that	that	PRON	WDT	PRO	13	nsubj	1:ref	_
+11	do	do	AUX	VBP	PL;V;3;FIN;PRS;IND	13	aux	13:aux	_
+12	not	not	PART	RB	PART	13	advmod	13:advmod	_
+13	relate	relate	VERB	VB	NFIN;V	1	acl:relcl	1:acl:relcl	Cxn=rc-that-nsubj
+14	to	to	ADP	IN	ADP	17	case	17:case	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	official	official	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	business	business	NOUN	NN	SG;N	13	obl	13:obl:to	_
+18	of	of	ADP	IN	ADP	20	case	20:case	_
+19	my	my	PRON	PRP$	GEN;PRO;1;SG	20	nmod:poss	20:nmod:poss	_
+20	firm	firm	NOUN	NN	SG;N	17	nmod	17:nmod:of	_
+21	shall	shall	AUX	MD	V;FIN	23	aux	23:aux	_
+22	be	be	AUX	VB	NFIN;V	23	aux:pass	23:aux:pass	_
+23	understood	understand	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+24	as	as	SCONJ	IN	CONJ	26	mark	26:mark	_
+25	neither	neither	CCONJ	CC	CONJ	26	cc:preconj	26:cc:preconj	_
+26	given	give	VERB	VBN	PASS;PST;V;V.PTCP	23	advcl	23:advcl:as	_
+27	nor	nor	CCONJ	CC	CONJ	28	cc	28:cc	_
+28	endorsed	endorse	VERB	VBN	PASS;PST;V;V.PTCP	26	conj	23:advcl:as|26:conj:nor	_
+29	by	by	ADP	IN	ADP	30	case	30:case	_
+30	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	26	obl:agent	26:obl:agent	SpaceAfter=No
+31	.	.	PUNCT	.	_	23	punct	23:punct	_
+
+# sent_id = email-enronsent04_01-0013
+# text = Job ID: J12746KM
+1	Job	job	NOUN	NN	SG;N	2	compound	2:compound	_
+2	ID	id	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	J12746KM	J12746KM	NOUN	NN	SG;N	2	appos	2:appos	_
+
+# sent_id = email-enronsent04_01-0014
+# text = Job Title: Attorney
+1	Job	job	NOUN	NN	SG;N	2	compound	2:compound	_
+2	Title	title	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	Attorney	attorney	NOUN	NN	SG;N	2	appos	2:appos	_
+
+# sent_id = email-enronsent04_01-0015
+# text = Location: Houston, Texas USA
+1	Location	location	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	Houston	Houston	PROPN	NNP	SG;PROPN	1	appos	1:appos	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	Texas	Texas	PROPN	NNP	SG;PROPN	3	appos	3:appos	_
+6	USA	USA	PROPN	NNP	SG;PROPN	5	appos	5:appos	_
+
+# sent_id = email-enronsent04_01-0016
+# text = Compensation: $60000 - 70000
+1	Compensation	compensation	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	$	$	SYM	$	_	1	appos	1:appos	SpaceAfter=No
+4	60000	60000	NUM	CD	NUM	3	nummod	3:nummod	_
+5	-	-	SYM	SYM	_	6	case	6:case	_
+6	70000	70000	NUM	CD	NUM	3	nmod	3:nmod	_
+

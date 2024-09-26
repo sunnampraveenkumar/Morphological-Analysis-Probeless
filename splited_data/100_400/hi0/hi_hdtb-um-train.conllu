@@ -1,0 +1,619 @@
+# sent_id = train-s1
+# text = यह एशिया की सबसे बड़ी मस्जिदों में से एक है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	एशिया	एशिया	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=eśiyā
+3	की	का	ADP	PSP	ADP;ACC;FEM;PL	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	सबसे	सबसे	ADV	INTF	ADV	5	advmod	_	AltTag=avy-ADV|ChunkId=NP2|ChunkType=child|Translit=sabase
+5	बड़ी	बड़ा	ADJ	JJ	ACC;FEM;PL;ADJ	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=baṛī
+6	मस्जिदों	मस्जिद	NOUN	NN	N;3;ACC;FEM;PL	9	nmod	_	Vib=0_में_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=masjidoṁ
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+8	से	से	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+9	एक	एक	NUM	QC	NUM	0	root	_	ChunkId=NP3|ChunkType=head|Translit=eka
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s2
+# text = इसे नवाब शाहजेहन ने बनवाया था ।
+1	इसे	यह	PRON	PRP	{ACC/DAT};3;SG;PRO	5	obj	_	Vib=को|Tam=ko|ChunkId=NP|ChunkType=head|Translit=ise
+2	नवाब	नवाब	NOUN	NNC	NOM;N;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=navāba
+3	शाहजेहन	शाहजेहन	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=śāhajehana
+4	ने	ने	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+5	बनवाया	बनवा	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banavāyā|Vib=या_था
+6	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	5	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s3
+# text = इसका प्रवेश द्वार दो मंजिला है ।
+1	इसका	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	3	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=isakā
+2	प्रवेश	प्रवेश	NOUN	NNC	NOM;N;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=praveśa
+3	द्वार	द्वार	NOUN	NN	NOM;N;3;SG;MASC	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dvāra
+4	दो	दो	NUM	QC	NUM	5	nummod	_	ChunkId=JJP|ChunkType=child|Translit=do
+5	मंजिला	मंजिला	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=maṁjilā
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s4
+# text = जिसमें चार मेहराबें हैं और मुख्य प्रार्थना हॉल में जाने के लिए 9 प्रवेश द्वार हैं ।
+1	जिसमें	जो	PRON	PRP	{ACC/IN+ESS};3;SG;PRO	3	nmod	_	Vib=में|Tam=meM|ChunkId=NP|ChunkType=head|Translit=jisameṁ
+2	चार	चार	NUM	QC	NUM	3	nummod	_	ChunkId=NP2|ChunkType=child|Translit=cāra
+3	मेहराबें	मेहराब	NOUN	NN	NOM;N;3;FEM;PL	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=meharābeṁ
+4	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	3	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+5	और	और	CCONJ	CC	CONJ	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+6	मुख्य	मुख्य	ADJ	JJ	ACC;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=mukhya
+7	प्रार्थना	प्रार्थना	NOUN	NNC	NOM;N;3;SG;FEM	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=prārthanā
+8	हॉल	हॉल	NOUN	NN	N;3;SG;ACC;MASC	16	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=hôla
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+10	जाने	जा	VERB	VM	V;ACC;NFIN	16	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=jāne
+11	के	के	ADP	PSP	ADP	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+12	लिए	लिए	ADP	PSP	ADP	10	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+13	9	9	NUM	QC	NUM	15	nummod	_	ChunkId=NP4|ChunkType=child|Translit=9
+14	प्रवेश	प्रवेश	NOUN	NNC	NOM;N;3;SG;MASC	15	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=praveśa
+15	द्वार	द्वार	NOUN	NN	NOM;N;3;PL;MASC	16	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dvāra
+16	हैं	है	VERB	VM	FIN;ACT;PRS;V;3;IND;PL	3	conj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+17	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s5
+# text = पूरी इमारत बेहद खूबसूरत है ।
+1	पूरी	पूरा	ADJ	JJ	FEM;NOM;SG;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=pūrī
+2	इमारत	इमारत	NOUN	NN	NOM;N;3;SG;FEM	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=imārata
+3	बेहद	बेहद	ADV	INTF	ADV	4	advmod	_	AltTag=avy-ADV|ChunkId=JJP|ChunkType=child|Translit=behada
+4	खूबसूरत	खूबसूरत	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=khūbasūrata
+5	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	4	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+6	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s6
+# text = यहाँ लगने वाला तीन दिन का इज्तिमा पूरे देश के लोगों को आमंत्रित करता है ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	2	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	लगने	लग	VERB	VM	V;ACC;NFIN;SG	7	amod	_	Vib=ना_वाला|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=lagane
+3	वाला	वाला	ADJ	PSP	NOM;MASC;SG;ADJ	2	compound	_	ChunkId=VGNN|ChunkType=child|Translit=vālā
+4	तीन	तीन	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=tīna
+5	दिन	दिन	NOUN	NN	N;3;SG;ACC;MASC	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dina
+6	का	का	ADP	PSP	ADP;NOM;SG;MASC	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+7	इज्तिमा	इज्तिमा	NOUN	NN	NOM;N;3;SG;MASC	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ijtimā
+8	पूरे	पूरा	ADJ	JJ	ACC;MASC;SG;ADJ	9	amod	_	ChunkId=NP4|ChunkType=child|Translit=pūre
+9	देश	देश	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=deśa
+10	के	का	ADP	PSP	ADP;ACC;PL;MASC	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+11	लोगों	लोग	NOUN	NN	MASC;N;3;ACC;PL	14	obj	_	Vib=0_को|Tam=0|ChunkId=NP5|ChunkType=head|Translit=logoṁ
+12	को	को	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=ko
+13	आमंत्रित	आमंत्रित	ADJ	JJ	ADJ	14	compound	_	ChunkId=JJP|ChunkType=head|Translit=āmaṁtrita
+14	करता	कर	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=karatā|Vib=ता_है
+15	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	14	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+16	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s7
+# text = शौकत महल के सामने बड़ी झील के किनारे स्थित वास्तुकला का यह खूबसूरत नमूना कुदसिया बेगम के काल का है जिन्हें गोहर बेगम भी कहा जाता था ।
+1	शौकत	शौकत	PROPN	NNPC	PROPN;NOM;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=śaukata
+2	महल	महल	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	nmod	_	Vib=0_के_सामने|Tam=0|ChunkId=NP|ChunkType=head|Translit=mahala
+3	के	के	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	सामने	सामने	ADP	NST	ADP;NOM;3;SG;MASC	2	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=sāmane
+5	बड़ी	बड़ा	ADJ	JJ	ACC;FEM;SG;ADJ	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=baṛī
+6	झील	झील	NOUN	NN	N;3;SG;ACC;FEM	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=jhīla
+7	के	का	ADP	PSP	ADP;SG;ACC;MASC	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+8	किनारे	किनारा	NOUN	NN	N;3;SG;ACC;MASC	9	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kināre
+9	स्थित	स्थित	ADJ	JJ	ACC;ADJ	10	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+10	वास्तुकला	वास्तुकला	NOUN	NN	N;3;SG;ACC;FEM	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=vāstukalā
+11	का	का	ADP	PSP	ADP;NOM;SG;MASC	10	case	_	ChunkId=NP4|ChunkType=child|Translit=kā
+12	यह	यह	DET	DEM	SG;DET;NOM;3	14	det	_	ChunkId=NP5|ChunkType=child|Translit=yaha
+13	खूबसूरत	खूबसूरत	ADJ	JJ	NOM;ADJ	14	amod	_	ChunkId=NP5|ChunkType=child|Translit=khūbasūrata
+14	नमूना	नमूना	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=namūnā
+15	कुदसिया	कुदसिया	PROPN	NNPC	PROPN;NOM;3;SG;FEM	16	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=kudasiyā
+16	बेगम	बेगम	PROPN	NNP	PROPN;3;SG;ACC;FEM	18	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=begama
+17	के	का	ADP	PSP	ADP;SG;ACC;MASC	16	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+18	काल	काल	NOUN	NN	N;3;SG;ACC;MASC	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=kāla
+19	का	का	ADP	PSP	ADP;NOM;SG;MASC	18	case	_	ChunkId=NP7|ChunkType=child|Translit=kā
+20	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	14	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+21	जिन्हें	जो	PRON	PRP	{ACC/DAT};FORM;3;SG;PRO	25	obj	_	Vib=को|Tam=ko|ChunkId=NP8|ChunkType=head|Translit=jinheṁ
+22	गोहर	गोहर	PROPN	NNPC	PROPN;NOM;3;SG;FEM	23	compound	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=child|Translit=gohara
+23	बेगम	बेगम	PROPN	NNP	PROPN;NOM;3;SG;FEM	25	acl	_	Vib=0|Tam=0|ChunkId=NP9|ChunkType=head|Translit=begama
+24	भी	भी	PART	RP	PART	23	dep	_	ChunkId=NP9|ChunkType=child|Translit=bhī
+25	कहा	कह	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	16	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=kahā|Vib=या_जा+ता_था
+26	जाता	जा	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	25	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātā
+27	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	25	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=thā
+28	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s8
+# text = यह हिंदू और मुगल कला का अद्भुत संगम है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	हिंदू	हिंदू	NOUN	NNC	NOM;N;3;SG;MASC	5	dislocated	_	Vib=0|Tam=0|ChunkId=FRAGP|ChunkType=head|Translit=hiṁdū
+3	और	और	CCONJ	CC	CONJ	4	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+4	मुगल	मुगल	NOUN	NNC	NOM;N;3;SG;MASC	2	conj	_	Vib=0|Tam=0|ChunkId=FRAGP2|ChunkType=head|Translit=mugala
+5	कला	कला	NOUN	NN	N;3;SG;ACC;FEM	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=kalā
+6	का	का	ADP	PSP	ADP;NOM;SG;MASC	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+7	अद्भुत	अद्भुत	ADJ	JJ	NOM;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=adbhuta
+8	संगम	संगम	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saṁgama
+9	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	8	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+10	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s9
+# text = यह भारत की अनूठी राष्ट्रीय संस्था है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	भारत	भारत	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bhārata
+3	की	का	ADP	PSP	ADP;NOM;SG;FEM	2	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+4	अनूठी	अनूठा	ADJ	JJ	FEM;NOM;SG;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=anūṭhī
+5	राष्ट्रीय	राष्ट्रीय	ADJ	JJ	NOM;ADJ	4	amod	_	ChunkId=NP3|ChunkType=child|Translit=rāṣṭrīya
+6	संस्था	संस्था	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saṁsthā
+7	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s10
+# text = मुख्य रूप से यह प्रदर्शन कला और दृश्य कला का केंद्र है ।
+1	मुख्य	मुख्य	ADJ	JJ	ACC;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=mukhya
+2	रूप	रूप	NOUN	NN	N;3;SG;ACC;MASC	11	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=rūpa
+3	से	से	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=se
+4	यह	यह	PRON	PRP	NOM;3;SG;PRO	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yaha
+5	प्रदर्शन	प्रदर्शन	NOUN	NNC	NOM;N;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=pradarśana
+6	कला	कला	NOUN	NN	N;3;SG;ACC;FEM	11	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kalā
+7	और	और	CCONJ	CC	CONJ	9	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	दृश्य	दृश्य	NOUN	NNC	NOM;N;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=dr̥śya
+9	कला	कला	NOUN	NN	N;3;SG;ACC;FEM	6	conj	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kalā
+10	का	का	ADP	PSP	ADP;NOM;SG;MASC	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kā
+11	केंद्र	केंद्र	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=keṁdra
+12	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	11	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s11
+# text = इसे चार्ल्स कोरिया ने डिजाइन किया है ।
+1	इसे	यह	PRON	PRP	{ACC/DAT};3;SG;PRO	6	obj	_	Vib=को|Tam=ko|ChunkId=NP|ChunkType=head|Translit=ise
+2	चार्ल्स	चार्ल्स	NOUN	NNC	NOM;N;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=cārlsa
+3	कोरिया	कोरिया	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP2|ChunkType=head|Translit=koriyā
+4	ने	ने	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ne
+5	डिजाइन	डिजाइन	NOUN	NN	NOM;N;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ḍijāina
+6	किया	कर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=kiyā|Vib=या_है
+7	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	6	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s12
+# text = विशाल क्षेत्र में फैले इस भवन के आस - पास का प्राकृतिक सौंदर्य इसे और भी भव्य बनाता है ।
+1	विशाल	विशाल	ADJ	JJ	ACC;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=viśāla
+2	क्षेत्र	क्षेत्र	NOUN	NN	N;3;SG;ACC;MASC	4	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=kṣetra
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	फैले	फैल	VERB	VM	PFV;V;V.PTCP;SG;MASC	6	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=phaile
+5	इस	यह	DET	DEM	SG;DET;3;ACC	6	det	_	ChunkId=NP2|ChunkType=child|Translit=isa
+6	भवन	भवन	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_के_पास_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bhavana
+7	के	के	ADP	PSP	ADP	6	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+8	आस	आस	NOUN	NSTC	NOM;N;3;SG;MASC	6	case	_	AltTag=nst-NOUN|ChunkId=NP2|ChunkType=child|Translit=āsa
+9	-	-	PUNCT	SYM	_	6	punct	_	ChunkId=NP2|ChunkType=child|Translit=-
+10	पास	पास	ADP	NST	ADP;3;SG;ACC;MASC	6	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|Translit=pāsa
+11	का	का	ADP	PSP	ADP;NOM;SG;MASC	6	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+12	प्राकृतिक	प्राकृतिक	ADJ	JJ	NOM;ADJ	13	amod	_	ChunkId=NP3|ChunkType=child|Translit=prākr̥tika
+13	सौंदर्य	सौंदर्य	NOUN	NN	NOM;N;3;SG;MASC	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sauṁdarya
+14	इसे	यह	PRON	PRP	{ACC/DAT};3;SG;PRO	18	obj	_	Vib=को|Tam=ko|ChunkId=NP4|ChunkType=head|Translit=ise
+15	और	और	DET	QF	DET	17	det	_	ChunkId=JJP|ChunkType=child|Translit=aura
+16	भी	भी	PART	RP	PART	15	dep	_	ChunkId=JJP|ChunkType=child|Translit=bhī
+17	भव्य	भव्य	ADJ	JJ	ADJ	18	compound	_	ChunkId=JJP|ChunkType=head|Translit=bhavya
+18	बनाता	बना	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=banātā|Vib=ता_है
+19	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	18	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+20	।	।	PUNCT	SYM	_	18	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s13
+# text = यहीं पर एक कला संग्रहालय, कला दीर्घा, फाइन आर्ट के लिए कार्यशाला, एक थिएटर, अंतरंग और बहिरंग ऑडिटोरियम, रिहर्सल कक्ष, भारतीय कविताओं का पुस्तकालय, शास्त्रीय और लोक संगीत संग्रहालय भी हैं ।
+1	यहीं	यहीं	PRON	PRP	ACC;PRO	5	nmod	_	Vib=0_पर|ChunkId=NP|ChunkType=head|Translit=yahīṁ
+2	पर	पर	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=para
+3	एक	एक	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+4	कला	कला	NOUN	NNC	NOM;N;3;SG;FEM	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kalā
+5	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=saṁgrahālaya
+6	,	,	PUNCT	SYM	_	8	punct	_	ChunkId=NP2|ChunkType=child|Translit=,
+7	कला	कला	NOUN	NNC	NOM;N;3;SG;FEM	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=kalā
+8	दीर्घा	दीर्घा	NOUN	NN	NOM;N;3;SG;FEM	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dīrghā
+9	,	,	PUNCT	SYM	_	8	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+10	फाइन	फाइन	NOUN	NNC	ACC;N	11	compound	_	ChunkId=NP4|ChunkType=child|Translit=phāina
+11	आर्ट	आर्ट	NOUN	NN	N;3;SG;ACC;FEM	8	nmod	_	Vib=0_के_लिए|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ārṭa
+12	के	के	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+13	लिए	लिए	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=lie
+14	कार्यशाला	कार्यशाला	NOUN	NN	NOM;N;3;SG;FEM	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kāryaśālā
+15	,	,	PUNCT	SYM	_	17	punct	_	ChunkId=NP5|ChunkType=child|Translit=,
+16	एक	एक	NUM	QC	NUM	17	nummod	_	ChunkId=NP6|ChunkType=child|Translit=eka
+17	थिएटर	थिएटर	NOUN	NN	NOM;N;3;SG;MASC	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=thieṭara
+18	,	,	PUNCT	SYM	_	22	punct	_	ChunkId=NP6|ChunkType=child|Translit=,
+19	अंतरंग	अंतरंग	ADJ	JJ	NOM;ADJ	22	amod	_	ChunkId=JJP|ChunkType=head|Translit=aṁtaraṁga
+20	और	और	CCONJ	CC	CONJ	21	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+21	बहिरंग	बहिरंग	ADJ	JJ	NOM;ADJ	19	conj	_	ChunkId=JJP2|ChunkType=head|Translit=bahiraṁga
+22	ऑडिटोरियम	ऑडिटोरियम	NOUN	NN	NOM;N;3;PL;MASC	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=ôḍiṭoriyama
+23	,	,	PUNCT	SYM	_	25	punct	_	ChunkId=NP7|ChunkType=child|Translit=,
+24	रिहर्सल	रिहर्सल	NOUN	NNC	NOM;N;3;SG;FEM	25	compound	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=child|Translit=riharsala
+25	कक्ष	कक्ष	NOUN	NN	NOM;N;3;SG;MASC	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=kakṣa
+26	,	,	PUNCT	SYM	_	30	punct	_	ChunkId=NP8|ChunkType=child|Translit=,
+27	भारतीय	भारतीय	ADJ	JJ	ACC;ADJ	28	amod	_	ChunkId=NP9|ChunkType=child|Translit=bhāratīya
+28	कविताओं	कविता	NOUN	NN	N;3;ACC;FEM;PL	30	nmod	_	Vib=0_का|Tam=0|ChunkId=NP9|ChunkType=head|Translit=kavitāoṁ
+29	का	का	ADP	PSP	ADP;NOM;SG;MASC	28	case	_	ChunkId=NP9|ChunkType=child|Translit=kā
+30	पुस्तकालय	पुस्तकालय	NOUN	NN	NOM;N;3;SG;MASC	5	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP10|ChunkType=head|Translit=pustakālaya
+31	,	,	PUNCT	SYM	_	36	punct	_	ChunkId=CCP2|ChunkType=head|Translit=,
+32	शास्त्रीय	शास्त्रीय	ADJ	JJ	NOM;ADJ	35	amod	_	ChunkId=JJP3|ChunkType=head|Translit=śāstrīya
+33	और	और	CCONJ	CC	CONJ	34	cc	_	ChunkId=CCP3|ChunkType=head|Translit=aura
+34	लोक	लोक	ADJ	JJ	ADJ;NOM;3;SG;MASC	32	conj	_	Vib=0|Tam=0|ChunkId=JJP4|ChunkType=head|Translit=loka
+35	संगीत	संगीत	NOUN	NN	NOM;N;3;SG;MASC	36	nmod	_	Vib=0|Tam=0|ChunkId=NP11|ChunkType=head|Translit=saṁgīta
+36	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	5	conj	_	Vib=0|Tam=0|ChunkId=NP12|ChunkType=head|Translit=saṁgrahālaya
+37	भी	भी	PART	RP	PART	36	dep	_	ChunkId=NP12|ChunkType=child|Translit=bhī
+38	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+39	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s14
+# text = यह सोमवार के अलावा पूरे सप्ताह दोपहर 2 बजे से रात 8 बजे तक खुला रहता है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	15	obl	_	Vib=0_के_अलावा|Tam=0|ChunkId=NP2|ChunkType=head|Translit=somavāra
+3	के	के	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+4	अलावा	अलावा	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=alāvā
+5	पूरे	पूरा	ADJ	JJ	NOM;MASC;SG;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=pūre
+6	सप्ताह	सप्ताह	NOUN	NN	NOM;N;3;SG;MASC	15	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saptāha
+7	दोपहर	दोपहर	NOUN	NN	NOM;N;3;SG;FEM	9	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dopahara
+8	2	2	NUM	QC	NUM	9	nummod	_	ChunkId=NP5|ChunkType=child|Translit=2
+9	बजे	बजे	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_से|Tam=0|ChunkId=NP5|ChunkType=head|Translit=baje
+10	से	से	ADP	PSP	ADP	9	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+11	रात	रात	NOUN	NN	NOM;N;3;SG;FEM	13	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=rāta
+12	8	8	NUM	QC	NUM	13	nummod	_	ChunkId=NP7|ChunkType=child|Translit=8
+13	बजे	बजे	NOUN	NN	N;3;SG;ACC;MASC	15	obl	_	Vib=0_तक|Tam=0|ChunkId=NP7|ChunkType=head|Translit=baje
+14	तक	तक	ADP	PSP	ADP	13	case	_	ChunkId=NP7|ChunkType=child|Translit=taka
+15	खुला	खुल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=khulā|Vib=या_रह+ता_है
+16	रहता	रह	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	15	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatā
+17	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	15	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s15
+# text = यह एक अनूठा संग्रहालय है जो 200 एकड़ में श्यामला हिल्स पर बड़ी झील के सामने फैला है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	एक	एक	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+3	अनूठा	अनूठा	ADJ	JJ	NOM;MASC;SG;ADJ	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=anūṭhā
+4	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=saṁgrahālaya
+5	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	4	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+6	जो	जो	PRON	PRP	NOM;3;SG;PRO	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jo
+7	200	200	NUM	QC	NUM	8	nummod	_	ChunkId=NP4|ChunkType=child|Translit=200
+8	एकड़	एकड	NOUN	NN	N;3;SG;ACC;MASC	17	obl	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ekaṛa
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+10	श्यामला	श्यामला	PROPN	NNPC	PROPN;NOM;3;SG;FEM	11	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=śyāmalā
+11	हिल्स	हिल	PROPN	NNP	PROPN;3;ACC;FEM;PL	17	obl	_	Vib=0_पर|Tam=0|ChunkId=NP5|ChunkType=head|Translit=hilsa
+12	पर	पर	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=para
+13	बड़ी	बड़ा	ADJ	JJ	ACC;FEM;SG;ADJ	14	amod	_	ChunkId=NP6|ChunkType=child|Translit=baṛī
+14	झील	झील	NOUN	NN	N;3;SG;ACC;FEM	17	obl	_	Vib=0_के_सामने|Tam=0|ChunkId=NP6|ChunkType=head|Translit=jhīla
+15	के	के	ADP	PSP	ADP	14	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+16	सामने	सामने	ADP	NST	ADP;NOM;3;SG;MASC	14	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child|Translit=sāmane
+17	फैला	फैल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	4	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=phailā|Vib=या_है
+18	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	17	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s16
+# text = यह एक प्रागैतिहासिक स्थल पर है और विश्व में अपनी तरह का एक ही संग्रहालय है जो प्रागैतिहासिक चित्रकला से सज्जित गुफाओं के समीप है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	एक	एक	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+3	प्रागैतिहासिक	प्रागैतिहासिक	ADJ	JJ	ACC;ADJ	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=prāgaitihāsika
+4	स्थल	स्थल	NOUN	NN	N;3;SG;ACC;MASC	0	root	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sthala
+5	पर	पर	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	4	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	और	और	CCONJ	CC	CONJ	15	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+8	विश्व	विश्व	NOUN	NN	N;3;SG;ACC;MASC	15	nmod	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=viśva
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+10	अपनी	अपना	PRON	PRP	SG;ACC;FEM;PRO	11	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=apanī
+11	तरह	तरह	NOUN	NN	N;3;SG;ACC;FEM	15	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=taraha
+12	का	का	ADP	PSP	ADP;NOM;SG;MASC	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kā
+13	एक	एक	NUM	QC	NUM	15	nummod	_	ChunkId=NP6|ChunkType=child|Translit=eka
+14	ही	ही	PART	RP	PART	13	dep	_	ChunkId=NP6|ChunkType=child|Translit=hī
+15	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	4	conj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=saṁgrahālaya
+16	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	15	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+17	जो	जो	PRON	PRP	NOM;3;SG;PRO	22	nsubj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=jo
+18	प्रागैतिहासिक	प्रागैतिहासिक	ADJ	JJ	ACC;ADJ	19	amod	_	ChunkId=NP8|ChunkType=child|Translit=prāgaitihāsika
+19	चित्रकला	चित्रकला	NOUN	NN	N;3;SG;ACC;FEM	21	obl	_	Vib=0_से|Tam=0|ChunkId=NP8|ChunkType=head|Translit=citrakalā
+20	से	से	ADP	PSP	ADP	19	case	_	ChunkId=NP8|ChunkType=child|Translit=se
+21	सज्जित	सज्जित	ADJ	JJ	ACC;ADJ	22	amod	_	ChunkId=JJP|ChunkType=head|Translit=sajjita
+22	गुफाओं	गुफा	NOUN	NN	N;3;ACC;FEM;PL	15	acl:relcl	_	Vib=0_के_समीप|Tam=0|ChunkId=NP9|ChunkType=head|Translit=guphāoṁ
+23	के	के	ADP	PSP	ADP	22	case	_	ChunkId=NP9|ChunkType=child|Translit=ke
+24	समीप	समीप	ADP	NST	ADP;NOM;3;SG;MASC	22	case	_	AltTag=ADP-NOUN|ChunkId=NP9|ChunkType=child|Translit=samīpa
+25	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	22	cop	_	ChunkId=VGF3|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+26	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s17
+# text = और इस तरह से यह वस्तुओं और परंपराओं से जीवंत रूप से जुड़ा हुआ है ।
+1	और	और	CCONJ	CC	CONJ	13	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+2	इस	यह	DET	DEM	SG;DET;3;ACC	3	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+3	तरह	तरह	NOUN	NN	N;3;SG;ACC;FEM	13	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=taraha
+4	से	से	ADP	PSP	ADP	3	case	_	ChunkId=NP|ChunkType=child|Translit=se
+5	यह	यह	PRON	PRP	NOM;3;SG;PRO	13	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yaha
+6	वस्तुओं	वस्तु	NOUN	NN	N;3;ACC;FEM;PL	13	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=vastuoṁ
+7	और	और	CCONJ	CC	CONJ	8	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+8	परंपराओं	परंपरा	NOUN	NN	N;3;ACC;FEM;PL	6	conj	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=paraṁparāoṁ
+9	से	से	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+10	जीवंत	जीवंत	ADJ	JJ	ACC;ADJ	11	amod	_	ChunkId=NP5|ChunkType=child|Translit=jīvaṁta
+11	रूप	रूप	NOUN	NN	N;3;SG;ACC;MASC	13	obl	_	Vib=0_से|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rūpa
+12	से	से	ADP	PSP	ADP	11	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+13	जुड़ा	जुड़	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=juṛā|Vib=या_हो+या_है
+14	हुआ	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	13	aux	_	Vib=या|Tam=yA|ChunkId=VGF|ChunkType=child|Translit=huā
+15	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	13	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s18
+# text = यहाँ आदिवासी, समुद्र किनारे, रेगिस्तान और हिमालय के आवासों के नमूने भी बनाए गए हैं ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	15	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	आदिवासी	आदिवासी	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ādivāsī
+3	,	,	PUNCT	SYM	_	5	punct	_	ChunkId=NP2|ChunkType=child|Translit=,
+4	समुद्र	समुद्र	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=samudra
+5	किनारे	किनारा	NOUN	NN	N;3;SG;ACC;MASC	2	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kināre
+6	,	,	PUNCT	SYM	_	7	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+7	रेगिस्तान	रेगिस्तान	NOUN	NN	N;3;SG;ACC;MASC	2	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=registāna
+8	और	और	CCONJ	CC	CONJ	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+9	हिमालय	हिमालय	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=himālaya
+10	के	का	ADP	PSP	ADP;ACC;PL;MASC	9	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+11	आवासों	आवास	NOUN	NN	MASC;N;3;ACC;PL	2	conj	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=āvāsoṁ
+12	के	का	ADP	PSP	ADP;NOM;PL;MASC	11	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+13	नमूने	नमूना	NOUN	NN	NOM;N;3;PL;MASC	15	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=namūne
+14	भी	भी	PART	RP	PART	13	dep	_	ChunkId=NP7|ChunkType=child|Translit=bhī
+15	बनाए	बना	VERB	VM	MASC;ACT;PFV;V;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banāe|Vib=या_जा+या1_है
+16	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	15	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gae
+17	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	15	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+18	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s19
+# text = यहाँ संग्रहालय में पुस्तकालय, दृश्य - श्रृव्य आर्काइव, कंप्यूटरीकृत कक्ष व प्रजातीय नमूनों को देखा जाता है ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	17	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	संग्रहालय	संग्रहालय	NOUN	NN	N;3;SG;ACC;MASC	17	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=saṁgrahālaya
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+4	पुस्तकालय	पुस्तकालय	NOUN	NN	N;3;SG;ACC;MASC	17	obj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pustakālaya
+5	,	,	PUNCT	SYM	_	9	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+6	दृश्य	दृश्य	ADJ	JJC	NOM;ADJ	8	compound	_	ChunkId=NP4|ChunkType=child|Translit=dr̥śya
+7	-	-	PUNCT	SYM	_	8	punct	_	ChunkId=NP4|ChunkType=child|Translit=-
+8	श्रृव्य	श्रृव्य	ADJ	JJ	ACC;ADJ	9	amod	_	ChunkId=NP4|ChunkType=child|Translit=śrr̥vya
+9	आर्काइव	आर्काइव	NOUN	NN	N;3;SG;ACC;MASC	4	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=ārkāiva
+10	,	,	PUNCT	SYM	_	12	punct	_	ChunkId=NP4|ChunkType=child|Translit=,
+11	कंप्यूटरीकृत	कंप्यूटरीकृत	ADJ	JJ	ACC;ADJ	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=kaṁpyūṭarīkr̥ta
+12	कक्ष	कक्ष	NOUN	NN	N;3;SG;ACC;MASC	4	conj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=kakṣa
+13	व	व	CCONJ	CC	CONJ	15	cc	_	ChunkId=CCP|ChunkType=head|Translit=va
+14	प्रजातीय	प्रजातीय	ADJ	JJ	ACC;ADJ	15	amod	_	ChunkId=NP6|ChunkType=child|Translit=prajātīya
+15	नमूनों	नमूना	NOUN	NN	MASC;N;3;ACC;PL	4	conj	_	Vib=0_को|Tam=0|ChunkId=NP6|ChunkType=head|Translit=namūnoṁ
+16	को	को	ADP	PSP	ADP	4	case	_	ChunkId=NP6|ChunkType=child|Translit=ko
+17	देखा	देख	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=dekhā|Vib=या_जा+ता_है
+18	जाता	जा	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	17	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=jātā
+19	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	17	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+20	।	।	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s20
+# text = यहाँ मध्य प्रदेश के विभिन्न हिस्सों से कला के खूबसूरत नमूने एकत्रित करके रखे गए हैं ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	14	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	मध्य	मध्य	PROPN	NNPC	PROPN;NOM;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=madhya
+3	प्रदेश	प्रदेश	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pradeśa
+4	के	का	ADP	PSP	ADP;ACC;PL;MASC	3	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+5	विभिन्न	विभिन्न	ADJ	JJ	ACC;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=vibhinna
+6	हिस्सों	हिस्सा	NOUN	NN	MASC;N;3;ACC;PL	14	obl	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=hissoṁ
+7	से	से	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+8	कला	कला	NOUN	NN	N;3;SG;ACC;FEM	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=kalā
+9	के	का	ADP	PSP	ADP;NOM;PL;MASC	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+10	खूबसूरत	खूबसूरत	ADJ	JJ	NOM;ADJ	11	amod	_	ChunkId=NP5|ChunkType=child|Translit=khūbasūrata
+11	नमूने	नमूना	NOUN	NN	NOM;N;3;PL;MASC	13	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=namūne
+12	एकत्रित	एकत्रित	ADJ	JJ	ADJ	13	compound	_	ChunkId=JJP|ChunkType=head|Translit=ekatrita
+13	करके	कर	VERB	VM	V;V.CVB	14	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=karake
+14	रखे	रख	VERB	VM	MASC;PFV;V;PASS;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=rakhe|Vib=या_जा+या1_है
+15	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	14	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gae
+16	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	14	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+17	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s21
+# text = संग्रहालय सोमवार को बंद रहता है ।
+1	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=saṁgrahālaya
+2	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	obl	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=somavāra
+3	को	को	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+4	बंद	बंद	ADJ	JJ	ADJ	5	compound	_	ChunkId=JJP|ChunkType=head|Translit=baṁda
+5	रहता	रह	VERB	VM	ACT;V;V.PTCP;3;SG;IPFV;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=rahatā|Vib=ता_है
+6	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	5	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s22
+# text = यह अरेरा हिल्स पर स्थित है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	अरेरा	अरेरा	PROPN	NNPC	PROPN;NOM;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=arerā
+3	हिल्स	हिल	PROPN	NNP	PROPN;3;ACC;FEM;PL	5	nmod	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=hilsa
+4	पर	पर	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+5	स्थित	स्थित	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s23
+# text = इससे लगा हुआ एक संग्रहालय है जहाँ मध्यप्रदेश के रायसेन, सीहोर, मंदसौर और शहडोल जिलों से एकत्रित कला नमूनों को रखा गया है ।
+1	इससे	यह	PRON	PRP	{ACC/INS};3;SG;PRO	2	obl	_	Vib=से|Tam=se|ChunkId=NP|ChunkType=head|Translit=isase
+2	लगा	लग	VERB	VM	PFV;V;V.PTCP;SG;MASC	5	acl	_	Vib=या_हो+या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=lagā
+3	हुआ	हो	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	2	aux	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=child|Translit=huā
+4	एक	एक	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+5	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=saṁgrahālaya
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	जहाँ	जहाँ	PRON	PRP	NOM;PRO	23	obl	_	ChunkId=NP3|ChunkType=head|Translit=jahām̃
+8	मध्यप्रदेश	मध्यप्रदेश	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=madhyapradeśa
+9	के	का	ADP	PSP	ADP;SG;ACC;MASC	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+10	रायसेन	रायसेन	PROPN	NNP	PROPN;3;SG;ACC;MASC	17	nmod	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=rāyasena
+11	,	,	PUNCT	SYM	_	12	punct	_	ChunkId=NP5|ChunkType=child|Translit=,
+12	सीहोर	सीहोर	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=sīhora
+13	,	,	PUNCT	SYM	_	14	punct	_	ChunkId=NP6|ChunkType=child|Translit=,
+14	मंदसौर	मंदसौर	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	conj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=maṁdasaura
+15	और	और	CCONJ	CC	CONJ	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+16	शहडोल	शहडोल	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	conj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=śahaḍola
+17	जिलों	जिला	NOUN	NN	MASC;N;3;ACC;PL	23	obl	_	Vib=0_से|Tam=0|ChunkId=NP9|ChunkType=head|Translit=jiloṁ
+18	से	से	ADP	PSP	ADP	17	case	_	ChunkId=NP9|ChunkType=child|Translit=se
+19	एकत्रित	एकत्रित	ADJ	JJ	ACC;ADJ	21	amod	_	ChunkId=JJP|ChunkType=head|Translit=ekatrita
+20	कला	कला	NOUN	NNC	NOM;N;3;SG;FEM	21	compound	_	Vib=0|Tam=0|ChunkId=NP10|ChunkType=child|Translit=kalā
+21	नमूनों	नमूना	NOUN	NN	MASC;N;3;ACC;PL	23	obj	_	Vib=0_को|Tam=0|ChunkId=NP10|ChunkType=head|Translit=namūnoṁ
+22	को	को	ADP	PSP	ADP	21	case	_	ChunkId=NP10|ChunkType=child|Translit=ko
+23	रखा	रख	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	5	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=rakhā|Vib=या_जा+या1_है
+24	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	23	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gayā
+25	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	23	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+26	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s24
+# text = यह संग्रहालय भी सोमवार को छोड़कर पूरे सप्ताह 9 बजे से 5 बजे तक खुला रहता है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=saṁgrahālaya
+3	भी	भी	PART	RP	PART	2	dep	_	ChunkId=NP|ChunkType=child|Translit=bhī
+4	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	obl	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=somavāra
+5	को	को	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+6	छोड़कर	छोड़	VERB	VM	V;V.CVB	15	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=choṛakara
+7	पूरे	पूरा	ADJ	JJ	NOM;MASC;SG;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=pūre
+8	सप्ताह	सप्ताह	NOUN	NN	NOM;N;3;SG;MASC	15	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saptāha
+9	9	9	NUM	QC	NUM	10	nummod	_	ChunkId=NP4|ChunkType=child|Translit=9
+10	बजे	बजे	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=baje
+11	से	से	ADP	PSP	ADP	10	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+12	5	5	NUM	QC	NUM	13	nummod	_	ChunkId=NP5|ChunkType=child|Translit=5
+13	बजे	बजे	NOUN	NN	N;3;SG;ACC;MASC	15	obl	_	Vib=0_तक|Tam=0|ChunkId=NP5|ChunkType=head|Translit=baje
+14	तक	तक	ADP	PSP	ADP	13	case	_	ChunkId=NP5|ChunkType=child|Translit=taka
+15	खुला	खुल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=khulā|Vib=या_रह+ता_है
+16	रहता	रह	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	15	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatā
+17	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	15	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s25
+# text = बड़ी झील से लगी पहाड़ी पर यह सफारी उद्यान स्थित है ।
+1	बड़ी	बड़ा	ADJ	JJ	ACC;FEM;SG;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=baṛī
+2	झील	झील	NOUN	NN	N;3;SG;ACC;FEM	4	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=jhīla
+3	से	से	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=se
+4	लगी	लग	VERB	VM	PFV;V;V.PTCP;SG;FEM	5	acl	_	Vib=या|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=lagī
+5	पहाड़ी	पहाड़ी	NOUN	NN	N;3;SG;ACC;FEM	10	nmod	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pahāṛī
+6	पर	पर	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+7	यह	यह	DET	DEM	SG;DET;NOM;3	9	det	_	ChunkId=NP3|ChunkType=child|Translit=yaha
+8	सफारी	सफारी	NOUN	NNC	NOM;N;3;SG;FEM	9	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=saphārī
+9	उद्यान	उद्यान	NOUN	NN	NOM;N;3;SG;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=udyāna
+10	स्थित	स्थित	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+11	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	10	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+12	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s26
+# text = यह 445 हैक्टेयर में फैला है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	445	445	NUM	QC	NUM	3	nummod	_	ChunkId=NP2|ChunkType=child|Translit=445
+3	हैक्टेयर	हैक्टेयर	NOUN	NN	N;3;SG;ACC;MASC	5	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=haikṭeyara
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	फैला	फैल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=phailā|Vib=या_है
+6	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	5	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s27
+# text = प्राकृतिक सुंदरता के बीच आप विभिन्न प्रकार के शाकाहारी और माँसाहारी प्राणियों को देखने का आनंद उठा सकते हैं ।
+1	प्राकृतिक	प्राकृतिक	ADJ	JJ	ACC;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=prākr̥tika
+2	सुंदरता	सुंदरता	NOUN	NN	N;3;SG;ACC;FEM	17	obl	_	Vib=0_के_बीच|Tam=0|ChunkId=NP|ChunkType=head|Translit=suṁdaratā
+3	के	के	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	2	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bīca
+5	आप	आप	PRON	PRP	NOM;FORM;SG;2;PRO	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=āpa
+6	विभिन्न	विभिन्न	ADJ	JJ	ACC;ADJ	7	amod	_	ChunkId=NP3|ChunkType=child|Translit=vibhinna
+7	प्रकार	प्रकार	NOUN	NN	N;3;SG;ACC;MASC	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=prakāra
+8	के	का	ADP	PSP	ADP;ACC;PL;MASC	7	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+9	शाकाहारी	शाकाहारी	ADJ	JJ	ACC;ADJ	12	amod	_	ChunkId=JJP|ChunkType=head|Translit=śākāhārī
+10	और	और	CCONJ	CC	CONJ	11	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+11	माँसाहारी	माँसाहारी	ADJ	JJ	ACC;ADJ	9	conj	_	ChunkId=JJP2|ChunkType=head|Translit=mām̃sāhārī
+12	प्राणियों	प्राणी	NOUN	NN	MASC;N;3;ACC;PL	14	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=prāṇiyoṁ
+13	को	को	ADP	PSP	ADP	12	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+14	देखने	देख	VERB	VM	V;ACC;NFIN;SG	16	nmod	_	Vib=ना_का|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=dekhane
+15	का	का	ADP	PSP	ADP;NOM;SG;MASC	14	mark	_	ChunkId=VGNN|ChunkType=child|Translit=kā
+16	आनंद	आनंद	NOUN	NN	NOM;N;3;SG;MASC	17	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ānaṁda
+17	उठा	उठा	VERB	VM	ACT;V;FORM;SG;2;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=0|Translit=uṭhā|Vib=0_सक+ता_है
+18	सकते	सक	AUX	VAUX	FORM;V.PTCP;SG;IPFV;2;MASC;V	17	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=sakate
+19	हैं	है	AUX	VAUX	FIN;PRS;FORM;SG;IND;2;V	17	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+20	।	।	PUNCT	SYM	_	17	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s28
+# text = यह मंगलवार को छोड़कर हर दिन सुबह 7 से 11 और 3 से 5 बजे शाम तक खुला रहता है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	मंगलवार	मंगलवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	obl	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=maṁgalavāra
+3	को	को	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+4	छोड़कर	छोड़	VERB	VM	V;V.CVB	18	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=choṛakara
+5	हर	हर	DET	QF	DET	6	det	_	ChunkId=NP3|ChunkType=child|Translit=hara
+6	दिन	दिन	NOUN	NN	NOM;N;3;SG;MASC	18	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dina
+7	सुबह	सुबह	NOUN	NN	NOM;N;3;SG;FEM	8	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=subaha
+8	7	7	NUM	QC	ACC;NUM	10	nmod	_	Vib=0_से|ChunkId=NP5|ChunkType=head|Translit=7
+9	से	से	ADP	PSP	ADP	8	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+10	11	11	NUM	QC	NUM	18	obl	_	ChunkId=NP6|ChunkType=head|Translit=11
+11	और	और	CCONJ	CC	CONJ	16	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+12	3	3	NUM	QC	ACC;NUM	15	nmod	_	Vib=0_से|ChunkId=NP7|ChunkType=head|Translit=3
+13	से	से	ADP	PSP	ADP	12	case	_	ChunkId=NP7|ChunkType=child|Translit=se
+14	5	5	NUM	QC	NUM	15	nummod	_	ChunkId=NP8|ChunkType=child|Translit=5
+15	बजे	बजे	NOUN	NN	NOM;N;3;SG;MASC	16	nmod	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=baje
+16	शाम	शाम	NOUN	NN	N;3;SG;ACC;FEM	10	conj	_	Vib=0_तक|Tam=0|ChunkId=NP9|ChunkType=head|Translit=śāma
+17	तक	तक	ADP	PSP	ADP	16	case	_	ChunkId=NP9|ChunkType=child|Translit=taka
+18	खुला	खुल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=khulā|Vib=या_रह+ता_है
+19	रहता	रह	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	18	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatā
+20	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	18	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+21	।	।	PUNCT	SYM	_	18	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s29
+# text = यह मूल रूप से विज्ञान संग्रहालय है जो श्यामला हिल्स की खूबसूरती के बीच स्थित है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	मूल	मूल	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=mūla
+3	रूप	रूप	NOUN	NN	N;3;SG;ACC;MASC	6	obl	_	Vib=0_से|Tam=0|ChunkId=NP2|ChunkType=head|Translit=rūpa
+4	से	से	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=se
+5	विज्ञान	विज्ञान	NOUN	NNC	NOM;N;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=vijñāna
+6	संग्रहालय	संग्रहालय	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=saṁgrahālaya
+7	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+8	जो	जो	PRON	PRP	NOM;3;SG;PRO	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=jo
+9	श्यामला	श्यामला	PROPN	NNPC	PROPN;NOM;3;SG;FEM	10	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=śyāmalā
+10	हिल्स	हिल	PROPN	NNP	PROPN;3;ACC;FEM;PL	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=hilsa
+11	की	का	ADP	PSP	ADP;SG;ACC;FEM	10	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+12	खूबसूरती	खूबसूरती	NOUN	NN	N;3;SG;ACC;FEM	15	nmod	_	Vib=0_के_बीच|Tam=0|ChunkId=NP6|ChunkType=head|Translit=khūbasūratī
+13	के	के	ADP	PSP	ADP	12	case	_	ChunkId=NP6|ChunkType=child|Translit=ke
+14	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	12	case	_	AltTag=ADP-NOUN|ChunkId=NP6|ChunkType=child|Translit=bīca
+15	स्थित	स्थित	ADJ	JJ	ADJ	6	acl:relcl	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+16	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	15	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+17	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s30
+# text = यहाँ इन्वेंशन और फन साइंस गैलरी हैं और एक तारामंडल नाम का प्लेनेटेरियम भी है ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	6	nmod	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	इन्वेंशन	इन्वेंशन	NOUN	NN	NOM;N;3;SG;MASC	6	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=inveṁśana
+3	और	और	CCONJ	CC	CONJ	5	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+4	फन	फन	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=phana
+5	साइंस	साइंस	NOUN	NN	NOM;N;3;SG;FEM	2	conj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=sāiṁsa
+6	गैलरी	गैलरी	NOUN	NN	NOM;N;3;FEM;PL	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=gailarī
+7	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+8	और	और	CCONJ	CC	CONJ	13	cc	_	ChunkId=CCP2|ChunkType=head|Translit=aura
+9	एक	एक	NUM	QC	NUM	13	nummod	_	ChunkId=NP5|ChunkType=head|Translit=eka
+10	तारामंडल	तारामंडल	PROPN	NNP	PROPN;NOM;3;SG;MASC	11	nmod	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=tārāmaṁḍala
+11	नाम	नाम	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP7|ChunkType=head|Translit=nāma
+12	का	का	ADP	PSP	ADP;NOM;SG;MASC	11	case	_	ChunkId=NP7|ChunkType=child|Translit=kā
+13	प्लेनेटेरियम	प्लेनेटेरियम	NOUN	NN	NOM;N;3;SG;MASC	6	conj	_	Vib=0|Tam=0|ChunkId=NP8|ChunkType=head|Translit=pleneṭeriyama
+14	भी	भी	PART	RP	PART	13	dep	_	ChunkId=NP8|ChunkType=child|Translit=bhī
+15	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	13	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+16	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s31
+# text = यह सोमवार को छोड़कर हर दिन सुबह 10.30 से 6.30 तक खुला रहता है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	12	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	सोमवार	सोमवार	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	obl	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=somavāra
+3	को	को	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+4	छोड़कर	छोड़	VERB	VM	V;V.CVB	12	advcl	_	Vib=कर|Tam=kara|ChunkId=VGNF|ChunkType=head|Translit=choṛakara
+5	हर	हर	DET	QF	DET	6	det	_	ChunkId=NP3|ChunkType=child|Translit=hara
+6	दिन	दिन	NOUN	NN	NOM;N;3;SG;MASC	12	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dina
+7	सुबह	सुबह	NOUN	NN	NOM;N;3;SG;FEM	8	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=subaha
+8	10.30	10.30	NUM	QC	ACC;NUM	10	nmod	_	Vib=0_से|ChunkId=NP5|ChunkType=head|Translit=10.30
+9	से	से	ADP	PSP	ADP	8	case	_	ChunkId=NP5|ChunkType=child|Translit=se
+10	6.30	6.30	NUM	QC	ACC;NUM	12	obl	_	Vib=0_तक|ChunkId=NP6|ChunkType=head|Translit=6.30
+11	तक	तक	ADP	PSP	ADP	10	case	_	ChunkId=NP6|ChunkType=child|Translit=taka
+12	खुला	खुल	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=khulā|Vib=या_रह+ता_है
+13	रहता	रह	AUX	VAUX	V.PTCP;SG;IPFV;MASC;V	12	aux	_	Vib=ता|Tam=wA|ChunkId=VGF|ChunkType=child|Translit=rahatā
+14	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	12	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+15	।	।	PUNCT	SYM	_	12	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s32
+# text = शहर के बीच स्थित चौक में पुरानी मस्जिद, हवेलियाँ अतीत की स्मृति दिलाते हैं ।
+1	शहर	शहर	NOUN	NN	N;3;SG;ACC;MASC	4	obl	_	Vib=0_के_बीच|Tam=0|ChunkId=NP|ChunkType=head|Translit=śahara
+2	के	के	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	बीच	बीच	ADP	NST	ADP;NOM;3;SG;MASC	1	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=bīca
+4	स्थित	स्थित	ADJ	JJ	NOM;ADJ	5	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+5	चौक	चौक	PROPN	NNP	PROPN;3;SG;ACC;MASC	14	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=cauka
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+7	पुरानी	पुराना	ADJ	JJ	FEM;NOM;SG;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=purānī
+8	मस्जिद	मस्जिद	NOUN	NN	NOM;N;3;SG;FEM	14	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=masjida
+9	,	,	PUNCT	SYM	_	10	punct	_	ChunkId=CCP|ChunkType=head|Translit=,
+10	हवेलियाँ	हवेली	NOUN	NN	NOM;N;3;FEM;PL	8	conj	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=haveliyām̃
+11	अतीत	अतीत	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=atīta
+12	की	का	ADP	PSP	ADP;NOM;SG;FEM	11	case	_	ChunkId=NP5|ChunkType=child|Translit=kī
+13	स्मृति	स्मृति	NOUN	NN	NOM;N;3;SG;FEM	14	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=smr̥ti
+14	दिलाते	दिला	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=dilāte|Vib=ता_है
+15	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	14	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+16	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s33
+# text = सँकरी गलियों में स्थित दुकानें हैं जिनमें शिल्प के खजाने खुले हुए हैं ।
+1	सँकरी	सँकरा	ADJ	JJ	ACC;FEM;PL;ADJ	2	amod	_	ChunkId=NP|ChunkType=child|Translit=sam̃karī
+2	गलियों	गली	NOUN	NN	N;3;ACC;FEM;PL	4	obl	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=galiyoṁ
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	स्थित	स्थित	ADJ	JJ	NOM;ADJ	5	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+5	दुकानें	दुकान	NOUN	NN	NOM;N;3;FEM;PL	0	root	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dukāneṁ
+6	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+7	जिनमें	जो	PRON	PRP	{ACC/IN+ESS};3;PL;PRO	11	obl	_	Vib=में|Tam=meM|ChunkId=NP3|ChunkType=head|Translit=jinameṁ
+8	शिल्प	शिल्प	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=śilpa
+9	के	का	ADP	PSP	ADP;NOM;PL;MASC	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ke
+10	खजाने	खजाना	NOUN	NN	NOM;N;3;PL;MASC	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=khajāne
+11	खुले	खुल	VERB	VM	MASC;ACT;PFV;V;V.PTCP;3;PL	5	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=khule|Vib=या_हो+या_है
+12	हुए	हो	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	11	aux	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=hue
+13	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	11	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+14	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

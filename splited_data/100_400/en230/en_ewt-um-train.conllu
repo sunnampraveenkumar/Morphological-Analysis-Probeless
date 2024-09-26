@@ -1,0 +1,701 @@
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0171
+# text = 33 - Percentage of the $15bn Bush pledged to fight Aids in Africa that must go to abstinence-only programmes.
+1	33	33	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|18:nsubj	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	$	$	SYM	$	_	3	nmod	3:nmod:of|10:obl	SpaceAfter=No
+7	15	15	NUM	CD	NUM	8	compound	8:compound	SpaceAfter=No
+8	bn	billion	NUM	CD	NUM	6	nummod	6:nummod	_
+9	Bush	Bush	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+10	pledged	pledge	VERB	VBD	FIN;SG;V;IND;3;PST	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obl
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	fight	fight	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+13	Aids	aids	NOUN	NN	N;SG	12	obj	12:obj	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	Africa	Africa	PROPN	NNP	PROPN;SG	12	obl	12:obl:in	_
+16	that	that	PRON	WDT	PRO	18	nsubj	3:ref	_
+17	must	must	AUX	MD	V;FIN	18	aux	18:aux	_
+18	go	go	VERB	VB	V;NFIN	3	acl:relcl	3:acl:relcl	Cxn=rc-that-nsubj
+19	to	to	ADP	IN	ADP	23	case	23:case	_
+20	abstinence	abstinence	NOUN	NN	N;SG	23	compound	23:compound	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	22:punct	SpaceAfter=No
+22	only	only	ADV	RB	ADV	20	advmod	20:advmod	_
+23	programmes	programme	NOUN	NNS	N;PL	18	obl	18:obl:to	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0172
+# text = The Civil libertarian
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	Civil	civil	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	libertarian	libertarian	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0173
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0055
+# text = 680 - Number of suspected al-Qa'ida members that the United States admits are detained at Guantánamo Bay, Cuba.
+1	680	680	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	9	case	9:case	_
+5	suspected	suspect	VERB	VBN	V.PTCP;PST;PASS;V	9	amod	9:amod	_
+6	al	al	PROPN	NNP	PROPN;SG	8	compound	8:compound	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+8	Qa'ida	Qa'ida	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	members	member	NOUN	NNS	N;PL	3	nmod	3:nmod:of|16:nsubj:pass	_
+10	that	that	PRON	WDT	PRO	16	nsubj:pass	9:ref	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	United	United	ADJ	NNP	ADJ	13	amod	13:amod	_
+13	States	State	PROPN	NNPS	PROPN;PL	14	nsubj	14:nsubj	_
+14	admits	admit	VERB	VBZ	FIN;SG;V;PRS;IND;3	9	acl:relcl	9:acl:relcl	Cxn=rc-that-nsubj:pass_ccomp
+15	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	16	aux:pass	16:aux:pass	_
+16	detained	detain	VERB	VBN	V.PTCP;PST;PASS;V	14	ccomp	14:ccomp	_
+17	at	at	ADP	IN	ADP	19	case	19:case	_
+18	Guantánamo	Guantánamo	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+19	Bay	Bay	PROPN	NNP	PROPN;SG	16	obl	16:obl:at	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	Cuba	Cuba	PROPN	NNP	PROPN;SG	19	appos	19:appos	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0174
+# text = 42 - Number of nationalities of those detainees at Guantanamo.
+1	42	42	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	nationalities	nationality	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	those	that	DET	DT	DET;PL	8	det	8:det	_
+8	detainees	detainee	NOUN	NNS	N;PL	5	nmod	5:nmod:of	_
+9	at	at	ADP	IN	ADP	10	case	10:case	_
+10	Guantanamo	Guantanamo	PROPN	NNP	PROPN;SG	8	nmod	8:nmod:at	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0175
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0056
+# text = 22 - Number of hours prisoners were handcuffed, shackled, and made to wear surgical masks, earmuffs, and blindfolds during their flight to Guantanamo.
+1	22	22	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	hours	hour	NOUN	NNS	N;PL	3	nmod	3:nmod:of|8:obl	_
+6	prisoners	prisoner	NOUN	NNS	N;PL	8	nsubj:pass	8:nsubj:pass|10:nsubj:pass|13:nsubj:pass|15:nsubj:xsubj	_
+7	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	8	aux:pass	8:aux:pass	_
+8	handcuffed	handcuff	VERB	VBN	V.PTCP;PST;PASS;V	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl|SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	shackled	shackle	VERB	VBN	V.PTCP;PST;PASS;V	8	conj	5:acl:relcl|8:conj:and	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	made	make	VERB	VBN	V.PTCP;PST;PASS;V	8	conj	5:acl:relcl|8:conj:and	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	wear	wear	VERB	VB	V;NFIN	13	xcomp	13:xcomp	_
+16	surgical	surgical	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	masks	mask	NOUN	NNS	N;PL	15	obj	15:obj	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	19:punct	_
+19	earmuffs	earmuff	NOUN	NNS	N;PL	17	conj	15:obj|17:conj:and	SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	22:punct	_
+21	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	blindfolds	blindfold	NOUN	NNS	N;PL	17	conj	15:obj|17:conj:and	_
+23	during	during	ADP	IN	ADP	25	case	25:case	_
+24	their	their	PRON	PRP$	PRO;3;PL;GEN	25	nmod:poss	25:nmod:poss	_
+25	flight	flight	NOUN	NN	N;SG	15	obl	15:obl:during	_
+26	to	to	ADP	IN	ADP	27	case	27:case	_
+27	Guantanamo	Guantanamo	PROPN	NNP	PROPN;SG	25	nmod	25:nmod:to	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0176
+# text = 32 - Number of confirmed suicide attempts by Guantanamo Bay prisoners.
+1	32	32	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	confirmed	confirm	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	suicide	suicide	NOUN	NN	N;SG	7	compound	7:compound	_
+7	attempts	attempt	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+8	by	by	ADP	IN	ADP	11	case	11:case	_
+9	Guantanamo	Guantanamo	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+10	Bay	Bay	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+11	prisoners	prisoner	NOUN	NNS	N;PL	7	nmod	7:nmod:by	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0177
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0057
+# text = 24 - Number of prisoners in mid-2003 being monitored by psychiatrists in Guantanamo's new mental ward.
+1	24	24	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	prisoners	prisoner	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	in	in	ADP	IN	ADP	7	case	7:case	_
+7	mid-2003	mid-2003	NOUN	NN	N;SG	5	nmod	5:nmod:in	_
+8	being	be	AUX	VBG	V.PTCP;V;PRS	9	aux:pass	9:aux:pass	_
+9	monitored	monitor	VERB	VBN	V.PTCP;PST;PASS;V	5	acl	5:acl	_
+10	by	by	ADP	IN	ADP	11	case	11:case	_
+11	psychiatrists	psychiatrist	NOUN	NNS	N;PL	9	obl:agent	9:obl:agent	_
+12	in	in	ADP	IN	ADP	17	case	17:case	_
+13-14	Guantanamo's	_	_	_	_	_	_	_	_
+13	Guantanamo	Guantanamo	PROPN	NNP	PROPN;SG	17	nmod:poss	17:nmod:poss	_
+14	's	's	PART	POS	PART	13	case	13:case	_
+15	new	new	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	mental	mental	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	ward	ward	NOUN	NN	N;SG	9	obl	9:obl:in	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0178
+# text = A health-conscious president
+1	A	a	DET	DT	DET;INDF	5	det	5:det	_
+2	health	health	NOUN	NN	N;SG	4	obl:npmod	4:obl:npmod	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	2:punct	SpaceAfter=No
+4	conscious	conscious	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	president	president	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0179
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0058
+# text = 43.6m - Number of Americans without health insurance by the end of 2002 (more than 15 per cent of the population).
+1	43.6	43.6	NUM	CD	NUM	2	compound	2:compound	SpaceAfter=No
+2	m	million	NUM	CD	NUM	0	root	0:root	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Number	number	NOUN	NN	N;SG	2	appos	2:appos	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	Americans	American	PROPN	NNPS	PROPN;PL	4	nmod	4:nmod:of	_
+7	without	without	ADP	IN	ADP	9	case	9:case	_
+8	health	health	NOUN	NN	N;SG	9	compound	9:compound	_
+9	insurance	insurance	NOUN	NN	N;SG	6	nmod	6:nmod:without	_
+10	by	by	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	end	end	NOUN	NN	N;SG	4	nmod	4:nmod:by	_
+13	of	of	ADP	IN	ADP	14	case	14:case	_
+14	2002	2002	NUM	CD	NUM	12	nmod	12:nmod:of	_
+15	(	(	PUNCT	-LRB-	_	20	punct	20:punct	SpaceAfter=No
+16	more	more	ADJ	JJR	ADJ;CMPR	20	advmod	20:advmod	_
+17	than	than	ADP	IN	ADP	16	fixed	16:fixed	_
+18	15	15	NUM	CD	NUM	20	nummod	20:nummod	_
+19	per	per	NOUN	NN	N;SG	20	compound	20:compound	_
+20	cent	cent	NOUN	NN	N;SG	4	appos	4:appos	_
+21	of	of	ADP	IN	ADP	23	case	23:case	_
+22	the	the	DET	DT	DEF;DET	23	det	23:det	_
+23	population	population	NOUN	NN	N;SG	20	nmod	20:nmod:of	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	20	punct	20:punct	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0180
+# text = 2.4m - Number of Americans who lost their health insurance during Bush's first year in office.
+1	2.4	2.4	NUM	CD	NUM	2	compound	2:compound	SpaceAfter=No
+2	m	million	NUM	CD	NUM	0	root	0:root	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Number	number	NOUN	NN	N;SG	2	appos	2:appos	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	Americans	American	PROPN	NNPS	PROPN;PL	4	nmod	4:nmod:of|8:nsubj	_
+7	who	who	PRON	WP	PRO	8	nsubj	6:ref	_
+8	lost	lose	VERB	VBD	FIN;V;IND;3;PST;PL	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj
+9	their	their	PRON	PRP$	PRO;3;PL;GEN	11	nmod:poss	11:nmod:poss	_
+10	health	health	NOUN	NN	N;SG	11	compound	11:compound	_
+11	insurance	insurance	NOUN	NN	N;SG	8	obj	8:obj	_
+12	during	during	ADP	IN	ADP	16	case	16:case	_
+13-14	Bush's	_	_	_	_	_	_	_	_
+13	Bush	Bush	PROPN	NNP	PROPN;SG	16	nmod:poss	16:nmod:poss	_
+14	's	's	PART	POS	PART	13	case	13:case	_
+15	first	first	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	year	year	NOUN	NN	N;SG	8	obl	8:obl:during	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	office	office	NOUN	NN	N;SG	16	nmod	16:nmod:in	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0181
+# text = Image booster for the US
+1	Image	image	NOUN	NN	N;SG	2	compound	2:compound	_
+2	booster	booster	NOUN	NN	N;SG	0	root	0:root	_
+3	for	for	ADP	IN	ADP	5	case	5:case	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	US	US	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:for	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0182
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0059
+# text = 2,500- Number of public-diplomacy officers employed by the State Department to further the image of the US abroad in 1991.
+1	2,500	2500	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	public	public	ADJ	JJ	ADJ	7	amod	7:amod	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	diplomacy	diplomacy	NOUN	NN	N;SG	8	compound	8:compound	_
+8	officers	officer	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	employed	employ	VERB	VBN	V.PTCP;PST;PASS;V	8	acl	8:acl	_
+10	by	by	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	State	State	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	Department	Department	PROPN	NNP	PROPN;SG	9	obl:agent	9:obl:agent	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	further	further	VERB	VB	V;NFIN	9	advcl	9:advcl:to	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	image	image	NOUN	NN	N;SG	15	obj	15:obj	_
+18	of	of	ADP	IN	ADP	20	case	20:case	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	US	US	PROPN	NNP	PROPN;SG	17	nmod	17:nmod:of	_
+21	abroad	abroad	ADV	RB	ADV	17	advmod	17:advmod	_
+22	in	in	ADP	IN	ADP	23	case	23:case	_
+23	1991	1991	NUM	CD	NUM	15	obl	15:obl:in	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0183
+# text = 1,200 - Number of public-diplomacy officers employed by the State Department to further US image abroad in 2004.
+1	1,200	1200	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	public	public	ADJ	JJ	ADJ	7	amod	7:amod	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	diplomacy	diplomacy	NOUN	NN	N;SG	8	compound	8:compound	_
+8	officers	officer	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	employed	employ	VERB	VBN	V.PTCP;PST;PASS;V	8	acl	8:acl	_
+10	by	by	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	State	State	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	Department	Department	PROPN	NNP	PROPN;SG	9	obl:agent	9:obl:agent	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	further	further	VERB	VB	V;NFIN	9	advcl	9:advcl:to	_
+16	US	US	PROPN	NNP	PROPN;SG	17	compound	17:compound	_
+17	image	image	NOUN	NN	N;SG	15	obj	15:obj	_
+18	abroad	abroad	ADV	RB	ADV	17	advmod	17:advmod	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	2004	2004	NUM	CD	NUM	15	obl	15:obl:in	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0184
+# text = 4- Rank of the United States among countries considered to be the greatest threats to world peace according to a 2003 Pew Global Attitudes study (Israel, Iran, and North Korea were considered more dangerous; Iraq was considered less dangerous).
+1	4	4	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Rank	rank	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	United	United	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	States	State	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+8	among	among	ADP	IN	ADP	9	case	9:case	_
+9	countries	country	NOUN	NNS	N;PL	3	nmod	3:nmod:among	_
+10	considered	consider	VERB	VBN	V.PTCP;PST;PASS;V	9	acl	9:acl	_
+11	to	to	PART	TO	PART	15	mark	15:mark	_
+12	be	be	AUX	VB	V;NFIN	15	cop	15:cop	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	greatest	great	ADJ	JJS	ADJ;RL	15	amod	15:amod	_
+15	threats	threat	NOUN	NNS	N;PL	10	xcomp	10:xcomp	_
+16	to	to	ADP	IN	ADP	18	case	18:case	_
+17	world	world	NOUN	NN	N;SG	18	compound	18:compound	_
+18	peace	peace	NOUN	NN	N;SG	15	nmod	15:nmod:to	_
+19	according	accord	VERB	VBG	V;V.PTCP;PRS	26	case	26:case	_
+20	to	to	ADP	IN	ADP	19	fixed	19:fixed	_
+21	a	a	DET	DT	DET;INDF	26	det	26:det	_
+22	2003	2003	NUM	CD	NUM	26	compound	26:compound	_
+23	Pew	Pew	PROPN	NNP	PROPN;SG	25	compound	25:compound	_
+24	Global	Global	ADJ	NNP	ADJ	25	amod	25:amod	_
+25	Attitudes	Attitude	PROPN	NNPS	PROPN;PL	26	compound	26:compound	_
+26	study	study	NOUN	NN	N;SG	15	obl	15:obl:according_to	_
+27	(	(	PUNCT	-LRB-	_	36	punct	36:punct	SpaceAfter=No
+28	Israel	Israel	PROPN	NNP	PROPN;SG	36	nsubj:pass	36:nsubj:pass|38:nsubj:xsubj	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	30:punct	_
+30	Iran	Iran	PROPN	NNP	PROPN;SG	28	conj	28:conj:and|36:nsubj:pass|38:nsubj:xsubj	SpaceAfter=No
+31	,	,	PUNCT	,	_	34	punct	34:punct	_
+32	and	and	CCONJ	CC	CONJ	34	cc	34:cc	_
+33	North	North	PROPN	NNP	PROPN;SG	34	compound	34:compound	_
+34	Korea	Korea	PROPN	NNP	PROPN;SG	28	conj	28:conj:and|36:nsubj:pass|38:nsubj:xsubj	_
+35	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	36	aux:pass	36:aux:pass	_
+36	considered	consider	VERB	VBN	V.PTCP;PST;PASS;V	3	parataxis	3:parataxis	_
+37	more	more	ADV	RBR	ADV;CMPR	38	advmod	38:advmod	_
+38	dangerous	dangerous	ADJ	JJ	ADJ	36	xcomp	36:xcomp	SpaceAfter=No
+39	;	;	PUNCT	,	_	42	punct	42:punct	_
+40	Iraq	Iraq	PROPN	NNP	PROPN;SG	42	nsubj:pass	42:nsubj:pass|44:nsubj:xsubj	_
+41	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	42	aux:pass	42:aux:pass	_
+42	considered	consider	VERB	VBN	V.PTCP;PST;PASS;V	36	conj	36:conj	_
+43	less	less	ADV	RBR	ADV;CMPR	44	advmod	44:advmod	_
+44	dangerous	dangerous	ADJ	JJ	ADJ	42	xcomp	42:xcomp	SpaceAfter=No
+45	)	)	PUNCT	-RRB-	_	36	punct	36:punct	SpaceAfter=No
+46	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0185
+# text = $66b - Amount the United States spent on international aid and diplomacy in 1949.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	66	66	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|9:obj	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	United	United	ADJ	NNP	ADJ	8	amod	8:amod	_
+8	States	State	PROPN	NNPS	PROPN;PL	9	nsubj	9:nsubj	_
+9	spent	spend	VERB	VBD	FIN;V;IND;3;PST;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	international	international	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	aid	aid	NOUN	NN	N;SG	9	obl	9:obl:on	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	diplomacy	diplomacy	NOUN	NN	N;SG	12	conj	9:obl:on|12:conj:and	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	1949	1949	NUM	CD	NUM	9	obl	9:obl:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0186
+# text = $23.8b - Amount the United States spent on international aid and diplomacy in 2002.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	23.8	23.8	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|9:obj	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	United	United	ADJ	NNP	ADJ	8	amod	8:amod	_
+8	States	State	PROPN	NNPS	PROPN;PL	9	nsubj	9:nsubj	_
+9	spent	spend	VERB	VBD	FIN;V;IND;3;PST;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	international	international	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	aid	aid	NOUN	NN	N;SG	9	obl	9:obl:on	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	diplomacy	diplomacy	NOUN	NN	N;SG	12	conj	9:obl:on|12:conj:and	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	2002	2002	NUM	CD	NUM	9	obl	9:obl:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0187
+# text = 85- Percentage of Indonesians who had an unfavourable image of the United States in 2003.
+1	85	85	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Indonesians	Indonesian	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	had	have	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	an	a	DET	DT	DET;INDF	10	det	10:det	_
+9	unfavourable	unfavourable	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	image	image	NOUN	NN	N;SG	7	obj	7:obj	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	United	United	ADJ	NNP	ADJ	14	amod	14:amod	_
+14	States	State	PROPN	NNPS	PROPN;PL	10	nmod	10:nmod:of	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	2003	2003	NUM	CD	NUM	7	obl	7:obl:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0188
+# text = Second-party endorsements
+1	Second	second	ADJ	JJ	ADJ	3	amod	3:amod	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	1	punct	1:punct	SpaceAfter=No
+3	party	party	NOUN	NN	N;SG	4	compound	4:compound	_
+4	endorsements	endorsement	NOUN	NNS	N;PL	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0189
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0060
+# text = 90 - Percentage of Americans who approved of the way Bush was handling his job as president on 26 September 2001.
+1	90	90	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Americans	American	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	approved	approve	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	way	way	NOUN	NN	N;SG	7	obl	7:obl:of|13:obl	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+13	handling	handle	VERB	VBG	V.PTCP;V;PRS	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obl
+14	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	job	job	NOUN	NN	N;SG	13	obj	13:obj	_
+16	as	as	ADP	IN	ADP	17	case	17:case	_
+17	president	president	NOUN	NN	N;SG	15	nmod	15:nmod:as	_
+18	on	on	ADP	IN	ADP	20	case	20:case	_
+19	26	26	NUM	CD	NUM	20	nummod	20:nummod	_
+20	September	September	PROPN	NNP	PROPN;SG	7	obl	7:obl:on	_
+21	2001	2001	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0190
+# text = 67 - Percentage of Americans who approved of the way Bush was handling his job as president on 26 September 2002.
+1	67	67	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Americans	American	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	approved	approve	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	way	way	NOUN	NN	N;SG	7	obl	7:obl:of|13:obl	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+13	handling	handle	VERB	VBG	V.PTCP;V;PRS	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obl
+14	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	job	job	NOUN	NN	N;SG	13	obj	13:obj	_
+16	as	as	ADP	IN	ADP	17	case	17:case	_
+17	president	president	NOUN	NN	N;SG	15	nmod	15:nmod:as	_
+18	on	on	ADP	IN	ADP	20	case	20:case	_
+19	26	26	NUM	CD	NUM	20	nummod	20:nummod	_
+20	September	September	PROPN	NNP	PROPN;SG	7	obl	7:obl:on	_
+21	2002	2002	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0191
+# text = 54 - Percentage of Americans who approved of the way Bush was handling his job as president on 30 September, 2003.
+1	54	54	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Americans	American	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	approved	approve	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	way	way	NOUN	NN	N;SG	7	obl	7:obl:of|13:obl	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+13	handling	handle	VERB	VBG	V.PTCP;V;PRS	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obl
+14	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	job	job	NOUN	NN	N;SG	13	obj	13:obj	_
+16	as	as	ADP	IN	ADP	17	case	17:case	_
+17	president	president	NOUN	NN	N;SG	15	nmod	15:nmod:as	_
+18	on	on	ADP	IN	ADP	20	case	20:case	_
+19	30	30	NUM	CD	NUM	20	nummod	20:nummod	_
+20	September	September	PROPN	NNP	PROPN;SG	7	obl	7:obl:on	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	2003	2003	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0192
+# text = 50 - Percentage of Americans who approved of the way Bush was handling his job as president on 15 October 2003.
+1	50	50	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Americans	American	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	approved	approve	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	way	way	NOUN	NN	N;SG	7	obl	7:obl:of|13:obl	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+13	handling	handle	VERB	VBG	V.PTCP;V;PRS	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obl
+14	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	job	job	NOUN	NN	N;SG	13	obj	13:obj	_
+16	as	as	ADP	IN	ADP	17	case	17:case	_
+17	president	president	NOUN	NN	N;SG	15	nmod	15:nmod:as	_
+18	on	on	ADP	IN	ADP	20	case	20:case	_
+19	15	15	NUM	CD	NUM	20	nummod	20:nummod	_
+20	October	October	PROPN	NNP	PROPN;SG	7	obl	7:obl:on	_
+21	2003	2003	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0193
+# text = 49 - Percentage of Americans who approved of the way Bush was handling his job as president in May 2004.
+1	49	49	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|7:nsubj	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Americans	American	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	who	who	PRON	WP	PRO	7	nsubj	3:ref	_
+7	approved	approve	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	way	way	NOUN	NN	N;SG	7	obl	7:obl:of|13:obl	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux	13:aux	_
+13	handling	handle	VERB	VBG	V.PTCP;V;PRS	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obl
+14	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	job	job	NOUN	NN	N;SG	13	obj	13:obj	_
+16	as	as	ADP	IN	ADP	17	case	17:case	_
+17	president	president	NOUN	NN	N;SG	15	nmod	15:nmod:as	_
+18	in	in	ADP	IN	ADP	19	case	19:case	_
+19	May	May	PROPN	NNP	PROPN;SG	7	obl	7:obl:in	_
+20	2004	2004	NUM	CD	NUM	19	nummod	19:nummod	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0194
+# text = More like the French than he would care to admit
+1	More	more	ADV	RBR	ADV;CMPR	4	advmod	4:advmod	_
+2	like	like	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	French	French	ADJ	JJ	ADJ	0	root	0:root	_
+5	than	than	SCONJ	IN	CONJ	8	mark	8:mark	_
+6	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+7	would	would	AUX	MD	V;FIN	8	aux	8:aux	_
+8	care	care	VERB	VB	V;NFIN	4	advcl	4:advcl:than	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	admit	admit	VERB	VB	V;NFIN	8	xcomp	8:xcomp	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0195
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0061
+# text = 28 - Number of vacation days Bush took in August 2003, the second-longest vacation of any president in US history.
+1	28	28	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	vacation	vacation	NOUN	NN	N;SG	6	compound	6:compound	_
+6	days	day	NOUN	NNS	N;PL	3	nmod	3:nmod:of|8:obj	_
+7	Bush	Bush	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+8	took	take	VERB	VBD	FIN;SG;V;IND;3;PST	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	August	August	PROPN	NNP	PROPN;SG	8	obl	8:obl:in	_
+11	2003	2003	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	17:punct	_
+13	the	the	DET	DT	DEF;DET	17	det	17:det	_
+14	second	second	ADV	RB	ADV	16	advmod	16:advmod	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+16	longest	long	ADJ	JJS	ADJ;RL	17	amod	17:amod	_
+17	vacation	vacation	NOUN	NN	N;SG	3	appos	3:appos	_
+18	of	of	ADP	IN	ADP	20	case	20:case	_
+19	any	any	DET	DT	DET	20	det	20:det	_
+20	president	president	NOUN	NN	N;SG	17	nmod	17:nmod:of	_
+21	in	in	ADP	IN	ADP	23	case	23:case	_
+22	US	US	PROPN	NNP	PROPN;SG	23	compound	23:compound	_
+23	history	history	NOUN	NN	N;SG	17	nmod	17:nmod:in	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0196
+# text = (Record holder Richard Nixon.)
+1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
+2	Record	record	NOUN	NN	N;SG	3	compound	3:compound	_
+3	holder	holder	NOUN	NN	N;SG	0	root	0:root	_
+4	Richard	Richard	PROPN	NNP	PROPN;SG	3	appos	3:appos	_
+5	Nixon	Nixon	PROPN	NNP	PROPN;SG	4	flat	4:flat	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0197
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0062
+# text = 13 - Number of vacation days the average American receives each Year.
+1	13	13	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	vacation	vacation	NOUN	NN	N;SG	6	compound	6:compound	_
+6	days	day	NOUN	NNS	N;PL	3	nmod	3:nmod:of|10:obj	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	average	average	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	American	American	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj	_
+10	receives	receive	VERB	VBZ	FIN;SG;V;PRS;IND;3	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj
+11	each	each	DET	DT	DET	12	det	12:det	_
+12	Year	year	NOUN	NN	N;SG	10	obl:tmod	10:obl:tmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0198
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0063
+# text = 28 - Number of vacation days Bush took in August 2001, the month he received a 6 August Presidential Daily Briefing headed "Osama bin Laden Determined to Strike US Targets."
+1	28	28	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	vacation	vacation	NOUN	NN	N;SG	6	compound	6:compound	_
+6	days	day	NOUN	NNS	N;PL	3	nmod	3:nmod:of|8:obj	_
+7	Bush	Bush	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+8	took	take	VERB	VBD	FIN;SG;V;IND;3;PST	6	acl:relcl	6:acl:relcl	Cxn=rc-red-obj
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	August	August	PROPN	NNP	PROPN;SG	8	obl	8:obl:in	_
+11	2001	2001	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+12	,	,	PUNCT	,	_	14	punct	14:punct	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	month	month	NOUN	NN	N;SG	10	appos	10:appos|16:obl	_
+15	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	16	nsubj	16:nsubj	_
+16	received	receive	VERB	VBD	FIN;SG;V;IND;3;PST	14	acl:relcl	14:acl:relcl	Cxn=rc-red-obl
+17	a	a	DET	DT	DET;INDF	22	det	22:det	_
+18	6	6	NUM	CD	NUM	19	nummod	19:nummod	_
+19	August	August	PROPN	NNP	PROPN;SG	22	compound	22:compound	_
+20	Presidential	presidential	ADJ	JJ	ADJ	22	amod	22:amod	_
+21	Daily	daily	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	Briefing	briefing	NOUN	NN	N;SG	16	obj	16:obj	_
+23	headed	head	VERB	VBN	V.PTCP;PST;PASS;V	22	acl	22:acl	_
+24	"	"	PUNCT	``	_	25	punct	25:punct	SpaceAfter=No
+25	Osama	Osama	PROPN	NNP	PROPN;SG	23	obj	23:obj|28:nsubj:xsubj|30:nsubj:xsubj	_
+26	bin	bin	PROPN	NNP	PROPN;SG	25	flat	25:flat	_
+27	Laden	Laden	PROPN	NNP	PROPN;SG	25	flat	25:flat	_
+28	Determined	determined	ADJ	JJ	ADJ	23	xcomp	23:xcomp	_
+29	to	to	PART	TO	PART	30	mark	30:mark	_
+30	Strike	strike	VERB	VB	V;NFIN	28	xcomp	28:xcomp	_
+31	US	US	PROPN	NNP	PROPN;SG	32	compound	32:compound	_
+32	Targets	target	NOUN	NNS	N;PL	30	obj	30:obj	SpaceAfter=No
+33	.	.	PUNCT	.	_	28	punct	28:punct	SpaceAfter=No
+34	"	"	PUNCT	''	_	28	punct	28:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0199
+# text = 500 - Number of days Bush has spent all or part of his time away from the White House at his ranch in Crawford, Texas, his parents' retreat in Kennebunkport, Maine, or Camp David as of 1 April 2004.
+1	500	500	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	days	day	NOUN	NNS	N;PL	3	nmod	3:nmod:of|8:obl	_
+6	Bush	Bush	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+7	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	8	aux	8:aux	_
+8	spent	spend	VERB	VBN	V.PTCP;PST;V	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+9	all	all	DET	DT	DET	8	obj	8:obj	_
+10	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	part	part	NOUN	NN	N;SG	9	conj	8:obj|9:conj:or	_
+12	of	of	ADP	IN	ADP	14	case	14:case	_
+13	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	14	nmod:poss	14:nmod:poss	_
+14	time	time	NOUN	NN	N;SG	9	nmod	9:nmod:of	_
+15	away	away	ADV	RB	ADV	8	advmod	8:advmod	_
+16	from	from	ADP	IN	ADP	19	case	19:case	_
+17	the	the	DET	DT	DEF;DET	19	det	19:det	_
+18	White	White	ADJ	NNP	ADJ	19	amod	19:amod	_
+19	House	House	PROPN	NNP	PROPN;SG	15	obl	15:obl:from	_
+20	at	at	ADP	IN	ADP	22	case	22:case	_
+21	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	22	nmod:poss	22:nmod:poss	_
+22	ranch	ranch	NOUN	NN	N;SG	8	obl	8:obl:at	_
+23	in	in	ADP	IN	ADP	24	case	24:case	_
+24	Crawford	Crawford	PROPN	NNP	PROPN;SG	22	nmod	22:nmod:in	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	26:punct	_
+26	Texas	Texas	PROPN	NNP	PROPN;SG	24	appos	24:appos	SpaceAfter=No
+27	,	,	PUNCT	,	_	31	punct	31:punct	_
+28	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	29	nmod:poss	29:nmod:poss	_
+29-30	parents'	_	_	_	_	_	_	_	_
+29	parents	parent	NOUN	NNS	N;PL	31	nmod:poss	31:nmod:poss	_
+30	'	's	PART	POS	PART	29	case	29:case	_
+31	retreat	retreat	NOUN	NN	N;SG	22	conj	8:obl:at|22:conj:or	_
+32	in	in	ADP	IN	ADP	33	case	33:case	_
+33	Kennebunkport	Kennebunkport	PROPN	NNP	PROPN;SG	31	nmod	31:nmod:in	SpaceAfter=No
+34	,	,	PUNCT	,	_	35	punct	35:punct	_
+35	Maine	Maine	PROPN	NNP	PROPN;SG	33	appos	33:appos	SpaceAfter=No
+36	,	,	PUNCT	,	_	39	punct	39:punct	_
+37	or	or	CCONJ	CC	CONJ	39	cc	39:cc	_
+38	Camp	Camp	PROPN	NNP	PROPN;SG	39	compound	39:compound	_
+39	David	David	PROPN	NNP	PROPN;SG	22	conj	8:obl:at|22:conj:or	_
+40	as	as	ADP	IN	ADP	43	case	43:case	_
+41	of	of	ADP	IN	ADP	40	fixed	40:fixed	_
+42	1	1	NUM	CD	NUM	43	nummod	43:nummod	_
+43	April	April	PROPN	NNP	PROPN;SG	8	obl	8:obl:as_of	_
+44	2004	2004	NUM	CD	NUM	43	nummod	43:nummod	SpaceAfter=No
+45	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0200
+# text = No fool when it comes to the press
+1	No	no	DET	DT	DET	2	det	2:det	_
+2	fool	fool	NOUN	NN	N;SG	0	root	0:root	_
+3	when	when	ADV	WRB	ADV	5	advmod	5:advmod	_
+4	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	5	nsubj	5:nsubj	_
+5	comes	come	VERB	VBZ	FIN;SG;V;PRS;IND;3	2	advcl	2:advcl:when	_
+6	to	to	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	press	press	NOUN	NN	N;SG	5	obl	5:obl:to	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0201
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0064
+# text = 11 - Number of press conferences during his first three years in office in which Bush referred to questions as being "trick" ones.
+1	11	11	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	press	press	NOUN	NN	N;SG	6	compound	6:compound	_
+6	conferences	conference	NOUN	NNS	N;PL	3	nmod	3:nmod:of|17:obl:of	_
+7	during	during	ADP	IN	ADP	11	case	11:case	_
+8	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	11	nmod:poss	11:nmod:poss	_
+9	first	first	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	three	three	NUM	CD	NUM	11	nummod	11:nummod	_
+11	years	year	NOUN	NNS	N;PL	6	nmod	6:nmod:during	_
+12	in	in	ADP	IN	ADP	13	case	13:case	_
+13	office	office	NOUN	NN	N;SG	11	nmod	11:nmod:in	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	which	which	PRON	WDT	PRO	17	obl	6:ref	_
+16	Bush	Bush	PROPN	NNP	PROPN;SG	17	nsubj	17:nsubj	_
+17	referred	refer	VERB	VBD	FIN;SG;V;IND;3;PST	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-obl-pfront
+18	to	to	ADP	IN	ADP	19	case	19:case	_
+19	questions	question	NOUN	NNS	N;PL	17	obl	17:obl:to	_
+20	as	as	SCONJ	IN	CONJ	25	mark	25:mark	_
+21	being	be	AUX	VBG	V.PTCP;V;PRS	25	cop	25:cop	_
+22	"	"	PUNCT	``	_	23	punct	23:punct	SpaceAfter=No
+23	trick	trick	NOUN	NN	N;SG	25	compound	25:compound	SpaceAfter=No
+24	"	"	PUNCT	''	_	23	punct	23:punct	_
+25	ones	one	NOUN	NNS	N;PL	17	advcl	17:advcl:as	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	1:punct	_
+

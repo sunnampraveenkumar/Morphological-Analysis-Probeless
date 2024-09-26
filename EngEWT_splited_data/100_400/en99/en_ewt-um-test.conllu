@@ -1,0 +1,58 @@
+# sent_id = email-enronsent29_02-0019
+# newpar id = email-enronsent29_02-p0009
+# text = I'm free any day but Tuesday.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	cop	3:cop	_
+3	free	free	ADJ	JJ	ADJ	0	root	0:root	_
+4	any	any	DET	DT	DET	5	det	5:det	_
+5	day	day	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod	_
+6	but	but	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Tuesday	Tuesday	PROPN	NNP	SG;PROPN	5	conj	3:obl:tmod|5:conj:but	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent29_02-0020
+# text = I better pass on the Comets game.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	better	well	ADV	RBR	ADV;CMPR	3	advmod	3:advmod	_
+3	pass	pass	VERB	VB	NFIN;V	0	root	0:root	_
+4	on	on	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	Comets	Comet	PROPN	NNPS	PROPN;PL	7	compound	7:compound	_
+7	game	game	NOUN	NN	SG;N	3	obl	3:obl:on	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent29_02-0021
+# text = My weekends seem to be taken up with condo matters, house hunting.
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	2	nmod:poss	2:nmod:poss	_
+2	weekends	weekend	NOUN	NNS	PL;N	3	nsubj	3:nsubj|6:nsubj:xsubj	_
+3	seem	seem	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	to	to	PART	TO	PART	6	mark	6:mark	_
+5	be	be	AUX	VB	NFIN;V	6	aux:pass	6:aux:pass	_
+6	taken	take	VERB	VBN	PASS;PST;V;V.PTCP	3	xcomp	3:xcomp	_
+7	up	up	ADP	RP	ADP	6	compound:prt	6:compound:prt	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	condo	condo	NOUN	NN	SG;N	10	compound	10:compound	_
+10	matters	matter	NOUN	NNS	PL;N	6	obl	6:obl:with	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	house	house	NOUN	NN	SG;N	13	compound	13:compound	_
+13	hunting	hunting	NOUN	NN	SG;N	10	appos	10:appos	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent29_02-0022
+# text = Thank you though.
+1	Thank	thank	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	you	you	PRON	PRP	2;ACC;PRO	1	obj	1:obj	_
+3	though	though	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent29_02-0023
+# text = Are you free for lunch today.
+1	Are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	3	cop	3:cop	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	free	free	ADJ	JJ	ADJ	0	root	0:root	_
+4	for	for	ADP	IN	ADP	5	case	5:case	_
+5	lunch	lunch	NOUN	NN	SG;N	3	obl	3:obl:for	_
+6	today	today	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+

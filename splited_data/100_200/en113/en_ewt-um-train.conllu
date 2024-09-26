@@ -1,0 +1,1510 @@
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0047
+# text = 0 - Number of times Bush mentioned Osama bin Laden in his three State of the Union addresses.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	times	time	NOUN	NNS	N;PL	3	nmod	3:nmod:of|7:obl	_
+6	Bush	Bush	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+7	mentioned	mention	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+8	Osama	Osama	PROPN	NNP	PROPN;SG	7	obj	7:obj	_
+9	bin	bin	PROPN	NNP	PROPN;SG	8	flat	8:flat	_
+10	Laden	Laden	PROPN	NNP	PROPN;SG	8	flat	8:flat	_
+11	in	in	ADP	IN	ADP	18	case	18:case	_
+12	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	18	nmod:poss	18:nmod:poss	_
+13	three	three	NUM	CD	NUM	18	nummod	18:nummod	_
+14	State	state	NOUN	NN	N;SG	18	compound	18:compound	_
+15	of	of	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	Union	union	NOUN	NN	N;SG	14	nmod	14:nmod:of	_
+18	addresses	address	NOUN	NNS	N;PL	7	obl	7:obl:in	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0048
+# text = 73 - Number of times that Bush mentioned terrorism or terrorists in his three State of the Union addresses.
+1	73	73	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	times	time	NOUN	NNS	N;PL	3	nmod	3:nmod:of|8:obl:npmod	_
+6	that	that	PRON	WDT	PRO	8	obl:npmod	5:ref	_
+7	Bush	Bush	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+8	mentioned	mention	VERB	VBD	FIN;V;IND;3;PST;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obl:npmod
+9	terrorism	terrorism	NOUN	NN	N;SG	8	obj	8:obj	_
+10	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	terrorists	terrorist	NOUN	NNS	N;PL	9	conj	8:obj|9:conj:or	_
+12	in	in	ADP	IN	ADP	19	case	19:case	_
+13	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	19	nmod:poss	19:nmod:poss	_
+14	three	three	NUM	CD	NUM	19	nummod	19:nummod	_
+15	State	state	NOUN	NN	N;SG	19	compound	19:compound	_
+16	of	of	ADP	IN	ADP	18	case	18:case	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	Union	union	NOUN	NN	N;SG	15	nmod	15:nmod:of	_
+19	addresses	address	NOUN	NNS	N;PL	8	obl	8:obl:in	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0049
+# text = 83 - Number of times Bush mentioned Saddam, Iraq, or regime (as in change) in his three State of the Union addresses.
+1	83	83	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	times	time	NOUN	NNS	N;PL	3	nmod	3:nmod:of|7:obl	_
+6	Bush	Bush	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+7	mentioned	mention	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+8	Saddam	Saddam	PROPN	NNP	PROPN;SG	7	obj	7:obj	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	Iraq	Iraq	PROPN	NNP	PROPN;SG	8	conj	7:obj|8:conj:or	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	or	or	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	regime	regime	NOUN	NN	N;SG	8	conj	7:obj|8:conj:or	_
+14	(	(	PUNCT	-LRB-	_	17	punct	17:punct	SpaceAfter=No
+15	as	as	ADP	IN	ADP	17	case	17:case	_
+16	in	in	ADP	IN	ADP	15	fixed	15:fixed	_
+17	change	change	NOUN	NN	N;SG	13	nmod	13:nmod:as_in	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
+19	in	in	ADP	IN	ADP	26	case	26:case	_
+20	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	26	nmod:poss	26:nmod:poss	_
+21	three	three	NUM	CD	NUM	26	nummod	26:nummod	_
+22	State	state	NOUN	NN	N;SG	26	compound	26:compound	_
+23	of	of	ADP	IN	ADP	25	case	25:case	_
+24	the	the	DET	DT	DEF;DET	25	det	25:det	_
+25	Union	union	NOUN	NN	N;SG	22	nmod	22:nmod:of	_
+26	addresses	address	NOUN	NNS	N;PL	7	obl	7:obl:in	SpaceAfter=No
+27	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0050
+# text = $1m - Estimated value of a painting the Bush Presidential Library in College Station, Texas, received from Prince Bandar, Saudi Arabia's ambassador to the United States and Bush family friend.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	1	1	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	6	punct	6:punct	_
+5	Estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	6	amod	6:amod	_
+6	value	value	NOUN	NN	N;SG	1	appos	1:appos	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	a	a	DET	DT	DET;INDF	9	det	9:det	_
+9	painting	painting	NOUN	NN	N;SG	6	nmod	6:nmod:of|20:obj	_
+10	the	the	DET	DT	DEF;DET	13	det	13:det	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+12	Presidential	Presidential	ADJ	NNP	ADJ	13	amod	13:amod	_
+13	Library	Library	PROPN	NNP	PROPN;SG	20	nsubj	20:nsubj	_
+14	in	in	ADP	IN	ADP	16	case	16:case	_
+15	College	College	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+16	Station	Station	PROPN	NNP	PROPN;SG	13	nmod	13:nmod:in	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	Texas	Texas	PROPN	NNP	PROPN;SG	16	appos	16:appos	SpaceAfter=No
+19	,	,	PUNCT	,	_	13	punct	13:punct	_
+20	received	receive	VERB	VBD	FIN;SG;V;IND;3;PST	9	acl:relcl	9:acl:relcl	Cxn=rc-red-obj
+21	from	from	ADP	IN	ADP	23	case	23:case	_
+22	Prince	Prince	PROPN	NNP	PROPN;SG	23	compound	23:compound	_
+23	Bandar	Bandar	PROPN	NNP	PROPN;SG	20	obl	20:obl:from	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	28:punct	_
+25	Saudi	Saudi	ADJ	NNP	ADJ	26	amod	26:amod	_
+26-27	Arabia's	_	_	_	_	_	_	_	_
+26	Arabia	Arabia	PROPN	NNP	PROPN;SG	28	nmod:poss	28:nmod:poss	_
+27	's	's	PART	POS	PART	26	case	26:case	_
+28	ambassador	ambassador	NOUN	NN	N;SG	23	appos	23:appos	_
+29	to	to	ADP	IN	ADP	32	case	32:case	_
+30	the	the	DET	DT	DEF;DET	32	det	32:det	_
+31	United	United	ADJ	NNP	ADJ	32	amod	32:amod	_
+32	States	State	PROPN	NNPS	PROPN;PL	28	nmod	28:nmod:to	_
+33	and	and	CCONJ	CC	CONJ	36	cc	36:cc	_
+34	Bush	Bush	PROPN	NNP	PROPN;SG	36	compound	36:compound	_
+35	family	family	NOUN	NN	N;SG	36	compound	36:compound	_
+36	friend	friend	NOUN	NN	N;SG	28	conj	23:appos|28:conj:and	SpaceAfter=No
+37	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0051
+# text = 0 - Number of times Bush mentioned Saudi Arabia in his three State of the Union addresses.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	times	time	NOUN	NNS	N;PL	3	nmod	3:nmod:of|7:obl	_
+6	Bush	Bush	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+7	mentioned	mention	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+8	Saudi	Saudi	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Arabia	Arabia	PROPN	NNP	PROPN;SG	7	obj	7:obj	_
+10	in	in	ADP	IN	ADP	17	case	17:case	_
+11	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	17	nmod:poss	17:nmod:poss	_
+12	three	three	NUM	CD	NUM	17	nummod	17:nummod	_
+13	State	state	NOUN	NN	N;SG	17	compound	17:compound	_
+14	of	of	ADP	IN	ADP	16	case	16:case	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	Union	union	NOUN	NN	N;SG	13	nmod	13:nmod:of	_
+17	addresses	address	NOUN	NNS	N;PL	7	obl	7:obl:in	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0052
+# text = 1,700- Percentage increase between 2001 and 2002 of Saudi Arabian spending on public relations in the United States.
+1	1,700	1700	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	4	compound	4:compound	_
+4	increase	increase	NOUN	NN	N;SG	1	appos	1:appos	_
+5	between	between	ADP	IN	ADP	6	case	6:case	_
+6	2001	2001	NUM	CD	NUM	4	nmod	4:nmod:between	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	2002	2002	NUM	CD	NUM	6	conj	4:nmod:between|6:conj:and	_
+9	of	of	ADP	IN	ADP	12	case	12:case	_
+10	Saudi	Saudi	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	Arabian	Arabian	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	spending	spending	NOUN	NN	N;SG	4	nmod	4:nmod:of	_
+13	on	on	ADP	IN	ADP	15	case	15:case	_
+14	public	public	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	relations	relation	NOUN	NNS	N;PL	12	nmod	12:nmod:on	_
+16	in	in	ADP	IN	ADP	19	case	19:case	_
+17	the	the	DET	DT	DEF;DET	19	det	19:det	_
+18	United	United	ADJ	NNP	ADJ	19	amod	19:amod	_
+19	States	State	PROPN	NNPS	PROPN;PL	15	nmod	15:nmod:in	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0053
+# text = 79 - Percentage of the 11 September hijackers who came from Saudi Arabia.
+1	79	79	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|10:nsubj	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5	the	the	DET	DT	DEF;DET	8	det	8:det	_
+6	11	11	NUM	CD	NUM	7	nummod	7:nummod	_
+7	September	September	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	hijackers	hijacker	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	who	who	PRON	WP	PRO	10	nsubj	3:ref	_
+10	came	come	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+11	from	from	ADP	IN	ADP	13	case	13:case	_
+12	Saudi	Saudi	ADJ	NNP	ADJ	13	amod	13:amod	_
+13	Arabia	Arabia	PROPN	NNP	PROPN;SG	10	obl	10:obl:from	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0054
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0010
+# text = 3 = Number of 11 September hijackers whose entry visas came through special US-Saudi "Visa Express" programme.
+1	3	3	NUM	CD	NUM	0	root	0:root	_
+2	=	=	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	11	11	NUM	CD	NUM	6	nummod	6:nummod	_
+6	September	September	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	hijackers	hijacker	NOUN	NNS	N;PL	3	nmod	3:nmod:of|10:nmod:poss	_
+8	whose	whose	PRON	WP$	PRO	10	nmod:poss	7:ref	_
+9	entry	entry	NOUN	NN	N;SG	10	compound	10:compound	_
+10	visas	visa	NOUN	NNS	N;PL	11	nsubj	11:nsubj	_
+11	came	come	VERB	VBD	FIN;V;IND;3;PST;PL	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nmod:poss_nsubj
+12	through	through	ADP	IN	ADP	21	case	21:case	_
+13	special	special	ADJ	JJ	ADJ	21	amod	21:amod	_
+14	US	US	PROPN	NNP	PROPN;SG	21	compound	21:compound	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+16	Saudi	Saudi	ADJ	JJ	ADJ	14	amod	14:amod	_
+17	"	"	PUNCT	``	_	19	punct	19:punct	SpaceAfter=No
+18	Visa	Visa	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+19	Express	Express	PROPN	NNP	PROPN;SG	21	compound	21:compound	SpaceAfter=No
+20	"	"	PUNCT	''	_	19	punct	19:punct	_
+21	programme	programme	NOUN	NN	N;SG	11	obl	11:obl:through	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0055
+# text = 140 - Number of Saudis, including members of the Bin Laden family, evacuated from United States almost immediately after 11 September.
+1	140	140	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Saudis	Saudi	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	including	include	VERB	VBG	V.PTCP;V;PRS	8	case	8:case	_
+8	members	member	NOUN	NNS	N;PL	5	nmod	5:nmod:including	_
+9	of	of	ADP	IN	ADP	13	case	13:case	_
+10	the	the	DET	DT	DEF;DET	13	det	13:det	_
+11	Bin	Bin	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+12	Laden	Laden	PROPN	NNP	PROPN;SG	11	flat	11:flat	_
+13	family	family	NOUN	NN	N;SG	8	nmod	8:nmod:of	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	evacuated	evacuate	VERB	VBN	V.PTCP;PST;PASS;V	5	acl	5:acl	_
+16	from	from	ADP	IN	ADP	18	case	18:case	_
+17	United	United	ADJ	NNP	ADJ	18	amod	18:amod	_
+18	States	State	PROPN	NNPS	PROPN;PL	15	obl	15:obl:from	_
+19	almost	almost	ADV	RB	ADV	20	advmod	20:advmod	_
+20	immediately	immediately	ADV	RB	ADV	23	advmod	23:advmod	_
+21	after	after	ADP	IN	ADP	23	case	23:case	_
+22	11	11	NUM	CD	NUM	23	nummod	23:nummod	_
+23	September	September	PROPN	NNP	PROPN;SG	15	obl	15:obl:after	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0056
+# text = 14 - Number of Immigration and Naturalisation Service (INS) agents assigned to track down 1,200 known illegal immigrants in the United States from countries where al-Qa'ida is active.
+1	14	14	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	12	case	12:case	_
+5	Immigration	Immigration	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Naturalisation	Naturalisation	PROPN	NNP	PROPN;SG	5	conj	5:conj:and|8:compound	_
+8	Service	Service	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+10	INS	INS	PROPN	NNP	PROPN;SG	8	appos	8:appos	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+12	agents	agent	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+13	assigned	assign	VERB	VBN	V.PTCP;PST;PASS;V	12	acl	12:acl	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	track	track	VERB	VB	V;NFIN	13	xcomp	13:xcomp	_
+16	down	down	ADP	RP	ADP	15	compound:prt	15:compound:prt	_
+17	1,200	1200	NUM	CD	NUM	20	nummod	20:nummod	_
+18	known	know	VERB	VBN	V.PTCP;PST;PASS;V	20	amod	20:amod	_
+19	illegal	illegal	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	immigrants	immigrant	NOUN	NNS	N;PL	15	obj	15:obj	_
+21	in	in	ADP	IN	ADP	24	case	24:case	_
+22	the	the	DET	DT	DEF;DET	24	det	24:det	_
+23	United	United	ADJ	NNP	ADJ	24	amod	24:amod	_
+24	States	State	PROPN	NNPS	PROPN;PL	20	nmod	20:nmod:in	_
+25	from	from	ADP	IN	ADP	26	case	26:case	_
+26	countries	country	NOUN	NNS	N;PL	20	nmod	20:nmod:from|32:obl	_
+27	where	where	ADV	WRB	ADV	32	advmod	26:ref	_
+28	al	al	PROPN	NNP	PROPN;SG	30	compound	30:compound	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	28	punct	28:punct	SpaceAfter=No
+30	Qa'ida	Qa'ida	PROPN	NNP	PROPN;SG	32	nsubj	32:nsubj	_
+31	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	32	cop	32:cop	_
+32	active	active	ADJ	JJ	ADJ	26	acl:relcl	26:acl:relcl	Cxn=rc-wh-obl|SpaceAfter=No
+33	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0057
+# text = $3m - Amount the White House was willing to grant the 9/11 Commission to investigate the 11 September attacks.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	3	3	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|10:obl	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	White	White	ADJ	NNP	ADJ	8	amod	8:amod	_
+8	House	House	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+9	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	10	cop	10:cop	_
+10	willing	willing	ADJ	JJ	ADJ	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	grant	grant	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	9/11	9/11	NUM	NNP	NUM	15	compound	15:compound	_
+15	Commission	commission	NOUN	NN	N;SG	12	obj	12:obj	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	investigate	investigate	VERB	VB	V;NFIN	12	advcl	12:advcl:to	_
+18	the	the	DET	DT	DEF;DET	21	det	21:det	_
+19	11	11	NUM	CD	NUM	20	nummod	20:nummod	_
+20	September	September	PROPN	NNP	PROPN;SG	21	compound	21:compound	_
+21	attacks	attack	NOUN	NNS	N;PL	17	obj	17:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0058
+# text = $0 - Amount approved by George Bush to hire more INS special agents.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	0	0	NUM	CD	NUM	1	nummod	1:nummod	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Amount	Amount	PROPN	NNP	PROPN;SG	1	appos	1:appos	_
+5	approved	approve	VERB	VBN	V.PTCP;PST;PASS;V	4	acl	4:acl	_
+6	by	by	ADP	IN	ADP	7	case	7:case	_
+7	George	George	PROPN	NNP	PROPN;SG	5	obl:agent	5:obl:agent	_
+8	Bush	Bush	PROPN	NNP	PROPN;SG	7	flat	7:flat	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	hire	hire	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+11	more	more	ADJ	JJR	ADJ;CMPR	14	amod	14:amod	_
+12	INS	INS	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+13	special	special	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	agents	agent	NOUN	NNS	N;PL	10	obj	10:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0059
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0011
+# text = $10m- Amount Bush cut from the INS's existing terrorism budget.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	10	10	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	SpaceAfter=No
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|7:obj	_
+6	Bush	Bush	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+7	cut	cut	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+8	from	from	ADP	IN	ADP	14	case	14:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10-11	INS's	_	_	_	_	_	_	_	_
+10	INS	INS	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+11	's	's	PART	POS	PART	10	case	10:case	_
+12	existing	exist	VERB	VBG	V.MSDR;V	14	amod	14:amod	_
+13	terrorism	terrorism	NOUN	NN	N;SG	14	compound	14:compound	_
+14	budget	budget	NOUN	NN	N;SG	7	obl	7:obl:from	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0060
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0012
+# text = $50m - Amount granted to the commission that looked into the Columbia space shuttle crash.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	50	50	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos	_
+6	granted	grant	VERB	VBN	V.PTCP;PST;PASS;V	5	acl	5:acl	_
+7	to	to	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	commission	commission	NOUN	NN	N;SG	6	obl	6:obl:to|11:nsubj	_
+10	that	that	PRON	WDT	PRO	11	nsubj	9:ref	_
+11	looked	look	VERB	VBD	FIN;SG;V;IND;3;PST	9	acl:relcl	9:acl:relcl	Cxn=rc-that-nsubj
+12	into	into	ADP	IN	ADP	17	case	17:case	_
+13	the	the	DET	DT	DEF;DET	17	det	17:det	_
+14	Columbia	Columbia	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+15	space	space	NOUN	NN	N;SG	16	compound	16:compound	_
+16	shuttle	shuttle	NOUN	NN	N;SG	17	compound	17:compound	_
+17	crash	crash	NOUN	NN	N;SG	11	obl	11:obl:into	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0061
+# text = $5m - Amount a 1996 federal commission was given to study legalised gambling.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	5	5	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|11:obl	_
+6	a	a	DET	DT	DET;INDF	9	det	9:det	_
+7	1996	1996	NUM	CD	NUM	9	nummod	9:nummod	_
+8	federal	federal	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	commission	commission	NOUN	NN	N;SG	11	nsubj:pass	11:nsubj:pass	_
+10	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	11	aux:pass	11:aux:pass	_
+11	given	give	VERB	VBN	V.PTCP;PST;PASS;V	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	study	study	VERB	VB	V;NFIN	11	advcl	11:advcl:to	_
+14	legalised	legalise	VERB	VBN	V.PTCP;PST;PASS;V	15	amod	15:amod	_
+15	gambling	gambling	NOUN	NN	N;SG	13	obj	13:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0062
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0013
+# text = 7 - Number of Arabic linguists fired by the US army between mid-August and mid-October 2002 for being gay.
+1	7	7	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	Arabic	Arabic	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	linguists	linguist	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+7	fired	fire	VERB	VBN	V.PTCP;PST;PASS;V	6	acl	6:acl	_
+8	by	by	ADP	IN	ADP	11	case	11:case	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	US	US	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+11	army	army	NOUN	NN	N;SG	7	obl:agent	7:obl:agent	_
+12	between	between	ADP	IN	ADP	13	case	13:case	_
+13	mid-August	mid-August	PROPN	NNP	PROPN;SG	7	obl	7:obl:between	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	mid-October	mid-October	PROPN	NNP	PROPN;SG	13	conj	7:obl:between|13:conj:and	_
+16	2002	2002	NUM	CD	NUM	13	nummod	13:nummod	_
+17	for	for	SCONJ	IN	CONJ	19	mark	19:mark	_
+18	being	be	AUX	VBG	V.PTCP;V;PRS	19	cop	19:cop	_
+19	gay	gay	ADJ	JJ	ADJ	7	advcl	7:advcl:for	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0063
+# text = George Bush: Military man
+1	George	George	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Bush	Bush	PROPN	NNP	PROPN;SG	1	flat	1:flat	SpaceAfter=No
+3	:	:	PUNCT	:	_	5	punct	5:punct	_
+4	Military	military	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	man	man	NOUN	NN	N;SG	1	appos	1:appos	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0064
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0014
+# text = 1972 - Year that Bush walked away from his pilot duties in the Texas National Guard, Nearly two years before his six-year obligation was up.
+1	1972	1972	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Year	year	NOUN	NN	N;SG	1	appos	1:appos|6:obl:npmod	_
+4	that	that	PRON	WDT	PRO	6	obl:npmod	3:ref	_
+5	Bush	Bush	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj	_
+6	walked	walk	VERB	VBD	FIN;SG;V;IND;3;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-that-obl:npmod
+7	away	away	ADV	RB	ADV	6	advmod	6:advmod	_
+8	from	from	ADP	IN	ADP	11	case	11:case	_
+9	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	11	nmod:poss	11:nmod:poss	_
+10	pilot	pilot	NOUN	NN	N;SG	11	compound	11:compound	_
+11	duties	duty	NOUN	NNS	N;PL	7	obl	7:obl:from	_
+12	in	in	ADP	IN	ADP	16	case	16:case	_
+13	the	the	DET	DT	DEF;DET	16	det	16:det	_
+14	Texas	Texas	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+15	National	National	ADJ	NNP	ADJ	16	amod	16:amod	_
+16	Guard	Guard	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:in	SpaceAfter=No
+17	,	,	PUNCT	,	_	28	punct	28:punct	_
+18	Nearly	nearly	ADV	RB	ADV	19	advmod	19:advmod	_
+19	two	two	NUM	CD	NUM	20	nummod	20:nummod	_
+20	years	year	NOUN	NNS	N;PL	28	obl:npmod	28:obl:npmod	_
+21	before	before	SCONJ	IN	CONJ	28	mark	28:mark	_
+22	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	26	nmod:poss	26:nmod:poss	_
+23	six	six	NUM	CD	NUM	25	nummod	25:nummod	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	23:punct	SpaceAfter=No
+25	year	year	NOUN	NN	N;SG	26	compound	26:compound	_
+26	obligation	obligation	NOUN	NN	N;SG	28	nsubj	28:nsubj	_
+27	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	28	cop	28:cop	_
+28	up	up	ADV	RB	ADV	6	advcl	6:advcl:before	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0065
+# text = $3,500 - Reward a group of veterans offered in 2000 for anyone who could confirm Bush's Alabama guard service.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	3,500	3500	NUM	CD	NUM	1	nummod	1:nummod	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Reward	reward	NOUN	NN	N;SG	1	appos	1:appos|9:obj	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	group	group	NOUN	NN	N;SG	9	nsubj	9:nsubj	_
+7	of	of	ADP	IN	ADP	8	case	8:case	_
+8	veterans	veteran	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+9	offered	offer	VERB	VBD	FIN;SG;V;IND;3;PST	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obj
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	2000	2000	NUM	CD	NUM	9	obl	9:obl:in	_
+12	for	for	ADP	IN	ADP	13	case	13:case	_
+13	anyone	anyone	PRON	NN	PRO;SG	9	obl	9:obl:for|16:nsubj	_
+14	who	who	PRON	WP	PRO	16	nsubj	13:ref	_
+15	could	could	AUX	MD	V;FIN	16	aux	16:aux	_
+16	confirm	confirm	VERB	VB	V;NFIN	13	acl:relcl	13:acl:relcl	Cxn=rc-wh-nsubj
+17-18	Bush's	_	_	_	_	_	_	_	_
+17	Bush	Bush	PROPN	NNP	PROPN;SG	21	nmod:poss	21:nmod:poss	_
+18	's	's	PART	POS	PART	17	case	17:case	_
+19	Alabama	Alabama	PROPN	NNP	PROPN;SG	21	compound	21:compound	_
+20	guard	guard	NOUN	NN	N;SG	21	compound	21:compound	_
+21	service	service	NOUN	NN	N;SG	16	obj	16:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0066
+# text = 600-700 - Number of guardsmen who were in Bush's unit during that period.
+1	600	600	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+2	-	-	SYM	IN	_	3	case	3:case	SpaceAfter=No
+3	700	700	NUM	CD	NUM	1	nmod	1:nmod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	guardsmen	guardsman	NOUN	NNS	N;PL	5	nmod	5:nmod:of|13:nsubj	_
+8	who	who	PRON	WP	PRO	13	nsubj	7:ref	_
+9	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	13	cop	13:cop	_
+10	in	in	ADP	IN	ADP	13	case	13:case	_
+11-12	Bush's	_	_	_	_	_	_	_	_
+11	Bush	Bush	PROPN	NNP	PROPN;SG	13	nmod:poss	13:nmod:poss	_
+12	's	's	PART	POS	PART	11	case	11:case	_
+13	unit	unit	NOUN	NN	N;SG	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+14	during	during	ADP	IN	ADP	16	case	16:case	_
+15	that	that	DET	DT	DET;SG	16	det	16:det	_
+16	period	period	NOUN	NN	N;SG	13	obl	13:obl:during	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0067
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0015
+# text = 0 - Number of guardsmen from that period who came forward with information about Bush's guard service.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	guardsmen	guardsman	NOUN	NNS	N;PL	3	nmod	3:nmod:of|10:nsubj	_
+6	from	from	ADP	IN	ADP	8	case	8:case	_
+7	that	that	DET	DT	DET;SG	8	det	8:det	_
+8	period	period	NOUN	NN	N;SG	5	nmod	5:nmod:from	_
+9	who	who	PRON	WP	PRO	10	nsubj	5:ref	_
+10	came	come	VERB	VBD	FIN;V;IND;3;PST;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+11	forward	forward	ADV	RB	ADV	10	advmod	10:advmod	_
+12	with	with	ADP	IN	ADP	13	case	13:case	_
+13	information	information	NOUN	NN	N;SG	10	obl	10:obl:with	_
+14	about	about	ADP	IN	ADP	18	case	18:case	_
+15-16	Bush's	_	_	_	_	_	_	_	_
+15	Bush	Bush	PROPN	NNP	PROPN;SG	18	nmod:poss	18:nmod:poss	_
+16	's	's	PART	POS	PART	15	case	15:case	_
+17	guard	guard	NOUN	NN	N;SG	18	compound	18:compound	_
+18	service	service	NOUN	NN	N;SG	13	nmod	13:nmod:about	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0068
+# text = 0 - Number of minutes that President Bush, Vice-President Dick Cheney, the Defence Secretary, Donald Rumsfeld, the assistant Defence Secretary, Paul Wolfowitz, the former chairman of the Defence Policy Board, Richard Perle, and the White House Chief of Staff, Karl Rove - the main proponents of the war in Iraq -served in combat (combined).
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	minutes	minute	NOUN	NNS	N;PL	3	nmod	3:nmod:of|63:obl:npmod	_
+6	that	that	PRON	WDT	PRO	63	obl:npmod	5:ref	_
+7	President	President	PROPN	NNP	PROPN;SG	63	nsubj	63:nsubj	_
+8	Bush	Bush	PROPN	NNP	PROPN;SG	7	flat	7:flat	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	12:punct	_
+10	Vice	Vice	PROPN	NNP	PROPN;SG	12	compound	12:compound	SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
+12	President	President	PROPN	NNP	PROPN;SG	7	conj	7:conj:and|63:nsubj	_
+13	Dick	Dick	PROPN	NNP	PROPN;SG	12	flat	12:flat	_
+14	Cheney	Cheney	PROPN	NNP	PROPN;SG	12	flat	12:flat	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	Defence	Defence	PROPN	NNP	PROPN;SG	18	compound	18:compound	_
+18	Secretary	Secretary	PROPN	NNP	PROPN;SG	7	conj	7:conj:and|63:nsubj	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	20:punct	_
+20	Donald	Donald	PROPN	NNP	PROPN;SG	18	appos	18:appos	_
+21	Rumsfeld	Rumsfeld	PROPN	NNP	PROPN;SG	20	flat	20:flat	SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	26:punct	_
+23	the	the	DET	DT	DEF;DET	26	det	26:det	_
+24	assistant	assistant	NOUN	NN	N;SG	26	compound	26:compound	_
+25	Defence	defence	NOUN	NN	N;SG	26	compound	26:compound	_
+26	Secretary	Secretary	PROPN	NNP	PROPN;SG	7	conj	7:conj:and|63:nsubj	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
+28	Paul	Paul	PROPN	NNP	PROPN;SG	26	appos	26:appos	_
+29	Wolfowitz	Wolfowitz	PROPN	NNP	PROPN;SG	28	flat	28:flat	SpaceAfter=No
+30	,	,	PUNCT	,	_	33	punct	33:punct	_
+31	the	the	DET	DT	DEF;DET	33	det	33:det	_
+32	former	former	ADJ	JJ	ADJ	33	amod	33:amod	_
+33	chairman	chairman	NOUN	NN	N;SG	7	conj	7:conj:and|63:nsubj	_
+34	of	of	ADP	IN	ADP	38	case	38:case	_
+35	the	the	DET	DT	DEF;DET	38	det	38:det	_
+36	Defence	Defence	PROPN	NNP	PROPN;SG	37	compound	37:compound	_
+37	Policy	Policy	PROPN	NNP	PROPN;SG	38	compound	38:compound	_
+38	Board	Board	PROPN	NNP	PROPN;SG	33	nmod	33:nmod:of	SpaceAfter=No
+39	,	,	PUNCT	,	_	40	punct	40:punct	_
+40	Richard	Richard	PROPN	NNP	PROPN;SG	33	appos	33:appos	_
+41	Perle	Perle	PROPN	NNP	PROPN;SG	40	flat	40:flat	SpaceAfter=No
+42	,	,	PUNCT	,	_	47	punct	47:punct	_
+43	and	and	CCONJ	CC	CONJ	47	cc	47:cc	_
+44	the	the	DET	DT	DEF;DET	47	det	47:det	_
+45	White	White	ADJ	NNP	ADJ	46	amod	46:amod	_
+46	House	House	PROPN	NNP	PROPN;SG	47	compound	47:compound	_
+47	Chief	Chief	PROPN	NNP	PROPN;SG	7	conj	7:conj:and|63:nsubj	_
+48	of	of	ADP	IN	ADP	49	case	49:case	_
+49	Staff	Staff	PROPN	NNP	PROPN;SG	47	nmod	47:nmod:of	SpaceAfter=No
+50	,	,	PUNCT	,	_	51	punct	51:punct	_
+51	Karl	Karl	PROPN	NNP	PROPN;SG	47	appos	47:appos	_
+52	Rove	Rove	PROPN	NNP	PROPN;SG	51	flat	51:flat	_
+53	-	-	PUNCT	,	_	56	punct	56:punct	_
+54	the	the	DET	DT	DEF;DET	56	det	56:det	_
+55	main	main	ADJ	JJ	ADJ	56	amod	56:amod	_
+56	proponents	proponent	NOUN	NNS	N;PL	7	appos	7:appos	_
+57	of	of	ADP	IN	ADP	59	case	59:case	_
+58	the	the	DET	DT	DEF;DET	59	det	59:det	_
+59	war	war	NOUN	NN	N;SG	56	nmod	56:nmod:of	_
+60	in	in	ADP	IN	ADP	61	case	61:case	_
+61	Iraq	Iraq	PROPN	NNP	PROPN;SG	59	nmod	59:nmod:in	_
+62	-	-	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
+63	served	serve	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obl:npmod
+64	in	in	ADP	IN	ADP	65	case	65:case	_
+65	combat	combat	NOUN	NN	N;SG	63	obl	63:obl:in	_
+66	(	(	PUNCT	-LRB-	_	67	punct	67:punct	SpaceAfter=No
+67	combined	combine	VERB	VBN	V.PTCP;PST;PASS;V	63	advcl	63:advcl	SpaceAfter=No
+68	)	)	PUNCT	-RRB-	_	67	punct	67:punct	SpaceAfter=No
+69	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0069
+# text = 0 - Number of principal civilian or Pentagon staff members who planned the war who have immediate family members serving in uniform in Iraq.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	10	case	10:case	_
+5	principal	principal	ADJ	JJ	ADJ	10	amod	10:amod	_
+6	civilian	civilian	ADJ	JJ	ADJ	10	amod	10:amod	_
+7	or	or	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	Pentagon	Pentagon	PROPN	NNP	PROPN;SG	6	conj	6:conj:or|10:amod	_
+9	staff	staff	NOUN	NN	N;SG	10	compound	10:compound	_
+10	members	member	NOUN	NNS	N;PL	3	nmod	3:nmod:of|12:nsubj|16:nsubj	_
+11	who	who	PRON	WP	PRO	12	nsubj	10:ref	_
+12	planned	plan	VERB	VBD	FIN;V;IND;3;PST;PL	10	acl:relcl	10:acl:relcl	Cxn=rc-wh-nsubj
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	war	war	NOUN	NN	N;SG	12	obj	12:obj	_
+15	who	who	PRON	WP	PRO	16	nsubj	10:ref	_
+16	have	have	VERB	VBP	FIN;V;PRS;IND;3;PL	10	acl:relcl	10:acl:relcl	Cxn=rc-wh-nsubj
+17	immediate	immediate	ADJ	JJ	ADJ	19	amod	19:amod	_
+18	family	family	NOUN	NN	N;SG	19	compound	19:compound	_
+19	members	member	NOUN	NNS	N;PL	16	obj	16:obj	_
+20	serving	serve	VERB	VBG	V.MSDR;V	19	acl	19:acl	_
+21	in	in	ADP	IN	ADP	22	case	22:case	_
+22	uniform	uniform	NOUN	NN	N;SG	20	obl	20:obl:in	_
+23	in	in	ADP	IN	ADP	24	case	24:case	_
+24	Iraq	Iraq	PROPN	NNP	PROPN;SG	20	obl	20:obl:in	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0070
+# text = 8 - Number of members of the US Senate and House of Representatives who have a child serving in the military.
+1	8	8	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	members	member	NOUN	NNS	N;PL	3	nmod	3:nmod:of|15:nsubj	_
+6	of	of	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	US	US	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Senate	Senate	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:of	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	House	House	PROPN	NNP	PROPN;SG	9	conj	5:nmod:of|9:conj:and	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	Representatives	Representative	PROPN	NNPS	PROPN;PL	11	nmod	11:nmod:of	_
+14	who	who	PRON	WP	PRO	15	nsubj	5:ref	_
+15	have	have	VERB	VBP	FIN;V;PRS;IND;3;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+16	a	a	DET	DT	DET;INDF	17	det	17:det	_
+17	child	child	NOUN	NN	N;SG	15	obj	15:obj	_
+18	serving	serve	VERB	VBG	V.MSDR;V	17	acl	17:acl	_
+19	in	in	ADP	IN	ADP	21	case	21:case	_
+20	the	the	DET	DT	DEF;DET	21	det	21:det	_
+21	military	military	NOUN	NN	N;SG	18	obl	18:obl:in	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0071
+# text = 10 - Number of days that the Pentagon spent investigating a soldier who had called the President "a joke" in a letter to the editor of a Newspaper.
+1	10	10	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	days	day	NOUN	NNS	N;PL	3	nmod	3:nmod:of|9:obj	_
+6	that	that	PRON	WDT	PRO	9	obj	5:ref	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	Pentagon	Pentagon	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+9	spent	spend	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obj
+10	investigating	investigate	VERB	VBG	V.PTCP;V;PRS	9	advcl	9:advcl	_
+11	a	a	DET	DT	DET;INDF	12	det	12:det	_
+12	soldier	soldier	NOUN	NN	N;SG	10	obj	10:obj|15:nsubj	_
+13	who	who	PRON	WP	PRO	15	nsubj	12:ref	_
+14	had	have	AUX	VBD	FIN;SG;V;IND;3;PST	15	aux	15:aux	_
+15	called	call	VERB	VBN	V.PTCP;PST;V	12	acl:relcl	12:acl:relcl	Cxn=rc-wh-nsubj
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	President	President	NOUN	NN	N;SG	15	obj	15:obj|20:nsubj:xsubj	_
+18	"	"	PUNCT	``	_	20	punct	20:punct	SpaceAfter=No
+19	a	a	DET	DT	DET;INDF	20	det	20:det	_
+20	joke	joke	NOUN	NN	N;SG	15	xcomp	15:xcomp	SpaceAfter=No
+21	"	"	PUNCT	''	_	20	punct	20:punct	_
+22	in	in	ADP	IN	ADP	24	case	24:case	_
+23	a	a	DET	DT	DET;INDF	24	det	24:det	_
+24	letter	letter	NOUN	NN	N;SG	15	obl	15:obl:in	_
+25	to	to	ADP	IN	ADP	27	case	27:case	_
+26	the	the	DET	DT	DEF;DET	27	det	27:det	_
+27	editor	editor	NOUN	NN	N;SG	24	nmod	24:nmod:to	_
+28	of	of	ADP	IN	ADP	30	case	30:case	_
+29	a	a	DET	DT	DET;INDF	30	det	30:det	_
+30	Newspaper	newspaper	NOUN	NN	N;SG	27	nmod	27:nmod:of	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0072
+# text = 46 - Percentage increase in sales between 2001 and 2002 of GI Joe figures (children's toys).
+1	46	46	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	4	compound	4:compound	_
+4	increase	increase	NOUN	NN	N;SG	1	appos	1:appos	_
+5	in	in	ADP	IN	ADP	6	case	6:case	_
+6	sales	sale	NOUN	NNS	N;PL	4	nmod	4:nmod:in	_
+7	between	between	ADP	IN	ADP	8	case	8:case	_
+8	2001	2001	NUM	CD	NUM	4	nmod	4:nmod:between	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	2002	2002	NUM	CD	NUM	8	conj	4:nmod:between|8:conj:and	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	GI	GI	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+13	Joe	Joe	PROPN	NNP	PROPN;SG	12	flat	12:flat	_
+14	figures	figure	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+15	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+16-17	children's	_	_	_	_	_	_	_	_
+16	children	child	NOUN	NNS	N;PL	18	nmod:poss	18:nmod:poss	_
+17	's	's	PART	POS	PART	16	case	16:case	_
+18	toys	toy	NOUN	NNS	N;PL	14	appos	14:appos	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0073
+# text = Ambitious warrior
+1	Ambitious	ambitious	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	warrior	warrior	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0074
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0016
+# text = 2 - Number of Nations that George Bush has attacked and taken over since coming into office.
+1	2	2	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Nations	nation	NOUN	NNS	N;PL	3	nmod	3:nmod:of|10:obj	_
+6	that	that	PRON	WDT	PRO	10	obj	5:ref	_
+7	George	George	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj|12:nsubj	_
+8	Bush	Bush	PROPN	NNP	PROPN;SG	7	flat	7:flat	_
+9	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	10	aux	10:aux	_
+10	attacked	attack	VERB	VBN	V.PTCP;PST;V	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obj
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	taken	take	VERB	VBN	V.PTCP;PST;V	10	conj	5:acl:relcl|10:conj:and	_
+13	over	over	ADP	RP	ADP	12	compound:prt	12:compound:prt	_
+14	since	since	SCONJ	IN	CONJ	15	mark	15:mark	_
+15	coming	come	VERB	VBG	V.PTCP;V;PRS	12	advcl	12:advcl:since	_
+16	into	into	ADP	IN	ADP	17	case	17:case	_
+17	office	office	NOUN	NN	N;SG	15	obl	15:obl:into	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0075
+# text = 130 - Approximate Number of countries (out of a total of 191 recognised by the United Nations) with a US military presence.
+1	130	130	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Approximate	approximate	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	countries	country	NOUN	NNS	N;PL	4	nmod	4:nmod:of	_
+7	(	(	PUNCT	-LRB-	_	11	punct	11:punct	SpaceAfter=No
+8	out	out	ADP	IN	ADP	11	case	11:case	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	a	a	DET	DT	DET;INDF	11	det	11:det	_
+11	total	total	NOUN	NN	N;SG	6	nmod	6:nmod:of	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	191	191	NUM	CD	NUM	11	nmod	11:nmod:of	_
+14	recognised	recognise	VERB	VBN	V.PTCP;PST;PASS;V	11	acl	11:acl	_
+15	by	by	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	United	United	ADJ	NNP	ADJ	18	amod	18:amod	_
+18	Nations	Nation	PROPN	NNPS	PROPN;PL	14	obl:agent	14:obl:agent	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+20	with	with	ADP	IN	ADP	24	case	24:case	_
+21	a	a	DET	DT	DET;INDF	24	det	24:det	_
+22	US	US	PROPN	NNP	PROPN;SG	24	compound	24:compound	_
+23	military	military	ADJ	JJ	ADJ	24	amod	24:amod	_
+24	presence	presence	NOUN	NN	N;SG	6	nmod	6:nmod:with	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0076
+# text = 43 - Percentage of the entire world's military spending that the US spends on defence.
+1	43	43	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|14:obj	_
+4	of	of	ADP	IN	ADP	10	case	10:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	entire	entire	ADJ	JJ	ADJ	7	amod	7:amod	_
+7-8	world's	_	_	_	_	_	_	_	_
+7	world	world	NOUN	NN	N;SG	10	nmod:poss	10:nmod:poss	_
+8	's	's	PART	POS	PART	7	case	7:case	_
+9	military	military	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	spending	spending	NOUN	NN	N;SG	3	nmod	3:nmod:of	_
+11	that	that	PRON	WDT	PRO	14	obj	3:ref	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	US	US	PROPN	NNP	PROPN;SG	14	nsubj	14:nsubj	_
+14	spends	spend	VERB	VBZ	FIN;SG;V;PRS;IND;3	3	acl:relcl	3:acl:relcl	Cxn=rc-that-obj
+15	on	on	ADP	IN	ADP	16	case	16:case	_
+16	defence	defence	NOUN	NN	N;SG	14	obl	14:obl:on	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0077
+# text = (That was in 2002, the year before the invasion of Iraq.)
+1	(	(	PUNCT	-LRB-	_	5	punct	5:punct	SpaceAfter=No
+2	That	that	PRON	DT	PRO;SG	5	nsubj	5:nsubj	_
+3	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	5	cop	5:cop	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	2002	2002	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	year	year	NOUN	NN	N;SG	5	appos	5:appos	_
+9	before	before	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	invasion	invasion	NOUN	NN	N;SG	8	nmod	8:nmod:before	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	Iraq	Iraq	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:of	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0078
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0017
+# text = $401.3b - Proposed military budget for 2004.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	401.3	401.3	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	7	punct	7:punct	_
+5	Proposed	propose	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	military	military	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	budget	budget	NOUN	NN	N;SG	1	appos	1:appos	_
+8	for	for	ADP	IN	ADP	9	case	9:case	_
+9	2004	2004	NUM	CD	NUM	7	nmod	7:nmod:for	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0079
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0018
+# text = Saviour of Iraq
+1	Saviour	saviour	NOUN	NN	N;SG	0	root	0:root	_
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	Iraq	Iraq	PROPN	NNP	PROPN;SG	1	nmod	1:nmod:of	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0080
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0019
+# text = 1983 - The year in which Donald Rumsfeld, Ronald Reagan's special envoy to the Middle East, gave Saddam Hussein a pair of golden spurs as a gift.
+1	1983	1983	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	The	the	DET	DT	DEF;DET	4	det	4:det	_
+4	year	year	NOUN	NN	N;SG	1	appos	1:appos|20:obl	_
+5	in	in	ADP	IN	ADP	6	case	6:case	_
+6	which	which	PRON	WDT	PRO	20	obl	4:ref	_
+7	Donald	Donald	PROPN	NNP	PROPN;SG	20	nsubj	20:nsubj	_
+8	Rumsfeld	Rumsfeld	PROPN	NNP	PROPN;SG	7	flat	7:flat	SpaceAfter=No
+9	,	,	PUNCT	,	_	14	punct	14:punct	_
+10	Ronald	Ronald	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+11-12	Reagan's	_	_	_	_	_	_	_	_
+11	Reagan	Reagan	PROPN	NNP	PROPN;SG	10	flat	10:flat	_
+12	's	's	PART	POS	PART	10	case	10:case	_
+13	special	special	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	envoy	envoy	NOUN	NN	N;SG	7	appos	7:appos	_
+15	to	to	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	Middle	Middle	ADJ	NNP	ADJ	18	amod	18:amod	_
+18	East	East	PROPN	NNP	PROPN;SG	14	nmod	14:nmod:to	SpaceAfter=No
+19	,	,	PUNCT	,	_	7	punct	7:punct	_
+20	gave	give	VERB	VBD	FIN;SG;V;IND;3;PST	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-obl-pfront
+21	Saddam	Saddam	PROPN	NNP	PROPN;SG	20	iobj	20:iobj	_
+22	Hussein	Hussein	PROPN	NNP	PROPN;SG	21	flat	21:flat	_
+23	a	a	DET	DT	DET;INDF	24	det	24:det	_
+24	pair	pair	NOUN	NN	N;SG	20	obj	20:obj	_
+25	of	of	ADP	IN	ADP	27	case	27:case	_
+26	golden	golden	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	spurs	spur	NOUN	NNS	N;PL	24	nmod	24:nmod:of	_
+28	as	as	ADP	IN	ADP	30	case	30:case	_
+29	a	a	DET	DT	DET;INDF	30	det	30:det	_
+30	gift	gift	NOUN	NN	N;SG	20	obl	20:obl:as	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0081
+# text = 2.5 - Number of hours after Rumsfeld learnt that Osama bin Laden was a suspect in the 11 September attacks that he brought up reasons to "hit" Iraq.
+1	2.5	2.5	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	hours	hour	NOUN	NNS	N;PL	3	nmod	3:nmod:of|23:obl:npmod	_
+6	after	after	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	Rumsfeld	Rumsfeld	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+8	learnt	learn	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl	5:acl:after	_
+9	that	that	SCONJ	IN	CONJ	15	mark	15:mark	_
+10	Osama	Osama	PROPN	NNP	PROPN;SG	15	nsubj	15:nsubj	_
+11	bin	bin	PROPN	NNP	PROPN;SG	10	flat	10:flat	_
+12	Laden	Laden	PROPN	NNP	PROPN;SG	10	flat	10:flat	_
+13	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	15	cop	15:cop	_
+14	a	a	DET	DT	DET;INDF	15	det	15:det	_
+15	suspect	suspect	NOUN	NN	N;SG	8	ccomp	8:ccomp	_
+16	in	in	ADP	IN	ADP	20	case	20:case	_
+17	the	the	DET	DT	DEF;DET	20	det	20:det	_
+18	11	11	NUM	CD	NUM	19	nummod	19:nummod	_
+19	September	September	PROPN	NNP	PROPN;SG	20	compound	20:compound	_
+20	attacks	attack	NOUN	NNS	N;PL	15	nmod	15:nmod:in	_
+21	that	that	PRON	WDT	PRO	23	obl:npmod	5:ref	_
+22	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	23	nsubj	23:nsubj	_
+23	brought	bring	VERB	VBD	FIN;SG;V;IND;3;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obl:npmod
+24	up	up	ADP	RP	ADP	23	compound:prt	23:compound:prt	_
+25	reasons	reason	NOUN	NNS	N;PL	23	obj	23:obj	_
+26	to	to	PART	TO	PART	28	mark	28:mark	_
+27	"	"	PUNCT	``	_	28	punct	28:punct	SpaceAfter=No
+28	hit	hit	VERB	VB	V;NFIN	25	acl	25:acl:to	SpaceAfter=No
+29	"	"	PUNCT	''	_	28	punct	28:punct	_
+30	Iraq	Iraq	PROPN	NNP	PROPN;SG	28	obj	28:obj	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0082
+# text = 237 - Minimum number of misleading statements on Iraq made by top Bush administration officials between 2002 and January 2004, according to the California Representative Henry Waxman.
+1	237	237	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Minimum	minimum	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	misleading	misleading	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	statements	statement	NOUN	NNS	N;PL	4	nmod	4:nmod:of	_
+8	on	on	ADP	IN	ADP	9	case	9:case	_
+9	Iraq	Iraq	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:on	_
+10	made	make	VERB	VBN	V.PTCP;PST;PASS;V	7	acl	7:acl	_
+11	by	by	ADP	IN	ADP	15	case	15:case	_
+12	top	top	ADJ	JJ	ADJ	15	amod	15:amod	_
+13	Bush	Bush	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	administration	administration	NOUN	NN	N;SG	15	compound	15:compound	_
+15	officials	official	NOUN	NNS	N;PL	10	obl:agent	10:obl:agent	_
+16	between	between	ADP	IN	ADP	17	case	17:case	_
+17	2002	2002	NUM	CD	NUM	10	obl	10:obl:between	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	January	January	PROPN	NNP	PROPN;SG	17	conj	10:obl:between|17:conj:and	_
+20	2004	2004	NUM	CD	NUM	19	nummod	19:nummod	SpaceAfter=No
+21	,	,	PUNCT	,	_	26	punct	26:punct	_
+22	according	accord	VERB	VBG	V;V.PTCP;PRS	26	case	26:case	_
+23	to	to	ADP	IN	ADP	22	fixed	22:fixed	_
+24	the	the	DET	DT	DEF;DET	26	det	26:det	_
+25	California	California	PROPN	NNP	PROPN;SG	26	compound	26:compound	_
+26	Representative	Representative	PROPN	NNP	PROPN;SG	10	obl	10:obl:according_to	_
+27	Henry	Henry	PROPN	NNP	PROPN;SG	26	appos	26:appos	_
+28	Waxman	Waxman	PROPN	NNP	PROPN;SG	27	flat	27:flat	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0083
+# text = 10m - Estimated number of people worldwide who took to the streets on 21 February 2003, in opposition to the invasion of Iraq, the largest simultaneous protest in world history.
+1	10	10	NUM	CD	NUM	2	compound	2:compound	SpaceAfter=No
+2	m	million	NUM	CD	NUM	0	root	0:root	_
+3	-	-	PUNCT	:	_	5	punct	5:punct	_
+4	Estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	5	amod	5:amod	_
+5	number	number	NOUN	NN	N;SG	2	appos	2:appos	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	people	people	NOUN	NNS	N;PL	5	nmod	5:nmod:of|10:nsubj	_
+8	worldwide	worldwide	ADV	RB	ADV	7	advmod	7:advmod	_
+9	who	who	PRON	WP	PRO	10	nsubj	7:ref	_
+10	took	take	VERB	VBD	FIN;V;IND;3;PST;PL	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	streets	street	NOUN	NNS	N;PL	10	obl	10:obl:to	_
+14	on	on	ADP	IN	ADP	16	case	16:case	_
+15	21	21	NUM	CD	NUM	16	nummod	16:nummod	_
+16	February	February	PROPN	NNP	PROPN;SG	10	obl	10:obl:on	_
+17	2003	2003	NUM	CD	NUM	16	nummod	16:nummod	SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	20:punct	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	opposition	opposition	NOUN	NN	N;SG	10	obl	10:obl:in	_
+21	to	to	ADP	IN	ADP	23	case	23:case	_
+22	the	the	DET	DT	DEF;DET	23	det	23:det	_
+23	invasion	invasion	NOUN	NN	N;SG	20	nmod	20:nmod:to	_
+24	of	of	ADP	IN	ADP	25	case	25:case	_
+25	Iraq	Iraq	PROPN	NNP	PROPN;SG	23	nmod	23:nmod:of	SpaceAfter=No
+26	,	,	PUNCT	,	_	30	punct	30:punct	_
+27	the	the	DET	DT	DEF;DET	30	det	30:det	_
+28	largest	large	ADJ	JJS	ADJ;RL	30	amod	30:amod	_
+29	simultaneous	simultaneous	ADJ	JJ	ADJ	30	amod	30:amod	_
+30	protest	protest	NOUN	NN	N;SG	10	parataxis	10:parataxis	_
+31	in	in	ADP	IN	ADP	33	case	33:case	_
+32	world	world	NOUN	NN	N;SG	33	compound	33:compound	_
+33	history	history	NOUN	NN	N;SG	30	nmod	30:nmod:in	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0084
+# text = $2b - Estimated monthly cost of US military presence in Iraq projected by the White House in April 2003.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	2	2	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	7	punct	7:punct	_
+5	Estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	monthly	monthly	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	cost	cost	NOUN	NN	N;SG	1	appos	1:appos	_
+8	of	of	ADP	IN	ADP	11	case	11:case	_
+9	US	US	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+10	military	military	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	presence	presence	NOUN	NN	N;SG	7	nmod	7:nmod:of	_
+12	in	in	ADP	IN	ADP	13	case	13:case	_
+13	Iraq	Iraq	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:in	_
+14	projected	project	VERB	VBN	V.PTCP;PST;PASS;V	7	acl	7:acl	_
+15	by	by	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	White	White	ADJ	NNP	ADJ	18	amod	18:amod	_
+18	House	House	PROPN	NNP	PROPN;SG	14	obl:agent	14:obl:agent	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	April	April	PROPN	NNP	PROPN;SG	14	obl	14:obl:in	_
+21	2003	2003	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0085
+# text = $4b - Actual monthly cost of the US military presence in Iraq according to Secretary of Defence Rumsfeld in 2004.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	4	4	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	7	punct	7:punct	_
+5	Actual	actual	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	monthly	monthly	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	cost	cost	NOUN	NN	N;SG	1	appos	1:appos	_
+8	of	of	ADP	IN	ADP	12	case	12:case	_
+9	the	the	DET	DT	DEF;DET	12	det	12:det	_
+10	US	US	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+11	military	military	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	presence	presence	NOUN	NN	N;SG	7	nmod	7:nmod:of	_
+13	in	in	ADP	IN	ADP	14	case	14:case	_
+14	Iraq	Iraq	PROPN	NNP	PROPN;SG	12	nmod	12:nmod:in	_
+15	according	accord	VERB	VBG	V;V.PTCP;PRS	20	case	20:case	_
+16	to	to	ADP	IN	ADP	15	fixed	15:fixed	_
+17	Secretary	Secretary	PROPN	NNP	PROPN;SG	20	compound	20:compound	_
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19	Defence	Defence	PROPN	NNP	PROPN;SG	17	nmod	17:nmod:of	_
+20	Rumsfeld	Rumsfeld	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:according_to	_
+21	in	in	ADP	IN	ADP	22	case	22:case	_
+22	2004	2004	NUM	CD	NUM	7	nmod	7:nmod:in	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0086
+# text = $15m - Amount of a contract awarded to an American firm to build a cement factory in Iraq.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	15	15	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	contract	contract	NOUN	NN	N;SG	5	nmod	5:nmod:of	_
+9	awarded	award	VERB	VBN	V.PTCP;PST;PASS;V	8	acl	8:acl	_
+10	to	to	ADP	IN	ADP	13	case	13:case	_
+11	an	a	DET	DT	DET;INDF	13	det	13:det	_
+12	American	American	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	firm	firm	NOUN	NN	N;SG	9	obl	9:obl:to	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	build	build	VERB	VB	V;NFIN	9	advcl	9:advcl:to	_
+16	a	a	DET	DT	DET;INDF	18	det	18:det	_
+17	cement	cement	NOUN	NN	N;SG	18	compound	18:compound	_
+18	factory	factory	NOUN	NN	N;SG	15	obj	15:obj	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	Iraq	Iraq	PROPN	NNP	PROPN;SG	15	obl	15:obl:in	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0087
+# text = $80,000 - Amount an Iraqi firm spent (using Saddam's confiscated funds) to build the same factory, after delays prevented the American firm from starting it.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	80,000	80000	NUM	CD	NUM	1	nummod	1:nummod	_
+3	-	-	PUNCT	:	_	4	punct	4:punct	_
+4	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|8:obj	_
+5	an	a	DET	DT	DET;INDF	7	det	7:det	_
+6	Iraqi	Iraqi	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	firm	firm	NOUN	NN	N;SG	8	nsubj	8:nsubj	_
+8	spent	spend	VERB	VBD	FIN;SG;V;IND;3;PST	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obj
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+10	using	use	VERB	VBG	V.PTCP;V;PRS	8	advcl	8:advcl	_
+11-12	Saddam's	_	_	_	_	_	_	_	_
+11	Saddam	Saddam	PROPN	NNP	PROPN;SG	14	nmod:poss	14:nmod:poss	_
+12	's	's	PART	POS	PART	11	case	11:case	_
+13	confiscated	confiscate	VERB	VBN	V.PTCP;PST;PASS;V	14	amod	14:amod	_
+14	funds	fund	NOUN	NNS	N;PL	10	obj	10:obj	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	build	build	VERB	VB	V;NFIN	8	advcl	8:advcl:to	_
+18	the	the	DET	DT	DEF;DET	20	det	20:det	_
+19	same	same	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	factory	factory	NOUN	NN	N;SG	17	obj	17:obj	SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	24:punct	_
+22	after	after	SCONJ	IN	CONJ	24	mark	24:mark	_
+23	delays	delay	NOUN	NNS	N;PL	24	nsubj	24:nsubj	_
+24	prevented	prevent	VERB	VBD	FIN;V;IND;3;PST;PL	8	advcl	8:advcl:after	_
+25	the	the	DET	DT	DEF;DET	27	det	27:det	_
+26	American	American	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	firm	firm	NOUN	NN	N;SG	24	obj	24:obj	_
+28	from	from	SCONJ	IN	CONJ	29	mark	29:mark	_
+29	starting	start	VERB	VBG	V.PTCP;V;PRS	24	advcl	24:advcl:from	_
+30	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	29	obj	29:obj	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0088
+# text = 2000 - Year that Cheney said his policy as CEO of Halliburton oil services company was "we wouldn't do anything in Iraq".
+1	2000	2000	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Year	year	NOUN	NN	N;SG	1	appos	1:appos|6:obl:npmod	_
+4	that	that	PRON	WDT	PRO	6	obl:npmod	3:ref	_
+5	Cheney	Cheney	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj	_
+6	said	say	VERB	VBD	FIN;SG;V;IND;3;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-that-obl:npmod
+7	his	his	PRON	PRP$	SG;MASC;PRO;3;GEN	8	nmod:poss	8:nmod:poss	_
+8	policy	policy	NOUN	NN	N;SG	21	nsubj:outer	21:nsubj:outer	_
+9	as	as	ADP	IN	ADP	10	case	10:case	_
+10	CEO	ceo	NOUN	NN	N;SG	8	nmod	8:nmod:as	_
+11	of	of	ADP	IN	ADP	15	case	15:case	_
+12	Halliburton	Halliburton	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+13	oil	oil	NOUN	NN	N;SG	14	compound	14:compound	_
+14	services	service	NOUN	NNS	N;PL	15	compound	15:compound	_
+15	company	company	NOUN	NN	N;SG	10	nmod	10:nmod:of	_
+16	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	21	cop	21:cop	_
+17	"	"	PUNCT	``	_	21	punct	21:punct	SpaceAfter=No
+18	we	we	PRON	PRP	PRO;PL;NOM;1	21	nsubj	21:nsubj	_
+19-20	wouldn't	_	_	_	_	_	_	_	_
+19	would	would	AUX	MD	V;FIN	21	aux	21:aux	_
+20	n't	not	PART	RB	PART	21	advmod	21:advmod	_
+21	do	do	VERB	VB	V;NFIN	6	ccomp	6:ccomp	_
+22	anything	anything	PRON	NN	PRO;SG	21	obj	21:obj	_
+23	in	in	ADP	IN	ADP	24	case	24:case	_
+24	Iraq	Iraq	PROPN	NNP	PROPN;SG	21	obl	21:obl:in	SpaceAfter=No
+25	"	"	PUNCT	''	_	21	punct	21:punct	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0089
+# text = $4.7b - Total value of contracts awarded to Halliburton in Iraq and Afghanistan.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	4.7	4.7	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	6	punct	6:punct	_
+5	Total	total	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	value	value	NOUN	NN	N;SG	1	appos	1:appos	_
+7	of	of	ADP	IN	ADP	8	case	8:case	_
+8	contracts	contract	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+9	awarded	award	VERB	VBN	V.PTCP;PST;PASS;V	8	acl	8:acl	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	Halliburton	Halliburton	PROPN	NNP	PROPN;SG	9	obl	9:obl:to	_
+12	in	in	ADP	IN	ADP	13	case	13:case	_
+13	Iraq	Iraq	PROPN	NNP	PROPN;SG	8	nmod	8:nmod:in	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	Afghanistan	Afghanistan	PROPN	NNP	PROPN;SG	13	conj	8:nmod:in|13:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0090
+# text = $680m - Estimated value of Iraq reconstruction contracts awarded to Bechtel.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	680	680	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	6	punct	6:punct	_
+5	Estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	6	amod	6:amod	_
+6	value	value	NOUN	NN	N;SG	1	appos	1:appos	_
+7	of	of	ADP	IN	ADP	10	case	10:case	_
+8	Iraq	Iraq	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+9	reconstruction	reconstruction	NOUN	NN	N;SG	10	compound	10:compound	_
+10	contracts	contract	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+11	awarded	award	VERB	VBN	V.PTCP;PST;PASS;V	10	acl	10:acl	_
+12	to	to	ADP	IN	ADP	13	case	13:case	_
+13	Bechtel	Bechtel	PROPN	NNP	PROPN;SG	11	obl	11:obl:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0091
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0020
+# text = $2.8b - Value of Bechtel Corp contracts in Iraq.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	2.8	2.8	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Value	value	NOUN	NN	N;SG	1	appos	1:appos	_
+6	of	of	ADP	IN	ADP	9	case	9:case	_
+7	Bechtel	Bechtel	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Corp	Corp	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	contracts	contract	NOUN	NNS	N;PL	5	nmod	5:nmod:of	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	Iraq	Iraq	PROPN	NNP	PROPN;SG	9	nmod	9:nmod:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0092
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0021
+# text = $120b - Amount the war and its aftermath are projected to cost for the 2004 fiscal year.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	120	120	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	b	billion	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	Amount	amount	NOUN	NN	N;SG	1	appos	1:appos|12:obl	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	war	war	NOUN	NN	N;SG	12	nsubj:pass	12:nsubj:pass|14:nsubj:xsubj	_
+8	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	its	its	PRON	PRP$	NEUT;SG;PRO;3;GEN	10	nmod:poss	10:nmod:poss	_
+10	aftermath	aftermath	NOUN	NN	N;SG	7	conj	7:conj:and|12:nsubj:pass|14:nsubj:xsubj	_
+11	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	12	aux:pass	12:aux:pass	_
+12	projected	project	VERB	VBN	V.PTCP;PST;PASS;V	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	cost	cost	VERB	VB	V;NFIN	12	xcomp	12:xcomp	_
+15	for	for	ADP	IN	ADP	19	case	19:case	_
+16	the	the	DET	DT	DEF;DET	19	det	19:det	_
+17	2004	2004	NUM	CD	NUM	19	compound	19:compound	_
+18	fiscal	fiscal	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	year	year	NOUN	NN	N;SG	14	obl	14:obl:for	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0093
+# text = 35 - Number of countries to which the United States suspended military assistance after they failed to sign agreements giving Americans immunity from prosecution before the International Criminal Court.
+1	35	35	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	countries	country	NOUN	NNS	N;PL	3	nmod	3:nmod:of|11:obl	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	which	which	PRON	WDT	PRO	11	obl	5:ref	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	United	United	ADJ	NNP	ADJ	10	amod	10:amod	_
+10	States	State	PROPN	NNPS	PROPN;PL	11	nsubj	11:nsubj	_
+11	suspended	suspend	VERB	VBD	FIN;V;IND;3;PST;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-obl-pfront
+12	military	military	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	assistance	assistance	NOUN	NN	N;SG	11	obj	11:obj	_
+14	after	after	SCONJ	IN	CONJ	16	mark	16:mark	_
+15	they	they	PRON	PRP	PRO;3;PL;NOM	16	nsubj	16:nsubj|18:nsubj:xsubj	_
+16	failed	fail	VERB	VBD	FIN;V;IND;3;PST;PL	11	advcl	11:advcl:after	_
+17	to	to	PART	TO	PART	18	mark	18:mark	_
+18	sign	sign	VERB	VB	V;NFIN	16	xcomp	16:xcomp	_
+19	agreements	agreement	NOUN	NNS	N;PL	18	obj	18:obj	_
+20	giving	give	VERB	VBG	V.MSDR;V	19	acl	19:acl	_
+21	Americans	American	PROPN	NNPS	PROPN;PL	20	iobj	20:iobj	_
+22	immunity	immunity	NOUN	NN	N;SG	20	obj	20:obj	_
+23	from	from	ADP	IN	ADP	24	case	24:case	_
+24	prosecution	prosecution	NOUN	NN	N;SG	22	nmod	22:nmod:from	_
+25	before	before	ADP	IN	ADP	29	case	29:case	_
+26	the	the	DET	DT	DEF;DET	29	det	29:det	_
+27	International	International	ADJ	NNP	ADJ	29	amod	29:amod	_
+28	Criminal	Criminal	ADJ	NNP	ADJ	29	amod	29:amod	_
+29	Court	Court	PROPN	NNP	PROPN;SG	24	nmod	24:nmod:before	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0094
+# text = 92 - Percentage of Iraq's urban areas with access to potable water in late 2002.
+1	92	92	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5-6	Iraq's	_	_	_	_	_	_	_	_
+5	Iraq	Iraq	PROPN	NNP	PROPN;SG	8	nmod:poss	8:nmod:poss	_
+6	's	's	PART	POS	PART	5	case	5:case	_
+7	urban	urban	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	areas	area	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	with	with	ADP	IN	ADP	10	case	10:case	_
+10	access	access	NOUN	NN	N;SG	3	nmod	3:nmod:with	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	potable	potable	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	water	water	NOUN	NN	N;SG	10	nmod	10:nmod:to	_
+14	in	in	ADP	IN	ADP	16	case	16:case	_
+15	late	late	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	2002	2002	NUM	CD	NUM	3	nmod	3:nmod:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0095
+# text = 60 - Percentage of Iraq's urban areas with access to potable water in late 2003.
+1	60	60	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	8	case	8:case	_
+5-6	Iraq's	_	_	_	_	_	_	_	_
+5	Iraq	Iraq	PROPN	NNP	PROPN;SG	8	nmod:poss	8:nmod:poss	_
+6	's	's	PART	POS	PART	5	case	5:case	_
+7	urban	urban	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	areas	area	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+9	with	with	ADP	IN	ADP	10	case	10:case	_
+10	access	access	NOUN	NN	N;SG	3	nmod	3:nmod:with	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	potable	potable	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	water	water	NOUN	NN	N;SG	10	nmod	10:nmod:to	_
+14	in	in	ADP	IN	ADP	16	case	16:case	_
+15	late	late	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	2003	2003	NUM	CD	NUM	3	nmod	3:nmod:in	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0096
+# text = 55 - Percentage of the Iraqi workforce who were unemployed before the war.
+1	55	55	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|10:nsubj	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	Iraqi	Iraqi	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	workforce	workforce	NOUN	NN	N;SG	3	nmod	3:nmod:of	_
+8	who	who	PRON	WP	PRO	10	nsubj	3:ref	_
+9	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	10	cop	10:cop	_
+10	unemployed	unemployed	ADJ	JJ	ADJ	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+11	before	before	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	war	war	NOUN	NN	N;SG	10	obl	10:obl:before	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0097
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0022
+# text = 80 - Percentage of the Iraqi workforce who are unemployed a Year after the war.
+1	80	80	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|10:nsubj	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	Iraqi	Iraqi	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	workforce	workforce	NOUN	NN	N;SG	3	nmod	3:nmod:of	_
+8	who	who	PRON	WP	PRO	10	nsubj	3:ref	_
+9	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	10	cop	10:cop	_
+10	unemployed	unemployed	ADJ	JJ	ADJ	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj
+11	a	a	DET	DT	DET;INDF	12	det	12:det	_
+12	Year	year	NOUN	NN	N;SG	15	nmod:npmod	15:nmod:npmod	_
+13	after	after	ADP	IN	ADP	15	case	15:case	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	war	war	NOUN	NN	N;SG	10	obl	10:obl:after	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0098
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0023
+# text = 0 - Number of American combat deaths in Germany after the Nazi surrender in May 1945.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	American	American	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	combat	combat	NOUN	NN	N;SG	7	compound	7:compound	_
+7	deaths	death	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+8	in	in	ADP	IN	ADP	9	case	9:case	_
+9	Germany	Germany	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:in	_
+10	after	after	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	Nazi	Nazi	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	surrender	surrender	NOUN	NN	N;SG	7	nmod	7:nmod:after	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	May	May	PROPN	NNP	PROPN;SG	13	nmod	13:nmod:in	_
+16	1945	1945	NUM	CD	NUM	15	nummod	15:nummod	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0099
+# text = 37 - Death toll of US soldiers in Iraq in May 2003, the month combat operations "officially" ended.
+1	37	37	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	4	punct	4:punct	_
+3	Death	death	NOUN	NN	N;SG	4	compound	4:compound	_
+4	toll	toll	NOUN	NN	N;SG	1	appos	1:appos	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	US	US	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	soldiers	soldier	NOUN	NNS	N;PL	4	nmod	4:nmod:of	_
+8	in	in	ADP	IN	ADP	9	case	9:case	_
+9	Iraq	Iraq	PROPN	NNP	PROPN;SG	4	nmod	4:nmod:in	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	May	May	PROPN	NNP	PROPN;SG	4	nmod	4:nmod:in	_
+12	2003	2003	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	15:punct	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	month	month	NOUN	NN	N;SG	11	appos	11:appos|21:obj	_
+16	combat	combat	NOUN	NN	N;SG	17	compound	17:compound	_
+17	operations	operation	NOUN	NNS	N;PL	21	nsubj	21:nsubj	_
+18	"	"	PUNCT	``	_	19	punct	19:punct	SpaceAfter=No
+19	officially	officially	ADV	RB	ADV	21	advmod	21:advmod	SpaceAfter=No
+20	"	"	PUNCT	''	_	19	punct	19:punct	_
+21	ended	end	VERB	VBD	FIN;V;IND;3;PST;PL	15	acl:relcl	15:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0100
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0024
+# text = 0 - Number of coffins of dead soldiers returning home that the Bush administration has permitted to be photographed.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	coffins	coffin	NOUN	NNS	N;PL	3	nmod	3:nmod:of|16:obj|19:nsubj:xsubj	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	dead	dead	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	soldiers	soldier	NOUN	NNS	N;PL	5	nmod	5:nmod:of	_
+9	returning	return	VERB	VBG	V.MSDR;V	8	acl	8:acl	_
+10	home	home	ADV	RB	ADV	9	advmod	9:advmod	_
+11	that	that	PRON	WDT	PRO	16	obj	5:ref	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	Bush	Bush	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	administration	administration	NOUN	NN	N;SG	16	nsubj	16:nsubj	_
+15	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	16	aux	16:aux	_
+16	permitted	permit	VERB	VBN	V.PTCP;PST;V	5	acl:relcl	5:acl:relcl	Cxn=rc-that-obj
+17	to	to	PART	TO	PART	19	mark	19:mark	_
+18	be	be	AUX	VB	V;NFIN	19	aux:pass	19:aux:pass	_
+19	photographed	photograph	VERB	VBN	V.PTCP;PST;PASS;V	16	xcomp	16:xcomp	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0101
+# text = 0 - Number of memorial services for the returned dead that Bush has attended since the beginning of the war.
+1	0	0	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	memorial	memorial	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	services	service	NOUN	NNS	N;PL	3	nmod	3:nmod:of|14:obj	_
+7	for	for	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	returned	return	VERB	VBN	V.PTCP;PST;PASS;V	10	amod	10:amod	_
+10	dead	dead	ADJ	JJ	ADJ	6	nmod	6:nmod:for	_
+11	that	that	PRON	WDT	PRO	14	obj	6:ref	_
+12	Bush	Bush	PROPN	NNP	PROPN;SG	14	nsubj	14:nsubj	_
+13	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	14	aux	14:aux	_
+14	attended	attend	VERB	VBN	V.PTCP;PST;V	6	acl:relcl	6:acl:relcl	Cxn=rc-that-obj
+15	since	since	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	beginning	beginning	NOUN	NN	N;SG	14	obl	14:obl:since	_
+18	of	of	ADP	IN	ADP	20	case	20:case	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	war	war	NOUN	NN	N;SG	17	nmod	17:nmod:of	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0102
+# text = A soldier's best friend
+1	A	a	DET	DT	DET;INDF	2	det	2:det	_
+2-3	soldier's	_	_	_	_	_	_	_	_
+2	soldier	soldier	NOUN	NN	N;SG	5	nmod:poss	5:nmod:poss	_
+3	's	's	PART	POS	PART	2	case	2:case	_
+4	best	good	ADJ	JJS	ADJ;RL	5	amod	5:amod	_
+5	friend	friend	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0103
+# newpar id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-p0025
+# text = 40,000 - Number of soldiers in Iraq seven months after start of the war still without Interceptor vests, designed to stop a round from an AK-47.
+1	40,000	40000	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Number	number	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	soldiers	soldier	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+6	in	in	ADP	IN	ADP	7	case	7:case	_
+7	Iraq	Iraq	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:in	_
+8	seven	seven	NUM	CD	NUM	9	nummod	9:nummod	_
+9	months	month	NOUN	NNS	N;PL	11	nmod:npmod	11:nmod:npmod	_
+10	after	after	ADP	IN	ADP	11	case	11:case	_
+11	start	start	NOUN	NN	N;SG	5	nmod	5:nmod:after	_
+12	of	of	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	war	war	NOUN	NN	N;SG	11	nmod	11:nmod:of	_
+15	still	still	ADV	RB	ADV	18	advmod	18:advmod	_
+16	without	without	ADP	IN	ADP	18	case	18:case	_
+17	Interceptor	Interceptor	PROPN	NNP	PROPN;SG	18	compound	18:compound	_
+18	vests	vest	NOUN	NNS	N;PL	5	nmod	5:nmod:without	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	20:punct	_
+20	designed	design	VERB	VBN	V.PTCP;PST;PASS;V	18	acl	18:acl	_
+21	to	to	PART	TO	PART	22	mark	22:mark	_
+22	stop	stop	VERB	VB	V;NFIN	20	advcl	20:advcl:to	_
+23	a	a	DET	DT	DET;INDF	24	det	24:det	_
+24	round	round	NOUN	NN	N;SG	22	obj	22:obj	_
+25	from	from	ADP	IN	ADP	27	case	27:case	_
+26	an	a	DET	DT	DET;INDF	27	det	27:det	_
+27	AK	AK	PROPN	NNP	PROPN;SG	24	nmod	24:nmod:from	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	29	punct	29:punct	SpaceAfter=No
+29	47	47	NUM	CD	NUM	27	nummod	27:nummod	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0104
+# text = $60m - Estimated cost of outfitting those 40,000 soldiers with Interceptor vests.
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	60	60	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	:	_	6	punct	6:punct	_
+5	Estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	6	amod	6:amod	_
+6	cost	cost	NOUN	NN	N;SG	1	appos	1:appos	_
+7	of	of	SCONJ	IN	CONJ	8	mark	8:mark	_
+8	outfitting	outfit	VERB	VBG	V.MSDR;V	6	acl	6:acl:of	_
+9	those	that	DET	DT	DET;PL	11	det	11:det	_
+10	40,000	40000	NUM	CD	NUM	11	nummod	11:nummod	_
+11	soldiers	soldier	NOUN	NNS	N;PL	8	obj	8:obj	_
+12	with	with	ADP	IN	ADP	14	case	14:case	_
+13	Interceptor	Interceptor	PROPN	NNP	PROPN;SG	14	compound	14:compound	_
+14	vests	vest	NOUN	NNS	N;PL	8	obl	8:obl:with	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0105
+# text = 62 - Percentage of gas masks that army investigators discovered did Not work properly in autumn 2002.
+1	62	62	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos|13:nsubj	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	gas	gas	NOUN	NN	N;SG	6	compound	6:compound	_
+6	masks	mask	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+7	that	that	PRON	WDT	PRO	13	nsubj	3:ref	_
+8	army	army	NOUN	NN	N;SG	9	compound	9:compound	_
+9	investigators	investigator	NOUN	NNS	N;PL	10	nsubj	10:nsubj	_
+10	discovered	discover	VERB	VBD	FIN;V;IND;3;PST;PL	3	acl:relcl	3:acl:relcl	Cxn=rc-that-nsubj_ccomp
+11	did	do	AUX	VBD	FIN;V;IND;3;PST;PL	13	aux	13:aux	_
+12	Not	not	PART	RB	PART	13	advmod	13:advmod	_
+13	work	work	VERB	VB	V;NFIN	10	ccomp	10:ccomp	_
+14	properly	properly	ADV	RB	ADV	13	advmod	13:advmod	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	autumn	autumn	NOUN	NN	N;SG	13	obl	13:obl:in	_
+17	2002	2002	NUM	CD	NUM	16	nmod:tmod	16:nmod:tmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0106
+# text = 90 - Percentage of detectors which give early warning of a biological weapons attack found to be defective.
+1	90	90	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	detectors	detector	NOUN	NNS	N;PL	3	nmod	3:nmod:of|7:nsubj	_
+6	which	which	PRON	WDT	PRO	7	nsubj	5:ref	_
+7	give	give	VERB	VBP	FIN;V;PRS;IND;3;PL	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+8	early	early	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	warning	warning	NOUN	NN	N;SG	7	obj	7:obj	_
+10	of	of	ADP	IN	ADP	14	case	14:case	_
+11	a	a	DET	DT	DET;INDF	14	det	14:det	_
+12	biological	biological	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	weapons	weapon	NOUN	NNS	N;PL	14	compound	14:compound	_
+14	attack	attack	NOUN	NN	N;SG	9	nmod	9:nmod:of	_
+15	found	find	VERB	VBN	V.PTCP;PST;PASS;V	3	acl	3:acl	_
+16	to	to	PART	TO	PART	18	mark	18:mark	_
+17	be	be	AUX	VB	V;NFIN	18	cop	18:cop	_
+18	defective	defective	ADJ	JJ	ADJ	15	xcomp	15:xcomp	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0107
+# text = 87 - Percentage of Humvees in Iraq not equipped with armour capable of stopping AK-47 rounds and protecting against roadside bombs and landmines at the end of 2003.
+1	87	87	NUM	CD	NUM	0	root	0:root	_
+2	-	-	PUNCT	:	_	3	punct	3:punct	_
+3	Percentage	percentage	NOUN	NN	N;SG	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	Humvees	Humvee	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:of	_
+6	in	in	ADP	IN	ADP	7	case	7:case	_
+7	Iraq	Iraq	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:in	_
+8	not	not	PART	RB	PART	9	advmod	9:advmod	_
+9	equipped	equip	VERB	VBN	V.PTCP;PST;PASS;V	3	acl	3:acl	_
+10	with	with	ADP	IN	ADP	11	case	11:case	_
+11	armour	armour	NOUN	NN	N;SG	9	obl	9:obl:with	_
+12	capable	capable	ADJ	JJ	ADJ	11	amod	11:amod	_
+13	of	of	SCONJ	IN	CONJ	14	mark	14:mark	_
+14	stopping	stop	VERB	VBG	V.PTCP;V;PRS	12	advcl	12:advcl:of	_
+15	AK	AK	PROPN	NNP	PROPN;SG	18	compound	18:compound	SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	punct	15:punct	SpaceAfter=No
+17	47	47	NUM	CD	NUM	18	nummod	18:nummod	_
+18	rounds	round	NOUN	NNS	N;PL	14	obj	14:obj	_
+19	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+20	protecting	protect	VERB	VBG	V.PTCP;V;PRS	14	conj	12:advcl:of|14:conj:and	_
+21	against	against	ADP	IN	ADP	23	case	23:case	_
+22	roadside	roadside	NOUN	NN	N;SG	23	compound	23:compound	_
+23	bombs	bomb	NOUN	NNS	N;PL	20	obl	20:obl:against	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	landmines	landmine	NOUN	NNS	N;PL	23	conj	20:obl:against|23:conj:and	_
+26	at	at	ADP	IN	ADP	28	case	28:case	_
+27	the	the	DET	DT	DEF;DET	28	det	28:det	_
+28	end	end	NOUN	NN	N;SG	9	obl	9:obl:at	_
+29	of	of	ADP	IN	ADP	30	case	30:case	_
+30	2003	2003	NUM	CD	NUM	28	nmod	28:nmod:of	SpaceAfter=No
+31	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals_0084bdc731bfc8d8_ENG_20040905_212000-0108
+# text = Making the country safer
+1	Making	make	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	country	country	NOUN	NN	N;SG	1	obj	1:obj|4:nsubj:xsubj	_
+4	safer	safe	ADJ	JJR	ADJ;CMPR	1	xcomp	1:xcomp	_
+

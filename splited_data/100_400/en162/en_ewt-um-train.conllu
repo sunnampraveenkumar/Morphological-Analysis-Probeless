@@ -1,0 +1,422 @@
+# sent_id = email-enronsent43_01-0084
+# text = No hurry, I was just wondering.
+1	No	no	DET	DT	DET	2	det	2:det	_
+2	hurry	hurry	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	7:punct	_
+4	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+5	was	be	AUX	VBD	FIN;SG;V;IND;PST;1	7	aux	7:aux	_
+6	just	just	ADV	RB	ADV	7	advmod	7:advmod	_
+7	wondering	wonder	VERB	VBG	V.PTCP;V;PRS	2	parataxis	2:parataxis	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent43_01-0085
+# newpar id = email-enronsent43_01-p0025
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0086
+# text = Kim.
+1	Kim	Kim	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0087
+# newpar id = email-enronsent43_01-p0026
+# text = Attached is the TW Top Ten Shippers by Revenues for the year 2001 to be reported in the Browncover report.
+1	Attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	aux:pass	1:aux:pass	_
+3	the	the	DET	DT	DEF;DET	7	det	7:det	_
+4	TW	TW	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+5	Top	top	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	Ten	ten	NUM	CD	NUM	7	compound	7:compound	_
+7	Shippers	shipper	NOUN	NNS	N;PL	1	nsubj:pass	1:nsubj:pass	_
+8	by	by	ADP	IN	ADP	9	case	9:case	_
+9	Revenues	revenue	NOUN	NNS	N;PL	7	nmod	7:nmod:by	_
+10	for	for	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	year	year	NOUN	NN	N;SG	7	nmod	7:nmod:for	_
+13	2001	2001	NUM	CD	NUM	12	appos	12:appos	_
+14	to	to	PART	TO	PART	16	mark	16:mark	_
+15	be	be	AUX	VB	V;NFIN	16	aux:pass	16:aux:pass	_
+16	reported	report	VERB	VBN	V.PTCP;PST;PASS;V	7	acl	7:acl:to	_
+17	in	in	ADP	IN	ADP	20	case	20:case	_
+18	the	the	DET	DT	DEF;DET	20	det	20:det	_
+19	Browncover	browncover	NOUN	NN	N;SG	20	compound	20:compound	_
+20	report	report	NOUN	NN	N;SG	16	obl	16:obl:in	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0088
+# newpar id = email-enronsent43_01-p0027
+# text = Note:
+1	Note	note	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0089
+# newpar id = email-enronsent43_01-p0028
+# text = Total transportation invoiced for 2001 was $180.9m.
+1	Total	total	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	transportation	transportation	NOUN	NN	N;SG	7	nsubj	7:nsubj	_
+3	invoiced	invoice	VERB	VBN	V.PTCP;PST;PASS;V	2	acl	2:acl	_
+4	for	for	ADP	IN	ADP	5	case	5:case	_
+5	2001	2001	NUM	CD	NUM	3	obl	3:obl:for	_
+6	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	7	cop	7:cop	_
+7	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+8	180.9	180.9	NUM	CD	NUM	9	compound	9:compound	SpaceAfter=No
+9	m	million	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent43_01-0090
+# text = The amount of transportation revenues recorded in the general ledger is $165.9m.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	amount	amount	NOUN	NN	N;SG	12	nsubj	12:nsubj	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	transportation	transportation	NOUN	NN	N;SG	5	compound	5:compound	_
+5	revenues	revenue	NOUN	NNS	N;PL	2	nmod	2:nmod:of	_
+6	recorded	record	VERB	VBN	V.PTCP;PST;PASS;V	5	acl	5:acl	_
+7	in	in	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	general	general	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	ledger	ledger	NOUN	NN	N;SG	6	obl	6:obl:in	_
+11	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	12	cop	12:cop	_
+12	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+13	165.9	165.9	NUM	CD	NUM	14	compound	14:compound	SpaceAfter=No
+14	m	million	NUM	CD	NUM	12	nummod	12:nummod	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent43_01-0091
+# newpar id = email-enronsent43_01-p0029
+# text = This difference is mainly due to the following:
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	difference	difference	NOUN	NN	N;SG	8	nsubj	8:nsubj	_
+3	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	8	cop	8:cop	_
+4	mainly	mainly	ADV	RB	ADV	8	advmod	8:advmod	_
+5	due	due	ADP	IN	ADP	8	case	8:case	_
+6	to	to	ADP	IN	ADP	5	fixed	5:fixed	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	following	follow	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	SpaceAfter=No
+9	:	:	PUNCT	:	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent43_01-0092
+# text = $10.0m - negotiated rates reserve(Reliant,Sempra, Richardson, Astr,and BP Energy) - $collected
+1	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+2	10.0	10.0	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	,	_	7	punct	7:punct	_
+5	negotiated	negotiate	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	rates	rate	NOUN	NNS	N;PL	7	compound	7:compound	_
+7	reserve	reserve	NOUN	NN	N;SG	1	appos	1:appos	SpaceAfter=No
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+9	Reliant	Reliant	PROPN	NNP	PROPN;SG	7	parataxis	7:parataxis	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	SpaceAfter=No
+11	Sempra	Sempra	PROPN	NNP	PROPN;SG	9	conj	9:conj:and	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	Richardson	Richardson	PROPN	NNP	PROPN;SG	9	conj	9:conj:and	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	Astr	Astr	PROPN	NNP	PROPN;SG	9	conj	9:conj:and	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	19:punct	SpaceAfter=No
+17	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+18	BP	BP	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+19	Energy	Energy	PROPN	NNP	PROPN;SG	9	conj	9:conj:and	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+21	-	-	PUNCT	,	_	22	punct	22:punct	_
+22	$	$	SYM	$	_	1	parataxis	1:parataxis	SpaceAfter=No
+23	collected	collect	VERB	VBN	V.PTCP;PST;PASS;V	22	acl	22:acl	_
+
+# sent_id = email-enronsent43_01-0093
+# text = $ 2.7m - SoCal rate issue - $not collected
+1	$	$	SYM	$	_	0	root	0:root	_
+2	2.7	2.7	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	,	_	7	punct	7:punct	_
+5	SoCal	SoCal	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	rate	rate	NOUN	NN	N;SG	7	compound	7:compound	_
+7	issue	issue	NOUN	NN	N;SG	1	appos	1:appos	_
+8	-	-	PUNCT	,	_	9	punct	9:punct	_
+9	$	$	SYM	$	_	1	appos	1:appos	SpaceAfter=No
+10	not	not	PART	RB	PART	11	advmod	11:advmod	_
+11	collected	collect	VERB	VBN	V.PTCP;PST;PASS;V	9	acl	9:acl	_
+
+# sent_id = email-enronsent43_01-0094
+# text = $ 1.8m - additional month of PGE revenues due to prepayment invoicing beginning in 2001 - $collected
+1	$	$	SYM	$	_	0	root	0:root	_
+2	1.8	1.8	NUM	CD	NUM	3	compound	3:compound	SpaceAfter=No
+3	m	million	NUM	CD	NUM	1	nummod	1:nummod	_
+4	-	-	PUNCT	,	_	6	punct	6:punct	_
+5	additional	additional	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	month	month	NOUN	NN	N;SG	1	parataxis	1:parataxis	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	PGE	PGE	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	revenues	revenue	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+10	due	due	ADP	IN	ADP	13	case	13:case	_
+11	to	to	ADP	IN	ADP	10	fixed	10:fixed	_
+12	prepayment	prepayment	NOUN	NN	N;SG	13	compound	13:compound	_
+13	invoicing	invoicing	NOUN	NN	N;SG	6	nmod	6:nmod:due_to	_
+14	beginning	begin	VERB	VBG	V.MSDR;V	13	acl	13:acl	_
+15	in	in	ADP	IN	ADP	16	case	16:case	_
+16	2001	2001	NUM	CD	NUM	14	obl	14:obl:in	_
+17	-	-	PUNCT	,	_	18	punct	18:punct	_
+18	$	$	SYM	$	_	1	parataxis	1:parataxis	SpaceAfter=No
+19	collected	collect	VERB	VBN	V.PTCP;PST;PASS;V	18	acl	18:acl	_
+
+# sent_id = email-enronsent43_01-0095
+# text = Revenues for these customers were adjusted according.
+1	Revenues	revenue	NOUN	NNS	N;PL	6	nsubj:pass	6:nsubj:pass	_
+2	for	for	ADP	IN	ADP	4	case	4:case	_
+3	these	this	DET	DT	DET;PL	4	det	4:det	_
+4	customers	customer	NOUN	NNS	N;PL	1	nmod	1:nmod:for	_
+5	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	6	aux:pass	6:aux:pass	_
+6	adjusted	adjust	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+7	according	according	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent43_01-0096
+# text = Also, revenues for the shippers acquiring released volumes from PGE at rates above TW's tariff rates were adjusted accordingly.
+1	Also	also	ADV	RB	ADV	20	advmod	20:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	revenues	revenue	NOUN	NNS	N;PL	20	nsubj:pass	20:nsubj:pass	_
+4	for	for	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	shippers	shipper	NOUN	NNS	N;PL	3	nmod	3:nmod:for	_
+7	acquiring	acquire	VERB	VBG	V.MSDR;V	6	acl	6:acl	_
+8	released	release	VERB	VBN	V.PTCP;PST;PASS;V	9	amod	9:amod	_
+9	volumes	volume	NOUN	NNS	N;PL	7	obj	7:obj	_
+10	from	from	ADP	IN	ADP	11	case	11:case	_
+11	PGE	PGE	PROPN	NNP	PROPN;SG	7	obl	7:obl:from	_
+12	at	at	ADP	IN	ADP	13	case	13:case	_
+13	rates	rate	NOUN	NNS	N;PL	7	obl	7:obl:at	_
+14	above	above	ADP	IN	ADP	18	case	18:case	_
+15-16	TW's	_	_	_	_	_	_	_	_
+15	TW	TW	PROPN	NNP	PROPN;SG	18	nmod:poss	18:nmod:poss	_
+16	's	's	PART	POS	PART	15	case	15:case	_
+17	tariff	tariff	NOUN	NN	N;SG	18	compound	18:compound	_
+18	rates	rate	NOUN	NNS	N;PL	13	nmod	13:nmod:above	_
+19	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	20	aux:pass	20:aux:pass	_
+20	adjusted	adjust	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+21	accordingly	accordingly	ADV	RB	ADV	20	advmod	20:advmod	SpaceAfter=No
+22	.	.	PUNCT	.	_	20	punct	20:punct	_
+
+# sent_id = email-enronsent43_01-0097
+# newpar id = email-enronsent43_01-p0030
+# text = Please call me at x36709 if there are questions
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	call	call	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	obj	2:obj	_
+4	at	at	ADP	IN	ADP	5	case	5:case	_
+5	x36709	x36709	NOUN	NN	N;SG	2	obl	2:obl:at	_
+6	if	if	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	there	there	PRON	EX	PRO	8	expl	8:expl	_
+8	are	be	VERB	VBP	FIN;V;PRS;IND;3;PL	2	advcl	2:advcl:if	_
+9	questions	question	NOUN	NNS	N;PL	8	nsubj	8:nsubj	_
+
+# sent_id = email-enronsent43_01-0098
+# newpar id = email-enronsent43_01-p0031
+# text = thanks,
+1	thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0099
+# text = richard
+1	richard	richard	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent43_01-0100
+# newpar id = email-enronsent43_01-p0032
+# text = Kyle,
+1	Kyle	Kyle	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0101
+# text = Sorry for not sending this yesterday.
+1	Sorry	sorry	ADJ	JJ	ADJ	0	root	0:root	_
+2	for	for	SCONJ	IN	CONJ	4	mark	4:mark	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	sending	send	VERB	VBG	V.PTCP;V;PRS	1	advcl	1:advcl:for	_
+5	this	this	PRON	DT	PRO;SG	4	obj	4:obj	_
+6	yesterday	yesterday	NOUN	NN	N;SG	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0102
+# text = Monday's are always tough.
+1	Monday's	Monday	PROPN	NNPS	PROPN;PL	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	4	cop	4:cop	_
+3	always	always	ADV	RB	ADV	4	advmod	4:advmod	_
+4	tough	tough	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent43_01-0103
+# text = Please review and let me know what you think.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	review	review	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	let	let	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+5	me	I	PRON	PRP	SG;PRO;1;ACC	4	obj	4:obj|6:nsubj:xsubj	_
+6	know	know	VERB	VB	V;NFIN	4	xcomp	4:xcomp	_
+7	what	what	PRON	WP	PRO	9	obj	9:obj	_
+8	you	you	PRON	PRP	PRO;2;NOM	9	nsubj	9:nsubj	_
+9	think	think	VERB	VBP	2;FIN;SG;V;PRS;IND	6	ccomp	6:ccomp	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent43_01-0104
+# text = Let's talk before I leave town next Wednesday.
+1-2	Let's	_	_	_	_	_	_	_	_
+1	Let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	's	we	PRON	PRP	PRO;PL;1;ACC	1	obj	1:obj|3:nsubj:xsubj	_
+3	talk	talk	VERB	VB	V;NFIN	1	xcomp	1:xcomp	_
+4	before	before	SCONJ	IN	CONJ	6	mark	6:mark	_
+5	I	I	PRON	PRP	SG;PRO;NOM;1	6	nsubj	6:nsubj	_
+6	leave	leave	VERB	VBP	FIN;SG;V;PRS;IND;1	3	advcl	3:advcl:before	_
+7	town	town	NOUN	NN	N;SG	6	obj	6:obj	_
+8	next	next	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Wednesday	Wednesday	PROPN	NNP	PROPN;SG	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0105
+# text = Thanks,
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0106
+# text = Kim.
+1	Kim	Kim	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0107
+# text = Kim,
+1	Kim	Kim	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0108
+# text = Here is the Job Description and the Operational Accountabilities for the position I mentioned to you last Sunday.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	cop	1:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	Job	job	NOUN	NN	N;SG	5	compound	5:compound	_
+5	Description	description	NOUN	NN	N;SG	1	nsubj	1:nsubj	_
+6	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	Operational	operational	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	Accountabilities	accountability	NOUN	NNS	N;PL	5	conj	1:nsubj|5:conj:and	_
+10	for	for	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	position	position	NOUN	NN	N;SG	5	nmod	5:nmod:for|14:obj	_
+13	I	I	PRON	PRP	SG;PRO;NOM;1	14	nsubj	14:nsubj	_
+14	mentioned	mention	VERB	VBD	FIN;SG;V;IND;PST;1	12	acl:relcl	12:acl:relcl	Cxn=rc-red-obj
+15	to	to	ADP	IN	ADP	16	case	16:case	_
+16	you	you	PRON	PRP	PRO;2;ACC	14	obl	14:obl:to	_
+17	last	last	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	Sunday	Sunday	PROPN	NNP	PROPN;SG	14	obl:tmod	14:obl:tmod	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0109
+# text = As you can see it will take someone with some very good skills in organizing and interpersonal relationships.
+1	As	as	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	you	you	PRON	PRP	PRO;2;NOM	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	V;FIN	4	aux	4:aux	_
+4	see	see	VERB	VB	V;NFIN	7	advcl	7:advcl:as	_
+5	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	7	nsubj	7:nsubj	_
+6	will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+7	take	take	VERB	VB	V;NFIN	0	root	0:root	_
+8	someone	someone	PRON	NN	PRO;SG	7	obj	7:obj	_
+9	with	with	ADP	IN	ADP	13	case	13:case	_
+10	some	some	DET	DT	DET	13	det	13:det	_
+11	very	very	ADV	RB	ADV	12	advmod	12:advmod	_
+12	good	good	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	skills	skill	NOUN	NNS	N;PL	8	nmod	8:nmod:with	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	organizing	organizing	NOUN	NN	N;SG	13	nmod	13:nmod:in	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	interpersonal	interpersonal	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	relationships	relationship	NOUN	NNS	N;PL	15	conj	13:nmod:in|15:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent43_01-0110
+# text = It will also require someone who is fairly mature in their own spiritual journey.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	4	nsubj	4:nsubj	_
+2	will	will	AUX	MD	V;FIN	4	aux	4:aux	_
+3	also	also	ADV	RB	ADV	4	advmod	4:advmod	_
+4	require	require	VERB	VB	V;NFIN	0	root	0:root	_
+5	someone	someone	PRON	NN	PRO;SG	4	obj	4:obj|9:nsubj	_
+6	who	who	PRON	WP	PRO	9	nsubj	5:ref	_
+7	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	9	cop	9:cop	_
+8	fairly	fairly	ADV	RB	ADV	9	advmod	9:advmod	_
+9	mature	mature	ADJ	JJ	ADJ	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+10	in	in	ADP	IN	ADP	14	case	14:case	_
+11	their	their	PRON	PRP$	PRO;3;PL;GEN	14	nmod:poss	14:nmod:poss	_
+12	own	own	ADJ	JJ	ADJ	14	amod	14:amod	_
+13	spiritual	spiritual	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	journey	journey	NOUN	NN	N;SG	9	obl	9:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent43_01-0111
+# text = If you know someone who might fit the bill ask them to contact me and/or send me their resume.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	know	know	VERB	VBP	2;FIN;SG;V;PRS;IND	10	advcl	10:advcl:if	_
+4	someone	someone	PRON	NN	PRO;SG	3	obj	3:obj|7:nsubj	_
+5	who	who	PRON	WP	PRO	7	nsubj	4:ref	_
+6	might	might	AUX	MD	V;FIN	7	aux	7:aux	_
+7	fit	fit	VERB	VB	V;NFIN	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	bill	bill	NOUN	NN	N;SG	7	obj	7:obj	_
+10	ask	ask	VERB	VB	V;FIN;IMP	0	root	0:root	_
+11	them	they	PRON	PRP	PRO;3;PL;ACC	10	iobj	10:iobj|13:nsubj:xsubj	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	contact	contact	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+14	me	I	PRON	PRP	SG;PRO;1;ACC	13	obj	13:obj	_
+15	and	and	CCONJ	CC	CONJ	18	cc	18:cc	SpaceAfter=No
+16	/	/	SYM	SYM	_	17	cc	17:cc	SpaceAfter=No
+17	or	or	CCONJ	CC	CONJ	15	conj	15:conj:slash|18:cc	_
+18	send	send	VERB	VB	V;NFIN	10	conj	10:conj:and_or	_
+19	me	I	PRON	PRP	SG;PRO;1;ACC	18	iobj	18:iobj	_
+20	their	their	PRON	PRP$	PRO;3;PL;GEN	21	nmod:poss	21:nmod:poss	_
+21	resume	resume	NOUN	NN	N;SG	18	obj	18:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = email-enronsent43_01-0112
+# text = See you Sunday.
+1	See	see	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+2	you	you	PRON	PRP	PRO;2;ACC	1	obj	1:obj	_
+3	Sunday	Sunday	PROPN	NNP	PROPN;SG	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent43_01-0113
+# text = Tom
+1	Tom	Tom	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent43_01-0114
+# text = Thomas W. Daugherty Vice President for Spiritual Care Methodist Health Care System 6565 Fannin Street, D-200 Houston, Texas 77030-2707 Office: 713-793-1429 Page: 281-735-5919 Cell: 713-819-2784 Fax: 713-790-2605
+1	Thomas	Thomas	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	W.	W.	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Daugherty	Daugherty	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+4	Vice	vice	NOUN	NN	N;SG	5	compound	5:compound	_
+5	President	president	NOUN	NN	N;SG	1	list	1:list	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	Spiritual	spiritual	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	Care	care	NOUN	NN	N;SG	5	nmod	5:nmod:for	_
+9	Methodist	Methodist	ADJ	NNP	ADJ	12	amod	12:amod	_
+10	Health	Health	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+11	Care	Care	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+12	System	System	PROPN	NNP	PROPN;SG	1	list	1:list	_
+13	6565	6565	NUM	CD	NUM	15	nummod	15:nummod	_
+14	Fannin	Fannin	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+15	Street	Street	PROPN	NNP	PROPN;SG	1	list	1:list	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
+17	D	D	NOUN	NN	N;SG	13	appos	13:appos	SpaceAfter=No
+18	-	-	PUNCT	,	_	19	punct	19:punct	SpaceAfter=No
+19	200	200	NUM	CD	NUM	17	compound	17:compound	_
+20	Houston	Houston	PROPN	NNP	PROPN;SG	15	appos	15:appos	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	Texas	Texas	PROPN	NNP	PROPN;SG	20	appos	20:appos	_
+23	77030-2707	77030-2707	NUM	CD	NUM	13	appos	13:appos	_
+24	Office	office	NOUN	NN	N;SG	1	list	1:list	SpaceAfter=No
+25	:	:	PUNCT	:	_	26	punct	26:punct	_
+26	713-793-1429	713-793-1429	NUM	CD	NUM	24	appos	24:appos	_
+27	Page	page	NOUN	NN	N;SG	1	list	1:list	SpaceAfter=No
+28	:	:	PUNCT	:	_	29	punct	29:punct	_
+29	281-735-5919	281-735-5919	NUM	CD	NUM	27	appos	27:appos	_
+30	Cell	cell	NOUN	NN	N;SG	1	list	1:list	SpaceAfter=No
+31	:	:	PUNCT	:	_	32	punct	32:punct	_
+32	713-819-2784	713-819-2784	NUM	CD	NUM	30	appos	30:appos	_
+33	Fax	fax	NOUN	NN	N;SG	1	list	1:list	SpaceAfter=No
+34	:	:	PUNCT	:	_	35	punct	35:punct	_
+35	713-790-2605	713-790-2605	NUM	CD	NUM	33	appos	33:appos	_
+

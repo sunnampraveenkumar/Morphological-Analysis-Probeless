@@ -1,0 +1,281 @@
+# sent_id = 3576
+# text = השקים, בגדלים 107 ס"ם ועד 7015 ס"ם, נמכרים ב10 ש"ח לשק הקטן ועד 150 ש"ח לשק הגדול.
+1-2	השקים	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	שקים	שק	NOUN	NOUN	MASC;N;PL	13	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4-5	בגדלים	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	גדלים	גודל	NOUN	NOUN	MASC;N;PL	2	nmod	_	_
+6	107	107	NUM	NUM	NUM	7	nummod	_	_
+7	ס"ם	ס"ם	NOUN	NOUN	MASC;{PL/SG};N	5	nmod	_	HebSource=ConvUncertainLabel
+8-9	ועד	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	CONJ	11	cc	_	_
+9	עד	עד	ADP	ADP	ADP	11	case	_	_
+10	7015	7015	NUM	NUM	NUM	11	nummod	_	_
+11	ס"ם	ס"ם	NOUN	NOUN	MASC;{PL/SG};N	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	נמכרים	נמכר	VERB	VERB	{1/2/3};PL;V;MID;MASC;V.PTCP	0	root	_	_
+14-15	ב10	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	ADP	16	case	_	_
+15	10	10	NUM	NUM	NUM	16	nummod	_	_
+16	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	13	obl	_	_
+17-19	לשק	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	ADP	19	case	_	_
+18	ה_	ה	DET	DET	DET	19	det	_	_
+19	שק	שק	NOUN	NOUN	MASC;SG;N	16	nmod	_	_
+20-21	הקטן	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	קטן	קטן	ADJ	ADJ	MASC;SG;ADJ	19	amod	_	_
+22-23	ועד	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	CONJ	25	cc	_	_
+23	עד	עד	ADP	ADP	ADP	25	case	_	_
+24	150	150	NUM	NUM	NUM	25	nummod	_	_
+25	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	16	conj	_	_
+26-28	לשק	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	ADP	28	case	_	_
+27	ה_	ה	DET	DET	DET	28	det	_	_
+28	שק	שק	NOUN	NOUN	MASC;SG;N	25	nmod	_	_
+29-30	הגדול	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	DET	30	det	_	_
+30	גדול	גדול	ADJ	ADJ	MASC;SG;ADJ	28	amod	_	_
+31	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 3577
+# text = טלפון: 97125480.
+1	טלפון	טלפון	NOUN	NOUN	MASC;SG;N	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	1	punct	_	_
+3	97125480	97125480	NUM	NUM	NUM	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3578
+# text = דליה מזרחי מעצבת תמונות שקופות לחדרי ילדים.
+1	דליה	דליה	PROPN	PROPN	PROPN	3	nsubj	_	_
+2	מזרחי	מזרחי	PROPN	PROPN	PROPN	1	flat:name	_	_
+3	מעצבת	עיצב	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+4	תמונות	תמונה	NOUN	NOUN	N;PL;FEM	3	obj	_	_
+5	שקופות	שקוף	ADJ	ADJ	FEM;PL;ADJ	4	amod	_	_
+6-7	לחדרי	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	ADP	7	case	_	_
+7	חדרי	חדר	NOUN	NOUN	MASC;N;PL;PSSD	4	nmod	_	_
+8	ילדים	ילד	NOUN	NOUN	MASC;N;PL	7	compound:smixut	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3579
+# text = על לוח פרספקס שקוף היא מדביקה עלי פי-וי-סי שקופים בצבעים שונים.
+1	על	על	ADP	ADP	ADP	2	case	_	_
+2	לוח	לוח	NOUN	NOUN	MASC;SG;N;PSSD	6	obl	_	_
+3	פרספקס	פרספקס	PROPN	PROPN	PROPN	2	compound:smixut	_	_
+4	שקוף	שקוף	ADJ	ADJ	MASC;SG;ADJ	2	amod	_	_
+5	היא	הוא	PRON	PRON	SG;3;PRO;FEM	6	nsubj	_	_
+6	מדביקה	הדביק	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+7-8	עלי	_	_	_	_	_	_	_	_
+7	על_	על	ADP	ADP	ADP	8	case	_	_
+8	_אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	6	obl	_	_
+9	פי	פי	PROPN	PROPN	PROPN	6	obj	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	וי	וי	PROPN	PROPN	PROPN	9	flat:name	_	SpaceAfter=No
+12	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+13	סי	סי	PROPN	PROPN	PROPN	9	flat:name	_	_
+14	שקופים	שקוף	ADJ	ADJ	MASC;PL;ADJ	9	amod	_	_
+15-16	בצבעים	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	ADP	16	case	_	_
+16	צבעים	צבע	NOUN	NOUN	MASC;N;PL	9	nmod	_	_
+17	שונים	שונה	ADJ	ADJ	MASC;PL;ADJ	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 3580
+# text = מדבקות הפי-וי-סי מופיעות בכל הצבעים ובכל הגונים, ובתוכן מרקמים שונים של פסים, כוכבים, ריבועים וצורות הנדסיות שונות.
+1	מדבקות	מדבקה	NOUN	NOUN	FEM;N;PL;PSSD	8	nsubj	_	_
+2-3	הפי	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	DET	3	det	_	_
+3	פי	פה	NOUN	NOUN	MASC;SG;N;PSSD	1	compound:smixut	_	_
+4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	וי	וי	NOUN	NOUN	N	3	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+6	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+7	סי	סי	PROPN	PROPN	PROPN	3	dep	_	HebSource=ConvUncertainHead
+8	מופיעות	הופיע	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	0	root	_	_
+9-10	בכל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	12	case	_	_
+10	כל	כול	DET	DET	PSSD;DET	12	det	_	_
+11-12	הצבעים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	DET	12	det	_	_
+12	צבעים	צבע	NOUN	NOUN	MASC;N;PL	8	obl	_	_
+13-15	ובכל	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	CONJ	17	cc	_	_
+14	ב	ב	ADP	ADP	ADP	17	case	_	_
+15	כל	כול	DET	DET	PSSD;DET	17	det	_	_
+16-17	הגונים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	DET	17	det	_	_
+17	גונים	גוון	NOUN	NOUN	MASC;N;PL	12	conj	_	_
+18	,	,	PUNCT	PUNCT	_	8	punct	_	_
+19-21	ובתוכן	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	CONJ	21	cc	_	_
+20	בתוך_	בתוך	ADP	ADP	ADP	21	case	_	_
+21	_הן	הוא	PRON	PRON	PL;3;PRO;FEM	8	conj	_	_
+22	מרקמים	מרקם	NOUN	NOUN	MASC;N;PL	21	nsubj	_	_
+23	שונים	שונה	ADJ	ADJ	MASC;PL;ADJ	22	amod	_	_
+24	של	של	ADP	ADP	ADP;GEN	25	case:gen	_	_
+25	פסים	פס	NOUN	NOUN	MASC;N;PL	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	25	punct	_	_
+27	כוכבים	כוכב	NOUN	NOUN	MASC;N;PL	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	25	punct	_	_
+29	ריבועים	ריבוע	NOUN	NOUN	MASC;N;PL	25	conj	_	_
+30-31	וצורות	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	CONJ	31	cc	_	_
+31	צורות	צורה	NOUN	NOUN	N;PL;FEM	25	conj	_	_
+32	הנדסיות	הנדסי	ADJ	ADJ	FEM;PL;ADJ	31	amod	_	_
+33	שונות	שונה	ADJ	ADJ	FEM;PL;ADJ	31	amod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 3581
+# text = אחרי רישום ראשוני של התמונה המבוקשת חתול, זחל, רכבת מלאה בתינוקות חוגגים ועוד, חותכת מזרחי את מדבקות הפי-וי-סי ומדביקה אותן על לוח הפרספקס.
+1	אחרי	אחרי	ADP	ADP	ADP	2	case	_	_
+2	רישום	רישום	NOUN	NOUN	MASC;SG;N	21	obl	_	_
+3	ראשוני	ראשוני	ADJ	ADJ	MASC;SG;ADJ	2	amod	_	_
+4	של	של	ADP	ADP	ADP;GEN	6	case:gen	_	_
+5-6	התמונה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	תמונה	תמונה	NOUN	NOUN	SG;N;FEM	2	nmod	_	_
+7-8	המבוקשת	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	מבוקשת	מבוקש	ADJ	ADJ	SG;FEM;ADJ	6	amod	_	_
+9	חתול	חתול	NOUN	NOUN	MASC;SG;N	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	9	punct	_	_
+11	זחל	זחל	NOUN	NOUN	MASC;SG;N	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	9	punct	_	_
+13	רכבת	רכבת	NOUN	NOUN	SG;N;FEM	9	conj	_	_
+14	מלאה	מלא	ADJ	ADJ	SG;FEM;ADJ	13	amod	_	_
+15-16	בתינוקות	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	ADP	16	case	_	_
+16	תינוקות	תינוק	NOUN	NOUN	N;PL;FEM	14	obl	_	_
+17	חוגגים	חגג	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	16	amod	_	_
+18-19	ועוד	_	_	_	_	_	_	_	SpaceAfter=No
+18	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+19	עוד	עוד	ADV	ADV	ADV	9	conj	_	_
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	חותכת	חתך	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+22	מזרחי	מזרחי	PROPN	PROPN	PROPN	21	nsubj	_	_
+23	את	את	ADP	ADP	ADP;ACC	24	case:acc	_	_
+24	מדבקות	מדבקה	NOUN	NOUN	FEM;N;PL;PSSD	21	obj	_	_
+25-26	הפי	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	DET	26	det	_	_
+26	פי	פי	PROPN	PROPN	PROPN	24	compound:smixut	_	_
+27	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+28	וי	וי	PROPN	PROPN	PROPN	26	dep	_	SpaceAfter=No|HebSource=ConvUncertainHead
+29	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+30	סי	סי	PROPN	PROPN	PROPN	26	dep	_	HebSource=ConvUncertainHead
+31-32	ומדביקה	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	CONJ	32	cc	_	_
+32	מדביקה	הדביק	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	21	conj	_	_
+33-34	אותן	_	_	_	_	_	_	_	_
+33	את_	את	ADP	ADP	ADP;ACC	34	case:acc	_	_
+34	_הן	הוא	PRON	PRON	PL;3;PRO;FEM	32	obj	_	_
+35	על	על	ADP	ADP	ADP	36	case	_	_
+36	לוח	לוח	NOUN	NOUN	MASC;SG;N;PSSD	32	obl	_	_
+37-38	הפרספקס	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	DET	38	det	_	_
+38	פרספקס	הפרספקס	PROPN	PROPN	PROPN	36	compound:smixut	_	_
+39	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 3582
+# text = בשולי הלוח היא מדביקה גימור ברוחב מילימטר כדי לתחום את התמונה.
+1-2	בשולי	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	2	case	_	_
+2	שולי	שול	NOUN	NOUN	MASC;N;PL;PSSD	6	obl	_	_
+3-4	הלוח	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	לוח	לוח	NOUN	NOUN	MASC;SG;N	2	compound:smixut	_	_
+5	היא	הוא	PRON	PRON	SG;3;PRO;FEM	6	nsubj	_	_
+6	מדביקה	הדביק	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+7	גימור	גימור	NOUN	NOUN	MASC;SG;N	6	obj	_	_
+8-9	ברוחב	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	ADP	9	case	_	_
+9	רוחב	רוחב	NOUN	NOUN	MASC;SG;N;PSSD	7	nmod	_	_
+10	מילימטר	מילימטר	NOUN	NOUN	MASC;SG;N	9	compound:smixut	_	_
+11	כדי	כדי	ADP	ADP	ADP	12	case	_	_
+12	לתחום	תחם	VERB	VERB	NFIN;ACT;V	6	advcl	_	_
+13	את	את	ADP	ADP	ADP;ACC	15	case:acc	_	_
+14-15	התמונה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	תמונה	תמונה	NOUN	NOUN	SG;N;FEM	12	obj	_	_
+16	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 3583
+# text = ניתן לנקות את התמונה במטלית כותנה סחוטה היטב בלא חשש שהתמונה תיפגם.
+1	ניתן	ניתן	ADJ	ADJ	MASC;SG;ADJ	0	root	_	Modal=Yes
+2	לנקות	ניקה	VERB	VERB	NFIN;ACT;V	1	csubj	_	_
+3	את	את	ADP	ADP	ADP;ACC	5	case:acc	_	_
+4-5	התמונה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	DET	5	det	_	_
+5	תמונה	תמונה	NOUN	NOUN	SG;N;FEM	2	obj	_	_
+6-7	במטלית	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	ADP	7	case	_	_
+7	מטלית	מטלית	NOUN	NOUN	SG;FEM;N;PSSD	5	nmod	_	_
+8	כותנה	כותנה	NOUN	NOUN	SG;N;FEM	7	compound:smixut	_	_
+9	סחוטה	סחוט	ADJ	ADJ	SG;FEM;ADJ	7	amod	_	_
+10	היטב	היטב	ADV	ADV	ADV	9	advmod	_	_
+11	בלא	בלא	ADP	ADP	ADP	12	case	_	_
+12	חשש	חשש	NOUN	NOUN	MASC;SG;N	5	nmod	_	_
+13-15	שהתמונה	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	CONJ	16	mark	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	תמונה	תמונה	NOUN	NOUN	SG;N;FEM	16	nsubj	_	_
+16	תיפגם	נפגם	VERB	VERB	SG;V;3;FUT;MID;FEM	12	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3584
+# text = מחיר התמונות 22-150 ש"ח, תלוי בגודלן.
+1	מחיר	מחיר	NOUN	NOUN	MASC;SG;N;PSSD	5	nsubj	_	_
+2-3	התמונות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	DET	3	det	_	_
+3	תמונות	תמונה	NOUN	NOUN	N;PL;FEM	1	compound:smixut	_	_
+4	22-150	22-150	NUM	NUM	NUM	5	nummod	_	_
+5	ש"ח	ש"ח	NOUN	NOUN	MASC;SG;N	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	תלוי	תלוי	ADJ	ADJ	MASC;SG;ADJ	5	parataxis	_	_
+8-11	בגודלן	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	ADP	9	case	_	_
+9	גודל_	גודל	NOUN	NOUN	MASC;SG;N;DEF	7	obl	_	_
+10	_של_	של	ADP	ADP	ADP	11	case:gen	_	_
+11	_הן	הוא	PRON	PRON	PL;GEN;3;PRO;FEM	9	nmod:poss	_	_
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 3585
+# text = טלפון: 60838430.
+1	טלפון	טלפון	NOUN	NOUN	MASC;SG;N	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	1	punct	_	_
+3	60838430	60838430	NUM	NUM	NUM	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3586
+# text = גבריאלה (מרבך) לש מייצרת תכשיטים מסכו"ם מוכסף.
+1	גבריאלה	גבריאלה	PROPN	PROPN	PROPN	6	nsubj	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	מרבך	מרבך	PROPN	PROPN	PROPN	1	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	PUNCT	_	3	punct	_	_
+5	לש	לש	PROPN	PROPN	PROPN	1	flat:name	_	_
+6	מייצרת	ייצר	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+7	תכשיטים	תכשיט	NOUN	NOUN	MASC;N;PL	6	obj	_	_
+8-9	מסכו"ם	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	ADP	9	case	_	_
+9	סכו"ם	_	NOUN	NOUN	MASC;SG;N	7	nmod	_	_
+10	מוכסף	הוכסף	VERB	VERB	{1/2/3};SG;V;PASS;MASC;V.PTCP	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 3587
+# text = היא עובדת בעיקר עם כפות, מזלגות וכפיות קטנות במיוחד.
+1	היא	הוא	PRON	PRON	SG;3;PRO;FEM	2	nsubj	_	_
+2	עובדת	עבד	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+3	בעיקר	בעיקר	ADV	ADV	ADV	4	advmod	_	_
+4	עם	עם	ADP	ADP	ADP	5	case	_	_
+5	כפות	כף	NOUN	NOUN	N;PL;FEM	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
+7	מזלגות	מזלג	NOUN	NOUN	MASC;N;PL	5	conj	_	_
+8-9	וכפיות	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	CONJ	9	cc	_	_
+9	כפיות	כפית	NOUN	NOUN	N;PL;FEM	5	conj	_	_
+10	קטנות	קטן	ADJ	ADJ	FEM;PL;ADJ	9	amod	_	_
+11	במיוחד	במיוחד	ADV	ADV	ADV	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

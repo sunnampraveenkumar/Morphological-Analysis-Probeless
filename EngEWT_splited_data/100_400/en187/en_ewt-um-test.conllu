@@ -1,0 +1,70 @@
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0010
+# text = We now have over 5000 addresses.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+2	now	now	ADV	RB	ADV	3	advmod	3:advmod	_
+3	have	have	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+4	over	over	ADV	RB	ADV	5	advmod	5:advmod	_
+5	5000	5000	NUM	CD	NUM	6	nummod	6:nummod	_
+6	addresses	address	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0011
+# text = My wife and I would love for you to come and visit our page
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	2	nmod:poss	2:nmod:poss	_
+2	wife	wife	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	2	conj	2:conj:and|6:nsubj	_
+5	would	would	AUX	MD	V;FIN	6	aux	6:aux	_
+6	love	love	VERB	VB	NFIN;V	0	root	0:root	_
+7	for	for	SCONJ	IN	CONJ	10	mark	10:mark	_
+8	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj|12:nsubj	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	come	come	VERB	VB	NFIN;V	6	advcl	6:advcl:to	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	visit	visit	VERB	VB	NFIN;V	10	conj	6:advcl:to|10:conj:and	_
+13	our	our	PRON	PRP$	GEN;PL;PRO;1	14	nmod:poss	14:nmod:poss	_
+14	page	page	NOUN	NN	SG;N	12	obj	12:obj	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0012
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-p0004
+# text = http://www.myshutter.com/flash.htm our collection of comedy
+1	http://www.myshutter.com/flash.htm	http://www.myshutter.com/flash.htm	PROPN	ADD	PROPN	0	root	0:root	_
+2	our	our	PRON	PRP$	GEN;PL;PRO;1	3	nmod:poss	3:nmod:poss	_
+3	collection	collection	NOUN	NN	SG;N	1	appos	1:appos	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	comedy	comedy	NOUN	NN	SG;N	3	nmod	3:nmod:of	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0013
+# text = http://www.myshutter.com Before becoming disabled, I was an AVID amateur photographer.. come and visit and sign our guestbook
+1	http://www.myshutter.com	http://www.myshutter.com	PROPN	ADD	PROPN	0	root	0:root	_
+2	Before	before	SCONJ	IN	CONJ	3	mark	3:mark	_
+3	becoming	become	VERB	VBG	PRS;V;V.PTCP	11	advcl	11:advcl:before	_
+4	disabled	disabled	ADJ	JJ	ADJ	3	xcomp	3:xcomp	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	3:punct	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+7	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	11	cop	11:cop	_
+8	an	a	DET	DT	INDF;DET	11	det	11:det	_
+9	AVID	avid	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	amateur	amateur	NOUN	NN	SG;N	11	compound	11:compound	_
+11	photographer	photographer	NOUN	NN	SG;N	1	parataxis	1:parataxis	SpaceAfter=No
+12	..	..	PUNCT	,	_	13	punct	13:punct	_
+13	come	come	VERB	VB	FIN;V;IMP	11	parataxis	11:parataxis	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	visit	visit	VERB	VB	FIN;V;IMP	13	conj	13:conj:and	_
+16	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+17	sign	sign	VERB	VB	FIN;V;IMP	13	conj	13:conj:and	_
+18	our	our	PRON	PRP$	GEN;PL;PRO;1	19	nmod:poss	19:nmod:poss	_
+19	guestbook	guestbook	NOUN	NN	SG;N	17	obj	17:obj	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_003362349f033873_ENG_20040712_077100-0014
+# text = -----= Posted via Newsfeeds.Com, Uncensored Usenet News =-----
+1	-----=	-----=	PUNCT	NFP	_	2	punct	2:punct	_
+2	Posted	post	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+3	via	via	ADP	IN	ADP	4	case	4:case	_
+4	Newsfeeds.Com	Newsfeeds.Com	PROPN	ADD	PROPN	2	obl	2:obl:via	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	Uncensored	uncensored	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	Usenet	usenet	NOUN	NN	SG;N	8	compound	8:compound	_
+8	News	news	NOUN	NN	SG;N	4	appos	4:appos	_
+9	=-----	=-----	PUNCT	NFP	_	2	punct	2:punct	_
+

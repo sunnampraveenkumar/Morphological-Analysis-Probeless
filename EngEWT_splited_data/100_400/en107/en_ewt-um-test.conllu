@@ -1,0 +1,101 @@
+# sent_id = email-enronsent28_01-0014
+# text = But by December of '73 the Dow had collapsed to 788.
+1	But	but	CCONJ	CC	CONJ	9	cc	9:cc	_
+2	by	by	ADP	IN	ADP	3	case	3:case	_
+3	December	December	PROPN	NNP	SG;PROPN	9	obl	9:obl:by	_
+4	of	of	ADP	IN	ADP	5	case	5:case	_
+5	'73	'73	NUM	CD	NUM	3	nmod	3:nmod:of	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	Dow	Dow	PROPN	NNP	SG;PROPN	9	nsubj	9:nsubj	_
+8	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	9	aux	9:aux	_
+9	collapsed	collapse	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	788	788	NUM	CD	NUM	9	obl	9:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent28_01-0015
+# text = Think that was bad - by December of '74 the Dow had sunk to a bear market low of 577.
+1	Think	think	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	that	that	PRON	DT	SG;PRO	4	nsubj	4:nsubj	_
+3	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	4	cop	4:cop	_
+4	bad	bad	ADJ	JJ	ADJ	1	ccomp	1:ccomp	_
+5	-	-	PUNCT	,	_	13	punct	13:punct	CheckAttachment=1
+6	by	by	ADP	IN	ADP	7	case	7:case	_
+7	December	December	PROPN	NNP	SG;PROPN	13	obl	13:obl:by	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	'74	'74	NUM	CD	NUM	7	nmod	7:nmod:of	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	Dow	Dow	PROPN	NNP	SG;PROPN	13	nsubj	13:nsubj	_
+12	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	13	aux	13:aux	_
+13	sunk	sink	VERB	VBN	PST;V;V.PTCP	1	parataxis	1:parataxis	_
+14	to	to	ADP	IN	ADP	18	case	18:case	_
+15	a	a	DET	DT	INDF;DET	18	det	18:det	_
+16	bear	bear	NOUN	NN	SG;N	17	compound	17:compound	_
+17	market	market	NOUN	NN	SG;N	18	compound	18:compound	_
+18	low	low	NOUN	NN	SG;N	13	obl	13:obl:to	_
+19	of	of	ADP	IN	ADP	20	case	20:case	_
+20	577	577	NUM	CD	NUM	18	nmod	18:nmod:of	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	13:punct	CheckAttachment=1
+
+# sent_id = email-enronsent28_01-0016
+# text = At that time, the gurus and geniuses of Wall Street were predicting a 250 Dow and many were talking openly about the end of capitalism.
+1	At	at	ADP	IN	ADP	3	case	3:case	_
+2	that	that	DET	DT	SG;DET	3	det	3:det	_
+3	time	time	NOUN	NN	SG;N	13	obl	13:obl:at	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	gurus	guru	NOUN	NNS	PL;N	13	nsubj	13:nsubj	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	geniuses	genius	NOUN	NNS	PL;N	6	conj	6:conj:and|13:nsubj	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	Wall	Wall	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+11	Street	Street	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:of	_
+12	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	13	aux	13:aux	_
+13	predicting	predict	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+14	a	a	DET	DT	INDF;DET	16	det	16:det	_
+15	250	250	NUM	CD	NUM	16	nummod	16:nummod	_
+16	Dow	Dow	PROPN	NNP	SG;PROPN	13	obj	13:obj	_
+17	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+18	many	many	ADJ	JJ	ADJ	20	nsubj	20:nsubj	_
+19	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	20	aux	20:aux	_
+20	talking	talk	VERB	VBG	PRS;V;V.PTCP	13	conj	13:conj:and	_
+21	openly	openly	ADV	RB	ADV	20	advmod	20:advmod	CheckAttachment=24
+22	about	about	ADP	IN	ADP	24	case	24:case	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	end	end	NOUN	NN	SG;N	20	obl	20:obl:about	_
+25	of	of	ADP	IN	ADP	26	case	26:case	_
+26	capitalism	capitalism	NOUN	NN	SG;N	24	nmod	24:nmod:of	SpaceAfter=No
+27	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = email-enronsent28_01-0017
+# text = Of course, that was the bottom
+1	Of	of	ADP	IN	ADP	7	advmod	7:advmod	_
+2	course	course	NOUN	NN	SG;N	1	fixed	1:fixed	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+4	that	that	PRON	DT	SG;PRO	7	nsubj	7:nsubj	_
+5	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	7	cop	7:cop	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	bottom	bottom	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = email-enronsent28_01-0018
+# newpar id = email-enronsent28_01-p0003
+# text = And that's the way the greatest bear market since the Depression worked its way down.
+1	And	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+2-3	that's	_	_	_	_	_	_	_	_
+2	that	that	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+3	's	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	way	way	NOUN	NN	SG;N	0	root	0:root|13:obl	_
+6	the	the	DET	DT	DEF;DET	9	det	9:det	_
+7	greatest	great	ADJ	JJS	RL;ADJ	9	amod	9:amod	_
+8	bear	bear	NOUN	NN	SG;N	9	compound	9:compound	_
+9	market	market	NOUN	NN	SG;N	13	nsubj	13:nsubj	_
+10	since	since	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	Depression	Depression	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:since	_
+13	worked	work	VERB	VBD	PST;V;3;FIN;SG;IND	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obl
+14	its	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	15	nmod:poss	15:nmod:poss	_
+15	way	way	NOUN	NN	SG;N	13	obj	13:obj	_
+16	down	down	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+

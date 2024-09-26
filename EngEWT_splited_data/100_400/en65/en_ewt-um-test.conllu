@@ -1,0 +1,91 @@
+# sent_id = email-enronsent04_02-0018
+# text = I'll search him out before class or after that break and see if I can set it up.
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|13:nsubj	_
+2	'll	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	search	search	VERB	VB	NFIN;V	0	root	0:root	_
+4	him	he	PRON	PRP	ACC;PRO;3;SG;MASC	3	obj	3:obj	_
+5	out	out	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+6	before	before	ADP	IN	ADP	7	case	7:case	_
+7	class	class	NOUN	NN	SG;N	3	obl	3:obl:before	_
+8	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+9	after	after	ADP	IN	ADP	11	case	11:case	_
+10	that	that	DET	DT	SG;DET	11	det	11:det	_
+11	break	break	NOUN	NN	SG;N	7	conj	3:obl:after|7:conj:or	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	see	see	VERB	VB	NFIN;V	3	conj	3:conj:and	_
+14	if	if	SCONJ	IN	CONJ	17	mark	17:mark	_
+15	I	I	PRON	PRP	PRO;1;NOM;SG	17	nsubj	17:nsubj	_
+16	can	can	AUX	MD	V;FIN	17	aux	17:aux	_
+17	set	set	VERB	VB	NFIN;V	13	ccomp	13:ccomp	_
+18	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	17	obj	17:obj	_
+19	up	up	ADP	RP	ADP	17	compound:prt	17:compound:prt	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = email-enronsent23_04
+# sent_id = email-enronsent23_04-0001
+# newpar id = email-enronsent23_04-p0001
+# text = daily dose on enron -
+1	daily	daily	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	dose	dose	NOUN	NN	SG;N	0	root	0:root	_
+3	on	on	ADP	IN	ADP	4	case	4:case	_
+4	enron	enron	PROPN	NNP	SG;PROPN	2	nmod	2:nmod:on	_
+5	-	-	PUNCT	,	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_04-0002
+# text = we are finished.
+1	we	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+2	are	be	AUX	VBP	PL;V;1;FIN;PRS;IND	3	cop	3:cop	_
+3	finished	finished	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_04-0003
+# text = i need to now get a job at house of pies b/c that is the only way to pay the bills.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|5:nsubj:xsubj	_
+2	need	need	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	5	mark	5:mark	_
+4	now	now	ADV	RB	ADV	5	advmod	5:advmod	_
+5	get	get	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	job	job	NOUN	NN	SG;N	5	obj	5:obj	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	house	House	PROPN	NNP	SG;PROPN	7	nmod	7:nmod:at	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	pies	Pie	PROPN	NNPS	PROPN;PL	9	nmod	9:nmod:of	_
+12	b/c	because	SCONJ	IN	CONJ	17	mark	17:mark	_
+13	that	that	PRON	DT	SG;PRO	17	nsubj	17:nsubj	_
+14	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	17	cop	17:cop	_
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	only	only	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	way	way	NOUN	NN	SG;N	5	advcl	5:advcl:because	_
+18	to	to	PART	TO	PART	19	mark	19:mark	_
+19	pay	pay	VERB	VB	NFIN;V	17	acl	17:acl:to	_
+20	the	the	DET	DT	DEF;DET	21	det	21:det	_
+21	bills	bill	NOUN	NNS	PL;N	19	obj	19:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_04-0004
+# text = the economy is down and when enron collapses, the energy industry is going to be in a world of hurt.
+1	the	the	DET	DT	DEF;DET	2	det	2:det	_
+2	economy	economy	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+4	down	down	ADV	RB	ADV	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+6	when	when	ADV	WRB	ADV	8	advmod	8:advmod	_
+7	enron	enron	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+8	collapses	collapse	VERB	VBZ	V;3;FIN;PRS;SG;IND	14	advcl	14:advcl:when	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	8:punct	_
+10	the	the	DET	DT	DEF;DET	12	det	12:det	_
+11	energy	energy	NOUN	NN	SG;N	12	compound	12:compound	_
+12	industry	industry	NOUN	NN	SG;N	14	nsubj	14:nsubj|19:nsubj:xsubj	_
+13	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	14	aux	14:aux	_
+14	going	go	VERB	VBG	PRS;V;V.PTCP	4	conj	4:conj:and	_
+15	to	to	PART	TO	PART	19	mark	19:mark	_
+16	be	be	AUX	VB	NFIN;V	19	cop	19:cop	_
+17	in	in	ADP	IN	ADP	19	case	19:case	_
+18	a	a	DET	DT	INDF;DET	19	det	19:det	_
+19	world	world	NOUN	NN	SG;N	14	xcomp	14:xcomp	_
+20	of	of	ADP	IN	ADP	21	case	21:case	_
+21	hurt	hurt	NOUN	NN	SG;N	19	nmod	19:nmod:of	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	4:punct	_
+

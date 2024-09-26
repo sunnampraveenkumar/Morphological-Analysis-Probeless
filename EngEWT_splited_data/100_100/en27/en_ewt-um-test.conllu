@@ -1,0 +1,309 @@
+# sent_id = email-enronsent28_01-0019
+# text = By late 1974 investors were dizzy, they were desperate, they were wrung-out, they had left Wall Street, many for good.
+1	By	by	ADP	IN	ADP	3	case	3:case	_
+2	late	late	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	1974	1974	NUM	CD	NUM	6	obl	6:obl:by	_
+4	investors	investor	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+5	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	6	cop	6:cop	_
+6	dizzy	dizzy	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	CheckAttachment=6
+8	they	they	PRON	PRP	PL;PRO;3;NOM	10	nsubj	10:nsubj	_
+9	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	10	cop	10:cop	_
+10	desperate	desperate	ADJ	JJ	ADJ	6	conj	6:conj	CheckReln=parataxis|SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	CheckAttachment=10
+12	they	they	PRON	PRP	PL;PRO;3;NOM	14	nsubj:pass	14:nsubj:pass	_
+13	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	14	aux:pass	14:aux:pass	_
+14	wrung	wring	VERB	VBN	PASS;PST;V;V.PTCP	6	conj	6:conj	CheckReln=parataxis|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+16	out	out	ADP	RP	ADP	14	compound:prt	14:compound:prt	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	CheckAttachment=6
+18	they	they	PRON	PRP	PL;PRO;3;NOM	20	nsubj	20:nsubj	_
+19	had	have	AUX	VBD	PL;V;PST;3;FIN;IND	20	aux	20:aux	_
+20	left	leave	VERB	VBN	PST;V;V.PTCP	6	conj	6:conj	CheckReln=parataxis
+21	Wall	Wall	PROPN	NNP	SG;PROPN	22	compound	22:compound	_
+22	Street	Street	PROPN	NNP	SG;PROPN	20	obj	20:obj	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	20:punct	CheckAttachment=22
+24	many	many	ADJ	JJ	ADJ	6	parataxis	6:parataxis|24.1:nsubj	CheckAttachment=22|CheckReln=appos
+24.1	left	left	VERB	VBN	PASS;PST;V;V.PTCP	_	_	6:parataxis	CopyOf=6
+25	for	for	ADP	IN	ADP	26	case	26:case	_
+26	good	good	ADJ	JJ	ADJ	24	orphan	24.1:obl:for	CheckReln=nmod|SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent28_01-0020
+# text = great, we look forward to seeing you.
+1	great	great	INTJ	UH	INTJ	4	discourse	4:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	we	we	PRON	PRP	PL;PRO;1;NOM	4	nsubj	4:nsubj	_
+4	look	look	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+5	forward	forward	ADV	RB	ADV	4	advmod	4:advmod	_
+6	to	to	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	seeing	see	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl:to	_
+8	you	you	PRON	PRP	2;ACC;PRO	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0021
+# newpar id = email-enronsent28_01-p0004
+# text = DEBRA PERLINGIERE
+1	DEBRA	Debra	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	PERLINGIERE	Perlingiere	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0022
+# text = 09/20/2000 09:32 AM
+1	09/20/2000	09/20/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:32	09:32	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0023
+# text = I will not be there at 7:30, but will see you arond 9:30 on Tuesday.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj|11:nsubj	_
+2	will	will	AUX	MD	V;FIN	5	aux	5:aux	_
+3	not	not	PART	RB	PART	5	advmod	5:advmod	_
+4	be	be	AUX	VB	NFIN;V	5	cop	5:cop	_
+5	there	there	ADV	RB	ADV	0	root	0:root	_
+6	at	at	ADP	IN	ADP	7	case	7:case	_
+7	7:30	7:30	NUM	CD	NUM	5	obl	5:obl:at	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+11	see	see	VERB	VB	NFIN;V	5	conj	5:conj:but	_
+12	you	you	PRON	PRP	2;ACC;PRO	11	obj	11:obj	_
+13	arond	around	ADP	IN	ADP	14	case	14:case	CorrectForm=around
+14	9:30	9:30	NUM	CD	NUM	11	obl	11:obl:around	_
+15	on	on	ADP	IN	ADP	16	case	16:case	_
+16	Tuesday	Tuesday	PROPN	NNP	SG;PROPN	11	obl	11:obl:on	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent28_01-0024
+# newpar id = email-enronsent28_01-p0005
+# text = Many thanks!
+1	Many	many	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	thanks	thanks	NOUN	NNS	N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_01-0025
+# newpar id = email-enronsent28_01-p0006
+# text = Debra Perlingiere
+1	Debra	Debra	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Perlingiere	Perlingiere	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0026
+# newpar id = email-enronsent28_01-p0007
+# text = Edward Terry
+1	Edward	Edward	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Terry	Terry	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0027
+# text = 09/08/2000 09:55 AM
+1	09/08/2000	09/08/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:55	09:55	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0028
+# text = FYI,
+1	FYI	fyi	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_01-0029
+# newpar id = email-enronsent28_01-p0008
+# text = Per the memo, ENA's storage account will be REDUCED by 420,588 mmbtu!!!!!!
+1	Per	per	ADP	IN	ADP	3	case	3:case	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	memo	memo	NOUN	NN	SG;N	11	obl	11:obl:per	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5-6	ENA's	_	_	_	_	_	_	_	_
+5	ENA	ENA	PROPN	NNP	SG;PROPN	8	nmod:poss	8:nmod:poss	_
+6	's	's	PART	POS	PART	5	case	5:case	_
+7	storage	storage	NOUN	NN	SG;N	8	compound	8:compound	_
+8	account	account	NOUN	NN	SG;N	11	nsubj:pass	11:nsubj:pass	_
+9	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+10	be	be	AUX	VB	NFIN;V	11	aux:pass	11:aux:pass	_
+11	REDUCED	reduce	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+12	by	by	ADP	IN	ADP	14	case	14:case	_
+13	420,588	420588	NUM	CD	NUM	14	nummod	14:nummod	_
+14	mmbtu	mmbtu	NOUN	NNS	PL;N	11	obl	11:obl:by	SpaceAfter=No
+15	!!!!!!	!!!!!!	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent28_01-0030
+# newpar id = email-enronsent28_01-p0009
+# text = Robert D Morgan
+1	Robert	Robert	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	D	D	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Morgan	Morgan	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0031
+# text = 09/08/2000 09:36 AM
+1	09/08/2000	09/08/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:36	09:36	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0032
+# text = The results of the February 26th PVT test conducted on Nville have been discussed with each of you over the last three months.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	results	result	NOUN	NNS	PL;N	14	nsubj:pass	14:nsubj:pass	_
+3	of	of	ADP	IN	ADP	8	case	8:case	_
+4	the	the	DET	DT	DEF;DET	8	det	8:det	_
+5	February	February	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+6	26th	26th	NOUN	NN	SG;N	5	nummod	5:nummod	CheckAttachment=7|CheckReln=compound
+7	PVT	pvt	NOUN	NN	SG;N	8	compound	8:compound	_
+8	test	test	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+9	conducted	conduct	VERB	VBN	PASS;PST;V;V.PTCP	8	acl	8:acl	_
+10	on	on	ADP	IN	ADP	11	case	11:case	_
+11	Nville	Nville	PROPN	NNP	SG;PROPN	9	obl	9:obl:on	_
+12	have	have	AUX	VBP	PL;V;3;FIN;PRS;IND	14	aux	14:aux	_
+13	been	be	AUX	VBN	V;V.PTCP;PST	14	aux:pass	14:aux:pass	_
+14	discussed	discuss	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+15	with	with	ADP	IN	ADP	16	case	16:case	_
+16	each	each	DET	DT	DET	14	obl	14:obl:with	_
+17	of	of	ADP	IN	ADP	18	case	18:case	_
+18	you	you	PRON	PRP	2;ACC;PRO	16	nmod	16:nmod:of	_
+19	over	over	ADP	IN	ADP	23	case	23:case	_
+20	the	the	DET	DT	DEF;DET	23	det	23:det	_
+21	last	last	ADJ	JJ	ADJ	23	amod	23:amod	_
+22	three	three	NUM	CD	NUM	23	nummod	23:nummod	_
+23	months	month	NOUN	NNS	PL;N	14	obl	14:obl:over	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = email-enronsent28_01-0033
+# text = As we have discussed....effective Sep 13th, Anita will make the adjustments to Enron's inventory and pad gas to reflect the February 26th results.
+1	As	as	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	we	we	PRON	PRP	PL;PRO;1;NOM	4	nsubj	4:nsubj	_
+3	have	have	AUX	VBP	PL;V;1;FIN;PRS;IND	4	aux	4:aux	_
+4	discussed	discuss	VERB	VBN	PST;V;V.PTCP	12	advcl	12:advcl:as	SpaceAfter=No
+5	....	....	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+6	effective	effective	ADJ	JJ	ADJ	12	advmod	12:advmod	CheckAttachment=8|CheckReln=amod
+7	Sep	September	PROPN	NNP	SG;PROPN	6	obl:tmod	6:obl:tmod	CheckAttachment=8|CheckReln=compound
+8	13th	13th	NOUN	NN	SG;N	7	nummod	7:nummod	CheckAttachment=4|CheckReln=obj|SpaceAfter=No
+9	,	,	PUNCT	,	_	6	punct	6:punct	_
+10	Anita	Anita	PROPN	NNP	SG;PROPN	12	nsubj	12:nsubj	_
+11	will	will	AUX	MD	V;FIN	12	aux	12:aux	_
+12	make	make	VERB	VB	NFIN;V	0	root	0:root	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	adjustments	adjustment	NOUN	NNS	PL;N	12	obj	12:obj	_
+15	to	to	ADP	IN	ADP	18	case	18:case	_
+16-17	Enron's	_	_	_	_	_	_	_	_
+16	Enron	Enron	PROPN	NNP	SG;PROPN	18	nmod:poss	18:nmod:poss	_
+17	's	's	PART	POS	PART	16	case	16:case	_
+18	inventory	inventory	NOUN	NN	SG;N	14	nmod	14:nmod:to	_
+19	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+20	pad	pad	NOUN	NN	SG;N	21	compound	21:compound	_
+21	gas	gas	NOUN	NN	SG;N	18	conj	14:nmod:to|18:conj:and	_
+22	to	to	PART	TO	PART	23	mark	23:mark	_
+23	reflect	reflect	VERB	VB	NFIN;V	12	advcl	12:advcl:to	_
+24	the	the	DET	DT	DEF;DET	27	det	27:det	_
+25	February	February	PROPN	NNP	SG;PROPN	27	compound	27:compound	_
+26	26th	26th	NOUN	NN	SG;N	25	nummod	25:nummod	CheckAttachment=27|CheckReln=compound
+27	results	result	NOUN	NNS	PL;N	23	obj	23:obj	SpaceAfter=No
+28	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent28_01-0034
+# text = I talked with Gary Wilson, and he confirmed that the revised values are correct.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	talked	talk	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	Gary	Gary	PROPN	NNP	SG;PROPN	2	obl	2:obl:with	_
+5	Wilson	Wilson	PROPN	NNP	SG;PROPN	4	flat	4:flat	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	9:punct	_
+7	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+8	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	9	nsubj	9:nsubj	_
+9	confirmed	confirm	VERB	VBD	PST;V;3;FIN;SG;IND	2	conj	2:conj:and	_
+10	that	that	SCONJ	IN	CONJ	15	mark	15:mark	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	revised	revise	VERB	VBN	PASS;PST;V;V.PTCP	13	amod	13:amod	_
+13	values	value	NOUN	NNS	PL;N	15	nsubj	15:nsubj	_
+14	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	15	cop	15:cop	_
+15	correct	correct	ADJ	JJ	ADJ	9	ccomp	9:ccomp	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_01-0035
+# text = Attached is a spreadsheet that contains the values.
+1	Attached	attach	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	1	aux:pass	1:aux:pass	_
+3	a	a	DET	DT	INDF;DET	4	det	4:det	_
+4	spreadsheet	spreadsheet	NOUN	NN	SG;N	1	nsubj:pass	1:nsubj:pass|6:nsubj	_
+5	that	that	PRON	WDT	PRO	6	nsubj	4:ref	_
+6	contains	contain	VERB	VBZ	V;3;FIN;PRS;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	values	value	NOUN	NNS	PL;N	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_01-0036
+# newpar id = email-enronsent28_01-p0010
+# text = The correction to the working gas includes TWO corrections.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	correction	correction	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+3	to	to	ADP	IN	ADP	6	case	6:case	_
+4	the	the	DET	DT	DEF;DET	6	det	6:det	_
+5	working	work	VERB	VBG	V.MSDR;V	6	amod	6:amod	_
+6	gas	gas	NOUN	NN	SG;N	2	nmod	2:nmod:to	_
+7	includes	include	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+8	TWO	two	NUM	CD	NUM	9	nummod	9:nummod	_
+9	corrections	correction	NOUN	NNS	PL;N	7	obj	7:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent28_01-0037
+# text = The results of the February 26th test reduces the working gas by 398,487MMBTU.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	results	result	NOUN	NNS	PL;N	8	nsubj	8:nsubj	_
+3	of	of	ADP	IN	ADP	7	case	7:case	_
+4	the	the	DET	DT	DEF;DET	7	det	7:det	_
+5	February	February	PROPN	NNP	SG;PROPN	7	compound	7:compound	_
+6	26th	26th	NOUN	NN	SG;N	5	nummod	5:nummod	CheckAttachment=7|CheckReln=compound
+7	test	test	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+8	reduces	reduce	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	working	work	VERB	VBG	V.MSDR;V	11	amod	11:amod	_
+11	gas	gas	NOUN	NN	SG;N	8	obj	8:obj	_
+12	by	by	ADP	IN	ADP	14	case	14:case	_
+13	398,487	398487	NUM	CD	NUM	14	nummod	14:nummod	SpaceAfter=No
+14	MMBTU	mmbtu	NOUN	NNS	PL;N	8	obl	8:obl:by	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent28_01-0038
+# text = In addition, there is a reduction of 22,101MMBTU which is the difference between the SCADA values (Best Available) that Anita showed on the February 29th Storage Sheet and the "official" February 29th values that Gary Wilson received from MIPS.
+1	In	in	ADP	IN	ADP	2	case	2:case	_
+2	addition	addition	NOUN	NN	SG;N	5	obl	5:obl:in	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	there	there	PRON	EX	PRO	5	expl	5:expl	_
+5	is	be	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	reduction	reduction	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	22,101	22101	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+10	MMBTU	mmbtu	NOUN	NNS	PL;N	7	nmod	7:nmod:of|14:nsubj	_
+11	which	which	PRON	WDT	PRO	14	nsubj	10:ref	_
+12	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	14	cop	14:cop	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	difference	difference	NOUN	NN	SG;N	10	acl:relcl	10:acl:relcl	Cxn=rc-wh-nsubj
+15	between	between	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	SCADA	scada	NOUN	NN	SG;N	18	compound	18:compound	_
+18	values	value	NOUN	NNS	PL;N	14	nmod	14:nmod:between|25:obj	_
+19	(	(	PUNCT	-LRB-	_	21	punct	21:punct	SpaceAfter=No
+20	Best	good	ADJ	JJS	RL;ADJ	21	advmod	21:advmod	CheckReln=amod
+21	Available	available	ADJ	JJ	ADJ	18	appos	18:appos	CheckReln=amod|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	punct	21:punct	_
+23	that	that	PRON	WDT	PRO	25	obj	18:ref	_
+24	Anita	Anita	PROPN	NNP	SG;PROPN	25	nsubj	25:nsubj	_
+25	showed	show	VERB	VBD	PST;V;3;FIN;SG;IND	18	acl:relcl	18:acl:relcl	Cxn=rc-that-obj
+26	on	on	ADP	IN	ADP	31	case	31:case	_
+27	the	the	DET	DT	DEF;DET	31	det	31:det	_
+28	February	February	PROPN	NNP	SG;PROPN	31	compound	31:compound	_
+29	29th	29th	NOUN	NN	SG;N	28	nummod	28:nummod	CheckAttachment=30|CheckReln=compound
+30	Storage	storage	NOUN	NN	SG;N	31	compound	31:compound	_
+31	Sheet	sheet	NOUN	NN	SG;N	25	obl	25:obl:on	_
+32	and	and	CCONJ	CC	CONJ	39	cc	39:cc	_
+33	the	the	DET	DT	DEF;DET	39	det	39:det	_
+34	"	"	PUNCT	``	_	35	punct	35:punct	SpaceAfter=No
+35	official	official	ADJ	JJ	ADJ	39	amod	39:amod	SpaceAfter=No
+36	"	"	PUNCT	''	_	35	punct	35:punct	CheckAttachment=37
+37	February	February	PROPN	NNP	SG;PROPN	39	compound	39:compound	_
+38	29th	29th	NOUN	NN	SG;N	37	nummod	37:nummod	_
+39	values	value	NOUN	NNS	PL;N	18	conj	18:conj:and|43:obj	CheckAttachment=31
+40	that	that	PRON	WDT	PRO	43	obj	39:ref	_
+41	Gary	Gary	PROPN	NNP	SG;PROPN	43	nsubj	43:nsubj	_
+42	Wilson	Wilson	PROPN	NNP	SG;PROPN	41	flat	41:flat	_
+43	received	receive	VERB	VBD	PST;V;3;FIN;SG;IND	39	acl:relcl	39:acl:relcl	Cxn=rc-that-obj
+44	from	from	ADP	IN	ADP	45	case	45:case	_
+45	MIPS	mips	NOUN	NN	SG;N	43	obl	43:obl:from	SpaceAfter=No
+46	.	.	PUNCT	.	_	5	punct	5:punct	_
+

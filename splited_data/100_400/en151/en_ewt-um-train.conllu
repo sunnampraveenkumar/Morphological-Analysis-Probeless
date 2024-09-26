@@ -1,0 +1,505 @@
+# sent_id = email-enronsent37_01-0021
+# text = Sorry about that before.
+1	Sorry	sorry	ADJ	JJ	ADJ	0	root	0:root	_
+2	about	about	ADP	IN	ADP	3	case	3:case	_
+3	that	that	PRON	DT	PRO;SG	1	obl	1:obl:about	_
+4	before	before	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0022
+# text = I'll not say anything.
+1-2	I'll	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	SG;PRO;NOM;1	4	nsubj	4:nsubj	_
+2	'll	will	AUX	MD	V;FIN	4	aux	4:aux	_
+3	not	not	PART	RB	PART	4	advmod	4:advmod	_
+4	say	say	VERB	VB	V;NFIN	0	root	0:root	_
+5	anything	anything	PRON	NN	PRO;SG	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent37_01-0023
+# newpar id = email-enronsent37_01-p0003
+# text = Best
+1	Best	good	ADJ	JJS	ADJ;RL	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0024
+# newpar id = email-enronsent37_01-p0004
+# text = Jeff
+1	Jeff	Jeff	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0025
+# newpar id = email-enronsent37_01-p0005
+# text = "Scott A. Kushnick" <skush@swbell.net>
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	Scott	Scott	PROPN	NNP	PROPN;SG	0	root	0:root	_
+3	A.	A.	PROPN	NNP	PROPN;SG	2	flat	2:flat	_
+4	Kushnick	Kushnick	PROPN	NNP	PROPN;SG	2	flat	2:flat	SpaceAfter=No
+5	"	"	PUNCT	''	_	2	punct	2:punct	_
+6	<	<	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+7	skush@swbell.net	skush@swbell.net	PROPN	ADD	PROPN	2	list	2:list	SpaceAfter=No
+8	>	>	PUNCT	-RRB-	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent37_01-0026
+# text = 01/26/2001 12:48 PM
+1	01/26/2001	01/26/2001	NUM	CD	NUM	0	root	0:root	_
+2	12:48	12:48	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0027
+# text = Please don't mention my NY trip to anyone.
+1	Please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VB	V;FIN;IMP	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	mention	mention	VERB	VB	V;FIN;IMP	0	root	0:root	_
+5	my	my	PRON	PRP$	SG;PRO;GEN;1	7	nmod:poss	7:nmod:poss	_
+6	NY	NY	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	trip	trip	NOUN	NN	N;SG	4	obj	4:obj	_
+8	to	to	ADP	IN	ADP	9	case	9:case	_
+9	anyone	anyone	PRON	NN	PRO;SG	4	obl	4:obl:to	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent37_01-0028
+# text = Keep in touch.
+1	Keep	keep	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	in	in	ADP	IN	ADP	3	case	3:case	_
+3	touch	touch	NOUN	NN	N;SG	1	obl	1:obl:in	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0029
+# newpar id = email-enronsent37_01-p0006
+# text = Scott
+1	Scott	Scott	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0030
+# newpar id = email-enronsent37_01-p0007
+# text = thanks for the update.
+1	thanks	thanks	NOUN	NN	N;SG	0	root	0:root	_
+2	for	for	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	update	update	NOUN	NN	N;SG	1	nmod	1:nmod:for	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0031
+# text = have you gotten a price?
+1	have	have	AUX	VBP	2;FIN;SG;V;PRS;IND	3	aux	3:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	gotten	get	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	price	price	NOUN	NN	N;SG	3	obj	3:obj	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0032
+# newpar id = email-enronsent37_01-p0008
+# text = Doug Leach
+1	Doug	Doug	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Leach	Leach	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent37_01-0033
+# text = 01/25/2001 09:40 AM
+1	01/25/2001	01/25/2001	NUM	CD	NUM	0	root	0:root	_
+2	09:40	09:40	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0034
+# text = fyi
+1	fyi	fyi	ADV	RB	ADV	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0035
+# text = Tom Byargeon, Kevin Miller and Ken Loch in ENA are working with producers in the US involved in deep water offshore Louisiana/Texas oil and gas drilling projects.
+1	Tom	Tom	PROPN	NNP	PROPN;SG	12	nsubj	12:nsubj	_
+2	Byargeon	Byargeon	PROPN	NNP	PROPN;SG	1	flat	1:flat	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	Kevin	Kevin	PROPN	NNP	PROPN;SG	1	conj	1:conj:and|12:nsubj	_
+5	Miller	Miller	PROPN	NNP	PROPN;SG	4	flat	4:flat	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Ken	Ken	PROPN	NNP	PROPN;SG	1	conj	1:conj:and|12:nsubj	_
+8	Loch	Loch	PROPN	NNP	PROPN;SG	7	flat	7:flat	_
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	ENA	ENA	PROPN	NNP	PROPN;SG	1	nmod	1:nmod:in	_
+11	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	12	aux	12:aux	_
+12	working	work	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+13	with	with	ADP	IN	ADP	14	case	14:case	_
+14	producers	producer	NOUN	NNS	N;PL	12	obl	12:obl:with	_
+15	in	in	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	US	US	PROPN	NNP	PROPN;SG	14	nmod	14:nmod:in	_
+18	involved	involved	ADJ	JJ	ADJ	14	amod	14:amod	_
+19	in	in	ADP	IN	ADP	30	case	30:case	_
+20	deep	deep	ADJ	JJ	ADJ	21	amod	21:amod	_
+21	water	water	NOUN	NN	N;SG	30	compound	30:compound	_
+22	offshore	offshore	ADJ	JJ	ADJ	30	amod	30:amod	_
+23	Louisiana	Louisiana	PROPN	NNP	PROPN;SG	25	compound	25:compound	SpaceAfter=No
+24	/	/	PUNCT	,	_	23	punct	23:punct	SpaceAfter=No
+25	Texas	Texas	PROPN	NNP	PROPN;SG	30	compound	30:compound	_
+26	oil	oil	NOUN	NN	N;SG	30	compound	30:compound	_
+27	and	and	CCONJ	CC	CONJ	28	cc	28:cc	_
+28	gas	gas	NOUN	NN	N;SG	26	conj	26:conj:and|30:compound	_
+29	drilling	drilling	NOUN	NN	N;SG	30	compound	30:compound	_
+30	projects	project	NOUN	NNS	N;PL	18	obl	18:obl:in	SpaceAfter=No
+31	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent37_01-0036
+# text = This financing activity was primarily started to help ENA secure long term well head and pipeline natural gas supplies to supplement the gas trading desk activities.
+1	This	this	DET	DT	DET;SG	3	det	3:det	_
+2	financing	financing	NOUN	NN	N;SG	3	compound	3:compound	_
+3	activity	activity	NOUN	NN	N;SG	6	nsubj:pass	6:nsubj:pass	_
+4	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	6	aux:pass	6:aux:pass	_
+5	primarily	primarily	ADV	RB	ADV	6	advmod	6:advmod	_
+6	started	start	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	help	help	VERB	VB	V;NFIN	6	advcl	6:advcl:to	_
+9	ENA	ENA	PROPN	NNP	PROPN;SG	8	obj	8:obj|10:nsubj:xsubj	_
+10	secure	secure	VERB	VB	V;NFIN	8	xcomp	8:xcomp	_
+11	long	long	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	term	term	NOUN	NN	N;SG	14	compound	14:compound	_
+13	well	well	NOUN	NN	N;SG	14	compound	14:compound	_
+14	head	head	NOUN	NN	N;SG	10	obj	10:obj	_
+15	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+16	pipeline	pipeline	NOUN	NN	N;SG	19	compound	19:compound	_
+17	natural	natural	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	gas	gas	NOUN	NN	N;SG	19	compound	19:compound	_
+19	supplies	supplies	NOUN	NNS	N	14	conj	10:obj|14:conj:and	_
+20	to	to	PART	TO	PART	21	mark	21:mark	_
+21	supplement	supplement	VERB	VB	V;NFIN	10	advcl	10:advcl:to	_
+22	the	the	DET	DT	DEF;DET	26	det	26:det	_
+23	gas	gas	NOUN	NN	N;SG	24	compound	24:compound	_
+24	trading	trading	NOUN	NN	N;SG	26	compound	26:compound	_
+25	desk	desk	NOUN	NN	N;SG	26	compound	26:compound	_
+26	activities	activity	NOUN	NNS	N;PL	21	obj	21:obj	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent37_01-0037
+# text = Just like what happened in Enron's initial VPP program they are find more interest in oil drilling projects rather than natural gas projects.
+1	Just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+2	like	like	ADP	IN	ADP	3	case	3:case	_
+3	what	what	PRON	WP	PRO	13	obl	4:nsubj|13:obl:like	_
+4	happened	happen	VERB	VBD	FIN;SG;V;IND;3;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-free-nsubj
+5	in	in	ADP	IN	ADP	10	case	10:case	_
+6-7	Enron's	_	_	_	_	_	_	_	_
+6	Enron	Enron	PROPN	NNP	PROPN;SG	10	nmod:poss	10:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	initial	initial	ADJ	JJ	ADJ	10	amod	10:amod	_
+9	VPP	vpp	NOUN	NN	N;SG	10	compound	10:compound	_
+10	program	program	NOUN	NN	N;SG	4	obl	4:obl:in	_
+11	they	they	PRON	PRP	PRO;3;PL;NOM	13	nsubj	13:nsubj	_
+12	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	13	aux	13:aux	_
+13	find	find	VERB	VB	V;NFIN	0	root	0:root	_
+14	more	more	ADJ	JJR	ADJ;CMPR	15	amod	15:amod	_
+15	interest	interest	NOUN	NN	N;SG	13	obj	13:obj	_
+16	in	in	ADP	IN	ADP	19	case	19:case	_
+17	oil	oil	NOUN	NN	N;SG	18	compound	18:compound	_
+18	drilling	drilling	NOUN	NN	N;SG	19	compound	19:compound	_
+19	projects	project	NOUN	NNS	N;PL	15	nmod	15:nmod:in	_
+20	rather	rather	ADV	RB	ADV	24	cc	24:cc	_
+21	than	than	ADP	IN	ADP	20	fixed	20:fixed	_
+22	natural	natural	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	gas	gas	NOUN	NN	N;SG	24	compound	24:compound	_
+24	projects	project	NOUN	NNS	N;PL	19	conj	15:nmod:in|19:conj:rather_than	SpaceAfter=No
+25	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+# sent_id = email-enronsent37_01-0038
+# text = They are currently working on a bid (due 1/31) for the Medusa project which involves Murphy (operator), Agip and Callon in Mississippi Canyon Blocks #538 and #582.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	4	aux	4:aux	_
+3	currently	currently	ADV	RB	ADV	4	advmod	4:advmod	_
+4	working	work	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+5	on	on	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	bid	bid	NOUN	NN	N;SG	4	obl	4:obl:on	_
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+9	due	due	ADJ	JJ	ADJ	7	amod	7:amod	_
+10	1/31	1/31	NUM	CD	NUM	9	obl:npmod	9:obl:npmod	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	9	punct	9:punct	_
+12	for	for	ADP	IN	ADP	15	case	15:case	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	Medusa	Medusa	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+15	project	project	NOUN	NN	N;SG	7	nmod	7:nmod:for|17:nsubj	_
+16	which	which	PRON	WDT	PRO	17	nsubj	15:ref	_
+17	involves	involve	VERB	VBZ	FIN;SG;V;PRS;IND;3	15	acl:relcl	15:acl:relcl	Cxn=rc-wh-nsubj
+18	Murphy	Murphy	PROPN	NNP	PROPN;SG	17	obj	17:obj	_
+19	(	(	PUNCT	-LRB-	_	20	punct	20:punct	SpaceAfter=No
+20	operator	operator	NOUN	NN	N;SG	18	appos	18:appos	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	punct	20:punct	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	23:punct	_
+23	Agip	Agip	PROPN	NNP	PROPN;SG	18	conj	17:obj|18:conj:and	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	Callon	Callon	PROPN	NNP	PROPN;SG	18	conj	17:obj|18:conj:and	_
+26	in	in	ADP	IN	ADP	29	case	29:case	_
+27	Mississippi	Mississippi	PROPN	NNP	PROPN;SG	28	compound	28:compound	_
+28	Canyon	Canyon	PROPN	NNP	PROPN;SG	29	compound	29:compound	_
+29	Blocks	Block	PROPN	NNPS	PROPN;PL	17	obl	17:obl:in	_
+30	#	#	SYM	NN	SG	29	compound	29:compound	SpaceAfter=No
+31	538	538	NUM	CD	NUM	30	nummod	30:nummod	_
+32	and	and	CCONJ	CC	CONJ	33	cc	33:cc	_
+33	#	#	SYM	NN	SG	30	conj	29:compound|30:conj:and	SpaceAfter=No
+34	582	582	NUM	CD	NUM	33	nummod	33:nummod	SpaceAfter=No
+35	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent37_01-0039
+# text = The initial reservoir reports estimate reserves of 80-120 million barrels of sour crude and they estimate initial production to be 40,000 bpd starting in 1Q 2003.
+1	The	the	DET	DT	DEF;DET	4	det	4:det	_
+2	initial	initial	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	reservoir	reservoir	NOUN	NN	N;SG	4	compound	4:compound	_
+4	reports	report	NOUN	NNS	N;PL	5	nsubj	5:nsubj	_
+5	estimate	estimate	VERB	VBP	FIN;V;PRS;IND;3;PL	0	root	0:root	_
+6	reserves	reserve	NOUN	NNS	N;PL	5	obj	5:obj	_
+7	of	of	ADP	IN	ADP	12	case	12:case	_
+8	80	80	NUM	CD	NUM	11	compound	11:compound	SpaceAfter=No
+9	-	-	SYM	SYM	_	10	case	10:case	SpaceAfter=No
+10	120	120	NUM	CD	NUM	8	nmod	8:nmod	_
+11	million	million	NUM	CD	NUM	12	nummod	12:nummod	_
+12	barrels	barrel	NOUN	NNS	N;PL	6	nmod	6:nmod:of	_
+13	of	of	ADP	IN	ADP	15	case	15:case	_
+14	sour	sour	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	crude	crude	NOUN	NN	N;SG	12	nmod	12:nmod:of	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	they	they	PRON	PRP	PRO;3;PL;NOM	18	nsubj	18:nsubj	_
+18	estimate	estimate	VERB	VBP	FIN;V;PRS;IND;3;PL	5	conj	5:conj:and	_
+19	initial	initial	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	production	production	NOUN	NN	N;SG	18	obj	18:obj|24:nsubj:xsubj	_
+21	to	to	PART	TO	PART	24	mark	24:mark	_
+22	be	be	AUX	VB	V;NFIN	24	cop	24:cop	_
+23	40,000	40000	NUM	CD	NUM	24	nummod	24:nummod	_
+24	bpd	bpd	NOUN	NNS	N;PL	18	xcomp	18:xcomp	_
+25	starting	start	VERB	VBG	V.MSDR;V	24	acl	24:acl	_
+26	in	in	ADP	IN	ADP	27	case	27:case	_
+27	1Q	1q	NOUN	NN	N;SG	25	obl	25:obl:in	_
+28	2003	2003	NUM	CD	NUM	27	nummod	27:nummod	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent37_01-0040
+# text = Quality is estimated to be a Mars type crude with 25-27 API Gravity and 1.5-2.0% sulfur.
+1	Quality	quality	NOUN	NN	N;SG	3	nsubj:pass	3:nsubj:pass|9:nsubj:xsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	3	aux:pass	3:aux:pass	_
+3	estimated	estimate	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+4	to	to	PART	TO	PART	9	mark	9:mark	_
+5	be	be	AUX	VB	V;NFIN	9	cop	9:cop	_
+6	a	a	DET	DT	DET;INDF	9	det	9:det	_
+7	Mars	Mars	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	type	type	NOUN	NN	N;SG	9	compound	9:compound	_
+9	crude	crude	NOUN	NN	N;SG	3	xcomp	3:xcomp	_
+10	with	with	ADP	IN	ADP	15	case	15:case	_
+11	25	25	NUM	CD	NUM	15	compound	15:compound	SpaceAfter=No
+12	-	-	SYM	SYM	_	13	case	13:case	SpaceAfter=No
+13	27	27	NUM	CD	NUM	11	nmod	11:nmod	_
+14	API	api	NOUN	NN	N;SG	15	compound	15:compound	_
+15	Gravity	gravity	NOUN	NN	N;SG	9	nmod	9:nmod:with	_
+16	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+17	1.5	1.5	NUM	CD	NUM	20	nummod	20:nummod	SpaceAfter=No
+18	-	-	SYM	SYM	_	19	case	19:case	SpaceAfter=No
+19	2.0	2.0	NUM	CD	NUM	17	nmod	17:nmod	SpaceAfter=No
+20	%	%	SYM	NN	SG	21	compound	21:compound	_
+21	sulfur	sulfur	NOUN	NN	N;SG	15	conj	9:nmod:with|15:conj:and	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0041
+# text = Plans are to build a private pipeline to Equilon's West Delta #143 platform and then bring the oil onshore.
+1	Plans	plan	NOUN	NNS	N;PL	4	nsubj:outer	4:nsubj:outer|18:nsubj:outer	_
+2	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	4	cop	4:cop	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	build	build	VERB	VB	V;NFIN	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	private	private	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	pipeline	pipeline	NOUN	NN	N;SG	4	obj	4:obj	_
+8	to	to	ADP	IN	ADP	15	case	15:case	_
+9-10	Equilon's	_	_	_	_	_	_	_	_
+9	Equilon	Equilon	PROPN	NNP	PROPN;SG	15	nmod:poss	15:nmod:poss	_
+10	's	's	PART	POS	PART	9	case	9:case	_
+11	West	West	PROPN	NNP	PROPN;SG	12	compound	12:compound	_
+12	Delta	Delta	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+13	#	#	SYM	NN	SG	15	compound	15:compound	SpaceAfter=No
+14	143	143	NUM	CD	NUM	13	nummod	13:nummod	_
+15	platform	platform	NOUN	NN	N;SG	7	nmod	7:nmod:to	_
+16	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+17	then	then	ADV	RB	ADV	18	advmod	18:advmod	_
+18	bring	bring	VERB	VB	V;NFIN	4	conj	0:root|4:conj:and	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	oil	oil	NOUN	NN	N;SG	18	obj	18:obj	_
+21	onshore	onshore	ADV	RB	ADV	18	advmod	18:advmod	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent37_01-0042
+# text = Peggy is finding out where WD #143 pumps to onshore.
+1	Peggy	Peggy	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	3	aux	3:aux	_
+3	finding	find	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+4	out	out	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	where	where	ADV	WRB	ADV	9	advmod	9:advmod	_
+6	WD	WD	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+7	#	#	SYM	NN	SG	6	compound	6:compound	SpaceAfter=No
+8	143	143	NUM	CD	NUM	7	nummod	7:nummod	_
+9	pumps	pump	VERB	VBZ	FIN;SG;V;PRS;IND;3	3	advcl	3:advcl:where	_
+10	to	to	ADP	IN	ADP	9	obl	9:obl	Promoted=Yes
+11	onshore	onshore	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0043
+# text = Tom's group would like to know if we have any interesting in buying the crude on either a fixed or floating basis.
+1-2	Tom's	_	_	_	_	_	_	_	_
+1	Tom	Tom	PROPN	NNP	PROPN;SG	3	nmod:poss	3:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	group	group	NOUN	NN	N;SG	5	nsubj	5:nsubj|7:nsubj:xsubj	_
+4	would	would	AUX	MD	V;FIN	5	aux	5:aux	_
+5	like	like	VERB	VB	V;NFIN	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	know	know	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	if	if	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	we	we	PRON	PRP	PRO;PL;NOM;1	10	nsubj	10:nsubj	_
+10	have	have	VERB	VBP	FIN;V;PRS;IND;PL;1	7	ccomp	7:ccomp	_
+11	any	any	DET	DT	DET	12	det	12:det	_
+12	interesting	interest	NOUN	NN	N;SG	10	obj	10:obj	CorrectForm=interest
+13	in	in	SCONJ	IN	CONJ	14	mark	14:mark	_
+14	buying	buy	VERB	VBG	V.MSDR;V	12	acl	12:acl:in	_
+15	the	the	DET	DT	DEF;DET	16	det	16:det	_
+16	crude	crude	NOUN	NN	N;SG	14	obj	14:obj	_
+17	on	on	ADP	IN	ADP	23	case	23:case	_
+18	either	either	CCONJ	CC	CONJ	20	cc:preconj	20:cc:preconj	_
+19	a	a	DET	DT	DET;INDF	23	det	23:det	_
+20	fixed	fix	VERB	VBN	V.PTCP;PST;PASS;V	23	amod	23:amod	_
+21	or	or	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	floating	float	VERB	VBG	V.PTCP;V;PRS	20	conj	20:conj:or|23:amod	_
+23	basis	basis	NOUN	NN	N;SG	14	obl	14:obl:on	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent37_01-0044
+# text = The floating could be tied to a Platt's index or the NYMEX.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	floating	floating	NOUN	NN	N;SG	5	nsubj:pass	5:nsubj:pass	_
+3	could	could	AUX	MD	V;FIN	5	aux	5:aux	_
+4	be	be	AUX	VB	V;NFIN	5	aux:pass	5:aux:pass	_
+5	tied	tie	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+6	to	to	ADP	IN	ADP	10	case	10:case	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8-9	Platt's	_	_	_	_	_	_	_	_
+8	Platt	Platt	PROPN	NNP	PROPN;SG	10	nmod:poss	10:nmod:poss	_
+9	's	's	PART	POS	PART	8	case	8:case	_
+10	index	index	NOUN	NN	N;SG	5	obl	5:obl:to	_
+11	or	or	CCONJ	CC	CONJ	13	cc	13:cc	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	NYMEX	NYMEX	PROPN	NNP	PROPN;SG	10	conj	5:obl:to|10:conj:or	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent37_01-0045
+# text = It is far too early to expect Murphy to enter into a physical or financial contract, but Tom hopes to get us first and/or last look from Murphy when the time is right.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+3	far	far	ADV	RB	ADV	4	advmod	4:advmod	_
+4	too	too	ADV	RB	ADV	5	advmod	5:advmod	_
+5	early	early	ADJ	JJ	ADJ	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	expect	expect	VERB	VB	V;NFIN	5	advcl	5:advcl:to	_
+8	Murphy	Murphy	PROPN	NNP	PROPN;SG	7	obj	7:obj|10:nsubj:xsubj	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	enter	enter	VERB	VB	V;NFIN	7	xcomp	7:xcomp	_
+11	into	into	ADP	IN	ADP	16	case	16:case	_
+12	a	a	DET	DT	DET;INDF	16	det	16:det	_
+13	physical	physical	ADJ	JJ	ADJ	16	amod	16:amod	_
+14	or	or	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	financial	financial	ADJ	JJ	ADJ	13	conj	13:conj:or|16:amod	_
+16	contract	contract	NOUN	NN	N;SG	10	obl	10:obl:into	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	but	but	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	Tom	Tom	PROPN	NNP	PROPN;SG	20	nsubj	20:nsubj|22:nsubj:xsubj	_
+20	hopes	hope	VERB	VBZ	FIN;SG;V;PRS;IND;3	5	conj	5:conj:but	_
+21	to	to	PART	TO	PART	22	mark	22:mark	_
+22	get	get	VERB	VB	V;NFIN	20	xcomp	20:xcomp	_
+23	us	we	PRON	PRP	PRO;PL;1;ACC	22	iobj	22:iobj	_
+24	first	first	ADJ	JJ	ADJ	29	amod	29:amod	_
+25	and	and	CCONJ	CC	CONJ	28	cc	28:cc	SpaceAfter=No
+26	/	/	SYM	SYM	_	27	cc	27:cc	SpaceAfter=No
+27	or	or	CCONJ	CC	CONJ	25	conj	25:conj:slash|28:cc	_
+28	last	last	ADJ	JJ	ADJ	24	conj	24:conj:and_or|29:amod	_
+29	look	look	NOUN	NN	N;SG	22	obj	22:obj	_
+30	from	from	ADP	IN	ADP	31	case	31:case	_
+31	Murphy	Murphy	PROPN	NNP	PROPN;SG	22	obl	22:obl:from	_
+32	when	when	ADV	WRB	ADV	36	advmod	36:advmod	_
+33	the	the	DET	DT	DEF;DET	34	det	34:det	_
+34	time	time	NOUN	NN	N;SG	36	nsubj	36:nsubj	_
+35	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	36	cop	36:cop	_
+36	right	right	ADJ	JJ	ADJ	22	advcl	22:advcl:when	SpaceAfter=No
+37	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent37_01-0046
+# text = Another alternative is to give Murphy barrels at their 95,000 bpd Meraux, Louisiana refinery in exchange for the new production barrels.
+1	Another	another	DET	DT	DET	2	det	2:det	_
+2	alternative	alternative	NOUN	NN	N;SG	5	nsubj:outer	5:nsubj:outer	_
+3	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	give	give	VERB	VB	V;NFIN	0	root	0:root	_
+6	Murphy	Murphy	PROPN	NNP	PROPN;SG	5	iobj	5:iobj	_
+7	barrels	barrel	NOUN	NNS	N;PL	5	obj	5:obj	_
+8	at	at	ADP	IN	ADP	15	case	15:case	_
+9	their	their	PRON	PRP$	PRO;3;PL;GEN	15	nmod:poss	15:nmod:poss	_
+10	95,000	95000	NUM	CD	NUM	11	nummod	11:nummod	_
+11	bpd	bpd	NOUN	NN	N;SG	15	compound	15:compound	_
+12	Meraux	Meraux	PROPN	NNP	PROPN;SG	15	compound	15:compound	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	Louisiana	Louisiana	PROPN	NNP	PROPN;SG	12	appos	12:appos	_
+15	refinery	refinery	NOUN	NN	N;SG	5	obl	5:obl:at	_
+16	in	in	ADP	IN	ADP	17	case	17:case	_
+17	exchange	exchange	NOUN	NN	N;SG	5	obl	5:obl:in	_
+18	for	for	ADP	IN	ADP	22	case	22:case	_
+19	the	the	DET	DT	DEF;DET	22	det	22:det	_
+20	new	new	ADJ	JJ	ADJ	22	amod	22:amod	_
+21	production	production	NOUN	NN	N;SG	22	compound	22:compound	_
+22	barrels	barrel	NOUN	NNS	N;PL	17	nmod	17:nmod:for	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent37_01-0047
+# text = Could someone in your group please give me a notional non binding basis differential for this quality of crude for Cal 2003?
+1	Could	could	AUX	MD	V;FIN	7	aux	7:aux	_
+2	someone	someone	PRON	NN	PRO;SG	7	nsubj	7:nsubj	_
+3	in	in	ADP	IN	ADP	5	case	5:case	_
+4	your	your	PRON	PRP$	2;PRO;GEN	5	nmod:poss	5:nmod:poss	_
+5	group	group	NOUN	NN	N;SG	2	nmod	2:nmod:in	_
+6	please	please	INTJ	UH	INTJ	7	discourse	7:discourse	_
+7	give	give	VERB	VB	V;NFIN	0	root	0:root	_
+8	me	I	PRON	PRP	SG;PRO;1;ACC	7	iobj	7:iobj	_
+9	a	a	DET	DT	DET;INDF	14	det	14:det	_
+10	notional	notional	ADJ	JJ	ADJ	14	amod	14:amod	_
+11	non	non	ADV	AFX	ADV	12	advmod	12:advmod	_
+12	binding	bind	VERB	VBG	V.MSDR;V	14	amod	14:amod	_
+13	basis	basis	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	differential	differential	NOUN	NN	N;SG	7	obj	7:obj	_
+15	for	for	ADP	IN	ADP	17	case	17:case	_
+16	this	this	DET	DT	DET;SG	17	det	17:det	_
+17	quality	quality	NOUN	NN	N;SG	14	nmod	14:nmod:for	_
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19	crude	crude	NOUN	NN	N;SG	17	nmod	17:nmod:of	_
+20	for	for	ADP	IN	ADP	21	case	21:case	_
+21	Cal	Cal	PROPN	NNP	PROPN;SG	14	nmod	14:nmod:for	_
+22	2003	2003	NUM	CD	NUM	21	nummod	21:nummod	SpaceAfter=No
+23	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent37_01-0048
+# text = please print
+1	please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	print	print	VERB	VB	V;FIN;IMP	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0049
+# text = Amanda Huble@ENRON
+1	Amanda	AmandaHuble@ENRON	PROPN	GW	PROPN	0	root	0:root	_
+2	Huble@ENRON	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent37_01-0050
+# text = 01/24/2001 01:02 PM
+1	01/24/2001	01/24/2001	NUM	CD	NUM	0	root	0:root	_
+2	01:02	01:02	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0051
+# text = Please address, and I'll check with Legal as well.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	address	address	VERB	VB	V;FIN;IMP	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	7:punct	_
+4	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+5-6	I'll	_	_	_	_	_	_	_	_
+5	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+6	'll	will	AUX	MD	V;FIN	7	aux	7:aux	_
+7	check	check	VERB	VB	V;NFIN	2	conj	2:conj:and	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	Legal	legal	NOUN	NN	N;SG	7	obl	7:obl:with	_
+10	as	as	ADV	RB	ADV	7	advmod	7:advmod	_
+11	well	well	ADV	RB	ADV	10	fixed	10:fixed	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+

@@ -1,0 +1,466 @@
+# sent_id = email-enronsent12_01-0068
+# text = No.
+1	No	no	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent12_01-0069
+# text = I didn't feel guilty about the garage sale, that's why I was annoyed - being notified at 10:00 at night GRRRRRRR.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	4	nsubj	4:nsubj|5:nsubj:xsubj	_
+2-3	didn't	_	_	_	_	_	_	_	_
+2	did	do	AUX	VBD	IND;FIN;PST;1;V;SG	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	feel	feel	VERB	VB	V;NFIN	0	root	0:root	_
+5	guilty	guilty	ADJ	JJ	ADJ	4	xcomp	4:xcomp	_
+6	about	about	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	garage	garage	NOUN	NN	SG;N	9	compound	9:compound	_
+9	sale	sale	NOUN	NN	SG;N	5	obl	5:obl:about	SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	13:punct	_
+11-12	that's	_	_	_	_	_	_	_	_
+11	that	that	PRON	DT	SG;PRO	13	nsubj	13:nsubj	_
+12	's	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	13	cop	13:cop	_
+13	why	why	ADV	WRB	ADV	4	parataxis	4:parataxis|16:advmod	_
+14	I	I	PRON	PRP	NOM;1;PRO;SG	16	nsubj	16:nsubj	_
+15	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	16	cop	16:cop	_
+16	annoyed	annoyed	ADJ	JJ	ADJ	13	advcl:relcl	13:advcl:relcl	Cxn=rc-free-advmod
+17	-	-	PUNCT	,	_	19	punct	19:punct	_
+18	being	be	AUX	VBG	V;V.PTCP;PRS	19	aux:pass	19:aux:pass	_
+19	notified	notify	VERB	VBN	V;V.PTCP;PST;PASS	13	parataxis	13:parataxis	_
+20	at	at	ADP	IN	ADP	21	case	21:case	_
+21	10:00	10:00	NUM	CD	NUM	19	obl	19:obl:at	_
+22	at	at	ADP	IN	ADP	23	case	23:case	_
+23	night	night	NOUN	NN	SG;N	21	nmod	21:nmod:at	_
+24	GRRRRRRR	grr	INTJ	UH	INTJ	13	discourse	13:discourse	CorrectForm=grr|SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent12_01-0070
+# text = I do feel guilty about you doing all this work.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+2	do	do	AUX	VBP	PRS;IND;FIN;1;V;SG	3	aux	3:aux	_
+3	feel	feel	VERB	VB	V;NFIN	0	root	0:root	_
+4	guilty	guilty	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+5	about	about	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	you	you	PRON	PRP	2;NOM;PRO	7	nsubj	7:nsubj	_
+7	doing	do	VERB	VBG	V;V.PTCP;PRS	4	advcl	4:advcl:about	_
+8	all	all	DET	PDT	DET	10	det:predet	10:det:predet	_
+9	this	this	DET	DT	SG;DET	10	det	10:det	_
+10	work	work	NOUN	NN	SG;N	7	obj	7:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent12_01-0071
+# text = So I'm going with you, I pay for the gas and the twinkies.
+1	So	so	ADV	RB	ADV	4	advmod	4:advmod	_
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	NOM;1;PRO;SG	4	nsubj	4:nsubj	_
+3	'm	be	AUX	VBP	PRS;IND;FIN;1;V;SG	4	aux	4:aux	_
+4	going	go	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+5	with	with	ADP	IN	ADP	6	case	6:case	_
+6	you	you	PRON	PRP	ACC;2;PRO	4	obl	4:obl:with	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	I	I	PRON	PRP	NOM;1;PRO;SG	9	nsubj	9:nsubj	_
+9	pay	pay	VERB	VBP	V;PRS;IND;FIN;1;SG	4	parataxis	4:parataxis	_
+10	for	for	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	gas	gas	NOUN	NN	SG;N	9	obl	9:obl:for	_
+13	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	twinkies	twinky	NOUN	NNS	N;PL	12	conj	9:obl:for|12:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = email-enronsent17_01
+# sent_id = email-enronsent17_01-0001
+# newpar id = email-enronsent17_01-p0001
+# text = Correction,
+1	Correction	correction	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent17_01-0002
+# newpar id = email-enronsent17_01-p0002
+# text = Jack welch is the CEO of GE, not GM.
+1	Jack	Jack	PROPN	NNP	PROPN;SG	5	nsubj	5:nsubj	_
+2	welch	welch	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	CEO	ceo	NOUN	NN	SG;N	0	root	0:root	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	GE	GE	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:of	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	not	not	PART	RB	PART	10	advmod	10:advmod	_
+10	GM	GM	PROPN	NNP	PROPN;SG	7	conj	5:nmod:of|7:conj:not	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent17_01-0003
+# newpar id = email-enronsent17_01-p0003
+# text = Vince Kaminski
+1	Vince	Vince	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Kaminski	Kaminski	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent17_01-0004
+# newpar id = email-enronsent17_01-p0004
+# text = The eThink Team
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	eThink	eThink	PROPN	NNP	PROPN;SG	3	compound	3:compound	_
+3	Team	team	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = email-enronsent17_01-0005
+# text = We recently asked you to create an eSpeak "wish list" for us.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	3	nsubj	3:nsubj	_
+2	recently	recently	ADV	RB	ADV	3	advmod	3:advmod	_
+3	asked	ask	VERB	VBD	V;IND;FIN;PST;PL;1	0	root	0:root	_
+4	you	you	PRON	PRP	2;NOM;PRO	3	iobj	3:iobj|6:nsubj:xsubj	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	create	create	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+7	an	a	DET	DT	DET;INDF	11	det	11:det	_
+8	eSpeak	eSpeak	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+9	"	"	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No
+10	wish	wish	NOUN	NN	SG;N	11	compound	11:compound	_
+11	list	list	NOUN	NN	SG;N	6	obj	6:obj	SpaceAfter=No
+12	"	"	PUNCT	''	_	11	punct	11:punct	_
+13	for	for	ADP	IN	ADP	14	case	14:case	_
+14	us	we	PRON	PRP	ACC;PL;1;PRO	6	obl	6:obl:for	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent17_01-0006
+# text = The response was tremendous and, in some cases, very creative.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	response	response	NOUN	NN	SG;N	4	nsubj	4:nsubj|12:nsubj	_
+3	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	4	cop	4:cop	_
+4	tremendous	tremendous	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	12	cc	12:cc	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	in	in	ADP	IN	ADP	9	case	9:case	_
+8	some	some	DET	DT	DET	9	det	9:det	_
+9	cases	case	NOUN	NNS	N;PL	12	obl	12:obl:in	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	9:punct	_
+11	very	very	ADV	RB	ADV	12	advmod	12:advmod	_
+12	creative	creative	ADJ	JJ	ADJ	4	conj	4:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent17_01-0007
+# text = Your fellow employees asked for everyone from Britney Spears to George Bush.
+1	Your	your	PRON	PRP$	GEN;2;PRO	3	nmod:poss	3:nmod:poss	_
+2	fellow	fellow	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	employees	employee	NOUN	NNS	N;PL	4	nsubj	4:nsubj	_
+4	asked	ask	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+5	for	for	ADP	IN	ADP	6	case	6:case	_
+6	everyone	everyone	PRON	NN	SG;PRO	4	obl	4:obl:for	_
+7	from	from	ADP	IN	ADP	8	case	8:case	_
+8	Britney	Britney	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:from	_
+9	Spears	Spears	PROPN	NNP	PROPN;SG	8	flat	8:flat	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	George	George	PROPN	NNP	PROPN;SG	8	nmod	8:nmod:to	_
+12	Bush	Bush	PROPN	NNP	PROPN;SG	11	flat	11:flat	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent17_01-0008
+# text = In all, we received requests for 61persons outside of Enron to host an eSpeak event.
+1	In	in	ADP	IN	ADP	2	case	2:case	_
+2	all	all	DET	DT	DET	5	obl	5:obl:in	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	we	we	PRON	PRP	NOM;PL;1;PRO	5	nsubj	5:nsubj	_
+5	received	receive	VERB	VBD	V;IND;FIN;PST;PL;1	0	root	0:root	_
+6	requests	request	NOUN	NNS	N;PL	5	obj	5:obj	_
+7	for	for	ADP	IN	ADP	9	case	9:case	_
+8	61	61	NUM	CD	NUM	9	nummod	9:nummod	SpaceAfter=No
+9	persons	person	NOUN	NNS	N;PL	6	nmod	6:nmod:for	_
+10	outside	outside	ADP	IN	ADP	12	case	12:case	_
+11	of	of	ADP	IN	ADP	12	case	12:case	_
+12	Enron	Enron	PROPN	NNP	PROPN;SG	9	nmod	9:nmod:of	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	host	host	VERB	VB	V;NFIN	9	acl	9:acl:to	_
+15	an	a	DET	DT	DET;INDF	17	det	17:det	_
+16	eSpeak	eSpeak	PROPN	NNP	PROPN;SG	17	compound	17:compound	_
+17	event	event	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent17_01-0009
+# text = We thought you might like to know who your colleagues find interesting, so we've provided a sampling of the suggestions below.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	2	nsubj	2:nsubj	_
+2	thought	think	VERB	VBD	V;IND;FIN;PST;PL;1	0	root	0:root	_
+3	you	you	PRON	PRP	2;NOM;PRO	5	nsubj	5:nsubj|7:nsubj:xsubj	_
+4	might	might	AUX	MD	V;FIN	5	aux	5:aux	_
+5	like	like	VERB	VB	V;NFIN	2	ccomp	2:ccomp	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	know	know	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	who	who	PRON	WP	PRO	11	obj	11:obj|12:nsubj:xsubj	_
+9	your	your	PRON	PRP$	GEN;2;PRO	10	nmod:poss	10:nmod:poss	_
+10	colleagues	colleague	NOUN	NNS	N;PL	11	nsubj	11:nsubj	_
+11	find	find	VERB	VBP	V;3;PRS;IND;FIN;PL	7	ccomp	7:ccomp	_
+12	interesting	interesting	ADJ	JJ	ADJ	11	xcomp	11:xcomp	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	17:punct	_
+14	so	so	ADV	RB	ADV	17	advmod	17:advmod	_
+15-16	we've	_	_	_	_	_	_	_	_
+15	we	we	PRON	PRP	NOM;PL;1;PRO	17	nsubj	17:nsubj	_
+16	've	have	AUX	VBP	PRS;IND;FIN;PL;1;V	17	aux	17:aux	_
+17	provided	provide	VERB	VBN	V;V.PTCP;PST	2	parataxis	2:parataxis	_
+18	a	a	DET	DT	DET;INDF	19	det	19:det	_
+19	sampling	sampling	NOUN	NN	SG;N	17	obj	17:obj	_
+20	of	of	ADP	IN	ADP	22	case	22:case	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	suggestions	suggestion	NOUN	NNS	N;PL	19	nmod	19:nmod:of	_
+23	below	below	ADV	RB	ADV	17	advmod	17:advmod	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent17_01-0010
+# text = Here are the top ten most requested eSpeakers.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	1	cop	1:cop	_
+3	the	the	DET	DT	DEF;DET	8	det	8:det	_
+4	top	top	ADJ	JJ	ADJ	8	amod	8:amod	_
+5	ten	ten	NUM	CD	NUM	8	nummod	8:nummod	_
+6	most	most	ADV	RBS	RL;ADV	7	advmod	7:advmod	_
+7	requested	request	VERB	VBN	V;V.PTCP;PST;PASS	8	amod	8:amod	_
+8	eSpeakers	espeaker	NOUN	NNS	N;PL	1	nsubj	1:nsubj	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent17_01-0011
+# text = 10. Jack Welch, CEO, General Motors
+1	10	10	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Jack	Jack	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	Welch	Welch	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	CEO	ceo	NOUN	NN	SG;N	3	list	3:list	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	General	General	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Motors	Motor	PROPN	NNPS	PROPN;PL	3	list	3:list	_
+
+# sent_id = email-enronsent17_01-0012
+# text = 9. Scott McNeally, CEO, Sun Microsystems
+1	9	9	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Scott	Scott	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	McNeally	McNeally	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	CEO	ceo	NOUN	NN	SG;N	3	list	3:list	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	Sun	Sun	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Microsystems	Microsystem	PROPN	NNPS	PROPN;PL	3	list	3:list	_
+
+# sent_id = email-enronsent17_01-0013
+# text = 8. Satisfied Enron Customers
+1	8	8	NUM	LS	NUM	5	discourse	5:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Satisfied	satisfied	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	Enron	Enron	PROPN	NNP	PROPN;SG	5	compound	5:compound	_
+5	Customers	customer	NOUN	NNS	N;PL	0	root	0:root	_
+
+# sent_id = email-enronsent17_01-0014
+# text = 7. Stephen Covey, author, The Seven Habits of Highly Effective People
+1	7	7	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Stephen	Stephen	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	Covey	Covey	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	author	author	NOUN	NN	SG;N	3	list	3:list	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	The	the	DET	DT	DEF;DET	10	det	10:det	_
+9	Seven	Seven	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+10	Habits	Habit	PROPN	NNPS	PROPN;PL	3	list	3:list	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	Highly	highly	ADV	RB	ADV	13	advmod	13:advmod	_
+13	Effective	Effective	ADJ	NNP	ADJ	14	amod	14:amod	_
+14	People	People	PROPN	NNPS	PROPN;PL	10	nmod	10:nmod:of	_
+
+# sent_id = email-enronsent17_01-0015
+# text = 6. Oprah Winfrey, talkshow host
+1	6	6	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Oprah	Oprah	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	Winfrey	Winfrey	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	talkshow	talkshow	NOUN	NN	SG;N	7	compound	7:compound	_
+7	host	host	NOUN	NN	SG;N	3	list	3:list	_
+
+# sent_id = email-enronsent17_01-0016
+# text = 5. General Colin Powell, former Chairman, Joint Chiefs of Staff, U.S.A.
+1	5	5	NUM	LS	NUM	4	discourse	4:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	General	General	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	Colin	Colin	PROPN	NNP	PROPN;SG	0	root	0:root	_
+5	Powell	Powell	PROPN	NNP	PROPN;SG	4	flat	4:flat	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	former	former	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	Chairman	Chairman	PROPN	NNP	PROPN;SG	4	list	4:list	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	Joint	Joint	ADJ	NNP	ADJ	11	amod	11:amod	_
+11	Chiefs	Chief	PROPN	NNPS	PROPN;PL	4	list	4:list	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	Staff	Staff	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:of	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	U.S.A	U.S.A	PROPN	NNP	PROPN;SG	4	list	4:list	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent17_01-0017
+# text = 4. Alan Greenspan, Chairman, Federal Reserve, U.S.A.
+1	4	4	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Alan	Alan	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	Greenspan	Greenspan	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	Chairman	Chairman	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	Federal	Federal	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Reserve	Reserve	PROPN	NNP	PROPN;SG	3	list	3:list	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	U.S.A	U.S.A	PROPN	NNP	PROPN;SG	3	list	3:list	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent17_01-0018
+# text = 3. Former U.S. President George Bush
+1	3	3	NUM	LS	NUM	5	discourse	5:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Former	former	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	U.S.	U.S.	PROPN	NNP	PROPN;SG	5	compound	5:compound	_
+5	President	President	PROPN	NNP	PROPN;SG	0	root	0:root	_
+6	George	George	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+7	Bush	Bush	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+
+# sent_id = email-enronsent17_01-0019
+# text = 2. Bill Gates, CEO, Microsoft
+1	2	2	NUM	LS	NUM	3	discourse	3:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Bill	Bill	PROPN	NNP	PROPN;SG	0	root	0:root	_
+4	Gates	Gates	PROPN	NNP	PROPN;SG	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	CEO	ceo	NOUN	NN	SG;N	3	list	3:list	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	Microsoft	Microsoft	PROPN	NNP	PROPN;SG	3	list	3:list	_
+
+# sent_id = email-enronsent17_01-0020
+# text = 1. Texas Governor George W. Bush
+1	1	1	NUM	LS	NUM	5	discourse	5:discourse	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+3	Texas	Texas	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	Governor	Governor	PROPN	NNP	PROPN;SG	5	compound	5:compound	_
+5	George	George	PROPN	NNP	PROPN;SG	0	root	0:root	_
+6	W.	W.	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+7	Bush	Bush	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+
+# sent_id = email-enronsent17_01-0021
+# text = While we can't make any promises, we will do our best to bring in at least some of these special guests.
+1	While	while	SCONJ	IN	CONJ	5	mark	5:mark	_
+2	we	we	PRON	PRP	NOM;PL;1;PRO	5	nsubj	5:nsubj	_
+3-4	can't	_	_	_	_	_	_	_	_
+3	ca	can	AUX	MD	V;FIN	5	aux	5:aux	_
+4	n't	not	PART	RB	PART	5	advmod	5:advmod	_
+5	make	make	VERB	VB	V;NFIN	11	advcl	11:advcl:while	_
+6	any	any	DET	DT	DET	7	det	7:det	_
+7	promises	promise	NOUN	NNS	N;PL	5	obj	5:obj	SpaceAfter=No
+8	,	,	PUNCT	,	_	5	punct	5:punct	_
+9	we	we	PRON	PRP	NOM;PL;1;PRO	11	nsubj	11:nsubj	_
+10	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+11	do	do	VERB	VB	V;NFIN	0	root	0:root	_
+12	our	our	PRON	PRP$	GEN;PL;PRO;1	13	nmod:poss	13:nmod:poss	_
+13	best	good	ADJ	JJS	ADJ;RL	11	obj	11:obj	_
+14	to	to	PART	TO	PART	15	mark	15:mark	_
+15	bring	bring	VERB	VB	V;NFIN	11	advcl	11:advcl:to	_
+16	in	in	ADV	RB	ADV	15	advmod	15:advmod	_
+17	at	at	ADP	IN	ADP	18	case	18:case	_
+18	least	least	ADJ	JJS	ADJ;RL	19	nmod	19:nmod:at	_
+19	some	some	DET	DT	DET	15	obj	15:obj	_
+20	of	of	ADP	IN	ADP	23	case	23:case	_
+21	these	this	DET	DT	PL;DET	23	det	23:det	_
+22	special	special	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	guests	guest	NOUN	NNS	N;PL	19	nmod	19:nmod:of	SpaceAfter=No
+24	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent17_01-0022
+# text = If you have any contacts who could help us get in touch with these guest speakers, please let us know at ethink@enron.com.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	V;PRS;IND;2;FIN;SG	19	advcl	19:advcl:if	_
+4	any	any	DET	DT	DET	5	det	5:det	_
+5	contacts	contact	NOUN	NNS	N;PL	3	obj	3:obj|8:nsubj	_
+6	who	who	PRON	WP	PRO	8	nsubj	5:ref	_
+7	could	could	AUX	MD	V;FIN	8	aux	8:aux	_
+8	help	help	VERB	VB	V;NFIN	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+9	us	we	PRON	PRP	ACC;PL;1;PRO	8	obj	8:obj|10:nsubj:xsubj	_
+10	get	get	VERB	VB	V;NFIN	8	xcomp	8:xcomp	_
+11	in	in	ADP	IN	ADP	12	case	12:case	_
+12	touch	touch	NOUN	NN	SG;N	10	obl	10:obl:in	_
+13	with	with	ADP	IN	ADP	16	case	16:case	_
+14	these	this	DET	DT	PL;DET	16	det	16:det	_
+15	guest	guest	NOUN	NN	SG;N	16	compound	16:compound	_
+16	speakers	speaker	NOUN	NNS	N;PL	10	obl	10:obl:with	SpaceAfter=No
+17	,	,	PUNCT	,	_	3	punct	3:punct	_
+18	please	please	INTJ	UH	INTJ	19	discourse	19:discourse	_
+19	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+20	us	we	PRON	PRP	ACC;PL;1;PRO	19	obj	19:obj|21:nsubj:xsubj	_
+21	know	know	VERB	VB	V;NFIN	19	xcomp	19:xcomp	_
+22	at	at	ADP	IN	ADP	23	case	23:case	_
+23	ethink@enron.com	ethink@enron.com	PROPN	ADD	PROPN	21	obl	21:obl:at	SpaceAfter=No
+24	.	.	PUNCT	.	_	19	punct	19:punct	_
+
+# sent_id = email-enronsent17_01-0023
+# text = Everybody needs a little help now and then, even eSpeak.
+1	Everybody	everybody	PRON	NN	SG;PRO	2	nsubj	2:nsubj	_
+2	needs	need	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	little	little	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	help	help	NOUN	NN	SG;N	2	obj	2:obj	_
+6	now	now	ADV	RB	ADV	2	advmod	2:advmod	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	then	then	ADV	RB	ADV	6	conj	2:advmod|6:conj:and	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	even	even	ADV	RB	ADV	11	advmod	11:advmod	_
+11	eSpeak	eSpeak	PROPN	NNP	PROPN;SG	1	appos	1:appos	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent17_01-0024
+# newpar id = email-enronsent17_01-p0005
+# text = There were plenty of internal speakers requested, as well.
+1	There	there	PRON	EX	PRO	2	expl	2:expl	_
+2	were	be	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+3	plenty	plenty	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	internal	internal	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	speakers	speaker	NOUN	NNS	N;PL	3	nmod	3:nmod:of	_
+7	requested	request	VERB	VBN	V;V.PTCP;PST;PASS	6	acl	6:acl	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	as	as	ADV	RB	ADV	2	advmod	2:advmod	_
+10	well	well	ADV	RB	ADV	9	fixed	9:fixed	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent17_01-0025
+# text = Those requests should be somewhat easier to meet, although scheduling time with some of our colleagues can be quite a task!
+1	Those	that	DET	DT	PL;DET	2	det	2:det	_
+2	requests	request	NOUN	NNS	N;PL	6	nsubj	6:nsubj	_
+3	should	should	AUX	MD	V;FIN	6	aux	6:aux	_
+4	be	be	AUX	VB	V;NFIN	6	cop	6:cop	_
+5	somewhat	somewhat	ADV	RB	ADV	6	advmod	6:advmod	_
+6	easier	easy	ADJ	JJR	CMPR;ADJ	0	root	0:root	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	meet	meet	VERB	VB	V;NFIN	6	ccomp	6:ccomp	SpaceAfter=No
+9	,	,	PUNCT	,	_	22	punct	22:punct	_
+10	although	although	SCONJ	IN	CONJ	22	mark	22:mark	_
+11	scheduling	schedule	VERB	VBG	V;V.MSDR	22	csubj	22:csubj	_
+12	time	time	NOUN	NN	SG;N	11	obj	11:obj	_
+13	with	with	ADP	IN	ADP	14	case	14:case	_
+14	some	some	DET	DT	DET	11	obl	11:obl:with	_
+15	of	of	ADP	IN	ADP	17	case	17:case	_
+16	our	our	PRON	PRP$	GEN;PL;PRO;1	17	nmod:poss	17:nmod:poss	_
+17	colleagues	colleague	NOUN	NNS	N;PL	14	nmod	14:nmod:of	_
+18	can	can	AUX	MD	V;FIN	22	aux	22:aux	_
+19	be	be	AUX	VB	V;NFIN	22	cop	22:cop	_
+20	quite	quite	DET	PDT	DET	22	det:predet	22:det:predet	_
+21	a	a	DET	DT	DET;INDF	22	det	22:det	_
+22	task	task	NOUN	NN	SG;N	6	advcl	6:advcl:although	SpaceAfter=No
+23	!	!	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent17_01-0026
+# text = Thank you all for your participation.
+1	Thank	thank	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+2	you	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	_
+3	all	all	DET	DT	DET	2	det	2:det	_
+4	for	for	ADP	IN	ADP	6	case	6:case	_
+5	your	your	PRON	PRP$	GEN;2;PRO	6	nmod:poss	6:nmod:poss	_
+6	participation	participation	NOUN	NN	SG;N	1	obl	1:obl:for	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent17_01-0027
+# newpar id = email-enronsent17_01-p0006
+# text = Dale,
+1	Dale	Dale	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+

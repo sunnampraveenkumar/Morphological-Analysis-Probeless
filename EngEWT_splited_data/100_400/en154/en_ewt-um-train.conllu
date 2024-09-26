@@ -1,0 +1,431 @@
+# sent_id = email-enronsent37_01-0114
+# text = Please let me know.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	ACC;1;PRO;SG	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	V;NFIN	2	xcomp	2:xcomp	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent37_01-0115
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0116
+# newpar id = email-enronsent37_01-p0014
+# text = Jen, please take care of this for EGM
+1	Jen	Jen	PROPN	NNP	PROPN;SG	4	nsubj	4:nsubj	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	please	please	INTJ	UH	INTJ	4	discourse	4:discourse	_
+4	take	take	VERB	VB	V;FIN;IMP	0	root	0:root	_
+5	care	care	NOUN	NN	SG;N	4	obj	4:obj	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	this	this	PRON	DT	SG;PRO	4	obl	4:obl:of	_
+8	for	for	ADP	IN	ADP	9	case	9:case	_
+9	EGM	EGM	PROPN	NNP	PROPN;SG	4	obl	4:obl:for	_
+
+# sent_id = email-enronsent37_01-0117
+# text = Jana Giovannini
+1	Jana	Jana	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Giovannini	Giovannini	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent37_01-0118
+# text = 01/24/2001 11:42 AM
+1	01/24/2001	01/24/2001	NUM	CD	NUM	0	root	0:root	_
+2	11:42	11:42	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0119
+# text = All,
+1	All	all	DET	DT	DET	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0120
+# newpar id = email-enronsent37_01-p0015
+# text = The Analyst and Associate Programs recognize we have many Analyst needs that need to be addressed immediately.
+1	The	the	DET	DT	DEF;DET	5	det	5:det	_
+2	Analyst	analyst	NOUN	NN	SG;N	5	compound	5:compound	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Associate	associate	NOUN	NN	SG;N	2	conj	2:conj:and|5:compound	_
+5	Programs	program	NOUN	NNS	N;PL	6	nsubj	6:nsubj	_
+6	recognize	recognize	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+7	we	we	PRON	PRP	NOM;PL;1;PRO	8	nsubj	8:nsubj	_
+8	have	have	VERB	VBP	V;PRS;IND;FIN;PL;1	6	ccomp	6:ccomp	_
+9	many	many	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	Analyst	analyst	NOUN	NN	SG;N	11	compound	11:compound	_
+11	needs	need	NOUN	NNS	N;PL	8	obj	8:obj|13:nsubj|16:nsubj:xsubj	_
+12	that	that	PRON	WDT	PRO	13	nsubj	11:ref	_
+13	need	need	VERB	VBP	V;3;PRS;IND;FIN;PL	11	acl:relcl	11:acl:relcl	Cxn=rc-that-nsubj
+14	to	to	PART	TO	PART	16	mark	16:mark	_
+15	be	be	AUX	VB	V;NFIN	16	aux:pass	16:aux:pass	_
+16	addressed	address	VERB	VBN	V;V.PTCP;PST;PASS	13	xcomp	13:xcomp	_
+17	immediately	immediately	ADV	RB	ADV	16	advmod	16:advmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent37_01-0121
+# text = While we anticipate many new Analysts joining Enron this summer (late May) and fulltime (August) we felt it necessary to address some of the immediate needs with an Off-Cycle Recruiting event.
+1	While	while	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	we	we	PRON	PRP	NOM;PL;1;PRO	3	nsubj	3:nsubj	_
+3	anticipate	anticipate	VERB	VBP	V;PRS;IND;FIN;PL;1	21	advcl	21:advcl:while	_
+4	many	many	ADJ	JJ	ADJ	6	amod	6:amod	_
+5	new	new	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	Analysts	analyst	NOUN	NNS	N;PL	3	obj	3:obj	_
+7	joining	join	VERB	VBG	V;V.MSDR	6	acl	6:acl	_
+8	Enron	Enron	PROPN	NNP	PROPN;SG	7	obj	7:obj	_
+9	this	this	DET	DT	SG;DET	10	det	10:det	_
+10	summer	summer	NOUN	NN	SG;N	7	obl:tmod	7:obl:tmod	_
+11	(	(	PUNCT	-LRB-	_	13	punct	13:punct	SpaceAfter=No
+12	late	late	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	May	May	PROPN	NNP	PROPN;SG	10	appos	10:appos	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	punct	13:punct	_
+15	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	fulltime	fulltime	ADV	RB	ADV	10	conj	7:obl:tmod|10:conj:and	_
+17	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+18	August	August	PROPN	NNP	PROPN;SG	16	obl:tmod	16:obl:tmod	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	punct	18:punct	_
+20	we	we	PRON	PRP	NOM;PL;1;PRO	21	nsubj	21:nsubj	_
+21	felt	feel	VERB	VBD	V;IND;FIN;PST;PL;1	0	root	0:root	_
+22	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	21	expl	21:expl	_
+23	necessary	necessary	ADJ	JJ	ADJ	21	xcomp	21:xcomp	_
+24	to	to	PART	TO	PART	25	mark	25:mark	_
+25	address	address	VERB	VB	V;NFIN	21	ccomp	21:ccomp|23:csubj:xsubj	_
+26	some	some	DET	DT	DET	25	obj	25:obj	_
+27	of	of	ADP	IN	ADP	30	case	30:case	_
+28	the	the	DET	DT	DEF;DET	30	det	30:det	_
+29	immediate	immediate	ADJ	JJ	ADJ	30	amod	30:amod	_
+30	needs	need	NOUN	NNS	N;PL	26	nmod	26:nmod:of	_
+31	with	with	ADP	IN	ADP	37	case	37:case	_
+32	an	a	DET	DT	DET;INDF	37	det	37:det	_
+33	Off	off	ADP	IN	ADP	35	case	35:case	SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	33	punct	33:punct	SpaceAfter=No
+35	Cycle	cycle	NOUN	NN	SG;N	37	compound	37:compound	_
+36	Recruiting	recruiting	NOUN	NN	SG;N	37	compound	37:compound	_
+37	event	event	NOUN	NN	SG;N	30	nmod	30:nmod:with	SpaceAfter=No
+38	.	.	PUNCT	.	_	21	punct	21:punct	_
+
+# sent_id = email-enronsent37_01-0122
+# text = We are planning this event for Thursday, February 15 and are inviting approximately 30 candidates to be interviewed.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	3	nsubj	3:nsubj|13:nsubj	_
+2	are	be	AUX	VBP	PRS;IND;FIN;PL;1;V	3	aux	3:aux	_
+3	planning	plan	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+4	this	this	DET	DT	SG;DET	5	det	5:det	_
+5	event	event	NOUN	NN	SG;N	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	Thursday	Thursday	PROPN	NNP	PROPN;SG	9	compound	9:compound	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	February	February	PROPN	NNP	PROPN;SG	3	obl	3:obl:for	_
+10	15	15	NUM	CD	NUM	9	nummod	9:nummod	_
+11	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+12	are	be	AUX	VBP	PRS;IND;FIN;PL;1;V	13	aux	13:aux	_
+13	inviting	invite	VERB	VBG	V;V.PTCP;PRS	3	conj	3:conj:and	_
+14	approximately	approximately	ADV	RB	ADV	15	advmod	15:advmod	_
+15	30	30	NUM	CD	NUM	16	nummod	16:nummod	_
+16	candidates	candidate	NOUN	NNS	N;PL	13	obj	13:obj	_
+17	to	to	PART	TO	PART	19	mark	19:mark	_
+18	be	be	AUX	VB	V;NFIN	19	aux:pass	19:aux:pass	_
+19	interviewed	interview	VERB	VBN	V;V.PTCP;PST;PASS	13	advcl	13:advcl:to	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0123
+# text = I am asking that you forward this note to any potential interviewers (Managers or above).
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	am	be	AUX	VBP	PRS;IND;FIN;1;V;SG	3	aux	3:aux	_
+3	asking	ask	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	6	mark	6:mark	_
+5	you	you	PRON	PRP	2;NOM;PRO	6	nsubj	6:nsubj	_
+6	forward	forward	VERB	VB	V;PRS;SBJV;2;FIN;SG	3	ccomp	3:ccomp	_
+7	this	this	DET	DT	SG;DET	8	det	8:det	_
+8	note	note	NOUN	NN	SG;N	6	obj	6:obj	_
+9	to	to	ADP	IN	ADP	12	case	12:case	_
+10	any	any	DET	DT	DET	12	det	12:det	_
+11	potential	potential	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	interviewers	interviewer	NOUN	NNS	N;PL	6	obl	6:obl:to	_
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+14	Managers	manager	NOUN	NNS	N;PL	12	appos	12:appos	_
+15	or	or	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	above	above	ADV	RB	ADV	14	conj	12:appos|14:conj:or	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0124
+# text = We will conduct first round interviews in the morning and the second round interviews in the afternoon.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	3	nsubj	3:nsubj|14:nsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	conduct	conduct	VERB	VB	V;NFIN	0	root	0:root	_
+4	first	first	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	round	round	NOUN	NN	SG;N	6	compound	6:compound	_
+6	interviews	interview	NOUN	NNS	N;PL	3	obj	3:obj	_
+7	in	in	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	morning	morning	NOUN	NN	SG;N	3	obl	3:obl:in	_
+10	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+11	the	the	DET	DT	DEF;DET	14	det	14:det	_
+12	second	second	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	round	round	NOUN	NN	SG;N	14	compound	14:compound	_
+14	interviews	interview	NOUN	NNS	N;PL	3	conj	3:conj:and	_
+15	in	in	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	afternoon	afternoon	NOUN	NN	SG;N	14	nmod	14:nmod:in	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0125
+# text = We need for interviewers to commit either to the morning (9am-12pm) or afternoon (2pm-5pm) complete session.
+1	We	we	PRON	PRP	NOM;PL;1;PRO	2	nsubj	2:nsubj	_
+2	need	need	VERB	VBP	V;PRS;IND;FIN;PL;1	0	root	0:root	_
+3	for	for	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	interviewers	interviewer	NOUN	NNS	N;PL	6	nsubj	6:nsubj	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	commit	commit	VERB	VB	V;NFIN	2	ccomp	2:ccomp	_
+7	either	either	CCONJ	CC	CONJ	28	cc:preconj	28:cc:preconj	_
+8	to	to	ADP	IN	ADP	28	case	28:case	_
+9	the	the	DET	DT	DEF;DET	28	det	28:det	_
+10	morning	morning	NOUN	NN	SG;N	28	nmod:tmod	28:nmod:tmod	_
+11	(	(	PUNCT	-LRB-	_	12	punct	12:punct	SpaceAfter=No
+12	9	9	NUM	CD	NUM	10	appos	10:appos	SpaceAfter=No
+13	am	a.m.	NOUN	NN	SG;N	12	nmod	12:nmod:tmod	SpaceAfter=No
+14	-	-	SYM	SYM	_	15	case	15:case	SpaceAfter=No
+15	12	12	NUM	CD	NUM	12	nmod	12:nmod:to	SpaceAfter=No
+16	pm	p.m.	NOUN	NN	SG;N	15	nmod	15:nmod:tmod	SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
+18	or	or	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	afternoon	afternoon	NOUN	NN	SG;N	10	conj	10:conj:or|28:compound	_
+20	(	(	PUNCT	-LRB-	_	21	punct	21:punct	SpaceAfter=No
+21	2	2	NUM	CD	NUM	19	appos	19:appos	SpaceAfter=No
+22	pm	p.m.	NOUN	NN	SG;N	21	nmod:tmod	21:nmod:tmod	SpaceAfter=No
+23	-	-	SYM	SYM	_	24	case	24:case	SpaceAfter=No
+24	5	5	NUM	CD	NUM	21	nmod	21:nmod:to	SpaceAfter=No
+25	pm	p.m.	NOUN	NN	SG;N	24	nmod	24:nmod:tmod	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	21	punct	21:punct	_
+27	complete	complete	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	session	session	NOUN	NN	SG;N	6	obl	6:obl:to	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent37_01-0126
+# text = Please submit your response using the buttons below and update your calendar for this date.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	submit	submit	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	your	your	PRON	PRP$	GEN;2;PRO	4	nmod:poss	4:nmod:poss	_
+4	response	response	NOUN	NN	SG;N	2	obj	2:obj	_
+5	using	use	VERB	VBG	V;V.PTCP;PRS	2	advcl	2:advcl	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	buttons	button	NOUN	NNS	N;PL	5	obj	5:obj	_
+8	below	below	ADV	RB	ADV	7	advmod	7:advmod	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	update	update	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+11	your	your	PRON	PRP$	GEN;2;PRO	12	nmod:poss	12:nmod:poss	_
+12	calendar	calendar	NOUN	NN	SG;N	10	obj	10:obj	_
+13	for	for	ADP	IN	ADP	15	case	15:case	_
+14	this	this	DET	DT	SG;DET	15	det	15:det	_
+15	date	date	NOUN	NN	SG;N	12	nmod	12:nmod:for	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent37_01-0127
+# text = In addition, we will need the groups that have current needs to commit to taking one or more of these Analysts should they be extended an offer.
+1	In	in	ADP	IN	ADP	2	case	2:case	_
+2	addition	addition	NOUN	NN	SG;N	6	obl	6:obl:in	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	we	we	PRON	PRP	NOM;PL;1;PRO	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+6	need	need	VERB	VB	V;NFIN	0	root	0:root	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	groups	group	NOUN	NNS	N;PL	6	obj	6:obj|10:nsubj|14:nsubj:xsubj	_
+9	that	that	PRON	WDT	PRO	10	nsubj	8:ref	_
+10	have	have	VERB	VBP	V;3;PRS;IND;FIN;PL	8	acl:relcl	8:acl:relcl	Cxn=rc-that-nsubj
+11	current	current	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	needs	need	NOUN	NNS	N;PL	10	obj	10:obj	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	commit	commit	VERB	VB	V;NFIN	6	xcomp	6:xcomp	_
+15	to	to	SCONJ	IN	CONJ	16	mark	16:mark	_
+16	taking	take	VERB	VBG	V;V.PTCP;PRS	14	advcl	14:advcl:to	_
+17	one	one	NUM	CD	NUM	16	obj	16:obj	_
+18	or	or	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	more	more	ADJ	JJR	CMPR;ADJ	17	conj	16:obj|17:conj:or	_
+20	of	of	ADP	IN	ADP	22	case	22:case	_
+21	these	this	DET	DT	PL;DET	22	det	22:det	_
+22	Analysts	analyst	NOUN	NNS	N;PL	17	nmod	17:nmod:of	_
+23	should	should	AUX	MD	V;FIN	26	aux	26:aux	_
+24	they	they	PRON	PRP	3;NOM;PL;PRO	26	nsubj:pass	26:nsubj:pass	_
+25	be	be	AUX	VB	V;NFIN	26	aux:pass	26:aux:pass	_
+26	extended	extend	VERB	VBN	V;V.PTCP;PST;PASS	16	advcl	16:advcl	_
+27	an	a	DET	DT	DET;INDF	28	det	28:det	_
+28	offer	offer	NOUN	NN	SG;N	26	obj	26:obj	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent37_01-0128
+# text = Thanks in advance for your cooperation.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+2	in	in	ADP	IN	ADP	3	case	3:case	_
+3	advance	advance	NOUN	NN	SG;N	1	nmod	1:nmod:in	_
+4	for	for	ADP	IN	ADP	6	case	6:case	_
+5	your	your	PRON	PRP$	GEN;2;PRO	6	nmod:poss	6:nmod:poss	_
+6	cooperation	cooperation	NOUN	NN	SG;N	1	nmod	1:nmod:for	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0129
+# text = Thank you,
+1	Thank	thank	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+2	you	you	PRON	PRP	ACC;2;PRO	1	obj	1:obj	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent37_01-0130
+# text = Jana
+1	Jana	Jana	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0131
+# newpar id = email-enronsent37_01-p0016
+# text = Where does our 50% (the 1.65 million dollars) show up?
+1	Where	where	ADV	WRB	ADV	12	advmod	12:advmod	_
+2	does	do	AUX	VBZ	3;PRS;IND;FIN;V;SG	12	aux	12:aux	_
+3	our	our	PRON	PRP$	GEN;PL;PRO;1	5	nmod:poss	5:nmod:poss	_
+4	50	50	NUM	CD	NUM	5	nummod	5:nummod	SpaceAfter=No
+5	%	%	SYM	NN	SG	12	nsubj	12:nsubj	_
+6	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+7	the	the	DET	DT	DEF;DET	10	det	10:det	_
+8	1.65	1.65	NUM	CD	NUM	9	compound	9:compound	_
+9	million	million	NUM	CD	NUM	10	nummod	10:nummod	_
+10	dollars	dollar	NOUN	NNS	N;PL	5	appos	5:appos	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+12	show	show	VERB	VB	V;NFIN	0	root	0:root	_
+13	up	up	ADP	RP	ADP	12	compound:prt	12:compound:prt	SpaceAfter=No
+14	?	?	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent37_01-0132
+# text = Can you provide me with more details?
+1	Can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+2	you	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj	_
+3	provide	provide	VERB	VB	V;NFIN	0	root	0:root	_
+4	me	I	PRON	PRP	ACC;1;PRO;SG	3	obj	3:obj	_
+5	with	with	ADP	IN	ADP	7	case	7:case	_
+6	more	more	ADJ	JJR	CMPR;ADJ	7	amod	7:amod	_
+7	details	detail	NOUN	NNS	N;PL	3	obl	3:obl:with	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0133
+# text = Great job, guys.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	job	job	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	guys	guy	NOUN	NNS	N;PL	2	vocative	2:vocative	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent37_01-0134
+# newpar id = email-enronsent37_01-p0017
+# text = Eric Gonzales
+1	Eric	Eric	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Gonzales	Gonzales	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent37_01-0135
+# text = 01/25/2001 02:02 AM
+1	01/25/2001	01/25/2001	NUM	CD	NUM	0	root	0:root	_
+2	02:02	02:02	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0136
+# text = Great job gentlemen!
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	job	job	NOUN	NN	SG;N	0	root	0:root	_
+3	gentlemen	gentleman	NOUN	NNS	N;PL	2	vocative	2:vocative	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent37_01-0137
+# text = This deviation shows that Eco definitely has a significant amount of option value which can be exploited with quick reactions and favourable market movements.
+1	This	this	DET	DT	SG;DET	2	det	2:det	_
+2	deviation	deviation	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	shows	show	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	7	mark	7:mark	_
+5	Eco	Eco	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+6	definitely	definitely	ADV	RB	ADV	7	advmod	7:advmod	_
+7	has	have	VERB	VBZ	V;3;PRS;IND;FIN;SG	3	ccomp	3:ccomp	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	significant	significant	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	amount	amount	NOUN	NN	SG;N	7	obj	7:obj|17:nsubj:pass	_
+11	of	of	ADP	IN	ADP	13	case	13:case	_
+12	option	option	NOUN	NN	SG;N	13	compound	13:compound	_
+13	value	value	NOUN	NN	SG;N	10	nmod	10:nmod:of	_
+14	which	which	PRON	WDT	PRO	17	nsubj:pass	10:ref	_
+15	can	can	AUX	MD	V;FIN	17	aux	17:aux	_
+16	be	be	AUX	VB	V;NFIN	17	aux:pass	17:aux:pass	_
+17	exploited	exploit	VERB	VBN	V;V.PTCP;PST;PASS	10	acl:relcl	10:acl:relcl	Cxn=rc-wh-nsubj:pass
+18	with	with	ADP	IN	ADP	20	case	20:case	_
+19	quick	quick	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	reactions	reaction	NOUN	NNS	N;PL	17	obl	17:obl:with	_
+21	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+22	favourable	favourable	ADJ	JJ	ADJ	24	amod	24:amod	_
+23	market	market	NOUN	NN	SG;N	24	compound	24:compound	_
+24	movements	movement	NOUN	NNS	N;PL	20	conj	17:obl:with|20:conj:and	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent37_01-0138
+# text = Eric
+1	Eric	Eric	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent37_01-0139
+# text = Wayne Perry@ENRON_DEVELOPMENT
+1	Wayne	WaynePerry@ENRON_DEVELOPMENT	PROPN	GW	PROPN	0	root	0:root	_
+2	Perry@ENRON_DEVELOPMENT	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent37_01-0140
+# text = 25/01/2001 00:20
+1	25/01/2001	25/01/2001	NUM	CD	NUM	0	root	0:root	_
+2	00:20	00:20	NUM	CD	NUM	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent37_01-0141
+# text = Finally completed tonight
+1	Finally	finally	ADV	RB	ADV	2	advmod	2:advmod	_
+2	completed	complete	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+3	tonight	tonight	NOUN	NN	SG;N	2	obl:tmod	2:obl:tmod	_
+
+# sent_id = email-enronsent37_01-0142
+# newpar id = email-enronsent37_01-p0018
+# text = Net to Enron LNG Marketing Company - $ 272,000 ( $0.10/ mmbtu )
+1	Net	net	ADJ	JJ	ADJ	0	root	0:root	_
+2	to	to	ADP	IN	ADP	6	case	6:case	_
+3	Enron	Enron	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+4	LNG	LNG	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+5	Marketing	Marketing	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	Company	Company	PROPN	NNP	PROPN;SG	1	obl	1:obl:to	_
+7	-	-	PUNCT	:	_	8	punct	8:punct	_
+8	$	$	SYM	$	_	1	appos	1:appos	_
+9	272,000	272000	NUM	CD	NUM	8	nummod	8:nummod	_
+10	(	(	PUNCT	-LRB-	_	11	punct	11:punct	_
+11	$	$	SYM	$	_	8	appos	8:appos	SpaceAfter=No
+12	0.10	0.10	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+13	/	/	SYM	SYM	_	14	case	14:case	_
+14	mmbtu	mmbtu	NOUN	NN	SG;N	11	nmod	11:nmod	_
+15	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent37_01-0143
+# text = Net to Eco about $3,300,000 ( Enron 50% share about $ 1,650,000 )
+1	Net	net	ADJ	JJ	ADJ	0	root	0:root	_
+2	to	to	ADP	IN	ADP	3	case	3:case	_
+3	Eco	Eco	PROPN	NNP	PROPN;SG	1	obl	1:obl:to	_
+4	about	about	ADV	RB	ADV	6	advmod	6:advmod	_
+5	$	$	SYM	$	_	1	appos	1:appos	SpaceAfter=No
+6	3,300,000	3300000	NUM	CD	NUM	5	nummod	5:nummod	_
+7	(	(	PUNCT	-LRB-	_	11	punct	11:punct	_
+8	Enron	Enron	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+9	50	50	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+10	%	%	SYM	NN	SG	11	compound	11:compound	_
+11	share	share	NOUN	NN	SG;N	1	parataxis	1:parataxis	_
+12	about	about	ADV	RB	ADV	14	advmod	14:advmod	_
+13	$	$	SYM	$	_	11	appos	11:appos	_
+14	1,650,000	1650000	NUM	CD	NUM	13	nummod	13:nummod	_
+15	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+
+# sent_id = email-enronsent37_01-0144
+# text = Enron total gain not counting ENA's trading desk margin is $1,922,000
+1	Enron	Enron	PROPN	NNP	PROPN;SG	3	compound	3:compound	_
+2	total	total	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	gain	gain	NOUN	NN	SG;N	12	nsubj	12:nsubj	_
+4	not	not	PART	RB	PART	5	advmod	5:advmod	_
+5	counting	count	VERB	VBG	V;V.PTCP;PRS	12	advcl	12:advcl	_
+6-7	ENA's	_	_	_	_	_	_	_	_
+6	ENA	ENA	PROPN	NNP	PROPN;SG	10	nmod:poss	10:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	trading	trading	NOUN	NN	SG;N	10	compound	10:compound	_
+9	desk	desk	NOUN	NN	SG;N	10	compound	10:compound	_
+10	margin	margin	NOUN	NN	SG;N	5	obj	5:obj	_
+11	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	12	cop	12:cop	_
+12	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+13	1,922,000	1922000	NUM	CD	NUM	12	nummod	12:nummod	_
+

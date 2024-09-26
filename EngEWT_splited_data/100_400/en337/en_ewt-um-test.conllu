@@ -1,0 +1,81 @@
+# sent_id = reviews-025516-0003
+# text = Recommend you call in for a look.
+1	Recommend	recommend	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	call	call	VERB	VB	V;SBJV;FIN;PRS;SG;2	1	ccomp	1:ccomp	_
+4	in	in	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	for	for	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	INDF;DET	7	det	7:det	_
+7	look	look	NOUN	NN	SG;N	3	obl	3:obl:for	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-396046
+# sent_id = reviews-396046-0001
+# newpar id = reviews-396046-p0001
+# text = Worst experience ever like a sardine can and the bartender downstairs is the rudest person I have ever met.
+1	Worst	bad	ADJ	JJS	RL;ADJ	2	amod	2:amod	_
+2	experience	experience	NOUN	NN	SG;N	0	root	0:root	_
+3	ever	ever	ADV	RB	ADV	2	advmod	2:advmod	_
+4	like	like	ADP	IN	ADP	7	case	7:case	_
+5	a	a	DET	DT	INDF;DET	7	det	7:det	_
+6	sardine	sardine	NOUN	NN	SG;N	7	compound	7:compound	_
+7	can	can	NOUN	NN	SG;N	2	nmod	2:nmod:like	_
+8	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	bartender	bartender	NOUN	NN	SG;N	15	nsubj	15:nsubj	_
+11	downstairs	downstairs	ADV	RB	ADV	10	advmod	10:advmod	_
+12	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	15	cop	15:cop	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	rudest	rude	ADJ	JJS	RL;ADJ	15	amod	15:amod	_
+15	person	person	NOUN	NN	SG;N	2	conj	2:conj:and|19:obj	_
+16	I	I	PRON	PRP	PRO;1;NOM;SG	19	nsubj	19:nsubj	_
+17	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	19	aux	19:aux	_
+18	ever	ever	ADV	RB	ADV	19	advmod	19:advmod	_
+19	met	meet	VERB	VBN	PST;V;V.PTCP	15	acl:relcl	15:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-396046-0002
+# text = DONt Go here
+1-2	DONt	_	_	_	_	_	_	_	_
+1	DO	do	AUX	VB	FIN;V;IMP	3	aux	3:aux	_
+2	Nt	not	PART	RB	PART	3	advmod	3:advmod	CorrectForm=N'T
+3	Go	go	VERB	VB	FIN;V;IMP	0	root	0:root	_
+4	here	here	ADV	RB	ADV	3	advmod	3:advmod	_
+
+# newdoc id = reviews-158285
+# sent_id = reviews-158285-0001
+# newpar id = reviews-158285-p0001
+# text = Restaurant on top was renovated, food was decent, price was way to high for Duluth for quality, new decor seems tacky
+1	Restaurant	restaurant	NOUN	NN	SG;N	5	nsubj:pass	5:nsubj:pass	_
+2	on	on	ADP	IN	ADP	3	case	3:case	_
+3	top	top	NOUN	NN	SG;N	1	nmod	1:nmod:on	_
+4	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	5	aux:pass	5:aux:pass	_
+5	renovated	renovate	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	9:punct	_
+7	food	food	NOUN	NN	SG;N	9	nsubj	9:nsubj	_
+8	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	9	cop	9:cop	_
+9	decent	decent	ADJ	JJ	ADJ	5	list	5:list	SpaceAfter=No
+10	,	,	PUNCT	,	_	15	punct	15:punct	_
+11	price	price	NOUN	NN	SG;N	15	nsubj	15:nsubj	_
+12	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	15	cop	15:cop	_
+13	way	way	ADV	RB	ADV	15	advmod	15:advmod	_
+14	to	too	ADV	RB	ADV	15	advmod	15:advmod	CorrectForm=too
+15	high	high	ADJ	JJ	ADJ	5	list	5:list	_
+16	for	for	ADP	IN	ADP	17	case	17:case	_
+17	Duluth	Duluth	PROPN	NNP	SG;PROPN	15	obl	15:obl:for	_
+18	for	for	ADP	IN	ADP	19	case	19:case	_
+19	quality	quality	NOUN	NN	SG;N	15	obl	15:obl:for	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	23:punct	_
+21	new	new	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	decor	decor	NOUN	NN	SG;N	23	nsubj	23:nsubj|24:nsubj:xsubj	_
+23	seems	seem	VERB	VBZ	V;3;FIN;PRS;SG;IND	5	list	5:list	_
+24	tacky	tacky	ADJ	JJ	ADJ	23	xcomp	23:xcomp	_
+
+# newdoc id = reviews-245928
+# sent_id = reviews-245928-0001
+# newpar id = reviews-245928-p0001
+# text = Rude and Untrustworthy
+1	Rude	rude	ADJ	JJ	ADJ	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	Untrustworthy	untrustworthy	ADJ	JJ	ADJ	1	conj	1:conj:and	_
+

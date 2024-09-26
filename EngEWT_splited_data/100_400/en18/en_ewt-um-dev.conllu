@@ -1,0 +1,134 @@
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0009
+# text = Right now that seems to be the US, EU, and IAEA.
+1	Right	right	ADV	RB	ADV	2	advmod	2:advmod	_
+2	now	now	ADV	RB	ADV	4	advmod	4:advmod	_
+3	that	that	PRON	DT	PRO;SG	4	nsubj	4:nsubj|8:nsubj:xsubj|10:nsubj:xsubj|13:nsubj:xsubj	_
+4	seems	seem	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+5	to	to	PART	TO	PART	8	mark	8:mark	_
+6	be	be	AUX	VB	V;NFIN	8	cop	8:cop	_
+7	the	the	DET	DT	DET;DEF	8	det	8:det	_
+8	US	US	PROPN	NNP	SG;PROPN	4	xcomp	4:xcomp	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	EU	EU	PROPN	NNP	SG;PROPN	8	conj	4:xcomp|8:conj:and	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	IAEA	IAEA	PROPN	NNP	SG;PROPN	8	conj	4:xcomp|8:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0010
+# text = But not always do those three agree, and not always are their decisions equal.
+1	But	but	CCONJ	CC	CONJ	7	cc	7:cc	_
+2	not	not	PART	RB	PART	3	advmod	3:advmod	_
+3	always	always	ADV	RB	ADV	7	advmod	7:advmod	_
+4	do	do	AUX	VBP	FIN;PRS;3;PL;V;IND	7	aux	7:aux	_
+5	those	that	DET	DT	DET;PL	6	det	6:det	_
+6	three	three	NUM	CD	NUM	7	nsubj	7:nsubj	_
+7	agree	agree	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	,	_	15	punct	15:punct	_
+9	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+10	not	not	PART	RB	PART	11	advmod	11:advmod	_
+11	always	always	ADV	RB	ADV	15	advmod	15:advmod	_
+12	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	15	cop	15:cop	_
+13	their	their	PRON	PRP$	PRO;GEN;3;PL	14	nmod:poss	14:nmod:poss	_
+14	decisions	decision	NOUN	NNS	PL;N	15	nsubj	15:nsubj	_
+15	equal	equal	ADJ	JJ	ADJ	7	conj	7:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0011
+# text = The US has strongly opposed a nuclear weapons program of Iran, yet Israel, which to this day has never officially said that they posses nuclear weapons, ranks around fifth in nuclear strength.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	US	US	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+3	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	aux	5:aux	_
+4	strongly	strongly	ADV	RB	ADV	5	advmod	5:advmod	_
+5	opposed	oppose	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+6	a	a	DET	DT	DET;INDF	9	det	9:det	_
+7	nuclear	nuclear	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	weapons	weapon	NOUN	NNS	PL;N	9	compound	9:compound	_
+9	program	program	NOUN	NN	SG;N	5	obj	5:obj	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	Iran	Iran	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:of	SpaceAfter=No
+12	,	,	PUNCT	,	_	30	punct	30:punct	_
+13	yet	yet	CCONJ	CC	CONJ	30	cc	30:cc	_
+14	Israel	Israel	PROPN	NNP	SG;PROPN	30	nsubj	23:nsubj|30:nsubj	SpaceAfter=No
+15	,	,	PUNCT	,	_	23	punct	23:punct	_
+16	which	which	PRON	WDT	PRO	23	nsubj	14:ref	_
+17	to	to	ADP	IN	ADP	19	case	19:case	_
+18	this	this	DET	DT	DET;SG	19	det	19:det	_
+19	day	day	NOUN	NN	SG;N	23	obl	23:obl:to	_
+20	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	23	aux	23:aux	_
+21	never	never	ADV	RB	ADV	23	advmod	23:advmod	_
+22	officially	officially	ADV	RB	ADV	23	advmod	23:advmod	_
+23	said	say	VERB	VBN	V;V.PTCP;PST	14	acl:relcl	14:acl:relcl	Cxn=rc-wh-nsubj
+24	that	that	SCONJ	IN	CONJ	26	mark	26:mark	_
+25	they	they	PRON	PRP	PRO;3;PL;NOM	26	nsubj	26:nsubj	_
+26	posses	possess	VERB	VBP	FIN;PRS;3;PL;V;IND	23	ccomp	23:ccomp	CorrectForm=possess
+27	nuclear	nuclear	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	weapons	weapon	NOUN	NNS	PL;N	26	obj	26:obj	SpaceAfter=No
+29	,	,	PUNCT	,	_	14	punct	14:punct	_
+30	ranks	rank	VERB	VBZ	FIN;PRS;3;V;IND;SG	5	conj	5:conj:yet	_
+31	around	around	ADV	RB	ADV	32	advmod	32:advmod	_
+32	fifth	fifth	ADV	RB	ADV	30	advmod	30:advmod	_
+33	in	in	ADP	IN	ADP	35	case	35:case	_
+34	nuclear	nuclear	ADJ	JJ	ADJ	35	amod	35:amod	_
+35	strength	strength	NOUN	NN	SG;N	30	obl	30:obl:in	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0012
+# text = It is estimated that Israel has over 200 nuclear weapons yet neither the US nor any of her allies expresses the slightest concern.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj:pass	3:nsubj:pass	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	aux:pass	3:aux:pass	_
+3	estimated	estimate	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	6	mark	6:mark	_
+5	Israel	Israel	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+6	has	have	VERB	VBZ	FIN;PRS;3;V;IND;SG	3	ccomp	3:ccomp	_
+7	over	over	ADV	RB	ADV	8	advmod	8:advmod	_
+8	200	200	NUM	CD	NUM	10	nummod	10:nummod	_
+9	nuclear	nuclear	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	weapons	weapon	NOUN	NNS	PL;N	6	obj	6:obj	_
+11	yet	yet	CCONJ	CC	CONJ	20	cc	20:cc	_
+12	neither	neither	CCONJ	CC	CONJ	14	cc:preconj	14:cc:preconj	_
+13	the	the	DET	DT	DET;DEF	14	det	14:det	_
+14	US	US	PROPN	NNP	SG;PROPN	20	nsubj	20:nsubj	_
+15	nor	nor	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	any	any	DET	DT	DET	14	conj	14:conj:nor|20:nsubj	_
+17	of	of	ADP	IN	ADP	19	case	19:case	_
+18	her	her	PRON	PRP$	PRO;GEN;3;FEM;SG	19	nmod:poss	19:nmod:poss	_
+19	allies	ally	NOUN	NNS	PL;N	16	nmod	16:nmod:of	_
+20	expresses	express	VERB	VBZ	FIN;PRS;3;V;IND;SG	3	conj	3:conj:yet	_
+21	the	the	DET	DT	DET;DEF	23	det	23:det	_
+22	slightest	slight	ADJ	JJS	ADJ;RL	23	amod	23:amod	_
+23	concern	concern	NOUN	NN	SG;N	20	obj	20:obj	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0013
+# text = North Korea’s Kim Jong Ill also has the bomb at the top of his list and Santa seems to have already come a few years ago.
+1	North	North	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2-3	Korea’s	_	_	_	_	_	_	_	_
+2	Korea	Korea	PROPN	NNP	SG;PROPN	4	nmod:poss	4:nmod:poss	_
+3	’s	's	PART	POS	PART	2	case	2:case	_
+4	Kim	Kim	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	_
+5	Jong	Jong	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	Ill	Ill	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+7	also	also	ADV	RB	ADV	8	advmod	8:advmod	_
+8	has	have	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+9	the	the	DET	DT	DET;DEF	10	det	10:det	_
+10	bomb	bomb	NOUN	NN	SG;N	8	obj	8:obj	_
+11	at	at	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	top	top	NOUN	NN	SG;N	8	obl	8:obl:at	_
+14	of	of	ADP	IN	ADP	16	case	16:case	_
+15	his	his	PRON	PRP$	PRO;MASC;GEN;3;SG	16	nmod:poss	16:nmod:poss	_
+16	list	list	NOUN	NN	SG;N	13	nmod	13:nmod:of	_
+17	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+18	Santa	Santa	PROPN	NNP	SG;PROPN	19	nsubj	19:nsubj|23:nsubj:xsubj	_
+19	seems	seem	VERB	VBZ	FIN;PRS;3;V;IND;SG	8	conj	8:conj:and	_
+20	to	to	PART	TO	PART	23	mark	23:mark	_
+21	have	have	AUX	VB	V;NFIN	23	aux	23:aux	_
+22	already	already	ADV	RB	ADV	23	advmod	23:advmod	_
+23	come	come	VERB	VBN	V;V.PTCP;PST	19	xcomp	19:xcomp	_
+24	a	a	DET	DT	DET;INDF	26	det	26:det	_
+25	few	few	ADJ	JJ	ADJ	26	amod	26:amod	_
+26	years	year	NOUN	NNS	PL;N	27	obl:tmod	27:obl:tmod	_
+27	ago	ago	ADV	RB	ADV	23	advmod	23:advmod	SpaceAfter=No
+28	.	.	PUNCT	.	_	8	punct	8:punct	_
+

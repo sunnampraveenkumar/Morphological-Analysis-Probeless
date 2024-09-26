@@ -1,0 +1,72 @@
+# sent_id = email-enronsent32_02-0017
+# text = Michael L. Beatty & Associates, PC; #10461, #10469 & #10468 dated 5/28/00.
+1	Michael	Michael	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+2	L.	L.	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	Beatty	Beatty	PROPN	NNP	SG;PROPN	0	root	0:root	_
+4	&	&	CCONJ	CC	CONJ	7	cc	7:cc	_
+5	Associates	Associate	PROPN	NNPS	PROPN;PL	7	compound	7:compound	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	PC	PC	PROPN	NNP	SG;PROPN	3	conj	3:conj	SpaceAfter=No
+8	;	;	PUNCT	,	_	9	punct	9:punct	_
+9	#	#	SYM	NN	SG	3	appos	3:appos	SpaceAfter=No
+10	10461	10461	NUM	CD	NUM	9	nummod	9:nummod	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
+12	#	#	SYM	NN	SG	9	appos	9:appos	SpaceAfter=No
+13	10469	10469	NUM	CD	NUM	12	nummod	12:nummod	_
+14	&	&	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	#	#	SYM	NN	SG	9	conj	3:appos|9:conj	SpaceAfter=No
+16	10468	10468	NUM	CD	NUM	15	nummod	15:nummod	_
+17	dated	date	VERB	VBN	PASS;PST;V;V.PTCP	3	acl	3:acl	_
+18	5/28/00	5/28/00	NUM	CD	NUM	17	obl:tmod	17:obl:tmod	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent32_02-0018
+# newpar id = email-enronsent32_02-p0002
+# text = Becky A. Stephens Litigation Unit, Enron Corp. 713/853-5025 EB4809
+1	Becky	Becky	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	A.	A.	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Stephens	Stephens	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+4	Litigation	litigation	NOUN	NN	SG;N	5	compound	5:compound	_
+5	Unit	unit	NOUN	NN	SG;N	1	appos	1:appos	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	Enron	Enron	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+8	Corp.	Corp.	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+9	713/853-5025	713/853-5025	NUM	CD	NUM	10	nummod	10:nummod	_
+10	EB	EB	PROPN	NNP	SG;PROPN	1	list	1:list	SpaceAfter=No
+11	4809	4809	NUM	CD	NUM	10	nummod	10:nummod	_
+
+# sent_id = email-enronsent32_02-0019
+# text = I am on board.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	am	be	AUX	VBP	V;1;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	on	on	ADP	IN	ADP	4	case	4:case	_
+4	board	board	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent32_02-0020
+# text = If the PX comes back again, I will call their in-house attys.
+1	If	if	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	PX	px	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+4	comes	come	VERB	VBZ	V;3;FIN;PRS;SG;IND	10	advcl	10:advcl:if	_
+5	back	back	ADV	RB	ADV	4	advmod	4:advmod	_
+6	again	again	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+7	,	,	PUNCT	,	_	4	punct	4:punct	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+9	will	will	AUX	MD	V;FIN	10	aux	10:aux	_
+10	call	call	VERB	VB	NFIN;V	0	root	0:root	_
+11	their	their	PRON	PRP$	GEN;PL;PRO;3	15	nmod:poss	15:nmod:poss	_
+12	in	in	ADP	IN	ADP	14	case	14:case	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	punct	12:punct	SpaceAfter=No
+14	house	house	NOUN	NN	SG;N	15	compound	15:compound	_
+15	attys	atty	NOUN	NNS	PL;N	10	obj	10:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = email-enronsent32_02-0021
+# newpar id = email-enronsent32_02-p0003
+# text = Christian Yoder/ENRON@enronXgate
+1	Christian	Christian	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Yoder	Yoder	PROPN	NNP	SG;PROPN	1	flat	1:flat	SpaceAfter=No
+3	/	/	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+4	ENRON@enronXgate	ENRON@enronXgate	PROPN	ADD	PROPN	1	list	1:list	_
+

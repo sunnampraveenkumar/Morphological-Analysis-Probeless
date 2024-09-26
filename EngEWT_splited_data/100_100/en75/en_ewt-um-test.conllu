@@ -1,0 +1,364 @@
+# sent_id = answers-20111108074455AAiMwmn_ans-0013
+# text = Call Canon
+1	Call	call	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	Canon	Canon	PROPN	NNP	SG;PROPN	1	obj	1:obj	_
+
+# newdoc id = answers-20111108102205AArwNzY_ans
+# sent_id = answers-20111108102205AArwNzY_ans-0001
+# newpar id = answers-20111108102205AArwNzY_ans-p0001
+# text = Cheapest airline ticket from Raleigh to Philippines?
+1	Cheapest	cheap	ADJ	JJS	RL;ADJ	3	amod	3:amod	_
+2	airline	airline	NOUN	NN	SG;N	3	compound	3:compound	_
+3	ticket	ticket	NOUN	NN	SG;N	0	root	0:root	_
+4	from	from	ADP	IN	ADP	5	case	5:case	_
+5	Raleigh	Raleigh	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:from	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	Philippines	Philippines	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:to	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0002
+# newpar id = answers-20111108102205AArwNzY_ans-p0002
+# text = I'm going on a vacation to the Philippines in May 2012, and I'm starting from Raleigh, NC (RDU Airport).
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	on	on	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	INDF;DET	6	det	6:det	_
+6	vacation	vacation	NOUN	NN	SG;N	3	obl	3:obl:on	_
+7	to	to	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	Philippines	Philippines	PROPN	NNPS	PROPN	6	nmod	6:nmod:to	_
+10	in	in	ADP	IN	ADP	11	case	11:case	_
+11	May	May	PROPN	NNP	SG;PROPN	3	obl	3:obl:in	_
+12	2012	2012	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	17:punct	_
+14	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+15-16	I'm	_	_	_	_	_	_	_	_
+15	I	I	PRON	PRP	PRO;1;NOM;SG	17	nsubj	17:nsubj	_
+16	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	17	aux	17:aux	_
+17	starting	start	VERB	VBG	PRS;V;V.PTCP	3	conj	3:conj:and	_
+18	from	from	ADP	IN	ADP	19	case	19:case	_
+19	Raleigh	Raleigh	PROPN	NNP	SG;PROPN	17	obl	17:obl:from	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	NC	NC	PROPN	NNP	SG;PROPN	19	appos	19:appos	_
+22	(	(	PUNCT	-LRB-	_	24	punct	24:punct	SpaceAfter=No
+23	RDU	RDU	PROPN	NNP	SG;PROPN	24	compound	24:compound	_
+24	Airport	Airport	PROPN	NNP	SG;PROPN	19	appos	19:appos	SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	punct	24:punct	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0003
+# text = Which airlines should I look into and when should I buy my ticket?
+1	Which	which	DET	WDT	DET	2	det	2:det	ManuallyChecked=PronType
+2	airlines	airline	NOUN	NNS	PL;N	5	obl	5:obl:into	_
+3	should	should	AUX	MD	V;FIN	5	aux	5:aux	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+5	look	look	VERB	VB	NFIN;V	0	root	0:root	_
+6	into	into	ADP	IN	ADP	2	case	2:case	_
+7	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	when	when	ADV	WRB	ADV	11	advmod	11:advmod	_
+9	should	should	AUX	MD	V;FIN	11	aux	11:aux	_
+10	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	buy	buy	VERB	VB	NFIN;V	5	conj	5:conj:and	_
+12	my	my	PRON	PRP$	GEN;PRO;1;SG	13	nmod:poss	13:nmod:poss	_
+13	ticket	ticket	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+14	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0004
+# newpar id = answers-20111108102205AArwNzY_ans-p0003
+# text = The sooner the better but I'd probably wait until after the holidays.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	sooner	soon	ADV	RBR	ADV;CMPR	4	advcl	4:advcl:the	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	better	well	ADV	RBR	ADV;CMPR	0	root	0:root	_
+5	but	but	CCONJ	CC	CONJ	9	cc	9:cc	_
+6-7	I'd	_	_	_	_	_	_	_	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+7	'd	would	AUX	MD	V;FIN	9	aux	9:aux	_
+8	probably	probably	ADV	RB	ADV	9	advmod	9:advmod	_
+9	wait	wait	VERB	VB	NFIN;V	4	conj	4:conj:but	_
+10	until	until	ADP	IN	ADP	13	case	13:case	_
+11	after	after	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	holidays	holiday	NOUN	NNS	PL;N	9	obl	9:obl:after	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0005
+# text = Use Travelocity or Expedia and see what you come up with.
+1	Use	use	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	Travelocity	Travelocity	PROPN	NNP	SG;PROPN	1	obj	1:obj	_
+3	or	or	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Expedia	Expedia	PROPN	NNP	SG;PROPN	2	conj	1:obj|2:conj:or	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	see	see	VERB	VB	FIN;V;IMP	1	conj	1:conj:and	_
+7	what	what	PRON	WP	PRO	9	obl	9:obl:with	_
+8	you	you	PRON	PRP	NOM;2;PRO	9	nsubj	9:nsubj	_
+9	come	come	VERB	VBP	V;FIN;PRS;2;SG;IND	6	ccomp	6:ccomp	_
+10	up	up	ADV	RB	ADV	9	advmod	9:advmod	_
+11	with	with	ADP	IN	ADP	7	case	7:case	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0006
+# text = My friend goes to the Phils every 6 months or so and she has found that Korean Air has had the cheapest fares lately.
+1	My	my	PRON	PRP$	GEN;PRO;1;SG	2	nmod:poss	2:nmod:poss	_
+2	friend	friend	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	goes	go	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	to	to	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	Phils	Phils	PROPN	NNP	SG;PROPN	3	obl	3:obl:to	_
+7	every	every	DET	DT	DET	9	det	9:det	_
+8	6	6	NUM	CD	NUM	9	nummod	9:nummod	_
+9	months	month	NOUN	NNS	PL;N	3	obl:tmod	3:obl:tmod	_
+10	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	so	so	ADV	RB	ADV	9	conj	3:obl:npmod|9:conj:or	_
+12	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+13	she	she	PRON	PRP	PRO;3;NOM;SG;FEM	15	nsubj	15:nsubj	_
+14	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	15	aux	15:aux	_
+15	found	find	VERB	VBN	PST;V;V.PTCP	3	conj	3:conj:and	_
+16	that	that	SCONJ	IN	CONJ	20	mark	20:mark	_
+17	Korean	Korean	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	Air	Air	PROPN	NNP	SG;PROPN	20	nsubj	20:nsubj	_
+19	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	20	aux	20:aux	_
+20	had	have	VERB	VBN	PST;V;V.PTCP	15	ccomp	15:ccomp	_
+21	the	the	DET	DT	DEF;DET	23	det	23:det	_
+22	cheapest	cheap	ADJ	JJS	RL;ADJ	23	amod	23:amod	_
+23	fares	fare	NOUN	NNS	PL;N	20	obj	20:obj	_
+24	lately	lately	ADV	RB	ADV	20	advmod	20:advmod	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0007
+# text = Raleigh to Chicago, Chicago to Seoul and then Seoul to Manila.
+1	Raleigh	Raleigh	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	to	to	ADP	IN	ADP	3	case	3:case	_
+3	Chicago	Chicago	PROPN	NNP	SG;PROPN	1	nmod	1:nmod:to	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	Chicago	Chicago	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	Seoul	Seoul	PROPN	NNP	SG;PROPN	5	nmod	5:nmod:to	_
+8	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	then	then	ADV	RB	ADV	10	advmod	10:advmod	_
+10	Seoul	Seoul	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+11	to	to	ADP	IN	ADP	12	case	12:case	_
+12	Manila	Manila	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:to	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0008
+# text = Compare compare compare - that's the key to getting the best deal.
+1	Compare	compare	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	compare	compare	VERB	VB	FIN;V;IMP	1	conj	1:conj	_
+3	compare	compare	VERB	VB	FIN;V;IMP	1	conj	1:conj	_
+4	-	-	PUNCT	,	_	8	punct	8:punct	_
+5-6	that's	_	_	_	_	_	_	_	_
+5	that	that	PRON	DT	SG;PRO	8	nsubj	8:nsubj	_
+6	's	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	cop	8:cop	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	key	key	NOUN	NN	SG;N	1	parataxis	1:parataxis	_
+9	to	to	SCONJ	IN	CONJ	10	mark	10:mark	_
+10	getting	get	VERB	VBG	V.MSDR;V	8	acl	8:acl:to	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	best	good	ADJ	JJS	RL;ADJ	13	amod	13:amod	_
+13	deal	deal	NOUN	NN	SG;N	10	obj	10:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0009
+# newpar id = answers-20111108102205AArwNzY_ans-p0004
+# text = Ask a travel agent!
+1	Ask	ask	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	a	a	DET	DT	INDF;DET	4	det	4:det	_
+3	travel	travel	NOUN	NN	SG;N	4	compound	4:compound	_
+4	agent	agent	NOUN	NN	SG;N	1	iobj	1:iobj	SpaceAfter=No
+5	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0010
+# newpar id = answers-20111108102205AArwNzY_ans-p0005
+# text = On my last 6 trips here from the states I used "Fly genesis" based in Seattle, Wa.
+1	On	on	ADP	IN	ADP	5	case	5:case	_
+2	my	my	PRON	PRP$	GEN;PRO;1;SG	5	nmod:poss	5:nmod:poss	_
+3	last	last	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	6	6	NUM	CD	NUM	5	nummod	5:nummod	_
+5	trips	trip	NOUN	NNS	PL;N	11	obl	11:obl:on	_
+6	here	here	ADV	RB	ADV	5	advmod	5:advmod	_
+7	from	from	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	states	State	PROPN	NNPS	PROPN;PL	5	nmod	5:nmod:from	_
+10	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	used	use	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+12	"	"	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
+13	Fly	Fly	PROPN	NNP	SG;PROPN	14	compound	14:compound	_
+14	genesis	genesis	PROPN	NNP	SG;PROPN	11	obj	11:obj	SpaceAfter=No
+15	"	"	PUNCT	''	_	14	punct	14:punct	_
+16	based	base	VERB	VBN	PASS;PST;V;V.PTCP	14	acl	14:acl	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	Seattle	Seattle	PROPN	NNP	SG;PROPN	16	obl	16:obl:in	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	20:punct	_
+20	Wa	Wa	PROPN	NNP	SG;PROPN	18	appos	18:appos	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = answers-20111108102205AArwNzY_ans-0011
+# text = They gave the best service & rates I could find.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	gave	give	VERB	VBD	PL;PST;V;3;FIN;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	best	good	ADJ	JJS	RL;ADJ	5	amod	5:amod	_
+5	service	service	NOUN	NN	SG;N	2	obj	2:obj|10:obj	_
+6	&	&	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	rates	rate	NOUN	NNS	PL;N	5	conj	2:obj|5:conj	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	10	nsubj	10:nsubj	_
+9	could	could	AUX	MD	V;FIN	10	aux	10:aux	_
+10	find	find	VERB	VB	NFIN;V	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = answers-20111103205154AAOod9K_ans
+# sent_id = answers-20111103205154AAOod9K_ans-0001
+# newpar id = answers-20111103205154AAOod9K_ans-p0001
+# text = What is the best place to get discounts for San Francisco restaurants?
+1	What	what	PRON	WP	PRO	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	best	good	ADJ	JJS	RL;ADJ	5	amod	5:amod	_
+5	place	place	NOUN	NN	SG;N	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	get	get	VERB	VB	NFIN;V	5	acl	5:acl:to	_
+8	discounts	discount	NOUN	NNS	PL;N	7	obj	7:obj	_
+9	for	for	ADP	IN	ADP	12	case	12:case	_
+10	San	San	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+11	Francisco	Francisco	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+12	restaurants	restaurant	NOUN	NNS	PL;N	8	nmod	8:nmod:for	SpaceAfter=No
+13	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0002
+# newpar id = answers-20111103205154AAOod9K_ans-p0002
+# text = I just moved into the city, and I'm wondering if there's a place I can get good deals on restaurants here.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	moved	move	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+4	into	into	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	city	city	NOUN	NN	SG;N	3	obl	3:obl:into	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+9-10	I'm	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+10	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	11	aux	11:aux	_
+11	wondering	wonder	VERB	VBG	PRS;V;V.PTCP	3	conj	3:conj:and	_
+12	if	if	SCONJ	IN	CONJ	14	mark	14:mark	_
+13-14	there's	_	_	_	_	_	_	_	_
+13	there	there	PRON	EX	PRO	14	expl	14:expl	_
+14	's	be	VERB	VBZ	V;3;FIN;PRS;SG;IND	11	ccomp	11:ccomp	_
+15	a	a	DET	DT	INDF;DET	16	det	16:det	_
+16	place	place	NOUN	NN	SG;N	14	nsubj	14:nsubj|19:obl	_
+17	I	I	PRON	PRP	PRO;1;NOM;SG	19	nsubj	19:nsubj	_
+18	can	can	AUX	MD	V;FIN	19	aux	19:aux	_
+19	get	get	VERB	VB	NFIN;V	16	acl:relcl	16:acl:relcl	Cxn=rc-red-obl
+20	good	good	ADJ	JJ	ADJ	21	amod	21:amod	_
+21	deals	deal	NOUN	NNS	PL;N	19	obj	19:obj	_
+22	on	on	ADP	IN	ADP	23	case	23:case	_
+23	restaurants	restaurant	NOUN	NNS	PL;N	21	nmod	21:nmod:on	_
+24	here	here	ADV	RB	ADV	23	advmod	23:advmod	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0003
+# text = I don't want to have to deal with those deal-a-day websites like Groupon.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	want	want	VERB	VB	NFIN;V	0	root	0:root	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	have	have	VERB	VB	NFIN;V	4	xcomp	4:xcomp	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	deal	deal	VERB	VB	NFIN;V	6	xcomp	6:xcomp	_
+9	with	with	ADP	IN	ADP	16	case	16:case	_
+10	those	that	DET	DT	PL;DET	16	det	16:det	_
+11	deal	deal	NOUN	NN	SG;N	15	compound	15:compound	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+13	a	a	DET	DT	INDF;DET	15	det	15:det	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
+15	day	day	NOUN	NN	SG;N	16	compound	16:compound	_
+16	websites	website	NOUN	NNS	PL;N	8	obl	8:obl:with	_
+17	like	like	ADP	IN	ADP	18	case	18:case	_
+18	Groupon	Groupon	PROPN	NNP	SG;PROPN	16	nmod	16:nmod:like	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0004
+# text = I just want a simple way to get a good deal to whatever Restaurant I want, whenever I want.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	want	want	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	simple	simple	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	way	way	NOUN	NN	SG;N	3	obj	3:obj	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	get	get	VERB	VB	NFIN;V	6	acl	6:acl:to	_
+9	a	a	DET	DT	INDF;DET	11	det	11:det	_
+10	good	good	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	deal	deal	NOUN	NN	SG;N	8	obj	8:obj	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	whatever	whatever	DET	WDT	DET	14	det	14:det	_
+14	Restaurant	restaurant	NOUN	NN	SG;N	11	nmod	11:nmod:to|16:obj	_
+15	I	I	PRON	PRP	PRO;1;NOM;SG	16	nsubj	16:nsubj	_
+16	want	want	VERB	VBP	1;V;FIN;PRS;SG;IND	14	acl:relcl	14:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	whenever	whenever	ADV	WRB	ADV	20	advmod	20:advmod	_
+19	I	I	PRON	PRP	PRO;1;NOM;SG	20	nsubj	20:nsubj	_
+20	want	want	VERB	VBP	1;V;FIN;PRS;SG;IND	8	advcl	8:advcl	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0005
+# text = Any suggestions would be really helpful, thanks!
+1	Any	any	DET	DT	DET	2	det	2:det	_
+2	suggestions	suggestion	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+3	would	would	AUX	MD	V;FIN	6	aux	6:aux	_
+4	be	be	AUX	VB	NFIN;V	6	cop	6:cop	_
+5	really	really	ADV	RB	ADV	6	advmod	6:advmod	_
+6	helpful	helpful	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	thanks	thanks	NOUN	NN	SG;N	6	discourse	6:discourse	SpaceAfter=No
+9	!	!	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0006
+# newpar id = answers-20111103205154AAOod9K_ans-p0003
+# text = I usually use ZebraKlub.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	usually	usually	ADV	RB	ADV	3	advmod	3:advmod	_
+3	use	use	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+4	ZebraKlub	ZebraKlub	PROPN	NNP	SG;PROPN	3	obj	3:obj	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0007
+# text = They basically buy daily deals from Groupon, Living Social, and all sorts of other places.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	3	nsubj	3:nsubj	_
+2	basically	basically	ADV	RB	ADV	3	advmod	3:advmod	_
+3	buy	buy	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	daily	daily	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	deals	deal	NOUN	NNS	PL;N	3	obj	3:obj	_
+6	from	from	ADP	IN	ADP	7	case	7:case	_
+7	Groupon	Groupon	PROPN	NNP	SG;PROPN	3	obl	3:obl:from	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	Living	Living	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Social	Social	PROPN	NNP	SG;PROPN	7	conj	3:obl:from|7:conj:and	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+13	all	all	DET	DT	DET	14	det	14:det	_
+14	sorts	sort	NOUN	NNS	PL;N	7	conj	3:obl:from|7:conj:and	_
+15	of	of	ADP	IN	ADP	17	case	17:case	_
+16	other	other	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	places	place	NOUN	NNS	PL;N	14	nmod	14:nmod:of	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111103205154AAOod9K_ans-0008
+# text = So you can pretty much get whatever deal you want anytime.
+1	So	so	ADV	RB	ADV	6	advmod	6:advmod	_
+2	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+3	can	can	AUX	MD	V;FIN	6	aux	6:aux	_
+4	pretty	pretty	ADV	RB	ADV	5	advmod	5:advmod	_
+5	much	much	ADV	RB	ADV	6	advmod	6:advmod	_
+6	get	get	VERB	VB	NFIN;V	0	root	0:root	_
+7	whatever	whatever	DET	WDT	DET	8	det	8:det	_
+8	deal	deal	NOUN	NN	SG;N	6	obj	6:obj|10:obj	_
+9	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+10	want	want	VERB	VBP	V;FIN;PRS;2;SG;IND	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obj
+11	anytime	anytime	NOUN	NN	SG;N	6	obl:tmod	6:obl:tmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+

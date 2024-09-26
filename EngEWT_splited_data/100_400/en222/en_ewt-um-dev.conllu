@@ -1,0 +1,76 @@
+# sent_id = answers-20111105140228AANN2ZV_ans-0006
+# text = like 4th street and stuff ?
+1	like	like	INTJ	UH	INTJ	3	discourse	3:discourse	_
+2	4th	4th	ADJ	NNP	ADJ	3	amod	3:amod	_
+3	street	street	NOUN	NN	SG;N	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	stuff	stuff	NOUN	NN	SG;N	3	conj	3:conj:and	_
+6	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = answers-20090625143116AAhML1y_ans
+# sent_id = answers-20090625143116AAhML1y_ans-0001
+# newpar id = answers-20090625143116AAhML1y_ans-p0001
+# text = Which of these do you like: McDonalds, Burger King, Taco Bell, Wendys?
+1	Which	which	PRON	WDT	PRO	6	obj	6:obj	ManuallyChecked=PronType
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	these	this	PRON	DT	PRO;PL	1	nmod	1:nmod:of	_
+4	do	do	AUX	VBP	FIN;PRS;2;V;IND;SG	6	aux	6:aux	_
+5	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+6	like	like	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+7	:	:	PUNCT	:	_	8	punct	8:punct	_
+8-9	McDonalds	_	_	_	_	_	_	_	SpaceAfter=No
+8	McDonald	McDonald	PROPN	NNP	SG;PROPN	6	parataxis	6:parataxis	_
+9	s	's	PART	POS	PART	8	case	8:case	CorrectForm='s
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	Burger	Burger	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+12	King	King	PROPN	NNP	SG;PROPN	8	conj	8:conj	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	15:punct	_
+14	Taco	Taco	PROPN	NNP	SG;PROPN	15	compound	15:compound	_
+15	Bell	Bell	PROPN	NNP	SG;PROPN	8	conj	8:conj	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	17:punct	_
+17-18	Wendys	_	_	_	_	_	_	_	SpaceAfter=No
+17	Wendy	Wendy	PROPN	NNP	SG;PROPN	8	conj	8:conj	_
+18	s	's	PART	POS	PART	17	case	17:case	CorrectForm='s
+19	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = answers-20090625143116AAhML1y_ans-0002
+# newpar id = answers-20090625143116AAhML1y_ans-p0002
+# text = Burger King
+1	Burger	Burger	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	King	King	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = answers-20090625143116AAhML1y_ans-0003
+# text = it seems like I'm at a real restaurant like Applebees, their food is usually that good
+1	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	2	expl	2:expl	_
+2	seems	seem	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+3	like	like	SCONJ	IN	CONJ	9	mark	9:mark	_
+4-5	I'm	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+5	'm	be	AUX	VBP	FIN;PRS;1;V;IND;SG	9	cop	9:cop	_
+6	at	at	ADP	IN	ADP	9	case	9:case	_
+7	a	a	DET	DT	DET;INDF	9	det	9:det	_
+8	real	real	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	restaurant	restaurant	NOUN	NN	SG;N	2	advcl	2:advcl:at	_
+10	like	like	ADP	IN	ADP	11	case	11:case	_
+11-12	Applebees	_	_	_	_	_	_	_	SpaceAfter=No
+11	Applebee	Applebee	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:like	_
+12	s	's	PART	POS	PART	11	case	11:case	CorrectForm='s
+13	,	,	PUNCT	,	_	19	punct	19:punct	_
+14	their	their	PRON	PRP$	PRO;GEN;3;PL	15	nmod:poss	15:nmod:poss	_
+15	food	food	NOUN	NN	SG;N	19	nsubj	19:nsubj	_
+16	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	19	cop	19:cop	_
+17	usually	usually	ADV	RB	ADV	19	advmod	19:advmod	_
+18	that	that	ADV	RB	ADV	19	advmod	19:advmod	_
+19	good	good	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+
+# sent_id = answers-20090625143116AAhML1y_ans-0004
+# newpar id = answers-20090625143116AAhML1y_ans-p0003
+# text = McDonals the best for me
+1-2	McDonals	_	_	_	_	_	_	_	_
+1	McDonal	McDonald	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj	CorrectForm=McDonald
+2	s	's	PART	POS	PART	1	case	1:case	CorrectForm='s
+3	the	the	DET	DT	DET;DEF	4	det	4:det	_
+4	best	good	ADJ	JJS	ADJ;RL	0	root	0:root	_
+5	for	for	ADP	IN	ADP	6	case	6:case	_
+6	me	I	PRON	PRP	PRO;ACC;1;SG	4	obl	4:obl:for	_
+

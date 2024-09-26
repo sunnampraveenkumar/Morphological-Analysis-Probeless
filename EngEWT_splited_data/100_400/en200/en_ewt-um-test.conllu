@@ -1,0 +1,95 @@
+# sent_id = newsgroup-groups.google.com_jokecity_0566f0ba3b5f748f_ENG_20051125_240500-0004
+# text = "No," Winston says, "That would be an ACCIDENT."
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	No	no	INTJ	UH	INTJ	13	discourse	13:discourse	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
+4	"	"	PUNCT	''	_	2	punct	2:punct	_
+5	Winston	Winston	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+6	says	say	VERB	VBZ	V;3;FIN;PRS;SG;IND	13	parataxis	13:parataxis	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	6:punct	_
+8	"	"	PUNCT	``	_	13	punct	13:punct	SpaceAfter=No
+9	That	that	PRON	DT	SG;PRO	13	nsubj	13:nsubj	_
+10	would	would	AUX	MD	V;FIN	13	aux	13:aux	_
+11	be	be	AUX	VB	NFIN;V	13	cop	13:cop	_
+12	an	a	DET	DT	INDF;DET	13	det	13:det	_
+13	ACCIDENT	accident	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	13:punct	SpaceAfter=No
+15	"	"	PUNCT	''	_	13	punct	13:punct	_
+
+# sent_id = newsgroup-groups.google.com_jokecity_0566f0ba3b5f748f_ENG_20051125_240500-0005
+# text = A girl raises her hand.
+1	A	a	DET	DT	INDF;DET	2	det	2:det	_
+2	girl	girl	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	raises	raise	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	her	her	PRON	PRP$	GEN;PRO;3;SG;FEM	5	nmod:poss	5:nmod:poss	_
+5	hand	hand	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_jokecity_0566f0ba3b5f748f_ENG_20051125_240500-0006
+# text = "If a school bus carrying fifty children drove off a cliff, killing everyone involved... that would be a tragedy".
+1	"	"	PUNCT	``	_	22	punct	22:punct	SpaceAfter=No
+2	If	if	SCONJ	IN	CONJ	9	mark	9:mark	_
+3	a	a	DET	DT	INDF;DET	5	det	5:det	_
+4	school	school	NOUN	NN	SG;N	5	compound	5:compound	_
+5	bus	bus	NOUN	NN	SG;N	9	nsubj	9:nsubj	_
+6	carrying	carry	VERB	VBG	V.MSDR;V	5	acl	5:acl	_
+7	fifty	fifty	NUM	CD	NUM	8	nummod	8:nummod	_
+8	children	child	NOUN	NNS	PL;N	6	obj	6:obj	_
+9	drove	drive	VERB	VBD	PST;V;3;FIN;SG;IND	22	advcl	22:advcl:if	_
+10	off	off	ADP	IN	ADP	12	case	12:case	_
+11	a	a	DET	DT	INDF;DET	12	det	12:det	_
+12	cliff	cliff	NOUN	NN	SG;N	9	obl	9:obl:off	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	killing	kill	VERB	VBG	PRS;V;V.PTCP	9	advcl	9:advcl	_
+15	everyone	everyone	PRON	NN	SG;PRO	14	obj	14:obj	_
+16	involved	involved	ADJ	JJ	ADJ	15	amod	15:amod	SpaceAfter=No
+17	...	...	PUNCT	,	_	9	punct	9:punct	_
+18	that	that	PRON	DT	SG;PRO	22	nsubj	22:nsubj	_
+19	would	would	AUX	MD	V;FIN	22	aux	22:aux	_
+20	be	be	AUX	VB	NFIN;V	22	cop	22:cop	_
+21	a	a	DET	DT	INDF;DET	22	det	22:det	_
+22	tragedy	tragedy	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+23	"	"	PUNCT	''	_	22	punct	22:punct	SpaceAfter=No
+24	.	.	PUNCT	.	_	22	punct	22:punct	_
+
+# sent_id = newsgroup-groups.google.com_jokecity_0566f0ba3b5f748f_ENG_20051125_240500-0007
+# text = "I'm afraid not, "explains Winston, "that is what we would call a GREAT LOSS."
+1	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+3	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	4	cop	4:cop	_
+4	afraid	afraid	ADJ	JJ	ADJ	0	root	0:root	_
+5	not	not	PART	RB	PART	4	ccomp	4:ccomp	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	4:punct	_
+7	"	"	PUNCT	''	_	4	punct	4:punct	SpaceAfter=No
+8	explains	explain	VERB	VBZ	V;3;FIN;PRS;SG;IND	4	parataxis	4:parataxis	_
+9	Winston	Winston	PROPN	NNP	SG;PROPN	8	nsubj	8:nsubj	SpaceAfter=No
+10	,	,	PUNCT	,	_	14	punct	14:punct	_
+11	"	"	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
+12	that	that	PRON	DT	SG;PRO	14	nsubj	14:nsubj	_
+13	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	14	cop	14:cop	_
+14	what	what	PRON	WP	PRO	4	parataxis	4:parataxis|17:obj|20:nsubj:xsubj	_
+15	we	we	PRON	PRP	PL;PRO;1;NOM	17	nsubj	17:nsubj	_
+16	would	would	AUX	MD	V;FIN	17	aux	17:aux	_
+17	call	call	VERB	VB	NFIN;V	14	acl:relcl	14:acl:relcl	Cxn=rc-free-obj
+18	a	a	DET	DT	INDF;DET	20	det	20:det	_
+19	GREAT	great	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	LOSS	loss	NOUN	NN	SG;N	17	xcomp	17:xcomp	SpaceAfter=No
+21	.	.	PUNCT	.	_	14	punct	14:punct	SpaceAfter=No
+22	"	"	PUNCT	''	_	14	punct	14:punct	_
+
+# sent_id = newsgroup-groups.google.com_jokecity_0566f0ba3b5f748f_ENG_20051125_240500-0008
+# text = The room is silent, none of the other children volunteer.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	room	room	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+4	silent	silent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	11	punct	11:punct	_
+6	none	none	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+7	of	of	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	other	other	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	children	child	NOUN	NNS	PL;N	6	nmod	6:nmod:of	_
+11	volunteer	volunteer	VERB	VBP	PL;V;3;FIN;PRS;IND	4	parataxis	4:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+

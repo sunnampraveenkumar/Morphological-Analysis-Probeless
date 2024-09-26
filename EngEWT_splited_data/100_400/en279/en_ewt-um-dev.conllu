@@ -1,0 +1,89 @@
+# sent_id = answers-20111107155302AAXXuM1_ans-0005
+# text = (We check in early afternoon and we fly next day. )
+1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
+2	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+3	check	check	VERB	VBP	FIN;PRS;PL;1;V;IND	0	root	0:root	_
+4	in	in	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	early	early	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	afternoon	afternoon	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod	_
+7	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+8	we	we	PRON	PRP	PRO;PL;1;NOM	9	nsubj	9:nsubj	_
+9	fly	fly	VERB	VBP	FIN;PRS;PL;1;V;IND	3	conj	3:conj:and	_
+10	next	next	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	day	day	NOUN	NN	SG;N	9	obl:tmod	9:obl:tmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+13	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107155302AAXXuM1_ans-0006
+# text = Hop onto a Hop On/Hop Off bus.
+1	Hop	hop	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	onto	onto	ADP	IN	ADP	9	case	9:case	_
+3	a	a	DET	DT	DET;INDF	9	det	9:det	_
+4	Hop	hop	VERB	VB	NFIN;V	9	compound	9:compound	_
+5	On	on	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+6	/	/	SYM	,	_	7	cc	7:cc	SpaceAfter=No
+7	Hop	hop	VERB	VB	NFIN;V	4	conj	4:conj|9:compound	_
+8	Off	off	ADV	RB	ADV	7	advmod	7:advmod	_
+9	bus	bus	NOUN	NN	SG;N	1	obl	1:obl:onto	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111107155302AAXXuM1_ans-0007
+# text = It'll take you to all the major sites (GG Bridge, Haight, Chinatown, etc) and you can get off anyplace you want to spend more time at.
+1-2	It'll	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	nsubj	3:nsubj	_
+2	'll	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	take	take	VERB	VB	NFIN;V	0	root	0:root	_
+4	you	you	PRON	PRP	2;PRO;ACC	3	obj	3:obj	_
+5	to	to	ADP	IN	ADP	9	case	9:case	_
+6	all	all	DET	PDT	DET	9	det:predet	9:det:predet	_
+7	the	the	DET	DT	DET;DEF	9	det	9:det	_
+8	major	major	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	sites	site	NOUN	NNS	PL;N	3	obl	3:obl:to	_
+10	(	(	PUNCT	-LRB-	_	12	punct	12:punct	SpaceAfter=No
+11	GG	GG	PROPN	NNP	SG;PROPN	12	compound	12:compound	_
+12	Bridge	Bridge	PROPN	NNP	SG;PROPN	9	appos	9:appos	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	Haight	Haight	PROPN	NNP	SG;PROPN	12	conj	9:appos|12:conj	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
+16	Chinatown	Chinatown	PROPN	NNP	SG;PROPN	12	conj	9:appos|12:conj	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	18:punct	_
+18	etc	etc.	NOUN	FW	PL;N	12	conj	9:appos|12:conj	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	12	punct	12:punct	_
+20	and	and	CCONJ	CC	CONJ	23	cc	23:cc	_
+21	you	you	PRON	PRP	NOM;2;PRO	23	nsubj	23:nsubj	_
+22	can	can	AUX	MD	FIN;V	23	aux	23:aux	_
+23	get	get	VERB	VB	NFIN;V	3	conj	3:conj:and	_
+24	off	off	ADV	RB	ADV	23	advmod	23:advmod	_
+25	anyplace	anyplace	ADV	RB	ADV	23	advmod	23:advmod|29:obl:at	_
+26	you	you	PRON	PRP	NOM;2;PRO	27	nsubj	27:nsubj|29:nsubj:xsubj	_
+27	want	want	VERB	VBP	FIN;PRS;2;V;IND;SG	25	advcl:relcl	25:advcl:relcl	Cxn=rc-red-obl_xcomp-pstrand
+28	to	to	PART	TO	PART	29	mark	29:mark	_
+29	spend	spend	VERB	VB	NFIN;V	27	xcomp	27:xcomp	_
+30	more	more	ADJ	JJR	ADJ;CMPR	31	amod	31:amod	_
+31	time	time	NOUN	NN	SG;N	29	obj	29:obj	_
+32	at	at	ADP	IN	ADP	29	obl	29:obl	Promoted=Yes|SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107155302AAXXuM1_ans-0008
+# text = Go to Goldstar.com and get tickets for about a third of the price.
+1	Go	go	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	to	to	ADP	IN	ADP	3	case	3:case	_
+3	Goldstar.com	Goldstar.com	PROPN	ADD	PROPN	1	obl	1:obl:to	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	get	get	VERB	VB	FIN;V;IMP	1	conj	1:conj:and	_
+6	tickets	ticket	NOUN	NNS	PL;N	5	obj	5:obj	_
+7	for	for	ADP	IN	ADP	10	case	10:case	_
+8	about	about	ADV	RB	ADV	10	advmod	10:advmod	_
+9	a	a	DET	DT	DET;INDF	10	det	10:det	_
+10	third	third	NOUN	NN	SG;N	5	obl	5:obl:for	_
+11	of	of	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	price	price	NOUN	NN	SG;N	10	nmod	10:nmod:of	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111107155302AAXXuM1_ans-0009
+# newpar id = answers-20111107155302AAXXuM1_ans-p0003
+# text = alcatraz island
+1	alcatraz	alcatraz	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	island	island	NOUN	NN	SG;N	0	root	0:root	_
+

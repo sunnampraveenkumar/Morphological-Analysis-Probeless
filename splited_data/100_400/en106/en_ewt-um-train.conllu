@@ -1,0 +1,483 @@
+# sent_id = email-enronsent13_01-0030
+# newpar id = email-enronsent13_01-p0014
+# text = Anthony Sill Legal Counsel Uecomm Limited 126 Trenerry Crescent Abbotsford, VIC 3067. Ph. (03) 9221 4101 Fax.(03) 9221 4193 Mob. 0417 575 920
+1	Anthony	Anthony	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Sill	Sill	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Legal	legal	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	Counsel	counsel	NOUN	NN	N;SG	1	list	1:list	_
+5	Uecomm	Uecomm	PROPN	NNP	PROPN;SG	6	compound	6:compound	_
+6	Limited	Limited	PROPN	NNP	PROPN;SG	1	list	1:list	_
+7	126	126	NUM	CD	NUM	9	nummod	9:nummod	_
+8	Trenerry	Trenerry	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Crescent	Crescent	PROPN	NNP	PROPN;SG	1	list	1:list	_
+10	Abbotsford	Abbotsford	PROPN	NNP	PROPN;SG	9	appos	9:appos	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	12:punct	_
+12	VIC	VIC	PROPN	NNP	PROPN;SG	10	appos	10:appos	_
+13	3067	3067	NUM	CD	NUM	12	compound	12:compound	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+15	Ph.	ph.	NOUN	NN	N;SG	1	list	1:list	_
+16	(	(	PUNCT	-LRB-	_	17	punct	17:punct	SpaceAfter=No
+17	03	03	NUM	CD	NUM	15	appos	15:appos	SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
+19	9221	9221	NUM	CD	NUM	17	flat	17:flat	_
+20	4101	4101	NUM	CD	NUM	17	flat	17:flat	_
+21	Fax.	fax.	NOUN	NN	N;SG	1	list	1:list	SpaceAfter=No
+22	(	(	PUNCT	-LRB-	_	23	punct	23:punct	SpaceAfter=No
+23	03	03	NUM	CD	NUM	21	appos	21:appos	SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	23	punct	23:punct	_
+25	9221	9221	NUM	CD	NUM	23	flat	23:flat	_
+26	4193	4193	NUM	CD	NUM	23	flat	23:flat	_
+27	Mob.	mob.	NOUN	NN	N;SG	1	list	1:list	_
+28	0417	0417	NUM	CD	NUM	27	appos	27:appos	_
+29	575	575	NUM	CD	NUM	28	flat	28:flat	_
+30	920	920	NUM	CD	NUM	28	flat	28:flat	_
+
+# sent_id = email-enronsent13_01-0031
+# text = <<Enron - UC Master Agreement - 0308.doc>>
+1	<<	<<	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	Enron	enron	NOUN	GW	N	0	root	0:root	_
+3	-	-	X	GW	_	2	flat	2:flat	_
+4	UC	uc	X	GW	_	2	flat	2:flat	_
+5	Master	master	X	GW	_	2	flat	2:flat	_
+6	Agreement	agreement	X	GW	_	2	flat	2:flat	_
+7	-	-	X	GW	_	2	flat	2:flat	_
+8	0308.doc	0308.doc	X	NN	SG	2	flat	2:flat	SpaceAfter=No
+9	>>	>>	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent13_01-0032
+# text = Turn up your sound a bit.
+1	Turn	turn	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	up	up	ADP	RP	ADP	1	compound:prt	1:compound:prt	_
+3	your	your	PRON	PRP$	2;PRO;GEN	4	nmod:poss	4:nmod:poss	_
+4	sound	sound	NOUN	NN	N;SG	1	obj	1:obj	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	bit	bit	NOUN	NN	N;SG	1	obl:npmod	1:obl:npmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0033
+# text = Reminder:
+1	Reminder	reminder	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0034
+# newpar id = email-enronsent13_01-p0015
+# text = Conference Call with ConEd at 1:00 today in Sara's office - EB3801A.
+1	Conference	conference	NOUN	NN	N;SG	2	compound	2:compound	_
+2	Call	call	NOUN	NN	N;SG	0	root	0:root	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	ConEd	ConEd	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:with	_
+5	at	at	ADP	IN	ADP	6	case	6:case	_
+6	1:00	1:00	NUM	CD	NUM	2	nmod	2:nmod:at	_
+7	today	today	NOUN	NN	N;SG	6	nmod:tmod	6:nmod:tmod	_
+8	in	in	ADP	IN	ADP	11	case	11:case	_
+9-10	Sara's	_	_	_	_	_	_	_	_
+9	Sara	Sara	PROPN	NNP	PROPN;SG	11	nmod:poss	11:nmod:poss	_
+10	's	's	PART	POS	PART	9	case	9:case	_
+11	office	office	NOUN	NN	N;SG	2	nmod	2:nmod:in	_
+12	-	-	PUNCT	,	_	14	punct	14:punct	_
+13	EB	EB	PROPN	NNP	PROPN;SG	14	compound	14:compound	CorrectSpaceAfter=Yes|SpaceAfter=No
+14	3801A	3801a	NOUN	NN	N;SG	11	appos	11:appos	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent13_01-0035
+# newpar id = email-enronsent13_01-p0016
+# text = Nick:
+1	Nick	Nick	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0036
+# newpar id = email-enronsent13_01-p0017
+# text = Attached for your further handling is the draft form Deemed ISDA between ENA and Ispat Mexicana S.A. de C.V.
+1	Attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+2	for	for	ADP	IN	ADP	5	case	5:case	_
+3	your	your	PRON	PRP$	2;PRO;GEN	5	nmod:poss	5:nmod:poss	_
+4	further	further	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	handling	handling	NOUN	NN	N;SG	1	obl	1:obl:for	_
+6	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	aux:pass	1:aux:pass	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	draft	draft	NOUN	NN	N;SG	9	compound	9:compound	_
+9	form	form	NOUN	NN	N;SG	1	nsubj:pass	1:nsubj:pass	_
+10	Deemed	Deem	VERB	NNP	V.PTCP;PST;V	11	amod	11:amod	_
+11	ISDA	ISDA	PROPN	NNP	PROPN;SG	9	appos	9:appos	_
+12	between	between	ADP	IN	ADP	13	case	13:case	_
+13	ENA	ENA	PROPN	NNP	PROPN;SG	9	nmod	9:nmod:between	_
+14	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+15	Ispat	Ispat	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+16	Mexicana	Mexicana	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+17	S.A.	S.A.	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+18	de	de	PROPN	NNP	PROPN;SG	19	compound	19:compound	_
+19	C.V	C.V	PROPN	NNP	PROPN;SG	13	conj	9:nmod:between|13:conj:and	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0037
+# text = Please note that the economic provisions have been omitted.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	note	note	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	that	that	SCONJ	IN	CONJ	9	mark	9:mark	_
+4	the	the	DET	DT	DEF;DET	6	det	6:det	_
+5	economic	economic	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	provisions	provision	NOUN	NNS	N;PL	9	nsubj:pass	9:nsubj:pass	_
+7	have	have	AUX	VBP	FIN;V;PRS;IND;3;PL	9	aux	9:aux	_
+8	been	be	AUX	VBN	V.PTCP;PST;V	9	aux:pass	9:aux:pass	_
+9	omitted	omit	VERB	VBN	V.PTCP;PST;PASS;V	2	ccomp	2:ccomp	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent13_01-0038
+# newpar id = email-enronsent13_01-p0018
+# text = Please let me know if you have any questions or need anything else.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	V;NFIN	2	xcomp	2:xcomp	_
+5	if	if	SCONJ	IN	CONJ	7	mark	7:mark	_
+6	you	you	PRON	PRP	PRO;2;NOM	7	nsubj	7:nsubj|11:nsubj	_
+7	have	have	VERB	VBP	2;FIN;SG;V;PRS;IND	4	ccomp	4:ccomp	_
+8	any	any	DET	DT	DET	9	det	9:det	_
+9	questions	question	NOUN	NNS	N;PL	7	obj	7:obj	_
+10	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	need	need	VERB	VBP	2;FIN;SG;V;PRS;IND	7	conj	4:ccomp|7:conj:or	_
+12	anything	anything	PRON	NN	PRO;SG	11	obj	11:obj	_
+13	else	else	ADJ	JJ	ADJ	12	amod	12:amod	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent13_01-0039
+# newpar id = email-enronsent13_01-p0019
+# text = Marie x33907
+1	Marie	Marie	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	x33907	x33907	NOUN	NN	N;SG	1	list	1:list	_
+
+# sent_id = email-enronsent13_01-0040
+# text = Tana:
+1	Tana	Tana	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0041
+# newpar id = email-enronsent13_01-p0020
+# text = Here's info on the Elliotts.
+1-2	Here's	_	_	_	_	_	_	_	_
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	's	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	cop	1:cop	_
+3	info	info	NOUN	NN	N;SG	1	nsubj	1:nsubj	_
+4	on	on	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	Elliotts	Elliott	PROPN	NNPS	PROPN;PL	3	nmod	3:nmod:on	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0042
+# newpar id = email-enronsent13_01-p0021
+# text = Marie
+1	Marie	Marie	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent13_01-0043
+# newpar id = email-enronsent13_01-p0022
+# text = CONGRATULATIONS!!!!!!!
+1	CONGRATULATIONS	congratulation	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+2	!!!!!!!	!!!!!!!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0044
+# text = We've been asking everyday if anyone had heard if the "Babies Elliott" had arrived.
+1-2	We've	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	PRO;PL;NOM;1	4	nsubj	4:nsubj	_
+2	've	have	AUX	VBP	FIN;V;PRS;IND;PL;1	4	aux	4:aux	_
+3	been	be	AUX	VBN	V.PTCP;PST;V	4	aux	4:aux	_
+4	asking	ask	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+5	everyday	everyday	NOUN	NN	N;SG	4	obl:tmod	4:obl:tmod	_
+6	if	if	SCONJ	IN	CONJ	9	mark	9:mark	_
+7	anyone	anyone	PRON	NN	PRO;SG	9	nsubj	9:nsubj	_
+8	had	have	AUX	VBD	FIN;SG;V;IND;3;PST	9	aux	9:aux	_
+9	heard	hear	VERB	VBN	V.PTCP;PST;V	4	ccomp	4:ccomp	_
+10	if	if	SCONJ	IN	CONJ	17	mark	17:mark	_
+11	the	the	DET	DT	DEF;DET	14	det	14:det	_
+12	"	"	PUNCT	``	_	14	punct	14:punct	SpaceAfter=No
+13	Babies	Baby	PROPN	NNPS	PROPN;PL	14	compound	14:compound	_
+14	Elliott	Elliott	PROPN	NNP	PROPN;SG	17	nsubj	17:nsubj	SpaceAfter=No
+15	"	"	PUNCT	''	_	14	punct	14:punct	_
+16	had	have	AUX	VBD	FIN;SG;V;IND;3;PST	17	aux	17:aux	_
+17	arrived	arrive	VERB	VBN	V.PTCP;PST;V	9	ccomp	9:ccomp	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent13_01-0045
+# text = Glad to hear that they are all healthy and were a good size, and that Mom is doing well.
+1	Glad	glad	ADJ	JJ	ADJ	0	root	0:root	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	hear	hear	VERB	VB	V;NFIN	1	advcl	1:advcl:to	_
+4	that	that	SCONJ	IN	CONJ	8	mark	8:mark	_
+5	they	they	PRON	PRP	PRO;3;PL;NOM	8	nsubj	8:nsubj|13:nsubj	_
+6	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	8	cop	8:cop	_
+7	all	all	ADV	RB	ADV	8	advmod	8:advmod	_
+8	healthy	healthy	ADJ	JJ	ADJ	3	ccomp	3:ccomp	_
+9	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+10	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	13	cop	13:cop	_
+11	a	a	DET	DT	DET;INDF	13	det	13:det	_
+12	good	good	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	size	size	NOUN	NN	N;SG	8	conj	3:ccomp|8:conj:and	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	19:punct	_
+15	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+16	that	that	SCONJ	IN	CONJ	19	mark	19:mark	_
+17	Mom	mom	NOUN	NN	N;SG	19	nsubj	19:nsubj	_
+18	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	19	aux	19:aux	_
+19	doing	do	VERB	VBG	V.PTCP;V;PRS	8	conj	3:ccomp|8:conj:and	_
+20	well	well	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0046
+# text = Look forward to seeing pictures of the little ones.
+1	Look	look	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+2	forward	forward	ADV	RB	ADV	1	advmod	1:advmod	_
+3	to	to	SCONJ	IN	CONJ	4	mark	4:mark	_
+4	seeing	see	VERB	VBG	V.PTCP;V;PRS	1	advcl	1:advcl:to	_
+5	pictures	picture	NOUN	NNS	N;PL	4	obj	4:obj	_
+6	of	of	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	little	little	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	ones	one	NOUN	NNS	N;PL	5	nmod	5:nmod:of	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0047
+# text = I know you all are going to have so much fun with them.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	know	know	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	you	you	PRON	PRP	PRO;2;NOM	6	nsubj	6:nsubj|8:nsubj:xsubj	_
+4	all	all	DET	DT	DET	3	det	3:det	_
+5	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	6	aux	6:aux	_
+6	going	go	VERB	VBG	V.PTCP;V;PRS	2	ccomp	2:ccomp	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	have	have	VERB	VB	V;NFIN	6	xcomp	6:xcomp	_
+9	so	so	ADV	RB	ADV	10	advmod	10:advmod	_
+10	much	much	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	fun	fun	NOUN	NN	N;SG	8	obj	8:obj	_
+12	with	with	ADP	IN	ADP	13	case	13:case	_
+13	them	they	PRON	PRP	PRO;3;PL;ACC	11	nmod	11:nmod:with	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent13_01-0048
+# text = Hope you've been storing up sleep, cause it looks like you won't be getting much for a while.
+1	Hope	hope	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+2-3	you've	_	_	_	_	_	_	_	_
+2	you	you	PRON	PRP	PRO;2;NOM	5	nsubj	5:nsubj	_
+3	've	have	AUX	VBP	2;FIN;SG;V;PRS;IND	5	aux	5:aux	_
+4	been	be	AUX	VBN	V.PTCP;PST;V	5	aux	5:aux	_
+5	storing	store	VERB	VBG	V.PTCP;V;PRS	1	ccomp	1:ccomp	_
+6	up	up	ADP	RP	ADP	5	compound:prt	5:compound:prt	_
+7	sleep	sleep	NOUN	NN	N;SG	5	obj	5:obj	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	cause	cause	SCONJ	IN	CONJ	11	mark	11:mark	_
+10	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	11	nsubj	11:nsubj	_
+11	looks	look	VERB	VBZ	FIN;SG;V;PRS;IND;3	1	advcl	1:advcl:cause	_
+12	like	like	SCONJ	IN	CONJ	17	mark	17:mark	_
+13	you	you	PRON	PRP	PRO;2;NOM	17	nsubj	17:nsubj	_
+14-15	won't	_	_	_	_	_	_	_	_
+14	wo	will	AUX	MD	V;FIN	17	aux	17:aux	_
+15	n't	not	PART	RB	PART	17	advmod	17:advmod	_
+16	be	be	AUX	VB	V;NFIN	17	aux	17:aux	_
+17	getting	get	VERB	VBG	V.PTCP;V;PRS	11	advcl	11:advcl:like	_
+18	much	much	ADJ	JJ	ADJ	17	obj	17:obj	_
+19	for	for	ADP	IN	ADP	21	case	21:case	_
+20	a	a	DET	DT	DET;INDF	21	det	21:det	_
+21	while	while	NOUN	NN	N;SG	17	obl	17:obl:for	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0049
+# newpar id = email-enronsent13_01-p0023
+# text = Again, congratulations.
+1	Again	again	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	congratulations	congratulation	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent13_01-0050
+# text = These three little ones don't realize how lucky they are to have such a nice Dad, but I'm sure they'll find out soon.
+1	These	this	DET	DT	DET;PL	4	det	4:det	_
+2	three	three	NUM	CD	NUM	4	nummod	4:nummod	_
+3	little	little	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	ones	one	NOUN	NNS	N;PL	7	nsubj	7:nsubj	_
+5-6	don't	_	_	_	_	_	_	_	_
+5	do	do	AUX	VBP	FIN;V;PRS;IND;3;PL	7	aux	7:aux	_
+6	n't	not	PART	RB	PART	7	advmod	7:advmod	_
+7	realize	realize	VERB	VB	V;NFIN	0	root	0:root	_
+8	how	how	ADV	WRB	ADV	9	advmod	9:advmod	_
+9	lucky	lucky	ADJ	JJ	ADJ	7	ccomp	7:ccomp	_
+10	they	they	PRON	PRP	PRO;3;PL;NOM	9	nsubj	9:nsubj	_
+11	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	9	cop	9:cop	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	have	have	VERB	VB	V;NFIN	9	advcl	9:advcl:to	_
+14	such	such	DET	PDT	DET	17	det:predet	17:det:predet	_
+15	a	a	DET	DT	DET;INDF	17	det	17:det	_
+16	nice	nice	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	Dad	dad	NOUN	NN	N;SG	13	obj	13:obj	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	22:punct	_
+19	but	but	CCONJ	CC	CONJ	22	cc	22:cc	_
+20-21	I'm	_	_	_	_	_	_	_	_
+20	I	I	PRON	PRP	SG;PRO;NOM;1	22	nsubj	22:nsubj	_
+21	'm	be	AUX	VBP	FIN;SG;V;PRS;IND;1	22	cop	22:cop	_
+22	sure	sure	ADJ	JJ	ADJ	7	conj	7:conj:but	_
+23-24	they'll	_	_	_	_	_	_	_	_
+23	they	they	PRON	PRP	PRO;3;PL;NOM	25	nsubj	25:nsubj	_
+24	'll	will	AUX	MD	V;FIN	25	aux	25:aux	_
+25	find	find	VERB	VB	V;NFIN	22	ccomp	22:ccomp	_
+26	out	out	ADP	RP	ADP	25	compound:prt	25:compound:prt	_
+27	soon	soon	ADV	RB	ADV	25	advmod	25:advmod	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent13_01-0051
+# text = Take care
+1	Take	take	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	care	care	NOUN	NN	N;SG	1	obj	1:obj	_
+
+# sent_id = email-enronsent13_01-0052
+# newpar id = email-enronsent13_01-p0024
+# text = Marie
+1	Marie	Marie	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent13_01-0053
+# newpar id = email-enronsent13_01-p0025
+# text = Ladies and gentlemen,
+1	Ladies	lady	NOUN	NNS	N;PL	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	gentlemen	gentleman	NOUN	NNS	N;PL	1	conj	1:conj:and	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0054
+# newpar id = email-enronsent13_01-p0026
+# text = This is just to let you know that Emma gave birth at week 34 on Friday, 6th July, to our triplets:
+1	This	this	PRON	DT	PRO;SG	5	nsubj:outer	5:nsubj:outer	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+3	just	just	ADV	RB	ADV	5	advmod	5:advmod	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	let	let	VERB	VB	V;NFIN	0	root	0:root	_
+6	you	you	PRON	PRP	PRO;2;NOM	5	obj	5:obj|7:nsubj:xsubj	_
+7	know	know	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	that	that	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	Emma	Emma	PROPN	NNP	PROPN;SG	10	nsubj	10:nsubj	_
+10	gave	give	VERB	VBD	FIN;SG;V;IND;3;PST	7	ccomp	7:ccomp	_
+11	birth	birth	NOUN	NN	N;SG	10	obj	10:obj	_
+12	at	at	ADP	IN	ADP	13	case	13:case	_
+13	week	week	NOUN	NN	N;SG	10	obl	10:obl:at	_
+14	34	34	NUM	CD	NUM	13	nummod	13:nummod	_
+15	on	on	ADP	IN	ADP	16	case	16:case	_
+16	Friday	Friday	PROPN	NNP	PROPN;SG	10	obl	10:obl:on	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	19:punct	_
+18	6th	6th	NOUN	NN	N;SG	19	compound	19:compound	_
+19	July	July	PROPN	NNP	PROPN;SG	16	appos	16:appos	SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	23:punct	_
+21	to	to	ADP	IN	ADP	23	case	23:case	_
+22	our	our	PRON	PRP$	PRO;PL;GEN;1	23	nmod:poss	23:nmod:poss	_
+23	triplets	triplet	NOUN	NNS	N;PL	10	obl	10:obl:to	SpaceAfter=No
+24	:	:	PUNCT	:	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent13_01-0055
+# newpar id = email-enronsent13_01-p0027
+# text = Benjamin James - at 12.45 pm - 3 lbs 4 ozs
+1	Benjamin	Benjamin	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	James	James	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	-	-	PUNCT	,	_	6	punct	6:punct	_
+4	at	at	ADP	IN	ADP	6	case	6:case	_
+5	12.45	12.45	NUM	CD	NUM	6	nummod	6:nummod	_
+6	pm	p.m.	NOUN	NN	N;SG	1	nmod	1:nmod:at	_
+7	-	-	PUNCT	,	_	9	punct	9:punct	_
+8	3	3	NUM	CD	NUM	9	nummod	9:nummod	_
+9	lbs	lb	NOUN	NNS	N;PL	1	parataxis	1:parataxis	_
+10	4	4	NUM	CD	NUM	11	nummod	11:nummod	_
+11	ozs	oz	NOUN	NNS	N;PL	9	conj	9:conj	_
+
+# sent_id = email-enronsent13_01-0056
+# newpar id = email-enronsent13_01-p0028
+# text = Toby William - 12.46 pm - 4 lbs
+1	Toby	Toby	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	William	William	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	-	-	PUNCT	,	_	5	punct	5:punct	_
+4	12.46	12.46	NUM	CD	NUM	5	nummod	5:nummod	_
+5	pm	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+6	-	-	PUNCT	,	_	8	punct	8:punct	_
+7	4	4	NUM	CD	NUM	8	nummod	8:nummod	_
+8	lbs	lb	NOUN	NNS	N;PL	1	parataxis	1:parataxis	_
+
+# sent_id = email-enronsent13_01-0057
+# newpar id = email-enronsent13_01-p0029
+# text = Hannah May - 12.48 pm - 3 lbs 15 ozs.
+1	Hannah	Hannah	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	May	May	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	-	-	PUNCT	,	_	5	punct	5:punct	_
+4	12.48	12.48	NUM	CD	NUM	5	nummod	5:nummod	_
+5	pm	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+6	-	-	PUNCT	,	_	8	punct	8:punct	_
+7	3	3	NUM	CD	NUM	8	nummod	8:nummod	_
+8	lbs	lb	NOUN	NNS	N;PL	1	parataxis	1:parataxis	_
+9	15	15	NUM	CD	NUM	10	nummod	10:nummod	_
+10	ozs	oz	NOUN	NNS	N;PL	8	conj	8:conj	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent13_01-0058
+# newpar id = email-enronsent13_01-p0030
+# text = Although small, they are all "fully functioning" and very well - they are in the lowest level of special care (and they will probably be in there for another two to four weeks) until they can feed properly and maintain their weights.
+1	Although	although	SCONJ	IN	CONJ	2	mark	2:mark	_
+2	small	small	ADJ	JJ	ADJ	9	advcl	9:advcl:although	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	they	they	PRON	PRP	PRO;3;PL;NOM	9	nsubj	9:nsubj|13:nsubj	_
+5	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	9	cop	9:cop	_
+6	all	all	ADV	RB	ADV	9	advmod	9:advmod	_
+7	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+8	fully	fully	ADV	RB	ADV	9	advmod	9:advmod	_
+9	functioning	functioning	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+10	"	"	PUNCT	''	_	9	punct	9:punct	_
+11	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+12	very	very	ADV	RB	ADV	13	advmod	13:advmod	_
+13	well	well	ADJ	JJ	ADJ	9	conj	9:conj:and	_
+14	-	-	PUNCT	,	_	20	punct	20:punct	_
+15	they	they	PRON	PRP	PRO;3;PL;NOM	20	nsubj	20:nsubj	_
+16	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	20	cop	20:cop	_
+17	in	in	ADP	IN	ADP	20	case	20:case	_
+18	the	the	DET	DT	DEF;DET	20	det	20:det	_
+19	lowest	low	ADJ	JJS	ADJ;RL	20	amod	20:amod	_
+20	level	level	NOUN	NN	N;SG	9	parataxis	9:parataxis	_
+21	of	of	ADP	IN	ADP	23	case	23:case	_
+22	special	special	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	care	care	NOUN	NN	N;SG	20	nmod	20:nmod:of	_
+24	(	(	PUNCT	-LRB-	_	31	punct	31:punct	SpaceAfter=No
+25	and	and	CCONJ	CC	CONJ	31	cc	31:cc	_
+26	they	they	PRON	PRP	PRO;3;PL;NOM	31	nsubj	31:nsubj	_
+27	will	will	AUX	MD	V;FIN	31	aux	31:aux	_
+28	probably	probably	ADV	RB	ADV	31	advmod	31:advmod	_
+29	be	be	AUX	VB	V;NFIN	31	cop	31:cop	_
+30	in	in	ADP	IN	ADP	31	case	31:case	_
+31	there	there	ADV	RB	ADV	20	conj	20:conj:and	_
+32	for	for	ADP	IN	ADP	37	case	37:case	_
+33	another	another	DET	DT	DET	37	det	37:det	_
+34	two	two	NUM	CD	NUM	37	nummod	37:nummod	_
+35	to	to	ADP	IN	ADP	36	case	36:case	_
+36	four	four	NUM	CD	NUM	34	nmod	34:nmod:to	_
+37	weeks	week	NOUN	NNS	N;PL	31	obl	31:obl:for	SpaceAfter=No
+38	)	)	PUNCT	-RRB-	_	31	punct	31:punct	_
+39	until	until	SCONJ	IN	CONJ	42	mark	42:mark	_
+40	they	they	PRON	PRP	PRO;3;PL;NOM	42	nsubj	42:nsubj|45:nsubj	_
+41	can	can	AUX	MD	V;FIN	42	aux	42:aux	_
+42	feed	feed	VERB	VB	V;NFIN	20	advcl	20:advcl:until	_
+43	properly	properly	ADV	RB	ADV	42	advmod	42:advmod	_
+44	and	and	CCONJ	CC	CONJ	45	cc	45:cc	_
+45	maintain	maintain	VERB	VB	V;NFIN	42	conj	20:advcl:until|42:conj:and	_
+46	their	their	PRON	PRP$	PRO;3;PL;GEN	47	nmod:poss	47:nmod:poss	_
+47	weights	weight	NOUN	NNS	N;PL	45	obj	45:obj	SpaceAfter=No
+48	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent13_01-0059
+# text = Emma is fine, too - very well!!
+1	Emma	Emma	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	3	cop	3:cop	_
+3	fine	fine	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	too	too	ADV	RB	ADV	3	advmod	3:advmod	_
+6	-	-	PUNCT	,	_	8	punct	8:punct	_
+7	very	very	ADV	RB	ADV	8	advmod	8:advmod	_
+8	well	well	ADJ	JJ	ADJ	3	appos	3:appos	SpaceAfter=No
+9	!!	!!	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent13_01-0060
+# newpar id = email-enronsent13_01-p0031
+# text = All the best and kind regards
+1	All	all	DET	PDT	DET	3	det:predet	3:det:predet	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	best	good	ADJ	JJS	ADJ;RL	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+5	kind	kind	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	regards	regards	NOUN	NNS	N	3	conj	3:conj:and	_
+

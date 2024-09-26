@@ -1,0 +1,122 @@
+# sent_id = reviews-207783-0002
+# newpar id = reviews-207783-p0002
+# text = Be more careful when you write reviews- this is an accounting group, not Hollister the clothing store.
+1	Be	be	AUX	VB	FIN;V;IMP	3	cop	3:cop	_
+2	more	more	ADV	RBR	CMPR;ADV	3	advmod	3:advmod	_
+3	careful	careful	ADJ	JJ	ADJ	0	root	0:root	_
+4	when	when	ADV	WRB	ADV	6	advmod	6:advmod	_
+5	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+6	write	write	VERB	VBP	FIN;PRS;2;V;IND;SG	3	advcl	3:advcl:when	_
+7	reviews	review	NOUN	NNS	PL;N	6	obj	6:obj	SpaceAfter=No
+8	-	-	PUNCT	,	_	13	punct	13:punct	_
+9	this	this	PRON	DT	PRO;SG	13	nsubj	13:nsubj|16:nsubj	_
+10	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	13	cop	13:cop	_
+11	an	a	DET	DT	DET;INDF	13	det	13:det	_
+12	accounting	accounting	NOUN	NN	SG;N	13	compound	13:compound	_
+13	group	group	NOUN	NN	SG;N	3	parataxis	3:parataxis	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	16:punct	_
+15	not	not	PART	RB	PART	16	advmod	16:advmod	_
+16	Hollister	Hollister	PROPN	NNP	SG;PROPN	13	conj	13:conj	_
+17	the	the	DET	DT	DET;DEF	19	det	19:det	_
+18	clothing	clothing	NOUN	NN	SG;N	19	compound	19:compound	_
+19	store	store	NOUN	NN	SG;N	16	appos	16:appos	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-363633
+# sent_id = reviews-363633-0001
+# newpar id = reviews-363633-p0001
+# text = Favorite Restaurant
+1	Favorite	favorite	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Restaurant	restaurant	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-363633-0002
+# text = Best yellow curry that I have ever tasted.
+1	Best	good	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+2	yellow	yellow	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	curry	curry	NOUN	NN	SG;N	0	root	0:root|8:obj	_
+4	that	that	PRON	WDT	PRO	8	obj	3:ref	_
+5	I	I	PRON	PRP	PRO;1;NOM;SG	8	nsubj	8:nsubj	_
+6	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	8	aux	8:aux	_
+7	ever	ever	ADV	RB	ADV	8	advmod	8:advmod	_
+8	tasted	taste	VERB	VBN	V;V.PTCP;PST	3	acl:relcl	3:acl:relcl	Cxn=rc-that-obj|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-363633-0003
+# text = Staff is super friendly and very attentive.
+1	Staff	staff	NOUN	NN	SG;N	4	nsubj	4:nsubj|7:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	super	super	ADV	RB	ADV	4	advmod	4:advmod	_
+4	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+6	very	very	ADV	RB	ADV	7	advmod	7:advmod	_
+7	attentive	attentive	ADJ	JJ	ADJ	4	conj	4:conj:and	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-363633-0004
+# text = Price is also very reasonable.
+1	Price	price	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+3	also	also	ADV	RB	ADV	5	advmod	5:advmod	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	reasonable	reasonable	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# newdoc id = reviews-356361
+# sent_id = reviews-356361-0001
+# newpar id = reviews-356361-p0001
+# text = Great service
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	service	service	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-356361-0002
+# newpar id = reviews-356361-p0002
+# text = A very well established service with a satisfying outcome.
+1	A	a	DET	DT	DET;INDF	5	det	5:det	_
+2	very	very	ADV	RB	ADV	3	advmod	3:advmod	_
+3	well	well	ADV	RB	ADV	4	advmod	4:advmod	_
+4	established	establish	VERB	VBN	PASS;V;V.PTCP;PST	5	amod	5:amod	_
+5	service	service	NOUN	NN	SG;N	0	root	0:root	_
+6	with	with	ADP	IN	ADP	9	case	9:case	_
+7	a	a	DET	DT	DET;INDF	9	det	9:det	_
+8	satisfying	satisfying	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	outcome	outcome	NOUN	NN	SG;N	5	nmod	5:nmod:with	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-356361-0003
+# text = A well communicated and will be hireing again for another projects......
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	well	well	ADV	RB	ADV	3	advmod	3:advmod	_
+3	communicated	communicate	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+5	will	will	AUX	MD	FIN;V	7	aux	7:aux	_
+6	be	be	AUX	VB	V;NFIN	7	aux	7:aux	_
+7	hireing	hire	VERB	VBG	PRS;V;V.PTCP	3	conj	3:conj:and	CorrectForm=hiring
+8	again	again	ADV	RB	ADV	7	advmod	7:advmod	_
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	another	another	DET	DT	DET	11	det	11:det	_
+11	projects	project	NOUN	NNS	PL;N	7	obl	7:obl:for	SpaceAfter=No
+12	......	......	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-356361-0004
+# text = Thanks
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+
+# newdoc id = reviews-041925
+# sent_id = reviews-041925-0001
+# newpar id = reviews-041925-p0001
+# text = I heard the libido band play live and they are out of site!!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	heard	hear	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	the	the	DET	DT	DET;DEF	5	det	5:det	_
+4	libido	libido	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	band	band	NOUN	NN	SG;N	2	obj	2:obj|6:nsubj:xsubj	_
+6	play	play	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+7	live	live	ADV	RB	ADV	6	advmod	6:advmod	_
+8	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+9	they	they	PRON	PRP	PRO;3;PL;NOM	13	nsubj	13:nsubj	_
+10	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	13	cop	13:cop	_
+11	out	out	ADP	IN	ADP	13	case	13:case	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	site	site	NOUN	NN	SG;N	2	conj	2:conj:and	SpaceAfter=No
+14	!!	!!	PUNCT	.	_	2	punct	2:punct	_
+

@@ -1,0 +1,74 @@
+# sent_id = email-enronsent27_02-0004
+# newpar id = email-enronsent27_02-p0002
+# text = Hello from South America.
+1	Hello	hello	INTJ	UH	INTJ	0	root	0:root	_
+2	from	from	ADP	IN	ADP	4	case	4:case	_
+3	South	South	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	America	America	PROPN	NNP	SG;PROPN	1	obl	1:obl:from	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent27_02-0005
+# text = I just got your email and I certainly concur with Jeff making the call.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	got	get	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+4	your	your	PRON	PRP$	GEN;PRO;2	5	nmod:poss	5:nmod:poss	_
+5	email	email	NOUN	NN	SG;N	3	obj	3:obj	_
+6	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+7	I	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+8	certainly	certainly	ADV	RB	ADV	9	advmod	9:advmod	_
+9	concur	concur	VERB	VBP	1;V;FIN;PRS;SG;IND	3	conj	3:conj:and	_
+10	with	with	SCONJ	IN	CONJ	12	mark	12:mark	_
+11	Jeff	Jeff	PROPN	NNP	SG;PROPN	12	nsubj	12:nsubj	_
+12	making	make	VERB	VBG	PRS;V;V.PTCP	9	advcl	9:advcl:with	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	call	call	NOUN	NN	SG;N	12	obj	12:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent27_02-0006
+# text = He has maintained a good relationship with Mulva.
+1	He	he	PRON	PRP	PRO;3;NOM;SG;MASC	3	nsubj	3:nsubj	_
+2	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	maintained	maintain	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	good	good	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	relationship	relationship	NOUN	NN	SG;N	3	obj	3:obj	_
+7	with	with	ADP	IN	ADP	8	case	8:case	_
+8	Mulva	Mulva	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:with	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent27_02-0007
+# text = This was a risk that we had but we did have assurances from Phillips regarding performance.
+1	This	this	PRON	DT	SG;PRO	4	nsubj	4:nsubj	_
+2	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	4	cop	4:cop	_
+3	a	a	DET	DT	INDF;DET	4	det	4:det	_
+4	risk	risk	NOUN	NN	SG;N	0	root	0:root|7:obj	_
+5	that	that	PRON	WDT	PRO	7	obj	4:ref	_
+6	we	we	PRON	PRP	PL;PRO;1;NOM	7	nsubj	7:nsubj	_
+7	had	have	VERB	VBD	PL;1;V;PST;FIN;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-obj
+8	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+9	we	we	PRON	PRP	PL;PRO;1;NOM	11	nsubj	11:nsubj	_
+10	did	do	AUX	VBD	PL;V;1;PST;FIN;IND	11	aux	11:aux	_
+11	have	have	VERB	VB	NFIN;V	4	conj	4:conj:but|7:obj	_
+12	assurances	assurance	NOUN	NNS	PL;N	11	obj	11:obj	_
+13	from	from	ADP	IN	ADP	14	case	14:case	_
+14	Phillips	Phillips	PROPN	NNP	SG;PROPN	12	nmod	12:nmod:from	_
+15	regarding	regard	VERB	VBG	PRS;V;V.PTCP	16	case	16:case	_
+16	performance	performance	NOUN	NN	SG;N	12	nmod	12:nmod:regarding	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent27_02-0008
+# text = I don't know how much it will help however.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	know	know	VERB	VB	NFIN;V	0	root	0:root	_
+5	how	how	ADV	WRB	ADV	6	advmod	6:advmod	_
+6	much	much	ADV	RB	ADV	9	advmod	9:advmod	_
+7	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	9	nsubj	9:nsubj	_
+8	will	will	AUX	MD	V;FIN	9	aux	9:aux	_
+9	help	help	VERB	VB	NFIN;V	4	ccomp	4:ccomp	_
+10	however	however	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+

@@ -1,0 +1,93 @@
+# sent_id = email-enronsent23_10-0004
+# text = probablyl gonna just kick it
+1	probablyl	probably	ADV	RB	ADV	2	advmod	2:advmod	CorrectForm=probably
+2-3	gonna	_	_	_	_	_	_	_	_
+2	gon	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+3	na	to	PART	TO	PART	5	mark	5:mark	_
+4	just	just	ADV	RB	ADV	5	advmod	5:advmod	_
+5	kick	kick	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+6	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	5	obj	5:obj	_
+
+# newdoc id = email-enronsent23_01
+# sent_id = email-enronsent23_01-0001
+# newpar id = email-enronsent23_01-p0001
+# text = you know, whatever.
+1	you	you	PRON	PRP	NOM;2;PRO	2	nsubj	2:nsubj	_
+2	know	know	VERB	VBP	V;FIN;PRS;2;SG;IND	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	whatever	whatever	INTJ	WP	INTJ	2	parataxis	2:parataxis	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_01-0002
+# text = i will let you know later.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	let	let	VERB	VB	NFIN;V	0	root	0:root	_
+4	you	you	PRON	PRP	NOM;2;PRO	3	obj	3:obj|5:nsubj:xsubj	_
+5	know	know	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	later	late	ADV	RBR	ADV;CMPR	3	advmod	3:advmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_01-0003
+# text = what are you doing tonight.
+1	what	what	PRON	WP	PRO	4	obj	4:obj	_
+2	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	4	aux	4:aux	_
+3	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+4	doing	do	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	tonight	tonight	NOUN	NN	SG;N	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_01-0004
+# newpar id = email-enronsent23_01-p0002
+# text = like what?
+1	like	like	ADP	IN	ADP	2	case	2:case	_
+2	what	what	PRON	WP	PRO	0	root	0:root	SpaceAfter=No
+3	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_01-0005
+# newpar id = email-enronsent23_01-p0003
+# text = i can think of a few things
+1	i	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+3	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+4	of	of	ADP	IN	ADP	7	case	7:case	_
+5	a	a	DET	DT	INDF;DET	7	det	7:det	_
+6	few	few	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	things	thing	NOUN	NNS	PL;N	3	obl	3:obl:of	_
+
+# newdoc id = email-enronsent23_05
+# sent_id = email-enronsent23_05-0001
+# newpar id = email-enronsent23_05-p0001
+# text = your retarded.
+1-2	your	_	_	_	_	_	_	_	_
+1	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+2	r	be	AUX	VBP	V;FIN;PRS;2;SG;IND	3	cop	3:cop	CorrectForm='re
+3	retarded	retarded	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent23_05-0002
+# text = i used to have one.
+1	i	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	used	use	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	have	have	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	one	one	NUM	CD	NUM	4	obj	4:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent23_05-0003
+# text = they are great dogs.
+1	they	they	PRON	PRP	PL;PRO;3;NOM	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	4	cop	4:cop	_
+3	great	great	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	dogs	dog	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent23_05-0004
+# newpar id = email-enronsent23_05-p0002
+# text = cockerspaniels are retarded.
+1	cocker	cocker	NOUN	NN	SG;N	2	compound	2:compound	CorrectSpaceAfter=Yes|SpaceAfter=No
+2	spaniels	spaniel	NOUN	NNS	PL;N	4	nsubj	4:nsubj	_
+3	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	4	cop	4:cop	_
+4	retarded	retarded	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+

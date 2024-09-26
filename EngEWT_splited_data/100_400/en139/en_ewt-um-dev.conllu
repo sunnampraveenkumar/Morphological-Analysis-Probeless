@@ -1,0 +1,55 @@
+# sent_id = email-enronsent00_02-0003
+# text = Scott Neal and Tom Martin would like to attend as well.
+1	Scott	Scott	PROPN	NNP	SG;PROPN	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+2	Neal	Neal	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	Tom	Tom	PROPN	NNP	SG;PROPN	1	conj	1:conj:and|7:nsubj|9:nsubj:xsubj	_
+5	Martin	Martin	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	would	would	AUX	MD	FIN;V	7	aux	7:aux	_
+7	like	like	VERB	VB	NFIN;V	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	attend	attend	VERB	VB	NFIN;V	7	xcomp	7:xcomp	_
+10	as	as	ADV	RB	ADV	9	advmod	9:advmod	_
+11	well	well	ADV	RB	ADV	10	fixed	10:fixed	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent00_02-0004
+# text = This afternoon at 2 PM or later would work for us.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	afternoon	afternoon	NOUN	NN	SG;N	9	nsubj	9:nsubj	_
+3	at	at	ADP	IN	ADP	5	case	5:case	_
+4	2	2	NUM	CD	NUM	5	nummod	5:nummod	_
+5	PM	p.m.	NOUN	NN	SG;N	2	nmod	2:nmod:at	_
+6	or	or	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	later	late	ADV	RBR	CMPR;ADV	5	conj	2:nmod:at|5:conj:or	_
+8	would	would	AUX	MD	FIN;V	9	aux	9:aux	_
+9	work	work	VERB	VB	NFIN;V	0	root	0:root	_
+10	for	for	ADP	IN	ADP	11	case	11:case	_
+11	us	we	PRON	PRP	PRO;ACC;PL;1	9	obl	9:obl:for	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent00_02-0005
+# text = Please let me know what time we could meet.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	let	let	VERB	VB	FIN;V;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	PRO;ACC;1;SG	2	obj	2:obj|4:nsubj:xsubj	_
+4	know	know	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	what	what	DET	WDT	DET	6	det	6:det	_
+6	time	time	NOUN	NN	SG;N	9	obj	9:obj	_
+7	we	we	PRON	PRP	PRO;PL;1;NOM	9	nsubj	9:nsubj	_
+8	could	could	AUX	MD	FIN;V	9	aux	9:aux	_
+9	meet	meet	VERB	VB	NFIN;V	4	ccomp	4:ccomp	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent00_02-0006
+# newpar id = email-enronsent00_02-p0003
+# text = Thank you,
+1	Thank	thank	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+2	you	you	PRON	PRP	NOM;2;PRO	1	obj	1:obj	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent00_02-0007
+# newpar id = email-enronsent00_02-p0004
+# text = Phillip
+1	Phillip	Phillip	PROPN	NNP	SG;PROPN	0	root	0:root	_
+

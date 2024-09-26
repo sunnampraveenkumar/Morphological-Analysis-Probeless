@@ -1,0 +1,62 @@
+# sent_id = reviews-118770-0003
+# text = Great value and service.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	value	value	NOUN	NN	SG;N	0	root	0:root	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	service	service	NOUN	NN	SG;N	2	conj	2:conj:and	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-118770-0004
+# text = We will be back again and again !!
+1	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	be	be	AUX	VB	V;NFIN	0	root	0:root	_
+4	back	back	ADV	RB	ADV	3	advmod	3:advmod	_
+5	again	again	ADV	RB	ADV	3	advmod	3:advmod	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	again	again	ADV	RB	ADV	5	conj	3:advmod|5:conj:and	_
+8	!!	!!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-162992
+# sent_id = reviews-162992-0001
+# newpar id = reviews-162992-p0001
+# text = Great Service and hairstyles that last.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Service	service	NOUN	NN	SG;N	0	root	0:root	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	hairstyles	hairstyle	NOUN	NNS	PL;N	2	conj	2:conj:and|6:nsubj	_
+5	that	that	PRON	WDT	PRO	6	nsubj	4:ref	_
+6	last	last	VERB	VBP	FIN;PRS;3;PL;V;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-162992-0002
+# newpar id = reviews-162992-p0002
+# text = I am pleased with the service that i get at Luxe.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	am	be	AUX	VBP	FIN;PRS;1;V;IND;SG	3	cop	3:cop	_
+3	pleased	pleased	ADJ	JJ	ADJ	0	root	0:root	_
+4	with	with	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	service	service	NOUN	NN	SG;N	3	obl	3:obl:with|9:obj	_
+7	that	that	PRON	WDT	PRO	9	obj	6:ref	_
+8	i	I	PRON	PRP	PRO;1;NOM;SG	9	nsubj	9:nsubj	_
+9	get	get	VERB	VBP	FIN;PRS;1;V;IND;SG	6	acl:relcl	6:acl:relcl	Cxn=rc-that-obj
+10	at	at	ADP	IN	ADP	11	case	11:case	_
+11	Luxe	Luxe	PROPN	NNP	SG;PROPN	9	obl	9:obl:at	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-162992-0003
+# text = The staff is very pleasant and my hair is always fresh.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	staff	staff	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	pleasant	pleasant	ADJ	JJ	ADJ	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+7	my	my	PRON	PRP$	PRO;GEN;1;SG	8	nmod:poss	8:nmod:poss	_
+8	hair	hair	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+9	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	11	cop	11:cop	_
+10	always	always	ADV	RB	ADV	11	advmod	11:advmod	_
+11	fresh	fresh	ADJ	JJ	ADJ	5	conj	5:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	5:punct	_
+

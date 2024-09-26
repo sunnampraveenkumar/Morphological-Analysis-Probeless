@@ -1,0 +1,263 @@
+# sent_id = train-s2350
+# text = 1998年該公司更名為現今的京王電鐵。
+# translit = 1998niángāigōngsīgèngmíngwèixiànjīndejīngwángdiàntiě.
+1	1998	1998	NUM	CD	NUM	2	nummod	_	SpaceAfter=No|Translit=1998|LTranslit=1998
+2	年	年	NOUN	NNB	N	5	nmod:tmod	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	該	該	DET	DT	DET	4	det	_	SpaceAfter=No|Translit=gāi|LTranslit=gāi
+4	公司	公司	NOUN	NN	N	5	nsubj	_	SpaceAfter=No|Translit=gōngsī|LTranslit=gōngsī
+5	更名	更名	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=gèngmíng|LTranslit=gèngmíng
+6	為	為	VERB	VC	V	5	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+7	現今	現今	ADJ	JJ	ADJ	10	amod	_	SpaceAfter=No|Translit=xiànjīn|LTranslit=xiànjīn
+8	的	的	PART	DEC	PART;GEN	7	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+9	京王	京王	PROPN	NNP	PROPN	10	nmod	_	SpaceAfter=No|Translit=jīngwáng|LTranslit=jīngwáng
+10	電鐵	電鐵	NOUN	NN	N	5	obj	_	SpaceAfter=No|Translit=diàntiě|LTranslit=diàntiě
+11	。	。	PUNCT	.	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2351
+# text = 井田制就是把耕地劃分為一定面積的方田，周圍有經界，中間有水溝，阡陌縱橫，像一個井字。
+# translit = jǐngtiánzhìjiùshìbǎgēngdehuàfēnwèiyīdìngmiànjīdefāngtián,zhōuwéiyǒujīngjiè,zhōngjiānyǒushuǐgōu,阡mòzònghéng,xiàngyīgèjǐngzì.
+1	井田	井田	NOUN	NN	N	2	compound	_	SpaceAfter=No|Translit=jǐngtián|LTranslit=jǐngtián
+2	制	制	PART	SFN	PART	3	nsubj	_	SpaceAfter=No|Translit=zhì|LTranslit=zhì
+3	就是	是	VERB	VC	V	0	root	_	SpaceAfter=No|Translit=jiùshì|LTranslit=shì
+4	把	把	ADP	BB	ADP	5	case	_	SpaceAfter=No|Translit=bǎ|LTranslit=bǎ
+5	耕地	耕地	NOUN	NN	N	6	obl:patient	_	SpaceAfter=No|Translit=gēngde|LTranslit=gēngde
+6	劃分	劃分	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=huàfēn|LTranslit=huàfēn
+7	為	為	VERB	VC	V	6	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+8	一定	一定	ADJ	JJ	ADJ	9	amod	_	SpaceAfter=No|Translit=yīdìng|LTranslit=yīdìng
+9	面積	面積	NOUN	NN	N	11	nmod	_	SpaceAfter=No|Translit=miànjī|LTranslit=miànjī
+10	的	的	PART	DEC	PART;GEN	9	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+11	方田	方田	NOUN	NN	N	6	obj	_	SpaceAfter=No|Translit=fāngtián|LTranslit=fāngtián
+12	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	周圍	周圍	NOUN	NN	N	14	nsubj	_	SpaceAfter=No|Translit=zhōuwéi|LTranslit=zhōuwéi
+14	有	有	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+15	經界	經界	NOUN	NN	N	14	obj	_	SpaceAfter=No|Translit=jīngjiè|LTranslit=jīngjiè
+16	，	，	PUNCT	,	_	14	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	中間	中間	NOUN	NN	N	18	nsubj	_	SpaceAfter=No|Translit=zhōngjiān|LTranslit=zhōngjiān
+18	有	有	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+19	水溝	水溝	NOUN	NN	N	18	obj	_	SpaceAfter=No|Translit=shuǐgōu|LTranslit=shuǐgōu
+20	，	，	PUNCT	,	_	18	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+21	阡陌	阡陌	NOUN	NN	N	22	nsubj	_	SpaceAfter=No|Translit=阡mò|LTranslit=阡mò
+22	縱橫	縱橫	VERB	VV	V	24	advcl	_	SpaceAfter=No|Translit=zònghéng|LTranslit=zònghéng
+23	，	，	PUNCT	,	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+24	像	像	VERB	VV	V	3	xcomp	_	SpaceAfter=No|Translit=xiàng|LTranslit=xiàng
+25	一	一	NUM	CD	NUM	27	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+26	個	個	NOUN	NNB	N	25	clf	_	SpaceAfter=No|Translit=gè|LTranslit=gè
+27	井字	井字	NOUN	NN	N	24	obj	_	SpaceAfter=No|Translit=jǐngzì|LTranslit=jǐngzì
+28	。	。	PUNCT	.	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2352
+# text = 1923年6月黎元洪再度下台後，直系軍閥直隸省長王承斌重新「收回國有」。
+# translit = 1923nián6yuèlíyuánhóngzàidùxiàtáihòu,zhíxìjūnfázhílìshěngzhǎngwángchéng斌zhòngxīn‘shōuhuíguóyǒu’.
+1	1923	1923	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=1923|LTranslit=1923
+2	年	年	NOUN	NNB	N	1	clf	_	SpaceAfter=No|Translit=nián|LTranslit=nián
+3	6	6	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=6|LTranslit=6
+4	月	月	NOUN	NNB	N	8	nmod:tmod	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+5	黎	黎	PROPN	NNP	PROPN	8	nsubj	_	SpaceAfter=No|Translit=lí|LTranslit=lí
+6	元洪	元洪	PROPN	NNP	PROPN	5	flat:name	_	SpaceAfter=No|Translit=yuánhóng|LTranslit=yuánhóng
+7	再度	再度	ADV	RB	ADV	8	advmod	_	SpaceAfter=No|Translit=zàidù|LTranslit=zàidù
+8	下台	下台	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=xiàtái|LTranslit=xiàtái
+9	後	後	ADP	IN	ADP	8	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+10	，	，	PUNCT	,	_	20	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	直系	直系	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=zhíxì|LTranslit=zhíxì
+12	軍閥	軍閥	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=jūnfá|LTranslit=jūnfá
+13	直隸	直隸	VERB	VV	V	14	compound	_	SpaceAfter=No|Translit=zhílì|LTranslit=zhílì
+14	省	省	PART	SFN	PART	15	compound	_	SpaceAfter=No|Translit=shěng|LTranslit=shěng
+15	長	長	PART	SFN	PART	20	nsubj	_	SpaceAfter=No|Translit=zhǎng|LTranslit=zhǎng
+16	王	王	PROPN	NNP	PROPN	15	appos	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+17	承斌	承斌	PROPN	NNP	PROPN	16	flat:name	_	SpaceAfter=No|Translit=chéng斌|LTranslit=chéng斌
+18	重新	重新	ADV	RB	ADV	20	advmod	_	SpaceAfter=No|Translit=zhòngxīn|LTranslit=zhòngxīn
+19	「	「	PUNCT	``	_	20	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+20	收回	收回	VERB	VV	V	8	parataxis	_	SpaceAfter=No|Translit=shōuhuí|LTranslit=shōuhuí
+21	國	國	NOUN	NN	N	22	nsubj	_	SpaceAfter=No|Translit=guó|LTranslit=guó
+22	有	有	VERB	VV	V	20	ccomp	_	SpaceAfter=No|Translit=yǒu|LTranslit=yǒu
+23	」	」	PUNCT	''	_	20	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+24	。	。	PUNCT	.	_	8	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2353
+# text = 在尼西亞（Nicea）開的尼西亞會議（Council of Nicea）上，亞流與亞他那修算是對這問題爭辯得最激烈的兩位長老。
+# translit = zàiníxiyà(Nicea)kāideníxiyàhuìyì(Council of Nicea)shàng,yàliúyǔyàtānàxiūsuànshìduìzhèwèntízhēngbiàndezuìjīlièdeliǎngwèizhǎnglǎo.
+1	在	在	VERB	VV	V	6	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+2	尼西亞	尼西亞	PROPN	NNP	PROPN	1	obj	_	SpaceAfter=No|Translit=níxiyà|LTranslit=níxiyà
+3	（	（	PUNCT	(	_	4	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+4	Nicea	Nicea	X	FW	_	2	appos	_	SpaceAfter=No|Translit=Nicea|LTranslit=Nicea
+5	）	）	PUNCT	)	_	4	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+6	開	開	VERB	VV	V	9	acl:relcl	_	SpaceAfter=No|Translit=kāi|LTranslit=kāi
+7	的	的	SCONJ	DEC	CONJ	6	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+8	尼西亞	尼西亞	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=níxiyà|LTranslit=níxiyà
+9	會議	會議	NOUN	NN	N	20	obl	_	SpaceAfter=No|Translit=huìyì|LTranslit=huìyì
+10	（	（	PUNCT	(	_	11	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+11	Council	Council	X	FW	_	9	appos	_	Translit=Council|LTranslit=Council
+12	of	of	X	FW	_	11	flat:foreign	_	Translit=of|LTranslit=of
+13	Nicea	Nicea	X	FW	_	11	flat:foreign	_	SpaceAfter=No|Translit=Nicea|LTranslit=Nicea
+14	）	）	PUNCT	)	_	11	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+15	上	上	ADP	IN	ADP	9	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+16	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	亞流	亞流	PROPN	NNP	PROPN	20	nsubj	_	SpaceAfter=No|Translit=yàliú|LTranslit=yàliú
+18	與	與	CCONJ	CC	CONJ	19	cc	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+19	亞他那修	亞他那修	PROPN	NNP	PROPN	17	conj	_	SpaceAfter=No|Translit=yàtānàxiū|LTranslit=yàtānàxiū
+20	算	算	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=suàn|LTranslit=suàn
+21	是	是	AUX	VC	V	32	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+22	對	對	ADP	IN	ADP	24	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+23	這	這	DET	DT	DET	24	det	_	SpaceAfter=No|Translit=zhè|LTranslit=zhè
+24	問題	問題	NOUN	NN	N	25	nmod	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
+25	爭辯	爭辯	VERB	VV	V	32	acl:relcl	_	SpaceAfter=No|Translit=zhēngbiàn|LTranslit=zhēngbiàn
+26	得	得	PART	DEV	PART	25	compound:ext	_	SpaceAfter=No|Translit=de|LTranslit=de
+27	最	最	ADV	RB	ADV	28	advmod	_	SpaceAfter=No|Translit=zuì|LTranslit=zuì
+28	激烈	激烈	ADJ	JJ	ADJ	25	xcomp	_	SpaceAfter=No|Translit=jīliè|LTranslit=jīliè
+29	的	的	SCONJ	DEC	CONJ	25	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+30	兩	兩	NUM	CD	NUM	32	nummod	_	SpaceAfter=No|Translit=liǎng|LTranslit=liǎng
+31	位	位	NOUN	NNB	N	30	clf	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+32	長老	長老	NOUN	NN	N	20	xcomp	_	SpaceAfter=No|Translit=zhǎnglǎo|LTranslit=zhǎnglǎo
+33	。	。	PUNCT	.	_	20	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2354
+# text = 所以後來的傳言，說他曾逃往西班牙並在那裏做過廚師的工作，是不太可能的。
+# translit = suǒyǐhòuláidechuányán,shuōtācéngtáowǎngxibānyábìngzàinà裏zuòguòchúshīdegōngzuò,shìbùtàikěnéngde.
+1	所以	所以	SCONJ	RB	CONJ	20	mark	_	SpaceAfter=No|Translit=suǒyǐ|LTranslit=suǒyǐ
+2	後來	後來	NOUN	NN	N	4	nmod	_	SpaceAfter=No|Translit=hòulái|LTranslit=hòulái
+3	的	的	PART	DEC	PART;GEN	2	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+4	傳言	傳言	NOUN	NN	N	6	nsubj	_	SpaceAfter=No|Translit=chuányán|LTranslit=chuányán
+5	，	，	PUNCT	,	_	4	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	說	說	VERB	VV	V	20	csubj	_	SpaceAfter=No|Translit=shuō|LTranslit=shuō
+7	他	他	PRON	PRP	3;PRO	14	nsubj	_	SpaceAfter=No|Translit=tā|LTranslit=tā
+8	曾	曾	ADV	RB	ADV	9	advmod	_	SpaceAfter=No|Translit=céng|LTranslit=céng
+9	逃往	逃往	VERB	VV	V	14	advcl	_	SpaceAfter=No|Translit=táowǎng|LTranslit=táowǎng
+10	西班牙	西班牙	PROPN	NNP	PROPN	9	obj	_	SpaceAfter=No|Translit=xibānyá|LTranslit=xibānyá
+11	並	並	SCONJ	RB	CONJ	14	mark	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+12	在	在	VERB	VV	V	14	advcl	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+13	那裏	那裏	PRON	PRD	PRO	12	obj	_	SpaceAfter=No|Translit=nà裏|LTranslit=nà裏
+14	做	做	VERB	VV	V	6	ccomp	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+15	過	過	AUX	AS	PFV;V	14	aux	_	SpaceAfter=No|Translit=guò|LTranslit=guò
+16	廚師	廚師	NOUN	NN	N	18	nmod	_	SpaceAfter=No|Translit=chúshī|LTranslit=chúshī
+17	的	的	PART	DEC	PART;GEN	16	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+18	工作	工作	NOUN	NN	N	14	obj	_	SpaceAfter=No|Translit=gōngzuò|LTranslit=gōngzuò
+19	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	是	是	VERB	VC	V	0	root	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+21	不	不	ADV	RB	NEG;ADV	23	advmod	_	SpaceAfter=No|Translit=bù|LTranslit=bù
+22	太	太	ADV	RB	ADV	23	advmod	_	SpaceAfter=No|Translit=tài|LTranslit=tài
+23	可能	可能	AUX	MD	V	20	xcomp	_	SpaceAfter=No|Translit=kěnéng|LTranslit=kěnéng
+24	的	的	PART	UH	PART	20	discourse	_	SpaceAfter=No|Translit=de|LTranslit=de
+25	。	。	PUNCT	.	_	20	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2355
+# text = 回國後，魯茨科伊於當年12月8日被授予蘇聯英雄稱號，並被選為人民代表，開始從政。
+# translit = huíguóhòu,lǔ茨kēyīyúdāngnián12yuè8rìbèishòuyǔsūliányīngxióngchēnghào,bìngbèixuǎnwèirénmíndàibiǎo,kāishǐcóngzhèng.
+1	回國	回國	VERB	VV	V	23	advcl	_	SpaceAfter=No|Translit=huíguó|LTranslit=huíguó
+2	後	後	ADP	IN	ADP	1	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+3	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+4	魯茨科伊	魯茨科伊	PROPN	NNP	PROPN	23	nsubj	_	SpaceAfter=No|Translit=lǔ茨kēyī|LTranslit=lǔ茨kēyī
+5	於	於	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=yú|LTranslit=yú
+6	當年	當年	NOUN	NN	N	10	nmod	_	SpaceAfter=No|Translit=dāngnián|LTranslit=dāngnián
+7	12	12	NUM	CD	NUM	10	nummod	_	SpaceAfter=No|Translit=12|LTranslit=12
+8	月	月	NOUN	NNB	N	7	clf	_	SpaceAfter=No|Translit=yuè|LTranslit=yuè
+9	8	8	NUM	CD	NUM	10	nummod	_	SpaceAfter=No|Translit=8|LTranslit=8
+10	日	日	NOUN	NNB	N	12	obl	_	SpaceAfter=No|Translit=rì|LTranslit=rì
+11	被	被	AUX	BB	PASS;V	12	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+12	授予	授予	VERB	VV	V	23	advcl	_	SpaceAfter=No|Translit=shòuyǔ|LTranslit=shòuyǔ
+13	蘇聯	蘇聯	PROPN	NNP	PROPN	15	nmod	_	SpaceAfter=No|Translit=sūlián|LTranslit=sūlián
+14	英雄	英雄	NOUN	NN	N	15	nmod	_	SpaceAfter=No|Translit=yīngxióng|LTranslit=yīngxióng
+15	稱號	稱號	NOUN	NN	N	12	obj	_	SpaceAfter=No|Translit=chēnghào|LTranslit=chēnghào
+16	，	，	PUNCT	,	_	12	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+17	並	並	SCONJ	RB	CONJ	19	mark	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+18	被	被	AUX	BB	PASS;V	19	aux:pass	_	SpaceAfter=No|Translit=bèi|LTranslit=bèi
+19	選為	為	VERB	VV	V	23	advcl	_	SpaceAfter=No|Translit=xuǎnwèi|LTranslit=wèi
+20	人民	人民	NOUN	NN	N	21	nmod	_	SpaceAfter=No|Translit=rénmín|LTranslit=rénmín
+21	代表	代表	NOUN	NN	N	19	obj	_	SpaceAfter=No|Translit=dàibiǎo|LTranslit=dàibiǎo
+22	，	，	PUNCT	,	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+23	開始	開始	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=kāishǐ|LTranslit=kāishǐ
+24	從政	從政	VERB	VV	V	23	obj	_	SpaceAfter=No|Translit=cóngzhèng|LTranslit=cóngzhèng
+25	。	。	PUNCT	.	_	23	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2356
+# text = 許多其他的發明在貝爾晚年生活中留下記號，包括在光通信、水翼船及航空等方面的開創性工作。
+# translit = xǔduōqítādefāmíngzàibèi'ěrwǎnniánshēnghuózhōngliúxiàjìhào,bāokuòzàiguāngtōngxìn,shuǐyìchuánjíhángkōngděngfāngmiàndekāichuàngxìnggōngzuò.
+1	許多	許多	NUM	CD	NUM	4	nummod	_	SpaceAfter=No|Translit=xǔduō|LTranslit=xǔduō
+2	其他	其他	DET	DT	DET	4	det	_	SpaceAfter=No|Translit=qítā|LTranslit=qítā
+3	的	的	PART	DEC	PART;GEN	2	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+4	發明	發明	NOUN	NN	N	13	nsubj	_	SpaceAfter=No|Translit=fāmíng|LTranslit=fāmíng
+5	在	在	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+6	貝爾	貝爾	PROPN	NNP	PROPN	8	nmod	_	SpaceAfter=No|Translit=bèi'ěr|LTranslit=bèi'ěr
+7	晚年	晚年	NOUN	NN	N	8	nmod	_	SpaceAfter=No|Translit=wǎnnián|LTranslit=wǎnnián
+8	生活	生活	NOUN	NN	N	10	obl	_	SpaceAfter=No|Translit=shēnghuó|LTranslit=shēnghuó
+9	中	中	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=zhōng|LTranslit=zhōng
+10	留下	留下	VERB	VV	V	13	advcl	_	SpaceAfter=No|Translit=liúxià|LTranslit=liúxià
+11	記號	記號	NOUN	NN	N	10	obj	_	SpaceAfter=No|Translit=jìhào|LTranslit=jìhào
+12	，	，	PUNCT	,	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+13	包括	包括	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=bāokuò|LTranslit=bāokuò
+14	在	在	ADP	IN	ADP	27	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+15	光	光	NOUN	NN	N	16	nmod	_	SpaceAfter=No|Translit=guāng|LTranslit=guāng
+16	通信	通信	NOUN	NN	N	27	nmod	_	SpaceAfter=No|Translit=tōngxìn|LTranslit=tōngxìn
+17	、	、	PUNCT	EC	_	19	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+18	水翼	水翼	NOUN	NN	N	19	compound	_	SpaceAfter=No|Translit=shuǐyì|LTranslit=shuǐyì
+19	船	船	PART	SFN	PART	16	conj	_	SpaceAfter=No|Translit=chuán|LTranslit=chuán
+20	及	及	CCONJ	CC	CONJ	21	cc	_	SpaceAfter=No|Translit=jí|LTranslit=jí
+21	航空	航空	NOUN	NN	N	16	conj	_	SpaceAfter=No|Translit=hángkōng|LTranslit=hángkōng
+22	等	等	NOUN	NN	N	16	acl	_	SpaceAfter=No|Translit=děng|LTranslit=děng
+23	方面	方面	NOUN	NN	N	16	appos	_	SpaceAfter=No|Translit=fāngmiàn|LTranslit=fāngmiàn
+24	的	的	PART	DEC	PART;GEN	27	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+25	開創	開創	VERB	VV	V	26	compound	_	SpaceAfter=No|Translit=kāichuàng|LTranslit=kāichuàng
+26	性	性	PART	SFN	PART	27	nmod	_	SpaceAfter=No|Translit=xìng|LTranslit=xìng
+27	工作	工作	NOUN	NN	N	13	obj	_	SpaceAfter=No|Translit=gōngzuò|LTranslit=gōngzuò
+28	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2357
+# text = 亞歷山大圖書館的手抄本成為希臘世界的標準版本。
+# translit = yàlìshāndàtúshūguǎndeshǒuchāoběnchéngwèixī臘shìjièdebiāozhǔnbǎnběn.
+1	亞歷山大	亞歷山大	PROPN	NNP	PROPN	3	nmod	_	SpaceAfter=No|Translit=yàlìshāndà|LTranslit=yàlìshāndà
+2	圖書	圖書	NOUN	NN	N	3	compound	_	SpaceAfter=No|Translit=túshū|LTranslit=túshū
+3	館	館	PART	SFN	PART	6	nmod	_	SpaceAfter=No|Translit=guǎn|LTranslit=guǎn
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	手抄	手抄	VERB	VV	V	6	compound	_	SpaceAfter=No|Translit=shǒuchāo|LTranslit=shǒuchāo
+6	本	本	PART	SFN	PART	7	nsubj	_	SpaceAfter=No|Translit=běn|LTranslit=běn
+7	成	成	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chéng|LTranslit=chéng
+8	為	為	VERB	VC	V	7	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+9	希臘	希臘	PROPN	NNP	PROPN	10	nmod	_	SpaceAfter=No|Translit=xī臘|LTranslit=xī臘
+10	世界	世界	NOUN	NN	N	13	nmod	_	SpaceAfter=No|Translit=shìjiè|LTranslit=shìjiè
+11	的	的	PART	DEC	PART;GEN	10	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+12	標準	標準	ADJ	JJ	ADJ	13	amod	_	SpaceAfter=No|Translit=biāozhǔn|LTranslit=biāozhǔn
+13	版本	版本	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=bǎnběn|LTranslit=bǎnběn
+14	。	。	PUNCT	.	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s2358
+# text = 亞歷山大圖書館的歷史意義與價值，不僅體現在對圖書館事業發展與工作的深遠影響上，更體現在知識的創造、傳播和人類文化的傳承上。
+# translit = yàlìshāndàtúshūguǎndelìshǐyìyìyǔjiàzhí,bùjǐntǐxiànzàiduìtúshūguǎnshìyèfāzhǎnyǔgōngzuòdeshēnyuǎnyǐngxiǎngshàng,gèngtǐxiànzàizhīshidechuàngzào,chuánbōhérénlèiwénhuàdechuánchéngshàng.
+1	亞歷山大	亞歷山大	PROPN	NNP	PROPN	3	nmod	_	SpaceAfter=No|Translit=yàlìshāndà|LTranslit=yàlìshāndà
+2	圖書	圖書	NOUN	NN	N	3	compound	_	SpaceAfter=No|Translit=túshū|LTranslit=túshū
+3	館	館	PART	SFN	PART	6	nmod	_	SpaceAfter=No|Translit=guǎn|LTranslit=guǎn
+4	的	的	PART	DEC	PART;GEN	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	歷史	歷史	NOUN	NN	N	6	nmod	_	SpaceAfter=No|Translit=lìshǐ|LTranslit=lìshǐ
+6	意義	意義	NOUN	NN	N	26	nsubj	_	SpaceAfter=No|Translit=yìyì|LTranslit=yìyì
+7	與	與	CCONJ	CC	CONJ	8	cc	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+8	價值	價值	NOUN	NN	N	6	conj	_	SpaceAfter=No|Translit=jiàzhí|LTranslit=jiàzhí
+9	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	不僅	不僅	ADV	IN	ADV	11	advmod	_	SpaceAfter=No|Translit=bùjǐn|LTranslit=bùjǐn
+11	體現	體現	VERB	VV	V	26	advcl	_	SpaceAfter=No|Translit=tǐxiàn|LTranslit=tǐxiàn
+12	在	在	ADP	IN	ADP	22	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+13	對	對	ADP	IN	ADP	22	case	_	SpaceAfter=No|Translit=duì|LTranslit=duì
+14	圖書	圖書	NOUN	NN	N	15	compound	_	SpaceAfter=No|Translit=túshū|LTranslit=túshū
+15	館	館	PART	SFN	PART	17	nmod	_	SpaceAfter=No|Translit=guǎn|LTranslit=guǎn
+16	事業	事業	NOUN	NN	N	17	nmod	_	SpaceAfter=No|Translit=shìyè|LTranslit=shìyè
+17	發展	發展	NOUN	NN	N	22	nmod	_	SpaceAfter=No|Translit=fāzhǎn|LTranslit=fāzhǎn
+18	與	與	CCONJ	CC	CONJ	19	cc	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+19	工作	工作	NOUN	NN	N	17	conj	_	SpaceAfter=No|Translit=gōngzuò|LTranslit=gōngzuò
+20	的	的	PART	DEC	PART;GEN	22	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+21	深遠	深遠	ADJ	JJ	ADJ	22	amod	_	SpaceAfter=No|Translit=shēnyuǎn|LTranslit=shēnyuǎn
+22	影響	影響	NOUN	NN	N	11	obl	_	SpaceAfter=No|Translit=yǐngxiǎng|LTranslit=yǐngxiǎng
+23	上	上	ADP	IN	ADP	22	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+24	，	，	PUNCT	,	_	11	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	更	更	ADV	RB	ADV	26	advmod	_	SpaceAfter=No|Translit=gèng|LTranslit=gèng
+26	體現	體現	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=tǐxiàn|LTranslit=tǐxiàn
+27	在	在	ADP	IN	ADP	30	case	_	SpaceAfter=No|Translit=zài|LTranslit=zài
+28	知識	知識	NOUN	NN	N	30	nmod	_	SpaceAfter=No|Translit=zhīshi|LTranslit=zhīshi
+29	的	的	PART	DEC	PART;GEN	28	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+30	創造	創造	NOUN	NN	N	26	obl	_	SpaceAfter=No|Translit=chuàngzào|LTranslit=chuàngzào
+31	、	、	PUNCT	EC	_	32	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+32	傳播	傳播	NOUN	NN	N	30	conj	_	SpaceAfter=No|Translit=chuánbō|LTranslit=chuánbō
+33	和	和	CCONJ	CC	CONJ	37	cc	_	SpaceAfter=No|Translit=hé|LTranslit=hé
+34	人類	人類	NOUN	NN	N	35	nmod	_	SpaceAfter=No|Translit=rénlèi|LTranslit=rénlèi
+35	文化	文化	NOUN	NN	N	37	nmod	_	SpaceAfter=No|Translit=wénhuà|LTranslit=wénhuà
+36	的	的	PART	DEC	PART;GEN	35	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+37	傳承	傳承	NOUN	NN	N	30	conj	_	SpaceAfter=No|Translit=chuánchéng|LTranslit=chuánchéng
+38	上	上	ADP	IN	ADP	30	case	_	SpaceAfter=No|Translit=shàng|LTranslit=shàng
+39	。	。	PUNCT	.	_	26	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

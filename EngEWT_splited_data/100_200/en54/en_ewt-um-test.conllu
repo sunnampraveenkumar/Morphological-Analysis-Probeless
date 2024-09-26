@@ -1,0 +1,105 @@
+# sent_id = email-enronsent28_01-0019
+# text = By late 1974 investors were dizzy, they were desperate, they were wrung-out, they had left Wall Street, many for good.
+1	By	by	ADP	IN	ADP	3	case	3:case	_
+2	late	late	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	1974	1974	NUM	CD	NUM	6	obl	6:obl:by	_
+4	investors	investor	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+5	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	6	cop	6:cop	_
+6	dizzy	dizzy	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	CheckAttachment=6
+8	they	they	PRON	PRP	PL;PRO;3;NOM	10	nsubj	10:nsubj	_
+9	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	10	cop	10:cop	_
+10	desperate	desperate	ADJ	JJ	ADJ	6	conj	6:conj	CheckReln=parataxis|SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	CheckAttachment=10
+12	they	they	PRON	PRP	PL;PRO;3;NOM	14	nsubj:pass	14:nsubj:pass	_
+13	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	14	aux:pass	14:aux:pass	_
+14	wrung	wring	VERB	VBN	PASS;PST;V;V.PTCP	6	conj	6:conj	CheckReln=parataxis|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+16	out	out	ADP	RP	ADP	14	compound:prt	14:compound:prt	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	CheckAttachment=6
+18	they	they	PRON	PRP	PL;PRO;3;NOM	20	nsubj	20:nsubj	_
+19	had	have	AUX	VBD	PL;V;PST;3;FIN;IND	20	aux	20:aux	_
+20	left	leave	VERB	VBN	PST;V;V.PTCP	6	conj	6:conj	CheckReln=parataxis
+21	Wall	Wall	PROPN	NNP	SG;PROPN	22	compound	22:compound	_
+22	Street	Street	PROPN	NNP	SG;PROPN	20	obj	20:obj	SpaceAfter=No
+23	,	,	PUNCT	,	_	20	punct	20:punct	CheckAttachment=22
+24	many	many	ADJ	JJ	ADJ	6	parataxis	6:parataxis|24.1:nsubj	CheckAttachment=22|CheckReln=appos
+24.1	left	left	VERB	VBN	PASS;PST;V;V.PTCP	_	_	6:parataxis	CopyOf=6
+25	for	for	ADP	IN	ADP	26	case	26:case	_
+26	good	good	ADJ	JJ	ADJ	24	orphan	24.1:obl:for	CheckReln=nmod|SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent28_01-0020
+# text = great, we look forward to seeing you.
+1	great	great	INTJ	UH	INTJ	4	discourse	4:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	we	we	PRON	PRP	PL;PRO;1;NOM	4	nsubj	4:nsubj	_
+4	look	look	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+5	forward	forward	ADV	RB	ADV	4	advmod	4:advmod	_
+6	to	to	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	seeing	see	VERB	VBG	PRS;V;V.PTCP	4	advcl	4:advcl:to	_
+8	you	you	PRON	PRP	2;ACC;PRO	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0021
+# newpar id = email-enronsent28_01-p0004
+# text = DEBRA PERLINGIERE
+1	DEBRA	Debra	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	PERLINGIERE	Perlingiere	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0022
+# text = 09/20/2000 09:32 AM
+1	09/20/2000	09/20/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:32	09:32	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0023
+# text = I will not be there at 7:30, but will see you arond 9:30 on Tuesday.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj|11:nsubj	_
+2	will	will	AUX	MD	V;FIN	5	aux	5:aux	_
+3	not	not	PART	RB	PART	5	advmod	5:advmod	_
+4	be	be	AUX	VB	NFIN;V	5	cop	5:cop	_
+5	there	there	ADV	RB	ADV	0	root	0:root	_
+6	at	at	ADP	IN	ADP	7	case	7:case	_
+7	7:30	7:30	NUM	CD	NUM	5	obl	5:obl:at	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	will	will	AUX	MD	V;FIN	11	aux	11:aux	_
+11	see	see	VERB	VB	NFIN;V	5	conj	5:conj:but	_
+12	you	you	PRON	PRP	2;ACC;PRO	11	obj	11:obj	_
+13	arond	around	ADP	IN	ADP	14	case	14:case	CorrectForm=around
+14	9:30	9:30	NUM	CD	NUM	11	obl	11:obl:around	_
+15	on	on	ADP	IN	ADP	16	case	16:case	_
+16	Tuesday	Tuesday	PROPN	NNP	SG;PROPN	11	obl	11:obl:on	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent28_01-0024
+# newpar id = email-enronsent28_01-p0005
+# text = Many thanks!
+1	Many	many	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	thanks	thanks	NOUN	NNS	N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent28_01-0025
+# newpar id = email-enronsent28_01-p0006
+# text = Debra Perlingiere
+1	Debra	Debra	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Perlingiere	Perlingiere	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0026
+# newpar id = email-enronsent28_01-p0007
+# text = Edward Terry
+1	Edward	Edward	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Terry	Terry	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent28_01-0027
+# text = 09/08/2000 09:55 AM
+1	09/08/2000	09/08/2000	NUM	CD	NUM	0	root	0:root	_
+2	09:55	09:55	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent28_01-0028
+# text = FYI,
+1	FYI	fyi	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+

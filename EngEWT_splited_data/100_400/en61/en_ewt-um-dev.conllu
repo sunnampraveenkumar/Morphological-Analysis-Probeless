@@ -1,0 +1,67 @@
+# sent_id = email-enronsent20_02-0013
+# text = Steve, Rod and Elyse -
+1	Steve	Steve	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	Rod	Rod	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	Elyse	Elyse	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	_
+6	-	-	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent20_02-0014
+# text = Just wanted to confirm our meeting on Tuesday Aug 29th from 1:30 -2:30 to discuss Uof H's endowment proposal.
+1	Just	just	ADV	RB	ADV	2	advmod	2:advmod	_
+2	wanted	want	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	confirm	confirm	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	our	our	PRON	PRP$	PRO;GEN;PL;1	6	nmod:poss	6:nmod:poss	_
+6	meeting	meeting	NOUN	NN	SG;N	4	obj	4:obj	_
+7	on	on	ADP	IN	ADP	8	case	8:case	_
+8	Tuesday	Tuesday	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:on	_
+9	Aug	August	PROPN	NNP	SG;PROPN	8	appos	8:appos	_
+10	29th	29th	NOUN	NN	SG;N	9	nummod	9:nummod	_
+11	from	from	ADP	IN	ADP	12	case	12:case	_
+12	1:30	1:30	NUM	CD	NUM	6	nmod	6:nmod:from	_
+13	-	-	SYM	SYM	_	14	case	14:case	SpaceAfter=No
+14	2:30	2:30	NUM	CD	NUM	12	nmod	12:nmod	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	discuss	discuss	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+17	U	U	PROPN	NNP	SG;PROPN	22	nmod:poss	22:nmod:poss	CorrectSpaceAfter=Yes|SpaceAfter=No
+18	of	of	ADP	IN	ADP	19	case	19:case	_
+19-20	H's	_	_	_	_	_	_	_	_
+19	H	H	PROPN	NNP	SG;PROPN	17	nmod	17:nmod:of	_
+20	's	's	PART	POS	PART	17	case	17:case	_
+21	endowment	endowment	NOUN	NN	SG;N	22	compound	22:compound	_
+22	proposal	proposal	NOUN	NN	SG;N	16	obj	16:obj	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_02-0015
+# text = We will meeting Rod's office EB4054
+1	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	FIN;V	3	aux	3:aux	_
+3	meeting	meet	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4-5	Rod's	_	_	_	_	_	_	_	_
+4	Rod	Rod	PROPN	NNP	SG;PROPN	6	nmod:poss	6:nmod:poss	_
+5	's	's	PART	POS	PART	4	case	4:case	_
+6	office	office	NOUN	NN	SG;N	3	obj	3:obj	_
+7	EB	EB	PROPN	NNP	SG;PROPN	6	list	6:list	SpaceAfter=No
+8	4054	4054	NUM	CD	NUM	7	nummod	7:nummod	_
+
+# sent_id = email-enronsent20_02-0016
+# newpar id = email-enronsent20_02-p0006
+# text = I look forward to seeing you all there.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	look	look	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	forward	forward	ADV	RB	ADV	2	advmod	2:advmod	_
+4	to	to	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	seeing	see	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:to	_
+6	you	you	PRON	PRP	2;PRO;ACC	5	obj	5:obj	_
+7	all	all	DET	DT	DET	6	det	6:det	_
+8	there	there	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent20_02-0017
+# newpar id = email-enronsent20_02-p0007
+# text = Sincerely,
+1	Sincerely	sincerely	ADV	RB	ADV	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+

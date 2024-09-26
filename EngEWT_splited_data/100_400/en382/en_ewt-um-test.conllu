@@ -1,0 +1,69 @@
+# newdoc id = reviews-122564
+# sent_id = reviews-122564-0001
+# newpar id = reviews-122564-p0001
+# text = good outside, bad inside
+1	good	good	ADJ	JJ	ADJ	0	root	0:root	_
+2	outside	outside	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	bad	bad	ADJ	JJ	ADJ	1	conj	1:conj	_
+5	inside	inside	ADV	RB	ADV	4	advmod	4:advmod	_
+
+# sent_id = reviews-122564-0002
+# newpar id = reviews-122564-p0002
+# text = the apartment only looks good outsize, inside is too bad.
+1	the	the	DET	DT	DEF;DET	2	det	2:det	_
+2	apartment	apartment	NOUN	NN	SG;N	4	nsubj	4:nsubj|5:nsubj:xsubj	_
+3	only	only	ADV	RB	ADV	4	advmod	4:advmod	_
+4	looks	look	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+5	good	good	ADJ	JJ	ADJ	4	xcomp	4:xcomp	_
+6	outsize	outside	ADV	RB	ADV	4	advmod	4:advmod	CorrectForm=outside|SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	inside	inside	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+9	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	11	cop	11:cop	_
+10	too	too	ADV	RB	ADV	11	advmod	11:advmod	_
+11	bad	bad	ADJ	JJ	ADJ	4	parataxis	4:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-122564-0003
+# text = too many bugs some you even never seen before.
+1	too	too	ADV	RB	ADV	2	advmod	2:advmod	_
+2	many	many	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	bugs	bug	NOUN	NNS	PL;N	0	root	0:root	_
+4	some	some	DET	DT	DET	3	appos	3:appos|8:obj	_
+5	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj	_
+6	even	even	ADV	RB	ADV	8	advmod	8:advmod	_
+7	never	never	ADV	RB	ADV	8	advmod	8:advmod	_
+8	seen	see	VERB	VBN	PST;V;V.PTCP	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obj
+9	before	before	ADV	RB	ADV	8	advmod	8:advmod	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-122564-0004
+# text = the attitude of some staff is terrible, did not solve anything only say i can do nothing.
+1	the	the	DET	DT	DEF;DET	2	det	2:det	_
+2	attitude	attitude	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	some	some	DET	DT	DET	5	det	5:det	_
+5	staff	staff	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+6	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	7	cop	7:cop	_
+7	terrible	terrible	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	,	_	11	punct	11:punct	_
+9	did	do	AUX	VBD	V;PST;3;FIN;SG;IND	11	aux	11:aux	_
+10	not	not	PART	RB	PART	11	advmod	11:advmod	_
+11	solve	solve	VERB	VB	NFIN;V	7	parataxis	7:parataxis	_
+12	anything	anything	PRON	NN	SG;PRO	11	obj	11:obj	_
+13	only	only	ADV	RB	ADV	14	advmod	14:advmod	_
+14	say	say	VERB	VBP	PL;V;3;FIN;PRS;IND	11	parataxis	11:parataxis	_
+15	i	I	PRON	PRP	PRO;1;NOM;SG	17	nsubj	17:nsubj	_
+16	can	can	AUX	MD	V;FIN	17	aux	17:aux	_
+17	do	do	VERB	VB	NFIN;V	14	ccomp	14:ccomp	_
+18	nothing	nothing	PRON	NN	SG;PRO	17	obj	17:obj	SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# newdoc id = reviews-384229
+# sent_id = reviews-384229-0001
+# newpar id = reviews-384229-p0001
+# text = great tmobile service
+1	great	great	ADJ	JJ	ADJ	3	amod	3:amod	_
+2	tmobile	tmobile	PROPN	NNP	SG;PROPN	3	compound	3:compound	_
+3	service	service	NOUN	NN	SG;N	0	root	0:root	_
+

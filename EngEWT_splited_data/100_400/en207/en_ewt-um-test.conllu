@@ -1,0 +1,139 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0008
+# newpar id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-p0005
+# text = "NASA then plans to develop a new 100-metric-ton-class launch vehicle derived from existing capabilities with the space shuttle external tanks and solid rocket boosters for future missions to the moon," the letter said.
+1	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+2	NASA	NASA	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	then	then	ADV	RB	ADV	4	advmod	4:advmod	_
+4	plans	plan	VERB	VBZ	V;3;FIN;PRS;SG;IND	42	ccomp	42:ccomp	_
+5	to	to	PART	TO	PART	6	mark	6:mark	_
+6	develop	develop	VERB	VB	NFIN;V	4	xcomp	4:xcomp	_
+7	a	a	DET	DT	INDF;DET	17	det	17:det	_
+8	new	new	ADJ	JJ	ADJ	17	amod	17:amod	_
+9	100	100	NUM	CD	NUM	13	nummod	13:nummod	SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	punct	9:punct	SpaceAfter=No
+11	metric	metric	ADJ	JJ	ADJ	13	amod	13:amod	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	punct	11:punct	SpaceAfter=No
+13	ton	ton	NOUN	NN	SG;N	15	compound	15:compound	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	punct	13:punct	SpaceAfter=No
+15	class	class	NOUN	NN	SG;N	17	compound	17:compound	_
+16	launch	launch	NOUN	NN	SG;N	17	compound	17:compound	_
+17	vehicle	vehicle	NOUN	NN	SG;N	6	obj	6:obj	_
+18	derived	derive	VERB	VBN	PASS;PST;V;V.PTCP	17	acl	17:acl	_
+19	from	from	ADP	IN	ADP	21	case	21:case	_
+20	existing	exist	VERB	VBG	V.MSDR;V	21	amod	21:amod	_
+21	capabilities	capability	NOUN	NNS	PL;N	18	obl	18:obl:from	_
+22	with	with	ADP	IN	ADP	27	case	27:case	_
+23	the	the	DET	DT	DEF;DET	27	det	27:det	_
+24	space	space	NOUN	NN	SG;N	25	compound	25:compound	_
+25	shuttle	shuttle	NOUN	NN	SG;N	27	compound	27:compound	_
+26	external	external	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	tanks	tank	NOUN	NNS	PL;N	21	nmod	21:nmod:with	_
+28	and	and	CCONJ	CC	CONJ	31	cc	31:cc	_
+29	solid	solid	ADJ	JJ	ADJ	30	amod	30:amod	_
+30	rocket	rocket	NOUN	NN	SG;N	31	compound	31:compound	_
+31	boosters	booster	NOUN	NNS	PL;N	27	conj	21:nmod:with|27:conj:and	_
+32	for	for	ADP	IN	ADP	34	case	34:case	_
+33	future	future	ADJ	JJ	ADJ	34	amod	34:amod	_
+34	missions	mission	NOUN	NNS	PL;N	6	obl	6:obl:for	_
+35	to	to	ADP	IN	ADP	37	case	37:case	_
+36	the	the	DET	DT	DEF;DET	37	det	37:det	_
+37	moon	moon	PROPN	NNP	SG;PROPN	34	nmod	34:nmod:to	SpaceAfter=No
+38	,	,	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+39	"	"	PUNCT	''	_	4	punct	4:punct	_
+40	the	the	DET	DT	DEF;DET	41	det	41:det	_
+41	letter	letter	NOUN	NN	SG;N	42	nsubj	42:nsubj	_
+42	said	say	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	SpaceAfter=No
+43	.	.	PUNCT	.	_	42	punct	42:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0009
+# text = NASA is planning on using these new shuttles to replace the current models, with industry forecasters predicting a launch as early as 2014.
+1	NASA	NASA	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	planning	plan	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	on	on	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	using	use	VERB	VBG	PRS;V;V.PTCP	3	advcl	3:advcl:on	_
+6	these	this	DET	DT	PL;DET	8	det	8:det	_
+7	new	new	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	shuttles	shuttle	NOUN	NNS	PL;N	5	obj	5:obj	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	replace	replace	VERB	VB	NFIN;V	5	advcl	5:advcl:to	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	current	current	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	models	model	NOUN	NNS	PL;N	10	obj	10:obj	SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	18:punct	_
+15	with	with	SCONJ	IN	CONJ	18	mark	18:mark	_
+16	industry	industry	NOUN	NN	SG;N	17	compound	17:compound	_
+17	forecasters	forecaster	NOUN	NNS	PL;N	18	nsubj	18:nsubj	_
+18	predicting	predict	VERB	VBG	PRS;V;V.PTCP	10	advcl	10:advcl:with	_
+19	a	a	DET	DT	INDF;DET	20	det	20:det	_
+20	launch	launch	NOUN	NN	SG;N	18	obj	18:obj	_
+21	as	as	ADV	RB	ADV	22	advmod	22:advmod	_
+22	early	early	ADJ	JJ	ADJ	20	amod	20:amod	_
+23	as	as	ADP	IN	ADP	24	case	24:case	_
+24	2014	2014	NUM	CD	NUM	22	obl	22:obl:as	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0010
+# text = The new rocket design will differ slightly from it's predecessors, in the fact that the crew and cargo would launch separately from two different rockets each and join up in space later on.
+1	The	the	DET	DT	DEF;DET	4	det	4:det	_
+2	new	new	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	rocket	rocket	NOUN	NN	SG;N	4	compound	4:compound	_
+4	design	design	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+5	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+6	differ	differ	VERB	VB	NFIN;V	0	root	0:root	_
+7	slightly	slightly	ADV	RB	ADV	6	advmod	6:advmod	_
+8	from	from	ADP	IN	ADP	10	case	10:case	_
+9	it's	its	PRON	PRP$	GEN;PRO;3;NEUT;SG	10	nmod:poss	10:nmod:poss	CorrectForm=its
+10	predecessors	predecessor	NOUN	NNS	PL;N	6	obl	6:obl:from	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	in	in	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	fact	fact	NOUN	NN	SG;N	6	obl	6:obl:in	_
+15	that	that	SCONJ	IN	CONJ	21	mark	21:mark	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	crew	crew	NOUN	NN	SG;N	21	nsubj	21:nsubj|29:nsubj	_
+18	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+19	cargo	cargo	NOUN	NN	SG;N	17	conj	17:conj:and|21:nsubj	_
+20	would	would	AUX	MD	V;FIN	21	aux	21:aux	_
+21	launch	launch	VERB	VB	NFIN;V	14	acl	14:acl:that	_
+22	separately	separately	ADV	RB	ADV	21	advmod	21:advmod	_
+23	from	from	ADP	IN	ADP	26	case	26:case	_
+24	two	two	NUM	CD	NUM	26	nummod	26:nummod	_
+25	different	different	ADJ	JJ	ADJ	26	amod	26:amod	_
+26	rockets	rocket	NOUN	NNS	PL;N	21	obl	21:obl:from	_
+27	each	each	DET	DT	DET	21	obl:npmod	21:obl:npmod	_
+28	and	and	CCONJ	CC	CONJ	29	cc	29:cc	_
+29	join	join	VERB	VB	NFIN;V	21	conj	14:acl:that|21:conj:and	_
+30	up	up	ADP	RP	ADP	29	compound:prt	29:compound:prt	_
+31	in	in	ADP	IN	ADP	32	case	32:case	_
+32	space	space	NOUN	NN	SG;N	29	obl	29:obl:in	_
+33	later	late	ADV	RBR	ADV;CMPR	34	advmod	34:advmod	_
+34	on	on	ADV	RB	ADV	29	advmod	29:advmod	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0011
+# text = Launching this way will hopefully avoid future disasters, giving more support towards NASA revisiting the stars.
+1	Launching	launch	VERB	VBG	V.MSDR;V	6	csubj	6:csubj	_
+2	this	this	DET	DT	SG;DET	3	det	3:det	_
+3	way	way	NOUN	NN	SG;N	1	obj	1:obj	_
+4	will	will	AUX	MD	V;FIN	6	aux	6:aux	_
+5	hopefully	hopefully	ADV	RB	ADV	6	advmod	6:advmod	_
+6	avoid	avoid	VERB	VB	NFIN;V	0	root	0:root	_
+7	future	future	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	disasters	disaster	NOUN	NNS	PL;N	6	obj	6:obj	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	giving	give	VERB	VBG	PRS;V;V.PTCP	6	advcl	6:advcl	_
+11	more	more	ADJ	JJR	CMPR;ADJ	12	amod	12:amod	_
+12	support	support	NOUN	NN	SG;N	10	obj	10:obj	_
+13	towards	towards	SCONJ	IN	CONJ	15	mark	15:mark	_
+14	NASA	NASA	PROPN	NNP	SG;PROPN	15	nsubj	15:nsubj	_
+15	revisiting	revisit	VERB	VBG	V.MSDR;V	12	acl	12:acl:towards	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	stars	star	NOUN	NNS	PL;N	15	obj	15:obj	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-0012
+# newpar id = newsgroup-groups.google.com_hiddennook_e21e429b3ad58235_ENG_20050830_214700-p0006
+# text = --
+1	--	--	PUNCT	NFP	_	0	root	0:root	_
+

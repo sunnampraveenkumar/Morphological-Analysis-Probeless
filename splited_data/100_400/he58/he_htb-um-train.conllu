@@ -1,0 +1,324 @@
+# sent_id = 1181
+# text = מארק, ששנא גרמנים, הציב תנאי: הם לא יתגוררו בגרמניה.
+1	מארק	מארק	PROPN	PROPN	PROPN	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3-4	ששנא	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	CONJ	4	mark	_	_
+4	שנא	שנא	VERB	VERB	SG;ACT;V;3;MASC;PST	1	acl:relcl	_	_
+5	גרמנים	גרמני	NOUN	NOUN	MASC;N;PL	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	הציב	הציב	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+8	תנאי	תנאי	NOUN	NOUN	MASC;SG;N	7	obj	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	12	punct	_	_
+10	הם	הוא	PRON	PRON	PL;3;MASC;PRO	12	nsubj	_	_
+11	לא	לא	ADV	ADV	NEG;ADV	12	advmod	_	_
+12	יתגוררו	התגורר	VERB	VERB	PL;V;3;{FEM/MASC};FUT	8	appos	_	_
+13-14	בגרמניה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	ADP	14	case	_	_
+14	גרמניה	גרמניה	PROPN	PROPN	PROPN	12	obl	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 1182
+# text = החתונה היתה בכנסייה בלונדון, ואת ביתם, מכספה של סוניה, הם קבעו בסן מוריץ בשוויץ.
+1-2	החתונה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	חתונה	חתונה	NOUN	NOUN	SG;N;FEM	5	nsubj	_	_
+3	היתה	היה	AUX	AUX	POS;V;SG;3;PST;FEM	5	cop	_	_
+4-5	בכנסייה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	כנסייה	כנסייה	NOUN	NOUN	SG;N;FEM	0	root	_	_
+6-7	בלונדון	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	ADP	7	case	_	_
+7	לונדון	לונדון	PROPN	PROPN	PROPN	5	nmod	_	_
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9-10	ואת	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	CONJ	23	cc	_	_
+10	את	את	ADP	ADP	ADP;ACC	11	case:acc	_	_
+11-13	ביתם	_	_	_	_	_	_	_	SpaceAfter=No
+11	בית_	בית	NOUN	NOUN	MASC;SG;N;DEF	23	obj	_	_
+12	_של_	של	ADP	ADP	ADP	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	PL;GEN;3;MASC;PRO	11	nmod:poss	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-18	מכספה	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	ADP	16	case	_	_
+16	כסף_	כסף	NOUN	NOUN	MASC;SG;N;DEF	11	appos	_	_
+17	_של_	של	ADP	ADP	ADP	18	case:gen	_	_
+18	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	16	nmod:poss	_	_
+19	של	של	ADP	ADP	ADP;GEN	20	case:gen	_	_
+20	סוניה	סוניה	PROPN	PROPN	PROPN	16	nmod:poss	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	16	punct	_	_
+22	הם	הוא	PRON	PRON	PL;3;MASC;PRO	23	nsubj	_	_
+23	קבעו	קבע	VERB	VERB	PL;V;3;{FEM/MASC};PST	5	conj	_	_
+24-25	בסן	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	ADP	25	case	_	_
+25	סן	בסן	PROPN	PROPN	PROPN	23	obl	_	_
+26	מוריץ	מוריץ	PROPN	PROPN	PROPN	25	flat:name	_	_
+27-28	בשוויץ	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	ADP	28	case	_	_
+28	שוויץ	שווייץ	PROPN	PROPN	PROPN	23	obl	_	_
+29	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 1183
+# text = אבל האושר והעושר לא ארכו זמן רב.
+1	אבל	אבל	CCONJ	CCONJ	CONJ	8	cc	_	_
+2-3	האושר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	DET	3	det	_	_
+3	אושר	אושר	NOUN	NOUN	MASC;SG;N	8	nsubj	_	_
+4-6	והעושר	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	CONJ	6	cc	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	עושר	עושר	NOUN	NOUN	MASC;SG;N	3	conj	_	_
+7	לא	לא	ADV	ADV	NEG;ADV	8	advmod	_	_
+8	ארכו	ארך	VERB	VERB	ACT;PL;V;3;{FEM/MASC};PST	0	root	_	_
+9	זמן	זמן	NOUN	NOUN	MASC;SG;N	8	dep	_	_
+10	רב	רב	ADJ	ADJ	MASC;SG;ADJ	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 1184
+# text = את כל תסכולו על שנכנע לפיתוי הכספי ולנוחיות של מנעמי החיים ואת שנאתו לגרמניה, פרק על רעייתו.
+1	את	את	ADP	ADP	ADP;ACC	3	case:acc	_	_
+2	כל	כול	DET	DET	PSSD;DET	3	det	_	_
+3-5	תסכולו	_	_	_	_	_	_	_	_
+3	תסכול_	תסכול	NOUN	NOUN	MASC;SG;N;DEF	30	obj	_	_
+4	_של_	של	ADP	ADP	ADP	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	3	nmod:poss	_	_
+6	על	על	ADP	ADP	ADP	8	case	_	_
+7-8	שנכנע	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	CONJ	8	mark	_	_
+8	נכנע	נכנע	VERB	VERB	SG;V;3;MID;MASC;PST	3	nmod	_	_
+9-11	לפיתוי	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	ADP	11	case	_	_
+10	ה_	ה	DET	DET	DET	11	det	_	_
+11	פיתוי	פיתוי	NOUN	NOUN	MASC;SG;N	8	obl	_	_
+12-13	הכספי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	כספי	כספי	ADJ	ADJ	MASC;SG;ADJ	11	amod	_	_
+14-17	ולנוחיות	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	CONJ	17	cc	_	_
+15	ל	ל	ADP	ADP	ADP	17	case	_	_
+16	ה_	ה	DET	DET	DET	17	det	_	_
+17	נוחיות	נוחיות	NOUN	NOUN	SG;N;FEM	11	conj	_	_
+18	של	של	ADP	ADP	ADP;GEN	19	case:gen	_	_
+19	מנעמי	מנעמים	NOUN	NOUN	MASC;N;PL;PSSD	17	nmod:poss	_	_
+20-21	החיים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	חיים	חיים	NOUN	NOUN	MASC;N;PL	19	compound:smixut	_	_
+22-23	ואת	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	CONJ	24	cc	_	_
+23	את	את	ADP	ADP	ADP;ACC	24	case:acc	_	_
+24-26	שנאתו	_	_	_	_	_	_	_	_
+24	שנאה_	שנאה	NOUN	NOUN	SG;FEM;N;DEF	3	conj	_	_
+25	_של_	של	ADP	ADP	ADP	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	24	nmod:poss	_	_
+27-28	לגרמניה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ל	ל	ADP	ADP	ADP	28	case	_	_
+28	גרמניה	גרמניה	PROPN	PROPN	PROPN	24	nmod	_	_
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	פרק	פרק	VERB	VERB	SG;V;3;MASC;PST	0	root	_	_
+31	על	על	ADP	ADP	ADP	32	case	_	_
+32-34	רעייתו	_	_	_	_	_	_	_	SpaceAfter=No
+32	רעייה_	רעייה	NOUN	NOUN	SG;FEM;N;DEF	30	obl	_	_
+33	_של_	של	ADP	ADP	ADP	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	32	nmod:poss	_	_
+35	.	.	PUNCT	PUNCT	_	30	punct	_	_
+
+# sent_id = 1185
+# text = היה זה אך טבעי ומובן לחבריו שהנישואין לא יחזיקו מעמד.
+1	היה	היה	AUX	AUX	POS;V;SG;3;MASC;PST	4	cop	_	_
+2	זה	זה	PRON	PRON	MASC;PRO;3;SG	4	nsubj	_	_
+3	אך	אך	ADV	ADV	ADV	4	advmod	_	_
+4	טבעי	טבעי	ADJ	ADJ	MASC;SG;ADJ	0	root	_	_
+5-6	ומובן	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	CONJ	6	cc	_	_
+6	מובן	מובן	ADJ	ADJ	MASC;SG;ADJ	4	conj	_	_
+7-10	לחבריו	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	ADP	8	case	_	_
+8	חבר_	חבר	NOUN	NOUN	MASC;N;PL;DEF	4	obl	_	_
+9	_של_	של	ADP	ADP	ADP	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	8	nmod:poss	_	_
+11-13	שהנישואין	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	CONJ	15	mark	_	_
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	נישואין	נישואין	NOUN	NOUN	MASC;N;PL	15	nsubj	_	_
+14	לא	לא	ADV	ADV	NEG;ADV	15	advmod	_	_
+15	יחזיקו	החזיק	VERB	VERB	ACT;PL;V;3;{FEM/MASC};FUT	4	ccomp	_	_
+16	מעמד	מעמד	NOUN	NOUN	MASC;SG;N	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 1186
+# text = השניים נפרדו, ועד היום מתקשה יורק פרס לזכור אם הפרידה נסתיימה גם בגירושים פורמליים.
+1-2	השניים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	שניים	שניים	NUM	NUM	MASC;NUM;PL	3	nsubj	_	_
+3	נפרדו	נפרד	VERB	VERB	PL;V;3;{FEM/MASC};MID;PST	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5-6	ועד	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	CONJ	8	cc	_	_
+6	עד	עד	ADP	ADP	ADP	7	case	_	_
+7	היום	היום	ADV	ADV	ADV	8	obl	_	_
+8	מתקשה	התקשה	VERB	VERB	{1/2/3};SG;V;MASC;V.PTCP	3	conj	_	_
+9	יורק	יורק	PROPN	PROPN	PROPN	8	nsubj	_	_
+10	פרס	פרס	PROPN	PROPN	PROPN	9	flat:name	_	_
+11	לזכור	זכר	VERB	VERB	NFIN;ACT;V	8	xcomp	_	_
+12	אם	אם	SCONJ	SCONJ	CONJ	15	mark	_	_
+13-14	הפרידה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	DET	14	det	_	_
+14	פרידה	פרידה	NOUN	NOUN	SG;N;FEM	15	nsubj	_	_
+15	נסתיימה	הסתיים	VERB	VERB	SG;V;3;PST;FEM	11	advcl	_	_
+16	גם	גם	ADV	ADV	ADV	17	advmod	_	_
+17-18	בגירושים	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	ADP	18	case	_	_
+18	גירושים	גירושין	NOUN	NOUN	MASC;N;PL	15	obl	_	_
+19	פורמליים	פורמאלי	ADJ	ADJ	MASC;PL;ADJ	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 1187
+# text = לאסקו המשיך לחפש את עצמו ולנדוד.
+1	לאסקו	לאסקו	PROPN	PROPN	PROPN	2	nsubj	_	_
+2	המשיך	המשיך	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+3	לחפש	חיפש	VERB	VERB	NFIN;ACT;V	2	xcomp	_	_
+4	את	את	ADP	ADP	ADP;ACC	5	case:acc	_	_
+5	עצמו	עצמו	PRON	PRON	SG;REFL;3;MASC;PRO	3	obj	_	_
+6-7	ולנדוד	_	_	_	_	_	_	_	SpaceAfter=No
+6	ו	ו	CCONJ	CCONJ	CONJ	7	cc	_	_
+7	לנדוד	נדד	VERB	VERB	NFIN;ACT;V	3	conj	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1188
+# text = לבסוף, על פי הזמנתו של ידידו מפולין, השחקן והבימאי רומן פולנסקי, עבר לארצות-הברית והשתקע בלוס אנגלס.
+1	לבסוף	לבסוף	ADV	ADV	ADV	23	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	5	punct	_	_
+3	על	על	ADP	ADP	ADP	5	case	_	_
+4	פי	פה	NOUN	NOUN	MASC;SG;N;PSSD	3	fixed	_	_
+5-7	הזמנתו	_	_	_	_	_	_	_	_
+5	הזמנה_	הזמנה	NOUN	NOUN	SG;FEM;N;DEF	23	obl	_	_
+6	_של_	של	ADP	ADP	ADP	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	5	nmod:poss	_	_
+8	של	של	ADP	ADP	ADP;GEN	9	case:gen	_	_
+9-11	ידידו	_	_	_	_	_	_	_	_
+9	ידיד_	ידיד	NOUN	NOUN	MASC;SG;N;DEF	5	nmod:poss	_	_
+10	_של_	של	ADP	ADP	ADP	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	9	nmod:poss	_	_
+12-13	מפולין	_	_	_	_	_	_	_	SpaceAfter=No
+12	מ	מ	ADP	ADP	ADP	13	case	_	_
+13	פולין	פולין	PROPN	PROPN	PROPN	9	nmod	_	_
+14	,	,	PUNCT	PUNCT	_	9	punct	_	_
+15-16	השחקן	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	שחקן	שחקן	NOUN	NOUN	MASC;SG;N	9	appos	_	_
+17-19	והבימאי	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+18	ה	ה	DET	DET	DET	19	det	_	_
+19	בימאי	במאי	NOUN	NOUN	MASC;SG;N	16	conj	_	_
+20	רומן	רומן	PROPN	PROPN	PROPN	16	flat:name	_	_
+21	פולנסקי	פולנסקי	PROPN	PROPN	PROPN	16	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	5	punct	_	_
+23	עבר	עבר	VERB	VERB	SG;V;3;MASC;PST	0	root	_	_
+24-25	לארצות	_	_	_	_	_	_	_	SpaceAfter=No
+24	ל	ל	ADP	ADP	ADP	25	case	_	_
+25	ארצות	ארץ	NOUN	NOUN	FEM;N;PL;PSSD	23	obl	_	_
+26	-	-	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+27-28	הברית	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	DET	28	det	_	_
+28	ברית	ברית	NOUN	NOUN	SG;N;FEM	25	nmod	_	HebSource=ConvUncertainLabel
+29-30	והשתקע	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	CONJ	30	cc	_	_
+30	השתקע	השתקע	VERB	VERB	SG;V;3;MASC;PST	23	conj	_	_
+31-32	בלוס	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	ADP	32	case	_	_
+32	לוס	לוס	PROPN	PROPN	PROPN	30	obl	_	_
+33	אנגלס	אנגלס	PROPN	PROPN	PROPN	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# sent_id = 1189
+# text = לחלאסקו היו ציפיות גדולות שיוכל להשתלב בהוליווד ככותב תסריטים.
+1-2	לחלאסקו	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	ADP	2	case	_	_
+2	חלאסקו	חלאסקו	PROPN	PROPN	PROPN	3	obl	_	_
+3	היו	היה	VERB	VERB	POS;PL;V;3;{FEM/MASC};PST	0	root	_	_
+4	ציפיות	ציפייה	NOUN	NOUN	N;PL;FEM	3	nsubj	_	_
+5	גדולות	גדול	ADJ	ADJ	FEM;PL;ADJ	4	amod	_	_
+6-7	שיוכל	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	CONJ	7	mark	_	_
+7	יוכל	יכול	VERB	VERB	SG;V;2;FUT;MASC	4	ccomp	_	Modal=Yes
+8	להשתלב	השתלב	VERB	VERB	NFIN;V	7	xcomp	_	_
+9-10	בהוליווד	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	10	case	_	_
+10	הוליווד	הוליווד	PROPN	PROPN	PROPN	8	obl	_	_
+11-12	ככותב	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	ADP	12	case	_	_
+12	כותב	כותב	NOUN	NOUN	MASC;SG;N;PSSD	8	obl	_	_
+13	תסריטים	תסריט	NOUN	NOUN	MASC;N;PL	12	compound:smixut	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 1190
+# text = אך שוב טפחה המציאות על פניו.
+1	אך	אך	CCONJ	CCONJ	CONJ	3	cc	_	_
+2	שוב	שוב	ADV	ADV	ADV	3	advmod	_	_
+3	טפחה	טפח	VERB	VERB	SG;V;3;PST;FEM	0	root	_	_
+4-5	המציאות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	DET	5	det	_	_
+5	מציאות	מציאות	NOUN	NOUN	SG;N;FEM	3	nsubj	_	_
+6	על	על	ADP	ADP	ADP	7	case	_	_
+7-9	פניו	_	_	_	_	_	_	_	SpaceAfter=No
+7	פנים_	פנים	NOUN	NOUN	PL;N;{FEM/MASC};DEF	3	obl	_	_
+8	_של_	של	ADP	ADP	ADP	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	7	nmod:poss	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 1191
+# text = מפיק סרטים גדול שחלאסקו ניהל פרשת אהבים עם אשתו הציב לפולנסקי אולטימטום: אני והכסף או חברך.
+1	מפיק	מפיק	NOUN	NOUN	MASC;SG;N;PSSD	13	nsubj	_	_
+2	סרטים	סרט	NOUN	NOUN	MASC;N;PL	1	compound:smixut	_	_
+3	גדול	גדול	ADJ	ADJ	MASC;SG;ADJ	1	amod	_	_
+4-5	שחלאסקו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	CONJ	6	mark	_	_
+5	חלאסקו	חלאסקו	PROPN	PROPN	PROPN	6	nsubj	_	_
+6	ניהל	ניהל	VERB	VERB	SG;ACT;V;3;MASC;PST	1	acl:relcl	_	_
+7	פרשת	פרשה	NOUN	NOUN	SG;FEM;N;PSSD	6	obj	_	_
+8	אהבים	אהבים	NOUN	NOUN	MASC;N;PL	7	compound:smixut	_	_
+9	עם	עם	ADP	ADP	ADP	10	case	_	_
+10-12	אשתו	_	_	_	_	_	_	_	_
+10	איש_	איש	NOUN	NOUN	SG;FEM;N;DEF	6	obl	_	_
+11	_של_	של	ADP	ADP	ADP	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	SG;GEN;3;MASC;PRO	10	nmod:poss	_	_
+13	הציב	הציב	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+14-15	לפולנסקי	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	ADP	15	case	_	_
+15	פולנסקי	פולנסקי	PROPN	PROPN	PROPN	13	obl	_	_
+16	אולטימטום	אולטימטום	NOUN	NOUN	MASC;SG;N	13	obj	_	SpaceAfter=No
+17	:	:	PUNCT	PUNCT	_	16	punct	_	_
+18	אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	16	appos	_	_
+19-21	והכסף	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	CONJ	21	cc	_	_
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	כסף	כסף	NOUN	NOUN	MASC;SG;N	18	conj	_	_
+22	או	או	CCONJ	CCONJ	CONJ	23	cc	_	_
+23-25	חברך	_	_	_	_	_	_	_	SpaceAfter=No
+23	חבר_	חבר	NOUN	NOUN	MASC;SG;N;DEF	18	conj	_	_
+24	_של_	של	ADP	ADP	ADP	25	case:gen	_	_
+25	_אתה	הוא	PRON	PRON	SG;GEN;2;MASC;PRO	23	nmod:poss	_	_
+26	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 1192
+# text = פולנסקי בחר בכסף, וגם ידידות זו הגיעה לסיומה.
+1	פולנסקי	פולנסקי	PROPN	PROPN	PROPN	2	nsubj	_	_
+2	בחר	בחר	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+3-5	בכסף	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	ADP	5	case	_	_
+4	ה_	ה	DET	DET	DET	5	det	_	_
+5	כסף	כסף	NOUN	NOUN	MASC;SG;N	2	obl	_	_
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7-8	וגם	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	CONJ	11	cc	_	_
+8	גם	גם	ADV	ADV	ADV	9	advmod	_	_
+9	ידידות	ידידות	NOUN	NOUN	SG;N;FEM	11	nsubj	_	_
+10	זו	זו	PRON	PRON	SG;3;PRO;FEM	9	det	_	_
+11	הגיעה	הגיע	VERB	VERB	SG;ACT;V;3;PST;FEM	2	conj	_	_
+12-15	לסיומה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	ADP	13	case	_	_
+13	סיום_	סיום	NOUN	NOUN	MASC;SG;N;DEF	11	obl	_	_
+14	_של_	של	ADP	ADP	ADP	15	case:gen	_	_
+15	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	13	nmod:poss	_	_
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

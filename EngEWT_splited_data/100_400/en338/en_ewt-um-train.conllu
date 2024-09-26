@@ -1,0 +1,535 @@
+# sent_id = reviews-351727-0004
+# text = Don't even get me started on how expensive it is to drink there.
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VBP	PRS;IND;FIN;1;V;SG	4	aux	4:aux	_
+2	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+3	even	even	ADV	RB	ADV	4	advmod	4:advmod	_
+4	get	get	VERB	VB	V;FIN;IMP	0	root	0:root	_
+5	me	I	PRON	PRP	ACC;1;PRO;SG	4	obj	4:obj|6:nsubj:xsubj	_
+6	started	start	VERB	VBN	V;V.PTCP;PST;PASS	4	xcomp	4:xcomp	_
+7	on	on	SCONJ	IN	CONJ	9	mark	9:mark	_
+8	how	how	ADV	WRB	ADV	9	advmod	9:advmod	_
+9	expensive	expensive	ADJ	JJ	ADJ	6	advcl	6:advcl:on	_
+10	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	9	expl	9:expl	_
+11	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	9	cop	9:cop	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	drink	drink	VERB	VB	V;NFIN	9	csubj	9:csubj	_
+14	there	there	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-351727-0005
+# text = I have ate here 3 times since they first opened, and the service has been poor each time, the staff always comes across as somewhat rude and slow.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	PRS;IND;FIN;1;V;SG	3	aux	3:aux	_
+3	ate	eat	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+4	here	here	ADV	RB	ADV	3	advmod	3:advmod	_
+5	3	3	NUM	CD	NUM	6	nummod	6:nummod	_
+6	times	time	NOUN	NNS	N;PL	3	obl:tmod	3:obl:tmod	_
+7	since	since	SCONJ	IN	CONJ	10	mark	10:mark	_
+8	they	they	PRON	PRP	3;NOM;PL;PRO	10	nsubj	10:nsubj	_
+9	first	first	ADV	RB	ADV	10	advmod	10:advmod	_
+10	opened	open	VERB	VBD	V;3;IND;FIN;PST;PL	3	advcl	3:advcl:since	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	17:punct	_
+12	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	service	service	NOUN	NN	SG;N	17	nsubj	17:nsubj	_
+15	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	17	aux	17:aux	_
+16	been	be	AUX	VBN	V;V.PTCP;PST	17	cop	17:cop	_
+17	poor	poor	ADJ	JJ	ADJ	3	conj	3:conj:and	_
+18	each	each	DET	DT	DET	19	det	19:det	_
+19	time	time	NOUN	NN	SG;N	17	obl:tmod	17:obl:tmod	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	24:punct	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	staff	staff	NOUN	NN	SG;N	24	nsubj	24:nsubj	_
+23	always	always	ADV	RB	ADV	24	advmod	24:advmod	_
+24	comes	come	VERB	VBZ	V;3;PRS;IND;FIN;SG	3	conj	3:conj:and	_
+25	across	across	ADV	RB	ADV	24	advmod	24:advmod	_
+26	as	as	ADP	IN	ADP	28	case	28:case	_
+27	somewhat	somewhat	ADV	RB	ADV	28	advmod	28:advmod	_
+28	rude	rude	ADJ	JJ	ADJ	24	obl	24:obl:as	_
+29	and	and	CCONJ	CC	CONJ	30	cc	30:cc	_
+30	slow	slow	ADJ	JJ	ADJ	28	conj	24:obl:as|28:conj:and	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-305187
+# sent_id = reviews-305187-0001
+# newpar id = reviews-305187-p0001
+# text = Apps 4 Salad 3 Entree 3.5 Wine 5 (NOV 07)
+1	Apps	app	NOUN	NNS	N;PL	0	root	0:root	_
+2	4	4	NUM	CD	NUM	1	appos	1:appos	_
+3	Salad	salad	NOUN	NN	SG;N	1	conj	1:conj	_
+4	3	3	NUM	CD	NUM	3	appos	3:appos	_
+5	Entree	entree	NOUN	NN	SG;N	1	conj	1:conj	_
+6	3.5	3.5	NUM	CD	NUM	5	appos	5:appos	_
+7	Wine	wine	NOUN	NN	SG;N	1	conj	1:conj	_
+8	5	5	NUM	CD	NUM	7	appos	7:appos	_
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+10	NOV	November	PROPN	NNP	PROPN;SG	1	nmod:tmod	1:nmod:tmod	_
+11	07	07	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+
+# sent_id = reviews-305187-0002
+# newpar id = reviews-305187-p0002
+# text = Enjoyed this cozy little spot with a group of 8 folks.
+1	Enjoyed	enjoy	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+2	this	this	DET	DT	SG;DET	5	det	5:det	_
+3	cozy	cozy	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	little	little	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	spot	spot	NOUN	NN	SG;N	1	obj	1:obj	_
+6	with	with	ADP	IN	ADP	8	case	8:case	_
+7	a	a	DET	DT	DET;INDF	8	det	8:det	_
+8	group	group	NOUN	NN	SG;N	1	obl	1:obl:with	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	8	8	NUM	CD	NUM	11	nummod	11:nummod	_
+11	folks	folk	NOUN	NNS	N;PL	8	nmod	8:nmod:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-305187-0003
+# text = Service was excellent.
+1	Service	service	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	3	cop	3:cop	_
+3	excellent	excellent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-305187-0004
+# text = Food was excellent.
+1	Food	food	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	3	cop	3:cop	_
+3	excellent	excellent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-305187-0005
+# text = Wine was excellent.
+1	Wine	wine	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	3	cop	3:cop	_
+3	excellent	excellent	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-305187-0006
+# text = I was feeling the need for some fish so I had the salmon which was very good but the steaks looked amazing and if I am in town again, I'll definitely order a steak.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	IND;FIN;PST;1;V;SG	3	aux	3:aux	_
+3	feeling	feel	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	need	need	NOUN	NN	SG;N	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	some	some	DET	DT	DET	8	det	8:det	_
+8	fish	fish	NOUN	NN	SG;N	5	nmod	5:nmod:for	_
+9	so	so	ADV	RB	ADV	11	advmod	11:advmod	_
+10	I	I	PRON	PRP	NOM;1;PRO;SG	11	nsubj	11:nsubj	_
+11	had	have	VERB	VBD	V;IND;FIN;PST;1;SG	3	parataxis	3:parataxis	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	salmon	salmon	NOUN	NN	SG;N	11	obj	11:obj|17:nsubj	_
+14	which	which	PRON	WDT	PRO	17	nsubj	13:ref	_
+15	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	17	cop	17:cop	_
+16	very	very	ADV	RB	ADV	17	advmod	17:advmod	_
+17	good	good	ADJ	JJ	ADJ	13	acl:relcl	13:acl:relcl	Cxn=rc-wh-nsubj
+18	but	but	CCONJ	CC	CONJ	21	cc	21:cc	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20	steaks	steak	NOUN	NNS	N;PL	21	nsubj	21:nsubj|22:nsubj:xsubj	_
+21	looked	look	VERB	VBD	V;3;IND;FIN;PST;PL	3	conj	3:conj:but	_
+22	amazing	amazing	ADJ	JJ	ADJ	21	xcomp	21:xcomp	_
+23	and	and	CCONJ	CC	CONJ	34	cc	34:cc	_
+24	if	if	SCONJ	IN	CONJ	28	mark	28:mark	_
+25	I	I	PRON	PRP	NOM;1;PRO;SG	28	nsubj	28:nsubj	_
+26	am	be	AUX	VBP	PRS;IND;FIN;1;V;SG	28	cop	28:cop	_
+27	in	in	ADP	IN	ADP	28	case	28:case	_
+28	town	town	NOUN	NN	SG;N	34	advcl	34:advcl:in	_
+29	again	again	ADV	RB	ADV	28	advmod	28:advmod	SpaceAfter=No
+30	,	,	PUNCT	,	_	28	punct	28:punct	_
+31-32	I'll	_	_	_	_	_	_	_	_
+31	I	I	PRON	PRP	NOM;1;PRO;SG	34	nsubj	34:nsubj	_
+32	'll	will	AUX	MD	V;FIN	34	aux	34:aux	_
+33	definitely	definitely	ADV	RB	ADV	34	advmod	34:advmod	_
+34	order	order	VERB	VB	V;NFIN	3	conj	3:conj:but	_
+35	a	a	DET	DT	DET;INDF	36	det	36:det	_
+36	steak	steak	NOUN	NN	SG;N	34	obj	34:obj	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-305187-0007
+# text = A perfect place for a romantic dinner.
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	perfect	perfect	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	place	place	NOUN	NN	SG;N	0	root	0:root	_
+4	for	for	ADP	IN	ADP	7	case	7:case	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	romantic	romantic	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	dinner	dinner	NOUN	NN	SG;N	3	nmod	3:nmod:for	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-305187-0008
+# text = Lots of "pretty people" dining inside.
+1	Lots	lot	NOUN	NNS	N;PL	0	root	0:root	_
+2	of	of	ADP	IN	ADP	5	case	5:case	_
+3	"	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+4	pretty	pretty	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	people	people	NOUN	NNS	N;PL	1	nmod	1:nmod:of	SpaceAfter=No
+6	"	"	PUNCT	''	_	5	punct	5:punct	_
+7	dining	dine	VERB	VBG	V;V.MSDR	5	acl	5:acl	_
+8	inside	inside	ADV	RB	ADV	7	advmod	7:advmod	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-270502
+# sent_id = reviews-270502-0001
+# newpar id = reviews-270502-p0001
+# text = Great staff.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	staff	staff	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-270502-0002
+# text = Very helpful!!!!
+1	Very	very	ADV	RB	ADV	2	advmod	2:advmod	_
+2	helpful	helpful	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+3	!!!!	!!!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-270502-0003
+# text = They interviewed me, gave me tests in the software I included on my resume, and placed me in a position that I kept for several years.
+1	They	they	PRON	PRP	3;NOM;PL;PRO	2	nsubj	2:nsubj|5:nsubj|18:nsubj	_
+2	interviewed	interview	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+3	me	I	PRON	PRP	ACC;1;PRO;SG	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	gave	give	VERB	VBD	V;3;IND;FIN;PST;PL	2	conj	2:conj:and	_
+6	me	I	PRON	PRP	ACC;1;PRO;SG	5	iobj	5:iobj	_
+7	tests	test	NOUN	NNS	N;PL	5	obj	5:obj	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	software	software	NOUN	NN	SG;N	7	nmod	7:nmod:in|12:obj	_
+11	I	I	PRON	PRP	NOM;1;PRO;SG	12	nsubj	12:nsubj	_
+12	included	include	VERB	VBD	V;IND;FIN;PST;1;SG	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obj
+13	on	on	ADP	IN	ADP	15	case	15:case	_
+14	my	my	PRON	PRP$	GEN;1;PRO;SG	15	nmod:poss	15:nmod:poss	_
+15	resume	resume	NOUN	NN	SG;N	12	obl	12:obl:on	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	18:punct	_
+17	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+18	placed	place	VERB	VBD	V;3;IND;FIN;PST;PL	2	conj	2:conj:and	_
+19	me	I	PRON	PRP	ACC;1;PRO;SG	18	obj	18:obj	_
+20	in	in	ADP	IN	ADP	22	case	22:case	_
+21	a	a	DET	DT	DET;INDF	22	det	22:det	_
+22	position	position	NOUN	NN	SG;N	18	obl	18:obl:in|25:obj	_
+23	that	that	PRON	WDT	PRO	25	obj	22:ref	_
+24	I	I	PRON	PRP	NOM;1;PRO;SG	25	nsubj	25:nsubj	_
+25	kept	keep	VERB	VBD	V;IND;FIN;PST;1;SG	22	acl:relcl	22:acl:relcl	Cxn=rc-that-obj
+26	for	for	ADP	IN	ADP	28	case	28:case	_
+27	several	several	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	years	year	NOUN	NNS	N;PL	25	obl	25:obl:for	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-270502-0004
+# text = Re-interviewed and am going on interviews for a new job.
+1	Re-interviewed	re-interview	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+3	am	be	AUX	VBP	PRS;IND;FIN;1;V;SG	4	aux	4:aux	_
+4	going	go	VERB	VBG	V;V.PTCP;PRS	1	conj	1:conj:and	_
+5	on	on	ADP	IN	ADP	6	case	6:case	_
+6	interviews	interview	NOUN	NNS	N;PL	4	obl	4:obl:on	_
+7	for	for	ADP	IN	ADP	10	case	10:case	_
+8	a	a	DET	DT	DET;INDF	10	det	10:det	_
+9	new	new	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	job	job	NOUN	NN	SG;N	6	nmod	6:nmod:for	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-270502-0005
+# text = I'm really thankful for the folks at HR Office.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	NOM;1;PRO;SG	4	nsubj	4:nsubj	_
+2	'm	be	AUX	VBP	PRS;IND;FIN;1;V;SG	4	cop	4:cop	_
+3	really	really	ADV	RB	ADV	4	advmod	4:advmod	_
+4	thankful	thankful	ADJ	JJ	ADJ	0	root	0:root	_
+5	for	for	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	folks	folk	NOUN	NNS	N;PL	4	obl	4:obl:for	_
+8	at	at	ADP	IN	ADP	10	case	10:case	_
+9	HR	HR	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+10	Office	Office	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:at	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-270502-0006
+# text = They are dependable, have great connections in the community, and are a great resource for finding a job.
+1	They	they	PRON	PRP	3;NOM;PL;PRO	3	nsubj	3:nsubj|5:nsubj|16:nsubj	_
+2	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	3	cop	3:cop	_
+3	dependable	dependable	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	have	have	VERB	VBP	V;3;PRS;IND;FIN;PL	3	conj	3:conj:and	_
+6	great	great	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	connections	connection	NOUN	NNS	N;PL	5	obj	5:obj	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	community	community	NOUN	NN	SG;N	7	nmod	7:nmod:in	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	16:punct	_
+12	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+13	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	16	cop	16:cop	_
+14	a	a	DET	DT	DET;INDF	16	det	16:det	_
+15	great	great	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	resource	resource	NOUN	NN	SG;N	3	conj	3:conj:and	_
+17	for	for	SCONJ	IN	CONJ	18	mark	18:mark	_
+18	finding	find	VERB	VBG	V;V.MSDR	16	acl	16:acl:for	_
+19	a	a	DET	DT	DET;INDF	20	det	20:det	_
+20	job	job	NOUN	NN	SG;N	18	obj	18:obj	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-270502-0007
+# text = I highly recommend them to all of my friends!!!!!
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	highly	highly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	recommend	recommend	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+4	them	they	PRON	PRP	ACC;3;PL;PRO	3	obj	3:obj	_
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	all	all	DET	DT	DET	3	obl	3:obl:to	_
+7	of	of	ADP	IN	ADP	9	case	9:case	_
+8	my	my	PRON	PRP$	GEN;1;PRO;SG	9	nmod:poss	9:nmod:poss	_
+9	friends	friend	NOUN	NNS	N;PL	6	nmod	6:nmod:of	SpaceAfter=No
+10	!!!!	!!!!	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-105518
+# sent_id = reviews-105518-0001
+# newpar id = reviews-105518-p0001
+# text = Great experience - consider checking out their puppies before buying from a breeder!
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	experience	experience	NOUN	NN	SG;N	0	root	0:root	_
+3	-	-	PUNCT	,	_	4	punct	4:punct	_
+4	consider	consider	VERB	VB	V;FIN;IMP	2	parataxis	2:parataxis	_
+5	checking	check	VERB	VBG	V;V.MSDR	4	xcomp	4:xcomp	_
+6	out	out	ADP	RP	ADP	5	compound:prt	5:compound:prt	_
+7	their	their	PRON	PRP$	3;GEN;PL;PRO	8	nmod:poss	8:nmod:poss	_
+8	puppies	puppy	NOUN	NNS	N;PL	5	obj	5:obj	_
+9	before	before	SCONJ	IN	CONJ	10	mark	10:mark	_
+10	buying	buy	VERB	VBG	V;V.PTCP;PRS	5	advcl	5:advcl:before	_
+11	from	from	ADP	IN	ADP	13	case	13:case	_
+12	a	a	DET	DT	DET;INDF	13	det	13:det	_
+13	breeder	breeder	NOUN	NN	SG;N	10	obl	10:obl:from	SpaceAfter=No
+14	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-105518-0002
+# newpar id = reviews-105518-p0002
+# text = I adopted a 3.5 month old yellow lab last winter from the Dumb Friends League.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	2	nsubj	2:nsubj	_
+2	adopted	adopt	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	8	det	8:det	_
+4	3.5	3.5	NUM	CD	NUM	5	nummod	5:nummod	_
+5	month	month	NOUN	NN	SG;N	6	obl:npmod	6:obl:npmod	_
+6	old	old	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	yellow	yellow	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	lab	lab	NOUN	NN	SG;N	2	obj	2:obj	_
+9	last	last	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	winter	winter	NOUN	NN	SG;N	2	obl:tmod	2:obl:tmod	_
+11	from	from	ADP	IN	ADP	15	case	15:case	_
+12	the	the	DET	DT	DEF;DET	15	det	15:det	_
+13	Dumb	Dumb	ADJ	NNP	ADJ	14	amod	14:amod	_
+14	Friends	Friend	PROPN	NNPS	PROPN;PL	15	compound	15:compound	_
+15	League	League	PROPN	NNP	PROPN;SG	2	obl	2:obl:from	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-105518-0003
+# text = The staff was very helpful in finding the right dog for me and the care my pup received was outstanding.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	staff	staff	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+3	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	5	cop	5:cop	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	helpful	helpful	ADJ	JJ	ADJ	0	root	0:root	_
+6	in	in	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	finding	find	VERB	VBG	V;V.PTCP;PRS	5	advcl	5:advcl:in	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	right	right	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	dog	dog	NOUN	NN	SG;N	7	obj	7:obj	_
+11	for	for	ADP	IN	ADP	12	case	12:case	_
+12	me	I	PRON	PRP	ACC;1;PRO;SG	10	nmod	10:nmod:for	_
+13	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	care	care	NOUN	NN	SG;N	20	nsubj	18:obj|20:nsubj	_
+16	my	my	PRON	PRP$	GEN;1;PRO;SG	17	nmod:poss	17:nmod:poss	_
+17	pup	pup	NOUN	NN	SG;N	18	nsubj	18:nsubj	_
+18	received	receive	VERB	VBD	V;3;IND;FIN;PST;SG	15	acl:relcl	15:acl:relcl	Cxn=rc-red-obj
+19	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	20	cop	20:cop	_
+20	outstanding	outstanding	ADJ	JJ	ADJ	5	conj	5:conj:and	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-105518-0004
+# text = If you are on the lookout for a pure breed pup don't forget to check out the shelters!
+1	If	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+2	you	you	PRON	PRP	2;NOM;PRO	6	nsubj	6:nsubj	_
+3	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	6	cop	6:cop	_
+4	on	on	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	lookout	lookout	NOUN	NN	SG;N	14	advcl	14:advcl:on	_
+7	for	for	ADP	IN	ADP	11	case	11:case	_
+8	a	a	DET	DT	DET;INDF	11	det	11:det	_
+9	pure	pure	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	breed	breed	NOUN	NN	SG;N	11	compound	11:compound	_
+11	pup	pup	NOUN	NN	SG;N	6	nmod	6:nmod:for	_
+12-13	don't	_	_	_	_	_	_	_	_
+12	do	do	AUX	VB	V;FIN;IMP	14	aux	14:aux	_
+13	n't	not	PART	RB	PART	14	advmod	14:advmod	_
+14	forget	forget	VERB	VB	V;FIN;IMP	0	root	0:root	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	check	check	VERB	VB	V;NFIN	14	xcomp	14:xcomp	_
+17	out	out	ADP	RP	ADP	16	compound:prt	16:compound:prt	_
+18	the	the	DET	DT	DEF;DET	19	det	19:det	_
+19	shelters	shelter	NOUN	NNS	N;PL	16	obj	16:obj	SpaceAfter=No
+20	!	!	PUNCT	.	_	14	punct	14:punct	_
+
+# sent_id = reviews-105518-0005
+# text = My pup has a wonderful temperment and has been a wonderful addition to my family!
+1	My	my	PRON	PRP$	GEN;1;PRO;SG	2	nmod:poss	2:nmod:poss	_
+2	pup	pup	NOUN	NN	SG;N	3	nsubj	3:nsubj|12:nsubj	_
+3	has	have	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	wonderful	wonderful	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	temperment	temperament	NOUN	NN	SG;N	3	obj	3:obj	CorrectForm=temperament
+7	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+8	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	12	aux	12:aux	_
+9	been	be	AUX	VBN	V;V.PTCP;PST	12	cop	12:cop	_
+10	a	a	DET	DT	DET;INDF	12	det	12:det	_
+11	wonderful	wonderful	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	addition	addition	NOUN	NN	SG;N	3	conj	3:conj:and	_
+13	to	to	ADP	IN	ADP	15	case	15:case	_
+14	my	my	PRON	PRP$	GEN;1;PRO;SG	15	nmod:poss	15:nmod:poss	_
+15	family	family	NOUN	NN	SG;N	12	nmod	12:nmod:to	SpaceAfter=No
+16	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-010433
+# sent_id = reviews-010433-0001
+# newpar id = reviews-010433-p0001
+# text = Food good, service poor
+1	Food	food	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+2	good	good	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	5	punct	5:punct	_
+4	service	service	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+5	poor	poor	ADJ	JJ	ADJ	2	parataxis	2:parataxis	_
+
+# sent_id = reviews-010433-0002
+# newpar id = reviews-010433-p0002
+# text = No silverware, asked for a spoon for my sons mac and cheese ended up having to use my tea spoon.
+1	No	no	DET	DT	DET	2	det	2:det	_
+2	silverware	silverware	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	asked	ask	VERB	VBD	V;IND;FIN;PST;1;SG	2	parataxis	2:parataxis	_
+5	for	for	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	spoon	spoon	NOUN	NN	SG;N	4	obl	4:obl:for	_
+8	for	for	ADP	IN	ADP	12	case	12:case	_
+9	my	my	PRON	PRP$	GEN;1;PRO;SG	10	nmod:poss	10:nmod:poss	_
+10-11	sons	_	_	_	_	_	_	_	_
+10	son	son	NOUN	NN	SG;N	12	nmod:poss	12:nmod:poss	_
+11	s	's	PART	POS	PART	10	case	10:case	CorrectForm='s
+12	mac	mac	NOUN	NN	SG;N	7	nmod	7:nmod:for	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	cheese	cheese	NOUN	NN	SG;N	12	conj	7:nmod:for|12:conj:and	_
+15	ended	end	VERB	VBD	V;IND;FIN;PST;1;SG	4	parataxis	4:parataxis	_
+16	up	up	ADP	RP	ADP	15	compound:prt	15:compound:prt	_
+17	having	have	VERB	VBG	V;V.MSDR	15	xcomp	15:xcomp	_
+18	to	to	PART	TO	PART	19	mark	19:mark	_
+19	use	use	VERB	VB	V;NFIN	17	xcomp	17:xcomp	_
+20	my	my	PRON	PRP$	GEN;1;PRO;SG	22	nmod:poss	22:nmod:poss	_
+21	tea	tea	NOUN	NN	SG;N	22	compound	22:compound	_
+22	spoon	spoon	NOUN	NN	SG;N	19	obj	19:obj	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-010433-0003
+# text = Asked for bar-b-que sauce never got it.
+1	Asked	ask	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+2	for	for	ADP	IN	ADP	8	case	8:case	_
+3	bar	bar	NOUN	NN	SG;N	7	compound	7:compound	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+5	b	b	NOUN	NN	SG;N	7	compound	7:compound	SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+7	que	que	NOUN	NN	SG;N	8	compound	8:compound	_
+8	sauce	sauce	NOUN	NN	SG;N	1	obl	1:obl:for	_
+9	never	never	ADV	RB	ADV	10	advmod	10:advmod	_
+10	got	get	VERB	VBD	V;IND;FIN;PST;1;SG	1	parataxis	1:parataxis	_
+11	it	it	PRON	PRP	3;NOM;NEUT;PRO;SG	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-010433-0004
+# text = Never checked back with us once we got our food.
+1	Never	never	ADV	RB	ADV	2	advmod	2:advmod	_
+2	checked	check	VERB	VBD	V;3;IND;FIN;PST;PL	0	root	0:root	_
+3	back	back	ADV	RB	ADV	2	advmod	2:advmod	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	us	we	PRON	PRP	ACC;PL;1;PRO	2	obl	2:obl:with	_
+6	once	once	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	we	we	PRON	PRP	NOM;PL;1;PRO	8	nsubj	8:nsubj	_
+8	got	get	VERB	VBD	V;IND;FIN;PST;PL;1	2	advcl	2:advcl:once	_
+9	our	our	PRON	PRP$	GEN;PL;PRO;1	10	nmod:poss	10:nmod:poss	_
+10	food	food	NOUN	NN	SG;N	8	obj	8:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-010433-0005
+# text = Had to go the the bus boys station ourselves to get napkins.
+1	Had	have	VERB	VBD	V;IND;FIN;PST;1;SG	0	root	0:root	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	go	go	VERB	VB	V;NFIN	1	xcomp	1:xcomp	_
+4	the	to	ADP	IN	ADP	9	case	9:case	CorrectForm=to
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	bus	bus	NOUN	NN	SG;N	7	compound	7:compound	_
+7-8	boys	_	_	_	_	_	_	_	_
+7	boy	boy	NOUN	NN	SG;N	9	nmod:poss	9:nmod:poss	_
+8	s	's	PART	POS	PART	7	case	7:case	CorrectForm='s
+9	station	station	NOUN	NN	SG;N	3	obl	3:obl:to	_
+10	ourselves	ourselves	PRON	PRP	ACC;REFL;PL;1;PRO	3	obl:npmod	3:obl:npmod	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	get	get	VERB	VB	V;NFIN	3	advcl	3:advcl:to	_
+13	napkins	napkin	NOUN	NNS	N;PL	12	obj	12:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-010433-0006
+# text = Only one server, too buys talking with others I guess.
+1	Only	only	ADV	RB	ADV	3	advmod	3:advmod	_
+2	one	one	NUM	CD	NUM	3	nummod	3:nummod	_
+3	server	server	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	11:punct	_
+5	too	too	ADV	RB	ADV	6	advmod	6:advmod	_
+6	buys	busy	ADJ	JJ	ADJ	11	ccomp	11:ccomp	CorrectForm=busy
+7	talking	talk	VERB	VBG	V;V.PTCP;PRS	6	advcl	6:advcl	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	others	other	NOUN	NNS	N;PL	7	obl	7:obl:with	_
+10	I	I	PRON	PRP	NOM;1;PRO;SG	11	nsubj	11:nsubj	_
+11	guess	guess	VERB	VBP	V;PRS;IND;FIN;1;SG	3	parataxis	3:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-010433-0007
+# text = Food was good, but service means a lot to me.
+1	Food	food	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	3	cop	3:cop	_
+3	good	good	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	but	but	CCONJ	CC	CONJ	7	cc	7:cc	_
+6	service	service	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+7	means	mean	VERB	VBZ	V;3;PRS;IND;FIN;SG	3	conj	3:conj:but	_
+8	a	a	DET	DT	DET;INDF	9	det	9:det	_
+9	lot	lot	NOUN	NN	SG;N	7	obj	7:obj	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	me	I	PRON	PRP	ACC;1;PRO;SG	7	obl	7:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-133601
+# sent_id = reviews-133601-0001
+# newpar id = reviews-133601-p0001
+# text = Dr. Chao you are the best dentist I have ever had.
+1	Dr.	Dr.	PROPN	NNP	PROPN;SG	7	vocative	7:vocative	_
+2	Chao	Chao	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	you	you	PRON	PRP	2;NOM;PRO	7	nsubj	7:nsubj	_
+4	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	7	cop	7:cop	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	best	good	ADJ	JJS	ADJ;RL	7	amod	7:amod	_
+7	dentist	dentist	NOUN	NN	SG;N	0	root	0:root|11:obj	_
+8	I	I	PRON	PRP	NOM;1;PRO;SG	11	nsubj	11:nsubj	_
+9	have	have	AUX	VBP	PRS;IND;FIN;1;V;SG	11	aux	11:aux	_
+10	ever	ever	ADV	RB	ADV	11	advmod	11:advmod	_
+11	had	have	VERB	VBN	V;V.PTCP;PST	7	acl:relcl	7:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-133601-0002
+# text = You are knowledgeable, professional, gentel and kind.
+1	You	you	PRON	PRP	2;NOM;PRO	3	nsubj	3:nsubj|5:nsubj|7:nsubj|9:nsubj	_
+2	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	3	cop	3:cop	_
+3	knowledgeable	knowledgeable	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	professional	professional	ADJ	JJ	ADJ	3	conj	3:conj:and	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	gentel	gentle	ADJ	JJ	ADJ	3	conj	3:conj:and	CorrectForm=gentle
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	kind	kind	ADJ	JJ	ADJ	3	conj	3:conj:and	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+

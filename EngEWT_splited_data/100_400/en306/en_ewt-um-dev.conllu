@@ -1,0 +1,53 @@
+# sent_id = reviews-064100-0002
+# text = Cool ambience.
+1	Cool	cool	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	ambience	ambience	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-105326
+# sent_id = reviews-105326-0001
+# newpar id = reviews-105326-p0001
+# text = How a pizza place should be!
+1	How	how	ADV	WRB	ADV	0	root	0:root	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	pizza	pizza	NOUN	NN	SG;N	4	compound	4:compound	_
+4	place	place	NOUN	NN	SG;N	1	nsubj	1:nsubj	_
+5	should	should	AUX	MD	FIN;V	1	aux	1:aux	_
+6	be	be	AUX	VB	V;NFIN	1	cop	1:cop	SpaceAfter=No
+7	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-105326-0002
+# text = + there is a free cola with every pizza.
+1	+	+	SYM	SYM	_	3	cc	3:cc	_
+2	there	there	PRON	EX	PRO	3	expl	3:expl	_
+3	is	be	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	a	a	DET	DT	DET;INDF	6	det	6:det	_
+5	free	free	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	cola	cola	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+7	with	with	ADP	IN	ADP	9	case	9:case	_
+8	every	every	DET	DT	DET	9	det	9:det	_
+9	pizza	pizza	NOUN	NN	SG;N	3	obl	3:obl:with	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-139456
+# sent_id = reviews-139456-0001
+# newpar id = reviews-139456-p0001
+# text = Pleasure to work with.
+1	Pleasure	pleasure	NOUN	NN	SG;N	0	root	0:root	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	work	work	VERB	VB	NFIN;V	1	acl	1:acl:to	_
+4	with	with	ADP	IN	ADP	3	obl	3:obl	Promoted=Yes|SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-139456-0002
+# text = The experience with every department has been great.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	experience	experience	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+3	with	with	ADP	IN	ADP	5	case	5:case	_
+4	every	every	DET	DT	DET	5	det	5:det	_
+5	department	department	NOUN	NN	SG;N	2	nmod	2:nmod:with	_
+6	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	aux	8:aux	_
+7	been	be	AUX	VBN	V;V.PTCP;PST	8	cop	8:cop	_
+8	great	great	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+

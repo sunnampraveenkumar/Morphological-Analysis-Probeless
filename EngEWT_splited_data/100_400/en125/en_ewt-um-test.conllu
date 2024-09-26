@@ -1,0 +1,71 @@
+# sent_id = email-enronsent32_01-0027
+# text = sorry again
+1	sorry	sorry	ADJ	JJ	ADJ	0	root	0:root	_
+2	again	again	ADV	RB	ADV	1	advmod	1:advmod	_
+
+# sent_id = email-enronsent32_01-0028
+# newpar id = email-enronsent32_01-p0007
+# text = per my vm
+1	per	per	ADP	IN	ADP	3	case	3:case	_
+2	my	my	PRON	PRP$	GEN;PRO;1;SG	3	nmod:poss	3:nmod:poss	_
+3	vm	vm	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = email-enronsent32_01-0029
+# text = John Lamb@ENRON
+1	John	JohnLamb@ENRON	PROPN	GW	PROPN	0	root	0:root	_
+2	Lamb@ENRON	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent32_01-0030
+# text = 11/15/2000 11:58 AM
+1	11/15/2000	11/15/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:58	11:58	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent32_01-0031
+# text = Attached are clean and blacklined drafts of the Enron guaranties to be made in support of EPMI's obligations under the Indian Mesa II Renewable Energy Purchase Agreement ("PPA") and Green Premium Sharing Agreement ("GSPA").?
+1	Attached	attach	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	1	aux:pass	1:aux:pass	_
+3	clean	clean	ADJ	JJ	ADJ	6	amod	6:amod	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	blacklined	blackline	VERB	VBN	PASS;PST;V;V.PTCP	3	conj	3:conj:and|6:amod	_
+6	drafts	draft	NOUN	NNS	PL;N	1	nsubj:pass	1:nsubj:pass	_
+7	of	of	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	Enron	Enron	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	guaranties	guaranty	NOUN	NNS	PL;N	6	nmod	6:nmod:of	_
+11	to	to	PART	TO	PART	13	mark	13:mark	_
+12	be	be	AUX	VB	NFIN;V	13	aux:pass	13:aux:pass	_
+13	made	make	VERB	VBN	PASS;PST;V;V.PTCP	10	acl	10:acl:to	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	support	support	NOUN	NN	SG;N	13	obl	13:obl:in	_
+16	of	of	ADP	IN	ADP	19	case	19:case	_
+17-18	EPMI's	_	_	_	_	_	_	_	_
+17	EPMI	EPMI	PROPN	NNP	SG;PROPN	19	nmod:poss	19:nmod:poss	_
+18	's	's	PART	POS	PART	17	case	17:case	_
+19	obligations	obligation	NOUN	NNS	PL;N	15	nmod	15:nmod:of	_
+20	under	under	ADP	IN	ADP	28	case	28:case	_
+21	the	the	DET	DT	DEF;DET	28	det	28:det	_
+22	Indian	Indian	ADJ	NNP	ADJ	23	amod	23:amod	_
+23	Mesa	Mesa	PROPN	NNP	SG;PROPN	28	compound	28:compound	_
+24	II	II	NUM	CD	NUM	23	nummod	23:nummod	_
+25	Renewable	Renewable	ADJ	NNP	ADJ	26	amod	26:amod	_
+26	Energy	Energy	PROPN	NNP	SG;PROPN	28	compound	28:compound	_
+27	Purchase	Purchase	PROPN	NNP	SG;PROPN	28	compound	28:compound	_
+28	Agreement	Agreement	PROPN	NNP	SG;PROPN	13	obl	13:obl:under	_
+29	(	(	PUNCT	-LRB-	_	31	punct	31:punct	SpaceAfter=No
+30	"	"	PUNCT	``	_	31	punct	31:punct	SpaceAfter=No
+31	PPA	PPA	PROPN	NNP	SG;PROPN	28	appos	28:appos	SpaceAfter=No
+32	"	"	PUNCT	''	_	31	punct	31:punct	SpaceAfter=No
+33	)	)	PUNCT	-RRB-	_	31	punct	31:punct	_
+34	and	and	CCONJ	CC	CONJ	38	cc	38:cc	_
+35	Green	Green	ADJ	NNP	ADJ	38	amod	38:amod	_
+36	Premium	Premium	PROPN	NNP	SG;PROPN	38	compound	38:compound	_
+37	Sharing	Sharing	PROPN	NNP	SG;PROPN	38	compound	38:compound	_
+38	Agreement	Agreement	PROPN	NNP	SG;PROPN	28	conj	13:obl:under|28:conj:and	_
+39	(	(	PUNCT	-LRB-	_	41	punct	41:punct	SpaceAfter=No
+40	"	"	PUNCT	``	_	41	punct	41:punct	SpaceAfter=No
+41	GSPA	GSPA	PROPN	NNP	SG;PROPN	38	appos	38:appos	SpaceAfter=No
+42	"	"	PUNCT	''	_	41	punct	41:punct	SpaceAfter=No
+43	)	)	PUNCT	-RRB-	_	41	punct	41:punct	SpaceAfter=No
+44	.?	.?	PUNCT	.	_	1	punct	1:punct	_
+

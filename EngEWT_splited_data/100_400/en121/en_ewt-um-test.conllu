@@ -1,0 +1,52 @@
+# sent_id = email-enronsent32_01-0007
+# newpar id = email-enronsent32_01-p0002
+# text = see you there at 4:00 unless I call you
+1	see	see	VERB	VB	NFIN;V	0	root	0:root	_
+2	you	you	PRON	PRP	2;ACC;PRO	1	obj	1:obj	_
+3	there	there	ADV	RB	ADV	1	advmod	1:advmod	_
+4	at	at	ADP	IN	ADP	5	case	5:case	_
+5	4:00	4:00	NUM	CD	NUM	1	obl	1:obl:at	_
+6	unless	unless	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	I	I	PRON	PRP	PRO;1;NOM;SG	8	nsubj	8:nsubj	_
+8	call	call	VERB	VBP	1;V;FIN;PRS;SG;IND	1	advcl	1:advcl:unless	_
+9	you	you	PRON	PRP	2;ACC;PRO	8	obj	8:obj	_
+
+# sent_id = email-enronsent32_01-0008
+# newpar id = email-enronsent32_01-p0003
+# text = Mark E Haedicke
+1	Mark	Mark	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	E	E	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Haedicke	Haedicke	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+
+# sent_id = email-enronsent32_01-0009
+# text = Sent by: Janette Elbertson
+1	Sent	send	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	2:punct	_
+4	Janette	Janette	PROPN	NNP	SG;PROPN	1	obl:agent	1:obl:agent	_
+5	Elbertson	Elbertson	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+
+# sent_id = email-enronsent32_01-0010
+# text = 02/28/2001 03:16 PM
+1	02/28/2001	02/28/2001	NUM	CD	NUM	0	root	0:root	_
+2	03:16	03:16	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent32_01-0011
+# text = Please use the form attached when preparing the top ten risks for your businesses.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	use	use	VERB	VB	FIN;V;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	form	form	NOUN	NN	SG;N	2	obj	2:obj	_
+5	attached	attach	VERB	VBN	PASS;PST;V;V.PTCP	4	acl	4:acl	_
+6	when	when	ADV	WRB	ADV	7	advmod	7:advmod	_
+7	preparing	prepare	VERB	VBG	PRS;V;V.PTCP	2	advcl	2:advcl:when	_
+8	the	the	DET	DT	DEF;DET	11	det	11:det	_
+9	top	top	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	ten	ten	NUM	CD	NUM	9	compound	9:compound	_
+11	risks	risk	NOUN	NNS	PL;N	7	obj	7:obj	_
+12	for	for	ADP	IN	ADP	14	case	14:case	_
+13	your	your	PRON	PRP$	GEN;PRO;2	14	nmod:poss	14:nmod:poss	_
+14	businesses	business	NOUN	NNS	PL;N	11	nmod	11:nmod:for	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+

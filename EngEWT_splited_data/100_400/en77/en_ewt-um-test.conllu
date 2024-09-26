@@ -1,0 +1,84 @@
+# sent_id = email-enronsent32_02-0022
+# text = 06/04/2001 05:54 PM
+1	06/04/2001	06/04/2001	NUM	CD	NUM	0	root	0:root	_
+2	05:54	05:54	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	SG;N	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent32_02-0023
+# text = Can you pass this along to Elizabeth to ensure Sanders is on board as well?
+1	Can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	pass	pass	VERB	VB	NFIN;V	0	root	0:root	_
+4	this	this	PRON	DT	SG;PRO	3	obj	3:obj	_
+5	along	along	ADV	RB	ADV	3	advmod	3:advmod	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	Elizabeth	Elizabeth	PROPN	NNP	SG;PROPN	3	obl	3:obl:to	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	ensure	ensure	VERB	VB	NFIN;V	3	advcl	3:advcl:to	_
+10	Sanders	Sanders	PROPN	NNP	SG;PROPN	13	nsubj	13:nsubj	_
+11	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	13	cop	13:cop	_
+12	on	on	ADP	IN	ADP	13	case	13:case	_
+13	board	board	NOUN	NN	SG;N	9	ccomp	9:ccomp	_
+14	as	as	ADV	RB	ADV	13	advmod	13:advmod	_
+15	well	well	ADV	RB	ADV	14	fixed	14:fixed	SpaceAfter=No
+16	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent32_02-0024
+# text = We are renewing our L/C's on a month to month basis for the PX per Sanders.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+2	are	be	AUX	VBP	PL;V;1;FIN;PRS;IND	3	aux	3:aux	_
+3	renewing	renew	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	our	our	PRON	PRP$	GEN;PL;PRO;1	5	nmod:poss	5:nmod:poss	_
+5	L/C's	l/c	NOUN	NNS	PL;N	3	obj	3:obj	_
+6	on	on	ADP	IN	ADP	11	case	11:case	_
+7	a	a	DET	DT	INDF;DET	11	det	11:det	_
+8	month	month	NOUN	NN	SG;N	11	compound	11:compound	_
+9	to	to	ADP	IN	ADP	10	case	10:case	_
+10	month	month	NOUN	NN	SG;N	8	nmod	8:nmod:to	_
+11	basis	basis	NOUN	NN	SG;N	3	obl	3:obl:on	_
+12	for	for	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	PX	px	NOUN	NN	SG;N	3	obl	3:obl:for	_
+15	per	per	ADP	IN	ADP	16	case	16:case	_
+16	Sanders	Sanders	PROPN	NNP	SG;PROPN	3	obl	3:obl:per	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent32_02-0025
+# text = However, the request below is to "replenish" the CASH that was drawn down...please advise.
+1	However	however	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	request	request	NOUN	NN	SG;N	9	nsubj:outer	9:nsubj:outer	_
+5	below	below	ADV	RB	ADV	4	advmod	4:advmod	_
+6	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	9	cop	9:cop	_
+7	to	to	PART	TO	PART	9	mark	9:mark	_
+8	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+9	replenish	replenish	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+10	"	"	PUNCT	''	_	9	punct	9:punct	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	CASH	cash	NOUN	NN	SG;N	9	obj	9:obj|15:nsubj:pass	_
+13	that	that	PRON	WDT	PRO	15	nsubj:pass	12:ref	_
+14	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	15	aux:pass	15:aux:pass	_
+15	drawn	draw	VERB	VBN	PASS;PST;V;V.PTCP	12	acl:relcl	12:acl:relcl	Cxn=rc-that-nsubj:pass
+16	down	down	ADV	RB	ADV	15	advmod	15:advmod	SpaceAfter=No
+17	...	...	PUNCT	,	_	19	punct	19:punct	SpaceAfter=No
+18	please	please	INTJ	UH	INTJ	19	discourse	19:discourse	_
+19	advise	advise	VERB	VB	FIN;V;IMP	9	parataxis	9:parataxis	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = email-enronsent32_02-0026
+# text = I agree with Steve's position stated in his separate e'mail.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	agree	agree	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	6	case	6:case	_
+4-5	Steve's	_	_	_	_	_	_	_	_
+4	Steve	Steve	PROPN	NNP	SG;PROPN	6	nmod:poss	6:nmod:poss	_
+5	's	's	PART	POS	PART	4	case	4:case	_
+6	position	position	NOUN	NN	SG;N	2	obl	2:obl:with	_
+7	stated	state	VERB	VBN	PASS;PST;V;V.PTCP	6	acl	6:acl	_
+8	in	in	ADP	IN	ADP	11	case	11:case	_
+9	his	his	PRON	PRP$	GEN;PRO;3;SG;MASC	11	nmod:poss	11:nmod:poss	_
+10	separate	separate	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	e'mail	e'mail	NOUN	NN	SG;N	7	obl	7:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+

@@ -1,0 +1,68 @@
+# sent_id = email-enronsent26_02-0009
+# text = We have changed our e-mail address.
+1	We	we	PRON	PRP	PRO;PL;1;NOM	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	FIN;PRS;PL;1;V;IND	3	aux	3:aux	_
+3	changed	change	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+4	our	our	PRON	PRP$	PRO;GEN;PL;1	6	nmod:poss	6:nmod:poss	_
+5	e-mail	e-mail	NOUN	NN	SG;N	6	compound	6:compound	_
+6	address	address	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent26_02-0010
+# text = Our new domain name is paulhastings.com.
+1	Our	our	PRON	PRP$	PRO;GEN;PL;1	4	nmod:poss	4:nmod:poss	_
+2	new	new	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	domain	domain	NOUN	NN	SG;N	4	compound	4:compound	_
+4	name	name	NOUN	NN	SG;N	6	nsubj	6:nsubj	_
+5	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	6	cop	6:cop	_
+6	paulhastings.com	paulhastings.com	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent26_02-0011
+# text = In most cases, our address is composed of conventional first name and last name plus @paulhastings.com.
+1	In	in	ADP	IN	ADP	3	case	3:case	_
+2	most	most	ADJ	JJS	ADJ;RL	3	amod	3:amod	_
+3	cases	case	NOUN	NNS	PL;N	8	obl	8:obl:in	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	our	our	PRON	PRP$	PRO;GEN;PL;1	6	nmod:poss	6:nmod:poss	_
+6	address	address	NOUN	NN	SG;N	8	nsubj:pass	8:nsubj:pass	_
+7	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	aux:pass	8:aux:pass	_
+8	composed	compose	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+9	of	of	ADP	IN	ADP	12	case	12:case	_
+10	conventional	conventional	ADJ	JJ	ADJ	12	amod	12:amod	_
+11	first	first	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	name	name	NOUN	NN	SG;N	8	obl	8:obl:of	_
+13	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	last	last	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	name	name	NOUN	NN	SG;N	12	conj	8:obl:of|12:conj:and	_
+16	plus	plus	CCONJ	CC	CONJ	17	cc	17:cc	_
+17	@paulhastings.com	@paulhastings.com	NOUN	NN	SG;N	12	conj	8:obl:of|12:conj:and	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = email-enronsent26_02-0012
+# text = Here are two examples: janesmith@paulhastings.com and danjones@paulhastings.com.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	1	cop	1:cop	_
+3	two	two	NUM	CD	NUM	4	nummod	4:nummod	_
+4	examples	example	NOUN	NNS	PL;N	1	nsubj	1:nsubj	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	janesmith@paulhastings.com	janesmith@paulhastings.com	PROPN	ADD	PROPN	4	appos	4:appos	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	danjones@paulhastings.com	danjones@paulhastings.com	PROPN	ADD	PROPN	6	conj	4:appos|6:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent26_02-0013
+# text = If you have any questions, please contact us at noc@paulhastings.com.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	FIN;PRS;2;V;IND;SG	8	advcl	8:advcl:if	_
+4	any	any	DET	DT	DET	5	det	5:det	_
+5	questions	question	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	please	please	INTJ	UH	INTJ	8	discourse	8:discourse	_
+8	contact	contact	VERB	VB	FIN;V;IMP	0	root	0:root	_
+9	us	we	PRON	PRP	PRO;ACC;PL;1	8	obj	8:obj	_
+10	at	at	ADP	IN	ADP	11	case	11:case	_
+11	noc@paulhastings.com	noc@paulhastings.com	PROPN	ADD	PROPN	8	obl	8:obl:at	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	8:punct	_
+

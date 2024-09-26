@@ -1,0 +1,687 @@
+# sent_id = reviews-280844-0009
+# text = (I am also a little suspicious of all these glowing reviews...)
+1	(	(	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+2	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+3	am	be	AUX	VBP	FIN;SG;V;PRS;IND;1	7	cop	7:cop	_
+4	also	also	ADV	RB	ADV	7	advmod	7:advmod	_
+5	a	a	DET	DT	DET;INDF	6	det	6:det	_
+6	little	little	ADJ	JJ	ADJ	7	obl:npmod	7:obl:npmod	_
+7	suspicious	suspicious	ADJ	JJ	ADJ	0	root	0:root	_
+8	of	of	ADP	IN	ADP	12	case	12:case	_
+9	all	all	DET	PDT	DET	12	det:predet	12:det:predet	_
+10	these	this	DET	DT	DET;PL	12	det	12:det	_
+11	glowing	glow	VERB	VBG	V.MSDR;V	12	amod	12:amod	_
+12	reviews	review	NOUN	NNS	N;PL	7	obl	7:obl:of	SpaceAfter=No
+13	...	...	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
+
+# newdoc id = reviews-399348
+# sent_id = reviews-399348-0001
+# newpar id = reviews-399348-p0001
+# text = Friendly, clean and excellent location
+1	Friendly	friendly	ADJ	JJ	ADJ	6	amod	6:amod	SpaceAfter=No
+2	,	,	PUNCT	,	_	3	punct	3:punct	_
+3	clean	clean	ADJ	JJ	ADJ	1	conj	1:conj:and|6:amod	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	excellent	excellent	ADJ	JJ	ADJ	1	conj	1:conj:and|6:amod	_
+6	location	location	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = reviews-399348-0002
+# newpar id = reviews-399348-p0002
+# text = The staff was very helpful, and gave us good advice on day and night time activities.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	staff	staff	NOUN	NN	N;SG	5	nsubj	5:nsubj|8:nsubj	_
+3	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	5	cop	5:cop	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	helpful	helpful	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	gave	give	VERB	VBD	FIN;SG;V;IND;3;PST	5	conj	5:conj:and	_
+9	us	we	PRON	PRP	PRO;PL;1;ACC	8	iobj	8:iobj	_
+10	good	good	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	advice	advice	NOUN	NN	N;SG	8	obj	8:obj	_
+12	on	on	ADP	IN	ADP	17	case	17:case	_
+13	day	day	NOUN	NN	N;SG	16	compound	16:compound	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	night	night	NOUN	NN	N;SG	13	conj	13:conj:and|16:compound	_
+16	time	time	NOUN	NN	N;SG	17	compound	17:compound	_
+17	activities	activity	NOUN	NNS	N;PL	11	nmod	11:nmod:on	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-399348-0003
+# text = Common room was comfortable and clean, very good room to read or relax. –
+1	Common	common	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	room	room	NOUN	NN	N;SG	4	nsubj	4:nsubj|6:nsubj|10:nsubj	_
+3	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	4	cop	4:cop	_
+4	comfortable	comfortable	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	clean	clean	ADJ	JJ	ADJ	4	conj	4:conj:and	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	very	very	ADV	RB	ADV	9	advmod	9:advmod	_
+9	good	good	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	room	room	NOUN	NN	N;SG	4	conj	4:conj:and	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	read	read	VERB	VB	V;NFIN	10	acl	10:acl:to	_
+13	or	or	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	relax	relax	VERB	VB	V;NFIN	12	conj	10:acl:to|12:conj:or	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+16	–	-	PUNCT	NFP	_	4	punct	4:punct	_
+
+# sent_id = reviews-399348-0004
+# text = A great breakfast which was included every morning until 9:30am; yummy fresh Parisian croissants.
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	great	great	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	breakfast	breakfast	NOUN	NN	N;SG	0	root	0:root|6:nsubj:pass	_
+4	which	which	PRON	WDT	PRO	6	nsubj:pass	3:ref	_
+5	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	6	aux:pass	6:aux:pass	_
+6	included	include	VERB	VBN	V.PTCP;PST;PASS;V	3	acl:relcl	3:acl:relcl	Cxn=rc-wh-nsubj:pass
+7	every	every	DET	DT	DET	8	det	8:det	_
+8	morning	morning	NOUN	NN	N;SG	3	nmod:tmod	3:nmod:tmod	_
+9	until	until	ADP	IN	ADP	11	case	11:case	_
+10	9:30	9:30	NUM	CD	NUM	11	nummod	11:nummod	SpaceAfter=No
+11	am	a.m.	NOUN	NN	N;SG	3	nmod	3:nmod:until	SpaceAfter=No
+12	;	;	PUNCT	,	_	16	punct	16:punct	_
+13	yummy	yummy	ADJ	JJ	ADJ	16	amod	16:amod	_
+14	fresh	fresh	ADJ	JJ	ADJ	16	amod	16:amod	_
+15	Parisian	Parisian	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	croissants	croissant	NOUN	NNS	N;PL	3	appos	3:appos	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# sent_id = reviews-399348-0005
+# text = Comfortable and clean beds, a bit noisy when people were coming in late from a night out, but we didn't mind too much as we were also just coming in from a night out!
+1	Comfortable	comfortable	ADJ	JJ	ADJ	4	amod	4:amod	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	clean	clean	ADJ	JJ	ADJ	1	conj	1:conj:and|4:amod	_
+4	beds	bed	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	bit	bit	NOUN	NN	N;SG	8	obl:npmod	8:obl:npmod	_
+8	noisy	noisy	ADJ	JJ	ADJ	4	amod	4:amod	_
+9	when	when	ADV	WRB	ADV	12	advmod	12:advmod	_
+10	people	people	NOUN	NNS	N;PL	12	nsubj	12:nsubj	_
+11	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	12	aux	12:aux	_
+12	coming	come	VERB	VBG	V.PTCP;V;PRS	8	advcl	8:advcl:when	_
+13	in	in	ADV	RB	ADV	12	advmod	12:advmod	_
+14	late	late	ADV	RB	ADV	12	advmod	12:advmod	_
+15	from	from	ADP	IN	ADP	17	case	17:case	_
+16	a	a	DET	DT	DET;INDF	17	det	17:det	_
+17	night	night	NOUN	NN	N;SG	12	obl	12:obl:from	_
+18	out	out	ADV	RB	ADV	17	advmod	17:advmod	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	24:punct	_
+20	but	but	CCONJ	CC	CONJ	24	cc	24:cc	_
+21	we	we	PRON	PRP	PRO;PL;NOM;1	24	nsubj	24:nsubj	_
+22-23	didn't	_	_	_	_	_	_	_	_
+22	did	do	AUX	VBD	FIN;V;PST;IND;PL;1	24	aux	24:aux	_
+23	n't	not	PART	RB	PART	24	advmod	24:advmod	_
+24	mind	mind	VERB	VB	V;NFIN	8	conj	4:amod|8:conj:but	_
+25	too	too	ADV	RB	ADV	26	advmod	26:advmod	_
+26	much	much	ADV	RB	ADV	24	advmod	24:advmod	_
+27	as	as	SCONJ	IN	CONJ	32	mark	32:mark	_
+28	we	we	PRON	PRP	PRO;PL;NOM;1	32	nsubj	32:nsubj	_
+29	were	be	AUX	VBD	FIN;V;PST;IND;PL;1	32	aux	32:aux	_
+30	also	also	ADV	RB	ADV	32	advmod	32:advmod	_
+31	just	just	ADV	RB	ADV	32	advmod	32:advmod	_
+32	coming	come	VERB	VBG	V.PTCP;V;PRS	24	advcl	24:advcl:as	_
+33	in	in	ADV	RB	ADV	32	advmod	32:advmod	_
+34	from	from	ADP	IN	ADP	36	case	36:case	_
+35	a	a	DET	DT	DET;INDF	36	det	36:det	_
+36	night	night	NOUN	NN	N;SG	32	obl	32:obl:from	_
+37	out	out	ADV	RB	ADV	36	advmod	36:advmod	SpaceAfter=No
+38	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-399348-0006
+# text = The location is really stellar!
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	location	location	NOUN	NN	N;SG	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+4	really	really	ADV	RB	ADV	5	advmod	5:advmod	_
+5	stellar	stellar	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	!	!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-399348-0007
+# text = It is next to Gare du Nord and a five minute walk to Sacre Coeur which is excellent for shopping.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	5	nsubj	5:nsubj|12:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	cop	5:cop	_
+3	next	next	ADV	RB	ADV	5	case	5:case	_
+4	to	to	ADP	IN	ADP	5	case	5:case	_
+5	Gare	Gare	PROPN	NNP	PROPN;SG	0	root	0:root	_
+6	du	du	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+7	Nord	Nord	PROPN	NNP	PROPN;SG	5	flat	5:flat	_
+8	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+9	a	a	DET	DT	DET;INDF	12	det	12:det	_
+10	five	five	NUM	CD	NUM	11	nummod	11:nummod	_
+11	minute	minute	NOUN	NN	N;SG	12	nmod:tmod	12:nmod:tmod	_
+12	walk	walk	NOUN	NN	N;SG	5	conj	5:conj:and	_
+13	to	to	ADP	IN	ADP	15	case	15:case	_
+14	Sacre	Sacre	PROPN	NNP	PROPN;SG	15	compound	15:compound|18:nsubj	_
+15	Coeur	Coeur	PROPN	NNP	PROPN;SG	12	nmod	12:nmod:to	_
+16	which	which	PRON	WDT	PRO	18	nsubj	14:ref	_
+17	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	18	cop	18:cop	_
+18	excellent	excellent	ADJ	JJ	ADJ	14	acl:relcl	14:acl:relcl	Cxn=rc-wh-nsubj
+19	for	for	ADP	IN	ADP	20	case	20:case	_
+20	shopping	shopping	NOUN	NN	N;SG	18	obl	18:obl:for	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-399348-0008
+# text = It is close to bus lines for Opera Plaza, Galleries Lafayette , and the famous flea Market.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	3	cop	3:cop	_
+3	close	close	ADJ	JJ	ADJ	0	root	0:root	_
+4	to	to	ADP	IN	ADP	6	case	6:case	_
+5	bus	bus	NOUN	NN	N;SG	6	compound	6:compound	_
+6	lines	line	NOUN	NNS	N;PL	3	obl	3:obl:to	_
+7	for	for	ADP	IN	ADP	9	case	9:case	_
+8	Opera	Opera	PROPN	NNP	PROPN;SG	9	compound	9:compound	_
+9	Plaza	Plaza	PROPN	NNP	PROPN;SG	6	nmod	6:nmod:for	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	Galleries	Gallery	PROPN	NNPS	PROPN;PL	12	compound	12:compound	_
+12	Lafayette	Lafayette	PROPN	NNP	PROPN;SG	9	conj	6:nmod:for|9:conj:and	_
+13	,	,	PUNCT	,	_	18	punct	18:punct	_
+14	and	and	CCONJ	CC	CONJ	18	cc	18:cc	_
+15	the	the	DET	DT	DEF;DET	18	det	18:det	_
+16	famous	famous	ADJ	JJ	ADJ	18	amod	18:amod	_
+17	flea	flea	NOUN	NN	N;SG	18	compound	18:compound	_
+18	Market	market	NOUN	NN	N;SG	9	conj	6:nmod:for|9:conj:and	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-399348-0009
+# text = We really enjoyed our stay and would definitely stay at the Vintage Hostel again.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	3	nsubj	3:nsubj|9:nsubj	_
+2	really	really	ADV	RB	ADV	3	advmod	3:advmod	_
+3	enjoyed	enjoy	VERB	VBD	FIN;V;PST;IND;PL;1	0	root	0:root	_
+4	our	our	PRON	PRP$	PRO;PL;GEN;1	5	nmod:poss	5:nmod:poss	_
+5	stay	stay	NOUN	NN	N;SG	3	obj	3:obj	_
+6	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+7	would	would	AUX	MD	V;FIN	9	aux	9:aux	_
+8	definitely	definitely	ADV	RB	ADV	9	advmod	9:advmod	_
+9	stay	stay	VERB	VB	V;NFIN	3	conj	3:conj:and	_
+10	at	at	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DEF;DET	13	det	13:det	_
+12	Vintage	Vintage	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	Hostel	Hostel	PROPN	NNP	PROPN;SG	9	obl	9:obl:at	_
+14	again	again	ADV	RB	ADV	9	advmod	9:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-295288
+# sent_id = reviews-295288-0001
+# newpar id = reviews-295288-p0001
+# text = Just Autos Thank you!
+1	Just	Just	ADV	NNP	ADV	2	advmod	2:advmod	_
+2	Autos	Auto	PROPN	NNPS	PROPN;PL	3	vocative	3:vocative	_
+3	Thank	thank	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+4	you	you	PRON	PRP	PRO;2;NOM	3	obj	3:obj	SpaceAfter=No
+5	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-295288-0002
+# text = Was fast and easy, Just had our car returned this morning, I would recommend these Mobile Mechanics for sure.
+1	Was	be	AUX	VBD	FIN;SG;V;IND;3;PST	2	cop	2:cop	_
+2	fast	fast	ADJ	JJ	ADJ	0	root	0:root	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	easy	easy	ADJ	JJ	ADJ	2	conj	2:conj:and	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	Just	just	ADV	RB	ADV	7	advmod	7:advmod	_
+7	had	have	VERB	VBD	FIN;V;PST;IND;PL;1	2	parataxis	2:parataxis	_
+8	our	our	PRON	PRP$	PRO;PL;GEN;1	9	nmod:poss	9:nmod:poss	_
+9	car	car	NOUN	NN	N;SG	7	obj	7:obj|10:nsubj:xsubj	_
+10	returned	return	VERB	VBN	V.PTCP;PST;PASS;V	7	xcomp	7:xcomp	_
+11	this	this	DET	DT	DET;SG	12	det	12:det	_
+12	morning	morning	NOUN	NN	N;SG	10	obl:tmod	10:obl:tmod	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	I	I	PRON	PRP	SG;PRO;NOM;1	16	nsubj	16:nsubj	_
+15	would	would	AUX	MD	V;FIN	16	aux	16:aux	_
+16	recommend	recommend	VERB	VB	V;NFIN	2	parataxis	2:parataxis	_
+17	these	this	DET	DT	DET;PL	19	det	19:det	_
+18	Mobile	mobile	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	Mechanics	mechanic	NOUN	NNS	N;PL	16	obj	16:obj	_
+20	for	for	ADP	IN	ADP	21	case	21:case	_
+21	sure	sure	ADJ	JJ	ADJ	16	obl	16:obl:for	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-295288-0003
+# text = They certainly know what they are doing.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	3	nsubj	3:nsubj	_
+2	certainly	certainly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	know	know	VERB	VBP	FIN;V;PRS;IND;3;PL	0	root	0:root	_
+4	what	what	PRON	WP	PRO	7	obj	7:obj	_
+5	they	they	PRON	PRP	PRO;3;PL;NOM	7	nsubj	7:nsubj	_
+6	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	7	aux	7:aux	_
+7	doing	do	VERB	VBG	V.PTCP;V;PRS	3	ccomp	3:ccomp	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-295288-0004
+# text = The mechanic came to our place and sorted out our cars problems, he explained the problem and was very up front and honest, it was towed to the workshop as the gearbox was not working (he explained it better).
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	mechanic	mechanic	NOUN	NN	N;SG	3	nsubj	3:nsubj|8:nsubj	_
+3	came	come	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+4	to	to	ADP	IN	ADP	6	case	6:case	_
+5	our	our	PRON	PRP$	PRO;PL;GEN;1	6	nmod:poss	6:nmod:poss	_
+6	place	place	NOUN	NN	N;SG	3	obl	3:obl:to	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	sorted	sort	VERB	VBD	FIN;SG;V;IND;3;PST	3	conj	3:conj:and	_
+9	out	out	ADP	RP	ADP	8	compound:prt	8:compound:prt	_
+10	our	our	PRON	PRP$	PRO;PL;GEN;1	11	nmod:poss	11:nmod:poss	_
+11-12	cars	_	_	_	_	_	_	_	_
+11	car	car	NOUN	NN	N;SG	13	nmod:poss	13:nmod:poss	_
+12	s	's	PART	POS	PART	11	case	11:case	CorrectForm='s
+13	problems	problem	NOUN	NNS	N;PL	8	obj	8:obj	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	16:punct	_
+15	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	16	nsubj	16:nsubj|23:nsubj	_
+16	explained	explain	VERB	VBD	FIN;SG;V;IND;3;PST	3	parataxis	3:parataxis	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	problem	problem	NOUN	NN	N;SG	16	obj	16:obj	_
+19	and	and	CCONJ	CC	CONJ	23	cc	23:cc	_
+20	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	23	cop	23:cop	_
+21	very	very	ADV	RB	ADV	23	advmod	23:advmod	_
+22	up	up	ADJ	JJ	ADJ	23	compound	23:compound	_
+23	front	front	ADJ	JJ	ADJ	16	conj	16:conj:and	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	honest	honest	ADJ	JJ	ADJ	23	conj	23:conj:and	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	29:punct	_
+27	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	29	nsubj:pass	29:nsubj:pass	_
+28	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	29	aux:pass	29:aux:pass	_
+29	towed	tow	VERB	VBN	V.PTCP;PST;PASS;V	3	parataxis	3:parataxis	_
+30	to	to	ADP	IN	ADP	32	case	32:case	_
+31	the	the	DET	DT	DEF;DET	32	det	32:det	_
+32	workshop	workshop	NOUN	NN	N;SG	29	obl	29:obl:to	_
+33	as	as	SCONJ	IN	CONJ	38	mark	38:mark	_
+34	the	the	DET	DT	DEF;DET	35	det	35:det	_
+35	gearbox	gearbox	NOUN	NN	N;SG	38	nsubj	38:nsubj	_
+36	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	38	aux	38:aux	_
+37	not	not	PART	RB	PART	38	advmod	38:advmod	_
+38	working	work	VERB	VBG	V.PTCP;V;PRS	29	advcl	29:advcl:as	_
+39	(	(	PUNCT	-LRB-	_	41	punct	41:punct	SpaceAfter=No
+40	he	he	PRON	PRP	SG;MASC;PRO;3;NOM	41	nsubj	41:nsubj	_
+41	explained	explain	VERB	VBD	FIN;SG;V;IND;3;PST	3	parataxis	3:parataxis	_
+42	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	41	obj	41:obj	_
+43	better	well	ADV	RBR	ADV;CMPR	41	advmod	41:advmod	SpaceAfter=No
+44	)	)	PUNCT	-RRB-	_	41	punct	41:punct	SpaceAfter=No
+45	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-295288-0005
+# text = They phoned the same day, confirmed it was the gearbox quoted me the job, I gave the go ahead.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	2	nsubj	2:nsubj|7:nsubj|12:nsubj	_
+2	phoned	phone	VERB	VBD	FIN;V;IND;3;PST;PL	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	same	same	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	day	day	NOUN	NN	N;SG	2	obl:tmod	2:obl:tmod	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	confirmed	confirm	VERB	VBD	FIN;V;IND;3;PST;PL	2	conj	2:conj	_
+8	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	11	nsubj	11:nsubj	_
+9	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	11	cop	11:cop	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	gearbox	gearbox	NOUN	NN	N;SG	7	ccomp	7:ccomp	_
+12	quoted	quote	VERB	VBD	FIN;V;IND;3;PST;PL	2	conj	2:conj	_
+13	me	I	PRON	PRP	SG;PRO;1;ACC	12	iobj	12:iobj	_
+14	the	the	DET	DT	DEF;DET	15	det	15:det	_
+15	job	job	NOUN	NN	N;SG	12	obj	12:obj	SpaceAfter=No
+16	,	,	PUNCT	,	_	18	punct	18:punct	_
+17	I	I	PRON	PRP	SG;PRO;NOM;1	18	nsubj	18:nsubj	_
+18	gave	give	VERB	VBD	FIN;SG;V;IND;PST;1	2	parataxis	2:parataxis	_
+19	the	the	DET	DT	DEF;DET	21	det	21:det	_
+20	go	go	NOUN	NN	N;SG	21	compound	21:compound	_
+21	ahead	ahead	NOUN	NN	N;SG	18	obj	18:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-295288-0006
+# text = Now my cars gears and brakes have never run so well... ever its like driving a new car.
+1	Now	now	ADV	RB	ADV	10	advmod	10:advmod	_
+2	my	my	PRON	PRP$	SG;PRO;GEN;1	3	nmod:poss	3:nmod:poss	_
+3-4	cars	_	_	_	_	_	_	_	_
+3	car	car	NOUN	NN	N;SG	5	nmod:poss	5:nmod:poss	_
+4	s	's	PART	POS	PART	3	case	3:case	CorrectForm='s
+5	gears	gear	NOUN	NNS	N;PL	10	nsubj	10:nsubj	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	brakes	brake	NOUN	NNS	N;PL	5	conj	5:conj:and|10:nsubj	_
+8	have	have	AUX	VBP	FIN;V;PRS;IND;3;PL	10	aux	10:aux	_
+9	never	never	ADV	RB	ADV	10	advmod	10:advmod	_
+10	run	run	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+11	so	so	ADV	RB	ADV	12	advmod	12:advmod	_
+12	well	well	ADV	RB	ADV	10	advmod	10:advmod	SpaceAfter=No
+13	...	...	PUNCT	,	_	14	punct	14:punct	_
+14	ever	ever	ADV	RB	ADV	10	advmod	10:advmod	_
+15-16	its	_	_	_	_	_	_	_	_
+15	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	18	nsubj:outer	18:nsubj:outer	_
+16	s	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	18	cop	18:cop	CorrectForm='s
+17	like	like	SCONJ	IN	CONJ	18	mark	18:mark	_
+18	driving	drive	VERB	VBG	V.PTCP;V;PRS	10	parataxis	10:parataxis	_
+19	a	a	DET	DT	DET;INDF	21	det	21:det	_
+20	new	new	ADJ	JJ	ADJ	21	amod	21:amod	_
+21	car	car	NOUN	NN	N;SG	18	obj	18:obj	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = reviews-295288-0007
+# text = So yes, I wouldn't hesitate in recommending the team at Just Autos for easy professional car repairs,Thank you Just Autos for your help.
+1	So	so	ADV	RB	ADV	7	advmod	7:advmod	_
+2	yes	yes	INTJ	UH	INTJ	7	discourse	7:discourse	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+5-6	wouldn't	_	_	_	_	_	_	_	_
+5	would	would	AUX	MD	V;FIN	7	aux	7:aux	_
+6	n't	not	PART	RB	PART	7	advmod	7:advmod	_
+7	hesitate	hesitate	VERB	VB	V;NFIN	0	root	0:root	_
+8	in	in	SCONJ	IN	CONJ	9	mark	9:mark	_
+9	recommending	recommend	VERB	VBG	V.PTCP;V;PRS	7	advcl	7:advcl:in	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	team	team	NOUN	NN	N;SG	9	obj	9:obj	_
+12	at	at	ADP	IN	ADP	14	case	14:case	_
+13	Just	Just	ADV	NNP	ADV	14	advmod	14:advmod	_
+14	Autos	Auto	PROPN	NNPS	PROPN;PL	11	nmod	11:nmod:at	_
+15	for	for	ADP	IN	ADP	19	case	19:case	_
+16	easy	easy	ADJ	JJ	ADJ	19	amod	19:amod	_
+17	professional	professional	ADJ	JJ	ADJ	19	amod	19:amod	_
+18	car	car	NOUN	NN	N;SG	19	compound	19:compound	_
+19	repairs	repair	NOUN	NNS	N;PL	9	obl	9:obl:for	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	SpaceAfter=No
+21	Thank	thank	VERB	VBP	FIN;SG;V;PRS;IND;1	7	parataxis	7:parataxis	_
+22	you	you	PRON	PRP	PRO;2;ACC	21	obj	21:obj	_
+23	Just	Just	ADV	NNP	ADV	24	advmod	24:advmod	_
+24	Autos	Auto	PROPN	NNPS	PROPN;PL	21	vocative	21:vocative	_
+25	for	for	ADP	IN	ADP	27	case	27:case	_
+26	your	your	PRON	PRP$	2;PRO;GEN	27	nmod:poss	27:nmod:poss	_
+27	help	help	NOUN	NN	N;SG	21	obl	21:obl:for	SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# newdoc id = reviews-360937
+# sent_id = reviews-360937-0001
+# newpar id = reviews-360937-p0001
+# text = I stopped in today @ Yards Brewery.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	stopped	stop	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+3	in	in	ADV	RB	ADV	2	advmod	2:advmod	_
+4	today	today	NOUN	NN	N;SG	2	obl:tmod	2:obl:tmod	_
+5	@	@	ADP	IN	ADP	7	case	7:case	_
+6	Yards	Yards	PROPN	NNP	PROPN;SG	7	compound	7:compound	_
+7	Brewery	Brewery	PROPN	NNP	PROPN;SG	2	obl	2:obl:at	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-360937-0002
+# text = I must say, I was impressed with the size of the bar area and lounge, & I liked that you could see the brewery right thru the glass!
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj	_
+2	must	must	AUX	MD	V;FIN	3	aux	3:aux	_
+3	say	say	VERB	VB	V;NFIN	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+6	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	7	cop	7:cop	_
+7	impressed	impressed	ADJ	JJ	ADJ	3	ccomp	3:ccomp	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	size	size	NOUN	NN	N;SG	7	obl	7:obl:with	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	bar	bar	NOUN	NN	N;SG	14	compound	14:compound	_
+14	area	area	NOUN	NN	N;SG	10	nmod	10:nmod:of	_
+15	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	lounge	lounge	NOUN	NN	N;SG	14	conj	10:nmod:of|14:conj:and	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	&	&	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	I	I	PRON	PRP	SG;PRO;NOM;1	20	nsubj	20:nsubj	_
+20	liked	like	VERB	VBD	FIN;SG;V;IND;PST;1	3	conj	3:conj	_
+21	that	that	SCONJ	IN	CONJ	24	mark	24:mark	_
+22	you	you	PRON	PRP	PRO;2;NOM	24	nsubj	24:nsubj	_
+23	could	could	AUX	MD	V;FIN	24	aux	24:aux	_
+24	see	see	VERB	VB	V;NFIN	20	ccomp	20:ccomp	_
+25	the	the	DET	DT	DEF;DET	26	det	26:det	_
+26	brewery	brewery	NOUN	NN	N;SG	24	obj	24:obj	_
+27	right	right	ADV	RB	ADV	30	advmod	30:advmod	_
+28	thru	through	ADP	IN	ADP	30	case	30:case	_
+29	the	the	DET	DT	DEF;DET	30	det	30:det	_
+30	glass	glass	NOUN	NN	N;SG	24	obl	24:obl:through	SpaceAfter=No
+31	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-360937-0003
+# text = I had a sampler of IPA, Brawler, Love Stout & ESA.
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	had	have	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	sampler	sampler	NOUN	NN	N;SG	2	obj	2:obj	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	IPA	ipa	NOUN	NN	N;SG	4	nmod	4:nmod:of	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	Brawler	Brawler	PROPN	NNP	PROPN;SG	6	conj	4:nmod:of|6:conj	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	11:punct	_
+10	Love	Love	PROPN	NNP	PROPN;SG	11	compound	11:compound	_
+11	Stout	Stout	PROPN	NNP	PROPN;SG	6	conj	4:nmod:of|6:conj	_
+12	&	&	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	ESA	esa	NOUN	NN	N;SG	6	conj	4:nmod:of|6:conj	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-360937-0004
+# text = All were awesome, & I had a Dogwood Grilled Cheese which was enjoyable with the fine beers.
+1	All	all	DET	DT	DET	3	nsubj	3:nsubj	_
+2	were	be	AUX	VBD	FIN;V;IND;3;PST;PL	3	cop	3:cop	_
+3	awesome	awesome	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	&	&	CCONJ	CC	CONJ	7	cc	7:cc	_
+6	I	I	PRON	PRP	SG;PRO;NOM;1	7	nsubj	7:nsubj	_
+7	had	have	VERB	VBD	FIN;SG;V;IND;PST;1	3	conj	3:conj	_
+8	a	a	DET	DT	DET;INDF	11	det	11:det	_
+9	Dogwood	dogwood	NOUN	NN	N;SG	11	compound	11:compound	_
+10	Grilled	grill	VERB	VBN	V.PTCP;PST;PASS;V	11	amod	11:amod	_
+11	Cheese	cheese	NOUN	NN	N;SG	7	obj	7:obj|14:nsubj	_
+12	which	which	PRON	WDT	PRO	14	nsubj	11:ref	_
+13	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	14	cop	14:cop	_
+14	enjoyable	enjoyable	ADJ	JJ	ADJ	11	acl:relcl	11:acl:relcl	Cxn=rc-wh-nsubj
+15	with	with	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	fine	fine	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	beers	beer	NOUN	NNS	N;PL	14	obl	14:obl:with	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-360937-0005
+# text = After my sampler & sandwich, I asked for a pint of there Nitrogen Love Stout, I must say I was impressed, with the great taste & I am a Guiness Lover so coming from me, I think this is better, its less dry & smoother!
+1	After	after	ADP	IN	ADP	3	case	3:case	_
+2	my	my	PRON	PRP$	SG;PRO;GEN;1	3	nmod:poss	3:nmod:poss	_
+3	sampler	sampler	NOUN	NN	N;SG	8	obl	8:obl:after	_
+4	&	&	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	sandwich	sandwich	NOUN	NN	N;SG	3	conj	3:conj|8:obl:after	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	I	I	PRON	PRP	SG;PRO;NOM;1	8	nsubj	8:nsubj	_
+8	asked	ask	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+9	for	for	ADP	IN	ADP	11	case	11:case	_
+10	a	a	DET	DT	DET;INDF	11	det	11:det	_
+11	pint	pint	NOUN	NN	N;SG	8	obl	8:obl:for	_
+12	of	of	ADP	IN	ADP	16	case	16:case	_
+13	there	their	PRON	PRP$	PRO;3;PL;GEN	16	nmod:poss	16:nmod:poss	CorrectForm=their
+14	Nitrogen	Nitrogen	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+15	Love	Love	PROPN	NNP	PROPN;SG	16	compound	16:compound	_
+16	Stout	Stout	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:of	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	I	I	PRON	PRP	SG;PRO;NOM;1	20	nsubj	20:nsubj	_
+19	must	must	AUX	MD	V;FIN	20	aux	20:aux	_
+20	say	say	VERB	VB	V;NFIN	8	conj	8:conj	_
+21	I	I	PRON	PRP	SG;PRO;NOM;1	23	nsubj	23:nsubj	_
+22	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	23	cop	23:cop	_
+23	impressed	impressed	ADJ	JJ	ADJ	20	ccomp	20:ccomp	SpaceAfter=No
+24	,	,	PUNCT	,	_	28	punct	28:punct	_
+25	with	with	ADP	IN	ADP	28	case	28:case	_
+26	the	the	DET	DT	DEF;DET	28	det	28:det	_
+27	great	great	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	taste	taste	NOUN	NN	N;SG	23	obl	23:obl:with	_
+29	&	&	CCONJ	CC	CONJ	34	cc	34:cc	_
+30	I	I	PRON	PRP	SG;PRO;NOM;1	34	nsubj	34:nsubj	_
+31	am	be	AUX	VBP	FIN;SG;V;PRS;IND;1	34	cop	34:cop	_
+32	a	a	DET	DT	DET;INDF	34	det	34:det	_
+33	Guiness	Guinness	PROPN	NNP	PROPN;SG	34	compound	34:compound	CorrectForm=Guinness
+34	Lover	lover	NOUN	NN	N;SG	8	conj	8:conj	_
+35	so	so	ADV	RB	ADV	41	advmod	41:advmod	_
+36	coming	come	VERB	VBG	V.PTCP;V;PRS	41	advcl	41:advcl	_
+37	from	from	ADP	IN	ADP	38	case	38:case	_
+38	me	I	PRON	PRP	SG;PRO;1;ACC	36	obl	36:obl:from	SpaceAfter=No
+39	,	,	PUNCT	,	_	36	punct	36:punct	_
+40	I	I	PRON	PRP	SG;PRO;NOM;1	41	nsubj	41:nsubj	_
+41	think	think	VERB	VBP	FIN;SG;V;PRS;IND;1	8	parataxis	8:parataxis	_
+42	this	this	PRON	DT	PRO;SG	44	nsubj	44:nsubj	_
+43	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	44	cop	44:cop	_
+44	better	good	ADJ	JJR	ADJ;CMPR	41	ccomp	41:ccomp	SpaceAfter=No
+45	,	,	PUNCT	,	_	49	punct	49:punct	_
+46-47	its	_	_	_	_	_	_	_	_
+46	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	49	nsubj	49:nsubj|51:nsubj	_
+47	s	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	49	cop	49:cop	CorrectForm='s
+48	less	less	ADV	RBR	ADV;CMPR	49	advmod	49:advmod	_
+49	dry	dry	ADJ	JJ	ADJ	44	parataxis	41:ccomp|44:parataxis	_
+50	&	&	CCONJ	CC	CONJ	51	cc	51:cc	_
+51	smoother	smooth	ADJ	JJR	ADJ;CMPR	49	conj	49:conj	SpaceAfter=No
+52	!	!	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-360937-0006
+# text = If you are in Philly you have to come check this place out!
+1	If	if	SCONJ	IN	CONJ	5	mark	5:mark	_
+2	you	you	PRON	PRP	PRO;2;NOM	5	nsubj	5:nsubj	_
+3	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	5	cop	5:cop	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	Philly	Philly	PROPN	NNP	PROPN;SG	7	advcl	7:advcl:in	_
+6	you	you	PRON	PRP	PRO;2;NOM	7	nsubj	7:nsubj|9:nsubj:xsubj|10:nsubj:xsubj	_
+7	have	have	VERB	VBP	2;FIN;SG;V;PRS;IND	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	come	come	VERB	VB	V;NFIN	7	xcomp	7:xcomp	_
+10	check	check	VERB	VB	V;NFIN	9	xcomp	9:xcomp	_
+11	this	this	DET	DT	DET;SG	12	det	12:det	_
+12	place	place	NOUN	NN	N;SG	10	obj	10:obj	_
+13	out	out	ADP	RP	ADP	10	compound:prt	10:compound:prt	SpaceAfter=No
+14	!	!	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-360937-0007
+# text = The only negative I have abou this place is the parking!
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	only	only	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	negative	negative	NOUN	NN	N;SG	11	nsubj	5:obj|11:nsubj	_
+4	I	I	PRON	PRP	SG;PRO;NOM;1	5	nsubj	5:nsubj	_
+5	have	have	VERB	VBP	FIN;SG;V;PRS;IND;1	3	acl:relcl	3:acl:relcl	Cxn=rc-red-obj
+6	abou	about	ADP	IN	ADP	8	case	8:case	CorrectForm=about
+7	this	this	DET	DT	DET;SG	8	det	8:det	_
+8	place	place	NOUN	NN	N;SG	3	nmod	3:nmod:about	_
+9	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	11	cop	11:cop	_
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	parking	parking	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+12	!	!	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = reviews-360937-0008
+# text = I left with a case of BRAWLER!!!!!
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	left	leave	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+3	with	with	ADP	IN	ADP	5	case	5:case	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	case	case	NOUN	NN	N;SG	2	obl	2:obl:with	_
+6	of	of	ADP	IN	ADP	7	case	7:case	_
+7	BRAWLER	BRAWLER	PROPN	NNP	PROPN;SG	5	nmod	5:nmod:of	SpaceAfter=No
+8	!!!!	!!!!	PUNCT	.	_	2	punct	2:punct	SpaceAfter=No
+9	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-091704
+# sent_id = reviews-091704-0001
+# newpar id = reviews-091704-p0001
+# text = Oil Change Disaster
+1	Oil	oil	NOUN	NN	N;SG	2	compound	2:compound	_
+2	Change	change	NOUN	NN	N;SG	3	compound	3:compound	_
+3	Disaster	disaster	NOUN	NN	N;SG	0	root	0:root	_
+
+# sent_id = reviews-091704-0002
+# newpar id = reviews-091704-p0002
+# text = My wife had taken her '07 Ford Fusion in for a routine oil change.
+1	My	my	PRON	PRP$	SG;PRO;GEN;1	2	nmod:poss	2:nmod:poss	_
+2	wife	wife	NOUN	NN	N;SG	4	nsubj	4:nsubj	_
+3	had	have	AUX	VBD	FIN;SG;V;IND;3;PST	4	aux	4:aux	_
+4	taken	take	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+5	her	her	PRON	PRP$	FEM;SG;PRO;3;GEN	8	nmod:poss	8:nmod:poss	_
+6	'07	'07	NUM	CD	NUM	8	nummod	8:nummod	_
+7	Ford	Ford	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8	Fusion	Fusion	PROPN	NNP	PROPN;SG	4	obj	4:obj	_
+9	in	in	ADV	RB	ADV	4	advmod	4:advmod	_
+10	for	for	ADP	IN	ADP	14	case	14:case	_
+11	a	a	DET	DT	DET;INDF	14	det	14:det	_
+12	routine	routine	ADJ	JJ	ADJ	14	amod	14:amod	_
+13	oil	oil	NOUN	NN	N;SG	14	compound	14:compound	_
+14	change	change	NOUN	NN	N;SG	4	obl	4:obl:for	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-091704-0003
+# text = A couple days after the oil change, the engine ran rough, the low oil pressure light would come on sporadically, and the engine would whir loudly.
+1	A	a	DET	DT	DET;INDF	2	det	2:det	_
+2	couple	couple	NOUN	NN	N;SG	3	nmod:npmod	3:nmod:npmod	_
+3	days	day	NOUN	NNS	N;PL	7	nmod:npmod	7:nmod:npmod	_
+4	after	after	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	oil	oil	NOUN	NN	N;SG	7	compound	7:compound	_
+7	change	change	NOUN	NN	N;SG	11	obl	11:obl:after	SpaceAfter=No
+8	,	,	PUNCT	,	_	7	punct	7:punct	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	engine	engine	NOUN	NN	N;SG	11	nsubj	11:nsubj	_
+11	ran	run	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+12	rough	rough	ADV	RB	ADV	11	advmod	11:advmod	SpaceAfter=No
+13	,	,	PUNCT	,	_	20	punct	20:punct	_
+14	the	the	DET	DT	DEF;DET	18	det	18:det	_
+15	low	low	ADJ	JJ	ADJ	17	amod	17:amod	_
+16	oil	oil	NOUN	NN	N;SG	17	compound	17:compound	_
+17	pressure	pressure	NOUN	NN	N;SG	18	compound	18:compound	_
+18	light	light	NOUN	NN	N;SG	20	nsubj	20:nsubj	_
+19	would	would	AUX	MD	V;FIN	20	aux	20:aux	_
+20	come	come	VERB	VB	V;NFIN	11	conj	11:conj:and	_
+21	on	on	ADP	RP	ADP	20	compound:prt	20:compound:prt	_
+22	sporadically	sporadically	ADV	RB	ADV	20	advmod	20:advmod	SpaceAfter=No
+23	,	,	PUNCT	,	_	28	punct	28:punct	_
+24	and	and	CCONJ	CC	CONJ	28	cc	28:cc	_
+25	the	the	DET	DT	DEF;DET	26	det	26:det	_
+26	engine	engine	NOUN	NN	N;SG	28	nsubj	28:nsubj	_
+27	would	would	AUX	MD	V;FIN	28	aux	28:aux	_
+28	whir	whir	VERB	VB	V;NFIN	11	conj	11:conj:and	_
+29	loudly	loudly	ADV	RB	ADV	28	advmod	28:advmod	SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = reviews-091704-0004
+# text = Turns out the engine had no oil, and when oil was put it, it would just run out of the filter.
+1	Turns	turn	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+2	out	out	ADP	RP	ADP	1	compound:prt	1:compound:prt	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	engine	engine	NOUN	NN	N;SG	5	nsubj	5:nsubj	_
+5	had	have	VERB	VBD	FIN;SG;V;IND;3;PST	1	ccomp	1:ccomp	_
+6	no	no	DET	DT	DET	7	det	7:det	_
+7	oil	oil	NOUN	NN	N;SG	5	obj	5:obj	SpaceAfter=No
+8	,	,	PUNCT	,	_	19	punct	19:punct	_
+9	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+10	when	when	ADV	WRB	ADV	13	advmod	13:advmod	_
+11	oil	oil	NOUN	NN	N;SG	13	nsubj:pass	13:nsubj:pass	_
+12	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	13	aux:pass	13:aux:pass	_
+13	put	put	VERB	VBN	V.PTCP;PST;PASS;V	19	advcl	19:advcl:when	_
+14	it	in	ADV	RB	ADV	13	advmod	13:advmod	CorrectForm=in|SpaceAfter=No
+15	,	,	PUNCT	,	_	13	punct	13:punct	_
+16	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	19	nsubj	19:nsubj	_
+17	would	would	AUX	MD	V;FIN	19	aux	19:aux	_
+18	just	just	ADV	RB	ADV	19	advmod	19:advmod	_
+19	run	run	VERB	VB	V;NFIN	5	conj	1:ccomp|5:conj:and	_
+20	out	out	ADP	IN	ADP	23	case	23:case	_
+21	of	of	ADP	IN	ADP	23	case	23:case	_
+22	the	the	DET	DT	DEF;DET	23	det	23:det	_
+23	filter	filter	NOUN	NN	N;SG	19	obl	19:obl:of	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-091704-0005
+# text = There could have (hopefully doesn't have) major damage to the engine.
+1	There	there	PRON	EX	PRO	3	expl	3:expl	_
+2	could	could	AUX	MD	V;FIN	3	aux	3:aux	_
+3	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+4	(	(	PUNCT	-LRB-	_	8	punct	8:punct	SpaceAfter=No
+5	hopefully	hopefully	ADV	RB	ADV	8	advmod	8:advmod	_
+6-7	doesn't	_	_	_	_	_	_	_	_
+6	does	do	AUX	VBZ	FIN;SG;V;PRS;IND;3	8	aux	8:aux	_
+7	n't	not	PART	RB	PART	8	advmod	8:advmod	_
+8	have	have	AUX	VB	V;NFIN	3	parataxis	3:parataxis	SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	punct	8:punct	_
+10	major	major	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	damage	damage	NOUN	NN	N;SG	3	obj	3:obj	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	engine	engine	NOUN	NN	N;SG	11	nmod	11:nmod:to	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-091704-0006
+# text = All of this started after their oil change.
+1	All	all	DET	DT	DET	4	nsubj	4:nsubj	_
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	this	this	PRON	DT	PRO;SG	1	nmod	1:nmod:of	_
+4	started	start	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+5	after	after	ADP	IN	ADP	8	case	8:case	_
+6	their	their	PRON	PRP$	PRO;3;PL;GEN	8	nmod:poss	8:nmod:poss	_
+7	oil	oil	NOUN	NN	N;SG	8	compound	8:compound	_
+8	change	change	NOUN	NN	N;SG	4	obl	4:obl:after	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	4:punct	_
+

@@ -1,0 +1,132 @@
+# sent_id = reviews-251475-0005
+# text = Thanks Josh!
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	_
+2	Josh	Josh	PROPN	NNP	SG;PROPN	1	vocative	1:vocative	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-313558
+# sent_id = reviews-313558-0001
+# newpar id = reviews-313558-p0001
+# text = Dentist you can trust
+1	Dentist	dentist	NOUN	NN	SG;N	0	root	0:root|4:obj	_
+2	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	FIN;V	4	aux	4:aux	_
+4	trust	trust	VERB	VB	NFIN;V	1	acl:relcl	1:acl:relcl	Cxn=rc-red-obj
+
+# sent_id = reviews-313558-0002
+# newpar id = reviews-313558-p0002
+# text = If possible I try the services on myself before I bring in my son.
+1	If	if	SCONJ	IN	CONJ	2	mark	2:mark	_
+2	possible	possible	ADJ	JJ	ADJ	4	advcl	4:advcl:if	_
+3	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+4	try	try	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	services	service	NOUN	NNS	PL;N	4	obj	4:obj	_
+7	on	on	ADP	IN	ADP	8	case	8:case	_
+8	myself	myself	PRON	PRP	PRO;ACC;1;REFL;SG	4	obl	4:obl:on	_
+9	before	before	SCONJ	IN	CONJ	11	mark	11:mark	_
+10	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+11	bring	bring	VERB	VBP	FIN;PRS;1;V;IND;SG	4	advcl	4:advcl:before	_
+12	in	in	ADP	RP	ADP	11	compound:prt	11:compound:prt	_
+13	my	my	PRON	PRP$	PRO;GEN;1;SG	14	nmod:poss	14:nmod:poss	_
+14	son	son	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-313558-0003
+# text = Drs. Ali work wonders.
+1	Drs.	Drs.	PROPN	NNPS	PROPN;PL	3	nsubj	3:nsubj	_
+2	Ali	Ali	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	work	work	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+4	wonders	wonder	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+
+# sent_id = reviews-313558-0004
+# text = Neither me nor my son haven't had a single cavity since we started dental care there.
+1	Neither	neither	CCONJ	CC	CONJ	2	cc:preconj	2:cc:preconj	_
+2	me	I	PRON	PRP	PRO;ACC;1;SG	8	nsubj	8:nsubj	_
+3	nor	nor	CCONJ	CC	CONJ	5	cc	5:cc	_
+4	my	my	PRON	PRP$	PRO;GEN;1;SG	5	nmod:poss	5:nmod:poss	_
+5	son	son	NOUN	NN	SG;N	2	conj	2:conj:nor|8:nsubj	_
+6-7	haven't	_	_	_	_	_	_	_	_
+6	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	8	aux	8:aux	_
+7	n't	not	PART	RB	PART	8	advmod	8:advmod	_
+8	had	have	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+9	a	a	DET	DT	DET;INDF	11	det	11:det	_
+10	single	single	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	cavity	cavity	NOUN	NN	SG;N	8	obj	8:obj	_
+12	since	since	SCONJ	IN	CONJ	14	mark	14:mark	_
+13	we	we	PRON	PRP	PRO;PL;1;NOM	14	nsubj	14:nsubj	_
+14	started	start	VERB	VBD	FIN;PL;1;V;IND;PST	8	advcl	8:advcl:since	_
+15	dental	dental	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	care	care	NOUN	NN	SG;N	14	obj	14:obj	_
+17	there	there	ADV	RB	ADV	14	advmod	14:advmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-313558-0005
+# text = The team focus is prevention and education.
+1	The	the	DET	DT	DET;DEF	3	det	3:det	_
+2	team	team	NOUN	NN	SG;N	3	compound	3:compound	_
+3	focus	focus	NOUN	NN	SG;N	5	nsubj	5:nsubj|7:nsubj	_
+4	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+5	prevention	prevention	NOUN	NN	SG;N	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	education	education	NOUN	NN	SG;N	5	conj	5:conj:and	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-313558-0006
+# text = That alone makes them unique.
+1	That	that	PRON	DT	PRO;SG	3	nsubj	3:nsubj	_
+2	alone	alone	ADV	RB	ADV	1	advmod	1:advmod	_
+3	makes	make	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+4	them	they	PRON	PRP	PRO;ACC;PL;3	3	obj	3:obj|5:nsubj:xsubj	_
+5	unique	unique	ADJ	JJ	ADJ	3	xcomp	3:xcomp	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-287454
+# sent_id = reviews-287454-0001
+# newpar id = reviews-287454-p0001
+# text = This is not your usual cheap hotdog place.
+1	This	this	PRON	DT	PRO;SG	8	nsubj	8:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	cop	8:cop	_
+3	not	not	PART	RB	PART	8	advmod	8:advmod	_
+4	your	your	PRON	PRP$	PRO;GEN;2	8	nmod:poss	8:nmod:poss	_
+5	usual	usual	ADJ	JJ	ADJ	8	amod	8:amod	_
+6	cheap	cheap	ADJ	JJ	ADJ	8	amod	8:amod	_
+7	hotdog	hotdog	NOUN	NN	SG;N	8	compound	8:compound	_
+8	place	place	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-287454-0002
+# text = They offer a large variety of quality hotdogs and hamburgers They also offer veggie dogs.
+1	They	they	PRON	PRP	PRO;3;PL;NOM	2	nsubj	2:nsubj	_
+2	offer	offer	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+3	a	a	DET	DT	DET;INDF	5	det	5:det	_
+4	large	large	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	variety	variety	NOUN	NN	SG;N	2	obj	2:obj	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	quality	quality	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	hotdogs	hotdog	NOUN	NNS	PL;N	5	nmod	5:nmod:of	_
+9	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+10	hamburgers	hamburger	NOUN	NNS	PL;N	8	conj	5:nmod:of|8:conj:and	_
+11	They	they	PRON	PRP	PRO;3;PL;NOM	13	nsubj	13:nsubj	_
+12	also	also	ADV	RB	ADV	13	advmod	13:advmod	_
+13	offer	offer	VERB	VBP	FIN;PRS;3;PL;V;IND	2	parataxis	2:parataxis	_
+14	veggie	veggie	NOUN	NN	SG;N	15	compound	15:compound	_
+15	dogs	dog	NOUN	NNS	PL;N	13	obj	13:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-287454-0003
+# text = The fries are of good quality, the staff is friendly.
+1	The	the	DET	DT	DET;DEF	2	det	2:det	_
+2	fries	fry	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+3	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	6	cop	6:cop	_
+4	of	of	ADP	IN	ADP	6	case	6:case	_
+5	good	good	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	quality	quality	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	11	punct	11:punct	_
+8	the	the	DET	DT	DET;DEF	9	det	9:det	_
+9	staff	staff	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+10	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	11	cop	11:cop	_
+11	friendly	friendly	ADJ	JJ	ADJ	6	parataxis	6:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+

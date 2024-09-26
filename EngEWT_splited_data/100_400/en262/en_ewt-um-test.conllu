@@ -1,0 +1,80 @@
+# sent_id = answers-20111107155815AA6LXXJ_ans-0005
+# newpar id = answers-20111107155815AA6LXXJ_ans-p0003
+# text = None of the above.
+1	None	none	NOUN	NN	SG;N	0	root	0:root	_
+2	of	of	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	above	above	ADJ	JJ	ADJ	1	nmod	1:nmod:of	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111107155815AA6LXXJ_ans-0006
+# newpar id = answers-20111107155815AA6LXXJ_ans-p0004
+# text = Of THESE three, it's a toss-up between Royal and Carnival.
+1	Of	of	ADP	IN	ADP	3	case	3:case	_
+2	THESE	this	DET	DT	PL;DET	3	det	3:det	_
+3	three	three	NUM	CD	NUM	10	obl	10:obl:of	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5-6	it's	_	_	_	_	_	_	_	_
+5	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	10	nsubj	10:nsubj	_
+6	's	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	10	cop	10:cop	_
+7	a	a	DET	DT	INDF;DET	10	det	10:det	_
+8	toss	toss	NOUN	NN	SG;N	10	compound	10:compound	SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	punct	8:punct	SpaceAfter=No
+10	up	up	NOUN	NN	SG;N	0	root	0:root	_
+11	between	between	ADP	IN	ADP	12	case	12:case	_
+12	Royal	Royal	PROPN	NNP	SG;PROPN	10	nmod	10:nmod:between	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	Carnival	Carnival	PROPN	NNP	SG;PROPN	12	conj	10:nmod:between|12:conj:and	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = answers-20111107155815AA6LXXJ_ans-0007
+# text = NCL is a notch below either, in terms of quality and service.
+1	NCL	NCL	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	a	a	DET	DT	INDF;DET	4	det	4:det	_
+4	notch	notch	NOUN	NN	SG;N	6	nmod:npmod	6:nmod:npmod	_
+5	below	below	ADP	IN	ADP	6	case	6:case	_
+6	either	either	DET	DT	DET	2	obl	2:obl:below	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	in	in	ADP	IN	ADP	9	case	9:case	_
+9	terms	term	NOUN	NNS	PL;N	2	obl	2:obl:in	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	quality	quality	NOUN	NN	SG;N	9	nmod	9:nmod:of	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	service	service	NOUN	NN	SG;N	11	conj	9:nmod:of|11:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = answers-20111108084036AAh8Ws9_ans
+# sent_id = answers-20111108084036AAh8Ws9_ans-0001
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0001
+# text = Will USB cell phone chargers still charge even if they're hooked up to a computer that is turned off?
+1	Will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+2	USB	USB	NOUN	NN	SG;N	5	compound	5:compound	_
+3	cell	cell	NOUN	NN	SG;N	4	compound	4:compound	_
+4	phone	phone	NOUN	NN	SG;N	5	compound	5:compound	_
+5	chargers	charger	NOUN	NNS	PL;N	7	nsubj	7:nsubj	_
+6	still	still	ADV	RB	ADV	7	advmod	7:advmod	_
+7	charge	charge	VERB	VB	NFIN;V	0	root	0:root	_
+8	even	even	ADV	RB	ADV	12	advmod	12:advmod	_
+9	if	if	SCONJ	IN	CONJ	12	mark	12:mark	_
+10-11	they're	_	_	_	_	_	_	_	_
+10	they	they	PRON	PRP	PL;PRO;3;NOM	12	nsubj:pass	12:nsubj:pass	_
+11	're	be	AUX	VBP	PL;V;3;FIN;PRS;IND	12	aux:pass	12:aux:pass	_
+12	hooked	hook	VERB	VBN	PASS;PST;V;V.PTCP	7	advcl	7:advcl:if	_
+13	up	up	ADP	RP	ADP	12	compound:prt	12:compound:prt	_
+14	to	to	ADP	IN	ADP	16	case	16:case	_
+15	a	a	DET	DT	INDF;DET	16	det	16:det	_
+16	computer	computer	NOUN	NN	SG;N	12	obl	12:obl:to|19:nsubj:pass	_
+17	that	that	PRON	WDT	PRO	19	nsubj:pass	16:ref	_
+18	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	19	aux:pass	19:aux:pass	_
+19	turned	turn	VERB	VBN	PASS;PST;V;V.PTCP	16	acl:relcl	16:acl:relcl	Cxn=rc-that-nsubj:pass
+20	off	off	ADP	RP	ADP	19	compound:prt	19:compound:prt	SpaceAfter=No
+21	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0002
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0002
+# text = Mine does.
+1	Mine	my	PRON	PRP	PRO;1;SG	2	nsubj	2:nsubj	_
+2	does	do	AUX	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+

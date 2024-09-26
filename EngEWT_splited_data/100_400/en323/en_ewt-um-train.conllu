@@ -1,0 +1,460 @@
+# sent_id = reviews-295491-0002
+# newpar id = reviews-295491-p0002
+# text = Absolutely great !
+1	Absolutely	absolutely	ADV	RB	ADV	2	advmod	2:advmod	_
+2	great	great	ADJ	JJ	ADJ	0	root	0:root	_
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-295491-0003
+# text = Clean, updated room, friendly staff, safe location.
+1	Clean	clean	ADJ	JJ	ADJ	4	amod	4:amod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	updated	update	VERB	VBN	V;V.PTCP;PST;PASS	4	amod	4:amod	_
+4	room	room	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	friendly	friendly	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	staff	staff	NOUN	NNS	N;PL	4	conj	4:conj	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	safe	safe	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	location	location	NOUN	NN	SG;N	4	conj	4:conj	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-295491-0004
+# text = Staff is super friendly, treat you as a friend.
+1	Staff	staff	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+2	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	4	cop	4:cop	_
+3	super	super	ADV	RB	ADV	4	advmod	4:advmod	_
+4	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	treat	treat	VERB	VBP	V;3;PRS;IND;FIN;PL	4	parataxis	4:parataxis	CorrectForm=treats|CorrectNumber=Sing
+7	you	you	PRON	PRP	2;NOM;PRO	6	obj	6:obj	_
+8	as	as	ADP	IN	ADP	10	case	10:case	_
+9	a	a	DET	DT	DET;INDF	10	det	10:det	_
+10	friend	friend	NOUN	NN	SG;N	6	obl	6:obl:as	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-295491-0005
+# text = Cannot ask for a better experience.
+1-2	Cannot	_	_	_	_	_	_	_	_
+1	Can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+2	not	not	PART	RB	PART	3	advmod	3:advmod	_
+3	ask	ask	VERB	VB	V;NFIN	0	root	0:root	_
+4	for	for	ADP	IN	ADP	7	case	7:case	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	better	good	ADJ	JJR	CMPR;ADJ	7	amod	7:amod	_
+7	experience	experience	NOUN	NN	SG;N	3	obl	3:obl:for	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-295491-0006
+# text = Will be staying here any and every time I come anywhere near.
+1	Will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+2	be	be	AUX	VB	V;NFIN	3	aux	3:aux	_
+3	staying	stay	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+4	here	here	ADV	RB	ADV	3	advmod	3:advmod	_
+5	any	any	DET	DT	DET	8	det	8:det	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	every	every	DET	DT	DET	5	conj	5:conj:and|8:det	_
+8	time	time	NOUN	NN	SG;N	3	obl:tmod	3:obl:tmod|10:obl	_
+9	I	I	PRON	PRP	NOM;1;PRO;SG	10	nsubj	10:nsubj	_
+10	come	come	VERB	VBP	V;PRS;IND;FIN;1;SG	8	acl:relcl	8:acl:relcl	Cxn=rc-red-obl
+11	anywhere	anywhere	ADV	RB	ADV	12	advmod	12:advmod	_
+12	near	near	ADV	RB	ADV	10	advmod	10:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-295491-0007
+# text = Overall, Joe is a happy camper who has found a great spot.
+1	Overall	overall	ADV	RB	ADV	7	advmod	7:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	Joe	Joe	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+4	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	7	cop	7:cop	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	happy	happy	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	camper	camper	NOUN	NN	SG;N	0	root	0:root|10:nsubj	_
+8	who	who	PRON	WP	PRO	10	nsubj	7:ref	_
+9	has	have	AUX	VBZ	3;PRS;IND;FIN;V;SG	10	aux	10:aux	_
+10	found	find	VERB	VBN	V;V.PTCP;PST	7	acl:relcl	7:acl:relcl	Cxn=rc-wh-nsubj
+11	a	a	DET	DT	DET;INDF	13	det	13:det	_
+12	great	great	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	spot	spot	NOUN	NN	SG;N	10	obj	10:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# newdoc id = reviews-201156
+# sent_id = reviews-201156-0001
+# newpar id = reviews-201156-p0001
+# text = PHOTOS DONE WELL
+1	PHOTOS	photo	NOUN	NNS	N;PL	0	root	0:root	_
+2	DONE	do	VERB	VBN	V;V.PTCP;PST;PASS	1	acl	1:acl	_
+3	WELL	well	ADV	RB	ADV	2	advmod	2:advmod	_
+
+# sent_id = reviews-201156-0002
+# newpar id = reviews-201156-p0002
+# text = I Love Hellada Gallery!
+1	I	I	PRON	PRP	NOM;1;PRO;SG	2	nsubj	2:nsubj	_
+2	Love	love	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+3	Hellada	Hellada	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	Gallery	Gallery	PROPN	NNP	PROPN;SG	2	obj	2:obj	SpaceAfter=No
+5	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-201156-0003
+# text = Marek Dzida the owner and photographer puts whole heart in his business - If you are into old fashion (Not Digital) quality photography this is best place in Long Beach as I think not many folks can do affordable traditional photos anymore I know Marek personaly and I will always recommend him
+1	Marek	Marek	PROPN	NNP	PROPN;SG	7	nsubj	7:nsubj	_
+2	Dzida	Dzida	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	owner	owner	NOUN	NN	SG;N	1	appos	1:appos	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	photographer	photographer	NOUN	NN	SG;N	4	conj	1:appos|4:conj:and	_
+7	puts	put	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+8	whole	whole	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	heart	heart	NOUN	NN	SG;N	7	obj	7:obj	_
+10	in	in	ADP	IN	ADP	12	case	12:case	_
+11	his	his	PRON	PRP$	3;MASC;GEN;PRO;SG	12	nmod:poss	12:nmod:poss	_
+12	business	business	NOUN	NN	SG;N	7	obl	7:obl:in	_
+13	-	-	PUNCT	,	_	29	punct	29:punct	_
+14	If	if	SCONJ	IN	CONJ	25	mark	25:mark	_
+15	you	you	PRON	PRP	2;NOM;PRO	25	nsubj	25:nsubj	_
+16	are	be	AUX	VBP	PRS;IND;2;FIN;V;SG	25	cop	25:cop	_
+17	into	into	ADP	IN	ADP	25	case	25:case	_
+18	old	old	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	fashion	fashioned	ADJ	JJ	ADJ	25	amod	25:amod	CorrectForm=fashioned
+20	(	(	PUNCT	-LRB-	_	22	punct	22:punct	SpaceAfter=No
+21	Not	not	PART	RB	PART	22	advmod	22:advmod	_
+22	Digital	digital	ADJ	JJ	ADJ	19	parataxis	19:parataxis	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	22	punct	22:punct	_
+24	quality	quality	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	photography	photography	NOUN	NN	SG;N	29	advcl	29:advcl:if	_
+26	this	this	PRON	DT	SG;PRO	29	nsubj	29:nsubj	_
+27	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	29	cop	29:cop	_
+28	best	good	ADJ	JJS	ADJ;RL	29	amod	29:amod	_
+29	place	place	NOUN	NN	SG;N	7	parataxis	7:parataxis	_
+30	in	in	ADP	IN	ADP	32	case	32:case	_
+31	Long	Long	ADJ	NNP	ADJ	32	amod	32:amod	_
+32	Beach	Beach	PROPN	NNP	PROPN;SG	29	nmod	29:nmod:in	_
+33	as	as	SCONJ	IN	CONJ	35	mark	35:mark	_
+34	I	I	PRON	PRP	NOM;1;PRO;SG	35	nsubj	35:nsubj	_
+35	think	think	VERB	VBP	V;PRS;IND;FIN;1;SG	29	advcl	29:advcl:as	_
+36	not	not	PART	RB	PART	38	advmod	38:advmod	_
+37	many	many	ADJ	JJ	ADJ	38	amod	38:amod	_
+38	folks	folk	NOUN	NNS	N;PL	40	nsubj	40:nsubj	_
+39	can	can	AUX	MD	V;FIN	40	aux	40:aux	_
+40	do	do	VERB	VB	V;NFIN	35	ccomp	35:ccomp	_
+41	affordable	affordable	ADJ	JJ	ADJ	43	amod	43:amod	_
+42	traditional	traditional	ADJ	JJ	ADJ	43	amod	43:amod	_
+43	photos	photo	NOUN	NNS	N;PL	40	obj	40:obj	_
+44	anymore	anymore	ADV	RB	ADV	40	advmod	40:advmod	_
+45	I	I	PRON	PRP	NOM;1;PRO;SG	46	nsubj	46:nsubj	_
+46	know	know	VERB	VBP	V;PRS;IND;FIN;1;SG	7	parataxis	7:parataxis	_
+47	Marek	Marek	PROPN	NNP	PROPN;SG	46	obj	46:obj	_
+48	personaly	personally	ADV	RB	ADV	46	advmod	46:advmod	CorrectForm=personally
+49	and	and	CCONJ	CC	CONJ	53	cc	53:cc	_
+50	I	I	PRON	PRP	NOM;1;PRO;SG	53	nsubj	53:nsubj	_
+51	will	will	AUX	MD	V;FIN	53	aux	53:aux	_
+52	always	always	ADV	RB	ADV	53	advmod	53:advmod	_
+53	recommend	recommend	VERB	VB	V;NFIN	46	conj	46:conj:and	_
+54	him	he	PRON	PRP	ACC;3;MASC;PRO;SG	53	obj	53:obj	_
+
+# newdoc id = reviews-187875
+# sent_id = reviews-187875-0001
+# newpar id = reviews-187875-p0001
+# text = BAD COFFEE, DONT BOTHER!
+1	BAD	bad	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	COFFEE	coffee	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	6	punct	6:punct	_
+4-5	DONT	_	_	_	_	_	_	_	_
+4	DO	do	AUX	VB	V;FIN;IMP	6	aux	6:aux	_
+5	NT	not	PART	RB	PART	6	advmod	6:advmod	CorrectForm=N'T
+6	BOTHER	bother	VERB	VB	V;FIN;IMP	2	parataxis	2:parataxis	SpaceAfter=No
+7	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-187875-0002
+# newpar id = reviews-187875-p0002
+# text = Can't you make a decent cup of coffee?
+1-2	Can't	_	_	_	_	_	_	_	_
+1	Ca	can	AUX	MD	V;FIN	4	aux	4:aux	_
+2	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+3	you	you	PRON	PRP	2;NOM;PRO	4	nsubj	4:nsubj	_
+4	make	make	VERB	VB	V;NFIN	0	root	0:root	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	decent	decent	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	cup	cup	NOUN	NN	SG;N	4	obj	4:obj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	coffee	coffee	NOUN	NN	SG;N	7	nmod	7:nmod:of	SpaceAfter=No
+10	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-187875-0003
+# text = You charge SO MUCH, yet you use the same grounds over and over again.
+1	You	you	PRON	PRP	2;NOM;PRO	2	nsubj	2:nsubj	_
+2	charge	charge	VERB	VBP	V;PRS;IND;2;FIN;SG	0	root	0:root	_
+3	SO	so	ADV	RB	ADV	4	advmod	4:advmod	_
+4	MUCH	much	ADJ	JJ	ADJ	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	yet	yet	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	you	you	PRON	PRP	2;NOM;PRO	8	nsubj	8:nsubj	_
+8	use	use	VERB	VBP	V;PRS;IND;2;FIN;SG	2	conj	2:conj:yet	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	same	same	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	grounds	grounds	NOUN	NNS	N	8	obj	8:obj	_
+12	over	over	ADV	RB	ADV	8	advmod	8:advmod	_
+13	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+14	over	over	ADV	RB	ADV	15	advmod	15:advmod	_
+15	again	again	ADV	RB	ADV	12	conj	8:advmod|12:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-187875-0004
+# text = The coffee taste BURNT and very bitter.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	coffee	coffee	NOUN	NN	SG;N	3	nsubj	3:nsubj|4:nsubj:xsubj|7:nsubj:xsubj	_
+3	taste	taste	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	CorrectForm=tastes|CorrectNumber=Sing
+4	BURNT	burnt	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+5	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+6	very	very	ADV	RB	ADV	7	advmod	7:advmod	_
+7	bitter	bitter	ADJ	JJ	ADJ	4	conj	3:xcomp|4:conj:and	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-187875-0005
+# text = No amount of sugar and milk can mask it.
+1	No	no	DET	DT	DET	2	det	2:det	_
+2	amount	amount	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	sugar	sugar	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	milk	milk	NOUN	NN	SG;N	4	conj	2:nmod:of|4:conj:and	_
+7	can	can	AUX	MD	V;FIN	8	aux	8:aux	_
+8	mask	mask	VERB	VB	V;NFIN	0	root	0:root	_
+9	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	8	obj	8:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-187875-0006
+# text = CHANGE THE PROCESS, PPL!
+1	CHANGE	change	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	THE	the	DET	DT	DEF;DET	3	det	3:det	_
+3	PROCESS	process	NOUN	NN	SG;N	1	obj	1:obj	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	PPL	people	NOUN	NNS	N;PL	1	vocative	1:vocative	SpaceAfter=No
+6	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-187875-0007
+# text = Westfield and Rt 1 do it well, WHY CANT U????
+1	Westfield	Westfield	PROPN	NNP	PROPN;SG	5	nsubj	5:nsubj	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	Rt	Rt	PROPN	NNP	PROPN;SG	1	conj	1:conj:and|5:nsubj	_
+4	1	1	NUM	CD	NUM	3	nummod	3:nummod	_
+5	do	do	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+6	it	it	PRON	PRP	ACC;3;NEUT;PRO;SG	5	obj	5:obj	_
+7	well	well	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	WHY	why	ADV	WRB	ADV	10	advmod	10:advmod	_
+10-11	CANT	_	_	_	_	_	_	_	_
+10	CA	can	AUX	MD	V;FIN	5	parataxis	5:parataxis	_
+11	NT	not	PART	RB	PART	10	advmod	10:advmod	CorrectForm=N'T
+12	U	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	CorrectForm=you|SpaceAfter=No
+13	????	????	PUNCT	.	_	5	punct	5:punct	_
+
+# newdoc id = reviews-241855
+# sent_id = reviews-241855-0001
+# newpar id = reviews-241855-p0001
+# text = Home made product
+1	Home	home	NOUN	NN	SG;N	2	obl:npmod	2:obl:npmod	_
+2	made	make	VERB	VBN	V;V.PTCP;PST;PASS	3	amod	3:amod	_
+3	product	product	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-241855-0002
+# newpar id = reviews-241855-p0002
+# text = I sometimes go into this store just for something to do on a sunday afternoon.
+1	I	I	PRON	PRP	NOM;1;PRO;SG	3	nsubj	3:nsubj	_
+2	sometimes	sometimes	ADV	RB	ADV	3	advmod	3:advmod	_
+3	go	go	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+4	into	into	ADP	IN	ADP	6	case	6:case	_
+5	this	this	DET	DT	SG;DET	6	det	6:det	_
+6	store	store	NOUN	NN	SG;N	3	obl	3:obl:into	_
+7	just	just	ADV	RB	ADV	9	advmod	9:advmod	_
+8	for	for	ADP	IN	ADP	9	case	9:case	_
+9	something	something	PRON	NN	SG;PRO	3	obl	3:obl:for	_
+10	to	to	PART	TO	PART	11	mark	11:mark	_
+11	do	do	VERB	VB	V;NFIN	9	acl	9:acl:to	_
+12	on	on	ADP	IN	ADP	15	case	15:case	_
+13	a	a	DET	DT	DET;INDF	15	det	15:det	_
+14	sunday	Sunday	PROPN	NNP	PROPN;SG	15	compound	15:compound	_
+15	afternoon	afternoon	NOUN	NN	SG;N	11	obl	11:obl:on	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-241855-0003
+# text = I love the people, the product and the service!
+1	I	I	PRON	PRP	NOM;1;PRO;SG	2	nsubj	2:nsubj	_
+2	love	love	VERB	VBP	V;PRS;IND;FIN;1;SG	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	people	people	NOUN	NNS	N;PL	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	product	product	NOUN	NN	SG;N	4	conj	2:obj|4:conj:and	_
+8	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	service	service	NOUN	NN	SG;N	4	conj	2:obj|4:conj:and	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-241855-0004
+# text = Nothing compares to a home made product that really stands the test of time. -
+1	Nothing	nothing	PRON	NN	SG;PRO	2	nsubj	2:nsubj	_
+2	compares	compare	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	to	to	ADP	IN	ADP	7	case	7:case	_
+4	a	a	DET	DT	DET;INDF	7	det	7:det	_
+5	home	home	NOUN	NN	SG;N	6	compound	6:compound	_
+6	made	make	VERB	VBN	V;V.PTCP;PST;PASS	7	amod	7:amod	_
+7	product	product	NOUN	NN	SG;N	2	obl	2:obl:to|10:nsubj	_
+8	that	that	PRON	WDT	PRO	10	nsubj	7:ref	_
+9	really	really	ADV	RB	ADV	10	advmod	10:advmod	_
+10	stands	stand	VERB	VBZ	V;3;PRS;IND;FIN;SG	7	acl:relcl	7:acl:relcl	Cxn=rc-that-nsubj
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	test	test	NOUN	NN	SG;N	10	obj	10:obj	_
+13	of	of	ADP	IN	ADP	14	case	14:case	_
+14	time	time	NOUN	NN	SG;N	12	nmod	12:nmod:of	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+16	-	-	PUNCT	NFP	_	2	punct	2:punct	_
+
+# sent_id = reviews-241855-0005
+# text = The Brick, Ikea, and Leon's have their place.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	Brick	Brick	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	Ikea	Ikea	PROPN	NNP	PROPN;SG	2	conj	2:conj:and|9:nsubj	SpaceAfter=No
+5	,	,	PUNCT	,	_	7	punct	7:punct	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7-8	Leon's	_	_	_	_	_	_	_	_
+7	Leon	Leon	PROPN	NNP	PROPN;SG	2	conj	2:conj:and|9:nsubj	_
+8	's	's	PART	POS	PART	7	case	7:case	_
+9	have	have	VERB	VBP	V;3;PRS;IND;FIN;PL	0	root	0:root	_
+10	their	their	PRON	PRP$	3;GEN;PL;PRO	11	nmod:poss	11:nmod:poss	_
+11	place	place	NOUN	NN	SG;N	9	obj	9:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = reviews-241855-0006
+# text = But furniture like this will truly be around forever.
+1	But	but	CCONJ	CC	CONJ	7	cc	7:cc	_
+2	furniture	furniture	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+3	like	like	ADP	IN	ADP	4	case	4:case	_
+4	this	this	PRON	DT	SG;PRO	2	nmod	2:nmod:like	_
+5	will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+6	truly	truly	ADV	RB	ADV	7	advmod	7:advmod	_
+7	be	be	AUX	VB	V;NFIN	0	root	0:root	_
+8	around	around	ADV	RB	ADV	7	advmod	7:advmod	_
+9	forever	forever	ADV	RB	ADV	7	advmod	7:advmod	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# newdoc id = reviews-108338
+# sent_id = reviews-108338-0001
+# newpar id = reviews-108338-p0001
+# text = The internet here is terrible.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	internet	internet	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+3	here	here	ADV	RB	ADV	2	advmod	2:advmod	_
+4	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+5	terrible	terrible	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-108338-0002
+# text = Like the previous poster said, the com lines are split between the entire building.
+1	Like	like	SCONJ	IN	CONJ	5	mark	5:mark	_
+2	the	the	DET	DT	DEF;DET	4	det	4:det	_
+3	previous	previous	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	poster	poster	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+5	said	say	VERB	VBD	V;3;IND;FIN;PST;SG	11	advcl	11:advcl:like	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	5:punct	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	com	com	NOUN	NN	SG;N	9	compound	9:compound	_
+9	lines	line	NOUN	NNS	N;PL	11	nsubj:pass	11:nsubj:pass	_
+10	are	be	AUX	VBP	3;PRS;IND;FIN;PL;V	11	aux:pass	11:aux:pass	_
+11	split	split	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+12	between	between	ADP	IN	ADP	15	case	15:case	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	entire	entire	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	building	building	NOUN	NN	SG;N	11	obl	11:obl:between	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = reviews-108338-0003
+# text = That's 3x worse than Qwest DSL's lowest speed offering!
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+2	's	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	5	cop	5:cop	_
+3	3	3	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+4	x	x	SYM	SYM	_	5	obl:npmod	5:obl:npmod	_
+5	worse	bad	ADJ	JJR	CMPR;ADJ	0	root	0:root	_
+6	than	than	ADP	IN	ADP	12	case	12:case	_
+7	Qwest	Qwest	PROPN	NNP	PROPN;SG	8	compound	8:compound	_
+8-9	DSL's	_	_	_	_	_	_	_	_
+8	DSL	DSL	PROPN	NNP	PROPN;SG	12	nmod:poss	12:nmod:poss	_
+9	's	's	PART	POS	PART	8	case	8:case	_
+10	lowest	low	ADJ	JJS	ADJ;RL	11	amod	11:amod	_
+11	speed	speed	NOUN	NN	SG;N	12	compound	12:compound	_
+12	offering	offering	NOUN	NN	SG;N	5	obl	5:obl:than	SpaceAfter=No
+13	!	!	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-108338-0004
+# text = The outward appearance makes you think this place is nice, but everything inside is cheap cheap cheap.
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	outward	outward	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	appearance	appearance	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+4	makes	make	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+5	you	you	PRON	PRP	ACC;2;PRO	4	obj	4:obj|6:nsubj	_
+6	think	think	VERB	VB	V;NFIN	4	xcomp	4:xcomp	_
+7	this	this	DET	DT	SG;DET	8	det	8:det	_
+8	place	place	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+9	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	10	cop	10:cop	_
+10	nice	nice	ADJ	JJ	ADJ	6	ccomp	6:ccomp	SpaceAfter=No
+11	,	,	PUNCT	,	_	18	punct	18:punct	_
+12	but	but	CCONJ	CC	CONJ	18	cc	18:cc	_
+13	everything	everything	PRON	NN	SG;PRO	18	nsubj	18:nsubj	_
+14	inside	inside	ADV	RB	ADV	13	advmod	13:advmod	_
+15	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	18	cop	18:cop	_
+16	cheap	cheap	ADJ	JJ	ADJ	18	amod	18:amod	_
+17	cheap	cheap	ADJ	JJ	ADJ	18	amod	18:amod	_
+18	cheap	cheap	ADJ	JJ	ADJ	4	conj	4:conj:but	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-108338-0005
+# text = Moving out as soon as our lease is up.
+1	Moving	move	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	_
+2	out	out	ADV	RB	ADV	1	advmod	1:advmod	_
+3	as	as	ADV	RB	ADV	4	advmod	4:advmod	_
+4	soon	soon	ADV	RB	ADV	1	advmod	1:advmod	_
+5	as	as	SCONJ	IN	CONJ	9	mark	9:mark	_
+6	our	our	PRON	PRP$	GEN;PL;PRO;1	7	nmod:poss	7:nmod:poss	_
+7	lease	lease	NOUN	NN	SG;N	9	nsubj	9:nsubj	_
+8	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	9	cop	9:cop	_
+9	up	up	ADV	RB	ADV	4	advcl	4:advcl:as	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-108338-0006
+# text = http://www.speedtest.net/result/1155244347.png
+1	http://www.speedtest.net/result/1155244347.png	http://www.speedtest.net/result/1155244347.png	PROPN	ADD	PROPN	0	root	0:root	_
+
+# newdoc id = reviews-348369
+# sent_id = reviews-348369-0001
+# newpar id = reviews-348369-p0001
+# text = Awesome!!!!
+1	Awesome	awesome	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+2	!!!!	!!!!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-348369-0002
+# newpar id = reviews-348369-p0002
+# text = Yes my G1 screen is back working.
+1	Yes	yes	INTJ	UH	INTJ	8	discourse	8:discourse	_
+2	my	my	PRON	PRP$	GEN;1;PRO;SG	5	nmod:poss	5:nmod:poss	_
+3	G	G	NOUN	NN	SG;N	5	compound	5:compound	SpaceAfter=No
+4	1	1	NUM	CD	NUM	3	nummod	3:nummod	_
+5	screen	screen	NOUN	NN	SG;N	8	nsubj	8:nsubj	_
+6	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	8	aux	8:aux	_
+7	back	back	ADV	RB	ADV	8	advmod	8:advmod	_
+8	working	work	VERB	VBG	V;V.PTCP;PRS	0	root	0:root	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = reviews-348369-0003
+# text = They was about to Charge me $129...
+1	They	they	PRON	PRP	3;NOM;PL;PRO	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	3	cop	3:cop	_
+3	about	about	ADJ	JJ	ADJ	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	Charge	charge	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+6	me	I	PRON	PRP	ACC;1;PRO;SG	5	iobj	5:iobj	_
+7	$	$	SYM	$	_	5	obj	5:obj	SpaceAfter=No
+8	129	129	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+9	...	...	PUNCT	.	_	3	punct	3:punct	SpaceAfter=No
+

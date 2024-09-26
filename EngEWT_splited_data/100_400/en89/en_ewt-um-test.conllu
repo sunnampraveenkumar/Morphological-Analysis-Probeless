@@ -1,0 +1,50 @@
+# sent_id = email-enronsent09_02-0016
+# newpar id = email-enronsent09_02-p0009
+# text = Melissa,
+1	Melissa	Melissa	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent09_02-0017
+# text = I show that we also had 20.000 at LS HPL for the 13th.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	show	show	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	that	that	SCONJ	IN	CONJ	6	mark	6:mark	_
+4	we	we	PRON	PRP	PL;PRO;1;NOM	6	nsubj	6:nsubj	_
+5	also	also	ADV	RB	ADV	6	advmod	6:advmod	_
+6	had	have	VERB	VBD	PL;1;V;PST;FIN;IND	2	ccomp	2:ccomp	_
+7	20.000	20.000	NUM	CD	NUM	6	obj	6:obj	_
+8	at	at	ADP	IN	ADP	10	case	10:case	_
+9	LS	ls	NOUN	NN	SG;N	10	compound	10:compound	_
+10	HPL	hpl	NOUN	NN	SG;N	6	obl	6:obl:at	_
+11	for	for	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	13th	13th	NOUN	NN	SG;N	6	obl	6:obl:for	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent09_02-0018
+# newpar id = email-enronsent09_02-p0010
+# text = Daren
+1	Daren	Daren	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent09_02-0019
+# newpar id = email-enronsent09_02-p0011
+# text = August 11,2000
+1	August	August	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	11	11	NUM	CD	NUM	1	nummod	1:nummod	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	SpaceAfter=No
+4	2000	2000	NUM	CD	NUM	1	nummod	1:nummod	_
+
+# sent_id = email-enronsent09_02-0020
+# newpar id = email-enronsent09_02-p0012
+# text = Teco Tap 108.333 / HPL IFERC ; 20.000 / Enron
+1	Teco	Teco	PROPN	NNP	SG;PROPN	2	compound	2:compound	_
+2	Tap	Tap	PROPN	NNP	SG;PROPN	0	root	0:root	_
+3	108.333	108.333	NUM	CD	NUM	2	list	2:list	_
+4	/	/	PUNCT	,	_	6	punct	6:punct	_
+5	HPL	HPL	PROPN	NNP	SG;PROPN	6	compound	6:compound	_
+6	IFERC	IFERC	PROPN	NNP	SG;PROPN	2	list	2:list	_
+7	;	;	PUNCT	,	_	8	punct	8:punct	_
+8	20.000	20.000	NUM	CD	NUM	2	list	2:list	_
+9	/	/	PUNCT	,	_	10	punct	10:punct	_
+10	Enron	Enron	PROPN	NNP	SG;PROPN	2	list	2:list	_
+

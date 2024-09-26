@@ -1,0 +1,202 @@
+# sent_id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-0009
+# text = ** Disclaimer **
+1	**	**	PUNCT	NFP	_	2	punct	2:punct	_
+2	Disclaimer	disclaimer	NOUN	NN	SG;N	0	root	0:root	_
+3	**	**	PUNCT	NFP	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-0010
+# text = The BBC is not responsible for the content of this e-mail, and anything written in this e-mail does not necessarily reflect the BBC's views or opinions.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	BBC	BBC	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+4	not	not	PART	RB	PART	5	advmod	5:advmod	_
+5	responsible	responsible	ADJ	JJ	ADJ	0	root	0:root	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	content	content	NOUN	NN	SG;N	5	obl	5:obl:for	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	this	this	DET	DT	SG;DET	11	det	11:det	_
+11	e-mail	e-mail	NOUN	NN	SG;N	8	nmod	8:nmod:of	SpaceAfter=No
+12	,	,	PUNCT	,	_	22	punct	22:punct	_
+13	and	and	CCONJ	CC	CONJ	22	cc	22:cc	_
+14	anything	anything	PRON	NN	SG;PRO	22	nsubj	22:nsubj	_
+15	written	write	VERB	VBN	PASS;PST;V;V.PTCP	14	acl	14:acl	_
+16	in	in	ADP	IN	ADP	18	case	18:case	_
+17	this	this	DET	DT	SG;DET	18	det	18:det	_
+18	e-mail	e-mail	NOUN	NN	SG;N	15	obl	15:obl:in	_
+19	does	do	AUX	VBZ	V;3;FIN;PRS;SG;IND	22	aux	22:aux	_
+20	not	not	PART	RB	PART	22	advmod	22:advmod	_
+21	necessarily	necessarily	ADV	RB	ADV	22	advmod	22:advmod	_
+22	reflect	reflect	VERB	VB	NFIN;V	5	conj	5:conj:and	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24-25	BBC's	_	_	_	_	_	_	_	_
+24	BBC	BBC	PROPN	NNP	SG;PROPN	26	nmod:poss	26:nmod:poss	_
+25	's	's	PART	POS	PART	24	case	24:case	_
+26	views	view	NOUN	NNS	PL;N	22	obj	22:obj	_
+27	or	or	CCONJ	CC	CONJ	28	cc	28:cc	_
+28	opinions	opinion	NOUN	NNS	PL;N	26	conj	22:obj|26:conj:or	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-0011
+# text = Please note that neither the e-mail address nor name of the sender have been verified.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	note	note	VERB	VB	FIN;V;IMP	0	root	0:root	_
+3	that	that	SCONJ	IN	CONJ	15	mark	15:mark	_
+4	neither	neither	CCONJ	CC	CONJ	7	cc:preconj	7:cc:preconj	_
+5	the	the	DET	DT	DEF;DET	7	det	7:det	_
+6	e-mail	e-mail	NOUN	NN	SG;N	7	compound	7:compound	_
+7	address	address	NOUN	NN	SG;N	15	nsubj:pass	15:nsubj:pass	_
+8	nor	nor	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	name	name	NOUN	NN	SG;N	7	conj	7:conj:nor|15:nsubj:pass	_
+10	of	of	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	sender	sender	NOUN	NN	SG;N	7	nmod	7:nmod:of	_
+13	have	have	AUX	VBP	PL;V;3;FIN;PRS;IND	15	aux	15:aux	SpacesAfter=\u00A0
+14	been	be	AUX	VBN	V;V.PTCP;PST	15	aux:pass	15:aux:pass	_
+15	verified	verify	VERB	VBN	PASS;PST;V;V.PTCP	2	ccomp	2:ccomp	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-0012
+# newpar id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-p0002
+# text = If you do not wish to receive such e-mails in the future or want to know more about the BBC's Email a Friend service, please read our frequently asked questions.
+1	If	if	SCONJ	IN	CONJ	5	mark	5:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	5	nsubj	5:nsubj|7:nsubj:xsubj|14:nsubj|16:nsubj:xsubj	_
+3	do	do	AUX	VBP	V;FIN;PRS;2;SG;IND	5	aux	5:aux	_
+4	not	not	PART	RB	PART	5	advmod	5:advmod	_
+5	wish	wish	VERB	VB	NFIN;V	28	advcl	28:advcl:if	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	receive	receive	VERB	VB	NFIN;V	5	xcomp	5:xcomp	_
+8	such	such	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	e-mails	e-mail	NOUN	NNS	PL;N	7	obj	7:obj	_
+10	in	in	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	future	future	NOUN	NN	SG;N	7	obl	7:obl:in	_
+13	or	or	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	want	want	VERB	VBP	V;FIN;PRS;2;SG;IND	5	conj	5:conj:or|28:advcl:if	_
+15	to	to	PART	TO	PART	16	mark	16:mark	_
+16	know	know	VERB	VB	NFIN;V	14	xcomp	14:xcomp	_
+17	more	more	ADJ	JJR	CMPR;ADJ	16	obj	16:obj	_
+18	about	about	ADP	IN	ADP	25	case	25:case	_
+19	the	the	DET	DT	DEF;DET	20	det	20:det	_
+20-21	BBC's	_	_	_	_	_	_	_	_
+20	BBC	BBC	PROPN	NNP	SG;PROPN	25	nmod:poss	25:nmod:poss	_
+21	's	's	PART	POS	PART	20	case	20:case	_
+22	Email	email	VERB	VB	FIN;V;IMP	25	compound	25:compound	_
+23	a	a	DET	DT	INDF;DET	24	det	24:det	_
+24	Friend	friend	NOUN	NN	SG;N	22	iobj	22:iobj	_
+25	service	service	NOUN	NN	SG;N	17	obl	17:obl:about	SpaceAfter=No
+26	,	,	PUNCT	,	_	5	punct	5:punct	_
+27	please	please	INTJ	UH	INTJ	28	discourse	28:discourse	_
+28	read	read	VERB	VB	FIN;V;IMP	0	root	0:root	_
+29	our	our	PRON	PRP$	GEN;PL;PRO;1	32	nmod:poss	32:nmod:poss	_
+30	frequently	frequently	ADV	RB	ADV	31	advmod	31:advmod	_
+31	asked	ask	VERB	VBN	PASS;PST;V;V.PTCP	32	amod	32:amod	_
+32	questions	question	NOUN	NNS	PL;N	28	obj	28:obj	SpaceAfter=No
+33	.	.	PUNCT	.	_	28	punct	28:punct	_
+
+# sent_id = newsgroup-groups.google.com_n3td3v_e874a1e5eb995654_ENG_20060120_052200-0013
+# text = http://news.bbc.co.uk/1/hi/help/4162471.stm
+1	http://news.bbc.co.uk/1/hi/help/4162471.stm	http://news.bbc.co.uk/1/hi/help/4162471.stm	PROPN	ADD	PROPN	0	root	0:root	_
+
+# newdoc id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0001
+# newpar id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-p0001
+# text = [http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=624569&section=news]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=624569&section=news	http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=624569&section=news	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0002
+# text = With protests going on in the Chilean capital of Santiago (from the economic summit), President Bush visited Chinese President Hu Jintao and other key allies in Santiago.
+1	With	with	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	protests	protest	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	20	advcl	20:advcl:with	_
+4	on	on	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	in	in	ADP	IN	ADP	8	case	8:case	_
+6	the	the	DET	DT	DEF;DET	8	det	8:det	_
+7	Chilean	Chilean	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	capital	capital	NOUN	NN	SG;N	3	obl	3:obl:in	_
+9	of	of	ADP	IN	ADP	10	case	10:case	_
+10	Santiago	Santiago	PROPN	NNP	SG;PROPN	8	nmod	8:nmod:of	_
+11	(	(	PUNCT	-LRB-	_	15	punct	15:punct	SpaceAfter=No
+12	from	from	ADP	IN	ADP	15	case	15:case	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	economic	economic	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	summit	summit	NOUN	NN	SG;N	3	obl	3:obl:from	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	SpaceAfter=No
+17	,	,	PUNCT	,	_	3	punct	3:punct	_
+18	President	President	PROPN	NNP	SG;PROPN	20	nsubj	20:nsubj	_
+19	Bush	Bush	PROPN	NNP	SG;PROPN	18	flat	18:flat	_
+20	visited	visit	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+21	Chinese	Chinese	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	President	President	PROPN	NNP	SG;PROPN	20	obj	20:obj	_
+23	Hu	Hu	PROPN	NNP	SG;PROPN	22	flat	22:flat	_
+24	Jintao	Jintao	PROPN	NNP	SG;PROPN	22	flat	22:flat	_
+25	and	and	CCONJ	CC	CONJ	28	cc	28:cc	_
+26	other	other	ADJ	JJ	ADJ	28	amod	28:amod	_
+27	key	key	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	allies	ally	NOUN	NNS	PL;N	22	conj	20:obj|22:conj:and	_
+29	in	in	ADP	IN	ADP	30	case	30:case	_
+30	Santiago	Santiago	PROPN	NNP	SG;PROPN	28	nmod	28:nmod:in	SpaceAfter=No
+31	.	.	PUNCT	.	_	20	punct	20:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0003
+# text = The talk of the day besides a more level playing field with China was North Korea.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	talk	talk	NOUN	NN	SG;N	16	nsubj	16:nsubj	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	day	day	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+6	besides	besides	ADP	IN	ADP	11	case	11:case	_
+7	a	a	DET	DT	INDF;DET	11	det	11:det	_
+8	more	more	ADV	RBR	ADV;CMPR	9	advmod	9:advmod	_
+9	level	level	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	playing	playing	NOUN	NN	SG;N	11	compound	11:compound	_
+11	field	field	NOUN	NN	SG;N	16	obl	16:obl:besides	_
+12	with	with	ADP	IN	ADP	13	case	13:case	_
+13	China	China	PROPN	NNP	SG;PROPN	11	nmod	11:nmod:with	_
+14	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	16	cop	16:cop	_
+15	North	North	PROPN	NNP	SG;PROPN	16	compound	16:compound	_
+16	Korea	Korea	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0004
+# text = China has been a great help at getting North Korea to the table and Bush is hoping that with their cooperation Korea can become a nuclear free peninsula.
+1	China	China	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+2	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	6	aux	6:aux	_
+3	been	be	AUX	VBN	V;V.PTCP;PST	6	cop	6:cop	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	great	great	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	help	help	NOUN	NN	SG;N	0	root	0:root	_
+7	at	at	SCONJ	IN	CONJ	8	mark	8:mark	_
+8	getting	get	VERB	VBG	V.MSDR;V	6	acl	6:acl:at	_
+9	North	North	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Korea	Korea	PROPN	NNP	SG;PROPN	8	obj	8:obj	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	table	table	NOUN	NN	SG;N	8	obl	8:obl:to	_
+14	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+15	Bush	Bush	PROPN	NNP	SG;PROPN	17	nsubj	17:nsubj	_
+16	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	17	aux	17:aux	_
+17	hoping	hope	VERB	VBG	PRS;V;V.PTCP	6	conj	6:conj:and	_
+18	that	that	SCONJ	IN	CONJ	24	mark	24:mark	_
+19	with	with	ADP	IN	ADP	21	case	21:case	_
+20	their	their	PRON	PRP$	GEN;PL;PRO;3	21	nmod:poss	21:nmod:poss	_
+21	cooperation	cooperation	NOUN	NN	SG;N	24	obl	24:obl:with	_
+22	Korea	Korea	PROPN	NNP	SG;PROPN	24	nsubj	24:nsubj|28:nsubj:xsubj	_
+23	can	can	AUX	MD	V;FIN	24	aux	24:aux	_
+24	become	become	VERB	VB	NFIN;V	17	ccomp	17:ccomp	_
+25	a	a	DET	DT	INDF;DET	28	det	28:det	_
+26	nuclear	nuclear	ADJ	JJ	ADJ	27	amod	27:amod	_
+27	free	free	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	peninsula	peninsula	NOUN	NN	SG;N	24	xcomp	24:xcomp	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-0005
+# newpar id = newsgroup-groups.google.com_hiddennook_f50294175d32a8ac_ENG_20041120_152800-p0002
+# text = REUTERS/Jason Reed
+1	REUTERS	REUTERS	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	/	/	PUNCT	,	_	3	punct	3:punct	SpaceAfter=No
+3	Jason	Jason	PROPN	NNP	SG;PROPN	1	parataxis	1:parataxis	_
+4	Reed	Reed	PROPN	NNP	SG;PROPN	3	flat	3:flat	_
+

@@ -1,0 +1,101 @@
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0002
+# text = It is true that Google has been in acquisition mode.
+1	It	it	PRON	PRP	PRO;NEUT;3;NOM;SG	3	expl	3:expl	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	cop	3:cop	_
+3	true	true	ADJ	JJ	ADJ	0	root	0:root	_
+4	that	that	SCONJ	IN	CONJ	10	mark	10:mark	_
+5	Google	Google	PROPN	NNP	SG;PROPN	10	nsubj	10:nsubj	_
+6	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	10	aux	10:aux	_
+7	been	be	AUX	VBN	V;V.PTCP;PST	10	cop	10:cop	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	acquisition	acquisition	NOUN	NN	SG;N	10	compound	10:compound	_
+10	mode	mode	NOUN	NN	SG;N	3	csubj	3:csubj	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0003
+# text = They have acquired Urchin, Zipdash, Applied Semantics, Picasa, Blogger, and satellite imaging company Keyhole, so why not Firefox?
+1	They	they	PRON	PRP	PRO;3;PL;NOM	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	FIN;PRS;3;PL;V;IND	3	aux	3:aux	_
+3	acquired	acquire	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+4	Urchin	Urchin	PROPN	NNP	SG;PROPN	3	obj	3:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	Zipdash	Zipdash	PROPN	NNP	SG;PROPN	4	conj	3:obj|4:conj:and	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	Applied	Apply	VERB	NNP	V;V.PTCP;PST	9	amod	9:amod	_
+9	Semantics	Semantics	PROPN	NNPS	PROPN;PL	4	conj	3:obj|4:conj:and	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	Picasa	Picasa	PROPN	NNP	SG;PROPN	4	conj	3:obj|4:conj:and	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	Blogger	Blogger	PROPN	NNP	SG;PROPN	4	conj	3:obj|4:conj:and	SpaceAfter=No
+14	,	,	PUNCT	,	_	19	punct	19:punct	_
+15	and	and	CCONJ	CC	CONJ	19	cc	19:cc	_
+16	satellite	satellite	NOUN	NN	SG;N	17	compound	17:compound	_
+17	imaging	imaging	NOUN	NN	SG;N	18	compound	18:compound	_
+18	company	company	NOUN	NN	SG;N	19	compound	19:compound	_
+19	Keyhole	Keyhole	PROPN	NNP	SG;PROPN	4	conj	3:obj|4:conj:and	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	24:punct	_
+21	so	so	ADV	RB	ADV	24	advmod	24:advmod	_
+22	why	why	ADV	WRB	ADV	24	advmod	24:advmod	_
+23	not	not	PART	RB	PART	24	advmod	24:advmod	_
+24	Firefox	Firefox	PROPN	NNP	SG;PROPN	3	parataxis	3:parataxis	SpaceAfter=No
+25	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0004
+# text = I have no inside information, but I have been following links today that strongly indicate that Google is damn serious about securing permanent control of the leading edge browser technology in Firefox.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	no	no	DET	DT	DET	5	det	5:det	_
+4	inside	inside	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	information	information	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	11:punct	_
+7	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+9	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	11	aux	11:aux	_
+10	been	be	AUX	VBN	V;V.PTCP;PST	11	aux	11:aux	_
+11	following	follow	VERB	VBG	PRS;V;V.PTCP	2	conj	2:conj:but	_
+12	links	link	NOUN	NNS	PL;N	11	obj	11:obj|16:nsubj	_
+13	today	today	NOUN	NN	SG;N	11	obl:tmod	11:obl:tmod	_
+14	that	that	PRON	WDT	PRO	16	nsubj	12:ref	_
+15	strongly	strongly	ADV	RB	ADV	16	advmod	16:advmod	_
+16	indicate	indicate	VERB	VBP	FIN;PRS;3;PL;V;IND	12	acl:relcl	12:acl:relcl	Cxn=rc-that-nsubj
+17	that	that	SCONJ	IN	CONJ	21	mark	21:mark	_
+18	Google	Google	PROPN	NNP	SG;PROPN	21	nsubj	21:nsubj	_
+19	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	21	cop	21:cop	_
+20	damn	damn	ADV	RB	ADV	21	advmod	21:advmod	_
+21	serious	serious	ADJ	JJ	ADJ	16	ccomp	16:ccomp	_
+22	about	about	SCONJ	IN	CONJ	23	mark	23:mark	_
+23	securing	secure	VERB	VBG	PRS;V;V.PTCP	21	advcl	21:advcl:about	_
+24	permanent	permanent	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	control	control	NOUN	NN	SG;N	23	obj	23:obj	_
+26	of	of	ADP	IN	ADP	31	case	31:case	_
+27	the	the	DET	DT	DET;DEF	31	det	31:det	_
+28	leading	lead	VERB	VBG	V;V.MSDR	29	amod	29:amod	_
+29	edge	edge	NOUN	NN	SG;N	31	compound	31:compound	_
+30	browser	browser	NOUN	NN	SG;N	31	compound	31:compound	_
+31	technology	technology	NOUN	NN	SG;N	25	nmod	25:nmod:of	_
+32	in	in	ADP	IN	ADP	33	case	33:case	_
+33	Firefox	Firefox	PROPN	NNP	SG;PROPN	31	nmod	31:nmod:in	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0005
+# text = Ben Goodger is the lead engineer for Mozilla Firefox.
+1	Ben	Ben	PROPN	NNP	SG;PROPN	6	nsubj	6:nsubj	_
+2	Goodger	Goodger	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	6	cop	6:cop	_
+4	the	the	DET	DT	DET;DEF	6	det	6:det	_
+5	lead	lead	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	engineer	engineer	NOUN	NN	SG;N	0	root	0:root	_
+7	for	for	ADP	IN	ADP	9	case	9:case	_
+8	Mozilla	Mozilla	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Firefox	Firefox	PROPN	NNP	SG;PROPN	6	nmod	6:nmod:for	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0006
+# text = He announced this in January:
+1	He	he	PRON	PRP	PRO;MASC;3;NOM;SG	2	nsubj	2:nsubj	_
+2	announced	announce	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+3	this	this	PRON	DT	PRO;SG	2	obj	2:obj	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	January	January	PROPN	NNP	SG;PROPN	2	obl	2:obl:in	SpaceAfter=No
+6	:	:	PUNCT	:	_	2	punct	2:punct	_
+

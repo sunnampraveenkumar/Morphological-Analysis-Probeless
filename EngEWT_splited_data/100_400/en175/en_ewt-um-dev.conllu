@@ -1,0 +1,82 @@
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0004
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-p0003
+# text = -Page 71, 72 and 73 with 48 new pictures of cats and kittens are added to The Cat Album today.
+1	-	-	PUNCT	NFP	_	17	punct	17:punct	SpaceAfter=No
+2	Page	page	NOUN	NN	SG;N	17	nsubj:pass	17:nsubj:pass	_
+3	71	71	NUM	CD	NUM	2	nummod	2:nummod	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	72	72	NUM	CD	NUM	3	conj	2:nummod|3:conj:and	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	73	73	NUM	CD	NUM	3	conj	2:nummod|3:conj:and	_
+8	with	with	ADP	IN	ADP	11	case	11:case	_
+9	48	48	NUM	CD	NUM	11	nummod	11:nummod	_
+10	new	new	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	pictures	picture	NOUN	NNS	PL;N	2	nmod	2:nmod:with	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	cats	cat	NOUN	NNS	PL;N	11	nmod	11:nmod:of	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	kittens	kitten	NOUN	NNS	PL;N	13	conj	11:nmod:of|13:conj:and	_
+16	are	be	AUX	VBP	FIN;PRS;3;PL;V;IND	17	aux:pass	17:aux:pass	_
+17	added	add	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+18	to	to	ADP	IN	ADP	21	case	21:case	_
+19	The	the	DET	DT	DET;DEF	21	det	21:det	_
+20	Cat	Cat	PROPN	NNP	SG;PROPN	21	compound	21:compound	_
+21	Album	Album	PROPN	NNP	SG;PROPN	17	obl	17:obl:to	_
+22	today	today	NOUN	NN	SG;N	17	obl:tmod	17:obl:tmod	SpaceAfter=No
+23	.	.	PUNCT	.	_	17	punct	17:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0005
+# text = Take a look !!!
+1	Take	take	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	a	a	DET	DT	DET;INDF	3	det	3:det	_
+3	look	look	NOUN	NN	SG;N	1	obj	1:obj	_
+4	!!!	!!!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0006
+# text = Now more than 1100 pictures.
+1	Now	now	ADV	RB	ADV	5	advmod	5:advmod	_
+2	more	more	ADJ	JJR	ADJ;CMPR	4	advmod	4:advmod	_
+3	than	than	ADP	IN	ADP	2	fixed	2:fixed	_
+4	1100	1100	NUM	CD	NUM	5	nummod	5:nummod	_
+5	pictures	picture	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0007
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-p0004
+# text = www.thecatalbum.com
+1	www.thecatalbum.com	www.thecatalbum.com	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0008
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-p0005
+# text = If you are new to "The Cat Album" I can tell you that you'll find more than 1100 pictures of cute cats at this site.
+1	If	if	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+3	are	be	AUX	VBP	FIN;PRS;2;V;IND;SG	4	cop	4:cop	_
+4	new	new	ADJ	JJ	ADJ	13	advcl	13:advcl:if	_
+5	to	to	ADP	IN	ADP	9	case	9:case	_
+6	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+7	The	the	DET	DT	DET;DEF	9	det	9:det	_
+8	Cat	Cat	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Album	Album	PROPN	NNP	SG;PROPN	4	obl	4:obl:to	SpaceAfter=No
+10	"	"	PUNCT	''	_	9	punct	9:punct	_
+11	I	I	PRON	PRP	PRO;1;NOM;SG	13	nsubj	13:nsubj	_
+12	can	can	AUX	MD	FIN;V	13	aux	13:aux	_
+13	tell	tell	VERB	VB	NFIN;V	0	root	0:root	_
+14	you	you	PRON	PRP	2;PRO;ACC	13	iobj	13:iobj	_
+15	that	that	SCONJ	IN	CONJ	18	mark	18:mark	_
+16-17	you'll	_	_	_	_	_	_	_	_
+16	you	you	PRON	PRP	NOM;2;PRO	18	nsubj	18:nsubj	_
+17	'll	will	AUX	MD	FIN;V	18	aux	18:aux	_
+18	find	find	VERB	VB	NFIN;V	13	ccomp	13:ccomp	_
+19	more	more	ADJ	JJR	ADJ;CMPR	21	advmod	21:advmod	_
+20	than	than	ADP	IN	ADP	19	fixed	19:fixed	_
+21	1100	1100	NUM	CD	NUM	22	nummod	22:nummod	_
+22	pictures	picture	NOUN	NNS	PL;N	18	obj	18:obj	_
+23	of	of	ADP	IN	ADP	25	case	25:case	_
+24	cute	cute	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	cats	cat	NOUN	NNS	PL;N	22	nmod	22:nmod:of	_
+26	at	at	ADP	IN	ADP	28	case	28:case	_
+27	this	this	DET	DT	DET;SG	28	det	28:det	_
+28	site	site	NOUN	NN	SG;N	18	obl	18:obl:at	SpaceAfter=No
+29	.	.	PUNCT	.	_	13	punct	13:punct	_
+

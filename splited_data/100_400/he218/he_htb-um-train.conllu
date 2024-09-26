@@ -1,0 +1,318 @@
+# sent_id = 3104
+# text = "כל כך הייתי רוצה לעשות בחינות בגרות".
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	כל	כול	DET	DET	PSSD;DET	5	advmod	_	_
+3	כך	כך	ADV	ADV	ADV	2	fixed	_	_
+4	הייתי	היה	AUX	AUX	POS;V;SG;{FEM/MASC};1;PST	5	cop	_	_
+5	רוצה	רצה	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+6	לעשות	עשה	VERB	VERB	NFIN;ACT;V	5	xcomp	_	_
+7	בחינות	בחינה	NOUN	NOUN	FEM;N;PL;PSSD	6	obj	_	_
+8	בגרות	בגרות	NOUN	NOUN	SG;N;FEM	7	compound:smixut	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 3105
+# text = חלומה היה להיות שופטת.
+1-3	חלומה	_	_	_	_	_	_	_	_
+1	חלום_	חלום	NOUN	NOUN	MASC;SG;N;DEF	5	nsubj	_	_
+2	_של_	של	ADP	ADP	ADP	3	case:gen	_	_
+3	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	1	nmod:poss	_	_
+4	היה	היה	AUX	AUX	POS;V;SG;3;MASC;PST	5	cop	_	_
+5	להיות	היה	AUX	AUX	POS;V;NFIN	0	root	_	_
+6	שופטת	שופט	NOUN	NOUN	SG;N;FEM	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 3106
+# text = הורים טורקיים מייחסים אמנם חשיבות גוברת והולכת להשכלתן של הבנות, אבל עצמאותן הגוברת מפחידה אותם.
+1	הורים	הורה	NOUN	NOUN	MASC;N;PL	3	nsubj	_	_
+2	טורקיים	תורכי	ADJ	ADJ	MASC;PL;ADJ	1	amod	_	_
+3	מייחסים	ייחס	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+4	אמנם	אמנם	ADV	ADV	ADV	3	advmod	_	_
+5	חשיבות	חשיבות	NOUN	NOUN	SG;N;FEM	3	obj	_	_
+6	גוברת	גבר	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	5	amod	_	_
+7-8	והולכת	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	CONJ	8	cc	_	_
+8	הולכת	הלך	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	6	conj	_	_
+9-12	להשכלתן	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	ADP	10	case	_	_
+10	השכלה_	השכלה	NOUN	NOUN	SG;FEM;N;DEF	3	obl	_	_
+11	_של_	של	ADP	ADP	ADP	12	case:gen	_	_
+12	_הן	הוא	PRON	PRON	PL;GEN;3;PRO;FEM	10	nmod:poss	_	_
+13	של	של	ADP	ADP	ADP;GEN	15	case:gen	_	_
+14-15	הבנות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	בנות	בת	NOUN	NOUN	N;PL;FEM	10	nmod:poss	_	_
+16	,	,	PUNCT	PUNCT	_	3	punct	_	_
+17	אבל	אבל	CCONJ	CCONJ	CONJ	23	cc	_	_
+18-20	עצמאותן	_	_	_	_	_	_	_	_
+18	עצמאות_	עצמאות	NOUN	NOUN	SG;FEM;N;DEF	23	nsubj	_	_
+19	_של_	של	ADP	ADP	ADP	20	case:gen	_	_
+20	_הן	הוא	PRON	PRON	PL;GEN;3;PRO;FEM	18	nmod:poss	_	_
+21-22	הגוברת	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	DET	22	det	_	_
+22	גוברת	גבר	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	18	amod	_	_
+23	מפחידה	הפחיד	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	3	conj	_	_
+24-25	אותם	_	_	_	_	_	_	_	SpaceAfter=No
+24	את_	את	ADP	ADP	ADP;ACC	25	case:acc	_	_
+25	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	23	obj	_	_
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3107
+# text = יתר על כן, במהלך הלימודים באות הבנות במגע עם בני המין השני ללא פיקוח ההורים.
+1	יתר	יתר	NOUN	NOUN	MASC;SG;N	9	obl	_	_
+2	על	על	ADP	ADP	ADP	1	fixed	_	_
+3	כן	_	PRON	PRON	PRO;3	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5-6	במהלך	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	8	case	_	_
+6	מהלך	מהלך	NOUN	NOUN	MASC;SG;N	5	fixed	_	_
+7-8	הלימודים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	לימודים	לימודים	NOUN	NOUN	MASC;N;PL	9	obl	_	_
+9	באות	בא	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	0	root	_	_
+10-11	הבנות	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	בנות	בת	NOUN	NOUN	N;PL;FEM	9	nsubj	_	_
+12-13	במגע	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	13	case	_	_
+13	מגע	מגע	NOUN	NOUN	MASC;SG;N	9	obl	_	_
+14	עם	עם	ADP	ADP	ADP	15	case	_	_
+15	בני	בן	NOUN	NOUN	MASC;N;PL;PSSD	13	nmod	_	_
+16-17	המין	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	DET	17	det	_	_
+17	מין	מין	NOUN	NOUN	MASC;SG;N	15	compound:smixut	_	_
+18-19	השני	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	DET	19	det	_	_
+19	שני	שני	NUM	NUM	MASC;SG;NUM	17	amod	_	_
+20	ללא	ללא	ADP	ADP	ADP	21	case	_	_
+21	פיקוח	פיקוח	NOUN	NOUN	MASC;SG;N;PSSD	9	obl	_	_
+22-23	ההורים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	DET	23	det	_	_
+23	הורים	הורה	NOUN	NOUN	MASC;N;PL	21	compound:smixut	_	_
+24	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# sent_id = 3108
+# text = במינכן התחשב מרכז העבודה לענייני זרים בהורים.
+1-2	במינכן	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	2	case	_	_
+2	מינכן	מינכן	PROPN	PROPN	PROPN	3	obl	_	_
+3	התחשב	התחשב	VERB	VERB	SG;V;3;MASC;PST	0	root	_	_
+4	מרכז	מרכז	NOUN	NOUN	MASC;SG;N;PSSD	3	nsubj	_	_
+5-6	העבודה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	עבודה	עבודה	NOUN	NOUN	SG;N;FEM	4	compound:smixut	_	_
+7-8	לענייני	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	ADP	8	case	_	_
+8	ענייני	עניין	NOUN	NOUN	MASC;N;PL;PSSD	4	nmod	_	_
+9	זרים	זר	NOUN	NOUN	MASC;N;PL	8	compound:smixut	_	_
+10-12	בהורים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	ADP	12	case	_	_
+11	ה_	ה	DET	DET	DET	12	det	_	_
+12	הורים	הורה	NOUN	NOUN	MASC;N;PL	3	obl	_	_
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3109
+# text = הוקמה סדנת תפירה וההורים יכלו להיווכח במו עיניהם שבמקום אין גברים.
+1	הוקמה	הוקם	VERB	VERB	SG;V;PASS;3;PST;FEM	0	root	_	_
+2	סדנת	סדנה	NOUN	NOUN	SG;FEM;N;PSSD	1	nsubj	_	_
+3	תפירה	תפירה	NOUN	NOUN	SG;N;FEM	2	compound:smixut	_	_
+4-6	וההורים	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	CONJ	7	cc	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	הורים	הורה	NOUN	NOUN	MASC;N;PL	7	nsubj	_	_
+7	יכלו	יכל	VERB	VERB	PL;V;3;{FEM/MASC};FUT	1	conj	_	_
+8	להיווכח	נוכח	VERB	VERB	NFIN;MID;V	7	xcomp	_	_
+9	במו	במו	ADP	ADP	ADP	10	case	_	_
+10-12	עיניהם	_	_	_	_	_	_	_	_
+10	עין_	עין	NOUN	NOUN	FEM;N;PL;DEF	8	obl	_	_
+11	_של_	של	ADP	ADP	ADP	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	PL;GEN;3;MASC;PRO	10	nmod:poss	_	_
+13-16	שבמקום	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	CONJ	17	mark	_	_
+14	ב	ב	ADP	ADP	ADP	16	case	_	_
+15	ה_	ה	DET	DET	DET	16	det	_	_
+16	מקום	מקום	NOUN	NOUN	MASC;SG;N	17	obl	_	_
+17	אין	אין	VERB	VERB	V	8	advcl	_	_
+18	גברים	גבר	NOUN	NOUN	MASC;N;PL	17	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 3110
+# text = תוך שלוש שנים ייהפכו הנערות הטורקיות הלומדות שם לתופרות מיומנות.
+1	תוך	תוך	ADP	ADP	ADP	3	case	_	_
+2	שלוש	שלוש	NUM	NUM	SG;NUM;FEM	3	nummod	_	_
+3	שנים	שנה	NOUN	NOUN	N;PL;FEM	4	obl	_	_
+4	ייהפכו	נהפך	VERB	VERB	PL;V;3;{FEM/MASC};FUT;MID	0	root	_	_
+5-6	הנערות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	נערות	נערה	NOUN	NOUN	N;PL;FEM	4	nsubj	_	_
+7-8	הטורקיות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	טורקיות	תורכי	ADJ	ADJ	FEM;PL;ADJ	6	amod	_	_
+9-10	הלומדות	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	CONJ	10	mark	_	_
+10	לומדות	למד	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	6	acl:relcl	_	_
+11	שם	שם	ADV	ADV	ADV	10	advmod	_	_
+12-13	לתופרות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	ADP	13	case	_	_
+13	תופרות	תופרת	NOUN	NOUN	N;PL;FEM	4	obl	_	_
+14	מיומנות	מיומן	ADJ	ADJ	FEM;PL;ADJ	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = 3111
+# text = אז יוכלו לעזוב בשעת הצורך את בית ההורים, שכן לא יהיו תלויות בהם כל-כך מבחינה כספית.
+1	אז	אז	ADV	ADV	ADV	2	advmod	_	_
+2	יוכלו	יכול	VERB	VERB	PL;V;3;{FEM/MASC};FUT	0	root	_	Modal=Yes
+3	לעזוב	עזב	VERB	VERB	NFIN;ACT;V	2	xcomp	_	_
+4-5	בשעת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	5	case	_	_
+5	שעת	שעה	NOUN	NOUN	SG;FEM;N;PSSD	3	obl	_	_
+6-7	הצורך	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	DET	7	det	_	_
+7	צורך	צורך	NOUN	NOUN	MASC;SG;N	5	compound:smixut	_	_
+8	את	את	ADP	ADP	ADP;ACC	9	case:acc	_	_
+9	בית	בית	NOUN	NOUN	MASC;SG;N;PSSD	3	obj	_	_
+10-11	ההורים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	DET	11	det	_	_
+11	הורים	הורה	NOUN	NOUN	MASC;N;PL	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	שכן	שכן	SCONJ	SCONJ	CONJ	16	mark	_	_
+14	לא	לא	ADV	ADV	NEG;ADV	16	advmod	_	_
+15	יהיו	היה	AUX	AUX	POS;V;PL;3;{FEM/MASC};FUT	16	cop	_	_
+16	תלויות	תלה	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	2	advcl	_	_
+17-18	בהם	_	_	_	_	_	_	_	_
+17	ב_	ב	ADP	ADP	ADP	18	case	_	_
+18	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	16	obl	_	_
+19	כל	כול	DET	DET	PSSD;DET	16	advmod	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	כך	כך	ADV	ADV	ADV	19	fixed	_	_
+22-23	מבחינה	_	_	_	_	_	_	_	_
+22	מ	מ	ADP	ADP	ADP	23	case	_	_
+23	בחינה	בחינה	NOUN	NOUN	SG;N;FEM	16	obl	_	_
+24	כספית	כספי	ADJ	ADJ	SG;FEM;ADJ	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 3112
+# text = פטמה בת ה20, מתלמדת בסדנה, בעלת חינוך אורתודוקסי קפדני וכבר נשואה, היא האשה הראשונה במשפחתה שיש לה רשיון נהיגה.
+1	פטמה	פטמה	NOUN	NOUN	SG;N;FEM	21	nsubj:cop	_	_
+2	בת	בת	NOUN	NOUN	SG;FEM;N;PSSD	1	acl	_	_
+3-4	ה20	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	20	20	NUM	NUM	NUM	2	compound:smixut	_	_
+5	,	,	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+6	מתלמדת	התלמד	VERB	VERB	{1/2/3};SG;V;V.PTCP;FEM	1	dep	_	HebSource=ConvUncertainHead
+7-9	בסדנה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	ADP	9	case	_	_
+8	ה_	ה	DET	DET	DET	9	det	_	_
+9	סדנה	סדנה	NOUN	NOUN	SG;N;FEM	6	obl	_	_
+10	,	,	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+11	בעלת	בעל	NOUN	NOUN	SG;FEM;N;PSSD	1	dep	_	HebSource=ConvUncertainHead
+12	חינוך	חינוך	NOUN	NOUN	MASC;SG;N	11	compound:smixut	_	_
+13	אורתודוקסי	אורתודוקסי	ADJ	ADJ	MASC;SG;ADJ	12	amod	_	_
+14	קפדני	קפדני	ADJ	ADJ	MASC;SG;ADJ	12	amod	_	_
+15-16	וכבר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	CONJ	17	cc	_	_
+16	כבר	כבר	ADV	ADV	ADV	17	advmod	_	_
+17	נשואה	נשוי	ADJ	ADJ	SG;FEM;ADJ	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19	היא	הוא	PRON	PRON	POS;SG;3;PRO;FEM	21	cop	_	_
+20-21	האשה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	DET	21	det	_	_
+21	אשה	איש	NOUN	NOUN	SG;N;FEM	0	root	_	_
+22-23	הראשונה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	DET	23	det	_	_
+23	ראשונה	_	ADJ	ADJ	SG;FEM;ADJ	21	amod	_	_
+24-27	במשפחתה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	ADP	25	case	_	_
+25	משפחה_	משפחה	NOUN	NOUN	SG;FEM;N;DEF	23	obl	_	_
+26	_של_	של	ADP	ADP	ADP	27	case:gen	_	_
+27	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	25	nmod:poss	_	_
+28-29	שיש	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	CONJ	29	mark	_	_
+29	יש	יש	VERB	VERB	V	21	acl:relcl	_	_
+30-31	לה	_	_	_	_	_	_	_	_
+30	ל_	ל	ADP	ADP	ADP	31	case	_	_
+31	_היא	הוא	PRON	PRON	SG;3;PRO;FEM	29	obl	_	_
+32	רשיון	רישיון	NOUN	NOUN	MASC;SG;N;PSSD	29	nsubj	_	_
+33	נהיגה	נהיגה	NOUN	NOUN	SG;N;FEM	32	compound:smixut	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# sent_id = 3113
+# text = לאחר הבחינות היא רוצה להרוויח הרבה כסף כדי שתוכל להרשות לעצמה סוף סוף דירה משלה.
+1	לאחר	לאחר	ADP	ADP	ADP	3	case	_	_
+2-3	הבחינות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	DET	3	det	_	_
+3	בחינות	בחינה	NOUN	NOUN	N;PL;FEM	5	obl	_	_
+4	היא	הוא	PRON	PRON	SG;3;PRO;FEM	5	nsubj	_	_
+5	רוצה	רצה	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+6	להרוויח	הרוויח	VERB	VERB	NFIN;ACT;V	5	xcomp	_	_
+7	הרבה	הרבה	DET	DET	PSSD;DET	8	det	_	_
+8	כסף	כסף	NOUN	NOUN	MASC;SG;N	6	obj	_	_
+9	כדי	כדי	ADP	ADP	ADP	11	mark	_	_
+10-11	שתוכל	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	CONJ	9	fixed	_	_
+11	תוכל	_	VERB	VERB	SG;V;2;FUT;MASC	12	advcl	_	Modal=Yes
+12	להרשות	הרשה	VERB	VERB	NFIN;ACT;V	5	obl	_	_
+13-14	לעצמה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	ADP	14	case	_	_
+14	עצמה	עצמו	PRON	PRON	SG;REFL;3;PRO;FEM	12	obl	_	_
+15	סוף	_	ADV	ADV	ADV	12	advmod	_	_
+16	סוף	_	ADV	ADV	ADV	15	fixed	_	_
+17	דירה	דירה	NOUN	NOUN	SG;N;FEM	12	obj	_	_
+18-20	משלה	_	_	_	_	_	_	_	SpaceAfter=No
+18	מ	מ	ADP	ADP	ADP	20	case	_	_
+19	שלה	של	ADP	ADP	ADP;GEN	20	case:gen	_	_
+20	_היא	הוא	PRON	PRON	SG;3;PRO;FEM	17	nmod	_	_
+21	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = 3114
+# text = רק אז יורשה בעלה, ממרכז אנטוליה, לבוא למינכן.
+1	רק	רק	ADV	ADV	ADV	3	advmod	_	_
+2	אז	אז	ADV	ADV	ADV	3	advmod	_	_
+3	יורשה	הורשה	VERB	VERB	SG;V;PASS;3;FUT;MASC	0	root	_	_
+4-6	בעלה	_	_	_	_	_	_	_	SpaceAfter=No
+4	בעל_	בעל	NOUN	NOUN	MASC;SG;N;DEF	3	nsubj	_	_
+5	_של_	של	ADP	ADP	ADP	6	case:gen	_	_
+6	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	4	nmod:poss	_	_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
+8-9	ממרכז	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	ADP	9	case	_	_
+9	מרכז	מרכז	NOUN	NOUN	MASC;SG;N;PSSD	4	nmod	_	_
+10	אנטוליה	אנטוליה	PROPN	PROPN	PROPN	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	3	punct	_	_
+12	לבוא	בא	VERB	VERB	NFIN;ACT;V	3	xcomp	_	_
+13-14	למינכן	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	ADP	14	case	_	_
+14	מינכן	מינכן	PROPN	PROPN	PROPN	12	obl	_	_
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 3115
+# text = אזלם בת ה18 ומוטלו בת ה19 רוצות גם הן לצאת מהבית ולבחור חברים בעצמן.
+1	אזלם	אזלם	PROPN	PROPN	PROPN	10	nsubj	_	_
+2	בת	בת	NOUN	NOUN	SG;FEM;N;PSSD	1	acl	_	_
+3-4	ה18	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	18	18	NUM	NUM	NUM	2	compound:smixut	_	_
+5-6	ומוטלו	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	CONJ	6	cc	_	_
+6	מוטלו	מוטל	PROPN	PROPN	PROPN	1	conj	_	_
+7	בת	בת	NOUN	NOUN	SG;FEM;N;PSSD	6	acl	_	_
+8-9	ה19	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	19	19	NUM	NUM	NUM	7	compound:smixut	_	_
+10	רוצות	רצה	VERB	VERB	{1/2/3};ACT;PL;V;V.PTCP;FEM	0	root	_	_
+11	גם	גם	ADV	ADV	ADV	12	advmod	_	_
+12	הן	הוא	PRON	PRON	PL;3;PRO;FEM	10	dep	_	_
+13	לצאת	יצא	VERB	VERB	NFIN;ACT;V	10	xcomp	_	_
+14-16	מהבית	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	ADP	16	case	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	בית	בית	NOUN	NOUN	MASC;SG;N	13	obl	_	_
+17-18	ולבחור	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	CONJ	18	cc	_	_
+18	לבחור	בחר	VERB	VERB	NFIN;ACT;V	13	conj	_	_
+19	חברים	חבר	NOUN	NOUN	MASC;N;PL	18	obj	_	_
+20-21	בעצמן	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	ADP	21	case	_	_
+21	עצמן	עצמו	PRON	PRON	SG;REFL;3;PRO;FEM	18	obl	_	_
+22	.	.	PUNCT	PUNCT	_	10	punct	_	_
+

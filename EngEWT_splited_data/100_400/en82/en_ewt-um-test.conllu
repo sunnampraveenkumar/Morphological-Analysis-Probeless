@@ -1,0 +1,87 @@
+# sent_id = email-enronsent36_01-0016
+# newpar id = email-enronsent36_01-p0008
+# text = Sara Shackleton Enron Wholesale Services 1400 Smith Street, EB3801a Houston, TX 77002 Ph: (713) 853-5620 Fax: (713) 646-3490
+1	Sara	Sara	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Shackleton	Shackleton	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	Enron	Enron	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+4	Wholesale	wholesale	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	Services	service	NOUN	NNS	PL;N	1	list	1:list	_
+6	1400	1400	NUM	CD	NUM	8	nummod	8:nummod	_
+7	Smith	Smith	PROPN	NNP	SG;PROPN	8	compound	8:compound	_
+8	Street	Street	PROPN	NNP	SG;PROPN	1	list	1:list	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	EB	EB	PROPN	NNP	SG;PROPN	8	appos	8:appos	SpaceAfter=No
+11	3801a	3801a	PROPN	NNP	SG;PROPN	10	flat	10:flat	_
+12	Houston	Houston	PROPN	NNP	SG;PROPN	8	appos	8:appos	SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	TX	TX	PROPN	NNP	SG;PROPN	12	appos	12:appos	_
+15	77002	77002	NUM	CD	NUM	8	appos	8:appos	_
+16	Ph	ph	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+17	:	:	PUNCT	:	_	19	punct	19:punct	_
+18	(	(	PUNCT	-LRB-	_	19	punct	19:punct	SpaceAfter=No
+19	713	713	NUM	CD	NUM	16	appos	16:appos	SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	punct	19:punct	_
+21	853-5620	853-5620	NUM	CD	NUM	19	flat	19:flat	_
+22	Fax	fax	NOUN	NN	SG;N	1	list	1:list	SpaceAfter=No
+23	:	:	PUNCT	:	_	25	punct	25:punct	_
+24	(	(	PUNCT	-LRB-	_	25	punct	25:punct	SpaceAfter=No
+25	713	713	NUM	CD	NUM	22	appos	22:appos	SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	25	punct	25:punct	_
+27	646-3490	646-3490	NUM	CD	NUM	25	flat	25:flat	_
+
+# sent_id = email-enronsent36_01-0017
+# text = Thanks.
+1	Thanks	thanks	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent36_01-0018
+# text = SS
+1	SS	SS	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent36_01-0019
+# newpar id = email-enronsent36_01-p0009
+# text = Sara,
+1	Sara	Sara	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent36_01-0020
+# newpar id = email-enronsent36_01-p0010
+# text = Currently we have a blank "sample" for our Paragraph 13s which are attached to our sample ISDAs for (a) US Corporate, (b) Hedge Funds, (c) Municipal.
+1	Currently	currently	ADV	RB	ADV	3	advmod	3:advmod	_
+2	we	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	7	det	7:det	_
+5	blank	blank	ADJ	JJ	ADJ	7	amod	7:amod	_
+6	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
+7	sample	sample	NOUN	NN	SG;N	3	obj	3:obj	SpaceAfter=No
+8	"	"	PUNCT	''	_	7	punct	7:punct	_
+9	for	for	ADP	IN	ADP	12	case	12:case	_
+10	our	our	PRON	PRP$	GEN;PL;PRO;1	12	nmod:poss	12:nmod:poss	_
+11	Paragraph	paragraph	NOUN	NN	SG;N	12	compound	12:compound	_
+12	13s	13	NOUN	NNS	PL;N	7	nmod	7:nmod:for|15:nsubj:pass	_
+13	which	which	PRON	WDT	PRO	15	nsubj:pass	12:ref	_
+14	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	15	aux:pass	15:aux:pass	CorrectForm=is|CorrectNumber=Sing
+15	attached	attach	VERB	VBN	PASS;PST;V;V.PTCP	12	acl:relcl	12:acl:relcl	Cxn=rc-wh-nsubj:pass
+16	to	to	ADP	IN	ADP	19	case	19:case	_
+17	our	our	PRON	PRP$	GEN;PL;PRO;1	19	nmod:poss	19:nmod:poss	_
+18	sample	sample	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	ISDAs	isda	NOUN	NNS	PL;N	15	obl	15:obl:to	_
+20	for	for	ADP	IN	ADP	25	case	25:case	_
+21	(	(	PUNCT	-LRB-	_	22	punct	22:punct	SpaceAfter=No
+22	a	a	NUM	LS	NUM	25	discourse	25:discourse	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	22	punct	22:punct	_
+24	US	US	PROPN	NNP	SG;PROPN	25	compound	25:compound	_
+25	Corporate	corporate	ADJ	JJ	ADJ	19	nmod	19:nmod:for	SpaceAfter=No
+26	,	,	PUNCT	,	_	31	punct	31:punct	_
+27	(	(	PUNCT	-LRB-	_	28	punct	28:punct	SpaceAfter=No
+28	b	b	NUM	LS	NUM	31	discourse	31:discourse	SpaceAfter=No
+29	)	)	PUNCT	-RRB-	_	28	punct	28:punct	_
+30	Hedge	hedge	NOUN	NN	SG;N	31	compound	31:compound	_
+31	Funds	fund	NOUN	NNS	PL;N	25	conj	19:nmod:for|25:conj	SpaceAfter=No
+32	,	,	PUNCT	,	_	36	punct	36:punct	_
+33	(	(	PUNCT	-LRB-	_	34	punct	34:punct	SpaceAfter=No
+34	c	c	NUM	LS	NUM	36	discourse	36:discourse	SpaceAfter=No
+35	)	)	PUNCT	-RRB-	_	34	punct	34:punct	_
+36	Municipal	municipal	ADJ	JJ	ADJ	25	conj	19:nmod:for|25:conj	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	3:punct	_
+

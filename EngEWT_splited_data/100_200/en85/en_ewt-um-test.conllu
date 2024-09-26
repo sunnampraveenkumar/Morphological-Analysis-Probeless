@@ -1,0 +1,169 @@
+# sent_id = newsgroup-groups.google.com_HumorUniversity_00dd93cc9545deb3_ENG_20051130_122700-0009
+# text = Rajendra
+1	Rajendra	Rajendra	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_HumorUniversity_00dd93cc9545deb3_ENG_20051130_122700-0010
+# text = rajendra.o...@gmail.com
+1	rajendra.o...@gmail.com	rajendra.o...@gmail.com	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_HumorUniversity_00dd93cc9545deb3_ENG_20051130_122700-0011
+# text = image_gif_part
+1	image_gif_part	image_gif_part	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_HumorUniversity_00dd93cc9545deb3_ENG_20051130_122700-0012
+# text = 81K Download
+1	81	81	NUM	CD	NUM	2	nummod	2:nummod	SpaceAfter=No
+2	K	thousand	NUM	CD	NUM	3	nmod:npmod	3:nmod:npmod	_
+3	Download	download	NOUN	NN	SG;N	0	root	0:root	_
+
+# newdoc id = newsgroup-groups.google.com_GUHarryPotterReaders_75faa7d55aff9230_ENG_20050715_234000
+# sent_id = newsgroup-groups.google.com_GUHarryPotterReaders_75faa7d55aff9230_ENG_20050715_234000-0001
+# newpar id = newsgroup-groups.google.com_GUHarryPotterReaders_75faa7d55aff9230_ENG_20050715_234000-p0001
+# text = I just finish reading a really good book (it was actually a ebook) from some new series called the The Tale of Terra.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	finish	finish	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+4	reading	read	VERB	VBG	V.MSDR;V	3	xcomp	3:xcomp	_
+5	a	a	DET	DT	INDF;DET	8	det	8:det	_
+6	really	really	ADV	RB	ADV	7	advmod	7:advmod	_
+7	good	good	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	book	book	NOUN	NN	SG;N	4	obj	4:obj	_
+9	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+10	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	14	nsubj	14:nsubj	_
+11	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	14	cop	14:cop	_
+12	actually	actually	ADV	RB	ADV	14	advmod	14:advmod	_
+13	a	a	DET	DT	INDF;DET	14	det	14:det	_
+14	ebook	ebook	NOUN	NN	SG;N	8	parataxis	8:parataxis	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
+16	from	from	ADP	IN	ADP	19	case	19:case	_
+17	some	some	DET	DT	DET	19	det	19:det	_
+18	new	new	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	series	series	NOUN	NN	SG;N	8	nmod	8:nmod:from	_
+20	called	call	VERB	VBN	PASS;PST;V;V.PTCP	19	acl	19:acl	_
+21	the	the	DET	DT	DEF;DET	23	reparandum	23:reparandum	_
+22	The	the	DET	DT	DEF;DET	23	det	23:det	_
+23	Tale	Tale	PROPN	NNP	SG;PROPN	20	xcomp	20:xcomp	_
+24	of	of	ADP	IN	ADP	25	case	25:case	_
+25	Terra	Terra	PROPN	NNP	SG;PROPN	23	nmod	23:nmod:of	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_GUHarryPotterReaders_75faa7d55aff9230_ENG_20050715_234000-0002
+# text = The story had brillant battle scenes, lovable heroes and villians, a compelling story line, and it left me dying for the next part of the series:) go to taleofterra.com to learn more aboout it
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	story	story	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	had	have	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+4	brillant	brilliant	ADJ	JJ	ADJ	6	amod	6:amod	CorrectForm=brilliant
+5	battle	battle	NOUN	NN	SG;N	6	compound	6:compound	_
+6	scenes	scene	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	lovable	lovable	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	heroes	hero	NOUN	NNS	PL;N	6	conj	3:obj|6:conj	_
+10	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+11	villians	villain	NOUN	NNS	PL;N	9	conj	9:conj:and	CorrectForm=villains|SpaceAfter=No
+12	,	,	PUNCT	,	_	16	punct	16:punct	_
+13	a	a	DET	DT	INDF;DET	16	det	16:det	_
+14	compelling	compelling	ADJ	JJ	ADJ	16	amod	16:amod	_
+15	story	story	NOUN	NN	SG;N	16	compound	16:compound	_
+16	line	line	NOUN	NN	SG;N	6	conj	3:obj|6:conj	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	20:punct	_
+18	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+19	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	20	nsubj	20:nsubj	_
+20	left	leave	VERB	VBD	PST;V;3;FIN;SG;IND	3	conj	3:conj:and	_
+21	me	I	PRON	PRP	ACC;PRO;1;SG	20	obj	20:obj|22:nsubj:xsubj	_
+22	dying	dying	ADJ	JJ	ADJ	20	xcomp	20:xcomp	_
+23	for	for	ADP	IN	ADP	26	case	26:case	_
+24	the	the	DET	DT	DEF;DET	26	det	26:det	_
+25	next	next	ADJ	JJ	ADJ	26	amod	26:amod	_
+26	part	part	NOUN	NN	SG;N	22	obl	22:obl:for	_
+27	of	of	ADP	IN	ADP	29	case	29:case	_
+28	the	the	DET	DT	DEF;DET	29	det	29:det	_
+29	series	series	NOUN	NN	SG;N	26	nmod	26:nmod:of	SpaceAfter=No
+30	:)	:)	SYM	NFP	_	3	discourse	3:discourse	_
+31	go	go	VERB	VB	NFIN;V	3	parataxis	3:parataxis	_
+32	to	to	ADP	IN	ADP	33	case	33:case	_
+33	taleofterra.com	taleofterra.com	PROPN	ADD	PROPN	31	obl	31:obl	_
+34	to	to	PART	TO	PART	35	mark	35:mark	_
+35	learn	learn	VERB	VB	NFIN;V	31	advcl	31:advcl:to	_
+36	more	more	ADJ	JJR	CMPR;ADJ	35	obj	35:obj	_
+37	aboout	about	ADP	IN	ADP	38	case	38:case	CorrectForm=about
+38	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	36	obl	36:obl:about	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-p0001
+# text = Email: Roving Mouse <s...@tack.net>
+1	Email	email	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	4	punct	4:punct	_
+3	Roving	Roving	PROPN	NNP	SG;PROPN	4	compound	4:compound	_
+4	Mouse	Mouse	PROPN	NNP	SG;PROPN	1	appos	1:appos	_
+5	<	<	PUNCT	-LRB-	_	6	punct	6:punct	SpaceAfter=No
+6	s...@tack.net	s...@tack.net	PROPN	ADD	PROPN	4	list	4:list	SpaceAfter=No
+7	>	>	PUNCT	-RRB-	_	6	punct	6:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-0002
+# text = Groups: alt.animals, alt.animals.cat, alt.animals.ethics.vegetarian, talk.politics.animals
+1	Groups	group	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	alt.animals	alt.animals	NOUN	NN	SG;N	1	appos	1:appos	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	5:punct	_
+5	alt.animals.cat	alt.animals.cat	NOUN	NN	SG;N	3	list	3:list	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	alt.animals.ethics.vegetarian	alt.animals.ethics.vegetarian	NOUN	NN	SG;N	5	list	5:list	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	talk.politics.animals	talk.politics.animals	NOUN	NN	SG;N	7	list	7:list	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-0003
+# text = Followup-To: alt.animals
+1	Followup	followup	VERB	VB	FIN;V;IMP	0	root	0:root	SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	5	punct	5:punct	SpaceAfter=No
+3	To	to	ADP	IN	ADP	5	case	5:case	SpaceAfter=No
+4	:	:	PUNCT	:	_	3	punct	3:punct	_
+5	alt.animals	alt.animals	NOUN	NN	SG;N	1	obl	1:obl:to	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-0004
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_0e976a5d400ddce1_ENG_20040103_090500-p0002
+# text = You will always find fascinating links at: Extreme Web Surfs http://extremewebsurfs.blogspot.com/ (nice urban wildlife post today) & Me and the Web http://maartenvt.blogspot.com/ Arts, History,Animals, Music,Games ,Politics,Technology, Fun and more!
+1	You	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+2	will	will	AUX	MD	V;FIN	4	aux	4:aux	_
+3	always	always	ADV	RB	ADV	4	advmod	4:advmod	_
+4	find	find	VERB	VB	NFIN;V	0	root	0:root	_
+5	fascinating	fascinating	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	links	link	NOUN	NNS	PL;N	4	obj	4:obj	_
+7	at	at	ADP	IN	ADP	11	case	11:case	SpaceAfter=No
+8	:	:	PUNCT	:	_	7	punct	7:punct	_
+9	Extreme	Extreme	ADJ	NNP	ADJ	11	amod	11:amod	_
+10	Web	Web	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+11	Surfs	Surfs	PROPN	NNPS	PROPN;PL	4	obl	4:obl:at	_
+12	http://extremewebsurfs.blogspot.com/	http://extremewebsurfs.blogspot.com/	PROPN	ADD	PROPN	11	appos	11:appos	_
+13	(	(	PUNCT	-LRB-	_	17	punct	17:punct	SpaceAfter=No
+14	nice	nice	ADJ	JJ	ADJ	17	amod	17:amod	_
+15	urban	urban	ADJ	JJ	ADJ	16	amod	16:amod	_
+16	wildlife	wildlife	NOUN	NN	SG;N	17	compound	17:compound	_
+17	post	post	NOUN	NN	SG;N	11	parataxis	11:parataxis	_
+18	today	today	NOUN	NN	SG;N	17	nmod:tmod	17:nmod:tmod	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
+20	&	&	CCONJ	CC	CONJ	21	cc	21:cc	_
+21	Me	I	PRON	PRP	ACC;PRO;1;SG	11	conj	4:obl:at|11:conj	_
+22	and	and	CCONJ	CC	CONJ	24	cc	24:cc	_
+23	the	the	DET	DT	DEF;DET	24	det	24:det	_
+24	Web	Web	PROPN	NNP	SG;PROPN	21	conj	21:conj:and	_
+25	http://maartenvt.blogspot.com/	http://maartenvt.blogspot.com/	PROPN	ADD	PROPN	21	appos	21:appos	_
+26	Arts	art	NOUN	NNS	PL;N	6	nmod:npmod	6:nmod:npmod	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
+28	History	history	NOUN	NN	SG;N	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	30:punct	SpaceAfter=No
+30	Animals	animal	NOUN	NNS	PL;N	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	32:punct	_
+32	Music	music	NOUN	NN	SG;N	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	34:punct	SpaceAfter=No
+34	Games	game	NOUN	NNS	PL;N	26	conj	6:nmod:npmod|26:conj:and	_
+35	,	,	PUNCT	,	_	36	punct	36:punct	SpaceAfter=No
+36	Politics	politics	NOUN	NNS	N	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	38:punct	SpaceAfter=No
+38	Technology	technology	NOUN	NN	SG;N	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+39	,	,	PUNCT	,	_	40	punct	40:punct	_
+40	Fun	fun	NOUN	NN	SG;N	26	conj	6:nmod:npmod|26:conj:and	_
+41	and	and	CCONJ	CC	CONJ	42	cc	42:cc	_
+42	more	more	ADJ	JJR	CMPR;ADJ	26	conj	6:nmod:npmod|26:conj:and	SpaceAfter=No
+43	!	!	PUNCT	.	_	4	punct	4:punct	_
+

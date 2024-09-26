@@ -1,0 +1,274 @@
+# sent_id = reviews-369608-0002
+# text = I worked with Sam Mones who took great care of me.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	worked	work	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	Sam	Sam	PROPN	NNP	SG;PROPN	2	obl	2:obl:with|7:nsubj	_
+5	Mones	Mones	PROPN	NNP	SG;PROPN	4	flat	4:flat	_
+6	who	who	PRON	WP	PRO	7	nsubj	4:ref	_
+7	took	take	VERB	VBD	PST;V;3;FIN;SG;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-nsubj
+8	great	great	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	care	care	NOUN	NN	SG;N	7	obj	7:obj	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	me	I	PRON	PRP	ACC;PRO;1;SG	7	obl	7:obl:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-369608-0003
+# text = This is by far the best run dealership in Miami.
+1	This	this	PRON	DT	SG;PRO	8	nsubj	8:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	8	cop	8:cop	_
+3	by	by	ADP	IN	ADP	4	case	4:case	_
+4	far	far	ADV	RB	ADV	8	obl	8:obl:by	_
+5	the	the	DET	DT	DEF;DET	8	det	8:det	_
+6	best	well	ADV	RBS	RL;ADV	7	advmod	7:advmod	_
+7	run	run	VERB	VBN	PASS;PST;V;V.PTCP	8	amod	8:amod	_
+8	dealership	dealership	NOUN	NN	SG;N	0	root	0:root	_
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	Miami	Miami	PROPN	NNP	SG;PROPN	8	nmod	8:nmod:in	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# newdoc id = reviews-097548
+# sent_id = reviews-097548-0001
+# newpar id = reviews-097548-p0001
+# text = The company gets busy but you never have to wait long because they ARE orginizied, so you are in, out, and paid well for your scrap
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	company	company	NOUN	NN	SG;N	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+3	gets	get	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	busy	busy	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+5	but	but	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+7	never	never	ADV	RB	ADV	8	advmod	8:advmod	_
+8	have	have	VERB	VBP	V;FIN;PRS;2;SG;IND	3	conj	3:conj:but	_
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	wait	wait	VERB	VB	NFIN;V	8	xcomp	8:xcomp	_
+11	long	long	ADV	RB	ADV	10	advmod	10:advmod	_
+12	because	because	SCONJ	IN	CONJ	15	mark	15:mark	_
+13	they	they	PRON	PRP	PL;PRO;3;NOM	15	nsubj	15:nsubj	_
+14	ARE	be	AUX	VBP	PL;V;3;FIN;PRS;IND	15	cop	15:cop	_
+15	orginizied	organized	ADJ	JJ	ADJ	8	advcl	8:advcl:because	CorrectForm=organized|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	19:punct	_
+17	so	so	ADV	RB	ADV	19	advmod	19:advmod	_
+18	you	you	PRON	PRP	NOM;2;PRO	19	nsubj	19:nsubj	_
+19	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	3	parataxis	3:parataxis	_
+20	in	in	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	22:punct	_
+22	out	out	ADV	RB	ADV	20	conj	19:advmod|20:conj:and	SpaceAfter=No
+23	,	,	PUNCT	,	_	25	punct	25:punct	_
+24	and	and	CCONJ	CC	CONJ	25	cc	25:cc	_
+25	paid	pay	VERB	VBN	PASS;PST;V;V.PTCP	20	conj	19:advmod|20:conj:and	_
+26	well	well	ADV	RB	ADV	25	advmod	25:advmod	_
+27	for	for	ADP	IN	ADP	29	case	29:case	_
+28	your	your	PRON	PRP$	GEN;PRO;2	29	nmod:poss	29:nmod:poss	_
+29	scrap	scrap	NOUN	NN	SG;N	25	obl	25:obl:for	_
+
+# newdoc id = reviews-181696
+# sent_id = reviews-181696-0001
+# newpar id = reviews-181696-p0001
+# text = Winning Attorney!
+1	Winning	win	VERB	VBG	V.MSDR;V	2	amod	2:amod	_
+2	Attorney	attorney	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-181696-0002
+# newpar id = reviews-181696-p0002
+# text = The only 10.0 "Perfect Score" AVVO Rated Attorney I Have Ever Met.
+1	The	the	DET	DT	DEF;DET	10	det	10:det	_
+2	only	only	ADJ	JJ	ADJ	10	amod	10:amod	_
+3	10.0	10.0	NUM	CD	NUM	10	nummod	10:nummod	_
+4	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+5	Perfect	perfect	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	Score	score	NOUN	NN	SG;N	10	compound	10:compound	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	6:punct	_
+8	AVVO	AVVO	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	Rated	rate	VERB	VBN	PASS;PST;V;V.PTCP	10	amod	10:amod	_
+10	Attorney	attorney	NOUN	NN	SG;N	0	root	0:root|14:obj	_
+11	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+12	Have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	14	aux	14:aux	_
+13	Ever	ever	ADV	RB	ADV	14	advmod	14:advmod	_
+14	Met	meet	VERB	VBN	PST;V;V.PTCP	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = reviews-181696-0003
+# text = I Highly Recommend, The Law Offices Of Dale Gribow!!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	Highly	highly	ADV	RB	ADV	3	advmod	3:advmod	_
+3	Recommend	recommend	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	The	the	DET	DT	DEF;DET	7	det	7:det	_
+6	Law	law	NOUN	NN	SG;N	7	compound	7:compound	_
+7	Offices	office	NOUN	NNS	PL;N	3	obj	3:obj	_
+8	Of	of	ADP	IN	ADP	10	case	10:case	_
+9	Dale	Dale	PROPN	NNP	SG;PROPN	10	compound	10:compound	_
+10	Gribow	Gribow	PROPN	NNP	SG;PROPN	7	nmod	7:nmod:of	SpaceAfter=No
+11	!!	!!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-030395
+# sent_id = reviews-030395-0001
+# newpar id = reviews-030395-p0001
+# text = Sanctuary is amazing!
+1	Sanctuary	Sanctuary	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	cop	3:cop	_
+3	amazing	amazing	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-030395-0002
+# newpar id = reviews-030395-p0002
+# text = Sanctuary serves delicious, somewhat healthy food in a great restaurant/fast food style.
+1	Sanctuary	Sanctuary	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	serves	serve	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	delicious	delicious	ADJ	JJ	ADJ	7	amod	7:amod	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	somewhat	somewhat	ADV	RB	ADV	6	advmod	6:advmod	_
+6	healthy	healthy	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	food	food	NOUN	NN	SG;N	2	obj	2:obj	_
+8	in	in	ADP	IN	ADP	15	case	15:case	_
+9	a	a	DET	DT	INDF;DET	15	det	15:det	_
+10	great	great	ADJ	JJ	ADJ	15	amod	15:amod	_
+11	restaurant	restaurant	NOUN	NN	SG;N	15	compound	15:compound	SpaceAfter=No
+12	/	/	SYM	,	_	14	cc	14:cc	SpaceAfter=No
+13	fast	fast	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	food	food	NOUN	NN	SG;N	11	conj	11:conj|15:compound	_
+15	style	style	NOUN	NN	SG;N	2	obl	2:obl:in	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-030395-0003
+# text = The employees are really friendly.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	employees	employee	NOUN	NNS	PL;N	5	nsubj	5:nsubj	_
+3	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	5	cop	5:cop	_
+4	really	really	ADV	RB	ADV	5	advmod	5:advmod	_
+5	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-030395-0004
+# text = And they deliver!
+1	And	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+2	they	they	PRON	PRP	PL;PRO;3;NOM	3	nsubj	3:nsubj	_
+3	deliver	deliver	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-336285
+# sent_id = reviews-336285-0001
+# newpar id = reviews-336285-p0001
+# text = What a Preschool!
+1	What	what	DET	WDT	DET	3	det:predet	3:det:predet	_
+2	a	a	DET	DT	INDF;DET	3	det	3:det	_
+3	Preschool	preschool	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-336285-0002
+# newpar id = reviews-336285-p0002
+# text = If you want the best for your child, don't hesitate in visiting this wornderful school.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	want	want	VERB	VBP	V;FIN;PRS;2;SG;IND	12	advcl	12:advcl:if	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	best	good	ADJ	JJS	RL;ADJ	3	obj	3:obj	_
+6	for	for	ADP	IN	ADP	8	case	8:case	_
+7	your	your	PRON	PRP$	GEN;PRO;2	8	nmod:poss	8:nmod:poss	_
+8	child	child	NOUN	NN	SG;N	5	obl	5:obl:for	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	3:punct	_
+10-11	don't	_	_	_	_	_	_	_	_
+10	do	do	AUX	VB	FIN;V;IMP	12	aux	12:aux	_
+11	n't	not	PART	RB	PART	12	advmod	12:advmod	_
+12	hesitate	hesitate	VERB	VB	FIN;V;IMP	0	root	0:root	_
+13	in	in	SCONJ	IN	CONJ	14	mark	14:mark	_
+14	visiting	visit	VERB	VBG	PRS;V;V.PTCP	12	advcl	12:advcl:in	_
+15	this	this	DET	DT	SG;DET	17	det	17:det	_
+16	wornderful	wonderful	ADJ	JJ	ADJ	17	amod	17:amod	CorrectForm=wonderful
+17	school	school	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = reviews-336285-0003
+# text = This is the very best in the Gables.
+1	This	this	PRON	DT	SG;PRO	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	cop	5:cop	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	best	good	ADJ	JJS	RL;ADJ	0	root	0:root	_
+6	in	in	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	Gables	Gables	PROPN	NNP	SG;PROPN	5	obl	5:obl:in	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# newdoc id = reviews-061721
+# sent_id = reviews-061721-0001
+# newpar id = reviews-061721-p0001
+# text = What a Dump!
+1	What	what	DET	WDT	DET	3	det:predet	3:det:predet	_
+2	a	a	DET	DT	INDF;DET	3	det	3:det	_
+3	Dump	dump	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-061721-0002
+# newpar id = reviews-061721-p0002
+# text = The food is terrible.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	food	food	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+4	terrible	terrible	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-061721-0003
+# text = The place smells and the owner is very very rude!
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	place	place	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	smells	smell	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	owner	owner	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+7	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	10	cop	10:cop	_
+8	very	very	ADV	RB	ADV	9	advmod	9:advmod	_
+9	very	very	ADV	RB	ADV	10	advmod	10:advmod	_
+10	rude	rude	ADJ	JJ	ADJ	3	conj	3:conj:and	SpaceAfter=No
+11	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-061721-0004
+# text = I could go on and on!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	could	could	AUX	MD	V;FIN	3	aux	3:aux	_
+3	go	go	VERB	VB	NFIN;V	0	root	0:root	_
+4	on	on	ADV	RB	ADV	3	advmod	3:advmod	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	on	on	ADV	RB	ADV	4	conj	3:advmod|4:conj:and	SpaceAfter=No
+7	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-061721-0005
+# text = Just don't go there.
+1	Just	just	ADV	RB	ADV	4	advmod	4:advmod	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VB	FIN;V;IMP	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	go	go	VERB	VB	FIN;V;IMP	0	root	0:root	_
+5	there	there	ADV	RB	ADV	4	advmod	4:advmod	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-169610
+# sent_id = reviews-169610-0001
+# newpar id = reviews-169610-p0001
+# text = house closing
+1	house	house	NOUN	NN	SG;N	2	compound	2:compound	_
+2	closing	closing	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-169610-0002
+# newpar id = reviews-169610-p0002
+# text = Mrs. Tolchin provided us with excellent service and came with a great deal of knowledge and professionalism!
+1	Mrs.	Mrs.	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj|9:nsubj	_
+2	Tolchin	Tolchin	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	provided	provide	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+4	us	we	PRON	PRP	PL;ACC;PRO;1	3	obj	3:obj	_
+5	with	with	ADP	IN	ADP	7	case	7:case	_
+6	excellent	excellent	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	service	service	NOUN	NN	SG;N	3	obl	3:obl:with	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	came	come	VERB	VBD	PST;V;3;FIN;SG;IND	3	conj	3:conj:and	_
+10	with	with	ADP	IN	ADP	13	case	13:case	_
+11	a	a	DET	DT	INDF;DET	13	det	13:det	_
+12	great	great	ADJ	JJ	ADJ	13	amod	13:amod	_
+13	deal	deal	NOUN	NN	SG;N	9	obl	9:obl:with	_
+14	of	of	ADP	IN	ADP	15	case	15:case	_
+15	knowledge	knowledge	NOUN	NN	SG;N	13	nmod	13:nmod:of	_
+16	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+17	professionalism	professionalism	NOUN	NN	SG;N	15	conj	13:nmod:of|15:conj:and	SpaceAfter=No
+18	!	!	PUNCT	.	_	3	punct	3:punct	_
+

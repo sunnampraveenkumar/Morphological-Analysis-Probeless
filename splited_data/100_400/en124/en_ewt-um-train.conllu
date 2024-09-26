@@ -1,0 +1,353 @@
+# sent_id = email-enronsent10_01-0042
+# text = Here is the attachment...
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	cop	1:cop	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	attachment	attachment	NOUN	NN	N;SG	1	nsubj	1:nsubj	SpaceAfter=No
+5	...	...	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0043
+# newpar id = email-enronsent10_01-p0004
+# text = Attached is my draft of a request for rehearing.
+1	Attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+2	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	1	aux:pass	1:aux:pass	_
+3	my	my	PRON	PRP$	SG;PRO;GEN;1	4	nmod:poss	4:nmod:poss	_
+4	draft	draft	NOUN	NN	N;SG	1	nsubj:pass	1:nsubj:pass	_
+5	of	of	ADP	IN	ADP	7	case	7:case	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	request	request	NOUN	NN	N;SG	4	nmod	4:nmod:of	_
+8	for	for	ADP	IN	ADP	9	case	9:case	_
+9	rehearing	rehearing	NOUN	NN	N;SG	7	nmod	7:nmod:for	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0044
+# text = It incorporates Mr. Stojic's and Mr. Kelly's initial comments.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	incorporates	incorporate	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+3	Mr.	Mr.	PROPN	NNP	PROPN;SG	11	nmod:poss	11:nmod:poss	_
+4-5	Stojic's	_	_	_	_	_	_	_	_
+4	Stojic	Stojic	PROPN	NNP	PROPN;SG	3	flat	3:flat	_
+5	's	's	PART	POS	PART	3	case	3:case	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	Mr.	Mr.	PROPN	NNP	PROPN;SG	3	conj	3:conj:and|11:nmod:poss	_
+8-9	Kelly's	_	_	_	_	_	_	_	_
+8	Kelly	Kelly	PROPN	NNP	PROPN;SG	7	flat	7:flat	_
+9	's	's	PART	POS	PART	7	case	7:case	_
+10	initial	initial	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	comments	comment	NOUN	NNS	N;PL	2	obj	2:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0045
+# text = Please review it and let me know if you have any comments on or before Tuesday afternoon (I will be out of the office Monday).
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	review	review	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	it	it	PRON	PRP	NEUT;SG;PRO;3;ACC	2	obj	2:obj	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	let	let	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+6	me	I	PRON	PRP	SG;PRO;1;ACC	5	obj	5:obj|7:nsubj:xsubj	_
+7	know	know	VERB	VB	V;NFIN	5	xcomp	5:xcomp	_
+8	if	if	SCONJ	IN	CONJ	10	mark	10:mark	_
+9	you	you	PRON	PRP	PRO;2;NOM	10	nsubj	10:nsubj	_
+10	have	have	VERB	VBP	2;FIN;SG;V;PRS;IND	7	ccomp	7:ccomp	_
+11	any	any	DET	DT	DET	12	det	12:det	_
+12	comments	comment	NOUN	NNS	N;PL	10	obj	10:obj	_
+13	on	on	ADP	IN	ADP	17	case	17:case	_
+14	or	or	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	before	before	ADP	IN	ADP	13	conj	13:conj:or|17:case	_
+16	Tuesday	Tuesday	PROPN	NNP	PROPN;SG	17	compound	17:compound	_
+17	afternoon	afternoon	NOUN	NN	N;SG	7	obl	7:obl:before	_
+18	(	(	PUNCT	-LRB-	_	25	punct	25:punct	SpaceAfter=No
+19	I	I	PRON	PRP	SG;PRO;NOM;1	25	nsubj	25:nsubj	_
+20	will	will	AUX	MD	V;FIN	25	aux	25:aux	_
+21	be	be	AUX	VB	V;NFIN	25	cop	25:cop	_
+22	out	out	ADP	IN	ADP	25	case	25:case	_
+23	of	of	ADP	IN	ADP	25	case	25:case	_
+24	the	the	DET	DT	DEF;DET	25	det	25:det	_
+25	office	office	NOUN	NN	N;SG	7	parataxis	7:parataxis	_
+26	Monday	Monday	PROPN	NNP	PROPN;SG	25	obl:tmod	25:obl:tmod	SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	25	punct	25:punct	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0046
+# text = Thank you!
+1	Thank	thank	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+2	you	you	PRON	PRP	PRO;2;ACC	1	obj	1:obj	SpaceAfter=No
+3	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0047
+# newpar id = email-enronsent10_01-p0005
+# text = OK.
+1	OK	ok	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0048
+# text = DF
+1	DF	DF	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0049
+# text = DENISE LAGESSE
+1	DENISE	DENISE	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	LAGESSE	LAGESSE	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent10_01-0050
+# text = 01/12/2001 10:34 AM
+1	01/12/2001	01/12/2001	NUM	CD	NUM	0	root	0:root	_
+2	10:34	10:34	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0051
+# text = Please approve Susan's attached expense report and forward to accounting with a cc: to me.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	approve	approve	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3-4	Susan's	_	_	_	_	_	_	_	_
+3	Susan	Susan	PROPN	NNP	PROPN;SG	7	nmod:poss	7:nmod:poss	_
+4	's	's	PART	POS	PART	3	case	3:case	_
+5	attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	expense	expense	NOUN	NN	N;SG	7	compound	7:compound	_
+7	report	report	NOUN	NN	N;SG	2	obj	2:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	forward	forward	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	accounting	accounting	NOUN	NN	N;SG	9	obl	9:obl:to	_
+12	with	with	ADP	IN	ADP	14	case	14:case	_
+13	a	a	DET	DT	DET;INDF	14	det	14:det	_
+14	cc	cc	NOUN	NN	N;SG	9	obl	9:obl:with	SpaceAfter=No
+15	:	:	PUNCT	:	_	17	punct	17:punct	_
+16	to	to	ADP	IN	ADP	17	case	17:case	_
+17	me	I	PRON	PRP	SG;PRO;1;ACC	14	nmod	14:nmod:to	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0052
+# text = Thanks!
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0053
+# newpar id = email-enronsent10_01-p0006
+# text = Forgot to cc you.
+1	Forgot	forget	VERB	VBD	FIN;SG;V;IND;PST;1	0	root	0:root	_
+2	to	to	PART	TO	PART	3	mark	3:mark	_
+3	cc	cc	VERB	VB	V;NFIN	1	xcomp	1:xcomp	_
+4	you	you	PRON	PRP	PRO;2;ACC	3	iobj	3:iobj	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0054
+# text = df
+1	df	df	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0055
+# text = Drew Fossum
+1	Drew	Drew	PROPN	NNP	PROPN;SG	2	compound	2:compound	_
+2	Fossum	Fossum	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0056
+# text = 01/12/2001 04:37 PM
+1	01/12/2001	01/12/2001	NUM	CD	NUM	0	root	0:root	_
+2	04:37	04:37	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0057
+# text = OK.
+1	OK	ok	INTJ	UH	INTJ	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0058
+# text = DF
+1	DF	DF	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent10_01-0059
+# text = DENISE LAGESSE
+1	DENISE	DENISE	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	LAGESSE	LAGESSE	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent10_01-0060
+# text = 01/12/2001 10:34 AM
+1	01/12/2001	01/12/2001	NUM	CD	NUM	0	root	0:root	_
+2	10:34	10:34	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0061
+# text = Please approve Susan's attached expense report and forward to accounting with a cc: to me.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	approve	approve	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3-4	Susan's	_	_	_	_	_	_	_	_
+3	Susan	Susan	PROPN	NNP	PROPN;SG	7	nmod:poss	7:nmod:poss	_
+4	's	's	PART	POS	PART	3	case	3:case	_
+5	attached	attach	VERB	VBN	V.PTCP;PST;PASS;V	7	amod	7:amod	_
+6	expense	expense	NOUN	NN	N;SG	7	compound	7:compound	_
+7	report	report	NOUN	NN	N;SG	2	obj	2:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	forward	forward	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	accounting	accounting	NOUN	NN	N;SG	9	obl	9:obl:to	_
+12	with	with	ADP	IN	ADP	14	case	14:case	_
+13	a	a	DET	DT	DET;INDF	14	det	14:det	_
+14	cc	cc	NOUN	NN	N;SG	9	obl	9:obl:with	SpaceAfter=No
+15	:	:	PUNCT	:	_	17	punct	17:punct	_
+16	to	to	ADP	IN	ADP	17	case	17:case	_
+17	me	I	PRON	PRP	SG;PRO;1;ACC	14	nmod	14:nmod:to	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent10_01-0062
+# text = Thanks!
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	SpaceAfter=No
+2	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent10_01-0063
+# newpar id = email-enronsent10_01-p0007
+# text = Lou, do we have any sort of policy on requests like this?
+1	Lou	Lou	PROPN	NNP	PROPN;SG	5	vocative	5:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	do	do	AUX	VBP	FIN;V;PRS;IND;PL;1	5	aux	5:aux	_
+4	we	we	PRON	PRP	PRO;PL;NOM;1	5	nsubj	5:nsubj	_
+5	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+6	any	any	DET	DT	DET	7	det	7:det	_
+7	sort	sort	NOUN	NN	N;SG	5	obj	5:obj	_
+8	of	of	ADP	IN	ADP	9	case	9:case	_
+9	policy	policy	NOUN	NN	N;SG	7	nmod	7:nmod:of	_
+10	on	on	ADP	IN	ADP	11	case	11:case	_
+11	requests	request	NOUN	NNS	N;PL	9	nmod	9:nmod:on	_
+12	like	like	ADP	IN	ADP	13	case	13:case	_
+13	this	this	PRON	DT	PRO;SG	11	nmod	11:nmod:like	SpaceAfter=No
+14	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent10_01-0064
+# text = Lee Huber made the same request last year and we gave her the chair (she only wanted one, however).
+1	Lee	Lee	PROPN	NNP	PROPN;SG	3	nsubj	3:nsubj	_
+2	Huber	Huber	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	made	make	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	6	det	6:det	_
+5	same	same	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	request	request	NOUN	NN	N;SG	3	obj	3:obj	_
+7	last	last	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	year	year	NOUN	NN	N;SG	3	obl:tmod	3:obl:tmod	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	we	we	PRON	PRP	PRO;PL;NOM;1	11	nsubj	11:nsubj	_
+11	gave	give	VERB	VBD	FIN;V;PST;IND;PL;1	3	conj	3:conj:and	_
+12	her	she	PRON	PRP	FEM;SG;PRO;3;ACC	11	iobj	11:iobj	_
+13	the	the	DET	DT	DEF;DET	14	det	14:det	_
+14	chair	chair	NOUN	NN	N;SG	11	obj	11:obj	_
+15	(	(	PUNCT	-LRB-	_	18	punct	18:punct	SpaceAfter=No
+16	she	she	PRON	PRP	FEM;SG;PRO;3;NOM	18	nsubj	18:nsubj	_
+17	only	only	ADV	RB	ADV	18	advmod	18:advmod	_
+18	wanted	want	VERB	VBD	FIN;SG;V;IND;3;PST	11	parataxis	11:parataxis	_
+19	one	one	NUM	CD	NUM	18	obj	18:obj	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	21:punct	_
+21	however	however	ADV	RB	ADV	18	advmod	18:advmod	SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	18	punct	18:punct	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent10_01-0065
+# text = Norma, any thoughts?
+1	Norma	Norma	PROPN	NNP	PROPN;SG	4	vocative	4:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	any	any	DET	DT	DET	4	det	4:det	_
+4	thoughts	thought	NOUN	NNS	N;PL	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0066
+# text = DENISE LAGESSE
+1	DENISE	DENISE	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	LAGESSE	LAGESSE	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent10_01-0067
+# text = 01/12/2001 01:14 PM
+1	01/12/2001	01/12/2001	NUM	CD	NUM	0	root	0:root	_
+2	01:14	01:14	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent10_01-0068
+# text = Susan Scott would like authorization to order an Aeron chair for each of her offices - on 47 and 41.
+1	Susan	Susan	PROPN	NNP	PROPN;SG	4	nsubj	4:nsubj	_
+2	Scott	Scott	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	would	would	AUX	MD	V;FIN	4	aux	4:aux	_
+4	like	like	VERB	VB	V;NFIN	0	root	0:root	_
+5	authorization	authorization	NOUN	NN	N;SG	4	obj	4:obj	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	order	order	VERB	VB	V;NFIN	5	acl	5:acl:to	_
+8	an	a	DET	DT	DET;INDF	10	det	10:det	_
+9	Aeron	Aeron	PROPN	NNP	PROPN;SG	10	compound	10:compound	_
+10	chair	chair	NOUN	NN	N;SG	7	obj	7:obj	_
+11	for	for	ADP	IN	ADP	12	case	12:case	_
+12	each	each	DET	DT	DET	10	nmod	10:nmod:for	_
+13	of	of	ADP	IN	ADP	15	case	15:case	_
+14	her	her	PRON	PRP$	FEM;SG;PRO;3;GEN	15	nmod:poss	15:nmod:poss	_
+15	offices	office	NOUN	NNS	N;PL	12	nmod	12:nmod:of	_
+16	-	-	PUNCT	,	_	18	punct	18:punct	_
+17	on	on	ADP	IN	ADP	18	case	18:case	_
+18	47	47	NUM	CD	NUM	15	nmod	15:nmod:on	_
+19	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+20	41	41	NUM	CD	NUM	18	conj	15:nmod:on|18:conj:and	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0069
+# text = This particular chair is designed to help with back problems, which she has.
+1	This	this	DET	DT	DET;SG	3	det	3:det	_
+2	particular	particular	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	chair	chair	NOUN	NN	N;SG	5	nsubj:pass	5:nsubj:pass	_
+4	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	5	aux:pass	5:aux:pass	_
+5	designed	design	VERB	VBN	V.PTCP;PST;PASS;V	0	root	0:root	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	help	help	VERB	VB	V;NFIN	5	advcl	5:advcl:to	_
+8	with	with	ADP	IN	ADP	10	case	10:case	_
+9	back	back	NOUN	NN	N;SG	10	compound	10:compound	_
+10	problems	problem	NOUN	NNS	N;PL	7	obl	7:obl:with|14:obj	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	14:punct	_
+12	which	which	PRON	WDT	PRO	14	obj	10:ref	_
+13	she	she	PRON	PRP	FEM;SG;PRO;3;NOM	14	nsubj	14:nsubj	_
+14	has	have	VERB	VBZ	FIN;SG;V;PRS;IND;3	10	acl:relcl	10:acl:relcl	Cxn=rc-wh-obj|SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent10_01-0070
+# text = Many people at Enron already have this type of chair, but we rarely, if ever, have a surplus because they are so popular.
+1	Many	many	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	people	people	NOUN	NNS	N;PL	6	nsubj	6:nsubj	_
+3	at	at	ADP	IN	ADP	4	case	4:case	_
+4	Enron	Enron	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:at	_
+5	already	already	ADV	RB	ADV	6	advmod	6:advmod	_
+6	have	have	VERB	VBP	FIN;V;PRS;IND;3;PL	0	root	0:root	_
+7	this	this	DET	DT	DET;SG	8	det	8:det	_
+8	type	type	NOUN	NN	N;SG	6	obj	6:obj	_
+9	of	of	ADP	IN	ADP	10	case	10:case	_
+10	chair	chair	NOUN	NN	N;SG	8	nmod	8:nmod:of	SpaceAfter=No
+11	,	,	PUNCT	,	_	19	punct	19:punct	_
+12	but	but	CCONJ	CC	CONJ	19	cc	19:cc	_
+13	we	we	PRON	PRP	PRO;PL;NOM;1	19	nsubj	19:nsubj	_
+14	rarely	rarely	ADV	RB	ADV	19	advmod	19:advmod	SpaceAfter=No
+15	,	,	PUNCT	,	_	17	punct	17:punct	_
+16	if	if	SCONJ	IN	CONJ	17	mark	17:mark	_
+17	ever	ever	ADV	RB	ADV	14	advcl	14:advcl:if	SpaceAfter=No
+18	,	,	PUNCT	,	_	17	punct	17:punct	_
+19	have	have	VERB	VBP	FIN;V;PRS;IND;PL;1	6	conj	6:conj:but	_
+20	a	a	DET	DT	DET;INDF	21	det	21:det	_
+21	surplus	surplus	NOUN	NN	N;SG	19	obj	19:obj	_
+22	because	because	SCONJ	IN	CONJ	26	mark	26:mark	_
+23	they	they	PRON	PRP	PRO;3;PL;NOM	26	nsubj	26:nsubj	_
+24	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	26	cop	26:cop	_
+25	so	so	ADV	RB	ADV	26	advmod	26:advmod	_
+26	popular	popular	ADJ	JJ	ADJ	19	advcl	19:advcl:because	SpaceAfter=No
+27	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent10_01-0071
+# text = The cost is $567.77 per chair plus tax.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	cost	cost	NOUN	NN	N;SG	4	nsubj	4:nsubj|9:nsubj	_
+3	is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	4	cop	4:cop	_
+4	$	$	SYM	$	_	0	root	0:root	SpaceAfter=No
+5	567.77	567.77	NUM	CD	NUM	4	nummod	4:nummod	_
+6	per	per	ADP	IN	ADP	7	case	7:case	_
+7	chair	chair	NOUN	NN	N;SG	4	nmod	4:nmod:per	_
+8	plus	plus	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	tax	tax	NOUN	NN	N;SG	4	conj	4:conj:plus	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent10_01-0072
+# text = Please approve the purchase of two.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	approve	approve	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	purchase	purchase	NOUN	NN	N;SG	2	obj	2:obj	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	two	two	NUM	CD	NUM	4	nmod	4:nmod:of	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+

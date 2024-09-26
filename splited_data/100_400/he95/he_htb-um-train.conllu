@@ -1,0 +1,344 @@
+# sent_id = 1626
+# text = חיפה בנויה טוב, עומדת נכון במגרש, יש לה חוליית קישור מצויינת ושני חלוצים שיודעים להבקיע, ומבקיעים.
+1	חיפה	חיפה	PROPN	PROPN	PROPN	2	nsubj	_	_
+2	בנויה	בנה	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	0	root	_	_
+3	טוב	טוב	ADV	ADV	ADV	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	עומדת	עמד	VERB	VERB	{1/2/3};SG;ACT;V;V.PTCP;FEM	2	dep	_	HebSource=ConvUncertainHead
+6	נכון	נכון	ADV	ADV	ADV	5	advmod	_	_
+7-9	במגרש	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	ADP	9	case	_	_
+8	ה_	ה	DET	DET	DET	9	det	_	_
+9	מגרש	מגרש	NOUN	NOUN	MASC;SG;N	5	obl	_	_
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	יש	יש	VERB	VERB	V	2	dep	_	HebSource=ConvUncertainHead
+12-13	לה	_	_	_	_	_	_	_	_
+12	ל_	ל	ADP	ADP	ADP	13	case	_	_
+13	_היא	הוא	PRON	PRON	SG;3;PRO;FEM	11	obl	_	_
+14	חוליית	חוליית	NOUN	NOUN	N;PSSD	11	nsubj	_	_
+15	קישור	קישור	NOUN	NOUN	MASC;SG;N	14	compound:smixut	_	_
+16	מצויינת	צוין	VERB	VERB	{1/2/3};SG;V;PASS;V.PTCP;FEM	14	amod	_	_
+17-18	ושני	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+18	שני	שני	NUM	NUM	MASC;PL;NUM;PSSD	19	nummod	_	_
+19	חלוצים	חלוץ	NOUN	NOUN	MASC;N;PL	14	conj	_	_
+20-21	שיודעים	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	CONJ	21	mark	_	_
+21	יודעים	ידע	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	19	acl:relcl	_	_
+22	להבקיע	הבקיע	VERB	VERB	NFIN;ACT;V	21	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	21	punct	_	_
+24-25	ומבקיעים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	CONJ	25	cc	_	_
+25	מבקיעים	הבקיע	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	21	conj	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1627
+# text = היא תרצה לחזור לעצמה אחרי הפסדה בימק"א.
+1	היא	הוא	PRON	PRON	SG;3;PRO;FEM	2	nsubj	_	_
+2	תרצה	רצה	VERB	VERB	SG;V;3;FUT;FEM	0	root	_	_
+3	לחזור	חזר	VERB	VERB	NFIN;ACT;V	2	xcomp	_	_
+4-5	לעצמה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	ADP	5	case	_	_
+5	עצמה	עצמו	PRON	PRON	SG;REFL;3;PRO;FEM	3	obl	_	_
+6	אחרי	אחרי	ADP	ADP	ADP	7	case	_	_
+7-9	הפסדה	_	_	_	_	_	_	_	_
+7	הפסד_	הפסד	NOUN	NOUN	MASC;SG;N;DEF	2	obl	_	_
+8	_של_	של	ADP	ADP	ADP	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	SG;GEN;3;PRO;FEM	7	nmod:poss	_	_
+10-11	בימק"א	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	ADP	11	case	_	_
+11	ימק"א	בימק"א	PROPN	PROPN	PROPN	7	nmod	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1628
+# text = למרות שבית"ר ירושלים ראשון בטבלה, אני מהמר על ניצחון של באר שבע (בשעה הראשית 1430), בגלל הביתיות וגם מפני שלשחקני באר שבע תהיה שאפתנות מיוחדת לנצח את המוליך.
+1	למרות	למרות	ADP	ADP	ADP	5	mark	_	_
+2-3	שבית"ר	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	CONJ	1	fixed	_	_
+3	בית"ר	בית"ר	PROPN	PROPN	PROPN	5	nsubj	_	_
+4	ירושלים	ירושלים	PROPN	PROPN	PROPN	3	flat:name	_	_
+5	ראשון	_	ADJ	ADJ	MASC;SG;ADJ	11	advcl	_	_
+6-8	בטבלה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	ADP	8	case	_	_
+7	ה_	ה	DET	DET	DET	8	det	_	_
+8	טבלה	טבלה	NOUN	NOUN	SG;N;FEM	5	obl	_	_
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10	אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	11	nsubj	_	_
+11	מהמר	הימר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+12	על	על	ADP	ADP	ADP	13	case	_	_
+13	ניצחון	ניצחון	NOUN	NOUN	MASC;SG;N	11	obl	_	_
+14	של	של	ADP	ADP	ADP;GEN	15	case:gen	_	_
+15	באר	באר	NOUN	NOUN	SG;FEM;N;PSSD	13	nmod:poss	_	_
+16	שבע	שבע	NUM	NUM	SG;NUM;FEM	15	flat:name	_	_
+17	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+18-20	בשעה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	ADP	20	case	_	_
+19	ה_	ה	DET	DET	DET	20	det	_	_
+20	שעה	שעה	NOUN	NOUN	SG;N;FEM	15	appos	_	_
+21-22	הראשית	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	DET	22	det	_	_
+22	ראשית	ראשי	ADJ	ADJ	SG;FEM;ADJ	20	amod	_	_
+23	1430	1430	NUM	NUM	NUM	20	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	11	punct	_	_
+26	בגלל	בגלל	ADP	ADP	ADP	28	case	_	_
+27-28	הביתיות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	DET	28	det	_	_
+28	ביתיות	ביתיות	NOUN	NOUN	SG;N;FEM	11	obl	_	_
+29-30	וגם	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	CONJ	37	cc	_	_
+30	גם	גם	ADV	ADV	ADV	31	advmod	_	_
+31	מפני	מפני	ADP	ADP	ADP	37	mark	_	_
+32-34	שלשחקני	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	CONJ	31	fixed	_	_
+33	ל	ל	ADP	ADP	ADP	34	case	_	_
+34	שחקני	שחקן	NOUN	NOUN	MASC;N;PL;PSSD	37	obl	_	_
+35	באר	באר	NOUN	NOUN	SG;FEM;N;PSSD	34	compound:smixut	_	_
+36	שבע	שבע	NUM	NUM	SG;NUM;FEM	35	flat:name	_	_
+37	תהיה	היה	VERB	VERB	POS;SG;V;3;FUT;FEM	28	conj	_	_
+38	שאפתנות	שאפתנות	NOUN	NOUN	SG;N;FEM	37	nsubj	_	_
+39	מיוחדת	מיוחד	ADJ	ADJ	SG;FEM;ADJ	38	amod	_	_
+40	לנצח	ניצח	VERB	VERB	NFIN;ACT;V	38	acl	_	_
+41	את	את	ADP	ADP	ADP;ACC	43	case:acc	_	_
+42-43	המוליך	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	DET	43	det	_	_
+43	מוליך	מוליך	NOUN	NOUN	MASC;SG;N	40	obj	_	_
+44	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# sent_id = 1629
+# text = ראיתי את הפועל תל אביב ולדעתי יש לו קבוצה טובה גם בלי סיני.
+1	ראיתי	ראה	VERB	VERB	SG;ACT;V;{FEM/MASC};1;PST	0	root	_	_
+2	את	את	ADP	ADP	ADP;ACC	4	case:acc	_	_
+3-4	הפועל	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	פועל	פועל	NOUN	NOUN	MASC;SG;N	1	obj	_	_
+5	תל	תל	NOUN	NOUN	MASC;SG;N;PSSD	4	acl	_	_
+6	אביב	אביב	NOUN	NOUN	MASC;SG;N	5	compound:smixut	_	_
+7-11	ולדעתי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	CONJ	12	cc	_	_
+8	ל	ל	ADP	ADP	ADP	9	case	_	_
+9	דעה_	דעה	NOUN	NOUN	SG;FEM;N;DEF	12	obl	_	_
+10	_של_	של	ADP	ADP	ADP	11	case:gen	_	_
+11	_אני	הוא	PRON	PRON	SG;GEN;1;{FEM/MASC};PRO	9	nmod:poss	_	_
+12	יש	יש	VERB	VERB	V	1	conj	_	_
+13-14	לו	_	_	_	_	_	_	_	_
+13	ל_	ל	ADP	ADP	ADP	14	case	_	_
+14	_הוא	הוא	PRON	PRON	SG;3;MASC;PRO	12	obl	_	_
+15	קבוצה	קבוצה	NOUN	NOUN	SG;N;FEM	12	nsubj	_	_
+16	טובה	טוב	ADJ	ADJ	SG;FEM;ADJ	15	amod	_	_
+17	גם	גם	ADV	ADV	ADV	18	advmod	_	_
+18	בלי	בלי	ADP	ADP	ADP	19	case	_	_
+19	סיני	סיני	PROPN	PROPN	PROPN	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 1630
+# text = צפוי תיקו בדרבי הזה עם בית"ר (משחק המוקד בבלומפילד 16.30), אלא אם כן יכריע את הכף הניסיון של בית"ר.
+1	צפוי	צפוי	ADJ	ADJ	MASC;SG;ADJ	0	root	_	Modal=Yes
+2	תיקו	תיקו	NOUN	NOUN	MASC;SG;N	1	nsubj	_	_
+3-5	בדרבי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	ADP	5	case	_	_
+4	ה_	ה	DET	DET	DET	5	det	_	_
+5	דרבי	דרבי	NOUN	NOUN	MASC;SG;N	1	obl	_	_
+6-7	הזה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	DET	7	det	_	_
+7	זה	זה	PRON	PRON	SG;3;MASC;PRO	5	det	_	_
+8	עם	עם	ADP	ADP	ADP	9	case	_	_
+9	בית"ר	בית"ר	PROPN	PROPN	PROPN	5	nmod	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	משחק	משחק	NOUN	NOUN	MASC;SG;N;PSSD	5	appos	_	_
+12-13	המוקד	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	מוקד	מוקד	NOUN	NOUN	MASC;SG;N	11	compound:smixut	_	_
+14-15	בבלומפילד	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	ADP	15	case	_	_
+15	בלומפילד	בלומפילד	PROPN	PROPN	PROPN	11	nmod	_	_
+16	16.30	16.30	NUM	NUM	NUM	11	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	1	punct	_	_
+19	אלא	אלא	CCONJ	CCONJ	CONJ	1	advcl	_	_
+20	אם	אם	SCONJ	SCONJ	CONJ	19	dep	_	HebSource=ConvUncertainHead
+21	כן	_	PRON	PRON	PRO;3	19	dep	_	HebSource=ConvUncertainHead
+22	יכריע	הכריע	VERB	VERB	SG;ACT;V;3;FUT;MASC	19	dep	_	HebSource=ConvUncertainHead
+23	את	את	ADP	ADP	ADP;ACC	25	case:acc	_	_
+24-25	הכף	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	DET	25	det	_	_
+25	כף	כף	NOUN	NOUN	SG;N;FEM	22	obj	_	_
+26-27	הניסיון	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	DET	27	det	_	_
+27	ניסיון	ניסיון	NOUN	NOUN	MASC;SG;N	22	nsubj	_	_
+28	של	של	ADP	ADP	ADP;GEN	29	case:gen	_	_
+29	בית"ר	בית"ר	PROPN	PROPN	PROPN	27	nmod:poss	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 1631
+# text = הפועל ירושלים ומכבי נתניה הם פחות או יותר ברמה שווה (המשחק הראשון בבלומפילד 1430).
+1-2	הפועל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	פועל	פועל	NOUN	NOUN	MASC;SG;N	12	nsubj:cop	_	_
+3	ירושלים	ירושלים	PROPN	PROPN	PROPN	2	flat:name	_	_
+4-5	ומכבי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	CONJ	5	cc	_	_
+5	מכבי	מכבי	PROPN	PROPN	PROPN	2	conj	_	_
+6	נתניה	נתניה	PROPN	PROPN	PROPN	5	flat:name	_	_
+7	הם	הוא	PRON	PRON	POS;PL;3;MASC;PRO	12	cop	_	_
+8	פחות	פחות	ADV	ADV	ADV	11	advmod	_	_
+9	או	או	CCONJ	CCONJ	CONJ	8	fixed	_	_
+10	יותר	יותר	ADV	ADV	ADV	8	fixed	_	_
+11-12	ברמה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	ADP	12	case	_	_
+12	רמה	רמה	NOUN	NOUN	SG;N;FEM	0	root	_	_
+13	שווה	שווה	ADJ	ADJ	SG;FEM;ADJ	12	amod	_	_
+14	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+15-16	המשחק	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	משחק	משחק	NOUN	NOUN	MASC;SG;N	12	parataxis	_	_
+17-18	הראשון	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	DET	18	det	_	_
+18	ראשון	_	ADJ	ADJ	MASC;SG;ADJ	16	amod	_	_
+19-20	בבלומפילד	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	ADP	20	case	_	_
+20	בלומפילד	בלומפילד	PROPN	PROPN	PROPN	16	nmod	_	_
+21	1430	1430	NUM	NUM	NUM	16	nummod	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# sent_id = 1632
+# text = אני מהמר על נתניה מפני שיש לה התקפה שמסוגלת לנצח והמשחק לא יהיה בימק"א.
+1	אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	2	nsubj	_	_
+2	מהמר	הימר	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+3	על	על	ADP	ADP	ADP	4	case	_	_
+4	נתניה	נתניה	PROPN	PROPN	PROPN	2	obl	_	_
+5	מפני	מפני	ADP	ADP	ADP	7	mark	_	_
+6-7	שיש	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	CONJ	5	fixed	_	_
+7	יש	יש	VERB	VERB	V	2	advcl	_	_
+8-9	לה	_	_	_	_	_	_	_	_
+8	ל_	ל	ADP	ADP	ADP	9	case	_	_
+9	_היא	הוא	PRON	PRON	SG;3;PRO;FEM	7	obl	_	_
+10	התקפה	התקפה	NOUN	NOUN	SG;N;FEM	7	nsubj	_	_
+11-12	שמסוגלת	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	CONJ	12	mark	_	_
+12	מסוגלת	מסוגל	ADJ	ADJ	SG;FEM;ADJ	10	acl:relcl	_	Modal=Yes
+13	לנצח	ניצח	VERB	VERB	NFIN;ACT;V	12	xcomp	_	_
+14-16	והמשחק	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	CONJ	18	cc	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	משחק	משחק	NOUN	NOUN	MASC;SG;N	18	nsubj	_	_
+17	לא	לא	ADV	ADV	NEG;ADV	18	advmod	_	_
+18	יהיה	היה	AUX	AUX	POS;V;SG;3;FUT;MASC	7	conj	_	_
+19-20	בימק"א	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	ADP	20	case	_	_
+20	ימק"א	בימק"א	PROPN	PROPN	PROPN	18	obl	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1633
+# text = אני חושב שמכבי תל אביב חייב לנצח במשחק החוץ מול צפרירים חולון (היחיד שיהיה כבד היום).
+1	אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	2	nsubj	_	_
+2	חושב	חשב	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+3-4	שמכבי	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	CONJ	7	mark	_	_
+4	מכבי	מכבי	PROPN	PROPN	PROPN	7	nsubj	_	_
+5	תל	תל	NOUN	NOUN	MASC;SG;N;PSSD	4	flat:name	_	_
+6	אביב	אביב	NOUN	NOUN	MASC;SG;N	5	compound:smixut	_	_
+7	חייב	חייב	ADJ	ADJ	MASC;SG;ADJ	2	ccomp	_	Modal=Yes
+8	לנצח	ניצח	VERB	VERB	NFIN;ACT;V	7	xcomp	_	_
+9-10	במשחק	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	10	case	_	_
+10	משחק	משחק	NOUN	NOUN	MASC;SG;N;PSSD	8	obl	_	_
+11-12	החוץ	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	DET	12	det	_	_
+12	חוץ	חוץ	NOUN	NOUN	MASC;SG;N	10	compound:smixut	_	_
+13	מול	מול	ADP	ADP	ADP	14	case	_	_
+14	צפרירים	צפריר	NOUN	NOUN	MASC;N;PL	10	nmod	_	_
+15	חולון	חולון	PROPN	PROPN	PROPN	14	flat:name	_	_
+16	(	(	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+17-18	היחיד	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	DET	18	det	_	_
+18	יחיד	יחיד	ADJ	ADJ	MASC;SG;ADJ	10	appos	_	_
+19-20	שיהיה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	CONJ	20	mark	_	_
+20	יהיה	היה	AUX	AUX	POS;V;SG;3;FUT;MASC	18	acl:relcl	_	_
+21	כבד	כבד	ADJ	ADJ	MASC;SG;ADJ	20	advmod	_	_
+22	היום	היום	ADV	ADV	ADV	20	advmod	_	SpaceAfter=No
+23	)	)	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1634
+# text = מכבי טוב יותר, מסוגל לנצח בחוץ ואילו בחולון שחקני הרכש עדיין לא התאקלמו.
+1	מכבי	מכבי	PROPN	PROPN	PROPN	2	nsubj	_	_
+2	טוב	טוב	ADJ	ADJ	MASC;SG;ADJ	0	root	_	_
+3	יותר	יותר	ADV	ADV	ADV	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	מסוגל	מסוגל	ADJ	ADJ	MASC;SG;ADJ	2	conj	_	Modal=Yes
+6	לנצח	ניצח	VERB	VERB	NFIN;ACT;V	5	xcomp	_	_
+7-9	בחוץ	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	ADP	9	case	_	_
+8	ה_	ה	DET	DET	DET	9	det	_	_
+9	חוץ	חוץ	NOUN	NOUN	MASC;SG;N	6	obl	_	_
+10-11	ואילו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+11	אילו	אילו	CCONJ	CCONJ	CONJ	10	fixed	_	_
+12-13	בחולון	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	13	case	_	_
+13	חולון	חולון	PROPN	PROPN	PROPN	19	obl	_	_
+14	שחקני	שחקן	NOUN	NOUN	MASC;N;PL;PSSD	19	nsubj	_	_
+15-16	הרכש	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	DET	16	det	_	_
+16	רכש	רכש	NOUN	NOUN	MASC;SG;N	14	compound:smixut	_	_
+17	עדיין	עדיין	ADV	ADV	ADV	19	advmod	_	_
+18	לא	לא	ADV	ADV	NEG;ADV	19	advmod	_	_
+19	התאקלמו	התאקלם	VERB	VERB	PL;V;3;{FEM/MASC};PST	2	conj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1635
+# text = בני יהודה ינצח בבית את הפועל כפר סבא.
+1	בני	בן	NOUN	NOUN	MASC;N;PL;PSSD	3	nsubj	_	_
+2	יהודה	יהודה	PROPN	PROPN	PROPN	1	flat:name	_	_
+3	ינצח	ניצח	VERB	VERB	SG;ACT;V;3;FUT;MASC	0	root	_	_
+4-6	בבית	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	ADP	6	case	_	_
+5	ה_	ה	DET	DET	DET	6	det	_	_
+6	בית	בית	NOUN	NOUN	MASC;SG;N	3	obl	_	_
+7	את	את	ADP	ADP	ADP;ACC	9	case:acc	_	_
+8-9	הפועל	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	פועל	פועל	NOUN	NOUN	MASC;SG;N	3	obj	_	_
+10	כפר	כפר	NOUN	NOUN	MASC;SG;N;PSSD	9	acl	_	_
+11	סבא	סבא	NOUN	NOUN	MASC;SG;N	10	compound:smixut	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 1636
+# text = הוא טוב יותר ויהנה מיתרון הביתיות.
+1	הוא	הוא	PRON	PRON	SG;3;MASC;PRO	2	nsubj	_	_
+2	טוב	טוב	ADJ	ADJ	MASC;SG;ADJ	0	root	_	_
+3	יותר	יותר	ADV	ADV	ADV	2	advmod	_	_
+4-5	ויהנה	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	CONJ	5	cc	_	_
+5	יהנה	נהנה	VERB	VERB	SG;V;3;FUT;MID;MASC	2	conj	_	_
+6-7	מיתרון	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	ADP	7	case	_	_
+7	יתרון	יתרון	NOUN	NOUN	MASC;SG;N;PSSD	5	obl	_	_
+8-9	הביתיות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	ביתיות	ביתיות	NOUN	NOUN	SG;N;FEM	7	compound:smixut	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 1637
+# text = כיום כפר סבא היא אחת משתי החלשות בליגה.
+1	כיום	כיום	ADV	ADV	ADV	5	advmod	_	_
+2	כפר	כפר	NOUN	NOUN	MASC;SG;N;PSSD	5	nsubj:cop	_	_
+3	סבא	סבא	NOUN	NOUN	MASC;SG;N	2	compound:smixut	_	_
+4	היא	הוא	PRON	PRON	POS;SG;3;PRO;FEM	5	cop	_	_
+5	אחת	אחת	NUM	NUM	SG;NUM;FEM	0	root	_	_
+6-7	משתי	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	ADP	9	case	_	_
+7	שתי	שתי	NUM	NUM	FEM;PL;NUM;PSSD	9	nummod	_	_
+8-9	החלשות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	חלשות	חלש	ADJ	ADJ	FEM;PL;ADJ	5	nmod	_	_
+10-12	בליגה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	ADP	12	case	_	_
+11	ה_	ה	DET	DET	DET	12	det	_	_
+12	ליגה	ליגה	NOUN	NOUN	SG;N;FEM	9	obl	_	_
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

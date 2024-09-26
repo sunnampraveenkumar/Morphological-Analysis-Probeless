@@ -1,0 +1,73 @@
+# sent_id = reviews-104703-0003
+# text = Darla is amazing, I would recoment her to anyone.
+1	Darla	Darla	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	cop	3:cop	_
+3	amazing	amazing	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	,	_	7	punct	7:punct	_
+5	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+6	would	would	AUX	MD	V;FIN	7	aux	7:aux	_
+7	recoment	recommend	VERB	VB	NFIN;V	3	parataxis	3:parataxis	CorrectForm=recommend
+8	her	she	PRON	PRP	ACC;PRO;3;SG;FEM	7	obj	7:obj	_
+9	to	to	ADP	IN	ADP	10	case	10:case	_
+10	anyone	anyone	PRON	NN	SG;PRO	7	obl	7:obl:to	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = reviews-103878
+# sent_id = reviews-103878-0001
+# newpar id = reviews-103878-p0001
+# text = You guys do everything wonderful!
+1	You	you	PRON	PRP	NOM;2;PRO	2	det	2:det	_
+2	guys	guy	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	do	do	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	everything	everything	PRON	NN	SG;PRO	3	obj	3:obj	_
+5	wonderful	wonderful	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-103878-0002
+# text = We honestly cannot think of even 1 thing we didn't like!
+1	We	we	PRON	PRP	PL;PRO;1;NOM	5	nsubj	5:nsubj	_
+2	honestly	honestly	ADV	RB	ADV	5	advmod	5:advmod	_
+3-4	cannot	_	_	_	_	_	_	_	_
+3	can	can	AUX	MD	V;FIN	5	aux	5:aux	_
+4	not	not	PART	RB	PART	5	advmod	5:advmod	_
+5	think	think	VERB	VB	NFIN;V	0	root	0:root	_
+6	of	of	ADP	IN	ADP	9	case	9:case	_
+7	even	even	ADV	RB	ADV	9	advmod	9:advmod	_
+8	1	1	NUM	CD	NUM	9	nummod	9:nummod	_
+9	thing	thing	NOUN	NN	SG;N	5	obl	5:obl:of|13:obj	_
+10	we	we	PRON	PRP	PL;PRO;1;NOM	13	nsubj	13:nsubj	_
+11-12	didn't	_	_	_	_	_	_	_	_
+11	did	do	AUX	VBD	PL;V;1;PST;FIN;IND	13	aux	13:aux	_
+12	n't	not	PART	RB	PART	13	advmod	13:advmod	_
+13	like	like	VERB	VB	NFIN;V	9	acl:relcl	9:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+14	!	!	PUNCT	.	_	5	punct	5:punct	_
+
+# newdoc id = reviews-200668
+# sent_id = reviews-200668-0001
+# newpar id = reviews-200668-p0001
+# text = kudos to Allentown Post Office staff
+1	kudos	kudos	NOUN	NN	SG;N	0	root	0:root	_
+2	to	to	ADP	IN	ADP	6	case	6:case	_
+3	Allentown	Allentown	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+4	Post	Post	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Office	Office	PROPN	NNP	SG;PROPN	6	compound	6:compound	_
+6	staff	staff	NOUN	NNS	PL;N	1	nmod	1:nmod:to	_
+
+# sent_id = reviews-200668-0002
+# newpar id = reviews-200668-p0002
+# text = The staff in Allentown are friendly, helpful and a delight to know..
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	staff	staff	NOUN	NNS	PL;N	6	nsubj	6:nsubj|8:nsubj|11:nsubj	_
+3	in	in	ADP	IN	ADP	4	case	4:case	_
+4	Allentown	Allentown	PROPN	NNP	SG;PROPN	2	nmod	2:nmod:in	_
+5	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	6	cop	6:cop	_
+6	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	helpful	helpful	ADJ	JJ	ADJ	6	conj	6:conj:and	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	a	a	DET	DT	INDF;DET	11	det	11:det	_
+11	delight	delight	NOUN	NN	SG;N	6	conj	6:conj:and	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	know	know	VERB	VB	NFIN;V	11	acl	11:acl:to	SpaceAfter=No
+14	..	..	PUNCT	.	_	6	punct	6:punct	_
+

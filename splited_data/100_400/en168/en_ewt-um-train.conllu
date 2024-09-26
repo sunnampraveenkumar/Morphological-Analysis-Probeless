@@ -1,0 +1,472 @@
+# sent_id = email-enronsent33_01-0026
+# newpar id = email-enronsent33_01-p0007
+# text = Looks good
+1	Looks	look	VERB	VBZ	FIN;SG;V;PRS;IND;3	0	root	0:root	_
+2	good	good	ADJ	JJ	ADJ	1	xcomp	1:xcomp	_
+
+# sent_id = email-enronsent33_01-0027
+# newpar id = email-enronsent33_01-p0008
+# text = Steve Van Hooser
+1	Steve	Steve	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	Van	Van	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Hooser	Hooser	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+
+# sent_id = email-enronsent33_01-0028
+# text = 11/28/2000 11:34 AM
+1	11/28/2000	11/28/2000	NUM	CD	NUM	0	root	0:root	_
+2	11:34	11:34	NUM	CD	NUM	3	nummod	3:nummod	_
+3	AM	a.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent33_01-0029
+# text = Richard,
+1	Richard	Richard	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0030
+# newpar id = email-enronsent33_01-p0009
+# text = How does this look?
+1	How	how	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	does	do	AUX	VBZ	FIN;SG;V;PRS;IND;3	4	aux	4:aux	_
+3	this	this	PRON	DT	PRO;SG	4	nsubj	4:nsubj	_
+4	look	look	VERB	VB	V;NFIN	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent33_01-0031
+# text = If I can get a few minutes with Mark H. today, I'm going to propose that I speak to Stan Klimberg about getting this signed before Thursday's meeting with LIPA.
+1	If	if	SCONJ	IN	CONJ	4	mark	4:mark	_
+2	I	I	PRON	PRP	SG;PRO;NOM;1	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	V;FIN	4	aux	4:aux	_
+4	get	get	VERB	VB	V;NFIN	15	advcl	15:advcl:if	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	few	few	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	minutes	minute	NOUN	NNS	N;PL	4	obj	4:obj	_
+8	with	with	ADP	IN	ADP	9	case	9:case	_
+9	Mark	Mark	PROPN	NNP	PROPN;SG	7	nmod	7:nmod:with	_
+10	H.	H.	PROPN	NNP	PROPN;SG	9	flat	9:flat	_
+11	today	today	NOUN	NN	N;SG	4	obl:tmod	4:obl:tmod	SpaceAfter=No
+12	,	,	PUNCT	,	_	4	punct	4:punct	_
+13-14	I'm	_	_	_	_	_	_	_	_
+13	I	I	PRON	PRP	SG;PRO;NOM;1	15	nsubj	15:nsubj|17:nsubj:xsubj	_
+14	'm	be	AUX	VBP	FIN;SG;V;PRS;IND;1	15	aux	15:aux	_
+15	going	go	VERB	VBG	V.PTCP;V;PRS	0	root	0:root	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	propose	propose	VERB	VB	V;NFIN	15	xcomp	15:xcomp	_
+18	that	that	SCONJ	IN	CONJ	20	mark	20:mark	_
+19	I	I	PRON	PRP	SG;PRO;NOM;1	20	nsubj	20:nsubj	_
+20	speak	speak	VERB	VB	SBJV;FIN;SG;V;PRS;1	17	ccomp	17:ccomp	_
+21	to	to	ADP	IN	ADP	22	case	22:case	_
+22	Stan	Stan	PROPN	NNP	PROPN;SG	20	obl	20:obl:to	_
+23	Klimberg	Klimberg	PROPN	NNP	PROPN;SG	22	flat	22:flat	_
+24	about	about	SCONJ	IN	CONJ	25	mark	25:mark	_
+25	getting	get	VERB	VBG	V.PTCP;V;PRS	20	advcl	20:advcl:about	_
+26	this	this	PRON	DT	PRO;SG	25	obj	25:obj|27:nsubj:xsubj	_
+27	signed	sign	VERB	VBN	V.PTCP;PST;PASS;V	25	xcomp	25:xcomp	_
+28	before	before	ADP	IN	ADP	31	case	31:case	_
+29-30	Thursday's	_	_	_	_	_	_	_	_
+29	Thursday	Thursday	PROPN	NNP	PROPN;SG	31	nmod:poss	31:nmod:poss	_
+30	's	's	PART	POS	PART	29	case	29:case	_
+31	meeting	meeting	NOUN	NN	N;SG	25	obl	25:obl:before	_
+32	with	with	ADP	IN	ADP	33	case	33:case	_
+33	LIPA	lipa	NOUN	NN	N;SG	31	nmod	31:nmod:with	SpaceAfter=No
+34	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = email-enronsent33_01-0032
+# text = Thanks for your help this morning.
+1	Thanks	thanks	NOUN	NN	N;SG	0	root	0:root	_
+2	for	for	ADP	IN	ADP	4	case	4:case	_
+3	your	your	PRON	PRP$	2;PRO;GEN	4	nmod:poss	4:nmod:poss	_
+4	help	help	NOUN	NN	N;SG	1	nmod	1:nmod:for	_
+5	this	this	DET	DT	DET;SG	6	det	6:det	_
+6	morning	morning	NOUN	NN	N;SG	4	nmod:tmod	4:nmod:tmod	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0033
+# newpar id = email-enronsent33_01-p0010
+# text = Steve
+1	Steve	Steve	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent33_01-0034
+# newpar id = email-enronsent33_01-p0011
+# text = In the three years I have been here, I am unaware of an ENA/ECT bad faith claim against any insurance company.
+1	In	in	ADP	IN	ADP	4	case	4:case	_
+2	the	the	DET	DT	DEF;DET	4	det	4:det	_
+3	three	three	NUM	CD	NUM	4	nummod	4:nummod	_
+4	years	year	NOUN	NNS	N;PL	12	obl	8:obl|12:obl:in	_
+5	I	I	PRON	PRP	SG;PRO;NOM;1	8	nsubj	8:nsubj	_
+6	have	have	AUX	VBP	FIN;SG;V;PRS;IND;1	8	aux	8:aux	_
+7	been	be	AUX	VBN	V.PTCP;PST;V	8	cop	8:cop	_
+8	here	here	ADV	RB	ADV	4	acl:relcl	4:acl:relcl	Cxn=rc-red-obl|SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	4:punct	_
+10	I	I	PRON	PRP	SG;PRO;NOM;1	12	nsubj	12:nsubj	_
+11	am	be	AUX	VBP	FIN;SG;V;PRS;IND;1	12	cop	12:cop	_
+12	unaware	unaware	ADJ	JJ	ADJ	0	root	0:root	_
+13	of	of	ADP	IN	ADP	20	case	20:case	_
+14	an	a	DET	DT	DET;INDF	20	det	20:det	_
+15	ENA	ENA	PROPN	NNP	PROPN;SG	17	compound	17:compound	SpaceAfter=No
+16	/	/	PUNCT	,	_	15	punct	15:punct	SpaceAfter=No
+17	ECT	ECT	PROPN	NNP	PROPN;SG	20	compound	20:compound	_
+18	bad	bad	ADJ	JJ	ADJ	19	amod	19:amod	_
+19	faith	faith	NOUN	NN	N;SG	20	compound	20:compound	_
+20	claim	claim	NOUN	NN	N;SG	12	obl	12:obl:of	_
+21	against	against	ADP	IN	ADP	24	case	24:case	_
+22	any	any	DET	DT	DET	24	det	24:det	_
+23	insurance	insurance	NOUN	NN	N;SG	24	compound	24:compound	_
+24	company	company	NOUN	NN	N;SG	20	nmod	20:nmod:against	SpaceAfter=No
+25	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent33_01-0035
+# text = Anyone else?
+1	Anyone	anyone	PRON	NN	PRO;SG	0	root	0:root	_
+2	else	else	ADJ	JJ	ADJ	1	amod	1:amod	SpaceAfter=No
+3	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0036
+# text = If so, please contact Michelle.
+1	If	if	SCONJ	IN	CONJ	2	mark	2:mark	_
+2	so	so	ADV	RB	ADV	5	advcl	5:advcl:if	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	please	please	INTJ	UH	INTJ	5	discourse	5:discourse	_
+5	contact	contact	VERB	VB	V;FIN;IMP	0	root	0:root	_
+6	Michelle	Michelle	PROPN	NNP	PROPN;SG	5	obj	5:obj	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent33_01-0037
+# text = Michelle Blaine@ENRON_DEVELOPMENT
+1	Michelle	MichelleBlaine@ENRON_DEVELOPMENT	PROPN	GW	PROPN	0	root	0:root	_
+2	Blaine@ENRON_DEVELOPMENT	_	X	ADD	_	1	goeswith	1:goeswith	_
+
+# sent_id = email-enronsent33_01-0038
+# text = 11/28/2000 07:35 PM
+1	11/28/2000	11/28/2000	NUM	CD	NUM	0	root	0:root	_
+2	07:35	07:35	NUM	CD	NUM	3	nummod	3:nummod	_
+3	PM	p.m.	NOUN	NN	N;SG	1	nmod:tmod	1:nmod:tmod	_
+
+# sent_id = email-enronsent33_01-0039
+# text = Justin, I have no knowledge of any bad faith actins Enron has pending inTexas but I will call Richard Sanders who manages domestic litgation here.
+1	Justin	Justin	PROPN	NNP	PROPN;SG	4	vocative	4:vocative	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	I	I	PRON	PRP	SG;PRO;NOM;1	4	nsubj	4:nsubj	_
+4	have	have	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+5	no	no	DET	DT	DET	6	det	6:det	_
+6	knowledge	knowledge	NOUN	NN	N;SG	4	obj	4:obj	_
+7	of	of	ADP	IN	ADP	11	case	11:case	_
+8	any	any	DET	DT	DET	11	det	11:det	_
+9	bad	bad	ADJ	JJ	ADJ	11	amod	11:amod	_
+10	faith	faith	NOUN	NN	N;SG	11	compound	11:compound	_
+11	actins	actin	NOUN	NNS	N;PL	6	nmod	6:nmod:of|13:obj	_
+12	Enron	Enron	PROPN	NNP	PROPN;SG	13	nsubj	13:nsubj	_
+13	has	have	VERB	VBZ	FIN;SG;V;PRS;IND;3	11	acl:relcl	11:acl:relcl	Cxn=rc-red-obj
+14	pending	pend	VERB	VBG	V.MSDR;V	11	acl	11:acl	_
+15	in	in	ADP	IN	ADP	16	case	16:case	CorrectSpaceAfter=Yes|SpaceAfter=No
+16	Texas	Texas	PROPN	NNP	PROPN;SG	13	obl	13:obl:in	_
+17	but	but	CCONJ	CC	CONJ	20	cc	20:cc	_
+18	I	I	PRON	PRP	SG;PRO;NOM;1	20	nsubj	20:nsubj	_
+19	will	will	AUX	MD	V;FIN	20	aux	20:aux	_
+20	call	call	VERB	VB	V;NFIN	4	conj	4:conj:but	_
+21	Richard	Richard	PROPN	NNP	PROPN;SG	20	obj	20:obj|24:nsubj	_
+22	Sanders	Sanders	PROPN	NNP	PROPN;SG	21	flat	21:flat	_
+23	who	who	PRON	WP	PRO	24	nsubj	21:ref	_
+24	manages	manage	VERB	VBZ	FIN;SG;V;PRS;IND;3	21	acl:relcl	21:acl:relcl	Cxn=rc-wh-nsubj
+25	domestic	domestic	ADJ	JJ	ADJ	26	amod	26:amod	_
+26	litgation	litgation	NOUN	NN	N;SG	24	obj	24:obj	_
+27	here	here	ADV	RB	ADV	26	advmod	26:advmod	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent33_01-0040
+# text = I've read the materials you sent and agree we need to address these allegations appropriately.
+1-2	I've	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	SG;PRO;NOM;1	3	nsubj	3:nsubj|9:nsubj	_
+2	've	have	AUX	VBP	FIN;SG;V;PRS;IND;1	3	aux	3:aux	_
+3	read	read	VERB	VBN	V.PTCP;PST;V	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	materials	material	NOUN	NNS	N;PL	3	obj	3:obj|7:obj	_
+6	you	you	PRON	PRP	PRO;2;NOM	7	nsubj	7:nsubj	_
+7	sent	send	VERB	VBD	2;FIN;SG;V;IND;PST	5	acl:relcl	5:acl:relcl	Cxn=rc-red-obj
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	agree	agree	VERB	VBP	FIN;SG;V;PRS;IND;1	3	conj	3:conj:and	_
+10	we	we	PRON	PRP	PRO;PL;NOM;1	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+11	need	need	VERB	VBP	FIN;V;PRS;IND;PL;1	9	ccomp	9:ccomp	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	address	address	VERB	VB	V;NFIN	11	xcomp	11:xcomp	_
+14	these	this	DET	DT	DET;PL	15	det	15:det	_
+15	allegations	allegation	NOUN	NNS	N;PL	13	obj	13:obj	_
+16	appropriately	appropriately	ADV	RB	ADV	13	advmod	13:advmod	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0041
+# text = Richard do you have any bad faith litigation pending against any insurers in Texas or are you aware of any Enron has filed??
+1	Richard	Richard	PROPN	NNP	PROPN;SG	4	vocative	4:vocative	_
+2	do	do	AUX	VBP	2;FIN;SG;V;PRS;IND	4	aux	4:aux	_
+3	you	you	PRON	PRP	PRO;2;NOM	4	nsubj	4:nsubj	_
+4	have	have	VERB	VB	V;NFIN	0	root	0:root	_
+5	any	any	DET	DT	DET	8	det	8:det	_
+6	bad	bad	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	faith	faith	NOUN	NN	N;SG	8	compound	8:compound	_
+8	litigation	litigation	NOUN	NN	N;SG	4	obj	4:obj	_
+9	pending	pend	VERB	VBG	V.MSDR;V	8	acl	8:acl	_
+10	against	against	ADP	IN	ADP	12	case	12:case	_
+11	any	any	DET	DT	DET	12	det	12:det	_
+12	insurers	insurer	NOUN	NNS	N;PL	8	nmod	8:nmod:against	_
+13	in	in	ADP	IN	ADP	14	case	14:case	_
+14	Texas	Texas	PROPN	NNP	PROPN;SG	12	nmod	12:nmod:in	_
+15	or	or	CCONJ	CC	CONJ	18	cc	18:cc	_
+16	are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	18	cop	18:cop	_
+17	you	you	PRON	PRP	PRO;2;NOM	18	nsubj	18:nsubj	_
+18	aware	aware	ADJ	JJ	ADJ	4	conj	4:conj:or	_
+19	of	of	ADP	IN	ADP	20	case	20:case	_
+20	any	any	DET	DT	DET	18	obl	18:obl:of|23:obj	_
+21	Enron	Enron	PROPN	NNP	PROPN;SG	23	nsubj	23:nsubj	_
+22	has	have	AUX	VBZ	FIN;SG;V;PRS;IND;3	23	aux	23:aux	_
+23	filed	file	VERB	VBN	V.PTCP;PST;V	20	acl:relcl	20:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+24	??	??	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent33_01-0042
+# text = We sued Houston Casualty last year but I don't recall making any bad faith claims.
+1	We	we	PRON	PRP	PRO;PL;NOM;1	2	nsubj	2:nsubj	_
+2	sued	sue	VERB	VBD	FIN;V;PST;IND;PL;1	0	root	0:root	_
+3	Houston	Houston	PROPN	NNP	PROPN;SG	4	compound	4:compound	_
+4	Casualty	Casualty	PROPN	NNP	PROPN;SG	2	obj	2:obj	_
+5	last	last	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	year	year	NOUN	NN	N;SG	2	obl:tmod	2:obl:tmod	_
+7	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	I	I	PRON	PRP	SG;PRO;NOM;1	11	nsubj	11:nsubj|12:nsubj:xsubj	_
+9-10	don't	_	_	_	_	_	_	_	_
+9	do	do	AUX	VBP	FIN;SG;V;PRS;IND;1	11	aux	11:aux	_
+10	n't	not	PART	RB	PART	11	advmod	11:advmod	_
+11	recall	recall	VERB	VB	V;NFIN	2	conj	2:conj:but	_
+12	making	make	VERB	VBG	V.MSDR;V	11	xcomp	11:xcomp	_
+13	any	any	DET	DT	DET	16	det	16:det	_
+14	bad	bad	ADJ	JJ	ADJ	15	amod	15:amod	_
+15	faith	faith	NOUN	NN	N;SG	16	compound	16:compound	_
+16	claims	claim	NOUN	NNS	N;PL	12	obj	12:obj	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent33_01-0043
+# text = It settled anyway, a long time ago.
+1	It	it	PRON	PRP	NEUT;SG;PRO;3;NOM	2	nsubj	2:nsubj	_
+2	settled	settle	VERB	VBD	FIN;SG;V;IND;3;PST	0	root	0:root	_
+3	anyway	anyway	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	8:punct	_
+5	a	a	DET	DT	DET;INDF	7	det	7:det	_
+6	long	long	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	time	time	NOUN	NN	N;SG	8	obl:npmod	8:obl:npmod	_
+8	ago	ago	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent33_01-0044
+# text = mb
+1	mb	mb	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent33_01-0045
+# newpar id = email-enronsent33_01-p0012
+# text = Michelle,
+1	Michelle	Michelle	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0046
+# text = Did you get my fax on Friday?
+1	Did	do	AUX	VBD	2;FIN;SG;V;IND;PST	3	aux	3:aux	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	get	get	VERB	VB	V;NFIN	0	root	0:root	_
+4	my	my	PRON	PRP$	SG;PRO;GEN;1	5	nmod:poss	5:nmod:poss	_
+5	fax	fax	NOUN	NN	N;SG	3	obj	3:obj	_
+6	on	on	ADP	IN	ADP	7	case	7:case	_
+7	Friday	Friday	PROPN	NNP	PROPN;SG	3	obl	3:obl:on	SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0047
+# text = I guess the questions on which I should like your steer are: (a) Do you have a particular sensitivity about the reference to bad faith proceedings made by United India?
+1	I	I	PRON	PRP	SG;PRO;NOM;1	2	nsubj	2:nsubj	_
+2	guess	guess	VERB	VBP	FIN;SG;V;PRS;IND;1	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	questions	question	NOUN	NNS	N;PL	12	nsubj	9:obl|12:nsubj	_
+5	on	on	ADP	IN	ADP	6	case	6:case	_
+6	which	which	PRON	WDT	PRO	9	obl	4:ref	_
+7	I	I	PRON	PRP	SG;PRO;NOM;1	9	nsubj	9:nsubj	_
+8	should	should	AUX	MD	V;FIN	9	aux	9:aux	_
+9	like	like	VERB	VB	V;NFIN	4	acl:relcl	4:acl:relcl	Cxn=rc-wh-obl-pfront
+10	your	your	PRON	PRP$	2;PRO;GEN	11	nmod:poss	11:nmod:poss	_
+11	steer	steer	NOUN	NN	N;SG	9	obj	9:obj	_
+12	are	be	AUX	VBP	FIN;V;PRS;IND;3;PL	2	ccomp	2:ccomp	SpaceAfter=No
+13	:	:	PUNCT	:	_	19	punct	19:punct	_
+14	(	(	PUNCT	-LRB-	_	15	punct	15:punct	SpaceAfter=No
+15	a	a	NUM	LS	NUM	19	discourse	19:discourse	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	punct	15:punct	_
+17	Do	do	AUX	VBP	2;FIN;SG;V;PRS;IND	19	aux	19:aux	_
+18	you	you	PRON	PRP	PRO;2;NOM	19	nsubj	19:nsubj	_
+19	have	have	VERB	VB	V;NFIN	12	parataxis	12:parataxis	_
+20	a	a	DET	DT	DET;INDF	22	det	22:det	_
+21	particular	particular	ADJ	JJ	ADJ	22	amod	22:amod	_
+22	sensitivity	sensitivity	NOUN	NN	N;SG	19	obj	19:obj	_
+23	about	about	ADP	IN	ADP	25	case	25:case	_
+24	the	the	DET	DT	DEF;DET	25	det	25:det	_
+25	reference	reference	NOUN	NN	N;SG	22	nmod	22:nmod:about	_
+26	to	to	ADP	IN	ADP	29	case	29:case	_
+27	bad	bad	ADJ	JJ	ADJ	28	amod	28:amod	_
+28	faith	faith	NOUN	NN	N;SG	29	compound	29:compound	_
+29	proceedings	proceedings	NOUN	NNS	N	25	nmod	25:nmod:to	_
+30	made	make	VERB	VBN	V.PTCP;PST;PASS;V	29	acl	29:acl	_
+31	by	by	ADP	IN	ADP	33	case	33:case	_
+32	United	United	ADJ	NNP	ADJ	33	amod	33:amod	_
+33	India	India	PROPN	NNP	PROPN;SG	30	obl:agent	30:obl:agent	SpaceAfter=No
+34	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent33_01-0048
+# text = (b) Is it right that Enron has 3 sets of bad faith proceedings in Texas?
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	b	b	NUM	LS	NUM	6	discourse	6:discourse	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
+4	Is	be	AUX	VBZ	FIN;SG;V;PRS;IND;3	6	cop	6:cop	_
+5	it	it	PRON	PRP	NEUT;SG;PRO;3;NOM	6	expl	6:expl	_
+6	right	right	ADJ	JJ	ADJ	0	root	0:root	_
+7	that	that	SCONJ	IN	CONJ	9	mark	9:mark	_
+8	Enron	Enron	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+9	has	have	VERB	VBZ	FIN;SG;V;PRS;IND;3	6	csubj	6:csubj	_
+10	3	3	NUM	CD	NUM	11	nummod	11:nummod	_
+11	sets	set	NOUN	NNS	N;PL	9	obj	9:obj	_
+12	of	of	ADP	IN	ADP	15	case	15:case	_
+13	bad	bad	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	faith	faith	NOUN	NN	N;SG	15	compound	15:compound	_
+15	proceedings	proceedings	NOUN	NNS	N	11	nmod	11:nmod:of	_
+16	in	in	ADP	IN	ADP	17	case	17:case	_
+17	Texas	Texas	PROPN	NNP	PROPN;SG	11	nmod	11:nmod:in	SpaceAfter=No
+18	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent33_01-0049
+# text = (c) Are you happy with the draft letter to Beachcrofts I sent you?
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	c	c	NUM	LS	NUM	6	discourse	6:discourse	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
+4	Are	be	AUX	VBP	2;FIN;SG;V;PRS;IND	6	cop	6:cop	_
+5	you	you	PRON	PRP	PRO;2;NOM	6	nsubj	6:nsubj	_
+6	happy	happy	ADJ	JJ	ADJ	0	root	0:root	_
+7	with	with	ADP	IN	ADP	10	case	10:case	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	draft	draft	NOUN	NN	N;SG	10	compound	10:compound	_
+10	letter	letter	NOUN	NN	N;SG	6	obl	6:obl:with|14:obj	_
+11	to	to	ADP	IN	ADP	12	case	12:case	_
+12	Beachcrofts	Beachcrofts	PROPN	NNPS	PROPN;PL	10	nmod	10:nmod:to	_
+13	I	I	PRON	PRP	SG;PRO;NOM;1	14	nsubj	14:nsubj	_
+14	sent	send	VERB	VBD	FIN;SG;V;IND;PST;1	10	acl:relcl	10:acl:relcl	Cxn=rc-red-obj
+15	you	you	PRON	PRP	PRO;2;ACC	14	iobj	14:iobj	SpaceAfter=No
+16	?	?	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = email-enronsent33_01-0050
+# text = Please give me a call if you would like to discuss.
+1	Please	please	INTJ	UH	INTJ	2	discourse	2:discourse	_
+2	give	give	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	me	I	PRON	PRP	SG;PRO;1;ACC	2	iobj	2:iobj	_
+4	a	a	DET	DT	DET;INDF	5	det	5:det	_
+5	call	call	NOUN	NN	N;SG	2	obj	2:obj	_
+6	if	if	SCONJ	IN	CONJ	9	mark	9:mark	_
+7	you	you	PRON	PRP	PRO;2;NOM	9	nsubj	9:nsubj|11:nsubj:xsubj	_
+8	would	would	AUX	MD	V;FIN	9	aux	9:aux	_
+9	like	like	VERB	VB	V;NFIN	2	advcl	2:advcl:if	_
+10	to	to	PART	TO	PART	11	mark	11:mark	_
+11	discuss	discuss	VERB	VB	V;NFIN	9	xcomp	9:xcomp	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = email-enronsent33_01-0051
+# newpar id = email-enronsent33_01-p0013
+# text = Justin
+1	Justin	Justin	PROPN	NNP	PROPN;SG	0	root	0:root	_
+
+# sent_id = email-enronsent33_01-0052
+# newpar id = email-enronsent33_01-p0014
+# text = Not when I was there, but I wasn't there the whole time.
+1	Not	not	PART	RB	PART	0	root	0:root	_
+2	when	when	ADV	WRB	ADV	5	advmod	5:advmod	_
+3	I	I	PRON	PRP	SG;PRO;NOM;1	5	nsubj	5:nsubj	_
+4	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	5	cop	5:cop	_
+5	there	there	ADV	RB	ADV	1	advcl	1:advcl:when	SpaceAfter=No
+6	,	,	PUNCT	,	_	11	punct	11:punct	_
+7	but	but	CCONJ	CC	CONJ	11	cc	11:cc	_
+8	I	I	PRON	PRP	SG;PRO;NOM;1	11	nsubj	11:nsubj	_
+9-10	wasn't	_	_	_	_	_	_	_	_
+9	was	be	AUX	VBD	FIN;SG;V;IND;3;PST	11	cop	11:cop	_
+10	n't	not	PART	RB	PART	11	advmod	11:advmod	_
+11	there	there	ADV	RB	ADV	1	conj	1:conj:but	_
+12	the	the	DET	DT	DEF;DET	14	det	14:det	_
+13	whole	whole	ADJ	JJ	ADJ	14	amod	14:amod	_
+14	time	time	NOUN	NN	N;SG	11	obl:tmod	11:obl:tmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0053
+# newpar id = email-enronsent33_01-p0015
+# text = Michelle and Ken,
+1	Michelle	Michelle	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	Ken	Ken	PROPN	NNP	PROPN;SG	1	conj	1:conj:and	SpaceAfter=No
+4	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent33_01-0054
+# newpar id = email-enronsent33_01-p0016
+# text = were you able to discuss the "bad faith" proceedings issue yesterday?
+1	were	be	AUX	VBD	2;FIN;SG;V;IND;PST	3	cop	3:cop	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3	able	able	ADJ	JJ	ADJ	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	discuss	discuss	VERB	VB	V;NFIN	3	xcomp	3:xcomp	_
+6	the	the	DET	DT	DEF;DET	12	det	12:det	_
+7	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+8	bad	bad	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	faith	faith	NOUN	NN	N;SG	11	compound	11:compound	SpaceAfter=No
+10	"	"	PUNCT	''	_	9	punct	9:punct	_
+11	proceedings	proceedings	NOUN	NNS	N	12	compound	12:compound	_
+12	issue	issue	NOUN	NN	N;SG	5	obj	5:obj	_
+13	yesterday	yesterday	NOUN	NN	N;SG	5	obl:tmod	5:obl:tmod	SpaceAfter=No
+14	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent33_01-0055
+# text = If you got the chance today, I should be really grateful if one of you could give me a call to discuss this issue; I think we should set out DPC's position clearly on this in correspondence without too much delay.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	PRO;2;NOM	3	nsubj	3:nsubj	_
+3	got	get	VERB	VBD	2;FIN;SG;V;IND;PST	12	advcl	12:advcl:if	_
+4	the	the	DET	DT	DEF;DET	5	det	5:det	_
+5	chance	chance	NOUN	NN	N;SG	3	obj	3:obj	_
+6	today	today	NOUN	NN	N;SG	3	obl:tmod	3:obl:tmod	SpaceAfter=No
+7	,	,	PUNCT	,	_	3	punct	3:punct	_
+8	I	I	PRON	PRP	SG;PRO;NOM;1	12	nsubj	12:nsubj	_
+9	should	should	AUX	MD	V;FIN	12	aux	12:aux	_
+10	be	be	AUX	VB	V;NFIN	12	cop	12:cop	_
+11	really	really	ADV	RB	ADV	12	advmod	12:advmod	_
+12	grateful	grateful	ADJ	JJ	ADJ	0	root	0:root	_
+13	if	if	SCONJ	IN	CONJ	18	mark	18:mark	_
+14	one	one	NUM	CD	NUM	18	nsubj	18:nsubj	_
+15	of	of	ADP	IN	ADP	16	case	16:case	_
+16	you	you	PRON	PRP	PRO;2;ACC	14	nmod	14:nmod:of	_
+17	could	could	AUX	MD	V;FIN	18	aux	18:aux	_
+18	give	give	VERB	VB	V;NFIN	12	advcl	12:advcl:if	_
+19	me	I	PRON	PRP	SG;PRO;1;ACC	18	iobj	18:iobj	_
+20	a	a	DET	DT	DET;INDF	21	det	21:det	_
+21	call	call	NOUN	NN	N;SG	18	obj	18:obj	_
+22	to	to	PART	TO	PART	23	mark	23:mark	_
+23	discuss	discuss	VERB	VB	V;NFIN	18	advcl	18:advcl:to	_
+24	this	this	DET	DT	DET;SG	25	det	25:det	_
+25	issue	issue	NOUN	NN	N;SG	23	obj	23:obj	SpaceAfter=No
+26	;	;	PUNCT	,	_	28	punct	28:punct	_
+27	I	I	PRON	PRP	SG;PRO;NOM;1	28	nsubj	28:nsubj	_
+28	think	think	VERB	VBP	FIN;SG;V;PRS;IND;1	12	conj	12:conj	_
+29	we	we	PRON	PRP	PRO;PL;NOM;1	31	nsubj	31:nsubj	_
+30	should	should	AUX	MD	V;FIN	31	aux	31:aux	_
+31	set	set	VERB	VB	V;NFIN	28	ccomp	28:ccomp	_
+32	out	out	ADP	RP	ADP	31	compound:prt	31:compound:prt	_
+33-34	DPC's	_	_	_	_	_	_	_	_
+33	DPC	DPC	PROPN	NNP	PROPN;SG	35	nmod:poss	35:nmod:poss	_
+34	's	's	PART	POS	PART	33	case	33:case	_
+35	position	position	NOUN	NN	N;SG	31	obj	31:obj	_
+36	clearly	clearly	ADV	RB	ADV	31	advmod	31:advmod	_
+37	on	on	ADP	IN	ADP	38	case	38:case	_
+38	this	this	PRON	DT	PRO;SG	31	obl	31:obl:on	_
+39	in	in	ADP	IN	ADP	40	case	40:case	_
+40	correspondence	correspondence	NOUN	NN	N;SG	31	obl	31:obl:in	_
+41	without	without	ADP	IN	ADP	44	case	44:case	_
+42	too	too	ADV	RB	ADV	43	advmod	43:advmod	_
+43	much	much	ADJ	JJ	ADJ	44	amod	44:amod	_
+44	delay	delay	NOUN	NN	N;SG	31	obl	31:obl:without	SpaceAfter=No
+45	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = email-enronsent33_01-0056
+# text = Justin
+1	Justin	Justin	PROPN	NNP	PROPN;SG	0	root	0:root	_
+

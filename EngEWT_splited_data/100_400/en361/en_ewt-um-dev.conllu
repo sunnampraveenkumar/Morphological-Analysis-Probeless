@@ -1,0 +1,58 @@
+# newdoc id = reviews-048198
+# sent_id = reviews-048198-0001
+# newpar id = reviews-048198-p0001
+# text = Lovely Cottage
+1	Lovely	lovely	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Cottage	cottage	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-048198-0002
+# text = This cottage is a charming homely, friendly, place to stay.
+1	This	this	DET	DT	DET;SG	2	det	2:det	_
+2	cottage	cottage	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	10	cop	10:cop	_
+4	a	a	DET	DT	DET;INDF	10	det	10:det	_
+5	charming	charming	ADJ	JJ	ADJ	10	amod	10:amod	_
+6	homely	homely	ADJ	JJ	ADJ	10	amod	10:amod	SpaceAfter=No
+7	,	,	PUNCT	,	_	6	punct	6:punct	_
+8	friendly	friendly	ADJ	JJ	ADJ	10	amod	10:amod	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	8:punct	_
+10	place	place	NOUN	NN	SG;N	0	root	0:root	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	stay	stay	VERB	VB	NFIN;V	10	acl	10:acl:to	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = reviews-048198-0003
+# text = Mary is an excellent host who does yummy breakfasts.
+1	Mary	Mary	PROPN	NNP	SG;PROPN	5	nsubj	5:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	5	cop	5:cop	_
+3	an	a	DET	DT	DET;INDF	5	det	5:det	_
+4	excellent	excellent	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	host	host	NOUN	NN	SG;N	0	root	0:root|7:nsubj	_
+6	who	who	PRON	WP	PRO	7	nsubj	5:ref	_
+7	does	do	VERB	VBZ	FIN;PRS;3;V;IND;SG	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+8	yummy	yummy	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	breakfasts	breakfast	NOUN	NNS	PL;N	7	obj	7:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-048198-0004
+# text = My room was delightful and the attention to detail was amazing.
+1	My	my	PRON	PRP$	PRO;GEN;1;SG	2	nmod:poss	2:nmod:poss	_
+2	room	room	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	4	cop	4:cop	_
+4	delightful	delightful	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	attention	attention	NOUN	NN	SG;N	11	nsubj	11:nsubj	_
+8	to	to	ADP	IN	ADP	9	case	9:case	_
+9	detail	detail	NOUN	NN	SG;N	7	nmod	7:nmod:to	_
+10	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	11	cop	11:cop	_
+11	amazing	amazing	ADJ	JJ	ADJ	4	conj	4:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-048198-0005
+# text = Will come again!
+1	Will	will	AUX	MD	FIN;V	2	aux	2:aux	_
+2	come	come	VERB	VB	NFIN;V	0	root	0:root	_
+3	again	again	ADV	RB	ADV	2	advmod	2:advmod	SpaceAfter=No
+4	!	!	PUNCT	.	_	2	punct	2:punct	_
+

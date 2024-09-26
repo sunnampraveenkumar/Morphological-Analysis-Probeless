@@ -1,0 +1,673 @@
+# sent_id = answers-20111107155815AA6LXXJ_ans-0007
+# text = NCL is a notch below either, in terms of quality and service.
+1	NCL	NCL	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	a	a	DET	DT	INDF;DET	4	det	4:det	_
+4	notch	notch	NOUN	NN	SG;N	6	nmod:npmod	6:nmod:npmod	_
+5	below	below	ADP	IN	ADP	6	case	6:case	_
+6	either	either	DET	DT	DET	2	obl	2:obl:below	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	in	in	ADP	IN	ADP	9	case	9:case	_
+9	terms	term	NOUN	NNS	PL;N	2	obl	2:obl:in	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	quality	quality	NOUN	NN	SG;N	9	nmod	9:nmod:of	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	service	service	NOUN	NN	SG;N	11	conj	9:nmod:of|11:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = answers-20111108084036AAh8Ws9_ans
+# sent_id = answers-20111108084036AAh8Ws9_ans-0001
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0001
+# text = Will USB cell phone chargers still charge even if they're hooked up to a computer that is turned off?
+1	Will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+2	USB	USB	NOUN	NN	SG;N	5	compound	5:compound	_
+3	cell	cell	NOUN	NN	SG;N	4	compound	4:compound	_
+4	phone	phone	NOUN	NN	SG;N	5	compound	5:compound	_
+5	chargers	charger	NOUN	NNS	PL;N	7	nsubj	7:nsubj	_
+6	still	still	ADV	RB	ADV	7	advmod	7:advmod	_
+7	charge	charge	VERB	VB	NFIN;V	0	root	0:root	_
+8	even	even	ADV	RB	ADV	12	advmod	12:advmod	_
+9	if	if	SCONJ	IN	CONJ	12	mark	12:mark	_
+10-11	they're	_	_	_	_	_	_	_	_
+10	they	they	PRON	PRP	PL;PRO;3;NOM	12	nsubj:pass	12:nsubj:pass	_
+11	're	be	AUX	VBP	PL;V;3;FIN;PRS;IND	12	aux:pass	12:aux:pass	_
+12	hooked	hook	VERB	VBN	PASS;PST;V;V.PTCP	7	advcl	7:advcl:if	_
+13	up	up	ADP	RP	ADP	12	compound:prt	12:compound:prt	_
+14	to	to	ADP	IN	ADP	16	case	16:case	_
+15	a	a	DET	DT	INDF;DET	16	det	16:det	_
+16	computer	computer	NOUN	NN	SG;N	12	obl	12:obl:to|19:nsubj:pass	_
+17	that	that	PRON	WDT	PRO	19	nsubj:pass	16:ref	_
+18	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	19	aux:pass	19:aux:pass	_
+19	turned	turn	VERB	VBN	PASS;PST;V;V.PTCP	16	acl:relcl	16:acl:relcl	Cxn=rc-that-nsubj:pass
+20	off	off	ADP	RP	ADP	19	compound:prt	19:compound:prt	SpaceAfter=No
+21	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0002
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0002
+# text = Mine does.
+1	Mine	my	PRON	PRP	PRO;1;SG	2	nsubj	2:nsubj	_
+2	does	do	AUX	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0003
+# text = I have the HTC Evo.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	HTC	HTC	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Evo	Evo	PROPN	NNP	SG;PROPN	2	obj	2:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0004
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0003
+# text = depends on the computer
+1	depends	depend	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	on	on	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	computer	computer	NOUN	NN	SG;N	1	obl	1:obl:on	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0005
+# text = if the computer is completely shut off, the USB ports aren't getting power, so they won't charge your phone
+1	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	computer	computer	NOUN	NN	SG;N	6	nsubj:pass	6:nsubj:pass	_
+4	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	6	aux:pass	6:aux:pass	_
+5	completely	completely	ADV	RB	ADV	6	advmod	6:advmod	_
+6	shut	shut	VERB	VBN	PASS;PST;V;V.PTCP	14	advcl	14:advcl:if	_
+7	off	off	ADP	RP	ADP	6	compound:prt	6:compound:prt	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	6:punct	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	USB	USB	NOUN	NN	SG;N	11	compound	11:compound	_
+11	ports	port	NOUN	NNS	PL;N	14	nsubj	14:nsubj	_
+12-13	aren't	_	_	_	_	_	_	_	_
+12	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	14	aux	14:aux	_
+13	n't	not	PART	RB	PART	14	advmod	14:advmod	_
+14	getting	get	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+15	power	power	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	21:punct	_
+17	so	so	ADV	RB	ADV	21	advmod	21:advmod	_
+18	they	they	PRON	PRP	PL;PRO;3;NOM	21	nsubj	21:nsubj	_
+19-20	won't	_	_	_	_	_	_	_	_
+19	wo	will	AUX	MD	V;FIN	21	aux	21:aux	_
+20	n't	not	PART	RB	PART	21	advmod	21:advmod	_
+21	charge	charge	VERB	VB	NFIN;V	14	parataxis	14:parataxis	_
+22	your	your	PRON	PRP$	GEN;PRO;2	23	nmod:poss	23:nmod:poss	_
+23	phone	phone	NOUN	NN	SG;N	21	obj	21:obj	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0006
+# text = many PCs have sleep & charge now, that allow the PC to go into sleep mode, and still allow the USB ports to charge things like phones.
+1	many	many	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	PCs	pc	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	sleep	sleep	NOUN	NN	SG;N	3	obj	3:obj|10:nsubj	_
+5	&	&	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	charge	charge	NOUN	NN	SG;N	4	conj	3:obj|4:conj|10:nsubj	_
+7	now	now	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	that	that	PRON	WDT	PRO	10	nsubj	4:ref	_
+10	allow	allow	VERB	VBP	PL;V;3;FIN;PRS;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	PC	pc	NOUN	NN	SG;N	10	iobj	10:iobj|14:nsubj:xsubj|21:nsubj:xsubj	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	go	go	VERB	VB	NFIN;V	10	xcomp	10:xcomp	_
+15	into	into	ADP	IN	ADP	17	case	17:case	_
+16	sleep	sleep	NOUN	NN	SG;N	17	compound	17:compound	_
+17	mode	mode	NOUN	NN	SG;N	14	obl	14:obl:into	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	21:punct	_
+19	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+20	still	still	ADV	RB	ADV	21	advmod	21:advmod	_
+21	allow	allow	VERB	VBP	PL;V;3;FIN;PRS;IND	14	conj	10:xcomp|14:conj:and	_
+22	the	the	DET	DT	DEF;DET	24	det	24:det	_
+23	USB	USB	NOUN	NN	SG;N	24	compound	24:compound	_
+24	ports	port	NOUN	NNS	PL;N	21	iobj	21:iobj|26:nsubj:xsubj	_
+25	to	to	PART	TO	PART	26	mark	26:mark	_
+26	charge	charge	VERB	VB	NFIN;V	21	xcomp	21:xcomp	_
+27	things	thing	NOUN	NNS	PL;N	26	obj	26:obj	_
+28	like	like	ADP	IN	ADP	29	case	29:case	_
+29	phones	phone	NOUN	NNS	PL;N	27	nmod	27:nmod:like	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = answers-20081218053636AA9vV0u_ans
+# sent_id = answers-20081218053636AA9vV0u_ans-0001
+# newpar id = answers-20081218053636AA9vV0u_ans-p0001
+# text = what is a good slogan for an Argentinian restaurant?
+1	what	what	PRON	WP	PRO	0	root	0:root	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	1	cop	1:cop	_
+3	a	a	DET	DT	INDF;DET	5	det	5:det	_
+4	good	good	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	slogan	slogan	NOUN	NN	SG;N	1	nsubj	1:nsubj	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	an	a	DET	DT	INDF;DET	9	det	9:det	_
+8	Argentinian	Argentinian	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	restaurant	restaurant	NOUN	NN	SG;N	5	nmod	5:nmod:for	SpaceAfter=No
+10	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0002
+# newpar id = answers-20081218053636AA9vV0u_ans-p0002
+# text = "In Argentina, beef is revered, respected, and praised.
+1	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
+2	In	in	ADP	IN	ADP	3	case	3:case	_
+3	Argentina	Argentina	PROPN	NNP	SG;PROPN	7	obl	7:obl:in	SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	beef	beef	NOUN	NN	SG;N	7	nsubj:pass	7:nsubj:pass|9:nsubj:pass|12:nsubj:pass	_
+6	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	7	aux:pass	7:aux:pass	_
+7	revered	revere	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	respected	respect	VERB	VBN	PASS;PST;V;V.PTCP	7	conj	7:conj:and	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	12:punct	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	praised	praise	VERB	VBN	PASS;PST;V;V.PTCP	7	conj	7:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0003
+# text = Come see how we continue this tradition."
+1	Come	come	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	see	see	VERB	VB	FIN;V;IMP	1	parataxis	1:parataxis	_
+3	how	how	ADV	WRB	ADV	5	advmod	5:advmod	_
+4	we	we	PRON	PRP	PL;PRO;1;NOM	5	nsubj	5:nsubj	_
+5	continue	continue	VERB	VBP	PL;1;V;FIN;PRS;IND	2	ccomp	2:ccomp	_
+6	this	this	DET	DT	SG;DET	7	det	7:det	_
+7	tradition	tradition	NOUN	NN	SG;N	5	obj	5:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	1	punct	1:punct	SpaceAfter=No
+9	"	"	PUNCT	''	_	1	punct	1:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0004
+# newpar id = answers-20081218053636AA9vV0u_ans-p0003
+# text = A taste of Argentina.
+1	A	a	DET	DT	INDF;DET	2	det	2:det	_
+2	taste	taste	NOUN	NN	SG;N	0	root	0:root	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	Argentina	Argentina	PROPN	NNP	SG;PROPN	2	nmod	2:nmod:of	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0005
+# text = Here are some articles that discuss the details of slogan writing.
+1	Here	here	ADV	RB	ADV	0	root	0:root	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	1	cop	1:cop	_
+3	some	some	DET	DT	DET	4	det	4:det	_
+4	articles	article	NOUN	NNS	PL;N	1	nsubj	1:nsubj|6:nsubj	_
+5	that	that	PRON	WDT	PRO	6	nsubj	4:ref	_
+6	discuss	discuss	VERB	VBP	PL;V;3;FIN;PRS;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	details	detail	NOUN	NNS	PL;N	6	obj	6:obj	_
+9	of	of	ADP	IN	ADP	11	case	11:case	_
+10	slogan	slogan	NOUN	NN	SG;N	11	compound	11:compound	_
+11	writing	writing	NOUN	NN	SG;N	8	nmod	8:nmod:of	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0006
+# text = Why certain slogans work and why some don't.
+1	Why	why	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	certain	certain	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	slogans	slogan	NOUN	NNS	PL;N	4	nsubj	4:nsubj	_
+4	work	work	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	why	why	ADV	WRB	ADV	8	advmod	8:advmod	_
+7	some	some	DET	DT	DET	8	nsubj	8:nsubj	_
+8-9	don't	_	_	_	_	_	_	_	SpaceAfter=No
+8	do	do	AUX	VBP	PL;V;3;FIN;PRS;IND	4	conj	4:conj:and	_
+9	n't	not	PART	RB	PART	8	advmod	8:advmod	_
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0007
+# text = You will find these helpful in writing a new slogan.
+1	You	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	find	find	VERB	VB	NFIN;V	0	root	0:root	_
+4	these	this	PRON	DT	PL;PRO	3	obj	3:obj|5:nsubj:xsubj	_
+5	helpful	helpful	ADJ	JJ	ADJ	3	xcomp	3:xcomp	_
+6	in	in	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	writing	write	VERB	VBG	PRS;V;V.PTCP	5	advcl	5:advcl:in	_
+8	a	a	DET	DT	INDF;DET	10	det	10:det	_
+9	new	new	ADJ	JJ	ADJ	10	amod	10:amod	_
+10	slogan	slogan	NOUN	NN	SG;N	7	obj	7:obj	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0008
+# text = A Look at Slogans - http://www.small-business-software.net/look-at-slogans.htm
+1	A	a	DET	DT	INDF;DET	2	det	2:det	_
+2	Look	look	NOUN	NN	SG;N	0	root	0:root	_
+3	at	at	ADP	IN	ADP	4	case	4:case	_
+4	Slogans	slogan	NOUN	NNS	PL;N	2	nmod	2:nmod:at	_
+5	-	-	PUNCT	:	_	6	punct	6:punct	_
+6	http://www.small-business-software.net/look-at-slogans.htm	http://www.small-business-software.net/look-at-slogans.htm	PROPN	ADD	PROPN	2	appos	2:appos	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0009
+# text = Unique Selling Proposition - http://www.small-business-software.net/unique-selling-proposition.htm
+1	Unique	unique	ADJ	JJ	ADJ	3	amod	3:amod	_
+2	Selling	selling	NOUN	NN	SG;N	3	compound	3:compound	_
+3	Proposition	proposition	NOUN	NN	SG;N	0	root	0:root	_
+4	-	-	PUNCT	:	_	5	punct	5:punct	_
+5	http://www.small-business-software.net/unique-selling-proposition.htm	http://www.small-business-software.net/unique-selling-proposition.htm	PROPN	ADD	PROPN	3	appos	3:appos	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0010
+# text = Goodluck!
+1	Good	good	ADJ	JJ	ADJ	2	amod	2:amod	CorrectSpaceAfter=Yes|SpaceAfter=No
+2	luck	luck	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20081218053636AA9vV0u_ans-0011
+# newpar id = answers-20081218053636AA9vV0u_ans-p0004
+# text = No Mad Cow --- Guaranteed!
+1	No	no	DET	DT	DET	3	det	3:det	_
+2	Mad	mad	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	Cow	cow	NOUN	NN	SG;N	0	root	0:root	_
+4	---	---	PUNCT	,	_	5	punct	5:punct	_
+5	Guaranteed	guaranteed	ADJ	JJ	ADJ	3	parataxis	3:parataxis	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = answers-20111108083559AAp6Jfq_ans
+# sent_id = answers-20111108083559AAp6Jfq_ans-0001
+# newpar id = answers-20111108083559AAp6Jfq_ans-p0001
+# text = Which Compact System Camera Should I Get...?
+1	Which	which	DET	WDT	DET	4	det	4:det	ManuallyChecked=PronType
+2	Compact	compact	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	System	system	NOUN	NN	SG;N	4	compound	4:compound	_
+4	Camera	camera	NOUN	NN	SG;N	7	obj	7:obj	_
+5	Should	should	AUX	MD	V;FIN	7	aux	7:aux	_
+6	I	I	PRON	PRP	PRO;1;NOM;SG	7	nsubj	7:nsubj	_
+7	Get	get	VERB	VB	NFIN;V	0	root	0:root	SpaceAfter=No
+8	...	...	PUNCT	,	_	7	punct	7:punct	SpaceAfter=No
+9	?	?	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108083559AAp6Jfq_ans-0002
+# newpar id = answers-20111108083559AAp6Jfq_ans-p0002
+# text = I'm looking for a camera that has really good zoom during a video and pictures; and good quality pictures /videos
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	looking	look	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	for	for	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	INDF;DET	6	det	6:det	_
+6	camera	camera	NOUN	NN	SG;N	3	obl	3:obl:for|8:nsubj	_
+7	that	that	PRON	WDT	PRO	8	nsubj	6:ref	_
+8	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	6	acl:relcl	6:acl:relcl	Cxn=rc-that-nsubj
+9	really	really	ADV	RB	ADV	10	advmod	10:advmod	_
+10	good	good	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	zoom	zoom	NOUN	NN	SG;N	8	obj	8:obj	_
+12	during	during	ADP	IN	ADP	14	case	14:case	_
+13	a	a	DET	DT	INDF;DET	14	det	14:det	_
+14	video	video	NOUN	NN	SG;N	11	nmod	11:nmod:during	_
+15	and	and	CCONJ	CC	CONJ	16	cc	16:cc	_
+16	pictures	picture	NOUN	NNS	PL;N	14	conj	11:nmod:during|14:conj:and	SpaceAfter=No
+17	;	;	PUNCT	,	_	18	punct	18:punct	_
+18	and	and	CCONJ	CC	CONJ	23	cc	23:cc	_
+19	good	good	ADJ	JJ	ADJ	20	amod	20:amod	_
+20	quality	quality	NOUN	NN	SG;N	23	compound	23:compound	_
+21	pictures	picture	NOUN	NNS	PL;N	11	conj	8:obj|11:conj:and	_
+22	/	/	SYM	SYM	_	23	cc	23:cc	SpaceAfter=No
+23	videos	video	NOUN	NNS	PL;N	11	conj	8:obj|11:conj:and|21:conj:slash	_
+
+# sent_id = answers-20111108083559AAp6Jfq_ans-0003
+# text = I'm planning on buying a compact system camera at best buy ; so please list the one(s) I should purchase.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	planning	plan	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	on	on	SCONJ	IN	CONJ	5	mark	5:mark	_
+5	buying	buy	VERB	VBG	PRS;V;V.PTCP	3	advcl	3:advcl:on	_
+6	a	a	DET	DT	INDF;DET	9	det	9:det	_
+7	compact	compact	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	system	system	NOUN	NN	SG;N	9	compound	9:compound	_
+9	camera	camera	NOUN	NN	SG;N	5	obj	5:obj	_
+10	at	at	ADP	IN	ADP	12	case	12:case	_
+11	best	good	ADJ	NNP	RL;ADJ	12	amod	12:amod	_
+12	buy	buy	PROPN	NNP	SG;PROPN	5	obl	5:obl:at	_
+13	;	;	PUNCT	,	_	16	punct	16:punct	_
+14	so	so	ADV	RB	ADV	16	advmod	16:advmod	_
+15	please	please	INTJ	UH	INTJ	16	discourse	16:discourse	_
+16	list	list	VERB	VB	FIN;V;IMP	3	parataxis	3:parataxis	_
+17	the	the	DET	DT	DEF;DET	18	det	18:det	_
+18	one	one	NOUN	NN	SG;N	16	obj	16:obj|24:obj	SpaceAfter=No
+19	(	(	PUNCT	-LRB-	_	20	punct	20:punct	SpaceAfter=No
+20	s	s	X	AFX	_	18	compound	18:compound	SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	punct	20:punct	_
+22	I	I	PRON	PRP	PRO;1;NOM;SG	24	nsubj	24:nsubj	_
+23	should	should	AUX	MD	V;FIN	24	aux	24:aux	_
+24	purchase	purchase	VERB	VB	NFIN;V	18	acl:relcl	18:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108083559AAp6Jfq_ans-0004
+# text = Also how much do compact system cameras drop on boxing day?
+1	Also	also	ADV	RB	ADV	8	advmod	8:advmod	_
+2	how	how	ADV	WRB	ADV	3	advmod	3:advmod	_
+3	much	much	ADJ	JJ	ADJ	8	obl:npmod	8:obl:npmod	_
+4	do	do	AUX	VBP	PL;V;3;FIN;PRS;IND	8	aux	8:aux	_
+5	compact	compact	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	system	system	NOUN	NN	SG;N	7	compound	7:compound	_
+7	cameras	camera	NOUN	NNS	PL;N	8	nsubj	8:nsubj	_
+8	drop	drop	VERB	VB	NFIN;V	0	root	0:root	_
+9	on	on	ADP	IN	ADP	11	case	11:case	_
+10	boxing	boxing	PROPN	NNP	SG;PROPN	11	compound	11:compound	_
+11	day	day	PROPN	NNP	SG;PROPN	8	obl	8:obl:on	SpaceAfter=No
+12	?	?	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = answers-20111108083559AAp6Jfq_ans-0005
+# text = **and i can upload my pictures and videos on the computer (facebook)
+1	**	**	PUNCT	NFP	_	5	punct	5:punct	SpaceAfter=No
+2	and	and	CCONJ	CC	CONJ	3	cc	3:cc	_
+3	i	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+4	can	can	AUX	MD	V;FIN	5	aux	5:aux	_
+5	upload	upload	VERB	VB	NFIN;V	0	root	0:root	_
+6	my	my	PRON	PRP$	GEN;PRO;1;SG	7	nmod:poss	7:nmod:poss	_
+7	pictures	picture	NOUN	NNS	PL;N	5	obj	5:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	videos	video	NOUN	NNS	PL;N	7	conj	5:obj|7:conj:and	_
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	computer	computer	NOUN	NN	SG;N	5	obl	5:obl:on	_
+13	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+14	facebook	facebook	PROPN	NNP	SG;PROPN	12	appos	12:appos	SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	punct	14:punct	_
+
+# sent_id = answers-20111108083559AAp6Jfq_ans-0006
+# newpar id = answers-20111108083559AAp6Jfq_ans-p0003
+# text = have a look at sony wx10
+1	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+2	a	a	DET	DT	INDF;DET	3	det	3:det	_
+3	look	look	NOUN	NN	SG;N	1	obj	1:obj	_
+4	at	at	ADP	IN	ADP	6	case	6:case	_
+5	sony	Sony	PROPN	NNP	SG;PROPN	6	compound	6:compound	_
+6	wx10	wx10	PROPN	NNP	SG;PROPN	1	obl	1:obl:at	_
+
+# newdoc id = answers-20111108082432AAph0C0_ans
+# sent_id = answers-20111108082432AAph0C0_ans-0001
+# newpar id = answers-20111108082432AAph0C0_ans-p0001
+# text = I need creative art ideas?
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	need	need	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	creative	creative	ADJ	JJ	ADJ	5	amod	5:amod	_
+4	art	art	NOUN	NN	SG;N	5	compound	5:compound	_
+5	ideas	idea	NOUN	NNS	PL;N	2	obj	2:obj	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108082432AAph0C0_ans-0002
+# newpar id = answers-20111108082432AAph0C0_ans-p0002
+# text = What are some cool ideas for making a postor usint the word MAD on a white paper in a weird or artsy way?
+1	What	what	PRON	WP	PRO	0	root	0:root	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	1	cop	1:cop	_
+3	some	some	DET	DT	DET	5	det	5:det	_
+4	cool	cool	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	ideas	idea	NOUN	NNS	PL;N	1	nsubj	1:nsubj	_
+6	for	for	SCONJ	IN	CONJ	7	mark	7:mark	_
+7	making	make	VERB	VBG	V.MSDR;V	5	acl	5:acl:for	_
+8	a	a	DET	DT	INDF;DET	9	det	9:det	_
+9	postor	poster	NOUN	NN	SG;N	7	obj	7:obj	_
+10	usint	use	VERB	VBG	V.MSDR;V	9	acl	9:acl	CorrectForm=using
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	word	word	NOUN	NN	SG;N	10	obj	10:obj	_
+13	MAD	mad	NOUN	NN	SG;N	12	compound	12:compound	_
+14	on	on	ADP	IN	ADP	17	case	17:case	_
+15	a	a	DET	DT	INDF;DET	17	det	17:det	_
+16	white	white	ADJ	JJ	ADJ	17	amod	17:amod	_
+17	paper	paper	NOUN	NN	SG;N	10	obl	10:obl:on	_
+18	in	in	ADP	IN	ADP	23	case	23:case	_
+19	a	a	DET	DT	INDF;DET	23	det	23:det	_
+20	weird	weird	ADJ	JJ	ADJ	23	amod	23:amod	_
+21	or	or	CCONJ	CC	CONJ	22	cc	22:cc	_
+22	artsy	artsy	ADJ	JJ	ADJ	20	conj	20:conj:or|23:amod	_
+23	way	way	NOUN	NN	SG;N	10	obl	10:obl:in	SpaceAfter=No
+24	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108082432AAph0C0_ans-0003
+# text = The actual word "MAD" has to be on the cover and incorporated into the image.
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	actual	actual	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	word	word	NOUN	NN	SG;N	7	nsubj	7:nsubj|12:nsubj:xsubj|14:nsubj:xsubj	_
+4	"	"	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No
+5	MAD	mad	NOUN	NN	SG;N	3	appos	3:appos	SpaceAfter=No
+6	"	"	PUNCT	''	_	5	punct	5:punct	_
+7	has	have	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+8	to	to	PART	TO	PART	12	mark	12:mark	_
+9	be	be	AUX	VB	NFIN;V	12	cop	12:cop	_
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	cover	cover	NOUN	NN	SG;N	7	xcomp	7:xcomp	_
+13	and	and	CCONJ	CC	CONJ	14	cc	14:cc	_
+14	incorporated	incorporate	VERB	VBN	PASS;PST;V;V.PTCP	12	conj	7:xcomp|12:conj:and	_
+15	into	into	ADP	IN	ADP	17	case	17:case	_
+16	the	the	DET	DT	DEF;DET	17	det	17:det	_
+17	image	image	NOUN	NN	SG;N	14	obl	14:obl:into	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = answers-20111108082432AAph0C0_ans-0004
+# newpar id = answers-20111108082432AAph0C0_ans-p0003
+# text = MAD means crazy, or angry, so you do a lot with it, i would put a gorrilla screaming , just the face, and just throw in a lot of brushes fifferent colors, make it look artistic.
+1	MAD	mad	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+2	means	mean	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+3	crazy	crazy	ADJ	JJ	ADJ	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	or	or	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	angry	angry	ADJ	JJ	ADJ	3	conj	2:obj|3:conj:or	SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	so	so	ADV	RB	ADV	10	advmod	10:advmod	_
+9	you	you	PRON	PRP	NOM;2;PRO	10	nsubj	10:nsubj	_
+10	do	do	VERB	VBP	V;FIN;PRS;2;SG;IND	2	parataxis	2:parataxis	_
+11	a	a	DET	DT	INDF;DET	12	det	12:det	_
+12	lot	lot	NOUN	NN	SG;N	10	obj	10:obj	_
+13	with	with	ADP	IN	ADP	14	case	14:case	_
+14	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	10	obl	10:obl:with	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	18:punct	_
+16	i	I	PRON	PRP	PRO;1;NOM;SG	18	nsubj	18:nsubj|29:nsubj	_
+17	would	would	AUX	MD	V;FIN	18	aux	18:aux	_
+18	put	put	VERB	VB	NFIN;V	2	parataxis	2:parataxis	_
+19	a	a	DET	DT	INDF;DET	20	det	20:det	_
+20	gorrilla	gorilla	NOUN	NN	SG;N	18	obj	18:obj	CorrectForm=gorilla
+21	screaming	scream	VERB	VBG	V.MSDR;V	20	acl	20:acl	_
+22	,	,	PUNCT	,	_	25	punct	25:punct	_
+23	just	just	ADV	RB	ADV	25	advmod	25:advmod	_
+24	the	the	DET	DT	DEF;DET	25	det	25:det	_
+25	face	face	NOUN	NN	SG;N	20	parataxis	20:parataxis	SpaceAfter=No
+26	,	,	PUNCT	,	_	29	punct	29:punct	_
+27	and	and	CCONJ	CC	CONJ	29	cc	29:cc	_
+28	just	just	ADV	RB	ADV	29	advmod	29:advmod	_
+29	throw	throw	VERB	VB	NFIN;V	18	conj	18:conj:and	_
+30	in	in	ADV	RB	ADV	29	advmod	29:advmod	_
+31	a	a	DET	DT	INDF;DET	32	det	32:det	_
+32	lot	lot	NOUN	NN	SG;N	29	obj	29:obj	_
+33	of	of	ADP	IN	ADP	34	case	34:case	_
+34	brushes	brush	NOUN	NNS	PL;N	32	nmod	32:nmod:of	_
+35	fifferent	different	ADJ	JJ	ADJ	36	amod	36:amod	CorrectForm=different
+36	colors	color	NOUN	NNS	PL;N	34	parataxis	34:parataxis	SpaceAfter=No
+37	,	,	PUNCT	,	_	38	punct	38:punct	_
+38	make	make	VERB	VB	NFIN;V	29	parataxis	29:parataxis	_
+39	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	38	obj	38:obj|40:nsubj:xsubj|41:nsubj:xsubj	_
+40	look	look	VERB	VB	NFIN;V	38	xcomp	38:xcomp	_
+41	artistic	artistic	ADJ	JJ	ADJ	40	xcomp	40:xcomp	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108082432AAph0C0_ans-0005
+# text = use photoshop.
+1	use	use	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	photoshop	photoshop	PROPN	NNP	SG;PROPN	1	obj	1:obj	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111108082432AAph0C0_ans-0006
+# newpar id = answers-20111108082432AAph0C0_ans-p0004
+# text = tttthhhhh Madonna!
+1	tttthhhhh	the	DET	DT	DEF;DET	2	det	2:det	CorrectForm=The
+2	Madonna	Madonna	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+3	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = answers-20111107164802AAq8nhF_ans
+# sent_id = answers-20111107164802AAq8nhF_ans-0001
+# newpar id = answers-20111107164802AAq8nhF_ans-p0001
+# text = what is the fall of hanoi?
+1	what	what	PRON	WP	PRO	0	root	0:root	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	1	cop	1:cop	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	fall	fall	NOUN	NN	SG;N	1	nsubj	1:nsubj	_
+5	of	of	ADP	IN	ADP	6	case	6:case	_
+6	hanoi	hanoi	PROPN	NNP	SG;PROPN	4	nmod	4:nmod:of	SpaceAfter=No
+7	?	?	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0002
+# newpar id = answers-20111107164802AAq8nhF_ans-p0002
+# text = can anyone tell me exactly what it is and what took place?
+1	can	can	AUX	MD	V;FIN	3	aux	3:aux	_
+2	anyone	anyone	PRON	NN	SG;PRO	3	nsubj	3:nsubj	_
+3	tell	tell	VERB	VB	NFIN;V	0	root	0:root	_
+4	me	I	PRON	PRP	ACC;PRO;1;SG	3	iobj	3:iobj	_
+5	exactly	exactly	ADV	RB	ADV	6	advmod	6:advmod	_
+6	what	what	PRON	WP	PRO	3	ccomp	3:ccomp	_
+7	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	6	nsubj	6:nsubj	_
+8	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	6	cop	6:cop	_
+9	and	and	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	what	what	PRON	WP	PRO	11	nsubj	11:nsubj	_
+11	took	take	VERB	VBD	PST;V;3;FIN;SG;IND	6	conj	3:ccomp|6:conj:and	_
+12	place	place	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+13	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0003
+# text = I cant find any information about it
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	cant	_	_	_	_	_	_	_	_
+2	ca	can	AUX	MD	V;FIN	4	aux	4:aux	_
+3	nt	not	PART	RB	PART	4	advmod	4:advmod	CorrectForm=n't
+4	find	find	VERB	VB	NFIN;V	0	root	0:root	_
+5	any	any	DET	DT	DET	6	det	6:det	_
+6	information	information	NOUN	NN	SG;N	4	obj	4:obj	_
+7	about	about	ADP	IN	ADP	8	case	8:case	_
+8	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	6	nmod	6:nmod:about	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0004
+# newpar id = answers-20111107164802AAq8nhF_ans-p0003
+# text = When the French returned to Indochina at the end of WW II the Viet Minh were in control of the Red River Delta.
+1	When	when	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	French	French	PROPN	NNPS	PROPN;PL	4	nsubj	4:nsubj	_
+4	returned	return	VERB	VBD	PL;PST;V;3;FIN;IND	18	advcl	18:advcl:when	_
+5	to	to	ADP	IN	ADP	6	case	6:case	_
+6	Indochina	Indochina	PROPN	NNP	SG;PROPN	4	obl	4:obl:to	_
+7	at	at	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	end	end	NOUN	NN	SG;N	4	obl	4:obl:at	_
+10	of	of	ADP	IN	ADP	11	case	11:case	_
+11	WW	WW	PROPN	NNP	SG;PROPN	9	nmod	9:nmod:of	_
+12	II	II	NUM	CD	NUM	11	nummod	11:nummod	_
+13	the	the	DET	DT	DEF;DET	15	det	15:det	_
+14	Viet	Viet	PROPN	NNP	SG;PROPN	15	compound	15:compound	_
+15	Minh	Minh	PROPN	NNP	SG;PROPN	18	nsubj	18:nsubj	_
+16	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	18	cop	18:cop	_
+17	in	in	ADP	IN	ADP	18	case	18:case	_
+18	control	control	NOUN	NN	SG;N	0	root	0:root	_
+19	of	of	ADP	IN	ADP	23	case	23:case	_
+20	the	the	DET	DT	DEF;DET	23	det	23:det	_
+21	Red	Red	ADJ	NNP	ADJ	22	amod	22:amod	_
+22	River	River	PROPN	NNP	SG;PROPN	23	compound	23:compound	_
+23	Delta	Delta	PROPN	NNP	SG;PROPN	18	nmod	18:nmod:of	SpaceAfter=No
+24	.	.	PUNCT	.	_	18	punct	18:punct	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0005
+# text = They chased the Communists out of the capital (Hanoi) and retook control.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	2	nsubj	2:nsubj|13:nsubj	_
+2	chased	chase	VERB	VBD	PL;PST;V;3;FIN;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	Communists	Communist	PROPN	NNPS	PROPN;PL	2	obj	2:obj	_
+5	out	out	ADP	IN	ADP	8	case	8:case	_
+6	of	of	ADP	IN	ADP	8	case	8:case	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	capital	capital	NOUN	NN	SG;N	2	obl	2:obl:of	_
+9	(	(	PUNCT	-LRB-	_	10	punct	10:punct	SpaceAfter=No
+10	Hanoi	Hanoi	PROPN	NNP	SG;PROPN	8	appos	8:appos	SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	punct	10:punct	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	retook	retake	VERB	VBD	PL;PST;V;3;FIN;IND	2	conj	2:conj:and	_
+14	control	control	NOUN	NN	SG;N	13	obj	13:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0006
+# text = Is that what you are referring to?
+1	Is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	3	cop	3:cop	_
+2	that	that	PRON	DT	SG;PRO	3	nsubj	3:nsubj	_
+3	what	what	PRON	WP	PRO	0	root	0:root|6:obl:to	_
+4	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+5	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	6	aux	6:aux	_
+6	referring	refer	VERB	VBG	PRS;V;V.PTCP	3	acl:relcl	3:acl:relcl	Cxn=rc-free-obl-pstrand
+7	to	to	ADP	IN	ADP	6	obl	3:case	Promoted=Yes|SpaceAfter=No
+8	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107164802AAq8nhF_ans-0007
+# text = You need to check out the French Indochina War (1946-1954) not the Vietnam War (1957-1975).
+1	You	you	PRON	PRP	NOM;2;PRO	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2	need	need	VERB	VBP	V;FIN;PRS;2;SG;IND	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	check	check	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+5	out	out	ADP	RP	ADP	4	compound:prt	4:compound:prt	_
+6	the	the	DET	DT	DEF;DET	9	det	9:det	_
+7	French	French	ADJ	JJ	ADJ	9	amod	9:amod	_
+8	Indochina	Indochina	PROPN	NNP	SG;PROPN	9	compound	9:compound	_
+9	War	War	PROPN	NNP	SG;PROPN	4	obj	4:obj	_
+10	(	(	PUNCT	-LRB-	_	11	punct	11:punct	SpaceAfter=No
+11	1946	1946	NUM	CD	NUM	9	nmod:tmod	9:nmod:tmod	SpaceAfter=No
+12	-	-	SYM	SYM	_	13	case	13:case	SpaceAfter=No
+13	1954	1954	NUM	CD	NUM	11	nmod	11:nmod	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	11	punct	11:punct	_
+15	not	not	PART	RB	PART	18	advmod	18:advmod	_
+16	the	the	DET	DT	DEF;DET	18	det	18:det	_
+17	Vietnam	Vietnam	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	War	War	PROPN	NNP	SG;PROPN	9	conj	4:obj|9:conj:not	_
+19	(	(	PUNCT	-LRB-	_	20	punct	20:punct	SpaceAfter=No
+20	1957	1957	NUM	CD	NUM	18	nmod:tmod	18:nmod:tmod	SpaceAfter=No
+21	-	-	SYM	SYM	_	22	case	22:case	SpaceAfter=No
+22	1975	1975	NUM	CD	NUM	20	nmod	20:nmod	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	20	punct	20:punct	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = answers-20111108104957AAsMzvU_ans
+# sent_id = answers-20111108104957AAsMzvU_ans-0001
+# newpar id = answers-20111108104957AAsMzvU_ans-p0001
+# text = Does a pacman absolutely need a uv lamp?
+1	Does	do	AUX	VBZ	V;3;FIN;PRS;SG;IND	5	aux	5:aux	_
+2	a	a	DET	DT	INDF;DET	3	det	3:det	_
+3	pacman	pacman	NOUN	NN	SG;N	5	nsubj	5:nsubj	_
+4	absolutely	absolutely	ADV	RB	ADV	5	advmod	5:advmod	_
+5	need	need	VERB	VB	NFIN;V	0	root	0:root	_
+6	a	a	DET	DT	INDF;DET	8	det	8:det	_
+7	uv	uv	NOUN	NN	SG;N	8	compound	8:compound	_
+8	lamp	lamp	NOUN	NN	SG;N	5	obj	5:obj	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = answers-20111108104957AAsMzvU_ans-0002
+# newpar id = answers-20111108104957AAsMzvU_ans-p0002
+# text = Or maybe something humid or heat?
+1	Or	or	CCONJ	CC	CONJ	3	cc	3:cc	_
+2	maybe	maybe	ADV	RB	ADV	3	advmod	3:advmod	_
+3	something	something	PRON	NN	SG;PRO	0	root	0:root	_
+4	humid	humid	ADJ	JJ	ADJ	3	amod	3:amod	_
+5	or	or	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	heat	heat	NOUN	NN	SG;N	4	conj	3:amod|4:conj:or	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111108104957AAsMzvU_ans-0003
+# newpar id = answers-20111108104957AAsMzvU_ans-p0003
+# text = I assume you are talking about a pacman frog.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	assume	assume	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	you	you	PRON	PRP	NOM;2;PRO	5	nsubj	5:nsubj	_
+4	are	be	AUX	VBP	V;FIN;PRS;2;SG;IND	5	aux	5:aux	_
+5	talking	talk	VERB	VBG	PRS;V;V.PTCP	2	ccomp	2:ccomp	_
+6	about	about	ADP	IN	ADP	9	case	9:case	_
+7	a	a	DET	DT	INDF;DET	9	det	9:det	_
+8	pacman	pacman	NOUN	NN	SG;N	9	compound	9:compound	_
+9	frog	frog	NOUN	NN	SG;N	5	obl	5:obl:about	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108104957AAsMzvU_ans-0004
+# text = No, technically they do not need a UVB light; they are nocturnal.
+1	No	no	INTJ	UH	INTJ	7	discourse	7:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	technically	technically	ADV	RB	ADV	7	advmod	7:advmod	_
+4	they	they	PRON	PRP	PL;PRO;3;NOM	7	nsubj	7:nsubj	_
+5	do	do	AUX	VBP	PL;V;3;FIN;PRS;IND	7	aux	7:aux	_
+6	not	not	PART	RB	PART	7	advmod	7:advmod	_
+7	need	need	VERB	VB	NFIN;V	0	root	0:root	_
+8	a	a	DET	DT	INDF;DET	10	det	10:det	_
+9	UVB	uvb	NOUN	NN	SG;N	10	compound	10:compound	_
+10	light	light	NOUN	NN	SG;N	7	obj	7:obj	SpaceAfter=No
+11	;	;	PUNCT	,	_	14	punct	14:punct	_
+12	they	they	PRON	PRP	PL;PRO;3;NOM	14	nsubj	14:nsubj	_
+13	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	14	cop	14:cop	_
+14	nocturnal	nocturnal	ADJ	JJ	ADJ	7	parataxis	7:parataxis	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	7:punct	_
+

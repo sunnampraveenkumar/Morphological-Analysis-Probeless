@@ -1,0 +1,84 @@
+# sent_id = reviews-335490-0003
+# text = The owner was very friendly and helpful.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	owner	owner	NOUN	NN	SG;N	5	nsubj	5:nsubj|7:nsubj	_
+3	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	5	cop	5:cop	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	friendly	friendly	ADJ	JJ	ADJ	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	helpful	helpful	ADJ	JJ	ADJ	5	conj	5:conj:and	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-335490-0004
+# text = The rooms were very clean and the breakfast was excellent.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	rooms	room	NOUN	NNS	PL;N	5	nsubj	5:nsubj	_
+3	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	5	cop	5:cop	_
+4	very	very	ADV	RB	ADV	5	advmod	5:advmod	_
+5	clean	clean	ADJ	JJ	ADJ	0	root	0:root	_
+6	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+7	the	the	DET	DT	DEF;DET	8	det	8:det	_
+8	breakfast	breakfast	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+9	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	10	cop	10:cop	_
+10	excellent	excellent	ADJ	JJ	ADJ	5	conj	5:conj:and	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = reviews-335490-0005
+# text = Good location and off road parking made our stay very convenient.
+1	Good	good	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	location	location	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+3	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+4	off	off	ADP	IN	ADP	5	case	5:case	_
+5	road	road	NOUN	NN	SG;N	6	compound	6:compound	_
+6	parking	parking	NOUN	NN	SG;N	2	conj	2:conj:and|7:nsubj	_
+7	made	make	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+8	our	our	PRON	PRP$	GEN;PL;PRO;1	9	nmod:poss	9:nmod:poss	_
+9	stay	stay	NOUN	NN	SG;N	7	obj	7:obj|11:nsubj:xsubj	_
+10	very	very	ADV	RB	ADV	11	advmod	11:advmod	_
+11	convenient	convenient	ADJ	JJ	ADJ	7	xcomp	7:xcomp	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# newdoc id = reviews-138249
+# sent_id = reviews-138249-0001
+# newpar id = reviews-138249-p0001
+# text = These guys do great work at VERY reasonable prices.
+1	These	this	DET	DT	PL;DET	2	det	2:det	_
+2	guys	guy	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	do	do	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	great	great	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	work	work	NOUN	NN	SG;N	3	obj	3:obj	_
+6	at	at	ADP	IN	ADP	9	case	9:case	_
+7	VERY	very	ADV	RB	ADV	8	advmod	8:advmod	_
+8	reasonable	reasonable	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	prices	price	NOUN	NNS	PL;N	3	obl	3:obl:at	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-138249-0002
+# text = I have use them four times for fixing items from pushing out a dent in a bumper to fixing the fender on my beloved Miata.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	use	use	VERB	VBN	PST;V;V.PTCP	0	root	0:root	CorrectForm=used
+4	them	they	PRON	PRP	PL;ACC;PRO;3	3	obj	3:obj	_
+5	four	four	NUM	CD	NUM	6	nummod	6:nummod	_
+6	times	time	NOUN	NNS	PL;N	3	obl:tmod	3:obl:tmod	_
+7	for	for	SCONJ	IN	CONJ	8	mark	8:mark	_
+8	fixing	fix	VERB	VBG	PRS;V;V.PTCP	3	advcl	3:advcl:for	_
+9	items	item	NOUN	NNS	PL;N	8	obj	8:obj	_
+10	from	from	SCONJ	IN	CONJ	11	mark	11:mark	_
+11	pushing	push	VERB	VBG	PRS;V;V.PTCP	8	advcl	8:advcl:from	_
+12	out	out	ADP	RP	ADP	11	compound:prt	11:compound:prt	_
+13	a	a	DET	DT	INDF;DET	14	det	14:det	_
+14	dent	dent	NOUN	NN	SG;N	11	obj	11:obj	_
+15	in	in	ADP	IN	ADP	17	case	17:case	_
+16	a	a	DET	DT	INDF;DET	17	det	17:det	_
+17	bumper	bumper	NOUN	NN	SG;N	14	nmod	14:nmod:in	_
+18	to	to	SCONJ	IN	CONJ	19	mark	19:mark	_
+19	fixing	fix	VERB	VBG	PRS;V;V.PTCP	8	advcl	8:advcl:to	_
+20	the	the	DET	DT	DEF;DET	21	det	21:det	_
+21	fender	fender	NOUN	NN	SG;N	19	obj	19:obj	_
+22	on	on	ADP	IN	ADP	25	case	25:case	_
+23	my	my	PRON	PRP$	GEN;PRO;1;SG	25	nmod:poss	25:nmod:poss	_
+24	beloved	beloved	ADJ	JJ	ADJ	25	amod	25:amod	_
+25	Miata	Miata	PROPN	NNP	SG;PROPN	21	nmod	21:nmod:on	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	3:punct	_
+

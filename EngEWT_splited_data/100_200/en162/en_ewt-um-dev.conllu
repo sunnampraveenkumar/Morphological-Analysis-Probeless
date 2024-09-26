@@ -1,0 +1,123 @@
+# sent_id = reviews-041925-0002
+# text = I will be calling tropics for my companies next event!
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2	will	will	AUX	MD	FIN;V	4	aux	4:aux	_
+3	be	be	AUX	VB	V;NFIN	4	aux	4:aux	_
+4	calling	call	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	tropics	Tropic	PROPN	NNPS	PROPN;PL	4	obj	4:obj	_
+6	for	for	ADP	IN	ADP	11	case	11:case	_
+7	my	my	PRON	PRP$	PRO;GEN;1;SG	8	nmod:poss	8:nmod:poss	_
+8-9	companies	_	_	_	_	_	_	_	_
+8	companie	company	NOUN	NN	SG;N	11	nmod:poss	11:nmod:poss	CorrectForm=company
+9	s	's	PART	POS	PART	8	case	8:case	CorrectForm='s
+10	next	next	ADJ	JJ	ADJ	11	amod	11:amod	_
+11	event	event	NOUN	NN	SG;N	4	obl	4:obl:for	SpaceAfter=No
+12	!	!	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-154113
+# sent_id = reviews-154113-0001
+# newpar id = reviews-154113-p0001
+# text = A good cut!
+1	A	a	DET	DT	DET;INDF	3	det	3:det	_
+2	good	good	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	cut	cut	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-154113-0002
+# text = Cécile is a hairdresser and has just moved into the neighbourhood.
+1	Cécile	Cécile	PROPN	NNP	SG;PROPN	4	nsubj	4:nsubj|8:nsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	4	cop	4:cop	_
+3	a	a	DET	DT	DET;INDF	4	det	4:det	_
+4	hairdresser	hairdresser	NOUN	NN	SG;N	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+6	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	8	aux	8:aux	_
+7	just	just	ADV	RB	ADV	8	advmod	8:advmod	_
+8	moved	move	VERB	VBN	V;V.PTCP;PST	4	conj	4:conj:and	_
+9	into	into	ADP	IN	ADP	11	case	11:case	_
+10	the	the	DET	DT	DET;DEF	11	det	11:det	_
+11	neighbourhood	neighbourhood	NOUN	NN	SG;N	8	obl	8:obl:into	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-154113-0003
+# text = I go to see her to have my hair cut.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	go	go	VERB	VBP	FIN;PRS;1;V;IND;SG	0	root	0:root	_
+3	to	to	PART	TO	PART	4	mark	4:mark	_
+4	see	see	VERB	VB	NFIN;V	2	advcl	2:advcl:to	_
+5	her	she	PRON	PRP	PRO;ACC;3;FEM;SG	4	obj	4:obj	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	have	have	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+8	my	my	PRON	PRP$	PRO;GEN;1;SG	9	nmod:poss	9:nmod:poss	_
+9	hair	hair	NOUN	NN	SG;N	7	obj	7:obj|10:nsubj:xsubj	_
+10	cut	cut	VERB	VBN	PASS;V;V.PTCP;PST	7	xcomp	7:xcomp	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-149922
+# sent_id = reviews-149922-0001
+# newpar id = reviews-149922-p0001
+# text = Clean rooms, great for the price and cheapest on the exit.
+1	Clean	clean	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	rooms	room	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	4:punct	_
+4	great	great	ADJ	JJ	ADJ	2	conj	2:conj:and	_
+5	for	for	ADP	IN	ADP	7	case	7:case	_
+6	the	the	DET	DT	DET;DEF	7	det	7:det	_
+7	price	price	NOUN	NN	SG;N	4	obl	4:obl:for	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	cheapest	cheap	ADJ	JJS	ADJ;RL	2	conj	2:conj:and	_
+10	on	on	ADP	IN	ADP	12	case	12:case	_
+11	the	the	DET	DT	DET;DEF	12	det	12:det	_
+12	exit	exit	NOUN	NN	SG;N	9	obl	9:obl:on	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-149922-0002
+# text = The front desk staff was very pleasant and efficient.
+1	The	the	DET	DT	DET;DEF	4	det	4:det	_
+2	front	front	NOUN	NN	SG;N	3	compound	3:compound	_
+3	desk	desk	NOUN	NN	SG;N	4	compound	4:compound	_
+4	staff	staff	NOUN	NN	SG;N	7	nsubj	7:nsubj|9:nsubj	_
+5	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	7	cop	7:cop	_
+6	very	very	ADV	RB	ADV	7	advmod	7:advmod	_
+7	pleasant	pleasant	ADJ	JJ	ADJ	0	root	0:root	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	efficient	efficient	ADJ	JJ	ADJ	7	conj	7:conj:and	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-149922-0003
+# text = Serves FREE breakfast !
+1	Serves	serve	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+2	FREE	free	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	breakfast	breakfast	NOUN	NN	SG;N	1	obj	1:obj	_
+4	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-001961
+# sent_id = reviews-001961-0001
+# newpar id = reviews-001961-p0001
+# text = Buyer Beware!!
+1	Buyer	buyer	NOUN	NN	SG;N	2	nsubj	2:nsubj	_
+2	Beware	beware	VERB	VB	FIN;V;IMP	0	root	0:root	SpaceAfter=No
+3	!!	!!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-001961-0002
+# text = Rusted out and unsafe cars sold here!
+1	Rusted	rust	VERB	VBN	PASS;V;V.PTCP;PST	5	amod	5:amod	_
+2	out	out	ADP	RP	ADP	1	compound	1:compound	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	unsafe	unsafe	ADJ	JJ	ADJ	1	conj	1:conj:and|5:amod	_
+5	cars	car	NOUN	NNS	PL;N	6	nsubj:pass	6:nsubj:pass	_
+6	sold	sell	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+7	here	here	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+8	!	!	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = reviews-001961-0003
+# text = Have a real mechanic check before you buy!!!!
+1	Have	have	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	a	a	DET	DT	DET;INDF	4	det	4:det	_
+3	real	real	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	mechanic	mechanic	NOUN	NN	SG;N	1	obj	1:obj|5:nsubj:xsubj	_
+5	check	check	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+6	before	before	SCONJ	IN	CONJ	8	mark	8:mark	_
+7	you	you	PRON	PRP	NOM;2;PRO	8	nsubj	8:nsubj	_
+8	buy	buy	VERB	VBP	FIN;PRS;2;V;IND;SG	5	advcl	5:advcl:before	SpaceAfter=No
+9	!!!!	!!!!	PUNCT	.	_	1	punct	1:punct	_
+

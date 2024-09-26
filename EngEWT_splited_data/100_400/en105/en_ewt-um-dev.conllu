@@ -1,0 +1,65 @@
+# sent_id = email-enronsent30_02-0017
+# text = Raw data is on the fisrt tab of the file to the right.
+1	Raw	raw	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	data	data	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+3	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	7	cop	7:cop	_
+4	on	on	ADP	IN	ADP	7	case	7:case	_
+5	the	the	DET	DT	DET;DEF	7	det	7:det	_
+6	fisrt	fisrt	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	tab	tab	NOUN	NN	SG;N	0	root	0:root	_
+8	of	of	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DET;DEF	10	det	10:det	_
+10	file	file	NOUN	NN	SG;N	7	nmod	7:nmod:of	_
+11	to	to	ADP	IN	ADP	13	case	13:case	_
+12	the	the	DET	DT	DET;DEF	13	det	13:det	_
+13	right	right	NOUN	NN	SG;N	7	nmod	7:nmod:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent30_02-0018
+# newpar id = email-enronsent30_02-p0004
+# text = Let me know if you have any questions.
+1	Let	let	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	me	I	PRON	PRP	PRO;ACC;1;SG	1	obj	1:obj|3:nsubj:xsubj	_
+3	know	know	VERB	VB	NFIN;V	1	xcomp	1:xcomp	_
+4	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+5	you	you	PRON	PRP	NOM;2;PRO	6	nsubj	6:nsubj	_
+6	have	have	VERB	VBP	FIN;PRS;2;V;IND;SG	3	ccomp	3:ccomp	_
+7	any	any	DET	DT	DET	8	det	8:det	_
+8	questions	question	NOUN	NNS	PL;N	6	obj	6:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent30_02-0019
+# newpar id = email-enronsent30_02-p0005
+# text = Vladi.
+1	Vladi	Vladi	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent30_02-0020
+# text = Hey Vladi,
+1	Hey	hey	INTJ	UH	INTJ	0	root	0:root	_
+2	Vladi	Vladi	PROPN	NNP	SG;PROPN	1	vocative	1:vocative	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent30_02-0021
+# newpar id = email-enronsent30_02-p0006
+# text = Do you still have the historical nymex settle file that you created for Lavo's spread analysis?
+1	Do	do	AUX	VBP	FIN;PRS;2;V;IND;SG	4	aux	4:aux	_
+2	you	you	PRON	PRP	NOM;2;PRO	4	nsubj	4:nsubj	_
+3	still	still	ADV	RB	ADV	4	advmod	4:advmod	_
+4	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+5	the	the	DET	DT	DET;DEF	9	det	9:det	_
+6	historical	historical	ADJ	JJ	ADJ	9	amod	9:amod	_
+7	nymex	nymex	NOUN	NN	SG;N	9	compound	9:compound	_
+8	settle	settle	NOUN	NN	SG;N	9	compound	9:compound	_
+9	file	file	NOUN	NN	SG;N	4	obj	4:obj|12:obj	_
+10	that	that	PRON	WDT	PRO	12	obj	9:ref	_
+11	you	you	PRON	PRP	NOM;2;PRO	12	nsubj	12:nsubj	_
+12	created	create	VERB	VBD	FIN;2;V;IND;SG;PST	9	acl:relcl	9:acl:relcl	Cxn=rc-that-obj
+13	for	for	ADP	IN	ADP	17	case	17:case	_
+14-15	Lavo's	_	_	_	_	_	_	_	_
+14	Lavo	Lavo	PROPN	NNP	SG;PROPN	17	nmod:poss	17:nmod:poss	_
+15	's	's	PART	POS	PART	14	case	14:case	_
+16	spread	spread	NOUN	NN	SG;N	17	compound	17:compound	_
+17	analysis	analysis	NOUN	NN	SG;N	12	obl	12:obl:for	SpaceAfter=No
+18	?	?	PUNCT	.	_	4	punct	4:punct	_
+

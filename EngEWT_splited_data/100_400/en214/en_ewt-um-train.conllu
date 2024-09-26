@@ -1,0 +1,369 @@
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0095
+# text = Remain calm and confident, and love is very likely to flourish in 2005.
+1	Remain	remain	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	calm	calm	ADJ	JJ	ADJ	1	xcomp	1:xcomp	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	confident	confident	ADJ	JJ	ADJ	2	conj	1:xcomp|2:conj:and	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	10:punct	_
+6	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+7	love	love	NOUN	NN	SG;N	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+8	is	be	AUX	VBZ	3;PRS;IND;FIN;V;SG	10	cop	10:cop	_
+9	very	very	ADV	RB	ADV	10	advmod	10:advmod	_
+10	likely	likely	ADJ	JJ	ADJ	2	conj	1:xcomp|2:conj:and	_
+11	to	to	PART	TO	PART	12	mark	12:mark	_
+12	flourish	flourish	VERB	VB	V;NFIN	10	xcomp	10:xcomp	_
+13	in	in	ADP	IN	ADP	14	case	14:case	_
+14	2005	2005	NUM	CD	NUM	12	obl	12:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0096
+# text = "Expect the unexpected," and enjoy the ride!
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	Expect	expect	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	unexpected	unexpected	ADJ	JJ	ADJ	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	,	_	2	punct	2:punct	SpaceAfter=No
+6	"	"	PUNCT	''	_	2	punct	2:punct	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	enjoy	enjoy	VERB	VB	V;FIN;IMP	2	conj	2:conj:and	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	ride	ride	NOUN	NN	SG;N	8	obj	8:obj	SpaceAfter=No
+11	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0097
+# text = "Success comes before work" only in the dictionary
+1	"	"	PUNCT	``	_	3	punct	3:punct	SpaceAfter=No
+2	Success	success	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	comes	come	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+4	before	before	ADP	IN	ADP	5	case	5:case	_
+5	work	work	NOUN	NN	SG;N	3	obl	3:obl:before	SpaceAfter=No
+6	"	"	PUNCT	''	_	3	punct	3:punct	_
+7	only	only	ADV	RB	ADV	10	advmod	10:advmod	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	dictionary	dictionary	NOUN	NN	SG;N	3	obl	3:obl:in	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0098
+# text = Mayur ? <>
+1	Mayur	Mayur	PROPN	NNP	PROPN;SG	0	root	0:root	_
+2	?	?	PUNCT	.	_	1	punct	1:punct	_
+3	<	<	PUNCT	-LRB-	_	1	punct	1:punct	SpaceAfter=No
+4	>	>	PUNCT	-RRB-	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0099
+# newpar id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-p0003
+# text = Get Mails Everyday <>
+1	Get	get	VERB	VB	V;FIN;IMP	0	root	0:root	_
+2	Mails	mail	NOUN	NNS	N;PL	1	obj	1:obj	_
+3	Everyday	everyday	NOUN	NN	SG;N	1	obl:tmod	1:obl:tmod	_
+4	<	<	PUNCT	-LRB-	_	1	punct	1:punct	SpaceAfter=No
+5	>	>	PUNCT	-RRB-	_	1	punct	1:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0100
+# text = Share Your Mails <mailto:mayur...@yahoo.com> mayur...@yahoo.com
+1	Share	share	VERB	VB	V;FIN;IMP	5	parataxis	5:parataxis	_
+2	Your	your	PRON	PRP$	GEN;2;PRO	3	nmod:poss	3:nmod:poss	_
+3	Mails	mail	NOUN	NNS	N;PL	1	obj	1:obj	_
+4	<	<	PUNCT	-LRB-	_	1	punct	1:punct	SpaceAfter=No
+5	mailto:mayur...@yahoo.com	mailto:mayur...@yahoo.com	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+6	>	>	PUNCT	-RRB-	_	7	punct	7:punct	_
+7	mayur...@yahoo.com	mayur...@yahoo.com	PROPN	ADD	PROPN	5	list	5:list	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0101
+# text = SMS Me... 09819602175
+1	SMS	SMS	VERB	VB	V;FIN;IMP	4	parataxis	4:parataxis	_
+2	Me	I	PRON	PRP	ACC;1;PRO;SG	1	obj	1:obj	SpaceAfter=No
+3	...	...	PUNCT	,	_	1	punct	1:punct	_
+4	09819602175	09819602175	NUM	CD	NUM	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0102
+# text = Talk to me <ymsgr:sendIM?mayursha&__Hi+Mayur...>
+1	Talk	talk	VERB	VB	V;FIN;IMP	5	parataxis	5:parataxis	_
+2	to	to	ADP	IN	ADP	3	case	3:case	_
+3	me	I	PRON	PRP	ACC;1;PRO;SG	1	obl	1:obl:to	_
+4	<	<	PUNCT	-LRB-	_	1	punct	1:punct	SpaceAfter=No
+5	ymsgr:sendIM?mayursha&__Hi+Mayur...	ymsgr:sendIM?mayursha&__Hi+Mayur...	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+6	>	>	PUNCT	-RRB-	_	5	punct	5:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0103
+# text = [send offline as well ]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	send	send	VERB	VB	V;FIN;IMP	0	root	0:root	_
+3	offline	offline	ADV	RB	ADV	2	advmod	2:advmod	_
+4	as	as	ADV	RB	ADV	2	advmod	2:advmod	_
+5	well	well	ADV	RB	ADV	4	fixed	4:fixed	_
+6	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0104
+# text = online?u=mayursha&m=g&t=1
+1	online?u=mayursha&m=g&t=1	online?u=mayursha&m=g&t=1	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0105
+# text = 1K Download
+1	1	1	NUM	CD	NUM	2	compound	2:compound	SpaceAfter=No
+2	K	thousand	NUM	CD	NUM	3	nummod	3:nummod	_
+3	Download	download	NOUN	NN	SG;N	0	root	0:root	_
+
+# newdoc id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0001
+# newpar id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-p0001
+# text = -------------------------------------------------------------
+1	-------------------------------------------------------------	-------------------------------------------------------------	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0002
+# text = The mysterious RAPHAEL Holinshed was named for the mysterious Neoplatonic Italian painter RAPHAEL Sanzio who painted _St.George Fighting the Dragon_ (1504-06)
+1	The	the	DET	DT	DEF;DET	3	det	3:det	_
+2	mysterious	mysterious	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	RAPHAEL	Raphael	PROPN	NNP	PROPN;SG	6	nsubj:pass	6:nsubj:pass	_
+4	Holinshed	Holinshed	PROPN	NNP	PROPN;SG	3	flat	3:flat	_
+5	was	be	AUX	VBD	3;IND;FIN;PST;V;SG	6	aux:pass	6:aux:pass	_
+6	named	name	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	_
+7	for	for	ADP	IN	ADP	12	case	12:case	_
+8	the	the	DET	DT	DEF;DET	12	det	12:det	_
+9	mysterious	mysterious	ADJ	JJ	ADJ	12	amod	12:amod	_
+10	Neoplatonic	neoplatonic	ADJ	JJ	ADJ	12	amod	12:amod	_
+11	Italian	Italian	ADJ	JJ	ADJ	12	amod	12:amod	_
+12	painter	painter	NOUN	NN	SG;N	6	obl	6:obl:for|16:nsubj	_
+13	RAPHAEL	Raphael	PROPN	NNP	PROPN;SG	12	appos	12:appos	_
+14	Sanzio	Sanzio	PROPN	NNP	PROPN;SG	13	flat	13:flat	_
+15	who	who	PRON	WP	PRO	16	nsubj	12:ref	_
+16	painted	paint	VERB	VBD	V;3;IND;FIN;PST;SG	12	acl:relcl	12:acl:relcl	Cxn=rc-wh-nsubj
+17	_	_	PUNCT	NFP	_	20	punct	20:punct	SpaceAfter=No
+18	St.	St.	PROPN	NNP	PROPN;SG	20	nsubj	20:nsubj	CorrectSpaceAfter=Yes|SpaceAfter=No
+19	George	George	PROPN	NNP	PROPN;SG	18	flat	18:flat	_
+20	Fighting	fight	VERB	VBG	V;V.MSDR	16	obj	16:obj	_
+21	the	the	DET	DT	DEF;DET	22	det	22:det	_
+22	Dragon	Dragon	PROPN	NNP	PROPN;SG	20	obj	20:obj	SpaceAfter=No
+23	_	_	PUNCT	NFP	_	25	punct	25:punct	_
+24	(	(	PUNCT	-LRB-	_	25	punct	25:punct	SpaceAfter=No
+25	1504	1504	NUM	CD	NUM	20	nmod:tmod	20:nmod:tmod	SpaceAfter=No
+26	-	-	SYM	SYM	_	27	case	27:case	SpaceAfter=No
+27	06	06	NUM	CD	NUM	25	nmod	25:nmod	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	25	punct	25:punct	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0003
+# text = [ ]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	_
+2	]	]	PUNCT	-RRB-	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0004
+# text = ----------------------------------------------------------------------
+1	----------------------------------------------------------------------	----------------------------------------------------------------------	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0005
+# text = Like William Shakspere RAPHAEL (the painter) died on his April birthday Laura & Bridget's day:
+1	Like	like	ADP	IN	ADP	2	case	2:case	_
+2	William	William	PROPN	NNP	PROPN;SG	9	obl	9:obl:like	_
+3	Shakspere	Shakspere	PROPN	NNP	PROPN;SG	2	flat	2:flat	_
+4	RAPHAEL	Raphael	PROPN	NNP	PROPN;SG	9	nsubj	9:nsubj	_
+5	(	(	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	painter	painter	NOUN	NN	SG;N	4	appos	4:appos	SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	punct	7:punct	_
+9	died	die	VERB	VBD	V;3;IND;FIN;PST;SG	0	root	0:root	_
+10	on	on	ADP	IN	ADP	13	case	13:case	_
+11	his	his	PRON	PRP$	3;MASC;GEN;PRO;SG	13	nmod:poss	13:nmod:poss	_
+12	April	April	PROPN	NNP	PROPN;SG	13	compound	13:compound	_
+13	birthday	birthday	NOUN	NN	SG;N	9	obl	9:obl:on	_
+14	Laura	Laura	PROPN	NNP	PROPN;SG	18	nmod:poss	18:nmod:poss	_
+15	&	&	CCONJ	CC	CONJ	16	cc	16:cc	_
+16-17	Bridget's	_	_	_	_	_	_	_	_
+16	Bridget	Bridget	PROPN	NNP	PROPN;SG	14	conj	14:conj|18:nmod:poss	_
+17	's	's	PART	POS	PART	14	case	14:case	_
+18	day	day	NOUN	NN	SG;N	13	appos	13:appos	SpaceAfter=No
+19	:	:	PUNCT	:	_	9	punct	9:punct	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0006
+# text = -----------------------------------------------------------------------
+1	-----------------------------------------------------------------------	-----------------------------------------------------------------------	PUNCT	NFP	_	0	root	0:root	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0007
+# text = ARCHILOCHUS solar eclipse: April 6, 648 BC Friday
+1	ARCHILOCHUS	Archilochus	PROPN	NNP	PROPN;SG	3	compound	3:compound	_
+2	solar	solar	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	eclipse	eclipse	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	5:punct	_
+5	April	April	PROPN	NNP	PROPN;SG	3	appos	3:appos	_
+6	6	6	NUM	CD	NUM	5	nummod	5:nummod	SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	9:punct	_
+8	648	648	NUM	CD	NUM	9	nummod	9:nummod	_
+9	BC	bc	NOUN	NN	SG;N	5	nmod:tmod	5:nmod:tmod	_
+10	Friday	Friday	PROPN	NNP	PROPN;SG	5	appos	5:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0008
+# newpar id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-p0002
+# text = Koran descends to Earth: April 6, 610 AD Monday
+1	Koran	Koran	PROPN	NNP	PROPN;SG	2	nsubj	2:nsubj	_
+2	descends	descend	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	to	to	ADP	IN	ADP	4	case	4:case	_
+4	Earth	Earth	PROPN	NNP	PROPN;SG	2	obl	2:obl:to	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+7	6	6	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	610	610	NUM	CD	NUM	10	nummod	10:nummod	_
+10	AD	ad	NOUN	NN	SG;N	6	nmod:tmod	6:nmod:tmod	_
+11	Monday	Monday	PROPN	NNP	PROPN;SG	6	appos	6:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0009
+# text = CLEMENT's St.Methodius dies: April 6, 884 Monday
+1-2	CLEMENT's	_	_	_	_	_	_	_	_
+1	CLEMENT	Clement	PROPN	NNP	PROPN;SG	3	nmod:poss	3:nmod:poss	_
+2	's	's	PART	POS	PART	1	case	1:case	_
+3	St.	St.	PROPN	NNP	PROPN;SG	5	nsubj	5:nsubj	CorrectSpaceAfter=Yes|SpaceAfter=No
+4	Methodius	Methodius	PROPN	NNP	PROPN;SG	3	flat	3:flat	_
+5	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	SpaceAfter=No
+6	:	:	PUNCT	:	_	7	punct	7:punct	_
+7	April	April	PROPN	NNP	PROPN;SG	5	appos	5:appos	_
+8	6	6	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	884	884	NUM	CD	NUM	7	nummod	7:nummod	_
+11	Monday	Monday	PROPN	NNP	PROPN;SG	7	appos	7:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0010
+# text = Petrarch meets LAURA: April 6, 1327 Monday
+1	Petrarch	Petrarch	PROPN	NNP	PROPN;SG	2	nsubj	2:nsubj	_
+2	meets	meet	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	LAURA	Laura	PROPN	NNP	PROPN;SG	2	obj	2:obj	SpaceAfter=No
+4	:	:	PUNCT	:	_	5	punct	5:punct	_
+5	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+6	6	6	NUM	CD	NUM	5	nummod	5:nummod	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	1327	1327	NUM	CD	NUM	5	nummod	5:nummod	_
+9	Monday	Monday	PROPN	NNP	PROPN;SG	5	appos	5:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0011
+# text = DURER dies: April 6, 1528 Monday
+1	DURER	Durer	PROPN	NNP	PROPN;SG	2	nsubj	2:nsubj	_
+2	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+5	6	6	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	1528	1528	NUM	CD	NUM	4	nummod	4:nummod	_
+8	Monday	Monday	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0012
+# text = BRIDGET Vere's birth: April 6, 1584 Monday
+1	BRIDGET	Bridget	PROPN	NNP	PROPN;SG	4	nmod:poss	4:nmod:poss	_
+2-3	Vere's	_	_	_	_	_	_	_	_
+2	Vere	Vere	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	's	's	PART	POS	PART	1	case	1:case	_
+4	birth	birth	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	April	April	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+7	6	6	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	1584	1584	NUM	CD	NUM	6	nummod	6:nummod	_
+10	Monday	Monday	PROPN	NNP	PROPN;SG	6	appos	6:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0013
+# text = Sir Francis Walsingham dies: April 6, 1590 Monday
+1	Sir	Sir	PROPN	NNP	PROPN;SG	4	nsubj	4:nsubj	_
+2	Francis	Francis	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	Walsingham	Walsingham	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+4	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	April	April	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+7	6	6	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	1590	1590	NUM	CD	NUM	6	nummod	6:nummod	_
+10	Monday	Monday	PROPN	NNP	PROPN;SG	6	appos	6:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0014
+# text = "native of Crete" EL GRECO dies: April 7, 1614 Monday
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	native	native	NOUN	NN	SG;N	6	compound	6:compound	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	Crete	Crete	PROPN	NNP	PROPN;SG	2	nmod	2:nmod:of	SpaceAfter=No
+5	"	"	PUNCT	''	_	2	punct	2:punct	_
+6	EL	El	PROPN	NNP	PROPN;SG	8	nsubj	8:nsubj	_
+7	GRECO	Greco	PROPN	NNP	PROPN;SG	6	flat	6:flat	_
+8	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	SpaceAfter=No
+9	:	:	PUNCT	:	_	10	punct	10:punct	_
+10	April	April	PROPN	NNP	PROPN;SG	8	appos	8:appos	_
+11	7	7	NUM	CD	NUM	10	nummod	10:nummod	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	1614	1614	NUM	CD	NUM	10	nummod	10:nummod	_
+14	Monday	Monday	PROPN	NNP	PROPN;SG	10	appos	10:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0015
+# text = {LUCIO: Does BRIDGET PAINT still, Pompey, ha?
+1	{	{	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	LUCIO	Lucio	PROPN	NNP	PROPN;SG	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	6	punct	6:punct	_
+4	Does	do	AUX	VBZ	3;PRS;IND;FIN;V;SG	6	aux	6:aux	_
+5	BRIDGET	Bridget	PROPN	NNP	PROPN;SG	6	nsubj	6:nsubj	_
+6	PAINT	paint	VERB	VB	V;NFIN	2	parataxis	2:parataxis	_
+7	still	still	ADV	RB	ADV	6	advmod	6:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	Pompey	Pompey	PROPN	NNP	PROPN;SG	6	vocative	6:vocative	SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	11:punct	_
+11	ha	ha	INTJ	UH	INTJ	6	discourse	6:discourse	SpaceAfter=No
+12	?	?	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0016
+# text = [MfM Act 3, Sc. 2]}
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	MfM	MfM	PROPN	NNP	PROPN;SG	0	root	0:root	_
+3	Act	act	NOUN	NN	SG;N	2	appos	2:appos	_
+4	3	3	NUM	CD	NUM	3	nummod	3:nummod	SpaceAfter=No
+5	,	,	PUNCT	,	_	6	punct	6:punct	_
+6	Sc.	sc.	NOUN	NN	SG;N	2	appos	2:appos	_
+7	2	2	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	2	punct	2:punct	SpaceAfter=No
+9	}	}	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0017
+# newpar id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-p0003
+# text = LAURA dies of plague: April 6, 1348 Sunday
+1	LAURA	Laura	PROPN	NNP	PROPN;SG	2	nsubj	2:nsubj	_
+2	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	_
+3	of	of	ADP	IN	ADP	4	case	4:case	_
+4	plague	plague	NOUN	NN	SG;N	2	obl	2:obl:of	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+7	6	6	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	1348	1348	NUM	CD	NUM	6	nummod	6:nummod	_
+10	Sunday	Sunday	PROPN	NNP	PROPN;SG	6	appos	6:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0018
+# text = RAPHAEL born: April 6, 1483 Sunday
+1	RAPHAEL	Raphael	PROPN	NNP	PROPN;SG	2	nsubj:pass	2:nsubj:pass	_
+2	born	bear	VERB	VBN	V;V.PTCP;PST;PASS	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+5	6	6	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	1483	1483	NUM	CD	NUM	4	nummod	4:nummod	_
+8	Sunday	Sunday	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0019
+# newpar id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-p0004
+# text = RAPHAEL dies: April 6, 1520 Good Friday
+1	RAPHAEL	Raphael	PROPN	NNP	PROPN;SG	2	nsubj	2:nsubj	_
+2	dies	die	VERB	VBZ	V;3;PRS;IND;FIN;SG	0	root	0:root	SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	_
+4	April	April	PROPN	NNP	PROPN;SG	2	appos	2:appos	_
+5	6	6	NUM	CD	NUM	4	nummod	4:nummod	SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	1520	1520	NUM	CD	NUM	4	nummod	4:nummod	_
+8	Good	Good	ADJ	NNP	ADJ	9	amod	9:amod	_
+9	Friday	Friday	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+
+# sent_id = newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0020
+# text = Thomas Hobbes' birth: April 5, 1588 Good Friday
+1	Thomas	Thomas	PROPN	NNP	PROPN;SG	4	nmod:poss	4:nmod:poss	_
+2-3	Hobbes'	_	_	_	_	_	_	_	_
+2	Hobbes	Hobbes	PROPN	NNP	PROPN;SG	1	flat	1:flat	_
+3	'	's	PART	POS	PART	1	case	1:case	_
+4	birth	birth	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+5	:	:	PUNCT	:	_	6	punct	6:punct	_
+6	April	April	PROPN	NNP	PROPN;SG	4	appos	4:appos	_
+7	5	5	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	1588	1588	NUM	CD	NUM	6	nummod	6:nummod	_
+10	Good	Good	ADJ	NNP	ADJ	11	amod	11:amod	_
+11	Friday	Friday	PROPN	NNP	PROPN;SG	6	appos	6:appos	_
+

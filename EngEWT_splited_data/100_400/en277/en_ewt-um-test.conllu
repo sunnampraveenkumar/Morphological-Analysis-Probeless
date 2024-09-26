@@ -1,0 +1,57 @@
+# sent_id = answers-20111107221352AAlIioO_ans-0010
+# text = try yelp.com
+1	try	try	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	yelp.com	yelp.com	PROPN	ADD	PROPN	1	obj	1:obj	_
+
+# newdoc id = answers-20111107211645AA391wC_ans
+# sent_id = answers-20111107211645AA391wC_ans-0001
+# newpar id = answers-20111107211645AA391wC_ans-p0001
+# text = how many ounces in a pint in ireland?
+1	how	how	ADV	WRB	ADV	2	advmod	2:advmod	_
+2	many	many	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	ounces	ounce	NOUN	NNS	PL;N	0	root	0:root	_
+4	in	in	ADP	IN	ADP	6	case	6:case	_
+5	a	a	DET	DT	INDF;DET	6	det	6:det	_
+6	pint	pint	NOUN	NN	SG;N	3	nmod	3:nmod:in	_
+7	in	in	ADP	IN	ADP	8	case	8:case	_
+8	ireland	Ireland	PROPN	NNP	SG;PROPN	3	nmod	3:nmod:in	SpaceAfter=No
+9	?	?	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = answers-20111107211645AA391wC_ans-0002
+# newpar id = answers-20111107211645AA391wC_ans-p0002
+# text = Depends of what.
+1	Depends	depend	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	of	of	ADP	IN	ADP	3	case	3:case	_
+3	what	what	PRON	WP	PRO	1	obl	1:obl:of	SpaceAfter=No
+4	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = answers-20111107211645AA391wC_ans-0003
+# text = Ounces measure weight, pints measure volume.
+1	Ounces	ounce	NOUN	NNS	PL;N	2	nsubj	2:nsubj	_
+2	measure	measure	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+3	weight	weight	NOUN	NN	SG;N	2	obj	2:obj	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	pints	pint	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+6	measure	measure	VERB	VBP	PL;V;3;FIN;PRS;IND	2	parataxis	2:parataxis	_
+7	volume	volume	NOUN	NN	SG;N	6	obj	6:obj	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111107211645AA391wC_ans-0004
+# text = If you mean fluid ounces, 20, as opposed to the 16 in America.
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	mean	mean	VERB	VBP	V;FIN;PRS;2;SG;IND	7	advcl	7:advcl:if	_
+4	fluid	fluid	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	ounces	ounce	NOUN	NNS	PL;N	3	obj	3:obj	SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	3:punct	_
+7	20	20	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	,	_	13	punct	13:punct	_
+9	as	as	ADP	IN	ADP	13	case	13:case	_
+10	opposed	oppose	VERB	VBN	PASS;PST;V;V.PTCP	9	fixed	9:fixed	_
+11	to	to	ADP	IN	ADP	9	fixed	9:fixed	_
+12	the	the	DET	DT	DEF;DET	13	det	13:det	_
+13	16	16	NUM	CD	NUM	7	nmod	7:nmod:as_opposed_to	_
+14	in	in	ADP	IN	ADP	15	case	15:case	_
+15	America	America	PROPN	NNP	SG;PROPN	13	nmod	13:nmod:in	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	7:punct	_
+

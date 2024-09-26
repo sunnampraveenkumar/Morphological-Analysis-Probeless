@@ -1,0 +1,67 @@
+# sent_id = reviews-263909-0002
+# newpar id = reviews-263909-p0002
+# text = Bisconti wanted over $300 to fix my laptop and these guys fixed it for $90!
+1	Bisconti	Bisconti	PROPN	NNP	SG;PROPN	2	nsubj	2:nsubj	_
+2	wanted	want	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+3	over	over	ADV	RB	ADV	4	advmod	4:advmod	_
+4	$	$	SYM	$	_	2	obj	2:obj|7:nsubj:xsubj	SpaceAfter=No
+5	300	300	NUM	CD	NUM	4	nummod	4:nummod	_
+6	to	to	PART	TO	PART	7	mark	7:mark	_
+7	fix	fix	VERB	VB	NFIN;V	2	xcomp	2:xcomp	_
+8	my	my	PRON	PRP$	GEN;PRO;1;SG	9	nmod:poss	9:nmod:poss	_
+9	laptop	laptop	NOUN	NN	SG;N	7	obj	7:obj	_
+10	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+11	these	this	DET	DT	PL;DET	12	det	12:det	_
+12	guys	guy	NOUN	NNS	PL;N	13	nsubj	13:nsubj	_
+13	fixed	fix	VERB	VBD	PL;PST;V;3;FIN;IND	2	conj	2:conj:and	_
+14	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	13	obj	13:obj	_
+15	for	for	ADP	IN	ADP	16	case	16:case	_
+16	$	$	SYM	$	_	13	obl	13:obl:for	SpaceAfter=No
+17	90	90	NUM	CD	NUM	16	nummod	16:nummod	SpaceAfter=No
+18	!	!	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-263909-0003
+# text = Call them today!
+1	Call	call	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	them	they	PRON	PRP	PL;ACC;PRO;3	1	obj	1:obj	_
+3	today	today	NOUN	NN	SG;N	1	obl:tmod	1:obl:tmod	SpaceAfter=No
+4	!	!	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-263909-0004
+# text = Had it fixed within a few days (had to order a part).
+1	Had	have	VERB	VBD	1;V;PST;FIN;SG;IND	0	root	0:root	_
+2	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	1	obj	1:obj|3:nsubj:xsubj	_
+3	fixed	fix	VERB	VBN	PASS;PST;V;V.PTCP	1	xcomp	1:xcomp	_
+4	within	within	ADP	IN	ADP	7	case	7:case	_
+5	a	a	DET	DT	INDF;DET	7	det	7:det	_
+6	few	few	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	days	day	NOUN	NNS	PL;N	3	obl	3:obl:within	_
+8	(	(	PUNCT	-LRB-	_	9	punct	9:punct	SpaceAfter=No
+9	had	have	VERB	VBD	1;V;PST;FIN;SG;IND	1	parataxis	1:parataxis	_
+10	to	to	PART	TO	PART	11	mark	11:mark	_
+11	order	order	VERB	VB	NFIN;V	9	xcomp	9:xcomp	_
+12	a	a	DET	DT	INDF;DET	13	det	13:det	_
+13	part	part	NOUN	NN	SG;N	11	obj	11:obj	SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	9	punct	9:punct	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-353891
+# sent_id = reviews-353891-0001
+# newpar id = reviews-353891-p0001
+# text = Great Manicure
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	Manicure	manicure	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-353891-0002
+# newpar id = reviews-353891-p0002
+# text = This place offers a great manicure and pedicure.
+1	This	this	DET	DT	SG;DET	2	det	2:det	_
+2	place	place	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	offers	offer	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+4	a	a	DET	DT	INDF;DET	6	det	6:det	_
+5	great	great	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	manicure	manicure	NOUN	NN	SG;N	3	obj	3:obj	_
+7	and	and	CCONJ	CC	CONJ	8	cc	8:cc	_
+8	pedicure	pedicure	NOUN	NN	SG;N	6	conj	3:obj|6:conj:and	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+

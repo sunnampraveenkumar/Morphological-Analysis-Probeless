@@ -1,0 +1,327 @@
+# sent_id = 4818
+# text = הנזק שכבר נגרם ישתקף בדו"חות הבנק לרבעון השלישי של 1990, שיתפרסמו בשבוע הבא.
+1-2	הנזק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	נזק	נזק	NOUN	NOUN	MASC;SG;N	6	nsubj	_	_
+3-4	שכבר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	CONJ	5	mark	_	_
+4	כבר	כבר	ADV	ADV	ADV	5	advmod	_	_
+5	נגרם	נגרם	VERB	VERB	SG;V;3;MID;MASC;PST	2	acl:relcl	_	_
+6	ישתקף	השתקף	VERB	VERB	SG;V;3;FUT;MASC	0	root	_	_
+7-8	בדו"חות	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	ADP	8	case	_	_
+8	דו"חות	דו"ח	NOUN	NOUN	PL;PSSD;N;MASC	6	obl	_	_
+9-10	הבנק	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	DET	10	det	_	_
+10	בנק	בנק	NOUN	NOUN	MASC;SG;N	8	compound:smixut	_	_
+11-13	לרבעון	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	ADP	13	case	_	_
+12	ה_	ה	DET	DET	DET	13	det	_	_
+13	רבעון	רבעון	NOUN	NOUN	MASC;SG;N	8	nmod	_	_
+14-15	השלישי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	שלישי	שלישי	NUM	NUM	MASC;SG;NUM	13	amod	_	_
+16	של	של	ADP	ADP	ADP;GEN	17	case:gen	_	_
+17	1990	1990	NUM	NUM	NUM	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	8	punct	_	_
+19-20	שיתפרסמו	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	CONJ	20	mark	_	_
+20	יתפרסמו	התפרסם	VERB	VERB	PL;V;3;{FEM/MASC};FUT	8	acl:relcl	_	_
+21-23	בשבוע	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	ADP	23	case	_	_
+22	ה_	ה	DET	DET	DET	23	det	_	_
+23	שבוע	שבוע	NOUN	NOUN	MASC;SG;N	20	obl	_	_
+24-25	הבא	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	DET	25	det	_	_
+25	בא	בא	ADJ	ADJ	MASC;SG;ADJ	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = 4819
+# text = נראה שלבנק איגוד יהיה הפסד הן בתשעה החודשים הראשונים של 1990, והן ברבעון השלישי של השנה.
+1	נראה	נראה	VERB	VERB	{1/2/3};SG;V;MID;MASC;V.PTCP	0	root	_	_
+2-4	שלבנק	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	CONJ	6	mark	_	_
+3	ל	ל	ADP	ADP	ADP	4	case	_	_
+4	בנק	בנק	NOUN	NOUN	MASC;SG;N;PSSD	6	obl	_	_
+5	איגוד	איגוד	NOUN	NOUN	MASC;SG;N	4	compound:smixut	_	_
+6	יהיה	היה	VERB	VERB	POS;SG;V;3;FUT;MASC	1	advcl	_	_
+7	הפסד	הפסד	NOUN	NOUN	MASC;SG;N	6	nsubj	_	_
+8	הן	הן	ADV	ADV	ADV	9	advmod	_	_
+9-10	בתשעה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	12	case	_	_
+10	תשעה	תשעה	NUM	NUM	MASC;SG;NUM	12	nummod	_	_
+11-12	החודשים	_	_	_	_	_	_	_	_
+11	ה	ה	X	X	_	12	dep	_	Xtra=Junk
+12	חודשים	חודש	X	X	_	6	obl	_	Xtra=Junk
+13-14	הראשונים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	DET	14	det	_	_
+14	ראשונים	_	ADJ	ADJ	MASC;PL;ADJ	12	amod	_	_
+15	של	של	ADP	ADP	ADP;GEN	16	case:gen	_	_
+16	1990	1990	NUM	NUM	NUM	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	12	punct	_	_
+18-19	והן	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	CONJ	22	cc	_	_
+19	הן	הן	ADV	ADV	ADV	20	advmod	_	_
+20-22	ברבעון	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	ADP	22	case	_	_
+21	ה_	ה	DET	DET	DET	22	det	_	_
+22	רבעון	רבעון	NOUN	NOUN	MASC;SG;N	12	conj	_	_
+23-24	השלישי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	DET	24	det	_	_
+24	שלישי	שלישי	NUM	NUM	MASC;SG;NUM	22	amod	_	_
+25	של	של	ADP	ADP	ADP;GEN	27	case:gen	_	_
+26-27	השנה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	DET	27	det	_	_
+27	שנה	שנה	NOUN	NOUN	SG;N;FEM	22	nmod	_	_
+28	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 4820
+# text = המפקח על הבנקים, אמנון גולדשמידט, קיבל בימים האחרונים פרטים על שתי הפרשות מבנק איגוד.
+1-2	המפקח	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	DET	2	det	_	_
+2	מפקח	מפקח	NOUN	NOUN	MASC;SG;N	10	nsubj	_	_
+3	על	על	ADP	ADP	ADP	5	case	_	_
+4-5	הבנקים	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	X	X	_	5	dep	_	Xtra=Junk
+5	בנקים	בנק	NOUN	NOUN	MASC;N;PL	2	nummod	_	_
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	אמנון	אמנון	PROPN	PROPN	PROPN	2	appos	_	_
+8	גולדשמידט	גולדשמידט	PROPN	PROPN	PROPN	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	קיבל	קיבל	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+11-13	בימים	_	_	_	_	_	_	_	_
+11	ב	ב	X	X	_	13	case	_	Xtra=Junk
+12	ה_	ה	X	X	_	13	dep	_	Xtra=Junk
+13	ימים	_	NOUN	NOUN	MASC;N;PL	10	obl	_	_
+14-15	האחרונים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	DET	15	det	_	_
+15	אחרונים	אחרון	ADJ	ADJ	MASC;PL;ADJ	13	amod	_	_
+16	פרטים	פרט	NOUN	NOUN	MASC;N;PL	10	obj	_	_
+17	על	על	ADP	ADP	ADP	20	case	_	_
+18	שתי	שתי	NUM	NUM	FEM;PL;NUM;PSSD	20	nummod	_	_
+19-20	הפרשות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	DET	20	det	_	_
+20	פרשות	פרשה	NOUN	NOUN	N;PL;FEM	16	nmod	_	_
+21-22	מבנק	_	_	_	_	_	_	_	_
+21	מ	מ	ADP	ADP	ADP	22	case	_	_
+22	בנק	בנק	NOUN	NOUN	MASC;SG;N;PSSD	10	obl	_	_
+23	איגוד	איגוד	NOUN	NOUN	MASC;SG;N	22	compound:smixut	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# sent_id = 4821
+# text = בפיקוח על הבנקים עדיין לומדים אותם לצורך הסקת מסקנות אפשריות.
+1-3	בפיקוח	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	3	case	_	_
+2	ה_	ה	DET	DET	DET	3	det	_	_
+3	פיקוח	פיקוח	NOUN	NOUN	MASC;SG;N	8	obl	_	_
+4	על	על	ADP	ADP	ADP	6	case	_	_
+5-6	הבנקים	_	_	_	_	_	_	_	_
+5	ה	ה	X	X	_	6	dep	_	Xtra=Junk
+6	בנקים	בנק	NOUN	NOUN	MASC;N;PL	3	nummod	_	_
+7	עדיין	עדיין	ADV	ADV	ADV	8	advmod	_	_
+8	לומדים	למד	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+9-10	אותם	_	_	_	_	_	_	_	_
+9	את_	את	ADP	ADP	ADP;ACC	10	case:acc	_	_
+10	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	8	obj	_	_
+11-12	לצורך	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	ADP	12	case	_	_
+12	צורך	צורך	NOUN	NOUN	MASC;SG;N;PSSD	8	obl	_	_
+13	הסקת	הסקה	NOUN	NOUN	SG;FEM;N;PSSD	12	compound:smixut	_	_
+14	מסקנות	מסקנה	NOUN	NOUN	N;PL;FEM	13	compound:smixut	_	_
+15	אפשריות	אפשרי	ADJ	ADJ	FEM;PL;ADJ	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# sent_id = 4822
+# text = עדיין לא החליטו שם סופית על נוהלים חדשים בכל הנוגע לניהול תיקי השקעות במטבע חוץ.
+1	עדיין	עדיין	ADV	ADV	ADV	3	advmod	_	_
+2	לא	לא	ADV	ADV	NEG;ADV	3	advmod	_	_
+3	החליטו	החליט	VERB	VERB	ACT;PL;V;3;{FEM/MASC};PST	0	root	_	_
+4	שם	שם	ADV	ADV	ADV	3	advmod	_	_
+5	סופית	סופית	ADV	ADV	ADV	3	advmod	_	_
+6	על	על	ADP	ADP	ADP	7	case	_	_
+7	נוהלים	נוהל	NOUN	NOUN	MASC;N;PL	3	obl	_	_
+8	חדשים	חדש	ADJ	ADJ	MASC;PL;ADJ	7	amod	_	_
+9-10	בכל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	ADP	10	case	_	_
+10	כל	כול	DET	DET	PSSD;DET	3	obl	_	_
+11-12	הנוגע	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	CONJ	12	mark	_	_
+12	נוגע	נגע	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	10	acl:relcl	_	_
+13-14	לניהול	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	ADP	14	case	_	_
+14	ניהול	ניהול	NOUN	NOUN	MASC;SG;N;PSSD	12	obl	_	_
+15	תיקי	תיק	NOUN	NOUN	MASC;N;PL;PSSD	14	compound:smixut	_	_
+16	השקעות	השקעה	NOUN	NOUN	N;PL;FEM	15	compound:smixut	_	_
+17-18	במטבע	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	ADP	18	case	_	_
+18	מטבע	מטבע	NOUN	NOUN	SG;N;{FEM/MASC};PSSD	14	nmod	_	_
+19	חוץ	חוץ	NOUN	NOUN	MASC;SG;N	18	compound:smixut	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4823
+# text = בנקים נוספים ניצלו את יוזמת הנהלת בנק איגוד לחשיפת שתי הפרשות, כדי לרענן את נוהלי הבקרה ופיקוח אצלם.
+1	בנקים	בנק	NOUN	NOUN	MASC;N;PL	3	nsubj	_	_
+2	נוספים	נוסף	ADJ	ADJ	MASC;PL;ADJ	1	amod	_	_
+3	ניצלו	_	VERB	VERB	PL;V;3;{FEM/MASC};PST	0	root	_	_
+4	את	את	ADP	ADP	ADP;ACC	5	case:acc	_	_
+5	יוזמת	יוזמה	NOUN	NOUN	SG;FEM;N;PSSD	3	obj	_	_
+6	הנהלת	הנהלה	NOUN	NOUN	SG;FEM;N;PSSD	5	compound:smixut	_	_
+7	בנק	בנק	NOUN	NOUN	MASC;SG;N;PSSD	6	compound:smixut	_	_
+8	איגוד	איגוד	NOUN	NOUN	MASC;SG;N	7	flat:name	_	_
+9-10	לחשיפת	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	ADP	10	case	_	_
+10	חשיפת	חשיפה	NOUN	NOUN	SG;FEM;N;PSSD	3	obl	_	_
+11	שתי	שתי	NUM	NUM	FEM;PL;NUM;PSSD	13	nummod	_	_
+12-13	הפרשות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	DET	13	det	_	_
+13	פרשות	פרשה	NOUN	NOUN	N;PL;FEM	10	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	3	punct	_	_
+15	כדי	כדי	ADP	ADP	ADP	16	case	_	_
+16	לרענן	רענן	VERB	VERB	NFIN;ACT;V	3	advcl	_	_
+17	את	את	ADP	ADP	ADP;ACC	18	case:acc	_	_
+18	נוהלי	נוהל	NOUN	NOUN	MASC;N;PL;PSSD	16	obj	_	_
+19-20	הבקרה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	DET	20	det	_	_
+20	בקרה	בקרה	NOUN	NOUN	SG;N;FEM	18	compound:smixut	_	_
+21-22	ופיקוח	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	CONJ	22	cc	_	_
+22	פיקוח	פיקוח	NOUN	NOUN	MASC;SG;N	20	conj	_	_
+23-24	אצלם	_	_	_	_	_	_	_	SpaceAfter=No
+23	אצל_	אצל	ADP	ADP	ADP	24	case	_	_
+24	_הם	הוא	PRON	PRON	PL;3;MASC;PRO	18	nmod	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = 4824
+# text = באחרונה התעוררו סימני שאלה ביחס ליעילות ניהול תיקי השקעות במטבע חוץ בנאמנות עיוורת בקרב בנקים אלה.
+1	באחרונה	באחרונה	ADV	ADV	ADV	2	advmod	_	_
+2	התעוררו	התעורר	VERB	VERB	PL;V;3;{FEM/MASC};PST	0	root	_	_
+3	סימני	סימן	NOUN	NOUN	MASC;N;PL;PSSD	2	nsubj	_	_
+4	שאלה	שאלה	NOUN	NOUN	SG;N;FEM	3	compound:smixut	_	_
+5-6	ביחס	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	ADP	8	case	_	_
+6	יחס	יחס	NOUN	NOUN	MASC;SG;N	5	fixed	_	_
+7-8	ליעילות	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	ADP	5	fixed	_	_
+8	יעילות	יעילות	NOUN	NOUN	SG;FEM;N;PSSD	3	nmod	_	_
+9	ניהול	ניהול	NOUN	NOUN	MASC;SG;N;PSSD	8	compound:smixut	_	_
+10	תיקי	תיק	NOUN	NOUN	MASC;N;PL;PSSD	9	compound:smixut	_	_
+11	השקעות	השקעה	NOUN	NOUN	N;PL;FEM	10	compound:smixut	_	_
+12-13	במטבע	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	ADP	13	case	_	_
+13	מטבע	מטבע	NOUN	NOUN	SG;N;{FEM/MASC};PSSD	10	nmod	_	_
+14	חוץ	חוץ	NOUN	NOUN	MASC;SG;N	13	compound:smixut	_	_
+15-16	בנאמנות	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	ADP	16	case	_	_
+16	נאמנות	נאמנות	NOUN	NOUN	SG;N;FEM	9	nmod	_	_
+17	עיוורת	עיוור	ADJ	ADJ	SG;FEM;ADJ	16	amod	_	_
+18	בקרב	בקרב	ADP	ADP	ADP	19	case	_	_
+19	בנקים	בנק	NOUN	NOUN	MASC;N;PL	9	nmod	_	_
+20	אלה	אלה	PRON	PRON	PL;3;MASC;PRO	19	det	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 4825
+# text = תמונה רק כשהמהלכים הם לקראת סיום.
+1	תמונה	מונה	VERB	VERB	SG;V;PASS;2;FUT;MASC	0	root	_	_
+2	רק	רק	ADV	ADV	ADV	8	advmod	_	_
+3-5	כשהמהלכים	_	_	_	_	_	_	_	_
+3	כש	כש	SCONJ	SCONJ	CONJ	8	mark	_	_
+4	ה	ה	DET	DET	DET	5	det	_	_
+5	מהלכים	מהלך	NOUN	NOUN	MASC;N;PL	8	dep	_	_
+6	הם	הוא	PRON	PRON	POS;PL;3;MASC;PRO	8	cop	_	_
+7	לקראת	לקראת	ADP	ADP	ADP	8	case	_	_
+8	סיום	סיום	NOUN	NOUN	MASC;SG;N	1	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = 4826
+# text = במסגרת המעקב השוטף פגש נסים לפני שבועיים את (ש"ס) בכנסת ושאל אותו: מה קורה?
+1-2	במסגרת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	4	case	_	_
+2	מסגרת	מסגרת	NOUN	NOUN	SG;N;FEM	1	fixed	_	_
+3-4	המעקב	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	DET	4	det	_	_
+4	מעקב	מעקב	NOUN	NOUN	MASC;SG;N	7	obl	_	_
+5-6	השוטף	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	שוטף	שוטף	ADJ	ADJ	MASC;SG;ADJ	4	amod	_	_
+7	פגש	פגש	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+8	נסים	נסים	PROPN	PROPN	PROPN	7	nsubj	_	_
+9	לפני	לפני	ADP	ADP	ADP	10	case	_	_
+10	שבועיים	שבוע	NOUN	NOUN	DU;MASC;N	7	obl	_	_
+11	את	את	ADP	ADP	ADP;ACC	13	dep	_	_
+12	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	ש"ס	ש"ס	PROPN	PROPN	PROPN	7	obj	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	13	punct	_	_
+15-17	בכנסת	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	ADP	17	case	_	_
+16	ה_	ה	DET	DET	DET	17	det	_	_
+17	כנסת	כנסת	PROPN	PROPN	PROPN	13	nmod	_	_
+18-19	ושאל	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	CONJ	19	cc	_	_
+19	שאל	שאל	VERB	VERB	SG;ACT;V;3;MASC;PST	7	conj	_	_
+20-21	אותו	_	_	_	_	_	_	_	SpaceAfter=No
+20	את_	את	ADP	ADP	ADP;ACC	21	case:acc	_	_
+21	_הוא	הוא	PRON	PRON	SG;3;MASC;PRO	19	obj	_	_
+22	:	:	PUNCT	PUNCT	_	24	punct	_	_
+23	מה	מה	ADV	ADV	ADV	24	nsubj	_	_
+24	קורה	קרה	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	19	ccomp	_	SpaceAfter=No
+25	?	?	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = 4827
+# text = אני שומע שאתם הולכים להצביע אי אמון בממשלה.
+1	אני	הוא	PRON	PRON	SG;1;{FEM/MASC};PRO	2	nsubj	_	_
+2	שומע	שמע	VERB	VERB	{1/2/3};SG;ACT;V;MASC;V.PTCP	0	root	_	_
+3-4	שאתם	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	CONJ	5	mark	_	_
+4	אתם	הוא	PRON	PRON	PL;2;MASC;PRO	5	nsubj	_	_
+5	הולכים	הלך	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	2	ccomp	_	_
+6	להצביע	הצביע	VERB	VERB	NFIN;ACT;V	5	xcomp	_	_
+7	אי	אי	ADV	ADV	ADV	8	compound:affix	_	HebSource=ConvUncertainHead
+8	אמון	אמון	NOUN	NOUN	MASC;SG;N	6	obl	_	_
+9-11	בממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	ADP	11	case	_	_
+10	ה_	ה	DET	DET	DET	11	det	_	_
+11	ממשלה	ממשלה	NOUN	NOUN	SG;N;FEM	8	nmod	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# sent_id = 4828
+# text = מבלבלים לכם את המוח, הממשלה לא תיפול, השיב לוי.
+1	מבלבלים	בלבל	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	13	advcl	_	_
+2-3	לכם	_	_	_	_	_	_	_	_
+2	ל_	ל	ADP	ADP	ADP	3	case	_	_
+3	_אתם	הוא	PRON	PRON	PL;2;MASC;PRO	1	obl	_	_
+4	את	את	ADP	ADP	ADP;ACC	6	case:acc	_	_
+5-6	המוח	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	DET	6	det	_	_
+6	מוח	מוח	NOUN	NOUN	MASC;SG;N	1	obj	_	_
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8-9	הממשלה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	DET	9	det	_	_
+9	ממשלה	ממשלה	NOUN	NOUN	SG;N;FEM	11	nsubj	_	_
+10	לא	לא	ADV	ADV	NEG;ADV	11	advmod	_	_
+11	תיפול	נפל	VERB	VERB	SG;ACT;V;3;FUT;FEM	1	conj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	השיב	השיב	VERB	VERB	SG;ACT;V;3;MASC;PST	0	root	_	_
+14	לוי	לוי	PROPN	PROPN	PROPN	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# sent_id = 4830
+# text = בליכוד סומכים בעיקר על הקונפליקט שש"ס נקלעה אליו.
+1-3	בליכוד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	ADP	3	case	_	_
+2	ה_	ה	DET	DET	DET	3	det	_	_
+3	ליכוד	ליכוד	NOUN	NOUN	MASC;SG;N	4	obl	_	_
+4	סומכים	סמך	VERB	VERB	{1/2/3};ACT;PL;V;MASC;V.PTCP	0	root	_	_
+5	בעיקר	בעיקר	ADV	ADV	ADV	4	advmod	_	_
+6	על	על	ADP	ADP	ADP	8	case	_	_
+7-8	הקונפליקט	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	DET	8	det	_	_
+8	קונפליקט	קונפליקט	NOUN	NOUN	MASC;SG;N	4	obl	_	_
+9-10	שש"ס	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	CONJ	11	mark	_	_
+10	ש"ס	ש"ס	PROPN	PROPN	PROPN	11	dep	_	_
+11	נקלעה	נקלע	VERB	VERB	SG;V;3;PST;MID;FEM	8	acl:relcl	_	_
+12-13	אליו	_	_	_	_	_	_	_	SpaceAfter=No
+12	אל_	אל	ADP	ADP	ADP	13	case	_	_
+13	_הוא	הוא	PRON	PRON	SG;3;MASC;PRO	11	obl	_	_
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

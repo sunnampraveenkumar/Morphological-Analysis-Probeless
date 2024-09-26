@@ -1,0 +1,93 @@
+# sent_id = answers-20111108084036AAh8Ws9_ans-0003
+# text = I have the HTC Evo.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	the	the	DET	DT	DEF;DET	5	det	5:det	_
+4	HTC	HTC	PROPN	NNP	SG;PROPN	5	compound	5:compound	_
+5	Evo	Evo	PROPN	NNP	SG;PROPN	2	obj	2:obj	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0004
+# newpar id = answers-20111108084036AAh8Ws9_ans-p0003
+# text = depends on the computer
+1	depends	depend	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+2	on	on	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DEF;DET	4	det	4:det	_
+4	computer	computer	NOUN	NN	SG;N	1	obl	1:obl:on	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0005
+# text = if the computer is completely shut off, the USB ports aren't getting power, so they won't charge your phone
+1	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+2	the	the	DET	DT	DEF;DET	3	det	3:det	_
+3	computer	computer	NOUN	NN	SG;N	6	nsubj:pass	6:nsubj:pass	_
+4	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	6	aux:pass	6:aux:pass	_
+5	completely	completely	ADV	RB	ADV	6	advmod	6:advmod	_
+6	shut	shut	VERB	VBN	PASS;PST;V;V.PTCP	14	advcl	14:advcl:if	_
+7	off	off	ADP	RP	ADP	6	compound:prt	6:compound:prt	SpaceAfter=No
+8	,	,	PUNCT	,	_	6	punct	6:punct	_
+9	the	the	DET	DT	DEF;DET	11	det	11:det	_
+10	USB	USB	NOUN	NN	SG;N	11	compound	11:compound	_
+11	ports	port	NOUN	NNS	PL;N	14	nsubj	14:nsubj	_
+12-13	aren't	_	_	_	_	_	_	_	_
+12	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	14	aux	14:aux	_
+13	n't	not	PART	RB	PART	14	advmod	14:advmod	_
+14	getting	get	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+15	power	power	NOUN	NN	SG;N	14	obj	14:obj	SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	21:punct	_
+17	so	so	ADV	RB	ADV	21	advmod	21:advmod	_
+18	they	they	PRON	PRP	PL;PRO;3;NOM	21	nsubj	21:nsubj	_
+19-20	won't	_	_	_	_	_	_	_	_
+19	wo	will	AUX	MD	V;FIN	21	aux	21:aux	_
+20	n't	not	PART	RB	PART	21	advmod	21:advmod	_
+21	charge	charge	VERB	VB	NFIN;V	14	parataxis	14:parataxis	_
+22	your	your	PRON	PRP$	GEN;PRO;2	23	nmod:poss	23:nmod:poss	_
+23	phone	phone	NOUN	NN	SG;N	21	obj	21:obj	_
+
+# sent_id = answers-20111108084036AAh8Ws9_ans-0006
+# text = many PCs have sleep & charge now, that allow the PC to go into sleep mode, and still allow the USB ports to charge things like phones.
+1	many	many	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	PCs	pc	NOUN	NNS	PL;N	3	nsubj	3:nsubj	_
+3	have	have	VERB	VBP	PL;V;3;FIN;PRS;IND	0	root	0:root	_
+4	sleep	sleep	NOUN	NN	SG;N	3	obj	3:obj|10:nsubj	_
+5	&	&	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	charge	charge	NOUN	NN	SG;N	4	conj	3:obj|4:conj|10:nsubj	_
+7	now	now	ADV	RB	ADV	3	advmod	3:advmod	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	that	that	PRON	WDT	PRO	10	nsubj	4:ref	_
+10	allow	allow	VERB	VBP	PL;V;3;FIN;PRS;IND	4	acl:relcl	4:acl:relcl	Cxn=rc-that-nsubj
+11	the	the	DET	DT	DEF;DET	12	det	12:det	_
+12	PC	pc	NOUN	NN	SG;N	10	iobj	10:iobj|14:nsubj:xsubj|21:nsubj:xsubj	_
+13	to	to	PART	TO	PART	14	mark	14:mark	_
+14	go	go	VERB	VB	NFIN;V	10	xcomp	10:xcomp	_
+15	into	into	ADP	IN	ADP	17	case	17:case	_
+16	sleep	sleep	NOUN	NN	SG;N	17	compound	17:compound	_
+17	mode	mode	NOUN	NN	SG;N	14	obl	14:obl:into	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	21:punct	_
+19	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+20	still	still	ADV	RB	ADV	21	advmod	21:advmod	_
+21	allow	allow	VERB	VBP	PL;V;3;FIN;PRS;IND	14	conj	10:xcomp|14:conj:and	_
+22	the	the	DET	DT	DEF;DET	24	det	24:det	_
+23	USB	USB	NOUN	NN	SG;N	24	compound	24:compound	_
+24	ports	port	NOUN	NNS	PL;N	21	iobj	21:iobj|26:nsubj:xsubj	_
+25	to	to	PART	TO	PART	26	mark	26:mark	_
+26	charge	charge	VERB	VB	NFIN;V	21	xcomp	21:xcomp	_
+27	things	thing	NOUN	NNS	PL;N	26	obj	26:obj	_
+28	like	like	ADP	IN	ADP	29	case	29:case	_
+29	phones	phone	NOUN	NNS	PL;N	27	nmod	27:nmod:like	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# newdoc id = answers-20081218053636AA9vV0u_ans
+# sent_id = answers-20081218053636AA9vV0u_ans-0001
+# newpar id = answers-20081218053636AA9vV0u_ans-p0001
+# text = what is a good slogan for an Argentinian restaurant?
+1	what	what	PRON	WP	PRO	0	root	0:root	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	1	cop	1:cop	_
+3	a	a	DET	DT	INDF;DET	5	det	5:det	_
+4	good	good	ADJ	JJ	ADJ	5	amod	5:amod	_
+5	slogan	slogan	NOUN	NN	SG;N	1	nsubj	1:nsubj	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	an	a	DET	DT	INDF;DET	9	det	9:det	_
+8	Argentinian	Argentinian	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	restaurant	restaurant	NOUN	NN	SG;N	5	nmod	5:nmod:for	SpaceAfter=No
+10	?	?	PUNCT	.	_	1	punct	1:punct	_
+

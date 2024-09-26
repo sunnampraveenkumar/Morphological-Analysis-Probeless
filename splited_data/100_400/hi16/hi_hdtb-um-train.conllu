@@ -1,0 +1,568 @@
+# sent_id = train-s529
+# text = जोस्टेडल्सब्रीन ग्लेशियर उत्तरी योरप का सबसे बड़ा ग्लेशियर है ।
+1	जोस्टेडल्सब्रीन	जोस्टेडल्सब्रीन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=josṭeḍalsabrīna
+2	ग्लेशियर	ग्लेशियर	PROPN	NNP	PROPN;NOM;3;SG;MASC	8	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=gleśiyara
+3	उत्तरी	उत्तरी	ADJ	JJ	ACC;ADJ	4	amod	_	ChunkId=NP2|ChunkType=child|Translit=uttarī
+4	योरप	योरप	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=yorapa
+5	का	का	ADP	PSP	ADP;NOM;SG;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	सबसे	सबसे	ADV	INTF	ADV	7	advmod	_	AltTag=avy-ADV|ChunkId=NP3|ChunkType=child|Translit=sabase
+7	बड़ा	बडा	ADJ	JJ	NOM;MASC;SG;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=baṛā
+8	ग्लेशियर	ग्लेशियर	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=gleśiyara
+9	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	8	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+10	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s530
+# text = रात्रि भर चलने के पश्चात हम लोग अगले दिन अपने अंतिम पड़ाव बर्गन पहुँचे ।
+1	रात्रि	रात्रि	NOUN	NN	NOM;N;3;SG;FEM	3	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=rātri
+2	भर	भर	PART	RP	PART	1	dep	_	ChunkId=NP|ChunkType=child|Translit=bhara
+3	चलने	चल	VERB	VM	NFIN;V;3;SG;ACC	14	obl	_	Vib=ना_के_पश्चात|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=calane
+4	के	के	ADP	PSP	ADP	3	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+5	पश्चात	पश्चात	ADV	NST	NOM;ADV;3;SG;MASC	3	mark	_	AltTag=ADV-NOUN|ChunkId=VGNN|ChunkType=child|Translit=paścāta
+6	हम	हम	DET	DEM	DET;NOM;1;PL	7	det	_	ChunkId=NP2|ChunkType=child|Translit=hama
+7	लोग	लोग	NOUN	NN	NOM;N;3;PL;MASC	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=loga
+8	अगले	अगला	ADJ	JJ	ACC;MASC;SG;ADJ	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=agale
+9	दिन	दिन	NOUN	NN	N;3;SG;ACC;MASC	14	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=dina
+10	अपने	अपना	PRON	PRP	MASC;NOM;PRO	12	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=apane
+11	अंतिम	अंतिम	ADJ	JJ	NOM;ADJ	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=aṁtima
+12	पड़ाव	पडाव	NOUN	NN	NOM;N;3;SG;MASC	13	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=paṛāva
+13	बर्गन	बर्गन	PROPN	NNP	PROPN;NOM;3;SG;MASC	14	obl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bargana
+14	पहुँचे	पहुँच	VERB	VM	MASC;ACT;PFV;V;V.PTCP;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=pahum̃ce|Vib=या
+15	।	।	PUNCT	SYM	_	14	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s531
+# text = यह शहर सात पहाड़ों तथा अनेक फ्यूर्ड से घिरा है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	शहर	शहर	NOUN	NN	NOM;N;3;SG;MASC	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=śahara
+3	सात	सात	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=sāta
+4	पहाड़ों	पहाड	NOUN	NN	MASC;N;3;ACC;PL	9	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=pahāṛoṁ
+5	तथा	तथा	CCONJ	CC	CONJ	7	cc	_	ChunkId=CCP|ChunkType=head|Translit=tathā
+6	अनेक	अनेक	DET	QF	DET	7	det	_	ChunkId=NP3|ChunkType=child|Translit=aneka
+7	फ्यूर्ड	फ्यूर्ड	NOUN	NN	N;3;SG;ACC;MASC	4	conj	_	Vib=0_से|Tam=0|ChunkId=NP3|ChunkType=head|Translit=phyūrḍa
+8	से	से	ADP	PSP	ADP	4	case	_	ChunkId=NP3|ChunkType=child|Translit=se
+9	घिरा	घिर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=ghirā|Vib=या_है
+10	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	9	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s532
+# text = यहाँ के ब्राइगन घाट पर लकड़ी के अनेक सुंदर मकान हैं, जो मध्यकालीन युग की याद दिलाते हैं ।
+1	यहाँ	यहाँ	PRON	PRP	ACC;PRO	4	nmod	_	Vib=0_का|ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	ब्राइगन	ब्राइगन	PROPN	NNP	PROPN;NOM;3;SG;MASC	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=brāigana
+4	घाट	घाट	NOUN	NN	N;3;SG;ACC;MASC	10	nmod	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=ghāṭa
+5	पर	पर	ADP	PSP	ADP	4	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+6	लकड़ी	लकडी	NOUN	NN	N;3;SG;ACC;FEM	10	nmod	_	Vib=0_का|Tam=0|ChunkId=NP3|ChunkType=head|Translit=lakaṛī
+7	के	का	ADP	PSP	ADP;NOM;PL;MASC	6	case	_	ChunkId=NP3|ChunkType=child|Translit=ke
+8	अनेक	अनेक	DET	QF	DET	10	det	_	ChunkId=NP4|ChunkType=child|Translit=aneka
+9	सुंदर	सुन्दर	ADJ	JJ	NOM;ADJ	10	amod	_	ChunkId=NP4|ChunkType=child|Translit=suṁdara
+10	मकान	मकान	NOUN	NN	NOM;N;3;PL;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=makāna
+11	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	10	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+12	,	,	PUNCT	SYM	_	18	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+13	जो	जो	PRON	PRP	NOM;3;PL;PRO	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=jo
+14	मध्यकालीन	मध्यकालीन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	15	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=madhyakālīna
+15	युग	युग	PROPN	NNP	PROPN;3;SG;ACC;MASC	17	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=yuga
+16	की	का	ADP	PSP	ADP;NOM;SG;FEM	15	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+17	याद	याद	NOUN	NN	NOM;N;3;SG;FEM	18	compound	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=yāda
+18	दिलाते	दिला	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	10	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=wA|Translit=dilāte|Vib=ता_है
+19	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	18	aux	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+20	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s533
+# text = सेंट मेरी चर्च बारहवीं सदी की सबसे पुरानी इमारत है ।
+1	सेंट	सेंट	PROPN	NNPC	PROPN;NOM;3;SG;MASC	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=seṁṭa
+2	मेरी	मेरी	PROPN	NNPC	PROPN;NOM;3;SG;FEM	3	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=merī
+3	चर्च	चर्च	PROPN	NNP	PROPN;NOM;3;SG;MASC	9	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=carca
+4	बारहवीं	बारहवाँ	PROPN	NNPC	PROPN;NOM;3;SG;FEM	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bārahavīṁ
+5	सदी	सदी	PROPN	NNP	PROPN;3;SG;ACC;FEM	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sadī
+6	की	का	ADP	PSP	ADP;NOM;SG;FEM	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+7	सबसे	सबसे	ADV	INTF	ADV	8	advmod	_	AltTag=avy-ADV|ChunkId=NP3|ChunkType=child|Translit=sabase
+8	पुरानी	पुराना	ADJ	JJ	FEM;NOM;SG;ADJ	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=purānī
+9	इमारत	इमारत	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=imārata
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s534
+# text = यहाँ गीत गाते हैं, पत्‍थर भी... ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	3	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	गीत	गीत	NOUN	NN	NOM;N;3;PL;MASC	3	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=gīta
+3	गाते	गा	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=gāte|Vib=ता_है
+4	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	3	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+5	,	,	PUNCT	SYM	_	3	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+6	पत्‍थर	पत्‍थर	NOUN	NN	NOM;N;3;PL;MASC	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=patthara
+7	भी...	भी...	PART	RP	PART	6	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī...
+8	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s535
+# text = यह खजुराहो का सबसे आकर्षक मंदिर है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=khajurāho
+3	का	का	ADP	PSP	ADP;NOM;SG;MASC	2	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+4	सबसे	सबसे	ADV	INTF	ADV	5	advmod	_	AltTag=avy-ADV|ChunkId=NP3|ChunkType=child|Translit=sabase
+5	आकर्षक	आकर्षक	ADJ	JJ	NOM;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=ākarṣaka
+6	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+7	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s536
+# text = इसकी दीवारों पर नृत्‍य करती महिलाओं की सुंदर प्रतिमाएँ बनाई गई हैं ।
+1	इसकी	यह	PRON	PRP	{ACC/GEN};3;SG;FEM;PRO	2	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=isakī
+2	दीवारों	दीवार	NOUN	NN	N;3;ACC;FEM;PL	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=dīvāroṁ
+3	पर	पर	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+4	नृत्‍य	नृत्य	NOUN	NN	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=nr̥tya
+5	करती	कर	VERB	VM	V;FEM;V.PTCP;IPFV;PL	6	acl	_	Vib=ता|Tam=wA|ChunkId=VGNF|ChunkType=head|Translit=karatī
+6	महिलाओं	महिला	NOUN	NN	N;3;ACC;FEM;PL	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mahilāoṁ
+7	की	का	ADP	PSP	ADP;NOM;FEM;PL	6	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+8	सुंदर	सुन्दर	ADJ	JJ	NOM;ADJ	9	amod	_	ChunkId=NP5|ChunkType=child|Translit=suṁdara
+9	प्रतिमाएँ	प्रतिमा	NOUN	NN	NOM;N;3;FEM;PL	10	obj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pratimāem̃
+10	बनाई	बना	VERB	VM	PFV;V;PASS;V.PTCP;3;FEM;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banāī|Vib=या_जा+या1_है
+11	गई	जा	AUX	VAUX	PFV;V.PTCP;FEM;PL;V	10	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gaī
+12	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	10	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+13	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s537
+# text = इस मंदिर का निर्माण ईसवी 930 में यशोवर्मन ने करवाया था ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	का	का	ADP	PSP	ADP;NOM;SG;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+4	निर्माण	निर्माण	NOUN	NN	NOM;N;3;SG;MASC	10	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nirmāṇa
+5	ईसवी	ईसवी	PROPN	NNPC	PROPN;NOM;3;SG;FEM	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=īsavī
+6	930	930	PROPN	NNP	ACC;PROPN;3;SG	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=930
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+8	यशोवर्मन	यशोवर्मन	PROPN	NNP	PROPN;3;SG;ACC;MASC	10	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=yaśovarmana
+9	ने	ने	ADP	PSP	ADP	8	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+10	करवाया	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=karavāyā|Vib=या_था
+11	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	10	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+12	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s538
+# text = इस मंदिर में भगवान विष्‍णु की विशाल प्रतिमा है, जिसकी ऊँचाई सौ फुट है ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	8	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	भगवान	भगवान	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bhagavāna
+5	विष्‍णु	विष्णु	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=viṣṇu
+6	की	का	ADP	PSP	ADP;NOM;SG;FEM	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+7	विशाल	विशाल	ADJ	JJ	NOM;ADJ	8	amod	_	ChunkId=NP3|ChunkType=child|Translit=viśāla
+8	प्रतिमा	प्रतिमा	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pratimā
+9	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	8	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+10	,	,	PUNCT	SYM	_	14	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+11	जिसकी	जो	PRON	PRP	{ACC/GEN};3;SG;FEM;PRO	12	nmod	_	Vib=का|Tam=kA|ChunkId=NP4|ChunkType=head|Translit=jisakī
+12	ऊँचाई	ऊँचाई	NOUN	NN	NOM;N;3;SG;FEM	14	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=ūm̃cāī
+13	सौ	सौ	NUM	QC	NUM	14	nummod	_	ChunkId=NP6|ChunkType=child|Translit=sau
+14	फुट	फुट	NOUN	NN	NOM;N;3;SG;MASC	8	acl:relcl	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=phuṭa
+15	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	14	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+16	।	।	PUNCT	SYM	_	8	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s539
+# text = भगवान विष्‍णु के साथ ही यहाँ देवी लक्ष्‍मी और ब्रह्मदेव की प्रतिमाएँ भी विराजमान हैं ।
+1	भगवान	भगवान	NOUN	NNC	NOM;N;3;SG;MASC	2	compound	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=child|Translit=bhagavāna
+2	विष्‍णु	विष्णु	PROPN	NNP	PROPN;3;SG;ACC;MASC	15	obl	_	Vib=0_के_साथ|Tam=0|ChunkId=NP|ChunkType=head|Translit=viṣṇu
+3	के	के	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	साथ	साथ	ADP	NST	ADP;NOM;3;SG;MASC	2	case	_	AltTag=ADP-NOUN|ChunkId=NP|ChunkType=child|Translit=sātha
+5	ही	ही	PART	RP	PART	2	dep	_	ChunkId=NP|ChunkType=child|Translit=hī
+6	यहाँ	यहाँ	PRON	PRP	NOM;PRO	15	obl	_	ChunkId=NP2|ChunkType=head|Translit=yahām̃
+7	देवी	देवी	NOUN	NN	NOM;N;3;SG;FEM	8	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=devī
+8	लक्ष्‍मी	लक्ष्मी	PROPN	NNP	PROPN;3;SG;ACC;FEM	12	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=lakṣmī
+9	और	और	CCONJ	CC	CONJ	10	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+10	ब्रह्मदेव	ब्रह्मदेव	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	conj	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=brahmadeva
+11	की	का	ADP	PSP	ADP;NOM;FEM;PL	8	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+12	प्रतिमाएँ	प्रतिमा	NOUN	NN	NOM;N;3;FEM;PL	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pratimāem̃
+13	भी	भी	PART	RP	PART	12	dep	_	ChunkId=NP5|ChunkType=child|Translit=bhī
+14	विराजमान	विराजमान	ADJ	JJ	ADJ	15	compound	_	ChunkId=JJP|ChunkType=head|Translit=virājamāna
+15	हैं	है	VERB	VM	FIN;ACT;PRS;V;3;IND;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+16	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s540
+# text = यह मंदिर 1100 वर्ष पुराना है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	5	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	1100	1100	NUM	QC	NUM	4	nummod	_	ChunkId=NP2|ChunkType=child|Translit=1100
+4	वर्ष	वर्ष	NOUN	NN	NOM;N;3;SG;MASC	5	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=varṣa
+5	पुराना	पुराना	ADJ	JJ	MASC;SG;ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=purānā
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	5	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	।	।	PUNCT	SYM	_	5	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s541
+# text = खजुराहो की शिवसागर झील के किनारे स्थित इस मंदिर को ग्रेनाइट के पत्‍थरों से बनवाया गया है ।
+1	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=khajurāho
+2	की	का	ADP	PSP	ADP;SG;ACC;FEM	1	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+3	शिवसागर	शिवसागर	PROPN	NNP	PROPN;NOM;3;SG;MASC	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=śivasāgara
+4	झील	झील	NOUN	NN	N;3;SG;ACC;FEM	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=jhīla
+5	के	का	ADP	PSP	ADP;SG;ACC;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+6	किनारे	किनारा	NOUN	NN	N;3;SG;ACC;MASC	7	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=kināre
+7	स्थित	स्थित	ADJ	JJ	ACC;ADJ	9	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthita
+8	इस	यह	DET	DEM	SG;DET;3;ACC	9	det	_	ChunkId=NP4|ChunkType=child|Translit=isa
+9	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	15	obj	_	Vib=0_को|Tam=0|ChunkId=NP4|ChunkType=head|Translit=maṁdira
+10	को	को	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ko
+11	ग्रेनाइट	ग्रेनाइट	NOUN	NN	N;3;SG;ACC;MASC	13	nmod	_	Vib=0_का|Tam=0|ChunkId=NP5|ChunkType=head|Translit=grenāiṭa
+12	के	का	ADP	PSP	ADP;ACC;PL;MASC	11	case	_	ChunkId=NP5|ChunkType=child|Translit=ke
+13	पत्‍थरों	पत्थर	NOUN	NN	MASC;N;3;ACC;PL	15	obl	_	Vib=0_से|Tam=0|ChunkId=NP6|ChunkType=head|Translit=pattharoṁ
+14	से	से	ADP	PSP	ADP	13	case	_	ChunkId=NP6|ChunkType=child|Translit=se
+15	बनवाया	बन	VERB	VM	PFV;V;PASS;V.PTCP;3;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banavāyā|Vib=या_जा+या1_है
+16	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	15	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+17	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	15	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=hai
+18	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s542
+# text = यह मंदिर काली माता का है, किंतु इसमें स्‍थापित काली माता की मूर्ति अब खंडित हो चुकी है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	काली	काली	PROPN	NNP	PROPN;NOM;3;SG;FEM	4	nmod	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=kālī
+4	माता	माता	NOUN	NN	N;3;SG;ACC;FEM	0	root	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=mātā
+5	का	का	ADP	PSP	ADP;NOM;SG;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	4	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+7	,	,	PUNCT	SYM	_	18	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+8	किंतु	किंतु	CCONJ	CC	CONJ	18	cc	_	ChunkId=CCP|ChunkType=head|Translit=kiṁtu
+9	इसमें	यह	PRON	PRP	{ACC/IN+ESS};3;SG;PRO	10	obl	_	Vib=में|Tam=meM|ChunkId=NP3|ChunkType=head|Translit=isameṁ
+10	स्‍थापित	स्थापित	ADJ	JJ	ACC;ADJ	12	amod	_	ChunkId=JJP|ChunkType=head|Translit=sthāpita
+11	काली	काली	PROPN	NNP	PROPN;NOM;3;SG;FEM	12	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=kālī
+12	माता	माता	NOUN	NN	N;3;SG;ACC;FEM	14	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mātā
+13	की	का	ADP	PSP	ADP;NOM;SG;FEM	12	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+14	मूर्ति	मूर्ति	NOUN	NN	NOM;N;3;SG;FEM	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=mūrti
+15	अब	अब	PRON	PRP	NOM;PRO	18	obl	_	ChunkId=NP6|ChunkType=head|Translit=aba
+16	खंडित	खंडित	ADJ	JJ	ADJ	17	compound	_	ChunkId=JJP2|ChunkType=head|Translit=khaṁḍita
+17	हो	हो	VERB	VM	ACT;V;3;SG;FEM	18	xcomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_चुक+या_है
+18	चुकी	चुक	VERB	VAUX	PFV;V;V.PTCP;SG;FEM	4	conj	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=cukī
+19	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	18	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+20	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s543
+# text = मंदिर के गर्भगृह में सात घोड़ों पर सवार सूर्यदेव की प्रतिमा है ।
+1	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	3	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+2	के	का	ADP	PSP	ADP;SG;ACC;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	गर्भगृह	गर्भगृह	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=garbhagr̥ha
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	सात	सात	NUM	QC	NUM	6	nummod	_	ChunkId=NP3|ChunkType=child|Translit=sāta
+6	घोड़ों	घोड़ा	NOUN	NN	MASC;N;3;ACC;PL	8	obl	_	Vib=0_पर|Tam=0|ChunkId=NP3|ChunkType=head|Translit=ghoṛoṁ
+7	पर	पर	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=para
+8	सवार	सवार	ADJ	JJ	ACC;ADJ	9	amod	_	ChunkId=JJP|ChunkType=head|Translit=savāra
+9	सूर्यदेव	सूर्यदेव	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=sūryadeva
+10	की	का	ADP	PSP	ADP;NOM;SG;FEM	9	case	_	ChunkId=NP4|ChunkType=child|Translit=kī
+11	प्रतिमा	प्रतिमा	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=pratimā
+12	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	11	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s544
+# text = इस मंदिर का निर्माण ग्‍यारहवीं शताब्‍दी में महाराजा गंडदेव ने करवाया था ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	का	का	ADP	PSP	ADP;NOM;SG;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+4	निर्माण	निर्माण	NOUN	NN	NOM;N;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nirmāṇa
+5	ग्‍यारहवीं	ग्यारहवाँ	PROPN	NNPC	ACC;FEM;PROPN;SG	6	compound	_	ChunkId=NP3|ChunkType=child|Translit=gyārahavīṁ
+6	शताब्‍दी	शताब्दी	PROPN	NNP	PROPN;3;SG;ACC;FEM	11	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śatābdī
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+8	महाराजा	महाराजा	NOUN	NNC	NOM;N;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=mahārājā
+9	गंडदेव	गंडदेव	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=gaṁḍadeva
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+11	करवाया	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=karavāyā|Vib=या_था
+12	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	11	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s545
+# text = आज से लगभग 1000 वर्ष पूर्व पंचायतन शैली में महाराजा धंगदेव ने इसका निर्माण करवाया था ।
+1	आज	आज	NOUN	NN	N;3;SG;ACC;MASC	5	nmod	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=āja
+2	से	से	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=se
+3	लगभग	लगभग	PART	RP	PART	4	dep	_	ChunkId=NP2|ChunkType=child|Translit=lagabhaga
+4	1000	1000	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=1000
+5	वर्ष	वर्ष	NOUN	NN	NOM;N;3;PL;MASC	15	obl	_	Vib=0_पूर्व|Tam=0|ChunkId=NP2|ChunkType=head|Translit=varṣa
+6	पूर्व	पूर्व	ADP	NST	ADP;NOM;3;SG;MASC	5	case	_	AltTag=ADP-NOUN|ChunkId=NP2|ChunkType=child|Translit=pūrva
+7	पंचायतन	पंचायतन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=paṁcāyatana
+8	शैली	शैली	PROPN	NNP	PROPN;3;SG;ACC;FEM	15	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śailī
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+10	महाराजा	महाराजा	NOUN	NNC	NOM;N;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=mahārājā
+11	धंगदेव	धंगदेव	PROPN	NNP	PROPN;3;SG;ACC;MASC	15	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=dhaṁgadeva
+12	ने	ने	ADP	PSP	ADP	11	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+13	इसका	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	14	nmod	_	Vib=का|Tam=kA|ChunkId=NP5|ChunkType=head|Translit=isakā
+14	निर्माण	निर्माण	NOUN	NN	NOM;N;3;SG;MASC	15	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=nirmāṇa
+15	करवाया	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=karavāyā|Vib=या_था
+16	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	15	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+17	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s546
+# text = इस मंदिर में तीन सिर वाले ब्रह्माजी की मूर्ति है, जिसका कुछ भाग खंडित हो चुका है ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	9	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	तीन	तीन	NUM	QC	NUM	5	nummod	_	ChunkId=NP2|ChunkType=child|Translit=tīna
+5	सिर	सिर	NOUN	NN	NOM;N;3;SG;MASC	7	nmod	_	Vib=0_वाला|Tam=0|ChunkId=NP2|ChunkType=head|Translit=sira
+6	वाले	वाला	ADJ	PSP	ACC;MASC;SG;ADJ	5	compound	_	ChunkId=NP2|ChunkType=child|Translit=vāle
+7	ब्रह्माजी	ब्रह्माजी	PROPN	NNP	PROPN;3;SG;ACC;MASC	9	nmod	_	Vib=0_का|Tam=जी|ChunkId=NP3|ChunkType=head|Translit=brahmājī
+8	की	का	ADP	PSP	ADP;NOM;SG;FEM	7	case	_	ChunkId=NP3|ChunkType=child|Translit=kī
+9	मूर्ति	मूर्ति	NOUN	NN	NOM;N;3;SG;FEM	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=mūrti
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	,	,	PUNCT	SYM	_	17	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+12	जिसका	जो	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	14	nmod	_	Vib=का|Tam=kA|ChunkId=NP5|ChunkType=head|Translit=jisakā
+13	कुछ	कुछ	DET	QF	DET	14	det	_	ChunkId=NP6|ChunkType=child|Translit=kucha
+14	भाग	भाग	NOUN	NN	NOM;N;3;SG;MASC	17	nsubj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=bhāga
+15	खंडित	खंडित	ADJ	JJ	ADJ	16	xcomp	_	ChunkId=JJP|ChunkType=head|Translit=khaṁḍita
+16	हो	हो	VERB	VM	ACT;V;3;SG;MASC	17	xcomp	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=0|Translit=ho|Vib=0_चुक+या_है
+17	चुका	चुक	VERB	VAUX	PFV;V;V.PTCP;SG;MASC	9	acl:relcl	_	Vib=या|Tam=yA|ChunkId=VGF2|ChunkType=child|Translit=cukā
+18	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	17	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+19	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s547
+# text = इस मंदिर की सबसे बड़ी खासियत यह है कि इसमें सहस्रमुखी शिवलिंग है ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	की	का	ADP	PSP	ADP;NOM;SG;FEM	2	case	_	ChunkId=NP|ChunkType=child|Translit=kī
+4	सबसे	सबसे	ADV	INTF	ADV	5	advmod	_	AltTag=avy-ADV|ChunkId=NP2|ChunkType=child|Translit=sabase
+5	बड़ी	बड़ा	ADJ	JJ	FEM;NOM;SG;ADJ	6	amod	_	ChunkId=NP2|ChunkType=child|Translit=baṛī
+6	खासियत	खासियत	NOUN	NN	NOM;N;3;SG;FEM	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=khāsiyata
+7	यह	यह	PRON	PRP	NOM;3;SG;PRO	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=yaha
+8	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	7	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+9	कि	कि	SCONJ	CC	CONJ	12	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+10	इसमें	यह	PRON	PRP	{ACC/IN+ESS};3;SG;PRO	12	nmod	_	Vib=में|Tam=meM|ChunkId=NP4|ChunkType=head|Translit=isameṁ
+11	सहस्रमुखी	सहस्रमुखी	ADJ	JJ	NOM;ADJ	12	amod	_	ChunkId=NP5|ChunkType=child|Translit=sahasramukhī
+12	शिवलिंग	शिवलिंग	NOUN	NN	NOM;N;3;SG;MASC	7	nmod	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=śivaliṁga
+13	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	12	cop	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+14	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s548
+# text = इसके शिवलिंग पर एक हजार छोटे - छोटे शिवलिंग बनाए गए हैं ।
+1	इसके	यह	PRON	PRP	{ACC/GEN};3;SG;MASC;PRO	2	nmod	_	Vib=का|Tam=kA|ChunkId=NP|ChunkType=head|Translit=isake
+2	शिवलिंग	शिवलिंग	NOUN	NN	N;3;SG;ACC;MASC	10	obl	_	Vib=0_पर|Tam=0|ChunkId=NP2|ChunkType=head|Translit=śivaliṁga
+3	पर	पर	ADP	PSP	ADP	2	case	_	ChunkId=NP2|ChunkType=child|Translit=para
+4	एक	एक	NUM	QCC	NUM	5	compound	_	ChunkId=NP3|ChunkType=child|Translit=eka
+5	हजार	हजार	NUM	QC	NUM	9	nummod	_	ChunkId=NP3|ChunkType=child|Translit=hajāra
+6	छोटे	छोटा	ADJ	JJ	NOM;MASC;PL;ADJ	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=choṭe
+7	-	-	PUNCT	SYM	_	6	punct	_	ChunkId=NP3|ChunkType=child|Translit=-
+8	छोटे	छोटा	ADJ	RDP	NOM;ADJ;PL;MASC	6	compound	_	AltTag=adj-ADJ|ChunkId=NP3|ChunkType=child|Translit=choṭe
+9	शिवलिंग	शिवलिंग	NOUN	NN	NOM;N;3;PL;MASC	10	obj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=śivaliṁga
+10	बनाए	बना	VERB	VM	MASC;PFV;V;PASS;V.PTCP;3;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=banāe|Vib=या_जा+या1_है
+11	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	10	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gae
+12	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	10	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+13	।	।	PUNCT	SYM	_	10	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s549
+# text = यहाँ गीत गाते हैं पत्‍थर भी ।
+1	यहाँ	यहाँ	PRON	PRP	NOM;PRO	3	obl	_	ChunkId=NP|ChunkType=head|Translit=yahām̃
+2	गीत	गीत	NOUN	NN	NOM;N;3;PL;MASC	3	obj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=gīta
+3	गाते	गा	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=gāte|Vib=ता_है
+4	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	3	aux	_	Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+5	पत्‍थर	पत्‍थर	NOUN	NN	NOM;N;3;PL;MASC	3	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=patthara
+6	भी	भी...	PART	RP	PART	5	dep	_	ChunkId=NP3|ChunkType=child|Translit=bhī
+7	।	।	PUNCT	SYM	_	3	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s550
+# text = इस मंदिर में भगवान विष्‍णु की प्रतिमा वराह रूप में स्‍थापित है ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	भगवान	भगवान	NOUN	NNC	NOM;N;3;SG;MASC	5	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=child|Translit=bhagavāna
+5	विष्‍णु	विष्‍णु	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=viṣṇu
+6	की	का	ADP	PSP	ADP;NOM;SG;FEM	5	case	_	ChunkId=NP2|ChunkType=child|Translit=kī
+7	प्रतिमा	प्रतिमा	NOUN	NN	NOM;N;3;SG;FEM	11	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pratimā
+8	वराह	वराह	PROPN	NNP	PROPN;NOM;3;SG;MASC	9	nmod	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=varāha
+9	रूप	रूप	NOUN	NN	N;3;SG;ACC;MASC	11	nmod	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=rūpa
+10	में	में	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+11	स्‍थापित	स्‍थापित	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=sthāpita
+12	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	11	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s551
+# text = ढाई मीटर से भी ऊँचे एक पत्‍थर को तराश कर बनाई गई यह प्रतिमा इस मायने में विशिष्‍ट है कि इस पर अनगिनत देवी - देवताओं की प्रतिमाएँ बनाई गई हैं ।
+1	ढाई	ढाई	NUM	QC	NUM	2	nummod	_	ChunkId=NP|ChunkType=child|Translit=ḍhāī
+2	मीटर	मीटर	NOUN	NN	N;3;SG;ACC;MASC	5	obl	_	Vib=0_से|Tam=0|ChunkId=NP|ChunkType=head|Translit=mīṭara
+3	से	से	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=se
+4	भी	भी	PART	RP	PART	2	dep	_	ChunkId=NP|ChunkType=child|Translit=bhī
+5	ऊँचे	ऊँचा	ADJ	JJ	ACC;MASC;SG;ADJ	7	amod	_	ChunkId=JJP|ChunkType=head|Translit=ūm̃ce
+6	एक	एक	NUM	QC	NUM	7	nummod	_	ChunkId=NP2|ChunkType=child|Translit=eka
+7	पत्‍थर	पत्‍थर	NOUN	NN	N;3;SG;ACC;MASC	9	obj	_	Vib=0_को|Tam=0|ChunkId=NP2|ChunkType=head|Translit=patthara
+8	को	को	ADP	PSP	ADP	7	case	_	ChunkId=NP2|ChunkType=child|Translit=ko
+9	तराश	तराश	VERB	VM	V;3;SG	11	advcl	_	Vib=0_कर|Tam=0|ChunkId=VGNF|ChunkType=head|Translit=tarāśa
+10	कर	कर	AUX	VAUX	NOM;3;SG;MASC;V	9	aux	_	Vib=0|Tam=0|ChunkId=VGNF|ChunkType=child|Translit=kara
+11	बनाई	बना	VERB	VM	PFV;V;V.PTCP;SG;FEM	14	acl	_	Vib=या_जा+या1|Tam=yA|ChunkId=VGNF2|ChunkType=head|Translit=banāī
+12	गई	जा	AUX	VAUX	PFV;V.PTCP;SG;FEM;V	11	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGNF2|ChunkType=child|Translit=gaī
+13	यह	यह	DET	DEM	SG;DET;NOM;3	14	det	_	ChunkId=NP3|ChunkType=child|Translit=yaha
+14	प्रतिमा	प्रतिमा	NOUN	NN	NOM;N;3;SG;FEM	18	nsubj	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=pratimā
+15	इस	यह	DET	DEM	SG;DET;3;ACC	16	det	_	ChunkId=NP4|ChunkType=child|Translit=isa
+16	मायने	मायना	NOUN	NN	N;3;SG;ACC;MASC	18	nmod	_	Vib=0_में|Tam=0|ChunkId=NP4|ChunkType=head|Translit=māyane
+17	में	में	ADP	PSP	ADP	16	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+18	विशिष्‍ट	विशिष्ट	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP2|ChunkType=head|Translit=viśiṣṭa
+19	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	18	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+20	कि	कि	SCONJ	CC	CONJ	29	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+21	इस	यह	PRON	PRP	3;SG;ACC;PRO	29	obl	_	Vib=0_पर|Tam=0|ChunkId=NP5|ChunkType=head|Translit=isa
+22	पर	पर	ADP	PSP	ADP	21	case	_	ChunkId=NP5|ChunkType=child|Translit=para
+23	अनगिनत	अनगिनत	DET	QF	DET	26	det	_	ChunkId=NP6|ChunkType=child|Translit=anaginata
+24	देवी	देवी	NOUN	NNC	NOM;N;3;FEM;PL	26	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=devī
+25	-	-	PUNCT	SYM	_	26	punct	_	ChunkId=NP6|ChunkType=child|Translit=-
+26	देवताओं	देवता	NOUN	NN	MASC;N;3;ACC;PL	28	nmod	_	Vib=0_का|Tam=0|ChunkId=NP6|ChunkType=head|Translit=devatāoṁ
+27	की	का	ADP	PSP	ADP;NOM;FEM;PL	26	case	_	ChunkId=NP6|ChunkType=child|Translit=kī
+28	प्रतिमाएँ	प्रतिमा	NOUN	NN	NOM;N;3;FEM;PL	29	obj	_	Vib=0|Tam=0|ChunkId=NP7|ChunkType=head|Translit=pratimāem̃
+29	बनाई	बना	VERB	VM	PFV;V;PASS;V.PTCP;3;FEM;PL	16	acl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=banāī|Vib=या_जा+या1_है
+30	गई	जा	AUX	VAUX	PFV;V.PTCP;FEM;PL;V	29	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF2|ChunkType=child|Translit=gaī
+31	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	29	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=haiṁ
+32	।	।	PUNCT	SYM	_	18	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s552
+# text = यह खजुराहो का सबसे विशाल मंदिर है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	6	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	6	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=khajurāho
+3	का	का	ADP	PSP	ADP;NOM;SG;MASC	2	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+4	सबसे	सबसे	ADV	INTF	ADV	5	advmod	_	AltTag=avy-ADV|ChunkId=NP3|ChunkType=child|Translit=sabase
+5	विशाल	विशाल	ADJ	JJ	NOM;ADJ	6	amod	_	ChunkId=NP3|ChunkType=child|Translit=viśāla
+6	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+7	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	6	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+8	।	।	PUNCT	SYM	_	6	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s553
+# text = यह 117 फुट लंबा, 117 फुट ऊँचा और 66 फुट चौड़ा है ।
+1	यह	यह	PRON	PRP	NOM;3;SG;PRO	4	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=yaha
+2	117	117	NUM	QC	NUM	3	nummod	_	ChunkId=NP2|ChunkType=child|Translit=117
+3	फुट	फुट	NOUN	NN	NOM;N;3;SG;MASC	4	obl	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=phuṭa
+4	लंबा	लंबा	ADJ	JJ	NOM;MASC;SG;ADJ	0	root	_	SpaceAfter=No|ChunkId=JJP|ChunkType=head|Translit=laṁbā
+5	,	,	PUNCT	SYM	_	8	punct	_	ChunkId=JJP|ChunkType=child|Translit=,
+6	117	117	NUM	QC	NUM	7	nummod	_	ChunkId=NP3|ChunkType=child|Translit=117
+7	फुट	फुट	NOUN	NN	NOM;N;3;SG;MASC	8	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=phuṭa
+8	ऊँचा	ऊँचा	ADJ	JJ	NOM;MASC;SG;ADJ	4	conj	_	ChunkId=JJP2|ChunkType=head|Translit=ūm̃cā
+9	और	और	CCONJ	CC	CONJ	12	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+10	66	66	NUM	QC	NUM	11	nummod	_	ChunkId=NP4|ChunkType=child|Translit=66
+11	फुट	फुट	NOUN	NN	NOM;N;3;SG;MASC	12	obl	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=phuṭa
+12	चौड़ा	चौड़ा	ADJ	JJ	NOM;MASC;SG;ADJ	4	conj	_	ChunkId=JJP3|ChunkType=head|Translit=cauṛā
+13	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	4	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+14	।	।	PUNCT	SYM	_	4	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s554
+# text = इस मंदिर का निर्माण ईसवी 920 में राजा हर्षवर्मन ने करवाया था ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	4	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	का	का	ADP	PSP	ADP;NOM;SG;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=kā
+4	निर्माण	निर्माण	NOUN	NN	NOM;N;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=nirmāṇa
+5	ईसवी	ईसवी	PROPN	NNPC	PROPN;NOM;3;SG;FEM	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=īsavī
+6	920	920	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=920
+7	में	में	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+8	राजा	राजा	NOUN	NNC	NOM;N;3;SG;MASC	9	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=rājā
+9	हर्षवर्मन	हर्षवर्मन	PROPN	NNP	PROPN;3;SG;ACC;MASC	11	nsubj	_	Vib=0_ने|Tam=0|ChunkId=NP4|ChunkType=head|Translit=harṣavarmana
+10	ने	ने	ADP	PSP	ADP	9	case	_	ChunkId=NP4|ChunkType=child|Translit=ne
+11	करवाया	कर	VERB	VM	ACT;PFV;V;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=karavāyā|Vib=या_था
+12	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	11	aux	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+13	।	।	PUNCT	SYM	_	11	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s555
+# text = यह मंदिर खजुराहो में चंदेल राजाओं द्वारा बनवाए गए सबसे पुराने मंदिरों में से एक है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	15	nsubj	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	8	obl	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=khajurāho
+4	में	में	ADP	PSP	ADP	3	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+5	चंदेल	चंदेल	PROPN	NNP	PROPN;NOM;3;SG;MASC	6	nmod	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=caṁdela
+6	राजाओं	राजा	NOUN	NN	MASC;N;3;ACC;PL	8	nsubj:pass	_	Vib=0_द्वारा|Tam=0|ChunkId=NP3|ChunkType=head|Translit=rājāoṁ
+7	द्वारा	द्वारा	ADP	PSP	ADP	6	case	_	ChunkId=NP3|ChunkType=child|Translit=dvārā
+8	बनवाए	बना	VERB	VM	MASC;PFV;V;V.PTCP;PL	12	acl	_	Vib=या_जा+या1|Tam=yA|ChunkId=VGNF|ChunkType=head|Translit=banavāe
+9	गए	जा	AUX	VAUX	MASC;PFV;V.PTCP;PL;V	8	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGNF|ChunkType=child|Translit=gae
+10	सबसे	सबसे	ADV	INTF	ADV	11	advmod	_	AltTag=avy-ADV|ChunkId=NP4|ChunkType=child|Translit=sabase
+11	पुराने	पुराना	ADJ	JJ	ACC;PL;MASC;ADJ	12	amod	_	ChunkId=NP4|ChunkType=child|Translit=purāne
+12	मंदिरों	मंदिर	NOUN	NN	MASC;N;3;ACC;PL	15	nmod	_	Vib=0_में_से|Tam=0|ChunkId=NP4|ChunkType=head|Translit=maṁdiroṁ
+13	में	में	ADP	PSP	ADP	12	case	_	ChunkId=NP4|ChunkType=child|Translit=meṁ
+14	से	से	ADP	PSP	ADP	12	case	_	ChunkId=NP4|ChunkType=child|Translit=se
+15	एक	एक	NUM	QC	NUM	0	root	_	ChunkId=NP5|ChunkType=head|Translit=eka
+16	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	15	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+17	।	।	PUNCT	SYM	_	15	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s556
+# text = इस मंदिर में भगवान का 8 फुट ऊँचा शिवलिंग है ।
+1	इस	यह	DET	DEM	SG;DET;3;ACC	2	det	_	ChunkId=NP|ChunkType=child|Translit=isa
+2	मंदिर	मंदिर	NOUN	NN	N;3;SG;ACC;MASC	9	nmod	_	Vib=0_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdira
+3	में	में	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+4	भगवान	भगवान	NOUN	NN	N;3;SG;ACC;MASC	9	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bhagavāna
+5	का	का	ADP	PSP	ADP;NOM;SG;MASC	4	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+6	8	8	NUM	QC	NUM	7	nummod	_	ChunkId=NP3|ChunkType=child|Translit=8
+7	फुट	फुट	NOUN	NN	NOM;N;3;SG;MASC	8	obl	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=phuṭa
+8	ऊँचा	ऊँचा	ADJ	JJ	NOM;MASC;SG;ADJ	9	amod	_	ChunkId=JJP|ChunkType=head|Translit=ūm̃cā
+9	शिवलिंग	शिवलिंग	PROPN	NNP	PROPN;NOM;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=śivaliṁga
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s557
+# text = यह खजुराहो के प्राचीन मंदिरों में एकमात्र ऐसा मंदिर है, जहाँ अभी भी पूजा - अर्चना की जाती है ।
+1	यह	यह	DET	DEM	SG;DET;NOM;3	2	det	_	ChunkId=NP|ChunkType=child|Translit=yaha
+2	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP|ChunkType=head|Translit=khajurāho
+3	के	का	ADP	PSP	ADP;ACC;PL;MASC	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	प्राचीन	प्राचीन	ADJ	JJ	ACC;ADJ	5	amod	_	ChunkId=NP2|ChunkType=child|Translit=prācīna
+5	मंदिरों	मंदिर	NOUN	NN	MASC;N;3;ACC;PL	9	nmod	_	Vib=0_में|Tam=0|ChunkId=NP2|ChunkType=head|Translit=maṁdiroṁ
+6	में	में	ADP	PSP	ADP	5	case	_	ChunkId=NP2|ChunkType=child|Translit=meṁ
+7	एकमात्र	एकमात्र	ADJ	JJ	NOM;ADJ	9	amod	_	ChunkId=NP3|ChunkType=child|Translit=ekamātra
+8	ऐसा	ऐसा	DET	DEM	DET;NOM;SG;MASC	9	det	_	ChunkId=NP3|ChunkType=child|Translit=aisā
+9	मंदिर	मंदिर	NOUN	NN	NOM;N;3;SG;MASC	0	root	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+10	है	है	AUX	VM	FIN;ACT;PRS;3;SG;IND;V	9	cop	_	ChunkId=VGF|ChunkType=head|SpaceAfter=No|Stype=declarative|Tam=hE|Translit=hai|Vib=है
+11	,	,	PUNCT	SYM	_	18	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+12	जहाँ	जहाँ	PRON	PRP	NOM;PRO	18	obl	_	ChunkId=NP4|ChunkType=head|Translit=jahām̃
+13	अभी	अभी	PRON	PRP	NOM;PRO	18	obl	_	ChunkId=NP5|ChunkType=head|Translit=abhī
+14	भी	भी	PART	RP	PART	13	dep	_	ChunkId=NP5|ChunkType=child|Translit=bhī
+15	पूजा	पूजा	NOUN	NNC	NOM;N;3;SG;FEM	17	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=pūjā
+16	-	-	PUNCT	SYM	_	17	punct	_	ChunkId=NP6|ChunkType=child|Translit=-
+17	अर्चना	अर्चना	NOUN	NN	NOM;N;3;SG;FEM	18	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=arcanā
+18	की	कर	VERB	VM	ACT;PFV;V;V.PTCP;3;SG;FEM	9	acl:relcl	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=yA|Translit=kī|Vib=या_जा+ता_है
+19	जाती	जा	AUX	VAUX	FEM;V.PTCP;SG;IPFV;V	18	aux:pass	_	Vib=ता|Tam=wA|ChunkId=VGF2|ChunkType=child|Translit=jātī
+20	है	है	AUX	VAUX	FIN;PRS;3;SG;IND;V	18	aux:pass	_	Vib=है|Tam=hE|ChunkId=VGF2|ChunkType=child|Translit=hai
+21	।	।	PUNCT	SYM	_	9	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s558
+# text = इन मंदिरों के अतिरिक्‍त यहाँ के जगदंबा मंदिर, चतुर्भुज मंदिर, ब्रह्मा मंदिर, और वामन मंदिर भी दर्शनीय हैं ।
+1	इन	यह	DET	DEM	DET;3;ACC;PL	2	det	_	ChunkId=NP|ChunkType=child|Translit=ina
+2	मंदिरों	मंदिर	NOUN	NN	MASC;N;3;ACC;PL	20	nmod	_	Vib=0_के_अतिरिक्त|Tam=0|ChunkId=NP|ChunkType=head|Translit=maṁdiroṁ
+3	के	के	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+4	अतिरिक्‍त	अतिरिक्त	ADP	PSP	ADP	2	case	_	ChunkId=NP|ChunkType=child|Translit=atirikta
+5	यहाँ	यहाँ	PRON	PRP	ACC;PRO	8	nmod	_	Vib=0_का|ChunkId=NP2|ChunkType=head|Translit=yahām̃
+6	के	का	ADP	PSP	ADP;NOM;PL;MASC	5	case	_	ChunkId=NP2|ChunkType=child|Translit=ke
+7	जगदंबा	जगदंबा	PROPN	NNPC	PROPN;NOM;3;SG;FEM	8	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=child|Translit=jagadaṁbā
+8	मंदिर	मंदिर	PROPN	NNP	PROPN;NOM;3;SG;MASC	20	nsubj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=maṁdira
+9	,	,	PUNCT	SYM	_	11	punct	_	ChunkId=NP3|ChunkType=child|Translit=,
+10	चतुर्भुज	चतुर्भुज	PROPN	NNPC	PROPN;NOM;3;SG;MASC	11	compound	_	Vib=0|Tam=0|ChunkId=NP4|ChunkType=child|Translit=caturbhuja
+11	मंदिर	मंदिर	PROPN	NNP	PROPN;NOM;3;SG;MASC	8	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP4|ChunkType=head|Translit=maṁdira
+12	,	,	PUNCT	SYM	_	14	punct	_	ChunkId=NP4|ChunkType=child|Translit=,
+13	ब्रह्मा	ब्रह्मा	PROPN	NNPC	PROPN;NOM;3;SG;MASC	14	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=child|Translit=brahmā
+14	मंदिर	मंदिर	PROPN	NNP	PROPN;NOM;3;SG;MASC	8	conj	_	SpaceAfter=No|Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=maṁdira
+15	,	,	PUNCT	SYM	_	14	punct	_	ChunkId=NP5|ChunkType=child|Translit=,
+16	और	और	CCONJ	CC	CONJ	18	cc	_	ChunkId=CCP|ChunkType=head|Translit=aura
+17	वामन	वामन	PROPN	NNPC	PROPN;NOM;3;SG;MASC	18	compound	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=child|Translit=vāmana
+18	मंदिर	मंदिर	PROPN	NNP	PROPN;NOM;3;SG;MASC	8	conj	_	Vib=0|Tam=0|ChunkId=NP6|ChunkType=head|Translit=maṁdira
+19	भी	भी	PART	RP	PART	18	dep	_	ChunkId=NP6|ChunkType=child|Translit=bhī
+20	दर्शनीय	दर्शनीय	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=darśanīya
+21	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	20	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+22	।	।	PUNCT	SYM	_	20	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s559
+# text = खजुराहो के संबंध में अनेक जनश्रुतियाँ प्रचलित हैं ।
+1	खजुराहो	खजुराहो	PROPN	NNP	PROPN;3;SG;ACC;MASC	7	nmod	_	Vib=0_के_संबंध_में|Tam=0|ChunkId=NP|ChunkType=head|Translit=khajurāho
+2	के	के	ADP	PSP	ACC;ADP;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=ke
+3	संबंध	संबंध	ADP	PSP	ACC;ADP;MASC	1	case	_	ChunkId=NP|ChunkType=child|Translit=saṁbaṁdha
+4	में	में	ADP	PSP	ADP	1	case	_	ChunkId=NP|ChunkType=child|Translit=meṁ
+5	अनेक	अनेक	DET	QF	DET	6	det	_	ChunkId=NP2|ChunkType=child|Translit=aneka
+6	जनश्रुतियाँ	जनश्रुति	NOUN	NN	NOM;N;3;FEM;PL	7	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=janaśrutiyām̃
+7	प्रचलित	प्रचलित	ADJ	JJ	ADJ	0	root	_	ChunkId=JJP|ChunkType=head|Translit=pracalita
+8	हैं	है	AUX	VM	FIN;ACT;PRS;3;IND;PL;V	7	cop	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=hE|Translit=haiṁ|Vib=है
+9	।	।	PUNCT	SYM	_	7	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s560
+# text = कहते हैं, कि उस समय बच्‍चे गुरुकुल में पढ़ते थे ।
+1	कहते	कह	VERB	VM	MASC;ACT;V;V.PTCP;3;IPFV;PL	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=wA|Translit=kahate|Vib=ता_है
+2	हैं	है	AUX	VAUX	FIN;PRS;3;IND;PL;V	1	aux	_	SpaceAfter=No|Vib=है|Tam=hE|ChunkId=VGF|ChunkType=child|Translit=haiṁ
+3	,	,	PUNCT	SYM	_	1	punct	_	ChunkId=VGF|ChunkType=child|Translit=,
+4	कि	कि	SCONJ	CC	CONJ	10	mark	_	AltTag=SCONJ-CONJ|ChunkId=CCP|ChunkType=head|Translit=ki
+5	उस	वह	DET	DEM	SG;DET;3;ACC	6	det	_	ChunkId=NP|ChunkType=child|Translit=usa
+6	समय	समय	NOUN	NN	NOM;N;3;SG;MASC	10	obl	_	Vib=0|Tam=0|ChunkId=NP|ChunkType=head|Translit=samaya
+7	बच्‍चे	बच्‍चा	NOUN	NN	NOM;N;3;PL;MASC	10	nsubj	_	Vib=0|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bacce
+8	गुरुकुल	गुरुकुल	NOUN	NN	N;3;SG;ACC;MASC	10	obl	_	Vib=0_में|Tam=0|ChunkId=NP3|ChunkType=head|Translit=gurukula
+9	में	में	ADP	PSP	ADP	8	case	_	ChunkId=NP3|ChunkType=child|Translit=meṁ
+10	पढ़ते	पढ़	VERB	VM	MASC;ACT;V;V.PTCP;IPFV;PL	1	obj	_	ChunkId=VGF2|ChunkType=head|Stype=declarative|Tam=wA|Translit=paṛhate|Vib=ता_था
+11	थे	था	AUX	VAUX	MASC;FIN;IND;PL;V;PST	10	aux	_	Vib=था|Tam=WA|ChunkId=VGF2|ChunkType=child|Translit=the
+12	।	।	PUNCT	SYM	_	1	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+
+# sent_id = train-s561
+# text = उन्‍हें सांसारिक बातों का ज्ञान कराने के लिए इन मंदिरों का निर्माण करवाया गया था ।
+1	उन्‍हें	वह	PRON	PRP	{ACC/DAT};3;PL;PRO	6	nsubj	_	Vib=को|Tam=ko|ChunkId=NP|ChunkType=head|Translit=unheṁ
+2	सांसारिक	सांसारिक	ADJ	JJ	ACC;ADJ	3	amod	_	ChunkId=NP2|ChunkType=child|Translit=sāṁsārika
+3	बातों	बात	NOUN	NN	N;3;ACC;FEM;PL	5	nmod	_	Vib=0_का|Tam=0|ChunkId=NP2|ChunkType=head|Translit=bātoṁ
+4	का	का	ADP	PSP	ADP;NOM;SG;MASC	3	case	_	ChunkId=NP2|ChunkType=child|Translit=kā
+5	ज्ञान	ज्ञान	NOUN	NN	NOM;N;3;SG;MASC	6	compound	_	Vib=0|Tam=0|ChunkId=NP3|ChunkType=head|Translit=jñāna
+6	कराने	करा	VERB	VM	V;ACC;NFIN	13	advcl	_	Vib=ना_के_लिए|Tam=nA|ChunkId=VGNN|ChunkType=head|Translit=karāne
+7	के	के	ADP	PSP	ADP	6	mark	_	ChunkId=VGNN|ChunkType=child|Translit=ke
+8	लिए	लिए	ADP	PSP	ADP	6	mark	_	ChunkId=VGNN|ChunkType=child|Translit=lie
+9	इन	यह	DET	DEM	DET;3;ACC;PL	10	det	_	ChunkId=NP4|ChunkType=child|Translit=ina
+10	मंदिरों	मंदिर	NOUN	NN	MASC;N;3;ACC;PL	12	nmod	_	Vib=0_का|Tam=0|ChunkId=NP4|ChunkType=head|Translit=maṁdiroṁ
+11	का	का	ADP	PSP	ADP;NOM;SG;MASC	10	case	_	ChunkId=NP4|ChunkType=child|Translit=kā
+12	निर्माण	निर्माण	NOUN	NN	NOM;N;3;SG;MASC	13	compound	_	Vib=0|Tam=0|ChunkId=NP5|ChunkType=head|Translit=nirmāṇa
+13	करवाया	कर	VERB	VM	PFV;V;PASS;V.PTCP;SG;MASC	0	root	_	ChunkId=VGF|ChunkType=head|Stype=declarative|Tam=yA|Translit=karavāyā|Vib=या_जा+या1_था
+14	गया	जा	AUX	VAUX	PFV;V.PTCP;SG;MASC;V	13	aux:pass	_	Vib=या1|Tam=yA1|ChunkId=VGF|ChunkType=child|Translit=gayā
+15	था	था	AUX	VAUX	FIN;SG;IND;MASC;V;PST	13	aux:pass	_	Vib=था|Tam=WA|ChunkId=VGF|ChunkType=child|Translit=thā
+16	।	।	PUNCT	SYM	_	13	punct	_	ChunkId=BLK|ChunkType=head|Translit=.
+

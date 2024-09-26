@@ -1,0 +1,97 @@
+# sent_id = email-enronsent18_01-0004
+# text = They are currently using 9.5% fixed based on the 1 year implied volatility.
+1	They	they	PRON	PRP	PL;PRO;3;NOM	4	nsubj	4:nsubj	_
+2	are	be	AUX	VBP	PL;V;3;FIN;PRS;IND	4	aux	4:aux	_
+3	currently	currently	ADV	RB	ADV	4	advmod	4:advmod	_
+4	using	use	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+5	9.5	9.5	NUM	CD	NUM	6	nummod	6:nummod	SpaceAfter=No
+6	%	%	SYM	NN	SG	4	obj	4:obj	_
+7	fixed	fix	VERB	VBN	PASS;PST;V;V.PTCP	6	acl	6:acl	_
+8	based	base	VERB	VBN	PASS;PST;V;V.PTCP	14	case	14:case	_
+9	on	on	ADP	IN	ADP	14	case	14:case	_
+10	the	the	DET	DT	DEF;DET	14	det	14:det	_
+11	1	1	NUM	CD	NUM	12	nummod	12:nummod	_
+12	year	year	NOUN	NN	SG;N	14	compound	14:compound	_
+13	implied	imply	VERB	VBN	PASS;PST;V;V.PTCP	14	amod	14:amod	_
+14	volatility	volatility	NOUN	NN	SG;N	4	obl	4:obl:on	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent18_01-0005
+# text = Volatility of USD/DM has been in the range of between 7% and 11%.
+1	Volatility	volatility	NOUN	NN	SG;N	10	nsubj	10:nsubj	_
+2	of	of	ADP	IN	ADP	5	case	5:case	_
+3	USD	usd	NOUN	NN	SG;N	5	compound	5:compound	SpaceAfter=No
+4	/	/	PUNCT	,	_	3	punct	3:punct	SpaceAfter=No
+5	DM	dm	NOUN	NN	SG;N	1	nmod	1:nmod:of	_
+6	has	have	AUX	VBZ	V;3;FIN;PRS;SG;IND	10	aux	10:aux	_
+7	been	be	AUX	VBN	V;V.PTCP;PST	10	cop	10:cop	_
+8	in	in	ADP	IN	ADP	10	case	10:case	_
+9	the	the	DET	DT	DEF;DET	10	det	10:det	_
+10	range	range	NOUN	NN	SG;N	0	root	0:root	_
+11	of	of	ADP	IN	ADP	14	case	14:case	_
+12	between	between	ADP	IN	ADP	14	case	14:case	_
+13	7	7	NUM	CD	NUM	14	nummod	14:nummod	SpaceAfter=No
+14	%	%	SYM	NN	SG	10	nmod	10:nmod:between	_
+15	and	and	CCONJ	CC	CONJ	17	cc	17:cc	_
+16	11	11	NUM	CD	NUM	17	nummod	17:nummod	SpaceAfter=No
+17	%	%	SYM	NN	SG	14	conj	10:nmod:between|14:conj:and	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = email-enronsent18_01-0006
+# text = Can one of your research staff justify a suitable 20 year volalatility number for USD/Euro.
+1	Can	can	AUX	MD	V;FIN	7	aux	7:aux	_
+2	one	one	NUM	CD	NUM	7	nsubj	7:nsubj	_
+3	of	of	ADP	IN	ADP	6	case	6:case	_
+4	your	your	PRON	PRP$	GEN;PRO;2	6	nmod:poss	6:nmod:poss	_
+5	research	research	NOUN	NN	SG;N	6	compound	6:compound	_
+6	staff	staff	NOUN	NNS	PL;N	2	nmod	2:nmod:of	_
+7	justify	justify	VERB	VB	NFIN;V	0	root	0:root	_
+8	a	a	DET	DT	INDF;DET	13	det	13:det	_
+9	suitable	suitable	ADJ	JJ	ADJ	13	amod	13:amod	_
+10	20	20	NUM	CD	NUM	11	nummod	11:nummod	_
+11	year	year	NOUN	NN	SG;N	12	compound	12:compound	_
+12	volalatility	volalatility	NOUN	NN	SG;N	13	compound	13:compound	_
+13	number	number	NOUN	NN	SG;N	7	obj	7:obj	_
+14	for	for	ADP	IN	ADP	17	case	17:case	_
+15	USD	usd	NOUN	NN	SG;N	17	compound	17:compound	SpaceAfter=No
+16	/	/	PUNCT	,	_	15	punct	15:punct	SpaceAfter=No
+17	Euro	euro	NOUN	NN	SG;N	13	nmod	13:nmod:for	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = email-enronsent18_01-0007
+# text = Ideally, we would like a fast turnaround.
+1	Ideally	ideally	ADV	RB	ADV	5	advmod	5:advmod	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	we	we	PRON	PRP	PL;PRO;1;NOM	5	nsubj	5:nsubj	_
+4	would	would	AUX	MD	V;FIN	5	aux	5:aux	_
+5	like	like	VERB	VB	NFIN;V	0	root	0:root	_
+6	a	a	DET	DT	INDF;DET	8	det	8:det	_
+7	fast	fast	ADJ	JJ	ADJ	8	amod	8:amod	_
+8	turnaround	turnaround	NOUN	NN	SG;N	5	obj	5:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = email-enronsent18_01-0008
+# text = In addition, is there someone who could consider the correlation between US CPI and the $/euro exchange rate.
+1	In	in	ADP	IN	ADP	2	case	2:case	_
+2	addition	addition	NOUN	NN	SG;N	4	obl	4:obl:in	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	is	be	VERB	VBZ	V;3;FIN;PRS;SG;IND	0	root	0:root	_
+5	there	there	PRON	EX	PRO	4	expl	4:expl	_
+6	someone	someone	PRON	NN	SG;PRO	4	nsubj	4:nsubj|9:nsubj	_
+7	who	who	PRON	WP	PRO	9	nsubj	6:ref	_
+8	could	could	AUX	MD	V;FIN	9	aux	9:aux	_
+9	consider	consider	VERB	VB	NFIN;V	6	acl:relcl	6:acl:relcl	Cxn=rc-wh-nsubj
+10	the	the	DET	DT	DEF;DET	11	det	11:det	_
+11	correlation	correlation	NOUN	NN	SG;N	9	obj	9:obj	_
+12	between	between	ADP	IN	ADP	14	case	14:case	_
+13	US	US	PROPN	NNP	SG;PROPN	14	compound	14:compound	_
+14	CPI	cpi	NOUN	NN	SG;N	11	nmod	11:nmod:between	_
+15	and	and	CCONJ	CC	CONJ	21	cc	21:cc	_
+16	the	the	DET	DT	DEF;DET	21	det	21:det	_
+17	$	$	NOUN	NN	SG;N	19	compound	19:compound	SpaceAfter=No
+18	/	/	PUNCT	,	_	17	punct	17:punct	SpaceAfter=No
+19	euro	euro	NOUN	NN	SG;N	21	compound	21:compound	_
+20	exchange	exchange	NOUN	NN	SG;N	21	compound	21:compound	_
+21	rate	rate	NOUN	NN	SG;N	14	conj	11:nmod:between|14:conj:and	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	4:punct	_
+

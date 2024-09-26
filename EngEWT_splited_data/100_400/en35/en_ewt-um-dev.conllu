@@ -1,0 +1,88 @@
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0012
+# text = I just want to extend a big "Welcome!" to Darin Darin Fisher who joined me at Google this week.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	just	just	ADV	RB	ADV	3	advmod	3:advmod	_
+3	want	want	VERB	VB	NFIN;V	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	extend	extend	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	a	a	DET	DT	DET;INDF	9	det	9:det	_
+7	big	big	ADJ	JJ	ADJ	9	amod	9:amod	_
+8	"	"	PUNCT	``	_	9	punct	9:punct	SpaceAfter=No
+9	Welcome	welcome	NOUN	NN	SG;N	5	obj	5:obj	SpaceAfter=No
+10	!	!	PUNCT	.	_	9	punct	9:punct	SpaceAfter=No
+11	"	"	PUNCT	''	_	9	punct	9:punct	_
+12	to	to	ADP	IN	ADP	14	case	14:case	_
+13	Darin	Darin	PROPN	NNP	SG;PROPN	14	reparandum	14:reparandum	_
+14	Darin	Darin	PROPN	NNP	SG;PROPN	5	obl	5:obl:to|17:nsubj	_
+15	Fisher	Fisher	PROPN	NNP	SG;PROPN	14	flat	14:flat	_
+16	who	who	PRON	WP	PRO	17	nsubj	14:ref	_
+17	joined	join	VERB	VBD	FIN;3;V;IND;SG;PST	14	acl:relcl	14:acl:relcl	Cxn=rc-wh-nsubj
+18	me	I	PRON	PRP	PRO;ACC;1;SG	17	obj	17:obj	_
+19	at	at	ADP	IN	ADP	20	case	20:case	_
+20	Google	Google	PROPN	NNP	SG;PROPN	17	obl	17:obl:at	_
+21	this	this	DET	DT	DET;SG	22	det	22:det	_
+22	week	week	NOUN	NN	SG;N	17	obl:tmod	17:obl:tmod	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0013
+# text = 2005 is going to rock!
+1	2005	2005	NUM	CD	NUM	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	is	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	aux	3:aux	_
+3	going	go	VERB	VBG	PRS;V;V.PTCP	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	rock	rock	VERB	VB	NFIN;V	3	xcomp	3:xcomp	SpaceAfter=No
+6	!	!	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0014
+# text = Darin Fisher wrote this response on January 25, 2005:
+1	Darin	Darin	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+2	Fisher	Fisher	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	wrote	write	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+4	this	this	DET	DT	DET;SG	5	det	5:det	_
+5	response	response	NOUN	NN	SG;N	3	obj	3:obj	_
+6	on	on	ADP	IN	ADP	7	case	7:case	_
+7	January	January	PROPN	NNP	SG;PROPN	3	obl	3:obl:on	_
+8	25	25	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	2005	2005	NUM	CD	NUM	7	nummod	7:nummod	SpaceAfter=No
+11	:	:	PUNCT	:	_	3	punct	3:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0015
+# newpar id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-p0003
+# text = Me and the big "G"
+1	Me	I	PRON	PRP	PRO;ACC;1;SG	0	root	0:root	_
+2	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+3	the	the	DET	DT	DET;DEF	6	det	6:det	_
+4	big	big	ADJ	JJ	ADJ	6	amod	6:amod	_
+5	"	"	PUNCT	``	_	6	punct	6:punct	SpaceAfter=No
+6	G	G	PROPN	NNP	SG;PROPN	1	conj	1:conj:and	SpaceAfter=No
+7	"	"	PUNCT	''	_	6	punct	6:punct	_
+
+# sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0016
+# text = Following on the heels of Ben's annoucement yesterday, I thought I'd post that I have joined Google as well.
+1	Following	follow	VERB	VBG	PRS;V;V.PTCP	4	case	4:case	_
+2	on	on	ADP	IN	ADP	4	case	4:case	_
+3	the	the	DET	DT	DET;DEF	4	det	4:det	_
+4	heels	heel	NOUN	NNS	PL;N	12	obl	12:obl:on	_
+5	of	of	ADP	IN	ADP	8	case	8:case	_
+6-7	Ben's	_	_	_	_	_	_	_	_
+6	Ben	Ben	PROPN	NNP	SG;PROPN	8	nmod:poss	8:nmod:poss	_
+7	's	's	PART	POS	PART	6	case	6:case	_
+8	annoucement	annoucement	NOUN	NN	SG;N	4	nmod	4:nmod:of	_
+9	yesterday	yesterday	NOUN	NN	SG;N	8	nmod:tmod	8:nmod:tmod	SpaceAfter=No
+10	,	,	PUNCT	,	_	4	punct	4:punct	_
+11	I	I	PRON	PRP	PRO;1;NOM;SG	12	nsubj	12:nsubj	_
+12	thought	think	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+13-14	I'd	_	_	_	_	_	_	_	_
+13	I	I	PRON	PRP	PRO;1;NOM;SG	15	nsubj	15:nsubj	_
+14	'd	would	AUX	MD	FIN;V	15	aux	15:aux	_
+15	post	post	VERB	VB	NFIN;V	12	ccomp	12:ccomp	_
+16	that	that	SCONJ	IN	CONJ	19	mark	19:mark	_
+17	I	I	PRON	PRP	PRO;1;NOM;SG	19	nsubj	19:nsubj	_
+18	have	have	AUX	VBP	FIN;PRS;1;V;IND;SG	19	aux	19:aux	_
+19	joined	join	VERB	VBN	V;V.PTCP;PST	15	ccomp	15:ccomp	_
+20	Google	Google	PROPN	NNP	SG;PROPN	19	obj	19:obj	_
+21	as	as	ADV	RB	ADV	19	advmod	19:advmod	_
+22	well	well	ADV	RB	ADV	21	fixed	21:fixed	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	12:punct	_
+

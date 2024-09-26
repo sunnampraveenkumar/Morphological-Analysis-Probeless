@@ -1,0 +1,65 @@
+# sent_id = email-enronsent28_01-0004
+# text = it is to late for me to add changes.
+1	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	4	expl	4:expl	_
+2	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	4	cop	4:cop	_
+3	to	too	ADV	RB	ADV	4	advmod	4:advmod	CorrectForm=too
+4	late	late	ADJ	JJ	ADJ	0	root	0:root	_
+5	for	for	SCONJ	IN	CONJ	8	mark	8:mark	_
+6	me	I	PRON	PRP	ACC;PRO;1;SG	8	nsubj	8:nsubj	_
+7	to	to	PART	TO	PART	8	mark	8:mark	_
+8	add	add	VERB	VB	NFIN;V	4	advcl	4:advcl:to	_
+9	changes	change	NOUN	NNS	PL;N	8	obj	8:obj	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = email-enronsent28_01-0005
+# text = We will have to correct them after the churn.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	will	will	AUX	MD	V;FIN	3	aux	3:aux	_
+3	have	have	VERB	VB	NFIN;V	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	correct	correct	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	them	they	PRON	PRP	PL;ACC;PRO;3	5	obj	5:obj	_
+7	after	after	ADP	IN	ADP	9	case	9:case	_
+8	the	the	DET	DT	DEF;DET	9	det	9:det	_
+9	churn	churn	NOUN	NN	SG;N	5	obl	5:obl:after	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_01-0006
+# text = Thank you for you patience.
+1	Thank	thank	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+2	you	you	PRON	PRP	2;ACC;PRO	1	obj	1:obj	_
+3	for	for	ADP	IN	ADP	5	case	5:case	CheckAttachment=4
+4	you	your	PRON	PRP$	GEN;PRO;2	5	nmod:poss	5:nmod:poss	CorrectForm=your
+5	patience	patience	NOUN	NN	SG;N	1	obl	1:obl:for	SpaceAfter=No
+6	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent28_01-0007
+# newpar id = email-enronsent28_01-p0002
+# text = The Dow topped out in February of 1966 at 995.
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	Dow	Dow	PROPN	NNP	SG;PROPN	3	nsubj	3:nsubj	_
+3	topped	top	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+4	out	out	ADP	RP	ADP	3	compound:prt	3:compound:prt	_
+5	in	in	ADP	IN	ADP	6	case	6:case	_
+6	February	February	PROPN	NNP	SG;PROPN	3	obl	3:obl:in	_
+7	of	of	ADP	IN	ADP	8	case	8:case	_
+8	1966	1966	NUM	CD	NUM	6	nmod	6:nmod:of	_
+9	at	at	ADP	IN	ADP	10	case	10:case	_
+10	995	995	NUM	CD	NUM	3	obl	3:obl:at	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent28_01-0008
+# text = By September of that year the Dow had tumbled to 744.
+1	By	by	ADP	IN	ADP	2	case	2:case	_
+2	September	September	PROPN	NNP	SG;PROPN	9	obl	9:obl:by	_
+3	of	of	ADP	IN	ADP	5	case	5:case	_
+4	that	that	DET	DT	SG;DET	5	det	5:det	_
+5	year	year	NOUN	NN	SG;N	2	nmod	2:nmod:of	_
+6	the	the	DET	DT	DEF;DET	7	det	7:det	_
+7	Dow	Dow	PROPN	NNP	SG;PROPN	9	nsubj	9:nsubj	_
+8	had	have	AUX	VBD	V;PST;3;FIN;SG;IND	9	aux	9:aux	_
+9	tumbled	tumble	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	744	744	NUM	CD	NUM	9	obl	9:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	9:punct	_
+

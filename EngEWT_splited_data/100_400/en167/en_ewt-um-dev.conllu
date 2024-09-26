@@ -1,0 +1,61 @@
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_04d718686843b577_ENG_20040713_101600-0005
+# text = Needs good family in Houston or surronding area, needs lots of attention, very loving.
+1	Needs	need	VERB	VBZ	FIN;PRS;3;V;IND;SG	0	root	0:root	_
+2	good	good	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	family	family	NOUN	NN	SG;N	1	obj	1:obj	_
+4	in	in	ADP	IN	ADP	5	case	5:case	_
+5	Houston	Houston	PROPN	NNP	SG;PROPN	1	obl	1:obl:in	_
+6	or	or	CCONJ	CC	CONJ	8	cc	8:cc	_
+7	surronding	surrond	VERB	VBG	V;V.MSDR	8	amod	8:amod	_
+8	area	area	NOUN	NN	SG;N	5	conj	1:obl:in|5:conj:or	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	10:punct	_
+10	needs	need	VERB	VBZ	FIN;PRS;3;V;IND;SG	1	conj	1:conj	_
+11	lots	lot	NOUN	NNS	PL;N	10	obj	10:obj	_
+12	of	of	ADP	IN	ADP	13	case	13:case	_
+13	attention	attention	NOUN	NN	SG;N	11	nmod	11:nmod:of	SpaceAfter=No
+14	,	,	PUNCT	,	_	16	punct	16:punct	_
+15	very	very	ADV	RB	ADV	16	advmod	16:advmod	_
+16	loving	loving	ADJ	JJ	ADJ	10	parataxis	10:parataxis	SpaceAfter=No
+17	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+# newdoc id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-0001
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-p0001
+# text = Email: "Julie"<julie...@bellsouth.net>
+1	Email	email	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	4	punct	4:punct	_
+3	"	"	PUNCT	``	_	4	punct	4:punct	SpaceAfter=No
+4	Julie	Julie	PROPN	NNP	SG;PROPN	1	appos	1:appos	SpaceAfter=No
+5	"	"	PUNCT	''	_	4	punct	4:punct	SpaceAfter=No
+6	<	<	PUNCT	-LRB-	_	7	punct	7:punct	SpaceAfter=No
+7	julie...@bellsouth.net	julie...@bellsouth.net	PROPN	ADD	PROPN	4	list	4:list	SpaceAfter=No
+8	>	>	PUNCT	-RRB-	_	7	punct	7:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-0002
+# text = Groups: alt.animals.cat
+1	Groups	group	NOUN	NNS	PL;N	0	root	0:root	SpaceAfter=No
+2	:	:	PUNCT	:	_	3	punct	3:punct	_
+3	alt.animals.cat	alt.animals.cat	NOUN	NN	SG;N	1	appos	1:appos	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-0003
+# newpar id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-p0002
+# text = Like you said "the kids egg him on".
+1	Like	like	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	said	say	VERB	VBD	FIN;2;V;IND;SG;PST	7	advcl	7:advcl:like	_
+4	"	"	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No
+5	the	the	DET	DT	DET;DEF	6	det	6:det	_
+6	kids	kid	NOUN	NNS	PL;N	7	nsubj	7:nsubj	_
+7	egg	egg	VERB	VBP	FIN;PRS;3;PL;V;IND	0	root	0:root	_
+8	him	he	PRON	PRP	PRO;ACC;MASC;3;SG	7	obj	7:obj	_
+9	on	on	ADP	RP	ADP	7	compound:prt	7:compound:prt	SpaceAfter=No
+10	"	"	PUNCT	''	_	7	punct	7:punct	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = newsgroup-groups.google.com_alt.animals.cat_119630d7ce2d2e9c_ENG_20051107_021600-0004
+# text = maybe too much .
+1	maybe	maybe	ADV	RB	ADV	2	advmod	2:advmod	_
+2	too	too	ADV	RB	ADV	3	advmod	3:advmod	_
+3	much	much	ADV	RB	ADV	0	root	0:root	_
+4	.	.	PUNCT	.	_	3	punct	3:punct	_
+

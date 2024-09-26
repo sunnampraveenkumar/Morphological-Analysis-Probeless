@@ -1,0 +1,64 @@
+# sent_id = reviews-267982-0003
+# text = So i booked the lesson and loved it.
+1	So	so	ADV	RB	ADV	3	advmod	3:advmod	_
+2	i	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|7:nsubj	_
+3	booked	book	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+4	the	the	DET	DT	DET;DEF	5	det	5:det	_
+5	lesson	lesson	NOUN	NN	SG;N	3	obj	3:obj	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	loved	love	VERB	VBD	FIN;1;V;IND;SG;PST	3	conj	3:conj:and	_
+8	it	it	PRON	PRP	PRO;NEUT;3;NOM;SG	7	obj	7:obj	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-267982-0004
+# text = Great teacher.
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	teacher	teacher	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# newdoc id = reviews-202402
+# sent_id = reviews-202402-0001
+# newpar id = reviews-202402-p0001
+# text = SERVERS
+1	SERVERS	server	NOUN	NNS	PL;N	0	root	0:root	_
+
+# sent_id = reviews-202402-0002
+# newpar id = reviews-202402-p0002
+# text = When my server crashed, Greg worked from 7 PM until 4 AM and had my company up and running the next morning.
+1	When	when	ADV	WRB	ADV	4	advmod	4:advmod	_
+2	my	my	PRON	PRP$	PRO;GEN;1;SG	3	nmod:poss	3:nmod:poss	_
+3	server	server	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+4	crashed	crash	VERB	VBD	FIN;3;V;IND;SG;PST	7	advcl	7:advcl:when	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	Greg	Greg	PROPN	NNP	SG;PROPN	7	nsubj	7:nsubj|15:nsubj	_
+7	worked	work	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+8	from	from	ADP	IN	ADP	10	case	10:case	_
+9	7	7	NUM	CD	NUM	10	nummod	10:nummod	_
+10	PM	p.m.	NOUN	NN	SG;N	7	obl	7:obl:from	_
+11	until	until	ADP	IN	ADP	13	case	13:case	_
+12	4	4	NUM	CD	NUM	13	nummod	13:nummod	_
+13	AM	a.m.	NOUN	NN	SG;N	7	obl	7:obl:until	_
+14	and	and	CCONJ	CC	CONJ	15	cc	15:cc	_
+15	had	have	VERB	VBD	FIN;3;V;IND;SG;PST	7	conj	7:conj:and	_
+16	my	my	PRON	PRP$	PRO;GEN;1;SG	17	nmod:poss	17:nmod:poss	_
+17	company	company	NOUN	NN	SG;N	15	obj	15:obj|18:nsubj:xsubj|20:nsubj:xsubj	_
+18	up	up	ADV	RB	ADV	15	xcomp	15:xcomp	_
+19	and	and	CCONJ	CC	CONJ	20	cc	20:cc	_
+20	running	run	VERB	VBG	V;V.MSDR	18	conj	15:xcomp|18:conj:and	_
+21	the	the	DET	DT	DET;DEF	23	det	23:det	_
+22	next	next	ADJ	JJ	ADJ	23	amod	23:amod	_
+23	morning	morning	NOUN	NN	SG;N	15	obl:tmod	15:obl:tmod	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = reviews-202402-0003
+# text = That's what I call customer service!
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	PRO;SG	3	nsubj	3:nsubj	_
+2	's	be	AUX	VBZ	FIN;PRS;3;V;IND;SG	3	cop	3:cop	_
+3	what	what	PRON	WP	PRO	0	root	0:root|5:obj	_
+4	I	I	PRON	PRP	PRO;1;NOM;SG	5	nsubj	5:nsubj	_
+5	call	call	VERB	VBP	FIN;PRS;1;V;IND;SG	3	acl:relcl	3:acl:relcl	Cxn=rc-free-obj
+6	customer	customer	NOUN	NN	SG;N	7	compound	7:compound	_
+7	service	service	NOUN	NN	SG;N	5	xcomp	5:xcomp	SpaceAfter=No
+8	!	!	PUNCT	.	_	3	punct	3:punct	_
+

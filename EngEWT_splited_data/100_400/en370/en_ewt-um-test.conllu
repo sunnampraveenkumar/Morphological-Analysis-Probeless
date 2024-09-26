@@ -1,0 +1,80 @@
+# sent_id = reviews-045972-0003
+# text = Now I've found someone who can manage to do what I really want.
+1	Now	now	ADV	RB	ADV	4	advmod	4:advmod	_
+2-3	I've	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+3	've	have	AUX	VBP	V;1;FIN;PRS;SG;IND	4	aux	4:aux	_
+4	found	find	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+5	someone	someone	PRON	NN	SG;PRO	4	obj	4:obj|8:nsubj|10:nsubj:xsubj	_
+6	who	who	PRON	WP	PRO	8	nsubj	5:ref	_
+7	can	can	AUX	MD	V;FIN	8	aux	8:aux	_
+8	manage	manage	VERB	VB	NFIN;V	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+9	to	to	PART	TO	PART	10	mark	10:mark	_
+10	do	do	VERB	VB	NFIN;V	8	xcomp	8:xcomp	_
+11	what	what	PRON	WP	PRO	10	obj	10:obj|14:obj	_
+12	I	I	PRON	PRP	PRO;1;NOM;SG	14	nsubj	14:nsubj	_
+13	really	really	ADV	RB	ADV	14	advmod	14:advmod	_
+14	want	want	VERB	VBP	1;V;FIN;PRS;SG;IND	11	acl:relcl	11:acl:relcl	Cxn=rc-free-obj|SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-024306
+# sent_id = reviews-024306-0001
+# newpar id = reviews-024306-p0001
+# text = Worst Tasting Pizza
+1	Worst	bad	ADV	RBS	RL;ADV	2	advmod	2:advmod	_
+2	Tasting	taste	VERB	VBG	V.MSDR;V	3	amod	3:amod	_
+3	Pizza	pizza	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-024306-0002
+# newpar id = reviews-024306-p0002
+# text = This place had the worst tasting pizza I have ever tasted it was possible the worst food I've ever eaten.
+1	This	this	DET	DT	SG;DET	2	det	2:det	_
+2	place	place	NOUN	NN	SG;N	3	nsubj	3:nsubj	_
+3	had	have	VERB	VBD	PST;V;3;FIN;SG;IND	0	root	0:root	_
+4	the	the	DET	DT	DEF;DET	7	det	7:det	_
+5	worst	bad	ADV	RBS	RL;ADV	6	advmod	6:advmod	_
+6	tasting	taste	VERB	VBG	V.MSDR;V	7	amod	7:amod	_
+7	pizza	pizza	NOUN	NN	SG;N	3	obj	3:obj|11:obj	_
+8	I	I	PRON	PRP	PRO;1;NOM;SG	11	nsubj	11:nsubj	_
+9	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	11	aux	11:aux	_
+10	ever	ever	ADV	RB	ADV	11	advmod	11:advmod	_
+11	tasted	taste	VERB	VBN	PST;V;V.PTCP	7	acl:relcl	7:acl:relcl	Cxn=rc-red-obj
+12	it	it	PRON	PRP	PRO;3;NEUT;NOM;SG	17	nsubj	17:nsubj	_
+13	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	17	cop	17:cop	_
+14	possible	possibly	ADV	RB	ADV	17	advmod	17:advmod	CorrectForm=possibly
+15	the	the	DET	DT	DEF;DET	17	det	17:det	_
+16	worst	bad	ADJ	JJS	RL;ADJ	17	amod	17:amod	_
+17	food	food	NOUN	NN	SG;N	3	parataxis	3:parataxis|21:obj	_
+18-19	I've	_	_	_	_	_	_	_	_
+18	I	I	PRON	PRP	PRO;1;NOM;SG	21	nsubj	21:nsubj	_
+19	've	have	AUX	VBP	V;1;FIN;PRS;SG;IND	21	aux	21:aux	_
+20	ever	ever	ADV	RB	ADV	21	advmod	21:advmod	_
+21	eaten	eat	VERB	VBN	PST;V;V.PTCP	17	acl:relcl	17:acl:relcl	Cxn=rc-red-obj|SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-024306-0003
+# text = I don't recommend this place to anyone or even anything to eat.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	V;1;FIN;PRS;SG;IND	4	aux	4:aux	_
+3	n't	not	PART	RB	PART	4	advmod	4:advmod	_
+4	recommend	recommend	VERB	VB	NFIN;V	0	root	0:root	_
+5	this	this	DET	DT	SG;DET	6	det	6:det	_
+6	place	place	NOUN	NN	SG;N	4	obj	4:obj	_
+7	to	to	ADP	IN	ADP	8	case	8:case	_
+8	anyone	anyone	PRON	NN	SG;PRO	4	obl	4:obl:to	_
+9	or	or	CCONJ	CC	CONJ	11	cc	11:cc	_
+10	even	even	ADV	RB	ADV	11	advmod	11:advmod	_
+11	anything	anything	PRON	NN	SG;PRO	8	conj	4:obl:to|8:conj:or	_
+12	to	to	PART	TO	PART	13	mark	13:mark	_
+13	eat	eat	VERB	VB	NFIN;V	11	acl	11:acl:to	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# newdoc id = reviews-341750
+# sent_id = reviews-341750-0001
+# newpar id = reviews-341750-p0001
+# text = Not so good
+1	Not	not	PART	RB	PART	3	advmod	3:advmod	_
+2	so	so	ADV	RB	ADV	3	advmod	3:advmod	_
+3	good	good	ADJ	JJ	ADJ	0	root	0:root	_
+

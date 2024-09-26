@@ -1,0 +1,69 @@
+# sent_id = reviews-042085-0004
+# text = Stick to Hop Hing, 20 year+ resident.
+1	Stick	stick	VERB	VB	FIN;V;IMP	0	root	0:root	_
+2	to	to	ADP	IN	ADP	3	case	3:case	_
+3	Hop	Hop	PROPN	NNP	SG;PROPN	1	obl	1:obl:to	_
+4	Hing	Hing	PROPN	NNP	SG;PROPN	3	flat	3:flat	SpaceAfter=No
+5	,	,	PUNCT	,	_	9	punct	9:punct	_
+6	20	20	NUM	CD	NUM	7	nummod	7:nummod	_
+7	year	year	NOUN	NN	SG;N	9	compound	9:compound	SpaceAfter=No
+8	+	+	SYM	SYM	_	7	advmod	7:advmod	_
+9	resident	resident	NOUN	NN	SG;N	3	appos	3:appos	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-302465
+# sent_id = reviews-302465-0001
+# newpar id = reviews-302465-p0001
+# text = Great place
+1	Great	great	ADJ	JJ	ADJ	2	amod	2:amod	_
+2	place	place	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-302465-0002
+# newpar id = reviews-302465-p0002
+# text = Really great service and kind staff.
+1	Really	really	ADV	RB	ADV	2	advmod	2:advmod	_
+2	great	great	ADJ	JJ	ADJ	3	amod	3:amod	_
+3	service	service	NOUN	NN	SG;N	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+5	kind	kind	ADJ	JJ	ADJ	6	amod	6:amod	_
+6	staff	staff	NOUN	NN	SG;N	3	conj	3:conj:and	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-302465-0003
+# text = The haircut was inexpensive and so were the salon services (eyebrows were cheap!).
+1	The	the	DET	DT	DEF;DET	2	det	2:det	_
+2	haircut	haircut	NOUN	NN	SG;N	4	nsubj	4:nsubj	_
+3	was	be	AUX	VBD	V;PST;3;FIN;SG;IND	4	cop	4:cop	_
+4	inexpensive	inexpensive	ADJ	JJ	ADJ	0	root	0:root	_
+5	and	and	CCONJ	CC	CONJ	6	cc	6:cc	_
+6	so	so	ADV	RB	ADV	4	conj	4:conj:and	_
+7	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	6	cop	6:cop	_
+8	the	the	DET	DT	DEF;DET	10	det	10:det	_
+9	salon	salon	NOUN	NN	SG;N	10	compound	10:compound	_
+10	services	service	NOUN	NNS	PL;N	6	nsubj	6:nsubj	_
+11	(	(	PUNCT	-LRB-	_	14	punct	14:punct	SpaceAfter=No
+12	eyebrows	eyebrow	NOUN	NNS	PL;N	14	nsubj	14:nsubj	_
+13	were	be	AUX	VBD	PL;V;PST;3;FIN;IND	14	cop	14:cop	_
+14	cheap	cheap	ADJ	JJ	ADJ	4	parataxis	4:parataxis	SpaceAfter=No
+15	!	!	PUNCT	.	_	14	punct	14:punct	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	14	punct	14:punct	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = reviews-302465-0004
+# text = It's a nice, relaxed place to get stuff done and relax.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	PRO;3;NEUT;NOM;SG	7	nsubj	7:nsubj	_
+2	's	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	7	cop	7:cop	_
+3	a	a	DET	DT	INDF;DET	7	det	7:det	_
+4	nice	nice	ADJ	JJ	ADJ	7	amod	7:amod	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	relaxed	relaxed	ADJ	JJ	ADJ	7	amod	7:amod	_
+7	place	place	NOUN	NN	SG;N	0	root	0:root	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	get	get	VERB	VB	NFIN;V	7	acl	7:acl:to	_
+10	stuff	stuff	NOUN	NN	SG;N	9	obj	9:obj|11:nsubj:xsubj	_
+11	done	do	VERB	VBN	PASS;PST;V;V.PTCP	9	xcomp	9:xcomp	_
+12	and	and	CCONJ	CC	CONJ	13	cc	13:cc	_
+13	relax	relax	VERB	VB	NFIN;V	9	conj	7:acl:to|9:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	7:punct	_
+

@@ -1,0 +1,208 @@
+# sent_id = train-s1909
+# text = 中華人民共和國成立後，由天津市人民政府接管，現為天津市煤建公司使用。
+# translit = zhōnghuárénmíngònghéguóchénglìhòu,yóutiānjīnshìrénmínzhèngfǔjiēguǎn,xiànwèitiānjīnshìméijiàngōngsīshǐyòng.
+1	中華	中華	PROPN	NNP	PROPN	4	nmod	_	SpaceAfter=No|Translit=zhōnghuá|LTranslit=zhōnghuá
+2	人民	人民	NOUN	NN	N	4	nmod	_	SpaceAfter=No|Translit=rénmín|LTranslit=rénmín
+3	共和	共和	NOUN	NN	N	4	compound	_	SpaceAfter=No|Translit=gònghé|LTranslit=gònghé
+4	國	國	PART	SFN	PART	5	nsubj	_	SpaceAfter=No|Translit=guó|LTranslit=guó
+5	成立	成立	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chénglì|LTranslit=chénglì
+6	後	後	ADP	IN	ADP	5	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+7	，	，	PUNCT	,	_	21	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	由	由	VERB	VV	V	21	advcl	_	SpaceAfter=No|Translit=yóu|LTranslit=yóu
+9	天津	天津	PROPN	NNP	PROPN	10	compound	_	SpaceAfter=No|Translit=tiānjīn|LTranslit=tiānjīn
+10	市	市	PART	SFN	PART	12	nmod	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+11	人民	人民	NOUN	NN	N	12	nmod	_	SpaceAfter=No|Translit=rénmín|LTranslit=rénmín
+12	政府	政府	NOUN	NN	N	13	nsubj	_	SpaceAfter=No|Translit=zhèngfǔ|LTranslit=zhèngfǔ
+13	接管	接管	VERB	VV	V	8	ccomp	_	SpaceAfter=No|Translit=jiēguǎn|LTranslit=jiēguǎn
+14	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+15	現	現	NOUN	NN	N	21	nmod:tmod	_	SpaceAfter=No|Translit=xiàn|LTranslit=xiàn
+16	為	為	AUX	BB	PASS;V	21	aux:pass	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+17	天津	天津	PROPN	NNP	PROPN	18	compound	_	SpaceAfter=No|Translit=tiānjīn|LTranslit=tiānjīn
+18	市	市	PART	SFN	PART	20	nmod	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+19	煤建	煤建	PROPN	NNP	PROPN	20	nmod	_	SpaceAfter=No|Translit=méijiàn|LTranslit=méijiàn
+20	公司	公司	NOUN	NN	N	21	nsubj	_	SpaceAfter=No|Translit=gōngsī|LTranslit=gōngsī
+21	使用	使用	VERB	VV	V	5	parataxis	_	SpaceAfter=No|Translit=shǐyòng|LTranslit=shǐyòng
+22	。	。	PUNCT	.	_	5	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1910
+# text = 孫堅誤信為真，便返回襄陽，打算擒拿王叡。
+# translit = sūnjiānwùxìnwèizhēn,biànfǎnhuí襄yáng,dǎsuàn擒náwáng叡.
+1	孫	孫	PROPN	NNP	PROPN	11	nsubj	_	SpaceAfter=No|Translit=sūn|LTranslit=sūn
+2	堅	堅	PROPN	NNP	PROPN	1	flat:name	_	SpaceAfter=No|Translit=jiān|LTranslit=jiān
+3	誤信	誤信	VERB	VV	V	11	advcl	_	SpaceAfter=No|Translit=wùxìn|LTranslit=wùxìn
+4	為	為	VERB	VC	V	3	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+5	真	真	ADJ	JJ	ADJ	3	xcomp	_	SpaceAfter=No|Translit=zhēn|LTranslit=zhēn
+6	，	，	PUNCT	,	_	3	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+7	便	便	SCONJ	RB	CONJ	11	mark	_	SpaceAfter=No|Translit=biàn|LTranslit=biàn
+8	返回	返回	VERB	VV	V	11	advcl	_	SpaceAfter=No|Translit=fǎnhuí|LTranslit=fǎnhuí
+9	襄陽	襄陽	PROPN	NNP	PROPN	8	obj	_	SpaceAfter=No|Translit=襄yáng|LTranslit=襄yáng
+10	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+11	打算	打算	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=dǎsuàn|LTranslit=dǎsuàn
+12	擒拿	擒拿	VERB	VV	V	11	xcomp	_	SpaceAfter=No|Translit=擒ná|LTranslit=擒ná
+13	王	王	PROPN	NNP	PROPN	12	obj	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+14	叡	叡	PROPN	NNP	PROPN	13	flat:name	_	SpaceAfter=No|Translit=叡|LTranslit=叡
+15	。	。	PUNCT	.	_	11	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1911
+# text = 但是即使是人工造出的無心者，他們也不會服從任何命令。
+# translit = dànshìjíshǐshìréngōngzàochūdewúxīnzhě,tāmenyěbùhuìfúcóngrènhémìnglìng.
+1	但是	但是	SCONJ	RB	CONJ	13	mark	_	SpaceAfter=No|Translit=dànshì|LTranslit=dànshì
+2	即使	即使	ADP	IN	ADP	8	case	_	SpaceAfter=No|Translit=jíshǐ|LTranslit=jíshǐ
+3	是	是	AUX	VC	V	8	cop	_	SpaceAfter=No|Translit=shì|LTranslit=shì
+4	人工	人工	NOUN	NN	N	5	obl	_	SpaceAfter=No|Translit=réngōng|LTranslit=réngōng
+5	造出	造出	VERB	VV	V	8	acl:relcl	_	SpaceAfter=No|Translit=zàochū|LTranslit=zàochū
+6	的	的	SCONJ	DEC	CONJ	5	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+7	無心	無心	ADJ	JJ	ADJ	8	compound	_	SpaceAfter=No|Translit=wúxīn|LTranslit=wúxīn
+8	者	者	PART	SFN	PART	13	xcomp	_	SpaceAfter=No|Translit=zhě|LTranslit=zhě
+9	，	，	PUNCT	,	_	8	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	他們	他	PRON	PRP	PL;3;PRO	13	nsubj	_	SpaceAfter=No|Translit=tāmen|LTranslit=tā
+11	也	也	SCONJ	RB	CONJ	13	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+12	不會	會	AUX	MD	NEG;V	13	aux	_	SpaceAfter=No|Translit=bùhuì|LTranslit=huì
+13	服從	服從	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=fúcóng|LTranslit=fúcóng
+14	任何	任何	DET	DT	DET	15	det	_	SpaceAfter=No|Translit=rènhé|LTranslit=rènhé
+15	命令	命令	NOUN	NN	N	13	obj	_	SpaceAfter=No|Translit=mìnglìng|LTranslit=mìnglìng
+16	。	。	PUNCT	.	_	13	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1912
+# text = 食夢者分為兩種，一種為專吃惡夢，善良的食夢者，名為「妖精」（Spirit），玩家可以使用作攻擊，並可飼養。
+# translit = shímèngzhěfēnwèiliǎngzhǒng,yīzhǒngwèizhuānchī'èmèng,shànliángdeshímèngzhě,míngwèi‘妖jīng’(Spirit),wánjiākěyǐshǐyòngzuògōngjī,bìngkěsìyǎng.
+1	食夢	食夢	VERB	VV	V	2	compound	_	SpaceAfter=No|Translit=shímèng|LTranslit=shímèng
+2	者	者	PART	SFN	PART	3	nsubj	_	SpaceAfter=No|Translit=zhě|LTranslit=zhě
+3	分	分	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=fēn|LTranslit=fēn
+4	為	為	VERB	VC	V	3	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+5	兩	兩	NUM	CD	NUM	6	nummod	_	SpaceAfter=No|Translit=liǎng|LTranslit=liǎng
+6	種	種	NOUN	NNB	N	3	obj	_	SpaceAfter=No|Translit=zhǒng|LTranslit=zhǒng
+7	，	，	PUNCT	,	_	17	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	一	一	NUM	CD	NUM	9	nummod	_	SpaceAfter=No|Translit=yī|LTranslit=yī
+9	種	種	NOUN	NNB	N	17	nsubj	_	SpaceAfter=No|Translit=zhǒng|LTranslit=zhǒng
+10	為	為	AUX	VC	V	17	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+11	專吃	專吃	VERB	VV	V	17	amod	_	SpaceAfter=No|Translit=zhuānchī|LTranslit=zhuānchī
+12	惡夢	惡夢	NOUN	NN	N	11	obj	_	SpaceAfter=No|Translit='èmèng|LTranslit='èmèng
+13	，	，	PUNCT	,	_	11	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+14	善良	善良	ADJ	JJ	ADJ	17	amod	_	SpaceAfter=No|Translit=shànliáng|LTranslit=shànliáng
+15	的	的	SCONJ	DEC	CONJ	14	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+16	食夢	食夢	VERB	VV	V	17	compound	_	SpaceAfter=No|Translit=shímèng|LTranslit=shímèng
+17	者	者	PART	SFN	PART	3	parataxis	_	SpaceAfter=No|Translit=zhě|LTranslit=zhě
+18	，	，	PUNCT	,	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+19	名	名	NOUN	NN	N	22	nsubj	_	SpaceAfter=No|Translit=míng|LTranslit=míng
+20	為	為	AUX	VC	V	22	cop	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+21	「	「	PUNCT	``	_	22	punct	_	SpaceAfter=No|Translit=‘|LTranslit=‘
+22	妖精	妖精	NOUN	NN	N	3	parataxis	_	SpaceAfter=No|Translit=妖jīng|LTranslit=妖jīng
+23	」	」	PUNCT	''	_	22	punct	_	SpaceAfter=No|Translit=’|LTranslit=’
+24	（	（	PUNCT	(	_	25	punct	_	SpaceAfter=No|Translit=(|LTranslit=(
+25	Spirit	Spirit	X	FW	_	22	appos	_	SpaceAfter=No|Translit=Spirit|LTranslit=Spirit
+26	）	）	PUNCT	)	_	25	punct	_	SpaceAfter=No|Translit=)|LTranslit=)
+27	，	，	PUNCT	,	_	36	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+28	玩家	玩家	NOUN	NN	N	36	nsubj	_	SpaceAfter=No|Translit=wánjiā|LTranslit=wánjiā
+29	可以	可以	AUX	MD	V	31	aux	_	SpaceAfter=No|Translit=kěyǐ|LTranslit=kěyǐ
+30	使用	使用	VERB	VV	V	31	advcl	_	SpaceAfter=No|Translit=shǐyòng|LTranslit=shǐyòng
+31	作	作	VERB	VV	V	36	advcl	_	SpaceAfter=No|Translit=zuò|LTranslit=zuò
+32	攻擊	攻擊	NOUN	NN	N	31	obj	_	SpaceAfter=No|Translit=gōngjī|LTranslit=gōngjī
+33	，	，	PUNCT	,	_	31	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+34	並	並	SCONJ	RB	CONJ	36	mark	_	SpaceAfter=No|Translit=bìng|LTranslit=bìng
+35	可	可	AUX	MD	V	36	aux	_	SpaceAfter=No|Translit=kě|LTranslit=kě
+36	飼養	飼養	VERB	VV	V	3	parataxis	_	SpaceAfter=No|Translit=sìyǎng|LTranslit=sìyǎng
+37	。	。	PUNCT	.	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1913
+# text = 桓玄輔政後卻上表流放王國寶家屬到交州。
+# translit = 桓玄fǔzhènghòuquèshàngbiǎoliúfàngwángguóbǎojiāshǔdàojiāozhōu.
+1	桓玄	桓玄	PROPN	NNP	PROPN	6	nsubj	_	SpaceAfter=No|Translit=桓玄|LTranslit=桓玄
+2	輔政	輔政	VERB	VV	V	6	advcl	_	SpaceAfter=No|Translit=fǔzhèng|LTranslit=fǔzhèng
+3	後	後	ADP	IN	ADP	2	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+4	卻	卻	SCONJ	RB	CONJ	6	mark	_	SpaceAfter=No|Translit=què|LTranslit=què
+5	上表	上表	VERB	VV	V	6	advcl	_	SpaceAfter=No|Translit=shàngbiǎo|LTranslit=shàngbiǎo
+6	流放	流放	VERB	VV	V;CAUS	0	root	_	SpaceAfter=No|Translit=liúfàng|LTranslit=liúfàng
+7	王	王	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+8	國寶	國寶	PROPN	NNP	PROPN	9	nmod	_	SpaceAfter=No|Translit=guóbǎo|LTranslit=guóbǎo
+9	家屬	家屬	NOUN	NN	N	10	nsubj	_	SpaceAfter=No|Translit=jiāshǔ|LTranslit=jiāshǔ
+10	到	到	VERB	VV	V	6	ccomp	_	SpaceAfter=No|Translit=dào|LTranslit=dào
+11	交州	交州	PROPN	NNP	PROPN	10	obj	_	SpaceAfter=No|Translit=jiāozhōu|LTranslit=jiāozhōu
+12	。	。	PUNCT	.	_	6	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1914
+# text = 不過此後卻發生了王聖因為某些原因，遲遲沒有與俱樂部簽約的事件，幾乎要宣布退役，但是最終順利加盟球隊。
+# translit = bùguòcǐhòuquèfāshēnglewángshèngyīnwèimǒuxiēyuányīn,chíchíméiyǒuyǔjùlèbùqiānyuēdeshìjiàn,jǐhuyàoxuānbùtuìyì,dànshìzuìzhōngshùnlìjiāméngqiúduì.
+1	不過	不過	SCONJ	RB	CONJ	4	mark	_	SpaceAfter=No|Translit=bùguò|LTranslit=bùguò
+2	此後	此後	NOUN	NN	N	4	nmod:tmod	_	SpaceAfter=No|Translit=cǐhòu|LTranslit=cǐhòu
+3	卻	卻	SCONJ	RB	CONJ	4	mark	_	SpaceAfter=No|Translit=què|LTranslit=què
+4	發生	發生	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=fāshēng|LTranslit=fāshēng
+5	了	了	AUX	AS	PFV;V	4	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+6	王	王	PROPN	NNP	PROPN	13	nsubj	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+7	聖	聖	PROPN	NNP	PROPN	6	flat:name	_	SpaceAfter=No|Translit=shèng|LTranslit=shèng
+8	因為	因為	ADP	IN	ADP	10	case	_	SpaceAfter=No|Translit=yīnwèi|LTranslit=yīnwèi
+9	某些	某些	DET	DT	DET	10	det	_	SpaceAfter=No|Translit=mǒuxiē|LTranslit=mǒuxiē
+10	原因	原因	NOUN	NN	N	13	obl	_	SpaceAfter=No|Translit=yuányīn|LTranslit=yuányīn
+11	，	，	PUNCT	,	_	10	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+12	遲遲	遲遲	ADV	RB	ADV	13	advmod	_	SpaceAfter=No|Translit=chíchí|LTranslit=chíchí
+13	沒有	有	VERB	VV	NEG;V	18	acl:relcl	_	SpaceAfter=No|Translit=méiyǒu|LTranslit=yǒu
+14	與	與	ADP	IN	ADP	15	case	_	SpaceAfter=No|Translit=yǔ|LTranslit=yǔ
+15	俱樂部	俱樂部	NOUN	NN	N	16	obl	_	SpaceAfter=No|Translit=jùlèbù|LTranslit=jùlèbù
+16	簽約	簽約	VERB	VV	V	13	xcomp	_	SpaceAfter=No|Translit=qiānyuē|LTranslit=qiānyuē
+17	的	的	SCONJ	DEC	CONJ	13	mark:rel	_	SpaceAfter=No|Translit=de|LTranslit=de
+18	事件	事件	NOUN	NN	N	4	obj	_	SpaceAfter=No|Translit=shìjiàn|LTranslit=shìjiàn
+19	，	，	PUNCT	,	_	28	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+20	幾乎	幾乎	ADV	RB	ADV	22	advmod	_	SpaceAfter=No|Translit=jǐhu|LTranslit=jǐhu
+21	要	要	AUX	MD	V	22	aux	_	SpaceAfter=No|Translit=yào|LTranslit=yào
+22	宣布	宣布	VERB	VV	V	28	advcl	_	SpaceAfter=No|Translit=xuānbù|LTranslit=xuānbù
+23	退役	退役	VERB	VV	V	22	xcomp	_	SpaceAfter=No|Translit=tuìyì|LTranslit=tuìyì
+24	，	，	PUNCT	,	_	22	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+25	但是	但是	SCONJ	RB	CONJ	28	mark	_	SpaceAfter=No|Translit=dànshì|LTranslit=dànshì
+26	最終	最終	NOUN	NN	N	28	nmod:tmod	_	SpaceAfter=No|Translit=zuìzhōng|LTranslit=zuìzhōng
+27	順利	順利	ADV	RB	ADV	28	advmod	_	SpaceAfter=No|Translit=shùnlì|LTranslit=shùnlì
+28	加盟	加盟	VERB	VV	V	4	parataxis	_	SpaceAfter=No|Translit=jiāméng|LTranslit=jiāméng
+29	球隊	球隊	NOUN	NN	N	28	obj	_	SpaceAfter=No|Translit=qiúduì|LTranslit=qiúduì
+30	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1915
+# text = 復辟失敗後，王士珍回到故郷隠居。
+# translit = fùpìshībàihòu,wángshìzhēnhuídàogù郷隠jū.
+1	復辟	復辟	VERB	VV	V	2	csubj	_	SpaceAfter=No|Translit=fùpì|LTranslit=fùpì
+2	失敗	失敗	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=shībài|LTranslit=shībài
+3	後	後	ADP	IN	ADP	2	mark	_	SpaceAfter=No|Translit=hòu|LTranslit=hòu
+4	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+5	王	王	PROPN	NNP	PROPN	9	nsubj	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+6	士珍	士珍	PROPN	NNP	PROPN	5	flat:name	_	SpaceAfter=No|Translit=shìzhēn|LTranslit=shìzhēn
+7	回到	回到	VERB	VV	V	9	advcl	_	SpaceAfter=No|Translit=huídào|LTranslit=huídào
+8	故郷	故郷	NOUN	NN	N	7	obj	_	SpaceAfter=No|Translit=gù郷|LTranslit=gù郷
+9	隠居	隠居	VERB	VV	V	2	parataxis	_	SpaceAfter=No|Translit=隠jū|LTranslit=隠jū
+10	。	。	PUNCT	.	_	2	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1916
+# text = 王士禛出身世家，祖父王象晉，官至明朝河南省布政使。
+# translit = wángshì禛chūshēnshìjiā,zǔfùwángxiàng晉,guānzhìmíngcháohénánshěngbùzhèngshǐ.
+1	王	王	PROPN	NNP	PROPN	3	nsubj	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+2	士禛	士禛	PROPN	NNP	PROPN	1	flat:name	_	SpaceAfter=No|Translit=shì禛|LTranslit=shì禛
+3	出身	出身	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chūshēn|LTranslit=chūshēn
+4	世家	世家	NOUN	NN	N	3	obj	_	SpaceAfter=No|Translit=shìjiā|LTranslit=shìjiā
+5	，	，	PUNCT	,	_	11	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+6	祖父	祖父	NOUN	NN	N	11	dislocated	_	SpaceAfter=No|Translit=zǔfù|LTranslit=zǔfù
+7	王	王	PROPN	NNP	PROPN	6	appos	_	SpaceAfter=No|Translit=wáng|LTranslit=wáng
+8	象晉	象晉	PROPN	NNP	PROPN	7	flat:name	_	SpaceAfter=No|Translit=xiàng晉|LTranslit=xiàng晉
+9	，	，	PUNCT	,	_	6	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+10	官	官	NOUN	NN	N	11	nsubj	_	SpaceAfter=No|Translit=guān|LTranslit=guān
+11	至	至	VERB	VV	V	3	parataxis	_	SpaceAfter=No|Translit=zhì|LTranslit=zhì
+12	明朝	明朝	PROPN	NNP	PROPN	16	nmod	_	SpaceAfter=No|Translit=míngcháo|LTranslit=míngcháo
+13	河南	河南	PROPN	NNP	PROPN	14	compound	_	SpaceAfter=No|Translit=hénán|LTranslit=hénán
+14	省	省	PART	SFN	PART	16	nmod	_	SpaceAfter=No|Translit=shěng|LTranslit=shěng
+15	布政	布政	NOUN	NN	N	16	compound	_	SpaceAfter=No|Translit=bùzhèng|LTranslit=bùzhèng
+16	使	使	PART	SFN	PART	11	obl	_	SpaceAfter=No|Translit=shǐ|LTranslit=shǐ
+17	。	。	PUNCT	.	_	3	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+
+# sent_id = train-s1917
+# text = 琉球國君主稱為國王，正配稱王妃或國妃。
+# translit = 琉qiúguójūnzhǔchēngwèiguówáng,zhèngpèichēngwáng妃huòguó妃.
+1	琉球	琉球	PROPN	NNP	PROPN	2	compound	_	SpaceAfter=No|Translit=琉qiú|LTranslit=琉qiú
+2	國	國	PART	SFN	PART	3	nmod	_	SpaceAfter=No|Translit=guó|LTranslit=guó
+3	君主	君主	NOUN	NN	N	4	nsubj	_	SpaceAfter=No|Translit=jūnzhǔ|LTranslit=jūnzhǔ
+4	稱	稱	VERB	VV	V	0	root	_	SpaceAfter=No|Translit=chēng|LTranslit=chēng
+5	為	為	VERB	VC	V	4	mark	_	SpaceAfter=No|Translit=wèi|LTranslit=wèi
+6	國王	國王	NOUN	NN	N	4	obj	_	SpaceAfter=No|Translit=guówáng|LTranslit=guówáng
+7	，	，	PUNCT	,	_	9	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+8	正配	正配	NOUN	NN	N	9	nsubj	_	SpaceAfter=No|Translit=zhèngpèi|LTranslit=zhèngpèi
+9	稱	稱	VERB	VV	V	4	parataxis	_	SpaceAfter=No|Translit=chēng|LTranslit=chēng
+10	王妃	王妃	NOUN	NN	N	9	obj	_	SpaceAfter=No|Translit=wáng妃|LTranslit=wáng妃
+11	或	或	CCONJ	CC	CONJ	12	cc	_	SpaceAfter=No|Translit=huò|LTranslit=huò
+12	國妃	國妃	NOUN	NN	N	10	conj	_	SpaceAfter=No|Translit=guó妃|LTranslit=guó妃
+13	。	。	PUNCT	.	_	4	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
+

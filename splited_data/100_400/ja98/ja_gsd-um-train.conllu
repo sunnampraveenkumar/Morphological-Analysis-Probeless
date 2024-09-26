@@ -1,0 +1,475 @@
+# newdoc id = train-s1681
+# sent_id = train-s1681
+# text = 中学3年生。
+1	中学	中学	NOUN	名詞-普通名詞-一般	N	4	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,中学,中学,中学,チューガク,,,チュウガク,チュウガク,中学
+2	3	3	NUM	名詞-数詞	NUM	4	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,三,3,3,サン,,,サン,サンネンセイ,3年生
+3	年	年	NOUN	名詞-普通名詞-助数詞可能	N	4	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,年,年,年,ネン,,,ネン,サンネンセイ,3年生
+4	生	生	NOUN	接尾辞-名詞的-一般	N	0	root	_	BunsetuBILabel=I|BunsetuPositionType=ROOT|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,生,生,生,セー,,,セイ,サンネンセイ,3年生
+5	。	。	PUNCT	補助記号-句点	_	4	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1682
+# sent_id = train-s1682
+# text = 紹介されるお土産やグルメは実在するものであるが、名前が伏字で紹介されることが多い。
+1	紹介	紹介	VERB	名詞-普通名詞-サ変可能	V	5	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,紹介,紹介,紹介,ショーカイ,,,ショウカイ,ショウカイスル,紹介する
+2	さ	為る	AUX	動詞-非自立可能-サ行変格	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,さ,する,サ,,,スル,ショウカイスル,紹介する
+3	れる	れる	AUX	助動詞-助動詞-レル	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れる,れる,レル,,,レル,レル,れる
+4	お	御	NOUN	接頭辞	N	5	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,御,お,お,オ,,,オ,オミヤゲ,御土産
+5	土産	土産	NOUN	名詞-普通名詞-一般	N	7	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,土産,土産,土産,ミヤゲ,,,ミヤゲ,オミヤゲ,御土産
+6	や	や	ADP	助詞-副助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,や,や,や,ヤ,,,ヤ,ヤ,や
+7	グルメ	グルメ	NOUN	名詞-普通名詞-形状詞可能	N	11	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,グルメ,グルメ,グルメ,グルメ,,,グルメ,グルメ,グルメ
+8	は	は	ADP	助詞-係助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+9	実在	実在	VERB	名詞-普通名詞-サ変可能	V	11	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,実在,実在,実在,ジツザイ,,,ジツザイ,ジツザイスル,実在する
+10	する	為る	AUX	動詞-非自立可能-サ行変格	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,する,する,スル,,,スル,ジツザイスル,実在する
+11	もの	物	NOUN	名詞-普通名詞-サ変可能	N	20	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,物,もの,もの,モノ,,,モノ,モノ,物
+12	で	だ	AUX	助動詞-助動詞-ダ	V	11	cop	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,だ,で,だ,デ,,,ダ,デアル,である
+13	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	12	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,デアル,である
+14	が	が	SCONJ	助詞-接続助詞	CONJ	11	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+15	、	、	PUNCT	補助記号-読点	_	11	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+16	名前	名前	NOUN	名詞-普通名詞-一般	N	20	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,名前,名前,名前,ナマエ,,,ナマエ,ナマエ,名前
+17	が	が	ADP	助詞-格助詞	ADP	16	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+18	伏字	伏せ字	NOUN	名詞-普通名詞-一般	N	20	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,伏せ字,伏字,伏字,フセジ,,,フセジ,フセジ,伏せ字
+19	で	で	ADP	助詞-格助詞	ADP	18	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+20	紹介	紹介	VERB	名詞-普通名詞-サ変可能	V	23	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,紹介,紹介,紹介,ショーカイ,,,ショウカイ,ショウカイスル,紹介する
+21	さ	為る	AUX	動詞-非自立可能-サ行変格	V	20	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,さ,する,サ,,,スル,ショウカイスル,紹介する
+22	れる	れる	AUX	助動詞-助動詞-レル	V	20	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れる,れる,レル,,,レル,レル,れる
+23	こと	事	NOUN	名詞-普通名詞-一般	N	25	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,事,こと,こと,コト,,,コト,コト,事
+24	が	が	ADP	助詞-格助詞	ADP	23	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+25	多い	多い	ADJ	形容詞-一般-形容詞	ADJ	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=形容詞-一般-形容詞|SpaceAfter=No|UnidicInfo=,多い,多い,多い,オーイ,,,オオイ,オオイ,多い
+26	。	。	PUNCT	補助記号-句点	_	25	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1683
+# sent_id = train-s1683
+# text = お洒落な友人夫婦。
+1	お洒落	御洒落	ADJ	名詞-普通名詞-サ変形状詞可能	ADJ	4	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,御洒落,お洒落,お洒落,オシャレ,,,オシャレ,オシャレ,御洒落
+2	な	だ	AUX	助動詞-助動詞-ダ	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No|UnidicInfo=,だ,な,だ,ナ,,,ダ,ダ,だ
+3	友人	友人	NOUN	名詞-普通名詞-一般	N	4	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,友人,友人,友人,ユージン,,,ユウジン,ユウジンフウフ,友人夫婦
+4	夫婦	夫婦	NOUN	名詞-普通名詞-一般	N	0	root	_	BunsetuBILabel=I|BunsetuPositionType=ROOT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,夫婦,夫婦,夫婦,フーフ,,,フウフ,ユウジンフウフ,友人夫婦
+5	。	。	PUNCT	補助記号-句点	_	4	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1684
+# sent_id = train-s1684
+# text = IBM PC/AT以来のメジャープラットフォームだとまで評されたものである。
+1	IBM	IBM	PROPN	名詞-固有名詞-一般	PROPN	5	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|UnidicInfo=,ＩＢＭ,IBM,IBM,アイビーエム,,,アイビーエム,アイビーエムピーシーエーティーイライ,IBMPC/AT以来
+2	PC	PC	NOUN	名詞-普通名詞-一般	N	5	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ＰＣ,PC,PC,ピーシー,,,ピーシー,アイビーエムピーシーエーティーイライ,IBMPC/AT以来
+3	/	/	SYM	補助記号-一般	_	5	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,/,/,/,,,,,アイビーエムピーシーエーティーイライ,IBMPC/AT以来
+4	AT	AT	NOUN	名詞-普通名詞-一般	N	5	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ＡＴ,AT,AT,エーティー,,,エーティー,アイビーエムピーシーエーティーイライ,IBMPC/AT以来
+5	以来	以来	NOUN	名詞-普通名詞-副詞可能	N	8	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,以来,以来,以来,イライ,,,イライ,アイビーエムピーシーエーティーイライ,IBMPC/AT以来
+6	の	の	ADP	助詞-格助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+7	メジャー	メジャー	NOUN	名詞-普通名詞-形状詞可能	N	8	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,メジャー,メジャー,メジャー,メジャー,,,メジャー,メジャープラットホーム,メジャープラットホーム
+8	プラットフォーム	プラットホーム	NOUN	名詞-普通名詞-一般	N	12	advcl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,プラットホーム,プラットフォーム,プラットフォーム,プラットフォーム,,,プラットフォーム,メジャープラットホーム,メジャープラットホーム
+9	だ	だ	AUX	助動詞-助動詞-ダ	V	8	cop	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No|UnidicInfo=,だ,だ,だ,ダ,,,ダ,ダ,だ
+10	と	と	ADP	助詞-格助詞	ADP	8	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,ト,と
+11	まで	まで	ADP	助詞-副助詞	ADP	8	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,まで,まで,まで,マデ,,,マデ,マデ,まで
+12	評さ	評する	VERB	動詞-一般-五段-サ行	V	15	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-サ行|SpaceAfter=No|UnidicInfo=,評する,評さ,評す,ヒョーサ,,,ヒョウス,ヒョウス,評す
+13	れ	れる	AUX	助動詞-助動詞-レル	V	12	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れ,れる,レ,,,レル,レル,れる
+14	た	た	AUX	助動詞-助動詞-タ	V	12	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+15	もの	物	NOUN	名詞-普通名詞-サ変可能	N	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,物,もの,もの,モノ,,,モノ,モノ,物
+16	で	だ	AUX	助動詞-助動詞-ダ	V	15	cop	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,だ,で,だ,デ,,,ダ,デアル,である
+17	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	16	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,デアル,である
+18	。	。	PUNCT	補助記号-句点	_	15	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1685
+# sent_id = train-s1685
+# text = 全国一斉の特区申請は7月の全国知事会で橋下知事が提案し、各知事が次々に賛同。
+1	全国	全国	NOUN	名詞-普通名詞-一般	N	2	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,全国,全国,全国,ゼンコク,,,ゼンコク,ゼンコクイッセイ,全国一斉
+2	一斉	一斉	NOUN	名詞-普通名詞-一般	N	5	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,一斉,一斉,一斉,イッセー,,,イッセイ,ゼンコクイッセイ,全国一斉
+3	の	の	ADP	助詞-格助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+4	特区	特区	NOUN	名詞-普通名詞-一般	N	5	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,特区,特区,特区,トック,,,トック,トックシンセイ,特区申請
+5	申請	申請	NOUN	名詞-普通名詞-サ変可能	N	17	nsubj:outer	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,申請,申請,申請,シンセー,,,シンセイ,トックシンセイ,特区申請
+6	は	は	ADP	助詞-係助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+7	7	7	NUM	名詞-数詞	NUM	8	nummod	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,七,7,7,シチ,,,シチ,シチガツ,7月
+8	月	月	NOUN	名詞-普通名詞-助数詞可能	N	12	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,月,月,月,ガツ,,,ガツ,シチガツ,7月
+9	の	の	ADP	助詞-格助詞	ADP	8	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+10	全国	全国	NOUN	名詞-普通名詞-一般	N	12	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,全国,全国,全国,ゼンコク,,,ゼンコク,ゼンコクチジカイ,全国知事会
+11	知事	知事	NOUN	名詞-普通名詞-一般	N	12	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,知事,知事,知事,チジ,,,チジ,ゼンコクチジカイ,全国知事会
+12	会	会	NOUN	名詞-普通名詞-一般	N	17	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,会,会,会,カイ,,,カイ,ゼンコクチジカイ,全国知事会
+13	で	で	ADP	助詞-格助詞	ADP	12	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+14	橋下	橋下	PROPN	名詞-固有名詞-人名-姓	PROPN	15	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,ハシモト,橋下,橋下,ハシモト,,,ハシモト,ハシモトチジ,橋下知事
+15	知事	知事	NOUN	名詞-普通名詞-一般	N	17	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,知事,知事,知事,チジ,,,チジ,ハシモトチジ,橋下知事
+16	が	が	ADP	助詞-格助詞	ADP	15	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+17	提案	提案	VERB	名詞-普通名詞-サ変可能	V	25	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,提案,提案,提案,テーアン,,,テイアン,テイアンスル,提案する
+18	し	為る	AUX	動詞-非自立可能-サ行変格	V	17	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,テイアンスル,提案する
+19	、	、	PUNCT	補助記号-読点	_	17	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+20	各	各	NOUN	接頭辞	N	21	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,各,各,各,カク,,,カク,カクチジ,各知事
+21	知事	知事	NOUN	名詞-普通名詞-一般	N	25	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,知事,知事,知事,チジ,,,チジ,カクチジ,各知事
+22	が	が	ADP	助詞-格助詞	ADP	21	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+23	次々	次々	ADV	副詞	ADV	25	advmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,次々,次々,次々,ツギツギ,,,ツギツギ,ツギツギ,次々
+24	に	に	ADP	助詞-格助詞	ADP	23	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+25	賛同	賛同	NOUN	名詞-普通名詞-サ変可能	N	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,賛同,賛同,賛同,サンドー,,,サンドウ,サンドウ,賛同
+26	。	。	PUNCT	補助記号-句点	_	25	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1686
+# sent_id = train-s1686
+# text = 笑顔を絶やさない学園の園長であり、ソフィアの祖父。
+1	笑顔	笑顔	NOUN	名詞-普通名詞-一般	N	3	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,笑顔,笑顔,笑顔,エガオ,,,エガオ,エガオ,笑顔
+2	を	を	ADP	助詞-格助詞	ADP	1	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+3	絶やさ	絶やす	VERB	動詞-一般-五段-サ行	V	7	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-サ行|SpaceAfter=No|UnidicInfo=,絶やす,絶やさ,絶やす,タヤサ,,,タヤス,タヤス,絶やす
+4	ない	ない	AUX	助動詞-助動詞-ナイ	V;NEG	3	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ナイ|SpaceAfter=No|UnidicInfo=,ない,ない,ない,ナイ,,,ナイ,ナイ,ない
+5	学園	学園	NOUN	名詞-普通名詞-一般	N	7	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,学園,学園,学園,ガクエン,,,ガクエン,ガクエン,学園
+6	の	の	ADP	助詞-格助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+7	園長	園長	NOUN	名詞-普通名詞-一般	N	13	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,園長,園長,園長,エンチョー,,,エンチョウ,エンチョウ,園長
+8	で	だ	AUX	助動詞-助動詞-ダ	V	7	cop	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,だ,で,だ,デ,,,ダ,デアル,である
+9	あり	有る	VERB	動詞-非自立可能-五段-ラ行	V	8	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,あり,ある,アリ,,,アル,デアル,である
+10	、	、	PUNCT	補助記号-読点	_	7	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+11	ソフィア	ソフィア	PROPN	名詞-固有名詞-人名-一般	PROPN	13	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,ソフィア,ソフィア,ソフィア,ソフィア,,,ソフィア,ソフィア,ソフィア
+12	の	の	ADP	助詞-格助詞	ADP	11	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+13	祖父	祖父	NOUN	名詞-普通名詞-一般	N	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,祖父,祖父,祖父,ソフ,,,ソフ,ソフ,祖父
+14	。	。	PUNCT	補助記号-句点	_	13	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1687
+# sent_id = train-s1687
+# text = 吸収したFPを消費して電撃を繰り出す。
+1	吸収	吸収	VERB	名詞-普通名詞-サ変可能	V	4	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,吸収,吸収,吸収,キューシュー,,,キュウシュウ,キュウシュウスル,吸収する
+2	し	為る	AUX	動詞-非自立可能-サ行変格	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,キュウシュウスル,吸収する
+3	た	た	AUX	助動詞-助動詞-タ	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+4	FP	FP	NOUN	名詞-普通名詞-一般	N	6	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ＦＰ,FP,FP,エフピー,,,エフピー,エフピー,FP
+5	を	を	ADP	助詞-格助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+6	消費	消費	VERB	名詞-普通名詞-サ変可能	V	11	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,消費,消費,消費,ショーヒ,,,ショウヒ,ショウヒスル,消費する
+7	し	為る	AUX	動詞-非自立可能-サ行変格	V	6	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,ショウヒスル,消費する
+8	て	て	SCONJ	助詞-接続助詞	CONJ	6	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テ,て
+9	電撃	電撃	NOUN	名詞-普通名詞-一般	N	11	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,電撃,電撃,電撃,デンゲキ,,,デンゲキ,デンゲキ,電撃
+10	を	を	ADP	助詞-格助詞	ADP	9	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+11	繰り出す	繰り出す	VERB	動詞-一般-五段-サ行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-五段-サ行|SpaceAfter=No|UnidicInfo=,繰り出す,繰り出す,繰り出す,クリダス,,,クリダス,クリダス,繰り出す
+12	。	。	PUNCT	補助記号-句点	_	11	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1688
+# sent_id = train-s1688
+# text = しかし、その具体的内容は様々であり、いかにして離婚をさせるかがメインになっている作品もあれば、祐介たちがその依頼の背景にある、より大きな事件に巻き込まれることもしばしばである。
+1	しかし	然し	CCONJ	接続詞	CONJ	49	cc	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=接続詞|SpaceAfter=No|UnidicInfo=,然し,しかし,しかし,シカシ,,,シカシ,シカシ,然し
+2	、	、	PUNCT	補助記号-読点	_	1	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+3	その	其の	DET	連体詞	DET	4	det	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=連体詞|SpaceAfter=No|UnidicInfo=,其の,その,その,ソノ,,,ソノ,ソノ,其の
+4	具体	具体	NOUN	名詞-普通名詞-一般	N	6	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,具体,具体,具体,グタイ,,,グタイ,グタイテキナイヨウ,具体的内容
+5	的	的	PART	接尾辞-形状詞的	PART	4	mark	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,的,的,的,テキ,,,テキ,グタイテキナイヨウ,具体的内容
+6	内容	内容	NOUN	名詞-普通名詞-一般	N	8	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,内容,内容,内容,ナイヨー,,,ナイヨウ,グタイテキナイヨウ,具体的内容
+7	は	は	ADP	助詞-係助詞	ADP	6	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+8	様々	様々	ADJ	形状詞-一般	ADJ	28	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,様々,様々,様々,サマザマ,,,サマザマ,サマザマ,様々
+9	で	だ	AUX	助動詞-助動詞-ダ	V	8	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,だ,で,だ,デ,,,ダ,デアル,である
+10	あり	有る	VERB	動詞-非自立可能-五段-ラ行	V	9	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,あり,ある,アリ,,,アル,デアル,である
+11	、	、	PUNCT	補助記号-読点	_	8	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+12	いかに	如何に	ADV	副詞	ADV	17	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,如何に,いかに,いかに,イカニ,,,イカニ,イカニスル,如何にする
+13	し	為る	AUX	動詞-非自立可能-サ行変格	V	12	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,イカニスル,如何にする
+14	て	て	SCONJ	助詞-接続助詞	CONJ	12	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テ,て
+15	離婚	離婚	NOUN	名詞-普通名詞-サ変可能	N	17	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,離婚,離婚,離婚,リコン,,,リコン,リコン,離婚
+16	を	を	ADP	助詞-格助詞	ADP	15	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+17	さ	為る	VERB	動詞-非自立可能-サ行変格	V	23	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,さ,する,サ,,,スル,スル,する
+18	せる	せる	AUX	助動詞-下一段-サ行	V	17	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-下一段-サ行|SpaceAfter=No|UnidicInfo=,せる,せる,せる,セル,,,セル,セル,せる
+19	か	か	PART	助詞-副助詞	PART	17	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,か,か,か,カ,,,カ,カ,か
+20	が	が	ADP	助詞-格助詞	ADP	17	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+21	メイン	メーン	NOUN	名詞-普通名詞-一般	N	23	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,メーン,メイン,メイン,メイン,,,メイン,メイン,メイン
+22	に	に	ADP	助詞-格助詞	ADP	21	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+23	なっ	成る	VERB	動詞-非自立可能-五段-ラ行	V	26	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|PrevUDLemma=なる|SpaceAfter=No|UnidicInfo=,成る,なっ,なる,ナッ,,,ナル,ナル,成る
+24	て	て	SCONJ	助詞-接続助詞	CONJ	23	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-上一段-ア行|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テイル,ている
+25	いる	居る	VERB	動詞-非自立可能-上一段-ア行	V	24	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-上一段-ア行|PrevUDLemma=いる|SpaceAfter=No|UnidicInfo=,居る,いる,いる,イル,,,イル,テイル,ている
+26	作品	作品	NOUN	名詞-普通名詞-一般	N	28	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,作品,作品,作品,サクヒン,,,サクヒン,サクヒン,作品
+27	も	も	ADP	助詞-係助詞	ADP	26	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+28	あれ	有る	VERB	動詞-非自立可能-五段-ラ行	V	45	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,あれ,ある,アレ,,,アル,アル,有る
+29	ば	ば	SCONJ	助詞-接続助詞	CONJ	28	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,ば,ば,ば,バ,,,バ,バ,ば
+30	、	、	PUNCT	補助記号-読点	_	28	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+31	祐介	祐介	PROPN	名詞-固有名詞-人名-名	PROPN	32	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ユウスケ,祐介,祐介,ユースケ,,,ユウスケ,ユウスケタチ,祐介達
+32	たち	達	NOUN	接尾辞-名詞的-一般	N	45	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,達,たち,たち,タチ,,,タチ,ユウスケタチ,祐介達
+33	が	が	ADP	助詞-格助詞	ADP	32	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+34	その	其の	DET	連体詞	DET	35	det	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=連体詞|SpaceAfter=No|UnidicInfo=,其の,その,その,ソノ,,,ソノ,ソノ,其の
+35	依頼	依頼	NOUN	名詞-普通名詞-サ変可能	N	37	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,依頼,依頼,依頼,イライ,,,イライ,イライ,依頼
+36	の	の	ADP	助詞-格助詞	ADP	35	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+37	背景	背景	NOUN	名詞-普通名詞-一般	N	39	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,背景,背景,背景,ハイケー,,,ハイケイ,ハイケイ,背景
+38	に	に	ADP	助詞-格助詞	ADP	37	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+39	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	43	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,アル,有る
+40	、	、	PUNCT	補助記号-読点	_	39	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+41	より	より	ADV	副詞	ADV	42	advmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,より,より,より,ヨリ,,,ヨリ,ヨリ,より
+42	大きな	大きな	ADJ	連体詞	ADJ	43	amod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=連体詞|SpaceAfter=No|UnidicInfo=,大きな,大きな,大きな,オーキナ,,,オオキナ,オオキナ,大きな
+43	事件	事件	NOUN	名詞-普通名詞-一般	N	45	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,事件,事件,事件,ジケン,,,ジケン,ジケン,事件
+44	に	に	ADP	助詞-格助詞	ADP	43	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+45	巻き込ま	巻き込む	VERB	動詞-一般-五段-マ行	V	47	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-マ行|SpaceAfter=No|UnidicInfo=,巻き込む,巻き込ま,巻き込む,マキコマ,,,マキコム,マキコム,巻き込む
+46	れる	れる	AUX	助動詞-助動詞-レル	V	45	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れる,れる,レル,,,レル,レル,れる
+47	こと	事	NOUN	名詞-普通名詞-一般	N	49	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,事,こと,こと,コト,,,コト,コト,事
+48	も	も	ADP	助詞-係助詞	ADP	47	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+49	しばしば	屡	ADV	副詞	ADV	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,屡,しばしば,しばしば,シバシバ,,,シバシバ,シバシバ,屡
+50	で	だ	AUX	助動詞-助動詞-ダ	V	49	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,だ,で,だ,デ,,,ダ,デアル,である
+51	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	50	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,デアル,である
+52	。	。	PUNCT	補助記号-句点	_	49	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1689
+# sent_id = train-s1689
+# text = こだわりのコーヒーと店内で焼かれたパンが食べられます。
+1	こだわり	こだわり	NOUN	名詞-普通名詞-一般	N	3	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,こだわり,こだわり,こだわり,コダワリ,,,コダワリ,コダワリ,こだわり
+2	の	の	ADP	助詞-格助詞	ADP	1	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+3	コーヒー	コーヒー	NOUN	名詞-普通名詞-一般	N	10	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,コーヒー,コーヒー,コーヒー,コーヒー,,,コーヒー,コーヒー,コーヒー
+4	と	と	ADP	助詞-格助詞	ADP	3	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,ト,と
+5	店内	店内	NOUN	名詞-普通名詞-一般	N	7	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,店内,店内,店内,テンナイ,,,テンナイ,テンナイ,店内
+6	で	で	ADP	助詞-格助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+7	焼か	焼く	VERB	動詞-一般-五段-カ行	V	10	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-カ行|SpaceAfter=No|UnidicInfo=,焼く,焼か,焼く,ヤカ,,,ヤク,ヤク,焼く
+8	れ	れる	AUX	助動詞-助動詞-レル	V	7	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れ,れる,レ,,,レル,レル,れる
+9	た	た	AUX	助動詞-助動詞-タ	V	7	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+10	パン	パン	NOUN	名詞-普通名詞-一般	N	12	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,パン,パン,パン,パン,,,パン,パン,パン
+11	が	が	ADP	助詞-格助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+12	食べ	食べる	VERB	動詞-一般-下一段-バ行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-下一段-バ行|SpaceAfter=No|UnidicInfo=,食べる,食べ,食べる,タベ,,,タベル,タベル,食べる
+13	られ	られる	AUX	助動詞-助動詞-レル	V	12	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,られる,られ,られる,ラレ,,,ラレル,ラレル,られる
+14	ます	ます	AUX	助動詞-助動詞-マス	V	12	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-マス|SpaceAfter=No|UnidicInfo=,ます,ます,ます,マス,,,マス,マス,ます
+15	。	。	PUNCT	補助記号-句点	_	12	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1690
+# sent_id = train-s1690
+# text = 特に製造業向けにはCAD/CAMシステムの積極的な提案を行う。
+1	特に	特に	ADV	副詞	ADV	17	advmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,特に,特に,特に,トクニ,,,トクニ,トクニ,特に
+2	製造	製造	NOUN	名詞-普通名詞-サ変可能	N	4	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,製造,製造,製造,セーゾー,,,セイゾウ,セイゾウギョウムケ,製造業向け
+3	業	業	NOUN	接尾辞-名詞的-一般	N	4	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,業,業,業,ギョー,,,ギョウ,セイゾウギョウムケ,製造業向け
+4	向け	向け	NOUN	接尾辞-名詞的-一般	N	17	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,向け,向け,向け,ムケ,,,ムケ,セイゾウギョウムケ,製造業向け
+5	に	に	ADP	助詞-格助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+6	は	は	ADP	助詞-係助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+7	CAD	CAD	NOUN	名詞-普通名詞-一般	N	10	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ＣＡＤ,CAD,CAD,キャド,,,キャド,キャドキャムシステム,CAD/CAMシステム
+8	/	/	SYM	補助記号-一般	_	10	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,/,/,/,,,,,キャドキャムシステム,CAD/CAMシステム
+9	CAM	CAM	NOUN	名詞-普通名詞-一般	N	10	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ＣＡＭ,CAM,CAM,キャム,,,キャム,キャドキャムシステム,CAD/CAMシステム
+10	システム	システム	NOUN	名詞-普通名詞-一般	N	15	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,システム,システム,システム,システム,,,システム,キャドキャムシステム,CAD/CAMシステム
+11	の	の	ADP	助詞-格助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+12	積極	積極	NOUN	名詞-普通名詞-一般	N	15	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,積極,積極,積極,セッキョク,,,セッキョク,セッキョクテキ,積極的
+13	的	的	PART	接尾辞-形状詞的	PART	12	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,的,的,的,テキ,,,テキ,セッキョクテキ,積極的
+14	な	だ	AUX	助動詞-助動詞-ダ	V	12	cop	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No|UnidicInfo=,だ,な,だ,ナ,,,ダ,ダ,だ
+15	提案	提案	NOUN	名詞-普通名詞-サ変可能	N	17	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,提案,提案,提案,テーアン,,,テイアン,テイアン,提案
+16	を	を	ADP	助詞-格助詞	ADP	15	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+17	行う	行う	VERB	動詞-一般-五段-ワア行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-五段-ワア行|SpaceAfter=No|UnidicInfo=,行う,行う,行う,オコナウ,,,オコナウ,オコナウ,行う
+18	。	。	PUNCT	補助記号-句点	_	17	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1691
+# sent_id = train-s1691
+# text = このままの民主党では,みなさんが働いて努力して一生懸命お国に納めたお金も無駄に使われてしまうというのがわかるから,悔しいんです。
+1	この	此の	DET	連体詞	DET	2	det	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=連体詞|SpaceAfter=No|UnidicInfo=,此の,この,この,コノ,,,コノ,コノ,此の
+2	まま	侭	NOUN	名詞-普通名詞-副詞可能	N	5	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,侭,まま,まま,ママ,,,ママ,ママ,侭
+3	の	の	ADP	助詞-格助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+4	民主	民主	NOUN	名詞-普通名詞-一般	N	5	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-一般|SpaceAfter=No|UnidicInfo=,民主,民主,民主,ミンシュ,,,ミンシュ,ミンシュトウ,民主党
+5	党	党	NOUN	接尾辞-名詞的-一般	N	29	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-一般|SpaceAfter=No|UnidicInfo=,党,党,党,トー,,,トウ,ミンシュトウ,民主党
+6	で	で	ADP	助詞-格助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+7	は	は	ADP	助詞-係助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+8	,	,	PUNCT	補助記号-読点	_	5	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+9	みな	皆	NOUN	名詞-普通名詞-副詞可能	N	10	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,皆,みな,みな,ミナ,,,ミナ,ミナサン,皆さん
+10	さん	さん	NOUN	接尾辞-名詞的-一般	N	12	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,さん,さん,さん,サン,,,サン,ミナサン,皆さん
+11	が	が	ADP	助詞-格助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+12	働い	働く	VERB	動詞-一般-五段-カ行	V	14	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-カ行|SpaceAfter=No|UnidicInfo=,働く,働い,働く,ハタライ,,,ハタラク,ハタラク,働く
+13	て	て	SCONJ	助詞-接続助詞	CONJ	12	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テ,て
+14	努力	努力	VERB	名詞-普通名詞-サ変可能	V	22	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,努力,努力,努力,ドリョク,,,ドリョク,ドリョクスル,努力する
+15	し	為る	AUX	動詞-非自立可能-サ行変格	V	14	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,ドリョクスル,努力する
+16	て	て	SCONJ	助詞-接続助詞	CONJ	14	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テ,て
+17	一生	一生	ADV	名詞-普通名詞-副詞可能	ADV	18	advmod	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,一生,一生,一生,イッショー,,,イッショウ,イッショウケンメイ,一生懸命
+18	懸命	懸命	ADJ	形状詞-一般	ADJ	22	advcl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,懸命,懸命,懸命,ケンメー,,,ケンメイ,イッショウケンメイ,一生懸命
+19	お	御	NOUN	接頭辞	N	20	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,御,お,お,オ,,,オ,オクニ,御国
+20	国	国	NOUN	名詞-普通名詞-一般	N	22	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,国,国,国,クニ,,,クニ,オクニ,御国
+21	に	に	ADP	助詞-格助詞	ADP	20	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+22	納め	収める	VERB	動詞-一般-下一段-マ行	V	25	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-下一段-マ行|SpaceAfter=No|UnidicInfo=,収める,納め,納める,オサメ,,,オサメル,オサメル,収める
+23	た	た	AUX	助動詞-助動詞-タ	V	22	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+24	お	御	NOUN	接頭辞	N	25	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,御,お,お,オ,,,オ,オカネ,御金
+25	金	金	NOUN	名詞-普通名詞-一般	N	29	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,金,金,金,カネ,,,カネ,オカネ,御金
+26	も	も	ADP	助詞-係助詞	ADP	25	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+27	無駄	無駄	ADJ	名詞-普通名詞-形状詞可能	ADJ	29	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,無駄,無駄,無駄,ムダ,,,ムダ,ムダ,無駄
+28	に	だ	AUX	助動詞-助動詞-ダ	V	27	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No|UnidicInfo=,だ,に,だ,ニ,,,ダ,ダ,だ
+29	使わ	使う	VERB	動詞-一般-五段-ワア行	V	37	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ワア行|SpaceAfter=No|UnidicInfo=,使う,使わ,使う,ツカワ,,,ツカウ,ツカウ,使う
+30	れ	れる	AUX	助動詞-助動詞-レル	V	29	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れ,れる,レ,,,レル,レル,れる
+31	て	て	SCONJ	助詞-接続助詞	CONJ	29	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ワア行|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テシマウ,てしまう
+32	しまう	仕舞う	VERB	動詞-非自立可能-五段-ワア行	V	31	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助動詞-五段-ワア行|PrevUDLemma=しまう|SpaceAfter=No|UnidicInfo=,仕舞う,しまう,しまう,シマウ,,,シマウ,テシマウ,てしまう
+33	と	と	ADP	助詞-格助詞	ADP	29	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,トイウ,という
+34	いう	言う	VERB	動詞-一般-五段-ワア行	V	33	fixed	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,言う,いう,いう,イウ,,,イウ,トイウ,という
+35	の	の	SCONJ	助詞-準体助詞	CONJ	29	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-準体助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+36	が	が	ADP	助詞-格助詞	ADP	29	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+37	わかる	分かる	VERB	動詞-一般-五段-ラ行	V	40	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|SpaceAfter=No|UnidicInfo=,分かる,わかる,わかる,ワカル,,,ワカル,ワカル,分かる
+38	から	から	SCONJ	助詞-接続助詞	CONJ	37	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,から,から,から,カラ,,,カラ,カラ,から
+39	,	,	PUNCT	補助記号-読点	_	37	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+40	悔しい	悔しい	ADJ	形容詞-一般-形容詞	ADJ	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=形容詞-一般-形容詞|SpaceAfter=No|UnidicInfo=,悔しい,悔しい,悔しい,クヤシー,,,クヤシイ,クヤシイ,悔しい
+41	ん	の	SCONJ	助詞-準体助詞	CONJ	40	mark	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-デス|SpaceAfter=No|UnidicInfo=,の,ん,ん,ン,,,ン,ノデス,のです
+42	です	です	AUX	助動詞-助動詞-デス	V	41	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助動詞-助動詞-デス|PrevUDLemma=だ|SpaceAfter=No|UnidicInfo=,です,です,です,デス,,,デス,ノデス,のです
+43	。	。	PUNCT	補助記号-句点	_	40	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1692
+# sent_id = train-s1692
+# text = 主人公の場合、全て宝箱からの入手やイベントなどで覚える事になる。
+1	主人	主人	NOUN	名詞-普通名詞-一般	N	2	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,主人,主人,主人,シュジン,,,シュジン,シュジンコウ,主人公
+2	公	公	NOUN	接尾辞-名詞的-一般	N	4	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,公,公,公,コー,,,コウ,シュジンコウ,主人公
+3	の	の	ADP	助詞-格助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+4	場合	場合	NOUN	名詞-普通名詞-副詞可能	N	15	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,場合,場合,場合,バアイ,,,バアイ,バアイ,場合
+5	、	、	PUNCT	補助記号-読点	_	4	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+6	全て	全て	ADV	名詞-普通名詞-副詞可能	ADV	15	advmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,全て,全て,全て,スベテ,,,スベテ,スベテ,全て
+7	宝箱	宝箱	NOUN	名詞-普通名詞-一般	N	10	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,宝箱,宝箱,宝箱,タカラバコ,,,タカラバコ,タカラバコ,宝箱
+8	から	から	ADP	助詞-格助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,から,から,から,カラ,,,カラ,カラ,から
+9	の	の	ADP	助詞-格助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+10	入手	入手	NOUN	名詞-普通名詞-サ変可能	N	12	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,入手,入手,入手,ニューシュ,,,ニュウシュ,ニュウシュ,入手
+11	や	や	ADP	助詞-副助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,や,や,や,ヤ,,,ヤ,ヤ,や
+12	イベント	イベント	NOUN	名詞-普通名詞-一般	N	15	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,イベント,イベント,イベント,イベント,,,イベント,イベント,イベント
+13	など	など	ADP	助詞-副助詞	ADP	12	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,など,など,など,ナド,,,ナド,ナド,など
+14	で	で	ADP	助詞-格助詞	ADP	12	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+15	覚える	覚える	VERB	動詞-一般-下一段-ア行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-下一段-ア行|SpaceAfter=No|UnidicInfo=,覚える,覚える,覚える,オボエル,,,オボエル,オボエル,覚える
+16	事	事	NOUN	名詞-普通名詞-一般	N	15	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,事,事,事,コト,,,コト,コトニナル,ことになる
+17	に	に	ADP	助詞-格助詞	ADP	16	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,コトニナル,ことになる
+18	なる	成る	VERB	動詞-非自立可能-五段-ラ行	V	16	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=なる|SpaceAfter=No|UnidicInfo=,成る,なる,なる,ナル,,,ナル,コトニナル,ことになる
+19	。	。	PUNCT	補助記号-句点	_	15	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1693
+# sent_id = train-s1693
+# text = 守谷香氏は,私との家庭生活よりもMASAYA氏と共に暮らすことを選び,これまで毎日,現在に至るまで10年間,那須で生活しています。
+1	守谷	守谷	PROPN	名詞-固有名詞-人名-姓	PROPN	3	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,モリヤ,守谷,守谷,モリヤ,,,モリヤ,モリヤカオリシ,守谷香氏
+2	香	香	PROPN	名詞-固有名詞-人名-名	PROPN	3	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,カオリ,香,香,カオリ,,,カオリ,モリヤカオリシ,守谷香氏
+3	氏	氏	NOUN	接尾辞-名詞的-一般	N	36	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,氏,氏,氏,シ,,,シ,モリヤカオリシ,守谷香氏
+4	は	は	ADP	助詞-係助詞	ADP	3	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+5	,	,	PUNCT	補助記号-読点	_	3	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+6	私	私	PRON	代名詞	PRO	10	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=代名詞|SpaceAfter=No|UnidicInfo=,私,私,私,ワタシ,,,ワタシ,ワタシ,私
+7	と	と	ADP	助詞-格助詞	ADP	6	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,ト,と
+8	の	の	ADP	助詞-格助詞	ADP	6	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+9	家庭	家庭	NOUN	名詞-普通名詞-一般	N	10	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,家庭,家庭,家庭,カテー,,,カテイ,カテイセイカツ,家庭生活
+10	生活	生活	NOUN	名詞-普通名詞-サ変可能	N	21	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,生活,生活,生活,セーカツ,,,セイカツ,カテイセイカツ,家庭生活
+11	より	より	ADP	助詞-格助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,より,より,より,ヨリ,,,ヨリ,ヨリ,より
+12	も	も	ADP	助詞-係助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+13	MASAYA	MASAYA	PROPN	名詞-固有名詞-人名-一般	PROPN	14	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,マサヤ,MASAYA,MASAYA,マサヤ,,,マサヤ,マサヤシ,MASAYA氏
+14	氏	氏	NOUN	接尾辞-名詞的-一般	N	18	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-一般|SpaceAfter=No|UnidicInfo=,氏,氏,氏,シ,,,シ,マサヤシ,MASAYA氏
+15	と	と	ADP	助詞-格助詞	ADP	14	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,ト,と
+16	共	共	NOUN	名詞-普通名詞-一般	N	18	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,共,共,共,トモ,,,トモ,トモ,共
+17	に	に	ADP	助詞-格助詞	ADP	16	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+18	暮らす	暮らす	VERB	動詞-一般-五段-サ行	V	19	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-サ行|SpaceAfter=No|UnidicInfo=,暮らす,暮らす,暮らす,クラス,,,クラス,クラス,暮らす
+19	こと	事	NOUN	名詞-普通名詞-一般	N	21	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,事,こと,こと,コト,,,コト,コト,事
+20	を	を	ADP	助詞-格助詞	ADP	19	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+21	選び	選ぶ	VERB	動詞-一般-五段-バ行	V	36	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-バ行|SpaceAfter=No|UnidicInfo=,選ぶ,選び,選ぶ,エラビ,,,エラブ,エラブ,選ぶ
+22	,	,	PUNCT	補助記号-読点	_	21	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+23	これ	此れ	PRON	代名詞	PRO	36	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=代名詞|SpaceAfter=No|UnidicInfo=,此れ,これ,これ,コレ,,,コレ,コレ,此れ
+24	まで	まで	ADP	助詞-副助詞	ADP	23	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,まで,まで,まで,マデ,,,マデ,マデ,まで
+25	毎日	毎日	ADV	名詞-普通名詞-副詞可能	ADV	36	advmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=副詞|SpaceAfter=No|UnidicInfo=,毎日,毎日,毎日,マイニチ,,,マイニチ,マイニチ,毎日
+26	,	,	PUNCT	補助記号-読点	_	25	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+27	現在	現在	NOUN	名詞-普通名詞-副詞可能	N	36	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,現在,現在,現在,ゲンザイ,,,ゲンザイ,ゲンザイ,現在
+28	に	に	ADP	助詞-格助詞	ADP	27	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニイタルマデ,に至るまで
+29	至る	至る	VERB	動詞-一般-五段-ラ行	V	28	fixed	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,至る,至る,至る,イタル,,,イタル,ニイタルマデ,に至るまで
+30	まで	まで	ADP	助詞-副助詞	ADP	28	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,まで,まで,まで,マデ,,,マデ,ニイタルマデ,に至るまで
+31	10	10	NUM	名詞-数詞	NUM	32	nummod	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,十,10,10,ジュー,,,ジュウ,ジュウネンカン,10年間
+32	年間	年間	NOUN	名詞-普通名詞-助数詞可能	N	36	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,年間,年間,年間,ネンカン,,,ネンカン,ジュウネンカン,10年間
+33	,	,	PUNCT	補助記号-読点	_	32	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,，,,,,,,,,，
+34	那須	那須	PROPN	名詞-固有名詞-地名-一般	PROPN	36	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-固有名詞-地名-一般|SpaceAfter=No|UnidicInfo=,ナス,那須,那須,ナス,,,ナス,ナス,那須
+35	で	で	ADP	助詞-格助詞	ADP	34	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+36	生活	生活	VERB	名詞-普通名詞-サ変可能	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,生活,生活,生活,セーカツ,,,セイカツ,セイカツスル,生活する
+37	し	為る	AUX	動詞-非自立可能-サ行変格	V	36	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,セイカツスル,生活する
+38	て	て	SCONJ	助詞-接続助詞	CONJ	36	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-上一段-ア行|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テイル,ている
+39	い	居る	VERB	動詞-非自立可能-上一段-ア行	V	38	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助動詞-上一段-ア行|PrevUDLemma=いる|SpaceAfter=No|UnidicInfo=,居る,い,いる,イ,,,イル,テイル,ている
+40	ます	ます	AUX	助動詞-助動詞-マス	V	36	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-マス|SpaceAfter=No|UnidicInfo=,ます,ます,ます,マス,,,マス,マス,ます
+41	。	。	PUNCT	補助記号-句点	_	36	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1694
+# sent_id = train-s1694
+# text = 死体解剖では薬物もアルコールも検出されなかったが、彼の部屋からはアメリカの大量殺人事件に関する資料が見つかった。
+1	死体	死体	NOUN	名詞-普通名詞-一般	N	2	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,死体,死体,死体,シタイ,,,シタイ,シタイカイボウ,死体解剖
+2	解剖	解剖	NOUN	名詞-普通名詞-サ変可能	N	9	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,解剖,解剖,解剖,カイボー,,,カイボウ,シタイカイボウ,死体解剖
+3	で	で	ADP	助詞-格助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,で,で,で,デ,,,デ,デ,で
+4	は	は	ADP	助詞-係助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+5	薬物	薬物	NOUN	名詞-普通名詞-一般	N	7	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,薬物,薬物,薬物,ヤクブツ,,,ヤクブツ,ヤクブツ,薬物
+6	も	も	ADP	助詞-係助詞	ADP	5	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+7	アルコール	アルコール	NOUN	名詞-普通名詞-一般	N	9	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,アルコール,アルコール,アルコール,アルコール,,,アルコール,アルコール,アルコール
+8	も	も	ADP	助詞-係助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+9	検出	検出	VERB	名詞-普通名詞-サ変可能	V	30	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,検出,検出,検出,ケンシュツ,,,ケンシュツ,ケンシュツスル,検出する
+10	さ	為る	AUX	動詞-非自立可能-サ行変格	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,さ,する,サ,,,スル,ケンシュツスル,検出する
+11	れ	れる	AUX	助動詞-助動詞-レル	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-レル|SpaceAfter=No|UnidicInfo=,れる,れ,れる,レ,,,レル,レル,れる
+12	なかっ	ない	AUX	助動詞-助動詞-ナイ	V;NEG	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-ナイ|SpaceAfter=No|UnidicInfo=,ない,なかっ,ない,ナカッ,,,ナイ,ナイ,ない
+13	た	た	AUX	助動詞-助動詞-タ	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+14	が	が	SCONJ	助詞-接続助詞	CONJ	9	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-接続助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+15	、	、	PUNCT	補助記号-読点	_	9	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+16	彼	彼	PRON	代名詞	PRO	18	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=代名詞|SpaceAfter=No|UnidicInfo=,彼,彼,彼,カレ,,,カレ,カレ,彼
+17	の	の	ADP	助詞-格助詞	ADP	16	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+18	部屋	部屋	NOUN	名詞-普通名詞-一般	N	30	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,部屋,部屋,部屋,ヘヤ,,,ヘヤ,ヘヤ,部屋
+19	から	から	ADP	助詞-格助詞	ADP	18	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,から,から,から,カラ,,,カラ,カラ,から
+20	は	は	ADP	助詞-係助詞	ADP	18	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+21	アメリカ	アメリカ	PROPN	名詞-固有名詞-地名-国	PROPN	25	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-固有名詞-地名-国|SpaceAfter=No|UnidicInfo=,アメリカ,アメリカ,アメリカ,アメリカ,,,アメリカ,アメリカ,アメリカ
+22	の	の	ADP	助詞-格助詞	ADP	21	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+23	大量	大量	NOUN	名詞-普通名詞-形状詞可能	N	25	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,大量,大量,大量,タイリョー,,,タイリョウ,タイリョウサツジンジケン,大量殺人事件
+24	殺人	殺人	NOUN	名詞-普通名詞-一般	N	25	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,殺人,殺人,殺人,サツジン,,,サツジン,タイリョウサツジンジケン,大量殺人事件
+25	事件	事件	NOUN	名詞-普通名詞-一般	N	28	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,事件,事件,事件,ジケン,,,ジケン,タイリョウサツジンジケン,大量殺人事件
+26	に	に	ADP	助詞-格助詞	ADP	25	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニカンスル,に関する
+27	関する	関する	VERB	動詞-一般-サ行変格	V	26	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,関する,関する,関する,カンスル,,,カンスル,ニカンスル,に関する
+28	資料	資料	NOUN	名詞-普通名詞-一般	N	30	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,資料,資料,資料,シリョー,,,シリョウ,シリョウ,資料
+29	が	が	ADP	助詞-格助詞	ADP	28	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+30	見つかっ	見付かる	VERB	動詞-一般-五段-ラ行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|SpaceAfter=No|UnidicInfo=,見付かる,見つかっ,見つかる,ミツカッ,,,ミツカル,ミツカル,見付かる
+31	た	た	AUX	助動詞-助動詞-タ	V	30	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+32	。	。	PUNCT	補助記号-句点	_	30	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1695
+# sent_id = train-s1695
+# text = 保有する航空機についても、ソノブイや対潜魚雷など対潜装備が不足しており、対潜任務においては十分な能力が発揮できない状態にある。
+1	保有	保有	VERB	名詞-普通名詞-サ変可能	V	4	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,保有,保有,保有,ホユー,,,ホユウ,ホユウスル,保有する
+2	する	為る	AUX	動詞-非自立可能-サ行変格	V	1	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,する,する,スル,,,スル,ホユウスル,保有する
+3	航空	航空	NOUN	名詞-普通名詞-一般	N	4	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,航空,航空,航空,コークー,,,コウクウ,コウクウキ,航空機
+4	機	機	NOUN	名詞-普通名詞-助数詞可能	N	18	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,機,機,機,キ,,,キ,コウクウキ,航空機
+5	に	に	ADP	助詞-格助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニツイテ,について
+6	つい	つく	VERB	動詞-一般-五段-カ行	V	5	fixed	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,つく,つい,つく,ツイ,,,ツク,ニツイテ,について
+7	て	て	SCONJ	助詞-接続助詞	CONJ	5	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,ニツイテ,について
+8	も	も	ADP	助詞-係助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,も,も,も,モ,,,モ,モ,も
+9	、	、	PUNCT	補助記号-読点	_	4	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+10	ソノブイ	ソノブイ	NOUN	名詞-普通名詞-一般	N	13	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ソノブイ,ソノブイ,ソノブイ,ソノブイ,,,ソノブイ,ソノブイ,ソノブイ
+11	や	や	ADP	助詞-副助詞	ADP	10	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,や,や,や,ヤ,,,ヤ,ヤ,や
+12	対潜	対潜	NOUN	名詞-普通名詞-一般	N	13	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,対潜,対潜,対潜,タイセン,,,タイセン,タイセンギョライ,対潜魚雷
+13	魚雷	魚雷	NOUN	名詞-普通名詞-一般	N	16	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,魚雷,魚雷,魚雷,ギョライ,,,ギョライ,タイセンギョライ,対潜魚雷
+14	など	など	ADP	助詞-副助詞	ADP	13	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-副助詞|SpaceAfter=No|UnidicInfo=,など,など,など,ナド,,,ナド,ナド,など
+15	対潜	対潜	NOUN	名詞-普通名詞-一般	N	16	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,対潜,対潜,対潜,タイセン,,,タイセン,タイセンソウビ,対潜装備
+16	装備	装備	NOUN	名詞-普通名詞-サ変可能	N	18	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,装備,装備,装備,ソービ,,,ソウビ,タイセンソウビ,対潜装備
+17	が	が	ADP	助詞-格助詞	ADP	16	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+18	不足	不足	VERB	名詞-普通名詞-サ変形状詞可能	V	38	advcl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,不足,不足,不足,フソク,,,フソク,フソクスル,不足する
+19	し	為る	AUX	動詞-非自立可能-サ行変格	V	18	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,フソクスル,不足する
+20	て	て	SCONJ	助詞-接続助詞	CONJ	18	mark	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助動詞-五段-ラ行|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,テオル,ておる
+21	おり	居る	VERB	動詞-非自立可能-五段-ラ行	V	20	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助動詞-五段-ラ行|PrevUDLemma=いる|SpaceAfter=No|UnidicInfo=,居る,おり,おる,オリ,,,オル,テオル,ておる
+22	、	、	PUNCT	補助記号-読点	_	18	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+23	対潜	対潜	NOUN	名詞-普通名詞-一般	N	24	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,対潜,対潜,対潜,タイセン,,,タイセン,タイセンニンム,対潜任務
+24	任務	任務	NOUN	名詞-普通名詞-一般	N	38	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,任務,任務,任務,ニンム,,,ニンム,タイセンニンム,対潜任務
+25	に	に	ADP	助詞-格助詞	ADP	24	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニオイテ,において
+26	おい	於く	VERB	動詞-一般-五段-カ行	V	25	fixed	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,於く,おい,おく,オイ,,,オク,ニオイテ,において
+27	て	て	SCONJ	助詞-接続助詞	CONJ	25	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,ニオイテ,において
+28	は	は	ADP	助詞-係助詞	ADP	24	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+29	十分	十分	ADJ	形状詞-一般	ADJ	31	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=形状詞-一般|SpaceAfter=No|UnidicInfo=,十分,十分,十分,ジューブン,,,ジュウブン,ジュウブン,十分
+30	な	だ	AUX	助動詞-助動詞-ダ	V	29	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ダ|SpaceAfter=No|UnidicInfo=,だ,な,だ,ナ,,,ダ,ダ,だ
+31	能力	能力	NOUN	名詞-普通名詞-一般	N	33	nsubj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,能力,能力,能力,ノーリョク,,,ノウリョク,ノウリョク,能力
+32	が	が	ADP	助詞-格助詞	ADP	31	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,が,が,が,ガ,,,ガ,ガ,が
+33	発揮	発揮	VERB	名詞-普通名詞-サ変可能	V	36	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-上一段-カ行|SpaceAfter=No|UnidicInfo=,発揮,発揮,発揮,ハッキ,,,ハッキ,ハッキデキル,発揮出来る
+34	でき	出来る	AUX	動詞-非自立可能-上一段-カ行	V	33	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-上一段-カ行|PrevUDLemma=できる|SpaceAfter=No|UnidicInfo=,出来る,でき,できる,デキ,,,デキル,ハッキデキル,発揮出来る
+35	ない	ない	AUX	助動詞-助動詞-ナイ	V;NEG	33	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-ナイ|SpaceAfter=No|UnidicInfo=,ない,ない,ない,ナイ,,,ナイ,ナイ,ない
+36	状態	状態	NOUN	名詞-普通名詞-一般	N	38	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,状態,状態,状態,ジョータイ,,,ジョウタイ,ジョウタイ,状態
+37	に	に	ADP	助詞-格助詞	ADP	36	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+38	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,アル,有る
+39	。	。	PUNCT	補助記号-句点	_	38	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1696
+# sent_id = train-s1696
+# text = 返礼として、加藤市長は10年3月、東京都世田谷区の豪徳寺にある大老井伊の墓を参った。
+1	返礼	返礼	NOUN	名詞-普通名詞-サ変可能	N	28	obl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,返礼,返礼,返礼,ヘンレー,,,ヘンレイ,ヘンレイ,返礼
+2	と	と	ADP	助詞-格助詞	ADP	1	case	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,と,と,と,ト,,,ト,トシテ,として
+3	し	為る	AUX	動詞-非自立可能-サ行変格	V	2	fixed	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=助詞-格助詞|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,トシテ,として
+4	て	て	SCONJ	助詞-接続助詞	CONJ	2	fixed	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=I|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,て,て,て,テ,,,テ,トシテ,として
+5	、	、	PUNCT	補助記号-読点	_	1	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+6	加藤	加藤	PROPN	名詞-固有名詞-人名-姓	PROPN	7	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,カトウ,加藤,加藤,カトー,,,カトウ,カトウシチョウ,加藤市長
+7	市長	市長	NOUN	名詞-普通名詞-一般	N	28	nsubj	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,市長,市長,市長,シチョー,,,シチョウ,カトウシチョウ,加藤市長
+8	は	は	ADP	助詞-係助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-係助詞|SpaceAfter=No|UnidicInfo=,は,は,は,ワ,,,ハ,ハ,は
+9	10	10	NUM	名詞-数詞	NUM	12	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,十,10,10,ジュー,,,ジュウ,ジュウネン,10年
+10	年	年	NOUN	名詞-普通名詞-助数詞可能	N	12	compound	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,年,年,年,ネン,,,ネン,ジュウネン,10年
+11	3	3	NUM	名詞-数詞	NUM	12	nummod	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,三,3,3,サン,,,サン,サンガツ,3月
+12	月	月	NOUN	名詞-普通名詞-助数詞可能	N	28	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-数詞|SpaceAfter=No|UnidicInfo=,月,月,月,ガツ,,,ガツ,サンガツ,3月
+13	、	、	PUNCT	補助記号-読点	_	12	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-読点|SpaceAfter=No|UnidicInfo=,、,、,、,,,,,,、
+14	東京	東京	PROPN	名詞-固有名詞-地名-一般	PROPN	15	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-地名-一般|SpaceAfter=No|UnidicInfo=,トウキョウ,東京,東京,トーキョー,,,トウキョウ,トウキョウト,東京都
+15	都	都	NOUN	名詞-普通名詞-一般	N	17	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-地名-一般|SpaceAfter=No|UnidicInfo=,都,都,都,ト,,,ト,トウキョウト,東京都
+16	世田谷	世田谷	PROPN	名詞-固有名詞-地名-一般	PROPN	17	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-地名-一般|SpaceAfter=No|UnidicInfo=,セタガヤ,世田谷,世田谷,セタガヤ,,,セタガヤ,セタガヤク,世田谷区
+17	区	区	NOUN	名詞-普通名詞-一般	N	20	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-地名-一般|SpaceAfter=No|UnidicInfo=,区,区,区,ク,,,ク,セタガヤク,世田谷区
+18	の	の	ADP	助詞-格助詞	ADP	17	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+19	豪徳	豪徳	PROPN	名詞-固有名詞-一般	PROPN	20	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,豪徳,豪徳,豪徳,ゴートク,,,ゴウトク,ゴウトクジ,豪徳寺
+20	寺	寺	NOUN	接尾辞-名詞的-一般	N	22	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,寺,寺,寺,ジ,,,ジ,ゴウトクジ,豪徳寺
+21	に	に	ADP	助詞-格助詞	ADP	20	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+22	ある	有る	VERB	動詞-非自立可能-五段-ラ行	V	26	acl	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|PrevUDLemma=ある|SpaceAfter=No|UnidicInfo=,有る,ある,ある,アル,,,アル,アル,有る
+23	大老	大老	NOUN	名詞-普通名詞-一般	N	24	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,大老,大老,大老,タイロー,,,タイロウ,タイロウイイ,大老井伊
+24	井伊	井伊	PROPN	名詞-固有名詞-人名-姓	PROPN	26	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-固有名詞-人名-姓|SpaceAfter=No|UnidicInfo=,イイ,井伊,井伊,イイ,,,イイ,タイロウイイ,大老井伊
+25	の	の	ADP	助詞-格助詞	ADP	24	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+26	墓	墓	NOUN	名詞-普通名詞-一般	N	28	obj	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,墓,墓,墓,ハカ,,,ハカ,ハカ,墓
+27	を	を	ADP	助詞-格助詞	ADP	26	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,を,を,を,オ,,,ヲ,ヲ,を
+28	参っ	参る	VERB	動詞-非自立可能-五段-ラ行	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-五段-ラ行|SpaceAfter=No|UnidicInfo=,参る,参っ,参る,マイッ,,,マイル,マイル,参る
+29	た	た	AUX	助動詞-助動詞-タ	V	28	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+30	。	。	PUNCT	補助記号-句点	_	28	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+
+# newdoc id = train-s1697
+# sent_id = train-s1697
+# text = 香港人の友人の結婚式に出席した。
+1	香港	香港	PROPN	名詞-固有名詞-地名-一般	PROPN	2	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,ホンコン,香港,香港,ホンコン,,,ホンコン,ホンコンジン,香港人
+2	人	人	NOUN	接尾辞-名詞的-一般	N	4	nmod	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,人,人,人,ジン,,,ジン,ホンコンジン,香港人
+3	の	の	ADP	助詞-格助詞	ADP	2	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+4	友人	友人	NOUN	名詞-普通名詞-一般	N	7	nmod	_	BunsetuBILabel=B|BunsetuPositionType=SEM_HEAD|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,友人,友人,友人,ユージン,,,ユウジン,ユウジン,友人
+5	の	の	ADP	助詞-格助詞	ADP	4	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,の,の,の,ノ,,,ノ,ノ,の
+6	結婚	結婚	NOUN	名詞-普通名詞-サ変可能	N	7	compound	_	BunsetuBILabel=B|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,結婚,結婚,結婚,ケッコン,,,ケッコン,ケッコンシキ,結婚式
+7	式	式	NOUN	名詞-普通名詞-一般	N	9	obl	_	BunsetuBILabel=I|BunsetuPositionType=SEM_HEAD|LUWBILabel=I|LUWPOS=名詞-普通名詞-一般|SpaceAfter=No|UnidicInfo=,式,式,式,シキ,,,シキ,ケッコンシキ,結婚式
+8	に	に	ADP	助詞-格助詞	ADP	7	case	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助詞-格助詞|SpaceAfter=No|UnidicInfo=,に,に,に,ニ,,,ニ,ニ,に
+9	出席	出席	VERB	名詞-普通名詞-サ変可能	V	0	root	_	BunsetuBILabel=B|BunsetuPositionType=ROOT|LUWBILabel=B|LUWPOS=動詞-一般-サ行変格|SpaceAfter=No|UnidicInfo=,出席,出席,出席,シュッセキ,,,シュッセキ,シュッセキスル,出席する
+10	し	為る	AUX	動詞-非自立可能-サ行変格	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=FUNC|LUWBILabel=I|LUWPOS=動詞-一般-サ行変格|PrevUDLemma=する|SpaceAfter=No|UnidicInfo=,為る,し,する,シ,,,スル,シュッセキスル,出席する
+11	た	た	AUX	助動詞-助動詞-タ	V	9	aux	_	BunsetuBILabel=I|BunsetuPositionType=SYN_HEAD|LUWBILabel=B|LUWPOS=助動詞-助動詞-タ|SpaceAfter=No|UnidicInfo=,た,た,た,タ,,,タ,タ,た
+12	。	。	PUNCT	補助記号-句点	_	9	punct	_	BunsetuBILabel=I|BunsetuPositionType=CONT|LUWBILabel=B|LUWPOS=補助記号-句点|UnidicInfo=,。,。,。,,,,,,。
+

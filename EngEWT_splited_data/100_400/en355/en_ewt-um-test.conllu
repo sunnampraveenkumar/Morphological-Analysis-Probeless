@@ -1,0 +1,64 @@
+# sent_id = reviews-294978-0003
+# text = Nothing wrong with it, just better options at this price point.
+1	Nothing	nothing	PRON	NN	SG;PRO	0	root	0:root	_
+2	wrong	wrong	ADJ	JJ	ADJ	1	amod	1:amod	_
+3	with	with	ADP	IN	ADP	4	case	4:case	_
+4	it	it	PRON	PRP	ACC;PRO;3;NEUT;SG	2	obl	2:obl:with	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	8:punct	_
+6	just	just	ADV	RB	ADV	8	advmod	8:advmod	_
+7	better	good	ADJ	JJR	CMPR;ADJ	8	amod	8:amod	_
+8	options	option	NOUN	NNS	PL;N	1	parataxis	1:parataxis	_
+9	at	at	ADP	IN	ADP	12	case	12:case	_
+10	this	this	DET	DT	SG;DET	12	det	12:det	_
+11	price	price	NOUN	NN	SG;N	12	compound	12:compound	_
+12	point	point	NOUN	NN	SG;N	8	nmod	8:nmod:at	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# newdoc id = reviews-217747
+# sent_id = reviews-217747-0001
+# newpar id = reviews-217747-p0001
+# text = exelent Job
+1	exelent	excellent	ADJ	JJ	ADJ	2	amod	2:amod	CorrectForm=excellent
+2	Job	job	NOUN	NN	SG;N	0	root	0:root	_
+
+# sent_id = reviews-217747-0002
+# text = "Thank you so much for the superior job well done.
+1	"	"	PUNCT	``	_	2	punct	2:punct	SpaceAfter=No
+2	Thank	thank	VERB	VBP	1;V;FIN;PRS;SG;IND	0	root	0:root	_
+3	you	you	PRON	PRP	NOM;2;PRO	2	obj	2:obj	_
+4	so	so	ADV	RB	ADV	5	advmod	5:advmod	_
+5	much	much	ADV	RB	ADV	2	advmod	2:advmod	_
+6	for	for	ADP	IN	ADP	9	case	9:case	_
+7	the	the	DET	DT	DEF;DET	9	det	9:det	_
+8	superior	superior	ADJ	JJ	ADJ	9	amod	9:amod	_
+9	job	job	NOUN	NN	SG;N	2	obl	2:obl:for	_
+10	well	well	ADV	RB	ADV	11	advmod	11:advmod	_
+11	done	do	VERB	VBN	PASS;PST;V;V.PTCP	9	amod	9:amod	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-217747-0003
+# text = We love everything about the fence.
+1	We	we	PRON	PRP	PL;PRO;1;NOM	2	nsubj	2:nsubj	_
+2	love	love	VERB	VBP	PL;1;V;FIN;PRS;IND	0	root	0:root	_
+3	everything	everything	PRON	NN	SG;PRO	2	obj	2:obj	_
+4	about	about	ADP	IN	ADP	6	case	6:case	_
+5	the	the	DET	DT	DEF;DET	6	det	6:det	_
+6	fence	fence	NOUN	NN	SG;N	3	nmod	3:nmod:about	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = reviews-217747-0004
+# text = You company and services will be recommended by us to everyone."
+1	You	your	PRON	PRP$	GEN;PRO;2	2	nmod:poss	2:nmod:poss	CorrectForm=Your
+2	company	company	NOUN	NN	SG;N	7	nsubj:pass	7:nsubj:pass	_
+3	and	and	CCONJ	CC	CONJ	4	cc	4:cc	_
+4	services	service	NOUN	NNS	PL;N	2	conj	2:conj:and|7:nsubj:pass	_
+5	will	will	AUX	MD	V;FIN	7	aux	7:aux	_
+6	be	be	AUX	VB	NFIN;V	7	aux:pass	7:aux:pass	_
+7	recommended	recommend	VERB	VBN	PASS;PST;V;V.PTCP	0	root	0:root	_
+8	by	by	ADP	IN	ADP	9	case	9:case	_
+9	us	we	PRON	PRP	PL;ACC;PRO;1	7	obl:agent	7:obl:agent	_
+10	to	to	ADP	IN	ADP	11	case	11:case	_
+11	everyone	everyone	PRON	NN	SG;PRO	7	obl	7:obl:to	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	7:punct	SpaceAfter=No
+13	"	"	PUNCT	''	_	7	punct	7:punct	_
+

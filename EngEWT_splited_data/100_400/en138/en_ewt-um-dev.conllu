@@ -1,0 +1,50 @@
+# sent_id = email-enronsent19_02-0061
+# text = FYI
+1	FYI	fyi	ADV	RB	ADV	0	root	0:root	_
+
+# sent_id = email-enronsent19_02-0062
+# newpar id = email-enronsent19_02-p0017
+# text = Vince
+1	Vince	Vince	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent19_02-0063
+# newpar id = email-enronsent19_02-p0018
+# text = P.S. Tom, Please, contact Vernon and get the details.
+1	P.S.	p.s.	NOUN	NN	SG;N	6	discourse	6:discourse	_
+2	Tom	Tom	PROPN	NNP	SG;PROPN	6	vocative	6:vocative	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	Please	please	INTJ	UH	INTJ	6	discourse	6:discourse	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	contact	contact	VERB	VB	FIN;V;IMP	0	root	0:root	_
+7	Vernon	Vernon	PROPN	NNP	SG;PROPN	6	obj	6:obj	_
+8	and	and	CCONJ	CC	CONJ	9	cc	9:cc	_
+9	get	get	VERB	VB	FIN;V;IMP	6	conj	6:conj:and	_
+10	the	the	DET	DT	DET;DEF	11	det	11:det	_
+11	details	detail	NOUN	NNS	PL;N	9	obj	9:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# newdoc id = email-enronsent00_02
+# sent_id = email-enronsent00_02-0001
+# newpar id = email-enronsent00_02-p0001
+# text = Renee,
+1	Renee	Renee	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent00_02-0002
+# newpar id = email-enronsent00_02-p0002
+# text = I would like to have a meeting to go over the payment methodology.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	would	would	AUX	MD	FIN;V	3	aux	3:aux	_
+3	like	like	VERB	VB	NFIN;V	0	root	0:root	_
+4	to	to	PART	TO	PART	5	mark	5:mark	_
+5	have	have	VERB	VB	NFIN;V	3	xcomp	3:xcomp	_
+6	a	a	DET	DT	DET;INDF	7	det	7:det	_
+7	meeting	meeting	NOUN	NN	SG;N	5	obj	5:obj	_
+8	to	to	PART	TO	PART	9	mark	9:mark	_
+9	go	go	VERB	VB	NFIN;V	7	acl	7:acl:to	_
+10	over	over	ADP	IN	ADP	13	case	13:case	_
+11	the	the	DET	DT	DET;DEF	13	det	13:det	_
+12	payment	payment	NOUN	NN	SG;N	13	compound	13:compound	_
+13	methodology	methodology	NOUN	NN	SG;N	9	obl	9:obl:over	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+

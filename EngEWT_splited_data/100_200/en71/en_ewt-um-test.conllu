@@ -1,0 +1,116 @@
+# sent_id = email-enronsent18_02-0047
+# text = Darrell
+1	Darrell	Darrell	PROPN	NNP	SG;PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0048
+# newpar id = email-enronsent18_02-p0023
+# text = _____________________________________________
+1	_____________________________________________	_____________________________________________	SYM	NFP	_	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0049
+# text = Darrell Duffie mail GSB Stanford CA 94305-5015 USA phone 650 723 1976 fax 650 725 7979 email duffie@stanford.edu web http://www.stanford.edu/~duffie/
+1	Darrell	Darrell	PROPN	NNP	SG;PROPN	0	root	0:root	_
+2	Duffie	Duffie	PROPN	NNP	SG;PROPN	1	flat	1:flat	_
+3	mail	mail	NOUN	NN	SG;N	1	list	1:list	_
+4	GSB	GSB	PROPN	NNP	SG;PROPN	3	appos	3:appos	_
+5	Stanford	Stanford	PROPN	NNP	SG;PROPN	4	appos	4:appos	_
+6	CA	CA	PROPN	NNP	SG;PROPN	5	appos	5:appos	_
+7	94305-5015	94305-5015	NUM	CD	NUM	5	appos	5:appos	_
+8	USA	USA	PROPN	NNP	SG;PROPN	6	appos	6:appos	_
+9	phone	phone	NOUN	NN	SG;N	1	list	1:list	_
+10	650	650	NUM	CD	NUM	9	appos	9:appos	_
+11	723	723	NUM	CD	NUM	10	flat	10:flat	_
+12	1976	1976	NUM	CD	NUM	10	flat	10:flat	_
+13	fax	fax	NOUN	NN	SG;N	1	list	1:list	_
+14	650	650	NUM	CD	NUM	13	appos	13:appos	_
+15	725	725	NUM	CD	NUM	14	flat	14:flat	_
+16	7979	7979	NUM	CD	NUM	14	flat	14:flat	_
+17	email	email	NOUN	NN	SG;N	1	list	1:list	_
+18	duffie@stanford.edu	duffie@stanford.edu	PROPN	ADD	PROPN	17	appos	17:appos	_
+19	web	web	NOUN	NN	SG;N	1	list	1:list	_
+20	http://www.stanford.edu/~duffie/	http://www.stanford.edu/~duffie/	PROPN	ADD	PROPN	19	appos	19:appos	_
+
+# sent_id = email-enronsent18_02-0050
+# text = _____________________________________________
+1	_____________________________________________	_____________________________________________	SYM	NFP	_	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0051
+# text = - Paper4.pdf
+1	-	-	PUNCT	NFP	_	2	punct	2:punct	_
+2	Paper4.pdf	Paper4.pdf	PROPN	ADD	PROPN	0	root	0:root	_
+
+# sent_id = email-enronsent18_02-0052
+# newpar id = email-enronsent18_02-p0024
+# text = Al,
+1	Al	Al	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+
+# sent_id = email-enronsent18_02-0053
+# newpar id = email-enronsent18_02-p0025
+# text = I have spoken with Mark Lay and he is interested.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	have	have	AUX	VBP	V;1;FIN;PRS;SG;IND	3	aux	3:aux	_
+3	spoken	speak	VERB	VBN	PST;V;V.PTCP	0	root	0:root	_
+4	with	with	ADP	IN	ADP	5	case	5:case	_
+5	Mark	Mark	PROPN	NNP	SG;PROPN	3	obl	3:obl:with	_
+6	Lay	Lay	PROPN	NNP	SG;PROPN	5	flat	5:flat	_
+7	and	and	CCONJ	CC	CONJ	10	cc	10:cc	_
+8	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	10	nsubj	10:nsubj	_
+9	is	be	AUX	VBZ	V;3;FIN;PRS;SG;IND	10	cop	10:cop	_
+10	interested	interested	ADJ	JJ	ADJ	3	conj	3:conj:and	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent18_02-0054
+# text = Even if we cannot help you here in Enron, he may be able to put you in touch with other CV groups in town.
+1	Even	even	ADV	RB	ADV	6	advmod	6:advmod	_
+2	if	if	SCONJ	IN	CONJ	6	mark	6:mark	_
+3	we	we	PRON	PRP	PL;PRO;1;NOM	6	nsubj	6:nsubj	_
+4-5	cannot	_	_	_	_	_	_	_	_
+4	can	can	AUX	MD	V;FIN	6	aux	6:aux	_
+5	not	not	PART	RB	PART	6	advmod	6:advmod	_
+6	help	help	VERB	VB	NFIN;V	15	advcl	15:advcl:if	_
+7	you	you	PRON	PRP	2;ACC;PRO	6	obj	6:obj	_
+8	here	here	ADV	RB	ADV	6	advmod	6:advmod	_
+9	in	in	ADP	IN	ADP	10	case	10:case	_
+10	Enron	Enron	PROPN	NNP	SG;PROPN	8	obl	8:obl:in	SpaceAfter=No
+11	,	,	PUNCT	,	_	6	punct	6:punct	_
+12	he	he	PRON	PRP	PRO;3;NOM;SG;MASC	15	nsubj	15:nsubj|17:nsubj:xsubj	_
+13	may	may	AUX	MD	V;FIN	15	aux	15:aux	_
+14	be	be	AUX	VB	NFIN;V	15	cop	15:cop	_
+15	able	able	ADJ	JJ	ADJ	0	root	0:root	_
+16	to	to	PART	TO	PART	17	mark	17:mark	_
+17	put	put	VERB	VB	NFIN;V	15	xcomp	15:xcomp	_
+18	you	you	PRON	PRP	2;ACC;PRO	17	obj	17:obj	_
+19	in	in	ADP	IN	ADP	20	case	20:case	_
+20	touch	touch	NOUN	NN	SG;N	17	obl	17:obl:in	_
+21	with	with	ADP	IN	ADP	24	case	24:case	_
+22	other	other	ADJ	JJ	ADJ	24	amod	24:amod	_
+23	CV	cv	NOUN	NN	SG;N	24	compound	24:compound	_
+24	groups	group	NOUN	NNS	PL;N	20	nmod	20:nmod:with	_
+25	in	in	ADP	IN	ADP	26	case	26:case	_
+26	town	town	NOUN	NN	SG;N	24	nmod	24:nmod:in	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = email-enronsent18_02-0055
+# text = Please, call him directly and give my name as a reference.
+1	Please	please	INTJ	UH	INTJ	3	discourse	3:discourse	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	call	call	VERB	VB	FIN;V;IMP	0	root	0:root	_
+4	him	he	PRON	PRP	ACC;PRO;3;SG;MASC	3	obj	3:obj	_
+5	directly	directly	ADV	RB	ADV	3	advmod	3:advmod	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	give	give	VERB	VB	FIN;V;IMP	3	conj	3:conj:and	_
+8	my	my	PRON	PRP$	GEN;PRO;1;SG	9	nmod:poss	9:nmod:poss	_
+9	name	name	NOUN	NN	SG;N	7	obj	7:obj	_
+10	as	as	ADP	IN	ADP	12	case	12:case	_
+11	a	a	DET	DT	INDF;DET	12	det	12:det	_
+12	reference	reference	NOUN	NN	SG;N	7	obl	7:obl:as	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = email-enronsent18_02-0056
+# text = (713) 853-7408
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	713	713	NUM	CD	NUM	0	root	0:root	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
+4	853-7408	853-7408	NUM	CD	NUM	2	flat	2:flat	_
+

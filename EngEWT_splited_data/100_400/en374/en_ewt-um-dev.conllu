@@ -1,0 +1,78 @@
+# sent_id = reviews-034313-0003
+# text = He cross examined witnesses relentlessly and had them break down and tell the truth.
+1	He	he	PRON	PRP	PRO;MASC;3;NOM;SG	3	nsubj	3:nsubj|7:nsubj	_
+2	cross	cross	ADV	RB	ADV	3	advmod	3:advmod	_
+3	examined	examine	VERB	VBD	FIN;3;V;IND;SG;PST	0	root	0:root	_
+4	witnesses	witness	NOUN	NNS	PL;N	3	obj	3:obj	_
+5	relentlessly	relentlessly	ADV	RB	ADV	3	advmod	3:advmod	_
+6	and	and	CCONJ	CC	CONJ	7	cc	7:cc	_
+7	had	have	VERB	VBD	FIN;3;V;IND;SG;PST	3	conj	3:conj:and	_
+8	them	they	PRON	PRP	PRO;ACC;PL;3	7	obj	7:obj|9:nsubj:xsubj|12:nsubj:xsubj	_
+9	break	break	VERB	VB	NFIN;V	7	xcomp	7:xcomp	_
+10	down	down	ADP	RP	ADP	9	compound:prt	9:compound:prt	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	tell	tell	VERB	VB	NFIN;V	9	conj	7:xcomp|9:conj:and	_
+13	the	the	DET	DT	DET;DEF	14	det	14:det	_
+14	truth	truth	NOUN	NN	SG;N	12	obj	12:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-034313-0004
+# text = If you want an attorney who will defend your right, contact Law Offices of Armando Villega
+1	If	if	SCONJ	IN	CONJ	3	mark	3:mark	_
+2	you	you	PRON	PRP	NOM;2;PRO	3	nsubj	3:nsubj	_
+3	want	want	VERB	VBP	FIN;PRS;2;V;IND;SG	12	advcl	12:advcl:if	_
+4	an	a	DET	DT	DET;INDF	5	det	5:det	_
+5	attorney	attorney	NOUN	NN	SG;N	3	obj	3:obj|8:nsubj	_
+6	who	who	PRON	WP	PRO	8	nsubj	5:ref	_
+7	will	will	AUX	MD	FIN;V	8	aux	8:aux	_
+8	defend	defend	VERB	VB	NFIN;V	5	acl:relcl	5:acl:relcl	Cxn=rc-wh-nsubj
+9	your	your	PRON	PRP$	PRO;GEN;2	10	nmod:poss	10:nmod:poss	_
+10	right	right	NOUN	NN	SG;N	8	obj	8:obj	SpaceAfter=No
+11	,	,	PUNCT	,	_	3	punct	3:punct	_
+12	contact	contact	VERB	VB	FIN;V;IMP	0	root	0:root	_
+13	Law	Law	PROPN	NNP	SG;PROPN	14	compound	14:compound	_
+14	Offices	Office	PROPN	NNPS	PROPN;PL	12	obj	12:obj	_
+15	of	of	ADP	IN	ADP	16	case	16:case	_
+16	Armando	Armando	PROPN	NNP	SG;PROPN	14	nmod	14:nmod:of	_
+17	Villega	Villega	PROPN	NNP	SG;PROPN	16	flat	16:flat	_
+
+# newdoc id = reviews-327766
+# sent_id = reviews-327766-0001
+# newpar id = reviews-327766-p0001
+# text = Checked in real late, but staff was very kind and helpful.
+1	Checked	check	VERB	VBD	FIN;1;V;IND;SG;PST	0	root	0:root	_
+2	in	in	ADP	RP	ADP	1	compound:prt	1:compound:prt	_
+3	real	real	ADV	RB	ADV	4	advmod	4:advmod	_
+4	late	late	ADV	RB	ADV	1	advmod	1:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	10	punct	10:punct	_
+6	but	but	CCONJ	CC	CONJ	10	cc	10:cc	_
+7	staff	staff	NOUN	NN	SG;N	10	nsubj	10:nsubj|12:nsubj	_
+8	was	be	AUX	VBD	FIN;3;V;IND;SG;PST	10	cop	10:cop	_
+9	very	very	ADV	RB	ADV	10	advmod	10:advmod	_
+10	kind	kind	ADJ	JJ	ADJ	1	conj	1:conj:but	_
+11	and	and	CCONJ	CC	CONJ	12	cc	12:cc	_
+12	helpful	helpful	ADJ	JJ	ADJ	10	conj	10:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = reviews-327766-0002
+# text = Rooms very clean and smelled very fresh.
+1	Rooms	room	NOUN	NNS	PL;N	3	nsubj	3:nsubj|5:nsubj|7:nsubj:xsubj	_
+2	very	very	ADV	RB	ADV	3	advmod	3:advmod	_
+3	clean	clean	ADJ	JJ	ADJ	0	root	0:root	_
+4	and	and	CCONJ	CC	CONJ	5	cc	5:cc	_
+5	smelled	smell	VERB	VBD	FIN;3;PL;V;IND;PST	3	conj	3:conj:and	_
+6	very	very	ADV	RB	ADV	7	advmod	7:advmod	_
+7	fresh	fresh	ADJ	JJ	ADJ	5	xcomp	5:xcomp	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = reviews-327766-0003
+# text = I would recommend this hotel to anyone.
+1	I	I	PRON	PRP	PRO;1;NOM;SG	3	nsubj	3:nsubj	_
+2	would	would	AUX	MD	FIN;V	3	aux	3:aux	_
+3	recommend	recommend	VERB	VB	NFIN;V	0	root	0:root	_
+4	this	this	DET	DT	DET;SG	5	det	5:det	_
+5	hotel	hotel	NOUN	NN	SG;N	3	obj	3:obj	_
+6	to	to	ADP	IN	ADP	7	case	7:case	_
+7	anyone	anyone	PRON	NN	PRO;SG	3	obl	3:obl:to	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+

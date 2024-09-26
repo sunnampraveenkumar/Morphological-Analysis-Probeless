@@ -1,0 +1,69 @@
+# sent_id = newsgroup-groups.google.com_hiddennook_23708a8afef2f3a8_ENG_20041226_230600-0017
+# text = Posted by Hidden Nook to Hidden Nook at 12/26/2004 10:46:08 PM
+1	Posted	post	VERB	VBN	PASS;V;V.PTCP;PST	0	root	0:root	_
+2	by	by	ADP	IN	ADP	4	case	4:case	_
+3	Hidden	Hidden	ADJ	NNP	ADJ	4	amod	4:amod	_
+4	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl:agent	1:obl:agent	_
+5	to	to	ADP	IN	ADP	7	case	7:case	_
+6	Hidden	Hidden	ADJ	NNP	ADJ	7	amod	7:amod	_
+7	Nook	Nook	PROPN	NNP	SG;PROPN	1	obl	1:obl:to	_
+8	at	at	ADP	IN	ADP	9	case	9:case	_
+9	12/26/2004	12/26/2004	NUM	CD	NUM	1	obl	1:obl:at	_
+10	10:46:08	10:46:08	NUM	CD	NUM	11	nummod	11:nummod	_
+11	PM	p.m.	NOUN	NN	SG;N	9	nmod:tmod	9:nmod:tmod	_
+
+# newdoc id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0001
+# newpar id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-p0001
+# text = [http://news.bbc.co.uk/1/hi/world/middle_east/4281450.stm]
+1	[	[	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	http://news.bbc.co.uk/1/hi/world/middle_east/4281450.stm	http://news.bbc.co.uk/1/hi/world/middle_east/4281450.stm	PROPN	ADD	PROPN	0	root	0:root	SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0002
+# newpar id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-p0002
+# text = (Hat Tip: Captains Quarters )
+1	(	(	PUNCT	-LRB-	_	3	punct	3:punct	SpaceAfter=No
+2	Hat	hat	NOUN	NN	SG;N	3	compound	3:compound	_
+3	Tip	tip	NOUN	NN	SG;N	0	root	0:root	SpaceAfter=No
+4	:	:	PUNCT	:	_	7	punct	7:punct	_
+5-6	Captains	_	_	_	_	_	_	_	_
+5	Captain	Captain	PROPN	NNP	SG;PROPN	7	nmod:poss	7:nmod:poss	_
+6	s	's	PART	POS	PART	5	case	5:case	CorrectForm='s
+7	Quarters	Quarters	PROPN	NNPS	PROPN;PL	3	appos	3:appos	_
+8	)	)	PUNCT	-RRB-	_	3	punct	3:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0003
+# text = (BBC)
+1	(	(	PUNCT	-LRB-	_	2	punct	2:punct	SpaceAfter=No
+2	BBC	BBC	PROPN	NNP	SG;PROPN	0	root	0:root	SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	punct	2:punct	_
+
+# sent_id = newsgroup-groups.google.com_hiddennook_5380fdd00f8e5e56_ENG_20050926_194800-0004
+# text = The Palestinian militant organisation Hamas has announced an end to rocket attacks on Israel from the Gaza Strip after a weekend of escalating violence.
+1	The	the	DET	DT	DET;DEF	4	det	4:det	_
+2	Palestinian	Palestinian	ADJ	JJ	ADJ	4	amod	4:amod	_
+3	militant	militant	ADJ	JJ	ADJ	4	amod	4:amod	_
+4	organisation	organisation	NOUN	NN	SG;N	7	nsubj	7:nsubj	_
+5	Hamas	Hamas	PROPN	NNP	SG;PROPN	4	appos	4:appos	_
+6	has	have	AUX	VBZ	FIN;PRS;3;V;IND;SG	7	aux	7:aux	_
+7	announced	announce	VERB	VBN	V;V.PTCP;PST	0	root	0:root	_
+8	an	a	DET	DT	DET;INDF	9	det	9:det	_
+9	end	end	NOUN	NN	SG;N	7	obj	7:obj	_
+10	to	to	ADP	IN	ADP	12	case	12:case	_
+11	rocket	rocket	NOUN	NN	SG;N	12	compound	12:compound	_
+12	attacks	attack	NOUN	NNS	PL;N	9	nmod	9:nmod:to	_
+13	on	on	ADP	IN	ADP	14	case	14:case	_
+14	Israel	Israel	PROPN	NNP	SG;PROPN	12	nmod	12:nmod:on	_
+15	from	from	ADP	IN	ADP	18	case	18:case	_
+16	the	the	DET	DT	DET;DEF	18	det	18:det	_
+17	Gaza	Gaza	PROPN	NNP	SG;PROPN	18	compound	18:compound	_
+18	Strip	Strip	PROPN	NNP	SG;PROPN	12	nmod	12:nmod:from	_
+19	after	after	ADP	IN	ADP	21	case	21:case	_
+20	a	a	DET	DT	DET;INDF	21	det	21:det	_
+21	weekend	weekend	NOUN	NN	SG;N	7	obl	7:obl:after	_
+22	of	of	ADP	IN	ADP	24	case	24:case	_
+23	escalating	escalate	VERB	VBG	V;V.MSDR	24	amod	24:amod	_
+24	violence	violence	NOUN	NN	SG;N	21	nmod	21:nmod:of	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	7:punct	_
+
